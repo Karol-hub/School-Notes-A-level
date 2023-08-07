@@ -1,0 +1,4 @@
+- Way of proving a message is sent by a specific person
+- Encrypt with private key 
+	- Meaning anyone can decode it 
+- Only you have access to [[Private Key]] so are the only one that could have [[Encryption|encrypted]] the message

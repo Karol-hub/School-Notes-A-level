@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Unit 1/1.3 Exchanging data/1.3.1 Compression, Encryption and Hashing.md",
+                "file": "Computer Science/Unit 1/1.3 Exchanging data/1.3.2 Databases.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Unit 1/1.3 Exchanging data/1.3.1 Compression, Encryption and Hashing.md",
+                "file": "Computer Science/Unit 1/1.3 Exchanging data/1.3.2 Databases.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Unit 1/1.3 Exchanging data/1.3.1 Compression, Encryption and Hashing.md",
+                "file": "Computer Science/Unit 1/1.3 Exchanging data/1.3.2 Databases.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Unit 1/1.3 Exchanging data/1.3.1 Compression, Encryption and Hashing.md"
+                "file": "Computer Science/Unit 1/1.3 Exchanging data/1.3.2 Databases.md"
               }
             }
           }
@@ -153,15 +153,30 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "5b9b9b2803505f75",
+  "active": "ed078057762722c7",
   "lastOpenFiles": [
+    "Computer Science/Unit 1/1.3 Exchanging data/1.3.1 Compression, Encryption and Hashing.md",
+    "Computer Science/Defenitions/Hashing Function.md",
+    "Computer Science/Defenitions/Symmetric Encryption.md",
+    "Computer Science/Defenitions/Hash Tables.md",
+    "Computer Science/Defenitions/Asymmetric Encryption.md",
+    "Computer Science/Defenitions/Hashing.md",
+    "Computer Science/Unit 1/1.3 Exchanging data/1.3.2 Databases.md",
+    "Computer Science/Defenitions/Hashing Collisions.md",
+    "Computer Science/Defenitions/Public Key.md",
+    "Computer Science/Defenitions/Digital Signatures.md",
+    "Computer Science/Defenitions/Private Key.md",
+    "Computer Science/Defenitions/Encryption.md",
+    "Computer Science/Defenitions/Dictionary Encoding.md",
+    "Computer Science/Defenitions/Run Length Encoding.md",
+    "Computer Science/Defenitions/Lossy Compression.md",
+    "Computer Science/Defenitions/Lossless Compression.md",
+    "Computer Science/Unit 1/1.2 Software and software development/1.2.4 Types of Programming Language.md",
     "School-Notes",
     "Physics",
     "Maths",
     "Computer Science/Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
     "Computer Science/Unit 1/1.2 Software and software development/1.2.3 Software Development.md",
-    "Computer Science/Unit 1/1.2 Software and software development/1.2.4 Types of Programming Language.md",
-    "Computer Science/Unit 1/1.3 Exchanging data/1.3.1 Compression, Encryption and Hashing.md",
     "Computer Science/Defenitions/Artificial Intelligence (AI).md",
     "Computer Science/Defenitions/Object Oriented Programming (OOP).md",
     "Computer Science/Defenitions/Polymorphism.md",
@@ -169,20 +184,6 @@
     "Computer Science/Defenitions/Class.md",
     "Computer Science/Defenitions/Attributes.md",
     "Computer Science/Defenitions/Encapsulation.md",
-    "Computer Science/Defenitions/Methods.md",
-    "Computer Science/Defenitions/Modes of Addressing Memory.md",
-    "Computer Science/Defenitions/Operand.md",
-    "Computer Science/Defenitions/Assembly Language.md",
-    "Computer Science/Defenitions/Registers.md",
-    "Computer Science/Defenitions/Procedural Programming.md",
-    "Computer Science/Defenitions/Declarative.md",
-    "Computer Science/Defenitions/Functional.md",
-    "Computer Science/Defenitions/Logic.md",
-    "Computer Science/Defenitions/Recursion.md",
-    "Computer Science/Defenitions/Iteration.md",
-    "Computer Science/Defenitions/Selection.md",
-    "Computer Science/Unit 1/1.3 Exchanging data/1.3.4 Web Technologies.md",
-    "Computer Science/Unit 1/1.3 Exchanging data/1.3.3 Networks.md",
     "Computer Science/Supporting Images/Syntax tree example.png",
     "Computer Science/Supporting Images/Close up of optical storage.png",
     "Computer Science/Supporting Images/Diff between paging and segmentation.png",
@@ -194,7 +195,6 @@
     "Computer Science/Unit 2/2 Problem solving and programming/Untitled",
     "Computer Science/Unit 2/2.3 Algorithms",
     "Computer Science/Unit 2/2.2 Problem solving and programming",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/Untitled",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking"
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/Untitled"
   ]
 }

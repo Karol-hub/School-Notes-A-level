@@ -1,0 +1,1 @@
+Input is passed through a [[Hashing Function]] and hash is used as an index to search through a table

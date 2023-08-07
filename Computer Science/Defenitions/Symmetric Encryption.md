@@ -1,0 +1,3 @@
+- Same private key is used for [[Encryption|encrypting]] and decrypting the data 
+- Anyone with the key is able to decrypt the data 
+- Key needs to be transmitted in a way along side the data, if it's intercepted data can be compromised 

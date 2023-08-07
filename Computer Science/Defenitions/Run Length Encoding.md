@@ -1,0 +1,7 @@
+- Method of [[Lossless Compression]]
+- Repeated values are replaced with one instance followed by number of times it should be repeated
+-  Needs repetitive data to be effective 
+- example
+	- AAAAAAABBBCCCCC
+	- becomes
+	- A6B3C5

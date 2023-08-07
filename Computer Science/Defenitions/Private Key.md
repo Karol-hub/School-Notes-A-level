@@ -1,0 +1,4 @@
+- Needs to be kept secret 
+	- With acceptation of [[Digital Signatures]]
+- Used to decrypt the data 
+- Should only belong to the recipient

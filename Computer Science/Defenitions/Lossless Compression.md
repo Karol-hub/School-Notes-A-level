@@ -1,0 +1,2 @@
+- After extracting all data is retained
+- Compressed files are larger than in [[Lossy Compression]]
