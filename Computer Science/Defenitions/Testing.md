@@ -1,0 +1,13 @@
+Different types of tests:
+- Alpha testing
+	- Carried out by development teams
+	- Bugs are pinpointed and fixed
+- Beta testing
+	- Carried out by end users
+	- Feedback from users determines future development
+- White box testing
+	- Carried out by people who know how the code works
+	- All possible routes in the program are tested
+- Black box testing
+	- Carried out by people who don't know how the code works
+	- Traces through [[Input Device|inputs]] and [[Output Device|outputs]] in the software and user experience

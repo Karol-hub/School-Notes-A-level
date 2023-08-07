@@ -1,0 +1,2 @@
+- Blueprint for an instance
+- Must have a constructor method (creates an instance)

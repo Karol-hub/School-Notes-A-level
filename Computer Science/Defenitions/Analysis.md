@@ -1,0 +1,5 @@
+- Stakeholders state what they want from the finished product
+- Used to clearly define the problem
+- Requirements may be defined by:
+	- Considering data types involved (eg inputs and outputs)
+	- Analysing strengths and weaknesses with current way problem is being solved

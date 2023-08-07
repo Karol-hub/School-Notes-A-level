@@ -1,0 +1,2 @@
+- Carry out tasks seemingly simultaneously
+- Performed with [[Time Slicing]]

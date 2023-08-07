@@ -1,0 +1,2 @@
+- When one core completes multiple functions at once
+- Utilises [[Time Slicing]] and [[Threading]]

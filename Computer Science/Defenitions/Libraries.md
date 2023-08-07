@@ -1,0 +1,5 @@
+- Pre-compiled program 
+- Can be used in already existing code
+- Ready to use and error free so don't need to alter them
+- Can be re-used in multiple programs
+- Used so that programmers don't have to re-develop something that already exists (eg maths module)

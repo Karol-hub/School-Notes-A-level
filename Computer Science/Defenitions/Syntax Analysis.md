@@ -1,0 +1,4 @@
+- Tokens are checked against the grammar rules of the programming language
+- Any tokens that break the rules flag up as syntax errors
+- An [[Abstract Syntax Tree]] is produced, more detail about identifiers is added to the symbol table
+- Sematic analysis is carried out where logic mistakes are detected (eg unassigned variables)

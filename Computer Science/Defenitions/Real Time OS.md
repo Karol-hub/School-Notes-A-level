@@ -1,0 +1,5 @@
+- Designed to perform a task within a guaranteed time frame
+- Most common where a response within a certain time frame is crucial to safety
+- For example
+	- Self driving cars
+	- Nuclear power stations

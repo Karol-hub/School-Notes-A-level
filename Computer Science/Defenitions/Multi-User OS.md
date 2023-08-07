@@ -1,0 +1,3 @@
+- Multiple users make use of one machine
+- [[Scheduling]] algorithm must be used to ensure processor time is used fairly between jobs
+- Without [[Scheduling]] the device is at risk of [[Processor Starvation]]

@@ -1,0 +1,5 @@
+- Allow the [[Operating System (OS)]] and the hardware to interact
+- Specific to the device architecture (same keyboard driver can't be used on phone as PC)
+- Also specific to the [[Operating System (OS)|OS]] (windows driver can't be used on Linux)
+- When hardware is used the device driver communicates the use to the [[Operating System (OS)|OS]]
+	- eg if a keyboard is used the keyboard driver will tell the [[Operating System (OS)|OS]] which key has been pressed

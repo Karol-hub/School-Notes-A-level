@@ -1,0 +1,3 @@
+- Makes use of multiple [[Queue|queues]], each is ordered based on a different priority
+- Difficult to implement as it's hard to decide which job to prioritise based on a combination of priorities
+- Can be pre-emptive or non-pre-emptive depending on the conditions of the process

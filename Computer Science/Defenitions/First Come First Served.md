@@ -1,0 +1,3 @@
+- Jobs are processed in order as they enter the [[Queue|queue]] 
+- Easy to implement
+- Doesn't account for [[Interrupt Schedule|priority]] of jobs

@@ -1,0 +1,4 @@
+- Functions are expressed in terms of themselves
+- Functions call themselves 
+- Loops until a condition is met
+- Can cause a stack overflow

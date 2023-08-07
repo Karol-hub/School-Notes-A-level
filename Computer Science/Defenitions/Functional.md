@@ -1,0 +1,3 @@
+- Reusing sets of functions
+- Try to bind everything to mathematical functions
+- Closely linked to mathematics

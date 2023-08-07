@@ -1,0 +1,5 @@
+- [[Queue]] is ordered based on job length
+- Each job execution length needs to be calculated (not always possible)
+- [[Processor Starvation]] can occur when short jobs keep being added to the queue (as they take priority and now have access to the [[CPU]])
+- Most suited for [[Batch Processing|batch systems]] 
+- Main difference is that this one is one is non-pre-emptive while Shortest remaining time first is

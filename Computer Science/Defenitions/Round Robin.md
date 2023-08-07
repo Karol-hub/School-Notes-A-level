@@ -1,0 +1,5 @@
+- Each job is given an equal section of processor time, known as a time slice
+- Once each job in the [[Queue|queue]] has used their time slice another time slice is assigned for each job
+- Cycle continues until a job is finished and it's removed from the [[Queue|queue]] 
+- Longer jobs will take longer to execute as their execution is inefficiently split up
+- Doesn't account for [[Interrupt Schedule|priority]] of jobs

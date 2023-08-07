@@ -1,0 +1,5 @@
+- Translate and execute code line by line
+- Stop and makes error message when it runs into one
+- Faster than compiling code but slower than running compiled code/[[Machine Code]]
+- Code needs to be translated each time the code is executed
+- Code can be ran on any device as long as it has a interpreter

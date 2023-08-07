@@ -1,0 +1,1 @@
+Data which is going to be processed in the [[Fetch Decode Execute cycle (FDE Cycle)]]

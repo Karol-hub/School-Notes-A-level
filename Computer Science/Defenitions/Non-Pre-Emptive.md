@@ -1,0 +1,4 @@
+- Once a job is started it's left alone until completion
+- Examples
+	- [[First Come First Served]]
+	- [[Shortest Job First]]

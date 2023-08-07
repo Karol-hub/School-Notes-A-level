@@ -1,0 +1,5 @@
+- Commonly referred to as Cloud Storage
+- When data is being stored remotely
+- Can be accessed by any device with access to the system the data is stored on
+- Service providers still need to the other secondary storage methods to actually store the data 
+- Limited to network speeds

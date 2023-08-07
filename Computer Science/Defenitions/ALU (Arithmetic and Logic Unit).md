@@ -1,0 +1,3 @@
+- Completes all of the arithmetical and logical operations
+- Stuff like adding/multiplication
+- Boolean logic operators like OR, NOT, AND

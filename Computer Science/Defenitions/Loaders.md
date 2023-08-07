@@ -1,0 +1,2 @@
+- Provided by [[Operating System (OS)]]
+- When a file is executed it retrieves the library from a given memory location

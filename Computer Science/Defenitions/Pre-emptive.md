@@ -1,0 +1,5 @@
+- Jobs can be halted at any time
+- Examples
+	- [[Multi Level Feedback Queues]]
+	- [[Shortest Remaining Time]]
+	- [[Round Robin]]

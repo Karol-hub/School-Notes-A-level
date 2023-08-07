@@ -1,0 +1,2 @@
+- Facts and rules are defined based on the problem
+- Queries are used to find answers

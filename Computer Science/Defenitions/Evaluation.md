@@ -1,0 +1,6 @@
+- Effectiveness is compared against the requirements specified in [[Analysis]]
+- Different criteria are considered:
+	- Robustness
+	- Reliability
+	- Portability
+	- Maintainability

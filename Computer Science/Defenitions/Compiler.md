@@ -1,0 +1,7 @@
+- Translate [[High Level Code]] into [[Machine Code]]
+- Processes all code at once
+- Gives an error if there is a problem compiling code
+- Initial compilation process is longer than using an [[Interpreter]] or [[Assembler]]
+- If changes are made to code it needs to be recompiled
+- After compiled the [[Machine Code]] is platform specific
+- Compiled code can be ran without a [[Translators|translator]]

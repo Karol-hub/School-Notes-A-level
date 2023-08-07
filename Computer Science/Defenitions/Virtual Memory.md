@@ -1,0 +1,6 @@
+- Happens when [[Main Memory|RAM]] runs out of room
+- Section of secondary storage is used as [[Main Memory|RAM]] (Slow as [[Main Memory|RAM]] is faster)
+- Sections of programs that aren't in use are moved to virtual memory freeing up room in [[Main Memory|RAM]]
+- Disk thrashing can occur
+	- When too much traffic is being interchanged between [[Main Memory|RAM]] and [[Secondary Storage|secondary storage]]
+	- Causes PC to freeze/slow down

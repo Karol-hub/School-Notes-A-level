@@ -1,0 +1,1 @@
+[[Design]] from previous stage is broken up into smaller individual self contained modules which can be assigned to programmers

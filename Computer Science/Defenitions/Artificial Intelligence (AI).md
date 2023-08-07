@@ -1,0 +1,1 @@
+Program that mimics human intelligence

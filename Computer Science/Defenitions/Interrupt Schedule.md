@@ -1,0 +1,15 @@
+- Happens at the end of each [[Fetch Decode Execute cycle (FDE Cycle)]]
+- If priority of current process < priority of content of interrupt register
+- False
+	- Next [[Fetch Decode Execute cycle (FDE Cycle)|FDE cycle]] continues
+- True
+	- Content of current [[Registers|registers]] are dumped into a [[Stack|stack]]
+	- Appropriate Interrupt Service Routine (ISR) is loaded into [[Main Memory|RAM]]
+	- Flag is set to state an ISR has begun
+	- Once the interrupts is serviced
+	- Flag is reset 
+- If priority of content interrupt register > priority of original content
+- True
+	- Another ISR begins
+- False
+	- Content of original instruction is returned from the stack and processes continue

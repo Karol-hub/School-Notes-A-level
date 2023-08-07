@@ -1,0 +1,2 @@
+- Binding data and methods to an instance
+- Can no longer be accessed by outside sources

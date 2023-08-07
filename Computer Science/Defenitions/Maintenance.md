@@ -1,0 +1,6 @@
+- Aims to tackle any issues flagged up by end users
+- Software updates will be issued to address the issues
+- Could target:
+	- Bugs
+	- Security
+	- Improvements

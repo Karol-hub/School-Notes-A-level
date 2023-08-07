@@ -1,0 +1,3 @@
+- Halfway between [[Machine Code]] and [[High Level Code]]
+- Can be ran on any device with an [[Interpreter]]
+- Since it needs to be [[Interpreter|interpreted]] its a lot slower

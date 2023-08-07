@@ -1,0 +1,5 @@
+- Aims to make the code faster to execute
+- Can significantly increase compilation time
+- Insignificant/redundant parts are detected and removed
+- Repeated sections could be repeated with more efficient code that produces the same result
+- Too much optimisation might alter the code's function
