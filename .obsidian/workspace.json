@@ -6,25 +6,54 @@
       {
         "id": "9815d932cfd02730",
         "type": "tabs",
+        "dimension": 65.63517915309446,
         "children": [
           {
-            "id": "ed078057762722c7",
+            "id": "695f860f141d4ef6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Unit 1/1.3 Exchanging data/1.3.2 Databases.md",
+                "file": "Computer Science/Defenitions/Computational methods.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "0b0c7f091c54a954",
+            "id": "ed078057762722c7",
             "type": "leaf",
             "state": {
-              "type": "graph",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "Computer Science/Defenitions/Abstraction.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      },
+      {
+        "id": "67cdc46edcf8816a",
+        "type": "tabs",
+        "dimension": 34.36482084690554,
+        "children": [
+          {
+            "id": "af5525656bce238a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer Science/Defenitions/Computational methods.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
             }
           }
         ]
@@ -93,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Unit 1/1.3 Exchanging data/1.3.2 Databases.md",
+                "file": "Computer Science/Defenitions/Computational methods.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Unit 1/1.3 Exchanging data/1.3.2 Databases.md",
+                "file": "Computer Science/Defenitions/Computational methods.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Unit 1/1.3 Exchanging data/1.3.2 Databases.md"
+                "file": "Computer Science/Defenitions/Computational methods.md"
               }
             }
           }
@@ -141,7 +170,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -153,37 +183,37 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ed078057762722c7",
+  "active": "695f860f141d4ef6",
   "lastOpenFiles": [
+    "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
+    "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.1 Programming techniques.md",
+    "Computer Science/Defenitions/Computational methods.md",
+    "Computer Science/Defenitions/Problem Recognition.md",
+    "Computer Science/Defenitions/Abstraction.md",
+    "Computer Science/Defenitions/Algorithm.md",
+    "Computer Science/Defenitions/Problem Solving Strategies.md",
+    "Computer Science/Defenitions/Visualisation.md",
+    "Computer Science/Defenitions/Performance Modelling.md",
+    "Computer Science/Defenitions/Heuristics.md",
+    "Computer Science/Defenitions/Data Mining.md",
+    "Computer Science/Defenitions/Backtracking.md",
+    "Computer Science/Defenitions/Enumeration.md",
+    "Computer Science/Defenitions/Pipelining.md",
+    "Computer Science/Defenitions/Divide and Conquer.md",
+    "Computer Science/Defenitions/Decomposing.md",
+    "Decomposition.md",
+    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
+    "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
+    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.1 Computing related legislation.md",
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.2 Thinking ahead.md",
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
     "Computer Science/Unit 1/1.3 Exchanging data/1.3.1 Compression, Encryption and Hashing.md",
-    "Computer Science/Defenitions/Hashing Function.md",
-    "Computer Science/Defenitions/Symmetric Encryption.md",
-    "Computer Science/Defenitions/Hash Tables.md",
-    "Computer Science/Defenitions/Asymmetric Encryption.md",
-    "Computer Science/Defenitions/Hashing.md",
-    "Computer Science/Unit 1/1.3 Exchanging data/1.3.2 Databases.md",
-    "Computer Science/Defenitions/Hashing Collisions.md",
-    "Computer Science/Defenitions/Public Key.md",
-    "Computer Science/Defenitions/Digital Signatures.md",
-    "Computer Science/Defenitions/Private Key.md",
-    "Computer Science/Defenitions/Encryption.md",
-    "Computer Science/Defenitions/Dictionary Encoding.md",
-    "Computer Science/Defenitions/Run Length Encoding.md",
-    "Computer Science/Defenitions/Lossy Compression.md",
-    "Computer Science/Defenitions/Lossless Compression.md",
-    "Computer Science/Unit 1/1.2 Software and software development/1.2.4 Types of Programming Language.md",
+    "Computer Science/Unit 1/1.3 Exchanging data/1.3.3 Networks.md",
+    "Computer Science/Unit 1/1.3 Exchanging data/1.3.4 Web Technologies.md",
     "School-Notes",
     "Physics",
     "Maths",
-    "Computer Science/Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
-    "Computer Science/Unit 1/1.2 Software and software development/1.2.3 Software Development.md",
-    "Computer Science/Defenitions/Artificial Intelligence (AI).md",
-    "Computer Science/Defenitions/Object Oriented Programming (OOP).md",
-    "Computer Science/Defenitions/Polymorphism.md",
-    "Computer Science/Defenitions/Inheritance.md",
-    "Computer Science/Defenitions/Class.md",
-    "Computer Science/Defenitions/Attributes.md",
-    "Computer Science/Defenitions/Encapsulation.md",
     "Computer Science/Supporting Images/Syntax tree example.png",
     "Computer Science/Supporting Images/Close up of optical storage.png",
     "Computer Science/Supporting Images/Diff between paging and segmentation.png",

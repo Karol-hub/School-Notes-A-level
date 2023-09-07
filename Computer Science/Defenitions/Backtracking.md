@@ -1,0 +1,1 @@
+- Methodically visiting each path and building a solution based on the paths found to be correct

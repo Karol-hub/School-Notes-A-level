@@ -1,0 +1,2 @@
+- Data is presented in a way that humans can understand and comprehend
+- Used to identify patterns that may not be initially obvious

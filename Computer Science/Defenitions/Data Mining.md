@@ -1,0 +1,4 @@
+- Used to find patterns in large data sets
+- Isn't used in software but rather to develop the software
+- Spots trends and correlations in big data which may not be obvious 
+- Insights from data can be used to predict outcomes of similar scenarios 

@@ -1,0 +1,1 @@
+Set of instructions a program uses to solve a problem

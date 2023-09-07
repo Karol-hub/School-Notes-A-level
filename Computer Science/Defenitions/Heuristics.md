@@ -1,0 +1,2 @@
+- non-optimal, rule of thumb problem solving
+- used to find an approximate solution when the actual solution is unreasonably time/resource intensive
