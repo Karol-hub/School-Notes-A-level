@@ -1,0 +1,10 @@
+- Used to decide what people see on their social media feed 
+	- Could create a dangerous bubble leading to extreme vies within a society or individual 
+- Used in various application processes sometimes making life changing decisions 
+	- Example, application for loans, mortgages, and jobs 
+	- Also used in power distribution systems 
+- Relying entirely on these algorithms could result in unfair treatment 
+- Automated decision making in driverless cars allows for faster reaction in most scenarios, however, there are ethical considerations 
+	- Who should be harmed if the system must choose between a pedestrian or the passenger 
+	- Who is responsible if this decision must be made or system fails 
+- Algorithms must be thoroughly tested to remove any bias in the software

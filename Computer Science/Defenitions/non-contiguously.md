@@ -1,0 +1,1 @@
+Not stored next to each other in [[Main Memory|memory]]

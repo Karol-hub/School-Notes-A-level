@@ -1,0 +1,6 @@
+- [[Static]]
+- [[Mutable]]
+- Ordered collection of items
+- Can only store one data type
+- [[Consecutive]]
+- ![[Arrays.png]]

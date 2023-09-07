@@ -1,0 +1,8 @@
+- E-waste is more common as more devices are more affordable and accessible 
+- Computers contain toxic materials that can contaminate water supplies 
+	- E-waste is sometimes shipped to third world countries with less strict environmental laws on disposal of e-waste which is considered immoral 
+- Energy needed to power devices is made from burning fossil fuels which create greenhouse gasses which contribute to global warming 
+- These effects will impact future generations and biodiversity 
+- Environmentally friendly technology is becoming more common e.g. 
+	- Smart home systems with sensors designed to optimize energy usage 
+	- Sleep and stand-by features designed to minimize power usage.

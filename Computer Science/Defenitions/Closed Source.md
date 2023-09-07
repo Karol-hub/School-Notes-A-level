@@ -1,5 +1,5 @@
 - Require user to have a valid licence to use the software
-- Can't access [[Source Code]] as company that produced it owns the [[Copyright]] licence for it
+- Can't access [[Source Code]] as company that produced it owns the [[Copyright, Design and Patents Act 1988|Copyright]] licence for it
 
 Adv | Dis
 --|--
