@@ -1,0 +1,4 @@
+- Transferring [[Capturing Data|Captured Data]]
+- EDI (Electronic Data Interchange)
+	- Enables data transfer from one device to another
+	- Doesn't require human interaction

@@ -3,7 +3,7 @@ Aim to:
 - Maintain health
 
 Examples
-- [[Compression]]
+- [[1.3.1 Compression, Encryption and Hashing|Compression]]
 - Disk Defragmentation
 - Antivirus
 - Automatic Updating

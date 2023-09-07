@@ -1,0 +1,2 @@
+- Card that allows a device to connect to a [[Networks|Network]]
+- Assigned a unique [[MAC addresses]]

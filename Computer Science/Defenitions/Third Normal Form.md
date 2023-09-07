@@ -1,0 +1,2 @@
+- Needs to be in [[Second Normal Form]]
+- Contains no [[Non-Key Dependencies]]

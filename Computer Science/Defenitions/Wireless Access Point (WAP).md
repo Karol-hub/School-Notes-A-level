@@ -1,0 +1,2 @@
+- Allows a device to connect to networks
+- Combined with [[Routers]] to allow access to the internet

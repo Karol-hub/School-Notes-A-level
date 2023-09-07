@@ -1,0 +1,4 @@
+- Higher page rank will result in the page being recommended more
+- Two factors that affect:
+	- Incoming links from other pages
+	- Page rank of the page that links to it

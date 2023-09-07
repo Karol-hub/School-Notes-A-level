@@ -6,53 +6,16 @@
       {
         "id": "9815d932cfd02730",
         "type": "tabs",
-        "dimension": 65.63517915309446,
         "children": [
           {
-            "id": "695f860f141d4ef6",
+            "id": "d379e3d41b89dba4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Defenitions/Computational methods.md",
+                "file": "Computer Science/Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
                 "mode": "source",
                 "source": false
-              }
-            }
-          },
-          {
-            "id": "ed078057762722c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Defenitions/Abstraction.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "67cdc46edcf8816a",
-        "type": "tabs",
-        "dimension": 34.36482084690554,
-        "children": [
-          {
-            "id": "af5525656bce238a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Computer Science/Defenitions/Computational methods.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
               }
             }
           }
@@ -122,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Defenitions/Computational methods.md",
+                "file": "Computer Science/Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Defenitions/Computational methods.md",
+                "file": "Computer Science/Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Defenitions/Computational methods.md"
+                "file": "Computer Science/Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md"
               }
             }
           }
@@ -170,8 +133,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -183,48 +145,54 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "695f860f141d4ef6",
+  "active": "d379e3d41b89dba4",
   "lastOpenFiles": [
+    "Computer Science/Unit 1/1.4 Data types, data structures and algorithms/1.4.2 Data Structures.md",
+    "Computer Science/Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
+    "Computer Science/Defenitions/Hexadecimal.md",
+    "Computer Science/Defenitions/Binary.md",
+    "Computer Science/Defenitions/Data types.md",
     "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
     "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.1 Programming techniques.md",
-    "Computer Science/Defenitions/Computational methods.md",
-    "Computer Science/Defenitions/Problem Recognition.md",
-    "Computer Science/Defenitions/Abstraction.md",
-    "Computer Science/Defenitions/Algorithm.md",
-    "Computer Science/Defenitions/Problem Solving Strategies.md",
-    "Computer Science/Defenitions/Visualisation.md",
-    "Computer Science/Defenitions/Performance Modelling.md",
-    "Computer Science/Defenitions/Heuristics.md",
-    "Computer Science/Defenitions/Data Mining.md",
-    "Computer Science/Defenitions/Backtracking.md",
-    "Computer Science/Defenitions/Enumeration.md",
-    "Computer Science/Defenitions/Pipelining.md",
-    "Computer Science/Defenitions/Divide and Conquer.md",
-    "Computer Science/Defenitions/Decomposing.md",
-    "Decomposition.md",
-    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
-    "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
-    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.1 Computing related legislation.md",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.2 Thinking ahead.md",
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.5 Thinking concurrently.md",
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.4 Thinking logically.md",
     "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.2 Thinking ahead.md",
     "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
-    "Computer Science/Unit 1/1.3 Exchanging data/1.3.1 Compression, Encryption and Hashing.md",
-    "Computer Science/Unit 1/1.3 Exchanging data/1.3.3 Networks.md",
-    "Computer Science/Unit 1/1.3 Exchanging data/1.3.4 Web Technologies.md",
-    "School-Notes",
-    "Physics",
-    "Maths",
-    "Computer Science/Supporting Images/Syntax tree example.png",
-    "Computer Science/Supporting Images/Close up of optical storage.png",
-    "Computer Science/Supporting Images/Diff between paging and segmentation.png",
-    "400px-Abstract_syntax_tree_for_Euclidean_algorithm.svg.png",
-    "Computer Science/Supporting Images",
-    "Input",
-    "Untitled.canvas",
-    "Computer Science/Defenitions",
-    "Computer Science/Unit 2/2 Problem solving and programming/Untitled",
+    "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
     "Computer Science/Unit 2/2.3 Algorithms",
     "Computer Science/Unit 2/2.2 Problem solving and programming",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/Untitled"
+    "Computer Science/Unit 2/2.1 Elements of computational thinking",
+    "Computer Science/Unit 2",
+    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
+    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.1 Computing related legislation.md",
+    "Computer Science/Unit 1/1.4 Data types, data structures and algorithms/1.4.3 Boolean Algebra.md",
+    "Computer Science/Unit 1/1.3 Exchanging data/1.3.4 Web Technologies.md",
+    "Computer Science/Unit 1/1.3 Exchanging data/1.3.3 Networks.md",
+    "Computer Science/Unit 1/1.3 Exchanging data/1.3.2 Databases.md",
+    "Computer Science/Unit 1/1.3 Exchanging data/1.3.1 Compression, Encryption and Hashing.md",
+    "Computer Science/Unit 1/1.1 The characteristics of contemporary processors, input, output and storage devices/1.1.3 Input, output and storage.md",
+    "Computer Science/Unit 1/1.1 The characteristics of contemporary processors, input, output and storage devices/1.1.2 Types of processor.md",
+    "Computer Science/Unit 1/1.1 The characteristics of contemporary processors, input, output and storage devices/1.1.1 Structure and function of the processor.md",
+    "Computer Science/Unit 1/1.2 Software and software development/1.2.4 Types of Programming Language.md",
+    "Computer Science/Unit 1/1.2 Software and software development/1.2.3 Software Development.md",
+    "Computer Science/Unit 1/1.2 Software and software development/1.2.2 Applications Generation.md",
+    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues",
+    "Computer Science/Unit 1/1.4 Data types, data structures and algorithms",
+    "Computer Science/Unit 1/1.3 Exchanging data",
+    "Computer Science/Unit 1/1.1 The characteristics of contemporary processors, input, output and storage devices",
+    "Computer Science/Unit 1/1.2 Software and software development",
+    "Computer Science/Unit 1",
+    "Computer Science/Supporting Images/Syntax tree example.png",
+    "Computer Science/Supporting Images/Star Topology demo.png",
+    "Computer Science/Supporting Images/SQL query example.png",
+    "Computer Science/Supporting Images/Mesh Topology demo.png",
+    "Computer Science/Supporting Images/Floating point binary example.png",
+    "Computer Science/Supporting Images/Floating point bin moving.png",
+    "Computer Science/Supporting Images/Diff between paging and segmentation.png",
+    "Computer Science/Supporting Images/Close up of optical storage.png",
+    "Computer Science/Supporting Images/Bus Topology demo.png",
+    "Computer Science/Supporting Images/Binary Normalisation example.png",
+    "Untitled.canvas"
   ]
 }

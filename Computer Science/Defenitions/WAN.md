@@ -1,0 +1,2 @@
+- Wide Area Network
+- A [[Networks|Network]] that spans over a large geographical area

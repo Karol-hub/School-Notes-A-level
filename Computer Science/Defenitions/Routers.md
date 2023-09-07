@@ -1,0 +1,2 @@
+- Connects two or more networks together 
+- Allow private (small local networks) networks to connect to the internet

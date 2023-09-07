@@ -1,0 +1,2 @@
+- An intermediate device that gets the data then passes it on to the intender receiver
+- proxy servers can cache frequently used data to make websites load faster

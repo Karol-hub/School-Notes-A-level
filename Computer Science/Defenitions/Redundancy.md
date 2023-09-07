@@ -1,0 +1,1 @@
+Some data is very valuable so backups are stores at different sites to minimise the chance of it all getting destroyed

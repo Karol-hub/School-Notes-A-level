@@ -1,0 +1,171 @@
+{
+  "main": {
+    "id": "bf22998a693c8a85",
+    "type": "split",
+    "children": [
+      {
+        "id": "d1757bc1056e1af1",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "81c89e5b87d43b9a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "vertical"
+  },
+  "left": {
+    "id": "9288147ca5cc9fe0",
+    "type": "split",
+    "children": [
+      {
+        "id": "a4987e311afdd342",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "867a36c6172732e6",
+            "type": "leaf",
+            "state": {
+              "type": "file-explorer",
+              "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "76af69350f9200f8",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": false,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "05e97361c297d1b9",
+            "type": "leaf",
+            "state": {
+              "type": "bookmarks",
+              "state": {}
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300
+  },
+  "right": {
+    "id": "5bf63cb92698e665",
+    "type": "split",
+    "children": [
+      {
+        "id": "b8053522d024c322",
+        "type": "tabs",
+        "children": [
+          {
+            "id": "9c894df4b0cd3c5d",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "b5f56845b27041b3",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "44fad92cfae220b1",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "b0b79eafad71a9cc",
+            "type": "leaf",
+            "state": {
+              "type": "outline",
+              "state": {
+                "file": "Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md"
+              }
+            }
+          }
+        ]
+      }
+    ],
+    "direction": "horizontal",
+    "width": 300,
+    "collapsed": true
+  },
+  "left-ribbon": {
+    "hiddenItems": {
+      "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
+      "canvas:Create new canvas": false,
+      "daily-notes:Open today's daily note": false,
+      "templates:Insert template": false,
+      "command-palette:Open command palette": false
+    }
+  },
+  "active": "867a36c6172732e6",
+  "lastOpenFiles": [
+    "Unit 1/1.4 Data types, data structures and algorithms/1.4.2 Data Structures.md",
+    "Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
+    "Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.1 Computing related legislation.md",
+    "Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
+    "Unit 1/1.4 Data types, data structures and algorithms/1.4.3 Boolean Algebra.md",
+    "Defenitions/Visualisation.md",
+    "Defenitions/Enumeration.md",
+    "Defenitions/Problem Solving Strategies.md",
+    "Defenitions/Performance Modelling.md",
+    "Defenitions/Heuristics.md",
+    "Defenitions/Data Mining.md",
+    "Defenitions/Backtracking.md",
+    "Defenitions/Computational methods.md",
+    "Defenitions/Abstraction.md",
+    "Defenitions/Divide and Conquer.md",
+    "Defenitions/Decomposing.md",
+    "Defenitions/Problem Recognition.md",
+    "Defenitions/Algorithm.md",
+    "Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md"
+  ]
+}

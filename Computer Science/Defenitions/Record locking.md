@@ -1,0 +1,4 @@
+- Prevents simultaneous access to a record to prevent
+	- Inconsistencies
+	- Loss of updates
+- Risk of [[Deadlock|Deadlocking]]

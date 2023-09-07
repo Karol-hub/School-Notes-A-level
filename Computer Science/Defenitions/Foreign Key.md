@@ -1,0 +1,2 @@
+- [[Attributes|Attribute]] that links two [[Entities]] together
+- Acts as a [[Primary Key]] in one table and a Foreign key in the other

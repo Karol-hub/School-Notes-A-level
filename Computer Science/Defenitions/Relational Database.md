@@ -1,0 +1,3 @@
+- Information is stored about [[Entities]]
+- Rational databases recognise the difference between [[Entities]] by creating new tables for each entity
+- [[Attributes]] are characteristics of an [[Entities|Entity]]

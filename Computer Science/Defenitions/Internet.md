@@ -1,0 +1,3 @@
+- A network of network
+- Allows devices across the globe to communicate
+- Continents are connected with large international backbone cables 

@@ -1,0 +1,8 @@
+- Atomicity
+	- A transaction must be processed in it's entirety or not at all
+- Consistency
+	- A transaction must maintain the referential integrity rules between linked tables
+- Isolation
+	- Simultaneous executions of transactions should lead to the same result as if they were executed one after the other (they are independent of each other)
+- Durability
+	- Once a transaction has been executed it will remain so regardless of the circumstances, such as in the event of a power cut.

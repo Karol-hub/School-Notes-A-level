@@ -1,0 +1,4 @@
+- Domain Network System
+- Turns a URL into an IP address the user wants to connect to
+- Also organises internet resources
+	- Each smaller domain is separated from a larger domain with a "."

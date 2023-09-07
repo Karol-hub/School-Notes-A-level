@@ -1,0 +1,2 @@
+- Method of storing the position of each attribute ordered by a certain attribute
+- [[Primary Key]] is automatically indexed however that's not usually remembered so [[Secondary Key|Secondary Keys]] can be indexed to make the table easier and faster to search through, without this the entire database would need to be searched through

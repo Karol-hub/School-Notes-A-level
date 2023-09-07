@@ -1,0 +1,1 @@
+- Formalized [[Protocols|protocol]] that is accepted by those using it
