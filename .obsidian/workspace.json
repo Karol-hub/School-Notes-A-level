@@ -4,35 +4,59 @@
     "type": "split",
     "children": [
       {
-        "id": "67058c3b5f8f7dbe",
+        "id": "9815d932cfd02730",
         "type": "tabs",
+        "dimension": 65.63517915309446,
         "children": [
           {
-            "id": "a22ef037afc40982",
+            "id": "695f860f141d4ef6",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
+                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "78984235f35e6fad",
+            "id": "ed078057762722c7",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
+                "file": "Computer Science/Defenitions/Abstraction.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
+      },
+      {
+        "id": "67cdc46edcf8816a",
+        "type": "tabs",
+        "dimension": 34.36482084690554,
+        "children": [
+          {
+            "id": "af5525656bce238a",
+            "type": "leaf",
+            "state": {
+              "type": "backlink",
+              "state": {
+                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
+                "collapseAll": false,
+                "extraContext": false,
+                "sortOrder": "alphabetical",
+                "showSearch": false,
+                "searchQuery": "",
+                "backlinkCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          }
+        ]
       }
     ],
     "direction": "vertical"
@@ -98,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
+                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
+                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,15 +162,24 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md"
+                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md"
               }
+            }
+          },
+          {
+            "id": "80fbd2cba6e5a820",
+            "type": "leaf",
+            "state": {
+              "type": "calendar",
+              "state": {}
             }
           }
         ]
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 200,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -155,57 +188,59 @@
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "78984235f35e6fad",
+  "active": "695f860f141d4ef6",
   "lastOpenFiles": [
-    "Layout, Colour Paradigms and Character Sets.md",
-    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
-    "Piracy and offensive communications.md",
-    "Censorship and the Internet.md",
-    "Environmental Effects.md",
-    "Computer Science/Defenitions/Artificial Intelligence (AI).md",
-    "Automated Decision Making.md",
-    "Computers in the Workforce.md",
-    "Moral.md",
-    "Ethical.md",
-    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.1 Computing related legislation.md",
-    "Computer Science/Defenitions/Closed Source.md",
+    "Computer Science/Defenitions/Automated Decision Making.md",
+    "Computer Science/Defenitions/Piracy and offensive communications.md",
     "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.5 Thinking concurrently.md",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.4 Thinking logically.md",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.2 Thinking ahead.md",
-    "Computer Science/Defenitions/The Regulation of Investigatory Powers Act (RIPA) 2000.md",
-    "Computer Science/Defenitions/Copyright, Design and Patents Act 1988.md",
-    "Computer Science/Defenitions/Computer Misuse Act 1990.md",
-    "Computer Science/Defenitions/Data Protection Act 1998.md",
-    "Data protec.md",
-    "Computer Science/Unit 1/1.4 Data types, data structures and algorithms/1.4.3 Boolean Algebra.md",
-    "Computer Science/Defenitions/Logic Circuits.md",
-    "Computer Science/Defenitions/Full Adder.md",
-    "Computer Science/Supporting Images/Full adder truth table.png",
-    "Computer Science/Defenitions/Half Adder.md",
-    "Computer Science/Supporting Images/Full adder circuit diagram.png",
-    "Computer Science/Supporting Images/Half adder truth table.png",
-    "Computer Science/Supporting Images/Circuit diagram of half adder.png",
-    "Pasted image 20230907201903.png",
-    "Computer Science/Supporting Images/D-type flip flop circuit.png",
+    "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
+    "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.1 Programming techniques.md",
+    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
+    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.1 Computing related legislation.md",
+    "Computer Science/Defenitions/Computational methods.md",
+    "Computer Science/Defenitions/Moral.md",
+    "Computer Science/Defenitions/Layout, Colour Paradigms and Character Sets.md",
+    "Computer Science/Defenitions/Ethical.md",
+    "Computer Science/Defenitions/Environmental Effects.md",
+    "Computer Science/Defenitions/Computers in the Workforce.md",
+    "Computer Science/Supporting Images/queue example.png",
+    "Computer Science/Supporting Images/push and pop in stacks.png",
+    "Computer Science/Supporting Images/pre-order traversal.png",
+    "Computer Science/Supporting Images/post-order traversal.png",
+    "Computer Science/Supporting Images/in-order traversal.png",
+    "Computer Science/Supporting Images/Tree def.png",
+    "Computer Science/Supporting Images/Storing a graph.png",
+    "Computer Science/Supporting Images/Star Topology demo.png",
+    "Computer Science/Supporting Images/SQL query example.png",
     "Computer Science/Supporting Images/Rising falling edge.png",
-    "Computer Science/Supporting Images/Boolean manipulation.jpg",
-    "Boolean manipulations.png",
-    "Computer Science/Supporting Images/Karnaugh map top.png",
+    "Computer Science/Defenitions/non-contiguously.md",
+    "Computer Science/Defenitions/Wireless Access Point (WAP).md",
+    "Computer Science/Defenitions/Sign Magnitude.md",
+    "Computer Science/Defenitions/Server Side Processing.md",
+    "Computer Science/Defenitions/Selecting and Managing data.md",
+    "Computer Science/Defenitions/Secondary Key.md",
+    "Computer Science/Defenitions/Second Normal Form.md",
+    "Computer Science/Defenitions/Partial Dependencies.md",
+    "Computer Science/Defenitions/Page Rank Algorithm.md",
+    "Computer Science/Defenitions/Packet Switching.md",
+    "Computer Science/Defenitions/One to one.md",
+    "Computer Science/Defenitions/One to many.md",
+    "Computer Science/Defenitions/Non-Key Dependencies.md",
+    "School-Notes",
+    "Physics",
+    "Maths",
+    "Computer Science/Supporting Images",
+    "Input",
+    "Untitled.canvas",
+    "Computer Science/Defenitions",
+    "Computer Science/Unit 2/2 Problem solving and programming/Untitled",
     "Computer Science/Unit 2/2.3 Algorithms",
     "Computer Science/Unit 2/2.2 Problem solving and programming",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking",
-    "Computer Science/Unit 2",
-    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues",
-    "Computer Science/Unit 1/1.4 Data types, data structures and algorithms",
-    "Computer Science/Unit 1/1.3 Exchanging data",
-    "Computer Science/Unit 1/1.1 The characteristics of contemporary processors, input, output and storage devices",
-    "Computer Science/Unit 1/1.2 Software and software development",
-    "Computer Science/Unit 1",
-    "Untitled.canvas"
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/Untitled"
   ]
 }
