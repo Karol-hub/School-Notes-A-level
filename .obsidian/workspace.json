@@ -14,7 +14,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
+                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
                 "mode": "source",
                 "source": false
               }
@@ -45,7 +45,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
+                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +122,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
+                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +139,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
+                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +162,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md"
+                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md"
               }
             }
           },
@@ -195,9 +195,13 @@
   },
   "active": "695f860f141d4ef6",
   "lastOpenFiles": [
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.2 Thinking ahead.md",
+    "Caching.md",
+    "Preconditions.md",
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
+    "Computer Science/Defenitions/Abstraction.md",
     "Computer Science/Defenitions/Automated Decision Making.md",
     "Computer Science/Defenitions/Piracy and offensive communications.md",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
     "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
     "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.1 Programming techniques.md",
     "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
@@ -227,10 +231,6 @@
     "Computer Science/Defenitions/Second Normal Form.md",
     "Computer Science/Defenitions/Partial Dependencies.md",
     "Computer Science/Defenitions/Page Rank Algorithm.md",
-    "Computer Science/Defenitions/Packet Switching.md",
-    "Computer Science/Defenitions/One to one.md",
-    "Computer Science/Defenitions/One to many.md",
-    "Computer Science/Defenitions/Non-Key Dependencies.md",
     "School-Notes",
     "Physics",
     "Maths",
