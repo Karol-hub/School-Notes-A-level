@@ -18,7 +18,7 @@
       "query": "path:\"Computer Science/Unit 2\"",
       "color": {
         "a": 1,
-        "rgb": 14725458
+        "rgb": 14731602
       }
     }
   ],
@@ -32,6 +32,6 @@
   "repelStrength": 9.6875,
   "linkStrength": 0.692708333333333,
   "linkDistance": 69,
-  "scale": 0.2202168618067589,
+  "scale": 0.09462236088276899,
   "close": true
 }

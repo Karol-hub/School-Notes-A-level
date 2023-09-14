@@ -8,7 +8,7 @@
 	- Flag is set to state an ISR has begun
 	- Once the interrupts is serviced
 	- Flag is reset 
-- If priority of content interrupt register > priority of original content
+- If priority of content in interrupt register > priority of original content
 - True
 	- Another ISR begins
 - False

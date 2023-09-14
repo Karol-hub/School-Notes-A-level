@@ -1,4 +1,4 @@
 - Processing data in a way that only the useful information is extracted
 - eg
-	- Number plat extracted from image of speeding car
+	- Number plate extracted from image of speeding car
 - Can be managed with [[SQL]] to sort and restructure the data

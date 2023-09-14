@@ -6,7 +6,7 @@
       {
         "id": "9815d932cfd02730",
         "type": "tabs",
-        "dimension": 65.63517915309446,
+        "dimension": 70.84690553745928,
         "children": [
           {
             "id": "695f860f141d4ef6",
@@ -14,20 +14,8 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ed078057762722c7",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Defenitions/Abstraction.md",
-                "mode": "source",
+                "file": "Computer Science/Defenitions/Table Normalisation.md",
+                "mode": "preview",
                 "source": false
               }
             }
@@ -37,7 +25,7 @@
       {
         "id": "67cdc46edcf8816a",
         "type": "tabs",
-        "dimension": 34.36482084690554,
+        "dimension": 29.153094462540718,
         "children": [
           {
             "id": "af5525656bce238a",
@@ -45,7 +33,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
+                "file": "Computer Science/Defenitions/Table Normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
+                "file": "Computer Science/Defenitions/Table Normalisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -139,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
+                "file": "Computer Science/Defenitions/Table Normalisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -162,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md"
+                "file": "Computer Science/Defenitions/Table Normalisation.md"
               }
             }
           },
@@ -172,6 +160,16 @@
             "state": {
               "type": "calendar",
               "state": {}
+            }
+          },
+          {
+            "id": "bea4bf5263e03da3",
+            "type": "leaf",
+            "state": {
+              "type": "all-properties",
+              "state": {
+                "sortOrder": "frequency"
+              }
             }
           }
         ]
@@ -195,42 +193,43 @@
   },
   "active": "695f860f141d4ef6",
   "lastOpenFiles": [
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.2 Thinking ahead.md",
-    "Caching.md",
-    "Preconditions.md",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
-    "Computer Science/Defenitions/Abstraction.md",
-    "Computer Science/Defenitions/Automated Decision Making.md",
-    "Computer Science/Defenitions/Piracy and offensive communications.md",
-    "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
-    "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.1 Programming techniques.md",
-    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
-    "Computer Science/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.1 Computing related legislation.md",
-    "Computer Science/Defenitions/Computational methods.md",
-    "Computer Science/Defenitions/Moral.md",
-    "Computer Science/Defenitions/Layout, Colour Paradigms and Character Sets.md",
-    "Computer Science/Defenitions/Ethical.md",
-    "Computer Science/Defenitions/Environmental Effects.md",
-    "Computer Science/Defenitions/Computers in the Workforce.md",
+    "Computer Science/Defenitions/Second Normal Form.md",
+    "Computer Science/Defenitions/Partial Dependencies.md",
+    "Computer Science/Defenitions/Table Normalisation.md",
+    "Computer Science/Unit 1/1.3 Exchanging data/1.3.2 Databases.md",
+    "Computer Science/Defenitions/Third Normal Form.md",
+    "Computer Science/Defenitions/Non-Key Dependencies.md",
+    "Computer Science/Defenitions/Referential Integrity.md",
+    "Computer Science/Defenitions/ACID (Atomicity, Consistency, Isolation, Durability).md",
+    "Computer Science/Defenitions/SQL.md",
+    "Computer Science/Defenitions/Many to many.md",
+    "Computer Science/Defenitions/One to many.md",
+    "Computer Science/Defenitions/One to one.md",
+    "Computer Science/Defenitions/Handling Data.md",
+    "Computer Science/Defenitions/Exchanging Data.md",
+    "Computer Science/Defenitions/Selecting and Managing data.md",
+    "Computer Science/Defenitions/Capturing Data.md",
+    "Computer Science/Defenitions/Indexing.md",
+    "Computer Science/Defenitions/Attributes.md",
+    "Computer Science/Defenitions/Flat file.md",
+    "Computer Science/Defenitions/Relational Database.md",
+    "Computer Science/Defenitions/Entities.md",
+    "Computer Science/Defenitions/Asymmetric Encryption.md",
+    "Computer Science/Defenitions/Private Key.md",
+    "Computer Science/Defenitions/Public Key.md",
+    "Computer Science/Defenitions/Digital Signatures.md",
+    "Computer Science/Unit 1/1.3 Exchanging data/1.3.1 Compression, Encryption and Hashing.md",
+    "Computer Science/Supporting Images/Binary tree.png",
+    "Computer Science/Supporting Images/Binary Normalisation example.png",
+    "Computer Science/Supporting Images/Adding to linked list.png",
+    "Computer Science/Supporting Images/Arrays.png",
+    "Computer Science/Course Work",
     "Computer Science/Supporting Images/queue example.png",
     "Computer Science/Supporting Images/push and pop in stacks.png",
     "Computer Science/Supporting Images/pre-order traversal.png",
     "Computer Science/Supporting Images/post-order traversal.png",
     "Computer Science/Supporting Images/in-order traversal.png",
     "Computer Science/Supporting Images/Tree def.png",
-    "Computer Science/Supporting Images/Storing a graph.png",
-    "Computer Science/Supporting Images/Star Topology demo.png",
-    "Computer Science/Supporting Images/SQL query example.png",
-    "Computer Science/Supporting Images/Rising falling edge.png",
-    "Computer Science/Defenitions/non-contiguously.md",
-    "Computer Science/Defenitions/Wireless Access Point (WAP).md",
-    "Computer Science/Defenitions/Sign Magnitude.md",
-    "Computer Science/Defenitions/Server Side Processing.md",
-    "Computer Science/Defenitions/Selecting and Managing data.md",
-    "Computer Science/Defenitions/Secondary Key.md",
-    "Computer Science/Defenitions/Second Normal Form.md",
-    "Computer Science/Defenitions/Partial Dependencies.md",
-    "Computer Science/Defenitions/Page Rank Algorithm.md",
     "School-Notes",
     "Physics",
     "Maths",
@@ -240,7 +239,6 @@
     "Computer Science/Defenitions",
     "Computer Science/Unit 2/2 Problem solving and programming/Untitled",
     "Computer Science/Unit 2/2.3 Algorithms",
-    "Computer Science/Unit 2/2.2 Problem solving and programming",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/Untitled"
+    "Computer Science/Unit 2/2.2 Problem solving and programming"
   ]
 }

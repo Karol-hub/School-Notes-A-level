@@ -1,5 +1,6 @@
-Fastest Storage (in terms of read/write times)
+Fastest Storage (in terms of read/write times) | Lowest capacity
 - [[Cache Memory]]
 - [[Main Memory]]
 - [[Secondary Storage]]
-Slowest Storage
+Slowest Storage | Highest capacity
+

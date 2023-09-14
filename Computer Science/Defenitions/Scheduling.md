@@ -4,7 +4,7 @@ Two types:
 - Pre-emptive
 	- Jobs can be halted at any time
 	- Examples
-		- Multilevel Feedback Queues
+		- [[Multi Level Feedback Queues]]
 		- [[Shortest Remaining Time]]
 		- [[Round Robin]]
 - Non-Pre-Emptive

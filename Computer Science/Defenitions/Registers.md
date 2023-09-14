@@ -4,7 +4,7 @@ registers
 
 **Register** | **Function**
 --|--
-Program Counter | Holds address of next instruction to be executed
+Program Counter (PC) | Holds address of next instruction to be executed
 Accumulator | Stores results from calculations
 Memory Address Register (MAR) | Stores address of memory address to be read/written to
 Memory Data Register (MDR) | Temporarily stores data read/data to be written

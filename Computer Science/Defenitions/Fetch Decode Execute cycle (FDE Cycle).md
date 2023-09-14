@@ -21,7 +21,7 @@ class MM internal-link;
 ```
 
 Dotted line - [[Busses |Address bus]]
-Default line - [[Busses |Address bus]]
+Default line - [[Busses |Data bus]]
 
 **Fetch phase**
 1. Address of next instruction is copied from [[Registers|PC]] to  [[Registers|MAR]]
