@@ -6,7 +6,6 @@
       {
         "id": "9815d932cfd02730",
         "type": "tabs",
-        "dimension": 70.84690553745928,
         "children": [
           {
             "id": "695f860f141d4ef6",
@@ -14,37 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Defenitions/Table Normalisation.md",
-                "mode": "preview",
+                "file": "Computer Science/Defenitions/Waterfall Methodology.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5dc6eb8ed43b6c6a",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Quick Sort.md",
+                "mode": "source",
                 "source": false
               }
             }
           }
-        ]
-      },
-      {
-        "id": "67cdc46edcf8816a",
-        "type": "tabs",
-        "dimension": 29.153094462540718,
-        "children": [
-          {
-            "id": "af5525656bce238a",
-            "type": "leaf",
-            "state": {
-              "type": "backlink",
-              "state": {
-                "file": "Computer Science/Defenitions/Table Normalisation.md",
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical",
-                "showSearch": false,
-                "searchQuery": "",
-                "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -110,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Defenitions/Table Normalisation.md",
+                "file": "Quick Sort.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Defenitions/Table Normalisation.md",
+                "file": "Quick Sort.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Defenitions/Table Normalisation.md"
+                "file": "Quick Sort.md"
               }
             }
           },
@@ -172,7 +160,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
@@ -191,54 +180,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "695f860f141d4ef6",
+  "active": "5dc6eb8ed43b6c6a",
   "lastOpenFiles": [
-    "Computer Science/Defenitions/Second Normal Form.md",
-    "Computer Science/Defenitions/Partial Dependencies.md",
-    "Computer Science/Defenitions/Table Normalisation.md",
-    "Computer Science/Unit 1/1.3 Exchanging data/1.3.2 Databases.md",
-    "Computer Science/Defenitions/Third Normal Form.md",
-    "Computer Science/Defenitions/Non-Key Dependencies.md",
-    "Computer Science/Defenitions/Referential Integrity.md",
-    "Computer Science/Defenitions/ACID (Atomicity, Consistency, Isolation, Durability).md",
-    "Computer Science/Defenitions/SQL.md",
-    "Computer Science/Defenitions/Many to many.md",
-    "Computer Science/Defenitions/One to many.md",
-    "Computer Science/Defenitions/One to one.md",
-    "Computer Science/Defenitions/Handling Data.md",
-    "Computer Science/Defenitions/Exchanging Data.md",
-    "Computer Science/Defenitions/Selecting and Managing data.md",
-    "Computer Science/Defenitions/Capturing Data.md",
-    "Computer Science/Defenitions/Indexing.md",
-    "Computer Science/Defenitions/Attributes.md",
-    "Computer Science/Defenitions/Flat file.md",
-    "Computer Science/Defenitions/Relational Database.md",
-    "Computer Science/Defenitions/Entities.md",
-    "Computer Science/Defenitions/Asymmetric Encryption.md",
-    "Computer Science/Defenitions/Private Key.md",
-    "Computer Science/Defenitions/Public Key.md",
-    "Computer Science/Defenitions/Digital Signatures.md",
-    "Computer Science/Unit 1/1.3 Exchanging data/1.3.1 Compression, Encryption and Hashing.md",
-    "Computer Science/Supporting Images/Binary tree.png",
-    "Computer Science/Supporting Images/Binary Normalisation example.png",
-    "Computer Science/Supporting Images/Adding to linked list.png",
-    "Computer Science/Supporting Images/Arrays.png",
+    "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
+    "Quick Sort.md",
+    "Merge Sort.md",
+    "Insertion Sort.md",
+    "Bubble Sort.md",
+    "Computer Science/Defenitions/Linear Search.md",
+    "Binary Search.md",
+    "Computer Science/Questions/Awnsers/A-level 2017 P2 Q1.md",
+    "Computer Science/Questions/Awnsers/Big O notation Questions.md",
+    "Computer Science/Questions/Questions/A-level 2017 P2 Q1.png",
+    "Computer Science/Questions/Questions/26-BigONotation.pdf",
+    "Computer Science/Questions/Questions",
+    "Computer Science/Questions/Awnsers",
+    "Computer Science/Defenitions/Big O Notation.md",
+    "Temp/Untitled",
+    "Computer Science/Questions",
+    "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
+    "Computer Science/Supporting Images/Big O notation graphs.png",
+    "Computer Science/Supporting Images/complexity graphs big O.png",
+    "Computer Science/Supporting Images/What to look out for in big O.png",
+    "Computer Science/Supporting Images/Table for big O notation.png",
+    "Computer Science/Defenitions/O(n^k) Polynomial Complexity.md",
+    "Computer Science/Supporting Images/Logarithmic complexity.png",
+    "Computer Science/Supporting Images/Linear complexity.png",
+    "Computer Science/Supporting Images/polynomial complexity.png",
+    "Computer Science/Supporting Images/exponential complexity.png",
+    "Computer Science/Defenitions/O(k^n) Exponential Complexity.md",
+    "Computer Science/Supporting Images/Constant complexity.png",
+    "Computer Science/Defenitions/O(n) Linear Complexity.md",
+    "Computer Science/Defenitions/O(1) Constant Complexity.md",
+    "Computer Science/Defenitions/O(2^k) Polynomial Complexity.md",
+    "Computer Science/Defenitions/O(Log n) Logarithmic Complexity.md",
+    "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.1 Programming techniques.md",
+    "Computer Science/Defenitions/Waterfall Methodology.md",
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.5 Thinking concurrently.md",
+    "Computer Science/Defenitions/Concurrent Processing.md",
+    "Computer Science/Defenitions/Parallel Processing.md",
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.4 Thinking logically.md",
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.2 Thinking ahead.md",
+    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
+    "Computer Science/Course Work/Figure",
     "Computer Science/Course Work",
-    "Computer Science/Supporting Images/queue example.png",
-    "Computer Science/Supporting Images/push and pop in stacks.png",
-    "Computer Science/Supporting Images/pre-order traversal.png",
-    "Computer Science/Supporting Images/post-order traversal.png",
-    "Computer Science/Supporting Images/in-order traversal.png",
-    "Computer Science/Supporting Images/Tree def.png",
     "School-Notes",
     "Physics",
     "Maths",
-    "Computer Science/Supporting Images",
-    "Input",
-    "Untitled.canvas",
-    "Computer Science/Defenitions",
-    "Computer Science/Unit 2/2 Problem solving and programming/Untitled",
-    "Computer Science/Unit 2/2.3 Algorithms",
-    "Computer Science/Unit 2/2.2 Problem solving and programming"
+    "Untitled.canvas"
   ]
 }
