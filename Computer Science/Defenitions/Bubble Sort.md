@@ -3,5 +3,8 @@
 - This algorithm is not suitable for large data sets
 - Worst-case time complexity is quite high.
 
+- *Total no. of passes: n-1
+- *Total no. of comparisons: n*(n-1)/2 = (n^2 - n)/2
+
 Good Source
 https://www.geeksforgeeks.org/bubble-sort/

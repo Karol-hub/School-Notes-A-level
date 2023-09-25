@@ -21,11 +21,11 @@ Searches:
 
 Algorithm| Big O notation
 ---|---
-Linear Search | O(n)
-Bubble Sort| O(n^2)
-Binary Search| O(log(n))
-Binary Tree Search| O(log(n))
-Merge Sort| O(log(n))
+[[Linear Search]] | O(n)
+[[Bubble Sort]]| O(n^2)
+[[Binary Search]]| O(log(n))
+[[Binary Tree Search]]| O(log(n))
+[[Merge Sort]]| O(log(n))
 
 ![[Table for big O notation.png]]
 ![[complexity graphs big O.png]]

@@ -1,0 +1,1 @@
+Same as [[Binary Search]] but it's performed on a tree rather than a list.

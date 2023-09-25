@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Quick Sort.md",
+                "file": "Binary Tree Search.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Quick Sort.md",
+                "file": "Binary Tree Search.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Quick Sort.md",
+                "file": "Binary Tree Search.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Quick Sort.md"
+                "file": "Binary Tree Search.md"
               }
             }
           },
@@ -182,20 +182,21 @@
   },
   "active": "5dc6eb8ed43b6c6a",
   "lastOpenFiles": [
+    "Computer Science/Defenitions/Big O Notation.md",
+    "Binary Tree Search.md",
     "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
-    "Quick Sort.md",
-    "Merge Sort.md",
-    "Insertion Sort.md",
-    "Bubble Sort.md",
+    "Computer Science/Defenitions/Quick Sort.md",
+    "Computer Science/Defenitions/Merge Sort.md",
+    "Computer Science/Defenitions/Insertion Sort.md",
+    "Computer Science/Defenitions/Bubble Sort.md",
     "Computer Science/Defenitions/Linear Search.md",
-    "Binary Search.md",
+    "Computer Science/Defenitions/Binary Search.md",
     "Computer Science/Questions/Awnsers/A-level 2017 P2 Q1.md",
     "Computer Science/Questions/Awnsers/Big O notation Questions.md",
     "Computer Science/Questions/Questions/A-level 2017 P2 Q1.png",
     "Computer Science/Questions/Questions/26-BigONotation.pdf",
     "Computer Science/Questions/Questions",
     "Computer Science/Questions/Awnsers",
-    "Computer Science/Defenitions/Big O Notation.md",
     "Temp/Untitled",
     "Computer Science/Questions",
     "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
@@ -222,7 +223,6 @@
     "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.4 Thinking logically.md",
     "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
     "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.2 Thinking ahead.md",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
     "Computer Science/Course Work/Figure",
     "Computer Science/Course Work",
     "School-Notes",
