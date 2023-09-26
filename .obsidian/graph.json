@@ -5,7 +5,7 @@
   "showAttachments": false,
   "hideUnresolved": false,
   "showOrphans": true,
-  "collapse-color-groups": false,
+  "collapse-color-groups": true,
   "colorGroups": [
     {
       "query": "path:\"Computer Science/Unit 1\"",
@@ -22,16 +22,16 @@
       }
     }
   ],
-  "collapse-display": false,
+  "collapse-display": true,
   "showArrow": false,
   "textFadeMultiplier": 0,
   "nodeSizeMultiplier": 0.967708333333333,
   "lineSizeMultiplier": 1,
-  "collapse-forces": false,
+  "collapse-forces": true,
   "centerStrength": 0.416666666666667,
   "repelStrength": 9.6875,
   "linkStrength": 0.692708333333333,
   "linkDistance": 69,
-  "scale": 0.18970983929017454,
+  "scale": 0.1243544872964521,
   "close": true
 }
