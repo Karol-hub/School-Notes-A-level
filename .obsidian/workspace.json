@@ -11,39 +11,14 @@
             "id": "695f860f141d4ef6",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Defenitions/Waterfall Methodology.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "5dc6eb8ed43b6c6a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "d36d6b9e4befde93",
-            "type": "leaf",
-            "state": {
               "type": "diff-view",
               "state": {
-                "file": "Binary Tree Search.md",
+                "file": ".obsidian/workspace.json",
                 "staged": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -118,7 +93,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Defenitions/Waterfall Methodology.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +109,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Defenitions/Waterfall Methodology.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -157,9 +130,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Computer Science/Defenitions/Waterfall Methodology.md"
-              }
+              "state": {}
             }
           },
           {
@@ -199,13 +170,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "d36d6b9e4befde93",
+  "active": "695f860f141d4ef6",
   "lastOpenFiles": [
+    "Computer Science/Defenitions/Waterfall Methodology.md",
+    "Computer Science/Course Work/Images/Images.md",
+    "Computer Science/Course Work/Images/Decay of defence.png",
+    "Computer Science/Course Work/Images",
     "Computer Science/Defenitions/CPU.md",
     "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
     "Computer Science/Defenitions/Binary Tree Search.md",
     "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
-    "Computer Science/Defenitions/Waterfall Methodology.md",
     "Computer Science/Defenitions/Big O Notation.md",
     "Computer Science/Defenitions/Quick Sort.md",
     "Computer Science/Defenitions/Merge Sort.md",
@@ -231,7 +205,6 @@
     "Computer Science/Supporting Images/polynomial complexity.png",
     "Computer Science/Supporting Images/exponential complexity.png",
     "Computer Science/Defenitions/O(k^n) Exponential Complexity.md",
-    "Computer Science/Supporting Images/Constant complexity.png",
     "Computer Science/Defenitions/O(n) Linear Complexity.md",
     "Computer Science/Defenitions/O(1) Constant Complexity.md",
     "Computer Science/Defenitions/O(2^k) Polynomial Complexity.md",
@@ -240,13 +213,10 @@
     "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.5 Thinking concurrently.md",
     "Computer Science/Defenitions/Concurrent Processing.md",
     "Computer Science/Defenitions/Parallel Processing.md",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.4 Thinking logically.md",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
     "Computer Science/Course Work/Figure",
     "Computer Science/Course Work",
     "School-Notes",
     "Physics",
-    "Maths",
     "Untitled.canvas"
   ]
 }
