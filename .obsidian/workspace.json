@@ -13,9 +13,9 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Course Work/Report.md",
+                "file": "Computer Science/Course Work/Reports/Report.md",
                 "mode": "source",
-                "source": true
+                "source": false
               }
             }
           }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Course Work/Report.md",
+                "file": "Computer Science/Course Work/Reports/Report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Course Work/Report.md",
+                "file": "Computer Science/Course Work/Reports/Report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Course Work/Report.md"
+                "file": "Computer Science/Course Work/Reports/Report.md"
               }
             }
           },
@@ -174,13 +174,21 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5b9b9b2803505f75",
+  "active": "695f860f141d4ef6",
   "lastOpenFiles": [
+    "Computer Science/Course Work/Reports/Report.pdf",
+    "Computer Science/Course Work/Reports/Report.md",
+    "Computer Science/Course Work/Reports/Report.tex",
+    "Computer Science/Course Work/Reports/Report.docx",
+    "Computer Science/Course Work/Reports/Report.odt",
+    "Computer Science/Course Work/Report.md",
+    "Computer Science/Course Work/Reports",
+    "Computer Science/Course Work/New folder",
+    "Report.pdf",
     "Report.odt",
     "lu1591210vim.tmp",
     "Computer Science/Supporting Images/Circuit diagram of half adder.png",
     "Computer Science/Supporting Images/Binary Normalisation example.png",
-    "Computer Science/Course Work/Report.md",
     "Computer Science/Defenitions/Waterfall Methodology.md",
     "EPQ/Presentation Feedback/Questions.md",
     "EPQ/Presentation Feedback/Images/Q4.png",
@@ -193,12 +201,8 @@
     "EPQ/Presentation Feedback/Images/Q1 A.png",
     "EPQ/Presentation Feedback/Images",
     "EPQ/Presentation Feedback/Feedback Sheets.md",
-    "EPQ/Presentation Feedback",
-    "EPQ",
     "Computer Science/Defenitions/Binary Tree Search.md",
     "Computer Science/Course Work/Images/Images.md",
-    "Computer Science/Course Work/Images",
-    "Computer Science/Course Work",
     "Computer Science/Defenitions/Big O Notation.md",
     "Binary Tree Search.md",
     "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
@@ -210,10 +214,6 @@
     "Computer Science/Defenitions/Binary Search.md",
     "Computer Science/Questions/Awnsers/A-level 2017 P2 Q1.md",
     "Computer Science/Questions/Awnsers/Big O notation Questions.md",
-    "Computer Science/Questions/Questions/26-BigONotation.pdf",
-    "Computer Science/Questions/Questions",
-    "Computer Science/Questions/Awnsers",
-    "Temp/Untitled",
     "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
     "Computer Science/Defenitions/O(n^k) Polynomial Complexity.md",
     "Computer Science/Defenitions/O(k^n) Exponential Complexity.md",
@@ -221,7 +221,6 @@
     "Computer Science/Defenitions/O(1) Constant Complexity.md",
     "Computer Science/Defenitions/O(2^k) Polynomial Complexity.md",
     "Computer Science/Defenitions/O(Log n) Logarithmic Complexity.md",
-    "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.1 Programming techniques.md",
     "Untitled.canvas"
   ]
 }
