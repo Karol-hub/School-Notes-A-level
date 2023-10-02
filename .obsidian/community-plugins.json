@@ -3,8 +3,5 @@
   "calendar",
   "table-editor-obsidian",
   "obsidian-tasks-plugin",
-  "obsidian-git",
-  "image-captions",
-  "obsidian-pandoc",
-  "obsidian-plugin-toc"
+  "obsidian-git"
 ]
