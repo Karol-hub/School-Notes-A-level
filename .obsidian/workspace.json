@@ -11,10 +11,9 @@
             "id": "695f860f141d4ef6",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "image",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "EPQ/Presentation Feedback/Images/Feedback 1.png"
               }
             }
           }
@@ -72,8 +71,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -88,28 +86,30 @@
         "type": "tabs",
         "children": [
           {
-            "id": "d56e87f2a0e6c806",
+            "id": "f82b17a4b90a23ab",
+            "type": "leaf",
+            "state": {
+              "type": "outgoing-link",
+              "state": {
+                "file": "EPQ/Presentation Feedback/Images/Feedback 1.png",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
+              }
+            }
+          },
+          {
+            "id": "58ed5f30207d89b6",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
+                "file": "EPQ/Presentation Feedback/Images/Feedback 1.png",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
-              }
-            }
-          },
-          {
-            "id": "f82b17a4b90a23ab",
-            "type": "leaf",
-            "state": {
-              "type": "outgoing-link",
-              "state": {
-                "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
             }
@@ -130,7 +130,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "EPQ/Presentation Feedback/Images/Feedback 1.png"
+              }
             }
           },
           {
@@ -150,13 +152,21 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "685abaa26e75d499",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 5
+        "currentTab": 1
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 212.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -172,51 +182,51 @@
   },
   "active": "695f860f141d4ef6",
   "lastOpenFiles": [
-    "Computer Science/Defenitions/Waterfall Methodology.md",
+    "Computer Science/Course Work/Report.md",
+    "EPQ/Presentation Feedback/Images/Feedback 1.png",
+    "Feedback.md",
     "Computer Science/Course Work/Images/Images.md",
     "Computer Science/Course Work/Images/Decay of defence.png",
-    "Computer Science/Course Work/Images",
+    "Computer Science/Defenitions/Fetch Decode Execute cycle (FDE Cycle).md",
+    "Computer Science/Unit 1/1.1 The characteristics of contemporary processors, input, output and storage devices/1.1.1 Structure and function of the processor.md",
     "Computer Science/Defenitions/CPU.md",
+    "Computer Science/Unit 1/1.1 The characteristics of contemporary processors, input, output and storage devices/1.1.2 Types of processor.md",
+    "Computer Science/Unit 1/1.2 Software and software development/1.2.3 Software Development.md",
+    "Computer Science/Defenitions/Waterfall Methodology.md",
+    "Computer Science/Unit 1/1.2 Software and software development/1.2.2 Applications Generation.md",
+    "Computer Science/Course Work/Questionnaire Results.md",
+    "Computer Science/Course Work/Entire Thing.md",
+    "EPQ/Presentation Feedback/Feedback Sheets.md",
+    "EPQ/Presentation Feedback/Questions.md",
+    "EPQ/Presentation Feedback/Images/Q1.png",
+    "EPQ/Presentation Feedback/Images/Feedback 4.png",
+    "EPQ/Presentation Feedback/Images",
+    "EPQ/Presentation Feedback/Q2 A.png.0.pdnSave",
+    "EPQ/Presentation Feedback/Images/Q3 A.png",
+    "EPQ/Presentation Feedback/Q3 A.png.0.pdnSave",
+    "EPQ/Presentation Feedback/Q4 A.png.0.pdnSave",
+    "EPQ/Presentation Feedback/Q1 A.png.0.pdnSave",
+    "EPQ/Presentation Feedback/Images/Q2 A.png",
+    "EPQ/Presentation Feedback/Images/Q2.png",
+    "EPQ/Presentation Feedback/Q2.png.0.pdnSave",
+    "EPQ/Presentation Feedback/Images/Q1 A.png",
+    "EPQ/Presentation Feedback/Q1.png.0.pdnSave",
+    "EPQ/Presentation Feedback/Feedback 4.png.0.pdnSave",
+    "EPQ/Presentation Feedback/Images/Feedback 3.png",
+    "EPQ/Presentation Feedback/Feedback 3.png.0.pdnSave",
+    "EPQ/Presentation Feedback/Images/Feedback 2.png",
+    "EPQ/Presentation Feedback/Feedback 2.png.0.pdnSave",
+    "Computer Science/Defenitions/Big O Notation.md",
+    "Computer Science/Defenitions/O(1) Constant Complexity.md",
     "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
+    "Computer Science/Defenitions/Linear Search.md",
+    "Computer Science/Defenitions/Quick Sort.md",
+    "Computer Science/Defenitions/Bubble Sort.md",
     "Computer Science/Defenitions/Binary Tree Search.md",
     "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
-    "Computer Science/Defenitions/Big O Notation.md",
-    "Computer Science/Defenitions/Quick Sort.md",
     "Computer Science/Defenitions/Merge Sort.md",
     "Computer Science/Defenitions/Insertion Sort.md",
-    "Computer Science/Defenitions/Bubble Sort.md",
-    "Computer Science/Defenitions/Linear Search.md",
     "Computer Science/Defenitions/Binary Search.md",
-    "Computer Science/Questions/Awnsers/A-level 2017 P2 Q1.md",
-    "Computer Science/Questions/Awnsers/Big O notation Questions.md",
-    "Computer Science/Questions/Questions/A-level 2017 P2 Q1.png",
-    "Computer Science/Questions/Questions/26-BigONotation.pdf",
-    "Computer Science/Questions/Questions",
-    "Computer Science/Questions/Awnsers",
-    "Temp/Untitled",
-    "Computer Science/Questions",
-    "Computer Science/Supporting Images/Big O notation graphs.png",
-    "Computer Science/Supporting Images/complexity graphs big O.png",
-    "Computer Science/Supporting Images/What to look out for in big O.png",
-    "Computer Science/Supporting Images/Table for big O notation.png",
-    "Computer Science/Defenitions/O(n^k) Polynomial Complexity.md",
-    "Computer Science/Supporting Images/Logarithmic complexity.png",
-    "Computer Science/Supporting Images/Linear complexity.png",
-    "Computer Science/Supporting Images/polynomial complexity.png",
-    "Computer Science/Supporting Images/exponential complexity.png",
-    "Computer Science/Defenitions/O(k^n) Exponential Complexity.md",
-    "Computer Science/Defenitions/O(n) Linear Complexity.md",
-    "Computer Science/Defenitions/O(1) Constant Complexity.md",
-    "Computer Science/Defenitions/O(2^k) Polynomial Complexity.md",
-    "Computer Science/Defenitions/O(Log n) Logarithmic Complexity.md",
-    "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.1 Programming techniques.md",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.5 Thinking concurrently.md",
-    "Computer Science/Defenitions/Concurrent Processing.md",
-    "Computer Science/Defenitions/Parallel Processing.md",
-    "Computer Science/Course Work/Figure",
-    "Computer Science/Course Work",
-    "School-Notes",
-    "Physics",
     "Untitled.canvas"
   ]
 }
