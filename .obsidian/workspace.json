@@ -11,10 +11,11 @@
             "id": "695f860f141d4ef6",
             "type": "leaf",
             "state": {
-              "type": "diff-view",
+              "type": "markdown",
               "state": {
-                "file": ".obsidian/workspace.json",
-                "staged": false
+                "file": "Computer Science/Course Work/Report.md",
+                "mode": "source",
+                "source": true
               }
             }
           }
@@ -72,8 +73,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 3
+        ]
       }
     ],
     "direction": "horizontal",
@@ -93,6 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "Computer Science/Course Work/Report.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -109,6 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "Computer Science/Course Work/Report.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -130,7 +132,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "Computer Science/Course Work/Report.md"
+              }
             }
           },
           {
@@ -170,8 +174,13 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "695f860f141d4ef6",
+  "active": "5b9b9b2803505f75",
   "lastOpenFiles": [
+    "Report.odt",
+    "lu1591210vim.tmp",
+    "Computer Science/Supporting Images/Circuit diagram of half adder.png",
+    "Computer Science/Supporting Images/Binary Normalisation example.png",
+    "Computer Science/Course Work/Report.md",
     "Computer Science/Defenitions/Waterfall Methodology.md",
     "EPQ/Presentation Feedback/Questions.md",
     "EPQ/Presentation Feedback/Images/Q4.png",
@@ -182,13 +191,10 @@
     "EPQ/Presentation Feedback/Images/Q2 A.png",
     "EPQ/Presentation Feedback/Images/Q1.png",
     "EPQ/Presentation Feedback/Images/Q1 A.png",
-    "EPQ/Presentation Feedback/Images/Feedback 4.png",
-    "EPQ/Presentation Feedback/Images/Feedback 3.png",
     "EPQ/Presentation Feedback/Images",
     "EPQ/Presentation Feedback/Feedback Sheets.md",
     "EPQ/Presentation Feedback",
     "EPQ",
-    "Computer Science/Course Work/Report.md",
     "Computer Science/Defenitions/Binary Tree Search.md",
     "Computer Science/Course Work/Images/Images.md",
     "Computer Science/Course Work/Images",
@@ -208,7 +214,6 @@
     "Computer Science/Questions/Questions",
     "Computer Science/Questions/Awnsers",
     "Temp/Untitled",
-    "Computer Science/Questions",
     "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
     "Computer Science/Defenitions/O(n^k) Polynomial Complexity.md",
     "Computer Science/Defenitions/O(k^n) Exponential Complexity.md",
@@ -217,7 +222,6 @@
     "Computer Science/Defenitions/O(2^k) Polynomial Complexity.md",
     "Computer Science/Defenitions/O(Log n) Logarithmic Complexity.md",
     "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.1 Programming techniques.md",
-    "Computer Science/Unit 2/2.1 Elements of computational thinking/2.1.5 Thinking concurrently.md",
     "Untitled.canvas"
   ]
 }
