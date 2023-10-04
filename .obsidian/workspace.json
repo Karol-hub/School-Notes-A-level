@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9815d932cfd02730",
+        "id": "9cd86d0b5ce556b5",
         "type": "tabs",
         "children": [
           {
-            "id": "695f860f141d4ef6",
+            "id": "2bff948f138c0f01",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Life/Plan.md",
+                "file": "EPQ/Time Planning/Time Planning.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Life/Plan.md",
+                "file": "EPQ/Time Planning/Time Planning.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Life/Plan.md",
+                "file": "EPQ/Time Planning/Time Planning.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Life/Plan.md"
+                "file": "EPQ/Time Planning/Time Planning.md"
               }
             }
           },
@@ -156,7 +156,7 @@
             }
           },
           {
-            "id": "26372b14dab32655",
+            "id": "79805da68997dc79",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
@@ -168,7 +168,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 200
+    "width": 304.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,54 +182,52 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "695f860f141d4ef6",
+  "active": "2bff948f138c0f01",
   "lastOpenFiles": [
-    "Life/First Draft.md",
+    "EPQ/Final Submission/Final Submission checklist.md",
+    "EPQ/Time Planning/Time Planning.md",
+    "EPQ/Final Submission",
+    "EPQ/Time Planning/Proof/Graph of time spent of project.png",
+    "EPQ/Skills Audit/Skills Audit.md",
+    "EPQ/Presentation Feedback/Feedback Analysis.md",
+    "EPQ/Presentation Feedback/Images/presenting.png.0.pdnSave",
+    "EPQ/Presentation Feedback/Images/presenting.png",
+    "EPQ/Presentation Feedback/Images/Feedback 1.png",
+    "EPQ/Presentation Feedback/Images/Feedback 2.png",
+    "EPQ/Presentation Feedback/Images/Feedback 3.png",
+    "EPQ/Presentation Feedback/Images/Feedback 4.png",
+    "EPQ/Presentation Feedback/Images/Q1.png",
+    "EPQ/Presentation Feedback/Images/First presentation.png",
+    "EPQ/Presentation Feedback/Images/Q4.png",
+    "EPQ/Presentation Feedback/Images/First presentation.png.0.pdnSave",
+    "EPQ/Presentation Feedback/New folder",
+    "EPQ/Presentation Feedback/Questions.md",
+    "EPQ/Overall evaluation",
+    "EPQ/Time Planning/Proof",
+    "EPQ/Time Planning",
     "Life/Personal Statement.md",
     "Life/Plan.md",
-    "Computer Science/A Level Textbook.pdf",
-    "Life",
-    "Computer Science/Defenitions/Quick Sort.md",
+    "Life/First Draft.md",
+    "Middle key.png.md",
+    "EPQ/Skills Audit/Evidence/!Spreadsheet stuff",
+    "EPQ/Skills Audit/Evidence/End",
+    "EPQ/Skills Audit/Evidence/Middle",
     "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
-    "Computer Science/Course Work/Images/Decay of defence.png",
+    "Computer Science/Defenitions/Quick Sort.md",
     "Computer Science/Course Work/Reports/Report.md",
-    "EPQ/Presentation Feedback/Feedback Sheets.md",
-    "EPQ/Presentation Feedback/Images/Feedback 4.png",
-    "EPQ/Presentation Feedback/Images/Feedback 3.png",
-    "EPQ/Presentation Feedback/Images/Feedback 2.png",
-    "EPQ/Presentation Feedback/Images/Feedback 1.png",
-    "Computer Science/Defenitions/Consecutive.md",
-    "Computer Science/Course Work/Reports/Report.pdf",
-    "Computer Science/Course Work/Reports/Report.tex",
-    "Computer Science/Course Work/Reports/Report.docx",
-    "Computer Science/Course Work/Reports/Report.odt",
+    "Computer Science/Defenitions/Merge Sort.md",
+    "Computer Science/Defenitions/Insertion Sort.md",
+    "Computer Science/Defenitions/Bubble Sort.md",
+    "Computer Science/Defenitions/Binary Search.md",
+    "Computer Science/Defenitions/Linear Search.md",
     "Computer Science/Course Work/Report.md",
-    "Computer Science/Course Work/Reports",
-    "Computer Science/Course Work/New folder",
-    "Report.pdf",
-    "Report.odt",
-    "Computer Science/Supporting Images/Circuit diagram of half adder.png",
-    "Computer Science/Supporting Images/Binary Normalisation example.png",
     "Computer Science/Defenitions/Waterfall Methodology.md",
-    "EPQ/Presentation Feedback/Questions.md",
-    "EPQ/Presentation Feedback/Images/Q4.png",
-    "EPQ/Presentation Feedback/Images/Q4 A.png",
-    "EPQ/Presentation Feedback/Images/Q3.png",
     "Computer Science/Defenitions/Binary Tree Search.md",
     "Computer Science/Course Work/Images/Images.md",
     "Computer Science/Defenitions/Big O Notation.md",
     "Binary Tree Search.md",
-    "Computer Science/Defenitions/Merge Sort.md",
-    "Computer Science/Defenitions/Insertion Sort.md",
-    "Computer Science/Defenitions/Bubble Sort.md",
-    "Computer Science/Defenitions/Linear Search.md",
-    "Computer Science/Defenitions/Binary Search.md",
     "Computer Science/Questions/Awnsers/A-level 2017 P2 Q1.md",
     "Computer Science/Questions/Awnsers/Big O notation Questions.md",
-    "Computer Science/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
-    "Computer Science/Defenitions/O(n^k) Polynomial Complexity.md",
-    "Computer Science/Defenitions/O(k^n) Exponential Complexity.md",
-    "Computer Science/Defenitions/O(n) Linear Complexity.md",
     "Untitled.canvas"
   ]
 }

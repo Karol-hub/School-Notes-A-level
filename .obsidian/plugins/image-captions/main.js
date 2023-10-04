@@ -24,7 +24,8 @@ var __toCommonJS = (mod) => __copyProps(__defProp({}, "__esModule", { value: tru
 // src/main.ts
 var main_exports = {};
 __export(main_exports, {
-  default: () => ImageCaptions
+  default: () => ImageCaptions,
+  renderMarkdown: () => renderMarkdown
 });
 module.exports = __toCommonJS(main_exports);
 var import_obsidian = require("obsidian");
@@ -32,12 +33,12 @@ var filenamePlaceholder = "%";
 var filenameExtensionPlaceholder = "%.%";
 var ImageCaptions = class extends import_obsidian.Plugin {
   async onload() {
-    this.registerMarkdownPostProcessor(externalImageProcessor());
+    this.registerMarkdownPostProcessor(externalImageProcessor(this));
     this.observer = new MutationObserver((mutations) => {
       mutations.forEach((rec) => {
         if (rec.type === "childList") {
-          rec.target.querySelectorAll(".image-embed").forEach((imageEmbedContainer) => {
-            var _a;
+          rec.target.querySelectorAll(".image-embed").forEach(async (imageEmbedContainer) => {
+            var _a, _b;
             const img = imageEmbedContainer.querySelector("img");
             const width = imageEmbedContainer.getAttribute("width") || "";
             const captionText = getCaptionText(imageEmbedContainer);
@@ -47,14 +48,15 @@ var ImageCaptions = class extends import_obsidian.Plugin {
             const figCaption = imageEmbedContainer.querySelector("figcaption");
             if (figure || ((_a = img.parentElement) == null ? void 0 : _a.nodeName) === "FIGURE") {
               if (figCaption && captionText) {
-                figCaption.innerText = captionText;
+                const children = (_b = await renderMarkdown(captionText, "", this)) != null ? _b : [captionText];
+                figCaption.replaceChildren(...children);
               } else if (!captionText) {
                 imageEmbedContainer.appendChild(img);
                 figure == null ? void 0 : figure.remove();
               }
             } else {
               if (captionText && captionText !== imageEmbedContainer.getAttribute("src")) {
-                insertFigureWithCaption(img, imageEmbedContainer, captionText);
+                await insertFigureWithCaption(img, imageEmbedContainer, captionText, "", this);
               }
             }
             if (width) {
@@ -90,25 +92,38 @@ function getCaptionText(img) {
   } else if (captionText === "\\" + filenamePlaceholder) {
     captionText = filenamePlaceholder;
   }
+  captionText = captionText.replace(/<<(.*?)>>/g, (match, linktext) => {
+    return "[[" + linktext + "]]";
+  });
   return captionText;
 }
-function externalImageProcessor() {
-  return (el) => {
-    el.findAll("img:not(.emoji)").forEach((img) => {
+function externalImageProcessor(plugin) {
+  return (el, ctx) => {
+    el.findAll("img:not(.emoji)").forEach(async (img) => {
       const captionText = getCaptionText(img);
       const parent = img.parentElement;
       if (parent && (parent == null ? void 0 : parent.nodeName) !== "FIGURE" && captionText && captionText !== img.getAttribute("src")) {
-        insertFigureWithCaption(img, parent, captionText);
+        await insertFigureWithCaption(img, parent, captionText, ctx.sourcePath, plugin);
       }
     });
   };
 }
-function insertFigureWithCaption(imageEl, outerEl, captionText) {
+async function insertFigureWithCaption(imageEl, outerEl, captionText, sourcePath, plugin) {
+  var _a;
   const figure = outerEl.createEl("figure");
   figure.addClass("image-captions-figure");
   figure.appendChild(imageEl);
+  const children = (_a = await renderMarkdown(captionText, sourcePath, plugin)) != null ? _a : [captionText];
   figure.createEl("figcaption", {
-    text: captionText,
     cls: "image-captions-caption"
-  });
+  }).replaceChildren(...children);
+}
+async function renderMarkdown(markdown, sourcePath, component) {
+  const el = createDiv();
+  await import_obsidian.MarkdownRenderer.renderMarkdown(markdown, el, sourcePath, component);
+  for (const child of el.children) {
+    if (child.tagName == "P") {
+      return child.childNodes;
+    }
+  }
 }
