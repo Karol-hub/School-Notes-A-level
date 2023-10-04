@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Course Work/Reports/Report.md",
+                "file": "Life/Plan.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Course Work/Reports/Report.md",
+                "file": "Life/Plan.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Course Work/Reports/Report.md",
+                "file": "Life/Plan.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Course Work/Reports/Report.md"
+                "file": "Life/Plan.md"
               }
             }
           },
@@ -154,13 +154,21 @@
                 "sortOrder": "frequency"
               }
             }
+          },
+          {
+            "id": "26372b14dab32655",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 304.5
+    "width": 200
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,8 +184,22 @@
   },
   "active": "695f860f141d4ef6",
   "lastOpenFiles": [
-    "Computer Science/Course Work/Reports/Report.pdf",
+    "Life/First Draft.md",
+    "Life/Personal Statement.md",
+    "Life/Plan.md",
+    "Computer Science/A Level Textbook.pdf",
+    "Life",
+    "Computer Science/Defenitions/Quick Sort.md",
+    "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
+    "Computer Science/Course Work/Images/Decay of defence.png",
     "Computer Science/Course Work/Reports/Report.md",
+    "EPQ/Presentation Feedback/Feedback Sheets.md",
+    "EPQ/Presentation Feedback/Images/Feedback 4.png",
+    "EPQ/Presentation Feedback/Images/Feedback 3.png",
+    "EPQ/Presentation Feedback/Images/Feedback 2.png",
+    "EPQ/Presentation Feedback/Images/Feedback 1.png",
+    "Computer Science/Defenitions/Consecutive.md",
+    "Computer Science/Course Work/Reports/Report.pdf",
     "Computer Science/Course Work/Reports/Report.tex",
     "Computer Science/Course Work/Reports/Report.docx",
     "Computer Science/Course Work/Reports/Report.odt",
@@ -186,7 +208,6 @@
     "Computer Science/Course Work/New folder",
     "Report.pdf",
     "Report.odt",
-    "lu1591210vim.tmp",
     "Computer Science/Supporting Images/Circuit diagram of half adder.png",
     "Computer Science/Supporting Images/Binary Normalisation example.png",
     "Computer Science/Defenitions/Waterfall Methodology.md",
@@ -194,19 +215,10 @@
     "EPQ/Presentation Feedback/Images/Q4.png",
     "EPQ/Presentation Feedback/Images/Q4 A.png",
     "EPQ/Presentation Feedback/Images/Q3.png",
-    "EPQ/Presentation Feedback/Images/Q3 A.png",
-    "EPQ/Presentation Feedback/Images/Q2.png",
-    "EPQ/Presentation Feedback/Images/Q2 A.png",
-    "EPQ/Presentation Feedback/Images/Q1.png",
-    "EPQ/Presentation Feedback/Images/Q1 A.png",
-    "EPQ/Presentation Feedback/Images",
-    "EPQ/Presentation Feedback/Feedback Sheets.md",
     "Computer Science/Defenitions/Binary Tree Search.md",
     "Computer Science/Course Work/Images/Images.md",
     "Computer Science/Defenitions/Big O Notation.md",
     "Binary Tree Search.md",
-    "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
-    "Computer Science/Defenitions/Quick Sort.md",
     "Computer Science/Defenitions/Merge Sort.md",
     "Computer Science/Defenitions/Insertion Sort.md",
     "Computer Science/Defenitions/Bubble Sort.md",
@@ -218,9 +230,6 @@
     "Computer Science/Defenitions/O(n^k) Polynomial Complexity.md",
     "Computer Science/Defenitions/O(k^n) Exponential Complexity.md",
     "Computer Science/Defenitions/O(n) Linear Complexity.md",
-    "Computer Science/Defenitions/O(1) Constant Complexity.md",
-    "Computer Science/Defenitions/O(2^k) Polynomial Complexity.md",
-    "Computer Science/Defenitions/O(Log n) Logarithmic Complexity.md",
     "Untitled.canvas"
   ]
 }
