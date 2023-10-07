@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "EPQ/Time Planning/Time Planning.md",
+                "file": "Computer Science/Defenitions/A-star Pathfinding.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EPQ/Time Planning/Time Planning.md",
+                "file": "Computer Science/Defenitions/A-star Pathfinding.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EPQ/Time Planning/Time Planning.md",
+                "file": "Computer Science/Defenitions/A-star Pathfinding.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EPQ/Time Planning/Time Planning.md"
+                "file": "Computer Science/Defenitions/A-star Pathfinding.md"
               }
             }
           },
@@ -184,13 +184,27 @@
   },
   "active": "2bff948f138c0f01",
   "lastOpenFiles": [
+    "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
+    "Computer Science/Defenitions/Dijkstra's Shortest Path.md",
+    "Computer Science/Defenitions/A-star Pathfinding.md",
+    "Computer Science/CS A Level Textbook.pdf",
     "EPQ/Final Submission/Final Submission checklist.md",
+    "EPQ/Final Submission/Feedback Analysis.pdf",
     "EPQ/Time Planning/Time Planning.md",
-    "EPQ/Final Submission",
-    "EPQ/Time Planning/Proof/Graph of time spent of project.png",
+    "EPQ/Final Submission/Skills Audit.pdf",
+    "EPQ/Final Submission/Time Planning.pdf",
     "EPQ/Skills Audit/Skills Audit.md",
     "EPQ/Presentation Feedback/Feedback Analysis.md",
-    "EPQ/Presentation Feedback/Images/presenting.png.0.pdnSave",
+    "EPQ/Final Submission/Log Book (WIP).pdf",
+    "EPQ/Final Submission/lu143803wox1.tmp",
+    "EPQ/Final Submission/lu143803wowx.tmp",
+    "EPQ/Final Submission/Log Book.odt",
+    "EPQ/Final Submission/lu143803wows.tmp",
+    "Life/Plan.md",
+    "Life/Personal Statement.md",
+    "Life/First Draft.md",
+    "EPQ/Final Submission",
+    "EPQ/Time Planning/Proof/Graph of time spent of project.png",
     "EPQ/Presentation Feedback/Images/presenting.png",
     "EPQ/Presentation Feedback/Images/Feedback 1.png",
     "EPQ/Presentation Feedback/Images/Feedback 2.png",
@@ -199,20 +213,8 @@
     "EPQ/Presentation Feedback/Images/Q1.png",
     "EPQ/Presentation Feedback/Images/First presentation.png",
     "EPQ/Presentation Feedback/Images/Q4.png",
-    "EPQ/Presentation Feedback/Images/First presentation.png.0.pdnSave",
-    "EPQ/Presentation Feedback/New folder",
     "EPQ/Presentation Feedback/Questions.md",
-    "EPQ/Overall evaluation",
-    "EPQ/Time Planning/Proof",
-    "EPQ/Time Planning",
-    "Life/Personal Statement.md",
-    "Life/Plan.md",
-    "Life/First Draft.md",
     "Middle key.png.md",
-    "EPQ/Skills Audit/Evidence/!Spreadsheet stuff",
-    "EPQ/Skills Audit/Evidence/End",
-    "EPQ/Skills Audit/Evidence/Middle",
-    "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
     "Computer Science/Defenitions/Quick Sort.md",
     "Computer Science/Course Work/Reports/Report.md",
     "Computer Science/Defenitions/Merge Sort.md",
@@ -227,7 +229,6 @@
     "Computer Science/Defenitions/Big O Notation.md",
     "Binary Tree Search.md",
     "Computer Science/Questions/Awnsers/A-level 2017 P2 Q1.md",
-    "Computer Science/Questions/Awnsers/Big O notation Questions.md",
     "Untitled.canvas"
   ]
 }
