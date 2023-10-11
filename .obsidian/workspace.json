@@ -11,27 +11,9 @@
             "id": "aaba8b5399980068",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "Computer Science/Work/ClassWork/Dijkstra Exercises.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "453b3da622707c03",
-        "type": "tabs",
-        "children": [
-          {
-            "id": "b8cbafa27d88ec6d",
-            "type": "leaf",
-            "state": {
               "type": "pdf",
               "state": {
-                "file": "Computer Science/Work/ClassWork/Worksheets/233_Algorithms_Dijkstra_Exercises.pdf"
+                "file": "EPQ/Final Submission/Log Book (WIP).pdf"
               }
             }
           }
@@ -109,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Work/ClassWork/Dijkstra Exercises.md",
+                "file": "EPQ/Final Submission/Log Book (WIP).pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Work/ClassWork/Dijkstra Exercises.md",
+                "file": "EPQ/Final Submission/Log Book (WIP).pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Work/ClassWork/Dijkstra Exercises.md"
+                "file": "EPQ/Final Submission/Log Book (WIP).pdf"
               }
             }
           },
@@ -201,22 +183,25 @@
   },
   "active": "aaba8b5399980068",
   "lastOpenFiles": [
-    "Computer Science/Work/ClassWork/Worksheets/233_Algorithms_Dijkstra_Exercises.pdf",
-    "Computer Science/Work/ClassWork/Dijkstra Exercises.md",
+    "EPQ/Final Submission/lu1318412341.tmp",
+    "EPQ/Final Submission/lu131841233y.tmp",
+    "EPQ/Final Submission/lu131841233t.tmp",
+    "EPQ/Final Submission/lu131841233b.tmp",
+    "EPQ/Final Submission/lu1318412337.tmp",
+    "EPQ/Final Submission/lu1318412334.tmp",
+    "EPQ/Final Submission/lu131841232x.tmp",
+    "EPQ/Final Submission/lu131841232u.tmp",
+    "EPQ/Final Submission/lu131841232q.tmp",
+    "EPQ/Final Submission/lu131841232j.tmp",
+    "EPQ/Final Submission/lu131841232f.tmp",
+    "EPQ/Final Submission/! Final Submission checklist.md",
+    "Computer Science/Work/ClassWork/Work/A-star pathfinding alg.md",
+    "Computer Science/Work/ClassWork/Work/Dijkstra Exercises.md",
     "Computer Science/Work/HWK/Page 370 Q.md",
-    "Computer Science/Notes/CS A Level Textbook.pdf",
-    "Computer Science/Work/ClassWork/Worksheets",
-    "Computer Science/Work/ClassWork/New folder",
-    "Computer Science/Work/ClassWork",
-    "Computer Science/Work/HWK",
     "Computer Science/Work/Untitled.md",
     "Computer Science/Notes/Defenitions/Dijkstra's Shortest Path.md",
-    "Computer Science/Notes",
     "Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
     "conflict-files-obsidian-git.md",
-    "EPQ/Final Submission/Time Planning.pdf",
-    "EPQ/Final Submission/Skills Audit.pdf",
-    "EPQ/Final Submission/Log Book.odt",
     "Computer Science/Notes/Defenitions/A-star Pathfinding.md",
     "Life/Personal Statement.md",
     "Life/Drafts/! Plan.md",
@@ -233,11 +218,9 @@
     "Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.2 Data Structures.md",
     "Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
     "Computer Science/Notes/Defenitions/Data types.md",
-    "EPQ/Final Submission/Final Submission checklist.md",
     "EPQ/Presentation Feedback/Images/Feedback 1.png",
     "EPQ/Presentation Feedback/Feedback Analysis.md",
     "EPQ/Skills Audit/Skills Audit.md",
-    "EPQ/Time Planning/Time Planning.md",
     "EPQ/Time Planning/Proof/Graph of time spent of project.png",
     "EPQ/Time Planning/Proof/Gnat chart.png",
     "EPQ/Time Planning/Proof/Entire Gnatt chart.png",
