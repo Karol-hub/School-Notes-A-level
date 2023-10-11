@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "9815d932cfd02730",
+        "id": "bf1996150c17ca93",
         "type": "tabs",
         "children": [
           {
-            "id": "695f860f141d4ef6",
+            "id": "aaba8b5399980068",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Hwk/Page 370 Q.md",
+                "file": "Computer Science/Work/ClassWork/Dijkstra Exercises.md",
                 "mode": "source",
                 "source": false
               }
@@ -22,16 +22,16 @@
         ]
       },
       {
-        "id": "a55d09d9f8f6fc68",
+        "id": "453b3da622707c03",
         "type": "tabs",
         "children": [
           {
-            "id": "14dc0d494d8de50a",
+            "id": "b8cbafa27d88ec6d",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "Computer Science/A Level Textbook.pdf"
+                "file": "Computer Science/Work/ClassWork/Worksheets/233_Algorithms_Dijkstra_Exercises.pdf"
               }
             }
           }
@@ -109,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Hwk/Page 370 Q.md",
+                "file": "Computer Science/Work/ClassWork/Dijkstra Exercises.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -126,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Hwk/Page 370 Q.md",
+                "file": "Computer Science/Work/ClassWork/Dijkstra Exercises.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -149,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Hwk/Page 370 Q.md"
+                "file": "Computer Science/Work/ClassWork/Dijkstra Exercises.md"
               }
             }
           },
@@ -199,35 +199,41 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "695f860f141d4ef6",
+  "active": "aaba8b5399980068",
   "lastOpenFiles": [
-    "Computer Science/A Level Textbook.pdf",
-    "Computer Science/Hwk/Page 370 Q.md",
-    "Computer Science/Hwk",
+    "Computer Science/Work/ClassWork/Worksheets/233_Algorithms_Dijkstra_Exercises.pdf",
+    "Computer Science/Work/ClassWork/Dijkstra Exercises.md",
+    "Computer Science/Work/HWK/Page 370 Q.md",
+    "Computer Science/Notes/CS A Level Textbook.pdf",
+    "Computer Science/Work/ClassWork/Worksheets",
+    "Computer Science/Work/ClassWork/New folder",
+    "Computer Science/Work/ClassWork",
+    "Computer Science/Work/HWK",
+    "Computer Science/Work/Untitled.md",
+    "Computer Science/Notes/Defenitions/Dijkstra's Shortest Path.md",
+    "Computer Science/Notes",
+    "Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
+    "conflict-files-obsidian-git.md",
+    "EPQ/Final Submission/Time Planning.pdf",
+    "EPQ/Final Submission/Skills Audit.pdf",
+    "EPQ/Final Submission/Log Book.odt",
+    "Computer Science/Notes/Defenitions/A-star Pathfinding.md",
     "Life/Personal Statement.md",
     "Life/Drafts/! Plan.md",
     "Life/Drafts/Second Draft.md",
-    "Life/Drafts",
-    "Computer Science/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
-    "Computer Science/Unit 1/1.4 Data types, data structures and algorithms/1.4.3 Boolean Algebra.md",
+    "Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.3 Boolean Algebra.md",
     "Life/Drafts/First Draft.md",
-    "Computer Science/Defenitions/Big O Notation.md",
-    "Computer Science/Defenitions/Stack.md",
+    "Computer Science/Notes/Defenitions/Big O Notation.md",
+    "Computer Science/Notes/Defenitions/Stack.md",
     "Temp/Temp exam Q.md",
-    "Temp",
     "Temp/Pasted image 20231005143115.png",
     "Computer Science/Defenitions/O(2^k) Polynomial Complexity.md",
-    "Computer Science/Defenitions/O(n^k) Polynomial Complexity.md",
-    "Computer Science/Defenitions/Data Structure.md",
-    "Computer Science/Unit 1/1.4 Data types, data structures and algorithms/1.4.2 Data Structures.md",
-    "Computer Science/Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
-    "Computer Science/Defenitions/Data types.md",
-    "Maths/Textbook/Statistics and Mechanics Year 2 Book.pdf",
+    "Computer Science/Notes/Defenitions/O(n^k) Polynomial Complexity.md",
+    "Computer Science/Notes/Defenitions/Data Structure.md",
+    "Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.2 Data Structures.md",
+    "Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
+    "Computer Science/Notes/Defenitions/Data types.md",
     "EPQ/Final Submission/Final Submission checklist.md",
-    "Maths/Textbook",
-    "Maths/New folder",
-    "Maths",
-    "New folder",
     "EPQ/Presentation Feedback/Images/Feedback 1.png",
     "EPQ/Presentation Feedback/Feedback Analysis.md",
     "EPQ/Skills Audit/Skills Audit.md",
@@ -235,17 +241,11 @@
     "EPQ/Time Planning/Proof/Graph of time spent of project.png",
     "EPQ/Time Planning/Proof/Gnat chart.png",
     "EPQ/Time Planning/Proof/Entire Gnatt chart.png",
-    "EPQ/Time Planning/Proof",
     "EPQ/Skills Audit/Evidence/Start/wind_chain_knife.png",
     "EPQ/Skills Audit/Evidence/Start/watermellon.png",
     "EPQ/Skills Audit/Evidence/Start/surfing.png",
     "EPQ/Skills Audit/Evidence/Start/staff_whole.png",
     "EPQ/Skills Audit/Evidence/Start/staff_top.png",
-    "EPQ/Presentation Feedback/Feedback Sheets.md",
-    "Computer Science/Defenitions/Quick Sort.md",
-    "Computer Science/Course Work/Reports/Report.md",
-    "Computer Science/Defenitions/Consecutive.md",
-    "Computer Science/Course Work/Report.md",
     "Untitled.canvas"
   ]
 }
