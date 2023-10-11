@@ -1,0 +1,24 @@
+{
+	"nodes":[
+		{"id":"0a192d66dc82e0b4","type":"group","x":-640,"y":-480,"width":1360,"height":1760,"label":"Character Concepts"},
+		{"id":"e046d9075a655f99","type":"group","x":2080,"y":-480,"width":1240,"height":1480,"label":"Body Concept art"},
+		{"id":"d6c21e6561cb4929","type":"group","x":760,"y":-480,"width":1240,"height":1220,"label":"Helmet Concept art"},
+		{"id":"2b1aa0d404245dab","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concepts/apex valk.png","x":-620,"y":-452,"width":400,"height":225},
+		{"id":"04433aecd8efb973","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concepts/Viper helmet.png","x":-620,"y":-193,"width":400,"height":225},
+		{"id":"510da5117581dd9f","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concepts/hollow knight.png","x":-620,"y":59,"width":400,"height":288},
+		{"id":"357242d2a6a7b0f3","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concepts/climbing clips.png","x":-180,"y":-427,"width":400,"height":267},
+		{"id":"286a2e4bf83e409f","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concepts/Climbing gear.png","x":-180,"y":-97,"width":400,"height":400},
+		{"id":"16d23697659acefc","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concepts/Attack on titan ODM gear.png","x":-180,"y":347,"width":400,"height":288},
+		{"id":"4df78f51b2330939","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concepts/Apocalypse character concept art.png","x":-620,"y":380,"width":400,"height":631},
+		{"id":"3e583fbb6589a4e5","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concepts/Concept art from internet.png","x":-180,"y":675,"width":840,"height":540},
+		{"id":"f4327d71b7079e21","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concepts/helmet 1.png","x":280,"y":-427,"width":400,"height":400},
+		{"id":"f598cf79acb80d53","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concepts/helmet.png","x":280,"y":3,"width":400,"height":400},
+		{"id":"e09779162b171141","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/Concept helmet with filters.png","x":806,"y":-424,"width":540,"height":543},
+		{"id":"3ab03e1a4ae74130","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/Concept helmet with band.png","x":1400,"y":-424,"width":533,"height":543},
+		{"id":"0a9e82445297681f","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/Concept helmet to ridge.png","x":1400,"y":151,"width":533,"height":524},
+		{"id":"ab8a9e01741d3840","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/Concept helmet with pipes.png","x":806,"y":151,"width":540,"height":547},
+		{"id":"4a4c839c269bcef6","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concept art/Bod/Body straps concept.png","x":2120,"y":-424,"width":600,"height":579},
+		{"id":"e4b606790055489c","type":"file","file":"Computer Science/Course Work/Thoughts/Character/Character concept art/Bod/Body cloth and straps.png","x":2120,"y":200,"width":560,"height":531}
+	],
+	"edges":[]
+}

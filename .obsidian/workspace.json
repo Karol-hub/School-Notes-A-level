@@ -4,16 +4,21 @@
     "type": "split",
     "children": [
       {
-        "id": "bf1996150c17ca93",
+        "id": "9cd86d0b5ce556b5",
         "type": "tabs",
         "children": [
           {
-            "id": "aaba8b5399980068",
+            "id": "2bff948f138c0f01",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "canvas",
               "state": {
-                "file": "EPQ/Final Submission/Log Book (WIP).pdf"
+                "file": "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
+                "viewState": {
+                  "x": 1874.9104519413133,
+                  "y": 403.5066389401627,
+                  "zoom": -1
+                }
               }
             }
           }
@@ -91,7 +96,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "EPQ/Final Submission/Log Book (WIP).pdf",
+                "file": "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -108,7 +113,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "EPQ/Final Submission/Log Book (WIP).pdf",
+                "file": "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -131,7 +136,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "EPQ/Final Submission/Log Book (WIP).pdf"
+                "file": "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas"
               }
             }
           },
@@ -154,7 +159,7 @@
             }
           },
           {
-            "id": "26372b14dab32655",
+            "id": "79805da68997dc79",
             "type": "leaf",
             "state": {
               "type": "advanced-tables-toolbar",
@@ -162,11 +167,11 @@
             }
           }
         ],
-        "currentTab": 6
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
+    "width": 304.5,
     "collapsed": true
   },
   "left-ribbon": {
@@ -181,54 +186,53 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "aaba8b5399980068",
+  "active": "2bff948f138c0f01",
   "lastOpenFiles": [
-    "EPQ/Final Submission/lu1318412341.tmp",
-    "EPQ/Final Submission/lu131841233y.tmp",
-    "EPQ/Final Submission/lu131841233t.tmp",
-    "EPQ/Final Submission/lu131841233b.tmp",
-    "EPQ/Final Submission/lu1318412337.tmp",
-    "EPQ/Final Submission/lu1318412334.tmp",
-    "EPQ/Final Submission/lu131841232x.tmp",
-    "EPQ/Final Submission/lu131841232u.tmp",
-    "EPQ/Final Submission/lu131841232q.tmp",
-    "EPQ/Final Submission/lu131841232j.tmp",
-    "EPQ/Final Submission/lu131841232f.tmp",
-    "EPQ/Final Submission/! Final Submission checklist.md",
-    "Computer Science/Work/ClassWork/Work/A-star pathfinding alg.md",
-    "Computer Science/Work/ClassWork/Work/Dijkstra Exercises.md",
-    "Computer Science/Work/HWK/Page 370 Q.md",
-    "Computer Science/Work/Untitled.md",
-    "Computer Science/Notes/Defenitions/Dijkstra's Shortest Path.md",
-    "Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Bod/Body cloth and straps.png",
+    "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Bod/Body straps concept.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Bod/Body Concept art.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concepts/Concept art from internet.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concepts/Apocalypse character concept art.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/Concept helmet to ridge.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Bod",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet",
+    "Computer Science/Course Work/Thoughts/Character/Character concepts/Attack on titan ODM gear.png",
+    "Pasted image 20231011182044.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/Concept helmet with band.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/Concept helmet with filters.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art",
+    "Computer Science/Course Work/Thoughts/Character/Character concepts",
+    "Computer Science/Course Work/Reports/Report.md",
     "conflict-files-obsidian-git.md",
-    "Computer Science/Notes/Defenitions/A-star Pathfinding.md",
-    "Life/Personal Statement.md",
-    "Life/Drafts/! Plan.md",
+    "Excalidraw/Drawing 2023-10-11 14.52.52.excalidraw.md",
+    "Excalidraw",
+    "Computer Science/Course Work/Thoughts/Character",
+    "Computer Science/Course Work/Thoughts",
+    "Maths/Textbook/Statistics and Mechanics Year 2 Book.pdf",
+    "Maths/Textbook",
     "Life/Drafts/Second Draft.md",
-    "Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.3 Boolean Algebra.md",
     "Life/Drafts/First Draft.md",
-    "Computer Science/Notes/Defenitions/Big O Notation.md",
-    "Computer Science/Notes/Defenitions/Stack.md",
-    "Temp/Temp exam Q.md",
-    "Temp/Pasted image 20231005143115.png",
-    "Computer Science/Defenitions/O(2^k) Polynomial Complexity.md",
-    "Computer Science/Notes/Defenitions/O(n^k) Polynomial Complexity.md",
-    "Computer Science/Notes/Defenitions/Data Structure.md",
+    "Life/Drafts/! Plan.md",
+    "Life/Drafts",
+    "EPQ/Final Submission/! Final Submission checklist.md",
+    "Computer Science/Work/ClassWork/Work/Dijkstra Exercises.md",
+    "Computer Science/Work/ClassWork/Work/A-star pathfinding alg.md",
+    "Computer Science/Work/HWK/Page 370 Q.md",
+    "Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
+    "Computer Science/Notes/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
+    "Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.4 Thinking logically.md",
+    "Computer Science/Notes/Unit 2/2.2 Problem solving and programming/2.2.1 Programming techniques.md",
+    "Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.5 Thinking concurrently.md",
+    "Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
+    "Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.2 Thinking ahead.md",
+    "Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
+    "Computer Science/Notes/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
+    "Computer Science/Notes/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.1 Computing related legislation.md",
+    "Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.3 Boolean Algebra.md",
     "Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.2 Data Structures.md",
     "Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
-    "Computer Science/Notes/Defenitions/Data types.md",
-    "EPQ/Presentation Feedback/Images/Feedback 1.png",
-    "EPQ/Presentation Feedback/Feedback Analysis.md",
-    "EPQ/Skills Audit/Skills Audit.md",
-    "EPQ/Time Planning/Proof/Graph of time spent of project.png",
-    "EPQ/Time Planning/Proof/Gnat chart.png",
-    "EPQ/Time Planning/Proof/Entire Gnatt chart.png",
-    "EPQ/Skills Audit/Evidence/Start/wind_chain_knife.png",
-    "EPQ/Skills Audit/Evidence/Start/watermellon.png",
-    "EPQ/Skills Audit/Evidence/Start/surfing.png",
-    "EPQ/Skills Audit/Evidence/Start/staff_whole.png",
-    "EPQ/Skills Audit/Evidence/Start/staff_top.png",
-    "Untitled.canvas"
+    "Computer Science/Notes/Unit 1/1.3 Exchanging data/1.3.3 Networks.md",
+    "Computer Science/Notes/Unit 1/1.3 Exchanging data/1.3.4 Web Technologies.md"
   ]
 }
