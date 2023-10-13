@@ -1,0 +1,15 @@
+- [ ] What did you enjoy/dislike/find most challenging and why?​
+- [ ] What new expertise, skills and knowledge have you gained (selection, development and application)?​
+- [ ] How did you find working independently/were you able to maintain motivation?​
+- [ ] How successful have you been/how have you judged your success?
+- [ ] Did things go wrong/how did you solve problems and overcome difficulties/rectify mistakes?​
+- [ ] Have you fulfilled your original aims and objectives/reasons for doing the EPQ/come to a conclusion based on your topic/theme/title?​
+- [ ] How have you adapted/developed your project in light of your progress to meet your intentions/aims/objectives?​
+- [ ] Are there any key decisions you have made along the way/what has been the impact of these?​
+- [ ] Will your project lead on to any future work/could you develop it further in any way (skills or topic) and why?​
+- [ ] How have you made use of the support offered to you?​
+- [ ] What is the most important thing you will take away from your experience?  What advice would you give to others?​​
+- [ ] Would you do anything differently if you were to start again?  In what areas could you make improvements?​  
+- [ ] What have you learned about learning?​
+- [ ] How would you rate your performance against both your expectations and your achievements?​
+- [ ] How could the skills you have developed/gained could be transferred to other situations?
