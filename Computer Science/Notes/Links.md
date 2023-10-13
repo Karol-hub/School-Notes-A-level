@@ -1,0 +1,34 @@
+- Unit 1
+	- 1.1 The characteristics of contemporary processors, input, output and storage devices
+		- [[1.1.1 Structure and function of the processor]]
+		- [[1.1.2 Types of processor]]
+		- [[1.1.3 Input, output and storage]]
+	- 1.2 Software and software development
+		- [[1.2.1 Systems Software]]
+		- [[1.2.2 Applications Generation]]
+		- [[1.2.3 Software Development]]
+		- [[1.2.4 Types of Programming Language]]
+	- 1.3 Exchanging data
+		- [[1.3.1 Compression, Encryption and Hashing]]
+		- [[1.3.2 Databases]]
+		- [[1.3.3 Networks]]
+		- [[1.3.4 Web Technologies]]
+	- 1.4 Data types, data structures and algorithms
+		- [[1.4.1 Data Types]]
+		- [[1.4.2 Data Structures]]
+		- [[1.4.3 Boolean Algebra]]
+	- 1.5 Legal, moral, cultural and ethical issues
+		- [[1.5.1 Computing related legislation]]
+		- [[1.5.2 Moral and ethical Issues]]
+- Unit 2
+	- 2.1 Elements of computational thinking
+		- [[2.1.1 Thinking abstractly]]
+		- [[2.1.2 Thinking ahead]]
+		- [[2.1.3 Thinking procedurally]]
+		- [[2.1.4 Thinking logically]]
+		- [[2.1.5 Thinking concurrently]]
+	- 2.2 Problem solving and programming
+		- [[2.2.1 Programming techniques]]
+		- [[2.2.2 Computational methods]]
+	- 2.3 Algorithms
+		- [[2.3.1 Algorithms]]

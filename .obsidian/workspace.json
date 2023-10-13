@@ -4,34 +4,38 @@
     "type": "split",
     "children": [
       {
-        "id": "bf1996150c17ca93",
+        "id": "092b175cdb3b530d",
         "type": "tabs",
         "children": [
           {
-            "id": "b430a835259352b9",
+            "id": "7685003b1e4835e4",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Computer Science/Work/ClassWork/Work/A-star pathfinding alg.md",
+                "file": "Life/Personal Statement.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1134c00ae4c2ebb9",
+            "id": "a274b740db5bb15c",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "canvas",
               "state": {
-                "file": "Computer Science/Notes/Defenitions/A-star Pathfinding.md",
-                "mode": "source",
-                "source": false
+                "file": "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
+                "viewState": {
+                  "x": 1108.6117129985828,
+                  "y": 478.6026351021901,
+                  "zoom": -0.8349407537295039
+                }
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -89,7 +93,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 264.5
+    "width": 296.5
   },
   "right": {
     "id": "e681d3f8c3a52a42",
@@ -105,7 +109,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Computer Science/Work/ClassWork/Work/A-star pathfinding alg.md",
+                "file": "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +126,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Computer Science/Work/ClassWork/Work/A-star pathfinding alg.md",
+                "file": "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +149,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Computer Science/Work/ClassWork/Work/A-star pathfinding alg.md"
+                "file": "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas"
               }
             }
           },
@@ -195,54 +199,54 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "b430a835259352b9",
+  "active": "a274b740db5bb15c",
   "lastOpenFiles": [
-    "Computer Science/Work/ClassWork/Work/Diff between circular and linear queue.md",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/not entire face mask.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/half mask concept.png",
+    "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
+    "Computer Science/Course Work/Thoughts/Character/Character concepts/Cool Gas mask.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concepts/Gas Mask.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Bod/Body plating.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Bod/Body Cool jacket.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Bod/Body cloth and straps.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Bod/Body plating concept.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Bod/Body straps concept.png",
+    "Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/Concept helmet to ridge.png",
+    "Life/Personal Statement.md",
+    "Computer Science/Notes/Links.md",
+    "Computer Science/Notes/CS A Level Textbook.pdf",
+    "Life/Drafts/Exports",
+    "Maths/Textbook/Pure Y2 Book.pdf",
+    "Maths/Textbook/Statistics and Mechanics Y2 Book.pdf",
+    "Life/Drafts/Second Draft.md",
+    "Life/Drafts/First Draft.md",
+    "Life/Drafts/! Plan.md",
+    "Life/Drafts/Exports/Second Draft.pdf",
+    "Computer Science/Notes/Defenitions/A-star Pathfinding.md",
     "Computer Science/Work/ClassWork/Work/A-star pathfinding alg.md",
+    "Computer Science/Work/ClassWork/Work/Diff between circular and linear queue.md",
     "Computer Science/Work/ClassWork/Work/Dijkstra Exercises.md",
     "Computer Science/Work/ClassWork/Work/Exam Q.md",
-    "Pasted image 20231012152537.png",
-    "Pasted image 20231012151259.png",
     "Computer Science/Work/ClassWork/Worksheets/Algorithms_Dijkstra_Exercises.pdf",
-    "Computer Science/Work/ClassWork/Worksheets/Pasted image 20231012150934.png",
-    "Computer Science/Work/ClassWork/Worksheets/Pasted image 20231012150902.png",
-    "Computer Science/Work/ClassWork/Worksheets/Pasted image 20231012141329.png",
-    "Computer Science/Work/ClassWork/Worksheets/Pasted image 20231012141251.png",
-    "Computer Science/Work/ClassWork/Worksheets/Pasted image 20231012141238.png",
     "Computer Science/Work/ClassWork/Work/2021 P2 A level Q4.md",
     "Computer Science/Notes/Defenitions/Queue.md",
-    "Computer Science/Notes/Defenitions/A-star Pathfinding.md",
     "Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
     "Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.2 Data Structures.md",
     "Computer Science/Notes/Defenitions/Data Structure.md",
     "Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
-    "Pasted image 20231012142052.png",
-    "Maths/Textbook/Pure Y2 Book.pdf",
-    "Maths/Textbook/Statistics and Mechanics Y2 Book.pdf",
-    "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
-    "Computer Science/Course Work/Thoughts/Character/Character concepts/hollow knight.png",
-    "Computer Science/Course Work/Thoughts/Character/Character concepts/helmet.png",
     "Computer Science/Course Work/Thoughts/Character/Character concepts",
     "Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet",
     "Computer Science/Course Work/Thoughts/Character/Character concept art/Bod",
     "Computer Science/Course Work/Thoughts/Character/Character concept art",
-    "Computer Science/Course Work/Thoughts/Character",
-    "Computer Science/Course Work/Thoughts",
-    "EPQ/Final Submission/Log Book (WIP).pdf",
     "EPQ/Final Submission/! Final Submission checklist.md",
     "Computer Science/Work/HWK/Page 370 Q.md",
     "Computer Science/Work/Untitled.md",
     "Computer Science/Notes/Defenitions/Dijkstra's Shortest Path.md",
     "conflict-files-obsidian-git.md",
-    "Life/Personal Statement.md",
-    "Life/Drafts/! Plan.md",
-    "Life/Drafts/Second Draft.md",
     "Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.3 Boolean Algebra.md",
-    "Life/Drafts/First Draft.md",
     "Computer Science/Notes/Defenitions/Big O Notation.md",
     "Computer Science/Notes/Defenitions/Stack.md",
     "Temp/Temp exam Q.md",
-    "Computer Science/Defenitions/O(2^k) Polynomial Complexity.md",
     "Untitled.canvas"
   ]
 }
