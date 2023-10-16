@@ -8,27 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "a8c9021709b85887",
+            "id": "c5da64621439c18d",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Maths/Textbook/Pure Year 2.pdf"
+                "file": "Life/Cooking/Side things/Crusty garlic bread.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "54a18319a8d2c52d",
+            "id": "46861c5756d1b8a3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Maths/Textbook/Pure Year 2.pdf"
+                "file": "Life/Cooking/Food/Chipotle chicken tinga.md",
+                "mode": "source",
+                "source": false
               }
+            }
+          },
+          {
+            "id": "b7d80ec7ca72546d",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -86,8 +98,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5,
-    "collapsed": true
+    "width": 296.5
   },
   "right": {
     "id": "e681d3f8c3a52a42",
@@ -103,7 +114,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Maths/Textbook/Pure Year 2.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +130,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Maths/Textbook/Pure Year 2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -142,9 +151,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Maths/Textbook/Pure Year 2.pdf"
-              }
+              "state": {}
             }
           },
           {
@@ -178,8 +185,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 273.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -193,54 +199,55 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "54a18319a8d2c52d",
+  "active": "b7d80ec7ca72546d",
   "lastOpenFiles": [
-    "Maths/Textbook/Pure Year 2.pdf",
-    "Computer Science/Work/HWK/2018 P02 Q3 A level.md",
-    "Computer Science/Work/HWK/Qs/Pasted image 20231014153118.png",
-    "Life/Cooking/Desert/Chip Cookies.md",
-    "Life/Cooking/Desert/Thumbprint Cookies.md",
+    "Life/Cooking/Side things/Crusty garlic bread.md",
+    "Life/Cooking/Side things/White sauce.md",
+    "Life/Cooking/Food/Turkey chilli.md",
+    "Life/Cooking/Food/Teriyaki Chicken.md",
     "Life/Cooking/Food/Steamed Bao Buns.md",
+    "Life/Cooking/Food/Salmon risotto.md",
+    "Life/Cooking/Food/Pulled chicken & black bean chilli.md",
+    "Life/Cooking/Food/Kidney bean curry.md",
+    "Life/Cooking/Food/Japanese-style chicken curry.md",
+    "Life/Cooking/Food/Double bean & roasted pepper chilli.md",
+    "Life/Cooking/Food/Classic lasagne.md",
+    "Life/Cooking/Food/Chipotle chicken tinga.md",
+    "Life/Cooking/Food/Chicken curry.md",
+    "Life/Cooking/Food/Beef curry.md",
+    "Life/Cooking/Desert/Banana Bread.md",
+    "Life/Cooking/Side things",
+    "Life/Games/Terraria Hardcore/Terraria Hardcore Checklist.md",
+    "Life/Games/Terraria Hardcore/Strats.md",
+    "Life/Games/Terraria Hardcore",
+    "School",
+    "Life/Games",
+    "School/Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
+    "Life/Cooking/Cook Book.md",
+    "Life/Personal Statement/Drafts/Third Draft.md",
+    "Life/Personal Statement/Feedback/Second Draft feedback.jpg",
+    "Life/Personal Statement/Drafts/Second Draft.md",
+    "Life/Cooking/Desert/Choc Chip Cookies.md",
+    "School/Computer Science/Work/HWK/2018 P02 Q3 A level.md",
+    "School/Maths/Textbook/Pure Year 2.pdf",
+    "School/Computer Science/Work/HWK/Qs/Pasted image 20231014153118.png",
+    "Life/Cooking/Desert/Thumbprint Cookies.md",
     "Life/Cooking/Desert/Lemon Muffins.md",
     "Life/Cooking/Desert/Banana Muffins.md",
-    "Life/Cooking/Desert/Banana Bread.md",
-    "Life/Cooking/Desert/Peanut Butter Cookies.md",
-    "Life/Cooking/Desert/Matcha Baked Doughnuts.md",
-    "Life/Cooking/Desert/Lemon Shortbread Cookies.md",
-    "Life/Cooking/Desert/Lemon Cookies.md",
-    "Life/Cooking/Desert/Cinnamon Rolls.md",
-    "Life/Cooking/Desert/Brownie.md",
-    "Life/Cooking/Desert/Blueberry Muffins.md",
-    "Life/Personal Statement/Personal Statement.md",
-    "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
+    "School/Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
     "Life/Cooking/Food",
     "Life/Cooking/Desert",
     "Life/Cooking",
     "Life/Personal Statement",
-    "Maths/Textbook/Pure Year 1.pdf",
-    "Maths/Textbook/Applied Year 2.pdf",
-    "Maths/Textbook/Applied Year 1.pdf",
-    "Maths/Textbook",
-    "Maths",
-    "Life/Personal Statement/Feedback/Second Draft feedback.jpg",
-    "EPQ/Overall evaluation/Overall evaluation.md",
-    "EPQ/Overall evaluation/Checklist Guide.md",
-    "Computer Science/Work/HWK/Qs/Pasted image 20231013125742.png",
-    "Computer Science/Work/HWK/Qs/Pasted image 20231013125731.png",
-    "Computer Science/Work/HWK/Qs/Pasted image 20231013124931.png",
-    "Computer Science/Work/HWK/Qs/Pasted image 20231013124740.png",
-    "Computer Science/Work/HWK/Qs/Pasted image 20231013124632.png",
-    "Computer Science/Work/HWK/Qs/Pasted image 20231013124519.png",
-    "Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/not entire face mask.png",
-    "Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/half mask concept.png",
-    "Computer Science/Notes/Links.md",
-    "Life/Personal Statement/Drafts/Second Draft.md",
-    "Life/Personal Statement/Drafts/First Draft.md",
-    "Life/Personal Statement/Drafts/! Plan.md",
-    "Computer Science/Notes/Defenitions/A-star Pathfinding.md",
-    "Computer Science/Work/ClassWork/Work/A-star pathfinding alg.md",
-    "Computer Science/Work/ClassWork/Work/Diff between circular and linear queue.md",
-    "Computer Science/Work/ClassWork/Work/Dijkstra Exercises.md",
+    "School/Maths/Textbook/Pure Year 1.pdf",
+    "School/Computer Science/Work/HWK/Qs/Pasted image 20231013125742.png",
+    "School/Computer Science/Work/HWK/Qs/Pasted image 20231013125731.png",
+    "School/Computer Science/Work/HWK/Qs/Pasted image 20231013124931.png",
+    "School/Computer Science/Work/HWK/Qs/Pasted image 20231013124740.png",
+    "School/Computer Science/Work/HWK/Qs/Pasted image 20231013124632.png",
+    "School/Computer Science/Work/HWK/Qs/Pasted image 20231013124519.png",
+    "School/Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/not entire face mask.png",
+    "School/Computer Science/Course Work/Thoughts/Character/Character concept art/Helmet/half mask concept.png",
     "Untitled.canvas"
   ]
 }

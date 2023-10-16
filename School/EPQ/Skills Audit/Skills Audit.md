@@ -15,11 +15,11 @@ As of the start of the project I was still unfamiliar with everything, and I was
 <div style="page-break-after: always;"></div>
 
 # Middle of project
-| ![[Assets for tutorial.png\|Assets for tutorial]]                            | ![[EPQ/Skills Audit/Evidence/Middle/Geometry nodes.png\|Geometry nodes]]     | ![[EPQ/Skills Audit/Evidence/Middle/Geometry nodes 1.png\|Geometry nodes 1]] |
+| ![[Assets for tutorial.png\|Assets for tutorial]]                            | ![[School/EPQ/Skills Audit/Evidence/Middle/Geometry nodes.png|Geometry nodes]]     | ![[School/EPQ/Skills Audit/Evidence/Middle/Geometry nodes 1.png|Geometry nodes 1]] |
 | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- | ---------------------------------------------------------------------------- |
-| ![[EPQ/Skills Audit/Evidence/Middle/Geometry nodes 2.png\|Geometry nodes 2]] | ![[EPQ/Skills Audit/Evidence/Middle/Geometry nodes 3.png\|Geometry nodes 3]] | ![[EPQ/Skills Audit/Evidence/Middle/Geometry nodes 5.png\|Geometry nodes 4]] |
-| ![[Geometry nodes output.png\|Geometry nodes output]]                        | ![[Geometry nodes output 2.png\|Geometry nodes output 2]]                    | ![[EPQ/Skills Audit/Evidence/Middle/Shader nodes.png\|Shader nodes]]         |
-| ![[EPQ/Skills Audit/Evidence/Middle/Shader nodes 1.png\|Shader nodes 1]]     | ![[texturing + uv unwrap.png\|texturing + uv unwrap]]                        | ![[texturing + uv unwrap 1.png\|texturing + uv unwrap 1]]                                             |
+| ![[School/EPQ/Skills Audit/Evidence/Middle/Geometry nodes 2.png|Geometry nodes 2]] | ![[School/EPQ/Skills Audit/Evidence/Middle/Geometry nodes 3.png|Geometry nodes 3]] | ![[School/EPQ/Skills Audit/Evidence/Middle/Geometry nodes 5.png|Geometry nodes 4]] |
+| ![[Geometry nodes output.png\|Geometry nodes output]]                        | ![[Geometry nodes output 2.png\|Geometry nodes output 2]]                    | ![[School/EPQ/Skills Audit/Evidence/Middle/Shader nodes.png|Shader nodes]]         |
+| ![[School/EPQ/Skills Audit/Evidence/Middle/Shader nodes 1.png|Shader nodes 1]]     | ![[texturing + uv unwrap.png\|texturing + uv unwrap]]                        | ![[texturing + uv unwrap 1.png\|texturing + uv unwrap 1]]                                             |
 | ![[texturing + uv unwrap 2.png\|texturing + uv unwrap 2]]                         |                                                                              |                                                                              |
 
 ![[Middle key.png|Middle Key]]
@@ -28,12 +28,12 @@ I became more aware of the techniques and how I can use them to my advantage. I 
 At this point I don't believe the average is a good measurement of the overall progress since some images are focused on one aspect (eg, geometry nodes) while not contributing anything to the other statistics, therefore the total should be used from this point onwards.
 Since the total for UV unwrapping, texturing and geometry nodes all used to be zero but now I have 
 # End of project
-| ![[EPQ/Skills Audit/Evidence/End/shader nodes.png\|shader nodes]]         | ![[EPQ/Skills Audit/Evidence/End/shader nodes 1.png\|shader nodes 1]]       | ![[shader nodes 2.png\|shader nodes 2]]                                                   |
+| ![[School/EPQ/Skills Audit/Evidence/End/shader nodes.png|shader nodes]]         | ![[School/EPQ/Skills Audit/Evidence/End/shader nodes 1.png|shader nodes 1]]       | ![[shader nodes 2.png\|shader nodes 2]]                                                   |
 | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- | ------------------------------------------------------------------------- |
 | ![[shader nodes 3.png\|shader nodes 3]]                                   | ![[shader nodes 4.png\|shader nodes 4]]                                     | ![[shader nodes 5.png\|shader nodes 5]]                                   |
 | ![[shader nodes 6.png\|shader nodes 6]]                                   | ![[shader nodes 7.png\|shader nodes 7]]                                   | ![[shader nodes 8.png\|shader nodes 8]]                                   |
-| ![[EPQ/Skills Audit/Evidence/End/geometry nodes.png\|geometry nodes]]     | ![[EPQ/Skills Audit/Evidence/End/geometry nodes 1.png\|geometry nodes 1]] | ![[EPQ/Skills Audit/Evidence/End/geometry nodes 2.png\|geometry nodes 2]] |
-| ![[EPQ/Skills Audit/Evidence/End/geometry nodes 3.png\|geometry nodes 3]] | ![[EPQ/Skills Audit/Evidence/End/geometry nodes 4.png\|geometry nodes 4]] | ![[EPQ/Skills Audit/Evidence/End/geometry nodes 5.png\|geometry nodes 5]] |
+| ![[School/EPQ/Skills Audit/Evidence/End/geometry nodes.png|geometry nodes]]     | ![[School/EPQ/Skills Audit/Evidence/End/geometry nodes 1.png|geometry nodes 1]] | ![[School/EPQ/Skills Audit/Evidence/End/geometry nodes 2.png|geometry nodes 2]] |
+| ![[School/EPQ/Skills Audit/Evidence/End/geometry nodes 3.png|geometry nodes 3]] | ![[School/EPQ/Skills Audit/Evidence/End/geometry nodes 4.png|geometry nodes 4]] | ![[School/EPQ/Skills Audit/Evidence/End/geometry nodes 5.png|geometry nodes 5]] |
 | ![[geometry nodes 6.png\|geometry nodes 6]]                               | ![[geometry nodes 7.png\|geometry nodes 7]]                               | ![[geometry nodes 8.png\|geometry nodes 8]]                               |
 | ![[geometry nodes 9.png\|geometry nodes 9]]                               | ![[geometry nodes + shader nodes.png\|geometry nodes + shader nodes]]        |             ![[geometry nodes + shader nodes 1.png\|geometry nodes + shader nodes 1]]                                                              |
 

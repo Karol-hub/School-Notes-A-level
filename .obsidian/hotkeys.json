@@ -6,5 +6,13 @@
       ],
       "key": "C"
     }
+  ],
+  "obsidian-text-format:text-format-remove-url-link": [
+    {
+      "modifiers": [
+        "Alt"
+      ],
+      "key": "H"
+    }
   ]
 }
