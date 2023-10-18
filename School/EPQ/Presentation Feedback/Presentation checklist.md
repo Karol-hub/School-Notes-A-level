@@ -1,0 +1,12 @@
+- [x] Was it successful/how did it go/were you pleased with your delivery/performance/ how did you feel before and after?​ ✅ 2023-10-18
+- [x] Did you get your key messages across to your audience?​ ✅ 2023-10-18
+- [x] Did you stick to your plan/did your planning result in a presentation to be proud of?  How were your timings?​ ✅ 2023-10-18
+- [x] How did editing/rehearsing help with your final delivery?​ ✅ 2023-10-18
+- [x] How effective were your communication skills?​ ✅ 2023-10-18
+- [x] Did you fully engage the audience/maintain eye contact/have good body language?​ ✅ 2023-10-18
+- [x] How did the audience respond to you/how do you know?​ ✅ 2023-10-18
+- [x] How well did you respond to audience questions/what type of things did they ask you and why do you think this was?​ ✅ 2023-10-18
+- [x] How did you make use of a range of media?​ ✅ 2023-10-18
+- [x] What feedback did you collect and how/why?  What conclusions could you draw from the feedback received?​ ✅ 2023-10-18
+- [x] Did you have any issues? Would you make any improvements based on your experience of the presentation?​ ✅ 2023-10-18
+- [x] What have you learned from the experience; any transferable skills? ✅ 2023-10-18
