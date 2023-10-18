@@ -36,29 +36,26 @@
 - [x] Creating things on my own without any guidance ✅ 2023-10-18
 # How successful I was
 ## How I judged success
-- [ ] success criteria
-- [ ] personal goals
-## What did I achieve
-- [ ] Some renders
-- [ ] Geometry nodes 
+- [x] success criteria ✅ 2023-10-18
+- [x] personal goals ✅ 2023-10-18
 ## Performance based on expectations
-- [ ] personal goals
-- [ ] Did I achieve them
+- [x] personal goals ✅ 2023-10-18
+- [x] Did I achieve them ✅ 2023-10-18
 # Changes that occurred
-- [ ] Talk about impact of all of these
-- [ ] Changing project
-- [ ] Grid method to procedural method
+- [x] Talk about impact of all of these ✅ 2023-10-18
+- [x] Changing project ✅ 2023-10-18
+- [x] Grid method to procedural method ✅ 2023-10-18
 # Future development
-- [ ] Geometry nodes knowledge will be useful
-- [ ] Still continue to make things in blender as hobby
-- [ ] Will use skills for other projects
-- [ ] Might start another project which will be smaller in scale
+- [x] Geometry nodes knowledge will be useful ✅ 2023-10-18
+- [x] Still continue to make things in blender as hobby ✅ 2023-10-18
+- [x] Will use skills for other projects ✅ 2023-10-18
+- [x] Might start another project which will be smaller in scale ✅ 2023-10-18
 # Support
-- [ ] Online forms
-- [ ] Blender documentation
+- [x] Online forms ✅ 2023-10-18
+- [x] Blender documentation ✅ 2023-10-18
 # What would I do differently
-- [ ] Time management 
-- [ ] Have a more concrete plan when developing
-- [ ] Do more research
-	- [ ] Watch videos on topic even if they seem not useful since they can contain useful topics
-	- [ ] Look at other projects and take not of how other people overcame their problems
+- [x] Time management ✅ 2023-10-18
+- [x] Have a more concrete plan when developing ✅ 2023-10-18
+- [x] Do more research ✅ 2023-10-18
+	- [x] Watch videos on topic even if they seem not useful since they can contain useful topics ✅ 2023-10-18
+	- [x] Look at other projects and take not of how other people overcame their problems ✅ 2023-10-18

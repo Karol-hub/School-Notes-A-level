@@ -18,18 +18,16 @@ The 3D modelling is already useful for other scenarios as I had to do some CAD m
 Since I was in charge of my project I was in charge of my time management. Now that I am able to look at the whole project I realised that I should have dedicated time each week for the project to make sure that I am spending at least a couple of hours on the project.
 I also had to research on my own about my own topic, this was difficult as there wasn't any dedicated resources I could check for guidance but needed to find someone with a similar problem and see how they tackled it, then apply that to my project and when I wasn't able to find anything that could help me I had to make my own methodology from scratch, I wasn't able to contact anyone more experienced than me. So I often had to figure things out by myself. 
 There wasn't any set way of documentation so I had to come up with my own method and keep consistent, this was definitely a challenge at first but became bearable with time.
-# How successful I was
-## How I judged success
-
-## What did I achieve
-
-## Performance based on expectations
-
-# Changes that occurred
-
+# Success analysis 
+![[success criteria.png]]
+The success criteria clearly shows that I was mostly successful however there is a lot of room for improvement since the "Makes an entire city" goal can easily be expanded into many other smaller goals. However I did manage to achieve a lot of goals and many of my personal goals since my main goals were to develop my skillset with blender, which is something that I definitely achieved since I had went form not knowing anything about geometry nodes to being able to create my own methods that accomplish my specific needs.
+# Changing methods
+After finishing all the geometry node tutorials I started with a grid type method, however this method relied heavily on 3D modelling and UV unwrapping which is something that I didn't want to focus on as I intended to focus on using geometry nodes, this made me change to a procedural method it allowed me to focus on using geometry nodes and shader nodes a lot more. This was allowed me to achieve my personal goal of developing my skillset with geometry nodes and shader nodes.
 # Future development
-
+As seen in the success analysis there is a lot of room for development, however I don't think that I will spend more time on this project as it contains a lot of mistakes that I made while learning so I think it would be better to start a different project since I don't know how to progress from the point that I reached. It would also allow me to try different things with geometry nodes as I feel like I would be doing things that are similar in the current project, , but with another project I can focus on different problems, the new project would definitely be smaller in scale as I didn't manage to reach the intended scale with this project and I would probably be spending less time on it. Also, my scene is very unoptimized so it takes a long time to open and update changes which is becoming quite tedious as every change needs a significant amount of  processing time. 
+I can see myself using the skills that I learned for different projects in the future. Especially the skills I got from working independently and presentation skills for the future.
 # Support
-
+I found a lot of helpful materials on online forms and documentation sites that helped me significantly. The way of searching for information that I learned is something that I will use extensively in the future, I also had to make sure that the source that I am using is reliable and actually works, in this project that was easy to test since if I try it and it works then it's reliable and if not then it's unreliable. Most of my support came from the official blender documentation as I often needed to find out what the nodes do exactly and what better place to check then the creators.
 # What would I do differently
-
+If I were to redo this project I would definitely focus a lot more on time management as I could have spent more time on the project and gotten better results. Another thing is planning as I was just trying things for a while and not really making progress, whereas I could have thought it through properly and not wasted time making functions that were never used in the final product. This could have been achieved by abstracting the problem more thoroughly and making a method that would work before starting to develop geometry nodes.
+I would also do more research, as I was quite limited by my knowledge on the subject, for example looking through many video that may not seem useful for the project, however may contain some useful method that would be very helpful. I know this method would work as it helped me learn about other parts of blender in the past. However limiting my research to mostly videos and websites was also something that I would change as many people publish their products on the internet, so I could have looked through their workspace and reflected on how I could use their methodology in my project, or at least try to comprehend it to widen my skillset. 

@@ -6,7 +6,6 @@
       {
         "id": "092b175cdb3b530d",
         "type": "tabs",
-        "dimension": 66.21983914209115,
         "children": [
           {
             "id": "8403125bd43798a4",
@@ -19,27 +18,21 @@
                 "source": false
               }
             }
-          }
-        ]
-      },
-      {
-        "id": "788db4d5da144bc4",
-        "type": "tabs",
-        "dimension": 33.78016085790885,
-        "children": [
+          },
           {
-            "id": "49e041e914071381",
+            "id": "261696493d07a55a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/EPQ/Overall evaluation/Overall evaluation Plan.md",
+                "file": "School/EPQ/Overall evaluation/Overall evaluation.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -203,11 +196,16 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "8403125bd43798a4",
+  "active": "261696493d07a55a",
   "lastOpenFiles": [
+    "School/EPQ/Final Submission/! Final Submission checklist.md",
     "School/EPQ/Overall evaluation/Overall evaluation Plan.md",
     "School/EPQ/Overall evaluation/Overall evaluation.md",
+    "School/EPQ/Overall evaluation/images/success criteria.png",
+    "School/EPQ/Overall evaluation/images/Success criteria.png",
     "School/EPQ/Overall evaluation/Checklist Guide.md",
+    "School/EPQ/Overall evaluation/images",
+    "Excalidraw/Drawing 2023-10-18 10.14.07.excalidraw.md",
     "School/EPQ/Overall evaluation/images",
     "School/EPQ/Presentation Feedback/Feedback Analysis.md",
     "School/EPQ/Presentation Feedback/Presentation checklist.md",
@@ -221,11 +219,8 @@
     "School/Computer Science/Work/ClassWork/Worksheets/exam Q/Pasted image 20231018101534.png",
     "School/Computer Science/Work/ClassWork/Worksheets/exam Q/Pasted image 20231018102511.png",
     "School/Computer Science/Work/ClassWork/Worksheets/exam Q/Pasted image 20231018102124.png",
-    "School/Computer Science/Work/ClassWork/Worksheets/exam Q/Pasted image 20231018102032.png",
-    "Pasted image 20231018101809.png",
     "Excalidraw/Drawing 2023-10-18 10.20.53.excalidraw.md",
     "Excalidraw/Drawing 2023-10-18 10.18.31.excalidraw.md",
-    "Excalidraw/Drawing 2023-10-18 10.14.07.excalidraw.md",
     "Excalidraw",
     "School/Computer Science/Work/ClassWork/Worksheets/exam Q",
     "School/Maths/Textbook/Pure Year 2.pdf",
@@ -237,7 +232,6 @@
     "School/Maths/Textbook/Applied Year 2.pdf",
     "School/Maths/Textbook/Applied Year 1.pdf",
     "School/Maths/Textbook",
-    "School/Maths",
     "School/EPQ/Time Planning/Time Planning.md",
     "School/EPQ/Skills Audit/Skills Audit.md",
     "School/Computer Science/Notes/Unit 2/2.2 Problem solving and programming/2.2.1 Programming techniques.md",
@@ -250,7 +244,6 @@
     "School/Computer Science/Notes/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
     "School/Computer Science/Notes/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.1 Computing related legislation.md",
     "School/Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.3 Boolean Algebra.md",
-    "School/Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.1 Data Types.md",
     "School/Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
     "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
     "Untitled.canvas"
