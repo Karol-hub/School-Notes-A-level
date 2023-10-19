@@ -8,19 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8403125bd43798a4",
+            "id": "261696493d07a55a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/EPQ/Overall evaluation/Overall evaluation.md",
+                "file": "School/EPQ/Final Submission/! Final Submission checklist.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "261696493d07a55a",
+            "id": "ceb9ea53c9c57e98",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -31,8 +31,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +105,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/EPQ/Overall evaluation/Overall evaluation.md",
+                "file": "School/EPQ/Final Submission/! Final Submission checklist.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +122,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/EPQ/Overall evaluation/Overall evaluation.md",
+                "file": "School/EPQ/Final Submission/! Final Submission checklist.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/EPQ/Overall evaluation/Overall evaluation.md"
+                "file": "School/EPQ/Final Submission/! Final Submission checklist.md"
               }
             }
           },
@@ -198,15 +197,27 @@
   },
   "active": "261696493d07a55a",
   "lastOpenFiles": [
-    "School/EPQ/Final Submission/! Final Submission checklist.md",
-    "School/EPQ/Overall evaluation/Overall evaluation Plan.md",
     "School/EPQ/Overall evaluation/Overall evaluation.md",
+    "School/EPQ/Final Submission/lu100886iibe.tmp",
+    "School/EPQ/Final Submission/lu100886iibb.tmp",
+    "School/EPQ/Final Submission/lu42463lnf.tmp",
+    "School/EPQ/Final Submission/lu42463lnc.tmp",
+    "School/EPQ/Final Submission/lu42463ln9.tmp",
+    "School/EPQ/Final Submission/lu42463ln6.tmp",
+    "School/EPQ/Final Submission/lu42463ln3.tmp",
+    "School/EPQ/Final Submission/lu42463ln0.tmp",
+    "School/EPQ/Final Submission/lu42463lmx.tmp",
+    "School/EPQ/Final Submission/lu42463lmu.tmp",
+    "School/EPQ/Final Submission/! Final Submission checklist.md",
+    "Life/Cooking/Side things/Crusty garlic bread.md",
+    "Life/Cooking/Desert/Lemon Muffins.md",
+    "Life/Cooking/Desert/Blueberry Muffins.md",
+    "Life/Cooking/Desert/Lemon Cookies.md",
+    "School/EPQ/Overall evaluation/Overall evaluation Plan.md",
     "School/EPQ/Overall evaluation/images/success criteria.png",
     "School/EPQ/Overall evaluation/images/Success criteria.png",
     "School/EPQ/Overall evaluation/Checklist Guide.md",
-    "School/EPQ/Overall evaluation/images",
     "Excalidraw/Drawing 2023-10-18 10.14.07.excalidraw.md",
-    "School/EPQ/Overall evaluation/images",
     "School/EPQ/Presentation Feedback/Feedback Analysis.md",
     "School/EPQ/Presentation Feedback/Presentation checklist.md",
     "School/EPQ/Presentation Feedback/Images/Feedback 4.png",
@@ -215,23 +226,15 @@
     "School/EPQ/Presentation Feedback/Images/Feedback 1.png",
     "School/Computer Science/Work/ClassWork/Work/Exam Q.md",
     "School/Computer Science/Work/ClassWork/Worksheets/exam Q/Pasted image 20231018101626.png",
-    "School/Computer Science/Work/ClassWork/Worksheets/Algorithms_AStar_Exercises.pdf",
     "School/Computer Science/Work/ClassWork/Worksheets/exam Q/Pasted image 20231018101534.png",
     "School/Computer Science/Work/ClassWork/Worksheets/exam Q/Pasted image 20231018102511.png",
     "School/Computer Science/Work/ClassWork/Worksheets/exam Q/Pasted image 20231018102124.png",
     "Excalidraw/Drawing 2023-10-18 10.20.53.excalidraw.md",
     "Excalidraw/Drawing 2023-10-18 10.18.31.excalidraw.md",
-    "Excalidraw",
-    "School/Computer Science/Work/ClassWork/Worksheets/exam Q",
-    "School/Maths/Textbook/Pure Year 2.pdf",
     "School/Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.2 Data Structures.md",
     "School/Computer Science/Notes/Defenitions/Linked-list.md",
     "School/Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
     "School/Computer Science/Work/HWK/2018 P02 Q3 A level.md",
-    "School/Maths/Textbook/Pure Year 1.pdf",
-    "School/Maths/Textbook/Applied Year 2.pdf",
-    "School/Maths/Textbook/Applied Year 1.pdf",
-    "School/Maths/Textbook",
     "School/EPQ/Time Planning/Time Planning.md",
     "School/EPQ/Skills Audit/Skills Audit.md",
     "School/Computer Science/Notes/Unit 2/2.2 Problem solving and programming/2.2.1 Programming techniques.md",
@@ -239,11 +242,6 @@
     "School/Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.4 Thinking logically.md",
     "School/Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
     "School/Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.2 Thinking ahead.md",
-    "School/Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
-    "School/Computer Science/Notes/Unit 2/2.2 Problem solving and programming/2.2.2 Computational methods.md",
-    "School/Computer Science/Notes/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
-    "School/Computer Science/Notes/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.1 Computing related legislation.md",
-    "School/Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.3 Boolean Algebra.md",
     "School/Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
     "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
     "Untitled.canvas"
