@@ -1,9 +1,8 @@
-
 - [ ] PPR​ 
 - [x] Report/artefact
 - [x] Time planning
 - [x] Log/diary​
-- [x] Evaluation of research sources
+- [ ] Evaluation of research sources
 - [x] Presentation – development, presenting and evaluation
 - [x] Skills audit​
 - [ ] Any other supporting documents you wish to submit as part of your journey​ (optional)
@@ -17,4 +16,4 @@
 5. [x] Presentation – development, presenting and evaluation ✅ 2023-10-19
 6. [x] Skills audit​ ✅ 2023-10-19
 7. [ ] Any other supporting documents you wish to submit as part of your journey​ (optional)
-8. [ ] Overall evaluation​
+8. [x] Overall evaluation​ ✅ 2023-10-20
