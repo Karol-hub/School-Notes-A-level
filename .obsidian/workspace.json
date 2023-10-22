@@ -11,11 +11,19 @@
             "id": "261696493d07a55a",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "School/EPQ/Final Submission/! Final Submission checklist.md",
-                "mode": "source",
-                "source": false
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+              }
+            }
+          },
+          {
+            "id": "2a673ac32f453f39",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
               }
             }
           }
@@ -77,7 +85,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296.5
+    "width": 296.5,
+    "collapsed": true
   },
   "right": {
     "id": "e681d3f8c3a52a42",
@@ -93,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/EPQ/Final Submission/! Final Submission checklist.md",
+                "file": "School/Maths/Textbook/Pure Year 2.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/EPQ/Final Submission/! Final Submission checklist.md",
+                "file": "School/Maths/Textbook/Pure Year 2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -133,7 +142,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/EPQ/Final Submission/! Final Submission checklist.md"
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
               }
             }
           },
@@ -183,21 +192,20 @@
       "table-editor-obsidian:Advanced Tables Toolbar": false
     }
   },
-  "active": "5b9b9b2803505f75",
+  "active": "261696493d07a55a",
   "lastOpenFiles": [
+    "School/Maths/Textbook/Pure Year 2.pdf",
+    "School/EPQ/Final Submission/! Final Submission checklist.md",
     "School/EPQ/Evaluation of research sources/Images",
     "School/EPQ/Evaluation of research sources",
     "School/EPQ/Final Submission/Time Planning.pdf",
-    "School/EPQ/Final Submission/! Final Submission checklist.md",
     "School/EPQ/Final Submission/Skills Audit.pdf",
     "School/EPQ/Final Submission/Log Book (WIP).pdf",
     "School/EPQ/Final Submission/Feedback Analysis.pdf",
-    "School/Maths/Textbook/Pure Year 2.pdf",
     "School/EPQ/Overall evaluation/Overall evaluation.md",
     "School/EPQ/Final Submission/lu100886iibe.tmp",
     "School/EPQ/Final Submission/lu100886iibb.tmp",
     "School/EPQ/Final Submission/lu42463lnf.tmp",
-    "School/EPQ/Final Submission/lu42463lnc.tmp",
     "Life/Cooking/Side things/Crusty garlic bread.md",
     "Life/Cooking/Desert/Lemon Muffins.md",
     "Life/Cooking/Desert/Blueberry Muffins.md",
