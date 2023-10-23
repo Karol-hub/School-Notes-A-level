@@ -6,7 +6,9 @@ Name: Karol Jeziorczak
 Candidate Number: 4162
 Centre Name: Rugby High School
 Centre Number: 31255
+
 <div style="page-break-after: always;"></div>
+
 # **Sources** 
 
 Name: SLOPE MOVEMENT, SPRINTING & CROUCHING - Unity Tutorial   
@@ -26,10 +28,12 @@ Date Accessed: 25/09/23
 Name: 
 URL: [https://store.steampowered.com/app/239140/Dying_Light/](https://store.steampowered.com/app/239140/Dying_Light/)  
 Date Accessed: 25/09/23
+
 <div style="page-break-after: always;"></div>
+
 # **Project Introduction** 
 
-For my project I intend to create a 3D rouge like game which is focuses on melee combat. This game would be like Risk of Rain 2 with Dying light combat and movement. 
+For my project I intend to create a 2D rouge like game which is focuses on melee combat. This game would be like Rain World with Celeste movement
 
 This is because there are few games which focus on melee combat and this would help it stand out, the rouge like aspect would allow every run to be unique and distinct. Allowing people to replay the game multiple times without getting bored. 
 
@@ -41,8 +45,7 @@ The loot and map generation will be random meaning that the player cannot memori
 
 I plan for there to be different enemies that have different attack patterns that will not be entirely random meaning that the player can learn how to effectively defeat the enemy. The enemy difficulty will increase as the player progresses through the floors. 
 
-## **Computational Methods** 
-
+# **Computational Methods** 
 Computational methods are computer-based methods which are used to solve problems. They are suitable for my project since I want to make a game which is fun and the following concepts allow me to accomplish this 
 
 **Decomposition** – Splitting a large problem into smaller problems which are more manageable. This would help with my project as I am not going to be working in every aspect of the game at once, decomposition allows me to work on one part of the game at a time since debugging one small piece of code with a couple of errors is a lot easier than debugging all the game code with many, many errors 
@@ -65,8 +68,6 @@ Computational methods are computer-based methods which are used to solve problem
 
 # **Suitable Stakeholder** 
 
-Client who will give feedback on the game name, age, how they will give feedback why you have chosen then target audience (2 people) 
-
 My game would be suited for people who have more experience with games it will be suitable for any age over the age of twelve (might be a too violent for children under the age of twelve). 
 
  Therefore, Ethan Armstrong would be a suitable stakeholder. He is 16 years of age therefore he fits the target demographic. He will give feedback through playtesting and according to the feedback I will be able to adjust the difficulty and balance the aspects of the game to fit the genre and style I am going for. The feedback given to me by him will allow me to adjust the game to make it more enjoyable. 
@@ -79,35 +80,19 @@ I have chosen these people since they are part of my target demographic and they
 
 ## **Risk of Rain 2** 
 
-R
-
-![](file:///C:/Users/dimki/AppData/Local/Temp/lu1544013jnx.tmp/lu1544013jo0_tmp_826ac6a37885e9ce.png)  
-_Figure : Risk of Rain 2 screenshot_
-
-isk of Rain 2 is a roguelike, third person shooter. A roguelike game means that when you die in the game you must restart the entire game, which means that it does not take long to complete and it can be replayed multiple times, since it has a large variety of items which can be combined to make many unique runs. It has a unique concept since as the time goes up so does the difficulty, meaning that the more time you spend looting the more powerful enemies become creating a unique stressful and fast paced shooter. 
-
+Risk of Rain 2 is a roguelike, third person shooter. A roguelike game means that when you die in the game you must restart the entire game, which means that it does not take long to complete and it can be replayed multiple times, since it has a large variety of items which can be combined to make many unique runs. It has a unique concept since as the time goes up so does the difficulty, meaning that the more time you spend looting the more powerful enemies become creating a unique stressful and fast paced shooter. 
 ### **Controls:** 
 
 WSAD - to move 
-
 Space - Jump 
-
 E – To interact with the environment (open crates etc.) 
-
 Q – Activate equipment (item that can be used by every character) 
-
 Ctrl – Toggle sprint (to move faster) 
-
 M1 – Primary Skill (unique to character, usually damaging) 
-
 M2 – Secondary Skill (unique to character, usually damaging) 
-
 Shift – Utility Skill (unique to character, usually movement) 
-
 R – Special Skill (Unique to character, usually heavy damage, and long cooldown) 
-
 Tab – Info Screen (shows the stats of the current run) 
-
 M3 – Ping (allows players to communicate in game) 
 
 ### **Characters** 
@@ -156,56 +141,20 @@ The variety in characters and the play styles that they allow 
 
 The different difficulties allowing the player to play at a level that their comfortable with 
 
-## **D
+## **Celeste
 
-![](file:///C:/Users/dimki/AppData/Local/Temp/lu1544013jnx.tmp/lu1544013jo0_tmp_2bba9e95ebda7cf4.png)  
-_Figure : Deadlink screenshot_
-
-eadlink** 
-
-Deadlink is a roguelike, first person shooter. A roguelike game means that when you die in the game you must restart the entire game and start a new run. It adds a large amount of replay-ability since there are unique modifiers you can get different characters which come with unique guns and modifiers 
-
+Celeste is a challenging 2D platformer where the aim is to give precise inputs that will clear the level and allow you to progress into the next room. It takes a long time to complete as the game is very difficult and constantly introduces new features that are harder than the last.
 ### **Controls** 
-
 WSAD – Movement 
-
-Space – Jump 
-
-Left Shift – Dash (small burst of velocity in a direction) 
-
-E- Interact/Melee, having the same button for these actions saves on the number of keys used which is good since it is simpler, and these actions do not get used at the same time, so they never clash 
-
-Tab – Open inventory (allows player to check what perks and modifiers they have) 
-
-Left Mouse Button – Fires the weapon that is currently out 
-
-R – Reload (refill the ammo of the current weapon) 
-
-1 - Select Primary, switches to primary weapon 
-
-2 - Select Secondary, switches to secondary weapon 
-
-Q – Use First Ability (Ability will changes with character) 
-
-F – Use Second Ability (Ability changes with character) 
-
-G – Throw grenade (limited resource) 
+J - Jump
+K - Dash
+L - Grab
 
 ### **Characters** 
-
-Soldier – Has a grappling hook which allows them to grapple to the enemy when the players cursor is on the enemy allowing the player to traverse the terrain to the enemy quickly. Also has a shock wave which marks enemies and makes them drop resources on death 
-
-Hunter – Can teleport with the enemy that the player is currently looking at allowing the player to get closer instantly. As his secondary ability he can go invisible marking enemies in a small area, stunning them, which allows the player to make an escape quickly and safely. He also leaves a decoy behind which the enemies will focus on (it can be buggy at times, and they still focus on you) 
-
+Madeline is the protagonist of the game and as the game progresses, as the game progresses they get more and more abilities and the level design reflects this as the game presents rooms that can only be solved with the new skill that the player was shown. The game never gives the character any new skills are just shown to the player and never granted or unlocked meaning that the player can revisit earlier levels and complete them in newer and more efficient ways. The player does get an extra dash in some of the later rooms in the game and this is the only upgrade that the player gets.
 ### **Aim of the game** 
-
-You need to kill the yakuza (Japanese mafia) that are in the city, since they have too much power. You start with just your guns and you clear rooms full of enemies, after each room you are rewarded with an upgrade allowing you to become more powerful and defeat stronger enemies. After a certain number of rooms there is a boss which you must defeat before progressing to the next area. The aim of the game is to “make the organization proud” by getting rid of these enemies. 
-
+The aim is to get to the top of the celeste mountain 
 ### **Target demographic** 
-
-The game does not have an age rating yet since it is very new and is still in early access, but it is targeted at a more mature audience since there is a lot of reference to crime, blood and swearing.  
-
-It is aimed at more experienced players since it requires you to constantly hit shots with decent accuracy to be able to clear the rooms. The difficult enemies also need a decent amount of skill and practice to defeat.  
 
 ### **Good Qualities** 
 
@@ -231,40 +180,11 @@ Try to replicate the fast pacing, by limiting the amount of time the player has 
 
 A similar art style 
 
-## **Dying Light** 
-
-D
-
-![](file:///C:/Users/dimki/AppData/Local/Temp/lu1544013jnx.tmp/lu1544013jo0_tmp_89c8320631da9b16.png)  
-_Figure : Dying Light screenshot_
-
-ying Light is a zombie, first-person parkour game which focuses on melee combat, but it still includes ranges weapons. First person means that you take the perspective of the protagonist. The parkour refers to the movement in the game, meaning there is a lot of jumping, sliding, spring boarding, grappling. This concept increases the pace of the game. The melee combat means that most of the combat is close range with weapons like crowbars, machetes, table legs. The term zombie refers to the type of enemies in the game. 
+## **Rain World**
 
 ### **Controls** 
 
 WSAD – Movement 
-
-Space – Jump 
-
-C – Crouch (slide when skill is purchased, and player is sprinting) 
-
-Left Shift – Sprint 
-
-Middle Mouse Button – Use Equipment (limited) 
-
-B – Look Back (when you get the skill) 
-
-Left Mouse Button – Attack (with melee weapon) 
-
-E – Kick (small shove to create distance) 
-
-Alt – Grapple (late game and limited range and places to grapple to) 
-
-T – Flashlight 
-
-H – Heal 
-
-I – Inventory/other menus (allows player to access skill trees and crafting) 
 
 ### **Characters** 
 
@@ -339,36 +259,6 @@ Sincerely,  
 Karol Jeziorczak  
 
 ## **Stakeholder Questionnaire** 
-
- ![](file:///C:/Users/dimki/AppData/Local/Temp/lu1544013jnx.tmp/lu1544013jo0_tmp_6764711b28412ac0.png)![](file:///C:/Users/dimki/AppData/Local/Temp/lu1544013jnx.tmp/lu1544013jo0_tmp_6923f2e4a26f1b89.png) ![](file:///C:/Users/dimki/AppData/Local/Temp/lu1544013jnx.tmp/lu1544013jo0_tmp_86d545c64e1f2839.png)
-
-  
-
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
-
-  
-  
 
 # **Analysis** 
 
