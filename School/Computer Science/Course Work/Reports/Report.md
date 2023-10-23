@@ -10,13 +10,11 @@ Centre Number: 31255
 <div style="page-break-after: always;"></div>
 
 # **Sources** 
-
 Name: SLOPE MOVEMENT, SPRINTING & CROUCHING - Unity Tutorial   
 URL: [https://www.youtube.com/watch?v=xCxSjgYTw9c](https://www.youtube.com/watch?v=xCxSjgYTw9c)  
 Date Accessed: 13/03/23
 
 # **Image sources** 
-
 Name: 
 URL: [https://store.steampowered.com/app/632360/Risk_of_Rain_2/](https://store.steampowered.com/app/632360/Risk_of_Rain_2/)  
 Date Accessed: 25/09/23
@@ -32,7 +30,6 @@ Date Accessed: 25/09/23
 <div style="page-break-after: always;"></div>
 
 # **Project Introduction** 
-
 For my project I intend to create a 2D rouge like game which is focuses on melee combat. This game would be like Rain World with Celeste movement
 
 This is because there are few games which focus on melee combat and this would help it stand out, the rouge like aspect would allow every run to be unique and distinct. Allowing people to replay the game multiple times without getting bored. 
@@ -67,7 +64,6 @@ Computational methods are computer-based methods which are used to solve problem
 **Pattern recognition** – It would be useful for the computer to recognize patterns as a certain pattern could be used as a condition for selection this could be useful as when the player attacks the computer could recognize this and react accordingly to make the fight interesting. Or it can be used in fighting games to make a move since in some games like mortal combat you can chain inputs to do a special attack. 
 
 # **Suitable Stakeholder** 
-
 My game would be suited for people who have more experience with games it will be suitable for any age over the age of twelve (might be a too violent for children under the age of twelve). 
 
  Therefore, Ethan Armstrong would be a suitable stakeholder. He is 16 years of age therefore he fits the target demographic. He will give feedback through playtesting and according to the feedback I will be able to adjust the difficulty and balance the aspects of the game to fit the genre and style I am going for. The feedback given to me by him will allow me to adjust the game to make it more enjoyable. 
@@ -77,12 +73,9 @@ Daniel Cabrel would also be a stakeholder as they are new to gaming therefore, I
 I have chosen these people since they are part of my target demographic and they will help me to make the game easy to pick up yet challenging. 
 
 # **Researching the Problem** 
-
 ## **Risk of Rain 2** 
-
 Risk of Rain 2 is a roguelike, third person shooter. A roguelike game means that when you die in the game you must restart the entire game, which means that it does not take long to complete and it can be replayed multiple times, since it has a large variety of items which can be combined to make many unique runs. It has a unique concept since as the time goes up so does the difficulty, meaning that the more time you spend looting the more powerful enemies become creating a unique stressful and fast paced shooter. 
 ### **Controls:** 
-
 WSAD - to move 
 Space - Jump 
 E – To interact with the environment (open crates etc.) 
@@ -96,7 +89,6 @@ Tab – Info Screen (shows the stats of the current run) 
 M3 – Ping (allows players to communicate in game) 
 
 ### **Characters** 
-
 Commando and Huntress – Both are beginner friendly characters which have a basic set of skills and utility to ease the player into the game. They are the first characters you unlock and they are both good characters even after the player has learn to play the game. 
 
 Every character apart from these two needs some sort of challenge to be completed before the player gains access to them. This allows the player to progress at their own pace. 
@@ -110,124 +102,82 @@ Railgunner and Void fiend – Both DLC characters which is a good example of the
 Heretic – A secret character which is unique since they cannot be unlocked, and the character is bound by the run as they are unlocked by picking up a combination of items on that run. 
 
 ### **Aim of the game** 
-
 The aim of the game is to get loot and activate the teleporter, after this a boss will spawn, which you must kill to progress. You get teleported to a different stage and the process repeats until stage 5 and after that you get teleported to the moon to kill final boss (Mythrix) or obliterate yourself which has a more secret ending which needs the player to enter a portal on stage 8 after they loop (return back to stage 1 and keep all their items), sometimes a large purple portal can appear which teleports the player to a different realm (with some pretty interesting lore) and they have to defeat Voidling which gives the player an alternate ending. 
-
 ### **Target demographic** 
-
 Teens and older since the game contain blood, drug references and fantasy violence. It is aimed at people with all skill types as the game has different difficulty rating which allows the player to play at the level that they are comfortable with.  
-
 ### **Good Qualities** 
-
-The game is very beginner friendly and is enjoyable both alone and with friends.  
-
-The variety of items allows the player to replay the game with many different combinations and the game does not feel repetitive. The different ending makes the player want to experience them all.  
-
-The variety in character makes any play style suitable. 
-
-The game is never “too easy” since there are eclipse challenges which get progressively harder 
-
+- The game is very beginner friendly and is enjoyable both alone and with friends.  
+- The variety of items allows the player to replay the game with many different combinations and the game does not feel repetitive. The different ending makes the player want to experience them all.  
+- The variety in character makes any play style suitable. 
+- The game is never “too easy” since there are eclipse challenges which get progressively harder 
 ### **Bad Qualities** 
-
-Once you loop a lot the game gets very chaotic and resource intensive because there are so many enemies with different attributes that can create lots of projectiles which slow down the game a lot.  
-
-Some things can kill you in one hit making death unavoidable in some cases. 
-
-Sometimes you get runs where you get no good items, and the game becomes a lot more difficult because of bad luck. 
-
+- Once you loop a lot the game gets very chaotic and resource intensive because there are so many enemies with different attributes that can create lots of projectiles which slow down the game a lot.  
+- Some things can kill you in one hit making death unavoidable in some cases. 
+- Sometimes you get runs where you get no good items, and the game becomes a lot more difficult because of bad luck. 
 ### **What I would include** 
-
-The variety in characters and the play styles that they allow 
-
-The different difficulties allowing the player to play at a level that their comfortable with 
-
-## **Celeste
-
+- The variety in characters and the play styles that they allow 
+- The different difficulties allowing the player to play at a level that their comfortable with 
+## **Celeste**
 Celeste is a challenging 2D platformer where the aim is to give precise inputs that will clear the level and allow you to progress into the next room. It takes a long time to complete as the game is very difficult and constantly introduces new features that are harder than the last.
 ### **Controls** 
 WSAD – Movement 
 J - Jump
 K - Dash
 L - Grab
-
 ### **Characters** 
 Madeline is the protagonist of the game and as the game progresses, as the game progresses they get more and more abilities and the level design reflects this as the game presents rooms that can only be solved with the new skill that the player was shown. The game never gives the character any new skills are just shown to the player and never granted or unlocked meaning that the player can revisit earlier levels and complete them in newer and more efficient ways. The player does get an extra dash in some of the later rooms in the game and this is the only upgrade that the player gets.
 ### **Aim of the game** 
-The aim is to get to the top of the celeste mountain 
+The aim is to get to the top of the celeste mountain climbing the mountain one room at a time. Rooms get harder the further you progress in the game, the length of these rooms can vary drastically, the same applies to the difficulty. The game itself doesn't have that much levels however each level is very difficult which makes completing one very rewarding.
 ### **Target demographic** 
-
+Anyone as the game doesn't have any violent or difficult topics discussed, however it will cater better to a slightly older audience because of it's difficulty. The game also targets people who are more experience in platformers as the difficulty of the levels scales quickly.
 ### **Good Qualities** 
-
-Fast pace of each room keeps the tension high 
-
-The range of upgrades keeps the player wanting to experiment with combinations 
-
-Making decisions as to which type of loot to take at the end of each room has some strategy to it which need planning and experience to be effective 
-
-The art style of the game is very atmospheric and immersive even though it does not have insane amounts of detail. 
-
+- Beating a room feels rewarding
+- Caters who anyone who is willing to try it.
+- The movement feels fun
+- The movement feels consistent
 ### **Bad Qualities** 
-
-Not much content as it is still in early access 
-
-It is still a bit buggy since it is in early access 
-
-The lack of characters does not allow for many play styles 
-
+- Getting stuck on one room can be very frustrating
+- To progress far into the game you need to dedicate a lot of time and have a lot of skill
 ### **What I would include** 
-
-Try to replicate the fast pacing, by limiting the amount of time the player has to rest but not in between rooms. 
-
-A similar art style 
-
+- A similar art style 
+- Similar movement system, but something that isn't as complicated so it doesn't overwhelm the player
 ## **Rain World**
-
+Rain world is an open world game meaning that the player can go explore anywhere to their heart's content. It's also very difficult, and focuses on treating the player as part of the ecosystem rather than a separate entity, for this reason enemies treat the player as any other rival creature and focuses on their own survival rather than killing the player, which is common in most other games.
 ### **Controls** 
-
 WSAD – Movement 
-
+Space - Jump
+E - Grab
+Q - Throw
+Escape - Pause
+Z - Map
 ### **Characters** 
+The player plays as a slugcat which is a small creature with the ability to wield rocks and spears. They can also befriend other wild creatures. They can also interact with scavengers if the player's reputation is good with the scavengers, however this isn't the case for all slugcats as scavengers will become hostile if the player's reputation is low. 
 
-You play as Kyle Crane (you cannot change) who is the main protagonist of the story. He has advanced training because he is a soldier sent into the quarantined zone, allowing his movement to be more advanced than that of an ordinary person, making the game more fast-paced and difficult. The character development is effective and allows the player to feel sympathy for Kyle when something goes wrong, this is due to the decisions that the character makes as he puts the people before the objective (most of the time).  
+Monk - The easy mode of rain world, where enemies are less common and less aggressive. This character is good for people playing the game for the first time as it allows them to experience the game in a less harsh environment than usual.
 
+Survivor - Regular difficulty of the game
+
+Hunter - Hard mode of rain world where some special tougher enemies spawn that don't usually spawn, enemies are also more common and aggressive. There is also a time limit as the hunter has a limited amount of cycles (days) unlike any of the other characters, hunter also has the ability to consume dead animals.
+
+Rain world also has a DLC called downpour which adds 5 new characters, where each character has unique abilities and objectives, the different characters are unique to the base game characters as they have their own abilities which also come with their downsides. Each character is also set at a different time in the timeline meaning that the layout of the game will be similar however each room will be different for each character and the enemies in that area will also be different. These new characters each require a different approach for the game due to their different downsides, for example gourmand gets tiered after throwing a spear, forcing the player to plan their combat as they will get tiered if they spend too long in combat. Whereas the saint isn't able to use spears because it's a pacifist, but they have a grapple which it can use to traverse the land faster, forcing the player to avoid combat at all costs. 
 ### **Aim of the game** 
-
-At the start of the game the player is told that their aim is to retrieve a secret file from the quarantined zone, however, this changes when he finds out that the people who sent him have no intent of helping the survivors in the quarantined zone. His aim changes to help the people at “the tower”. To do this he must complete many series of missions which survivors require and to eliminate the other main faction, this faction is run by a ruthless dictator who was previously a politician.  
-
-The gameplay consists of scavenging the remains of the city and navigating an abandoned city while trying not to get killed by the zombies. Which can create stressful situations since at night an extremely powerful enemy emerges which creates an incentive to not be outside of safe zones at night and when you see the sun going down and there is not a safehouse nearby it becomes stressful to run away from these enemies (there is no chance of killing them) while they are gaining distance on you. 
-
+The aim for each character in the game varies, however they all need to progress through the environment to reach their goal, often resulting in combat with the wildlife. The player must also gain enough food to be able to sleep in a shelter and avoid the rain that comes at the end of each cycle (game equivalent of a day). Dying results in the player respawning in the shelter they previously slept in and losing a karma point, however for each successful cycle that the player completes they will gain a karma point. Karma is important as it allows the player to traverse between regions, since regions are separated by karma gates which only let you through if your karma is above a certain level. 
 ### **Target demographic** 
-
-Adults as the game contains a lot of gore which would not be suitable for children or teens. 
-
-In terms of difficulty then it is for anyone as it has different difficulty setting that make it suitable for anyone to pick up, however they might have trouble with the movement if they are new. The variety in play styles allows the user to play how they want to and makes every path valid, for example, tank (maxing out health) or damage where you specialize in the damage perks to decimate enemies as fast as possible while being very squishy (not a lot of hp and dies easily) 
-
+Anyone as it doesn't contain any graphic scenes or references to difficult topics. However the game caters more to people who are willing to spend time trying to understand it as it's a very challenging game which is very harsh for a new player, lacking any kind of tutorial or explanation. 
 ### **Good Qualities** 
-
-Gameplay is fun and keeps the player engaged, even when the main story is over. 
-
-Melee combat focus is unique. 
-
-Movement is incredibly fun and feels exceptionally smooth. 
-
-The perk tree allows the player to not get overwhelmed by all the game mechanics and progress at their own pace since the mechanics are unlocked one at a time and the player has time to get used to it before the next one is introduced 
-
-The perk tree has distinct categories so that you can specialize in the style that you like as you will only get skills that appeal to your play style. 
-
+- Gameplay is fun and keeps the player engaged
+- Game has a high skill ceiling meaning there is always a way the player can improve 
+- Movement is incredibly fun and feels exceptionally smooth. 
+- Lack of permanent upgrades makes the game focus on skill rather than items and unlocks.
+- Completing a cycle if very rewarding.
+- Player is treated as part of ecosystem rather than separate entity
 ### **Bad Qualities** 
-
-The gore does not make it appealing to a wide variety of audience 
-
-The game can get repetitive as there are a lot of fetch quests 
-
+- Difficult to get into due to no tutorial
+- Game is very unforgiving and a small mistake can result in the player getting killed
 ### **What I would include** 
-
-A similar melee combat system 
-
-The movement in the game 
-
-Progression in skills with skill trees 
-
+- A similar combat system 
+- Similar movement system
+- Treating the player as part of the ecosystem
 # **Letter to Client** 
 
 Paragraph 1 - Introduce yourself and coursework 
@@ -258,61 +208,63 @@ Sincerely,  
 
 Karol Jeziorczak  
 
-## **Stakeholder Questionnaire** 
+# **Stakeholder Questionnaire** 
+Some SS of questionnaire talking about GDPR
+## **Analysis** 
 
-# **Analysis** 
+```mermaid
+pie showData
+title Q1: What is your age?
 
-- Q1 – What is your age? 
-    
+"less than 12":1
+"between 12 and 17": 12
+"between 18 and 25": 3
+"above 25": 2
+```
+We can see that the target demographic is teens and above meaning that the game can include some violence. It is important to make the game appropriate to the target demographic as they will be the majority of the player base. 
 
-- We can see that the target demographic is teens and above meaning that the game can include some violence. It is important to make the game appropriate to the target demographic as they will be the majority of the player base. 
-    
+```mermaid
+pie showData
+title Q2: How much do you play games a week?
+"less than 1 hr":1
+"between 1 and 3 hours":5
+"between 4 and 8 hours":7
+"between 9 and 14 hours":3
+"above 15 hours":2
+```
+It is important to balance the progress made and the time invested as if people only play 1-2hrs a day as shown by the questionnaire, it is important to make the player feel like they made progress in that time so that they are willing to continue playing. This could be implemented by each run being 30-40 mins allowing the user to have a couple runs in a session.
 
-- Q2 - How much do you play games? 
-    
+```mermaid
+pie showData
+title Q3: What platform do you play games on? 
+"Console":5
+"Mobile":2
+"PC":11
+```
+Most people answered replied that they play on pc meaning that it should be ported to pc first. A significant amount of people also play on console so it would be good to port the game to console if possible. 
+```mermaid
+pie showData
+title Q4: what type of games do you play?
+"Rougelike/Rougelite":5
+"Stratergy":2
+"Platformer":4
+"Fighter":2
+"Survival":3
+"Open World":2
+```
+Most people answered Roguelike/Rougelite and platformer meaning I should focus on these two aspects the most when making my game. Survival will be implemented though planning ahead this might be what routes to take and the risk associated with those routes as well as the risk of combat. As well as management of resources to make sure you survive to the next stage. 
+```mermaid
+pie showData
+title Q5: What mechanics are important to you in a game? 
+"Gameplay - combat":7
+"Gameplay - movement":5
+"User interface":0
+"Story":2
+"Different playstyles":3
+"Permanent progression":1
+```
+Combat and movement were the most common option so they should be the most polished systems in the game. Though different playstyles was something I should consider. Permanent progression wasn't a popular choice so a roguelike style would be more suitable 
 
-- It is important to balance the progress made and the time invested as if people only play 1-2hrs a day as shown by the questionnaire, it is important to make the player feel like they made progress in that time so that they are willing to continue playing 
-    
-- This could be implemented by each run being 30-40 mins allowing the user to have 2-3 runs per day which would be enough to keep them going back. 
-    
-
-- Q3 - What platform do you play games on? 
-    
-
-- Most people answered replied that they play on pc meaning that it should be ported to pc first 
-    
-- A significant amount of people also play on console so it would be good to port the game to console if possible. 
-    
-
-- Q4 - what type of games do you play? 
-    
-
-- Most people answered adventure and strategy, meaning I should incorporate both themes. 
-    
-- Adventure will be implemented through exploring an unknown environment. Allowing the player to explore as much as they like 
-    
-- Strategy will be implemented though planning ahead this might be what routes to take and the risk associated with those routes as well as the risk of combat. As well as management of resources to make sure you survive to the next stage. 
-    
-
-- Q5 - What type of visual style do you prefer? 
-    
-
-- Most people selected Cartoon/Anime so I will have to learn how to implement that into my game. The main thing is to get outlines that add to the scene rather than obstruct vision and feel out of place. 
-    
-
-- Q6 - What type of style should it be? 
-    
-
-- The majority of people answered dystopian future and Japanese therefore I think that a futuristic cyberpunk would be suitable. 
-    
-
-- Q7 - What mechanics are important to you in a game? 
-    
-
-- Different playstyles were the most chosen option, so it will be the main development focus.  
-    
-- Nobody said progression therefore I believe that a roguelike style would be appropriate as your progress gets reset after every run 
-    
 
 - Q8 -Do you prefer the game to be focused on story or have story in the background? 
     

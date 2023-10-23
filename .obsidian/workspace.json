@@ -6,29 +6,9 @@
       {
         "id": "092b175cdb3b530d",
         "type": "tabs",
-        "dimension": 55.73770491803278,
         "children": [
           {
             "id": "261696493d07a55a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Computer Science/Course Work/Reports/Report.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          }
-        ]
-      },
-      {
-        "id": "e9a92f85598905cc",
-        "type": "tabs",
-        "dimension": 44.26229508196721,
-        "children": [
-          {
-            "id": "5ea2afd03e0fb5f6",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -206,6 +186,9 @@
   },
   "active": "261696493d07a55a",
   "lastOpenFiles": [
+    "Life/Travel/Trains/Niki info on trains.md",
+    "Life/Travel/Trains",
+    "Life/Travel",
     "School/Computer Science/Course Work/Reports/Report.md",
     "School/Computer Science/Course Work/Reports/Images",
     "School/Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
@@ -230,8 +213,6 @@
     "School/EPQ/Evaluation of research sources/Images",
     "School/EPQ/Evaluation of research sources",
     "School/EPQ/Final Submission/Time Planning.pdf",
-    "School/EPQ/Final Submission/Skills Audit.pdf",
-    "School/EPQ/Final Submission/Log Book (WIP).pdf",
     "School/EPQ/Overall evaluation/Overall evaluation.md",
     "Life/Cooking/Side things/Crusty garlic bread.md",
     "Life/Cooking/Desert/Lemon Muffins.md",
@@ -252,8 +233,6 @@
     "School/EPQ/Time Planning/Time Planning.md",
     "School/EPQ/Skills Audit/Skills Audit.md",
     "School/Computer Science/Notes/Unit 2/2.2 Problem solving and programming/2.2.1 Programming techniques.md",
-    "School/Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.5 Thinking concurrently.md",
-    "School/Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.4 Thinking logically.md",
     "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas"
   ]
 }
