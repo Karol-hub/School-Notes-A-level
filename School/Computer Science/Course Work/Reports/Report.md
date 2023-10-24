@@ -10,21 +10,21 @@ Centre Number: 31255
 <div style="page-break-after: always;"></div>
 
 # **Sources** 
-Name: SLOPE MOVEMENT, SPRINTING & CROUCHING - Unity Tutorial   
-URL: [https://www.youtube.com/watch?v=xCxSjgYTw9c](https://www.youtube.com/watch?v=xCxSjgYTw9c)  
-Date Accessed: 13/03/23
+Name: 
+URL: 
+Date Accessed: 
 
 # **Image sources** 
-Name: 
+Name: Risk of Rain 2
 URL: [https://store.steampowered.com/app/632360/Risk_of_Rain_2/](https://store.steampowered.com/app/632360/Risk_of_Rain_2/)  
 Date Accessed: 25/09/23
 
-Name: 
-URL: [https://store.steampowered.com/app/1676130/Deadlink/](https://store.steampowered.com/app/1676130/Deadlink/)  
+Name: Rain World
+URL: [https://store.steampowered.com/app/312520/Rain_World/](https://store.steampowered.com/app/312520/Rain_World/)
 Date Accessed: 25/09/23
 
-Name: 
-URL: [https://store.steampowered.com/app/239140/Dying_Light/](https://store.steampowered.com/app/239140/Dying_Light/)  
+Name: Celeste
+URL: [https://store.steampowered.com/app/504230/Celeste/](https://store.steampowered.com/app/504230/Celeste/)
 Date Accessed: 25/09/23
 
 <div style="page-break-after: always;"></div>
@@ -74,6 +74,7 @@ I have chosen these people since they are part of my target demographic and they
 
 # **Researching the Problem** 
 ## **Risk of Rain 2** 
+![[ROR 2 ss.jpg]]
 Risk of Rain 2 is a roguelike, third person shooter. A roguelike game means that when you die in the game you must restart the entire game, which means that it does not take long to complete and it can be replayed multiple times, since it has a large variety of items which can be combined to make many unique runs. It has a unique concept since as the time goes up so does the difficulty, meaning that the more time you spend looting the more powerful enemies become creating a unique stressful and fast paced shooter. 
 ### **Controls:** 
 WSAD - to move 
@@ -118,6 +119,7 @@ Teens and older since the game contain blood, drug references and fantasy violen
 - The variety in characters and the play styles that they allow 
 - The different difficulties allowing the player to play at a level that their comfortable with 
 ## **Celeste**
+![[Celeste ss.jpg]]
 Celeste is a challenging 2D platformer where the aim is to give precise inputs that will clear the level and allow you to progress into the next room. It takes a long time to complete as the game is very difficult and constantly introduces new features that are harder than the last.
 ### **Controls** 
 WSAD – Movement 
@@ -142,6 +144,7 @@ Anyone as the game doesn't have any violent or difficult topics discussed, howev
 - A similar art style 
 - Similar movement system, but something that isn't as complicated so it doesn't overwhelm the player
 ## **Rain World**
+![[Rain world ss.jpg]]
 Rain world is an open world game meaning that the player can go explore anywhere to their heart's content. It's also very difficult, and focuses on treating the player as part of the ecosystem rather than a separate entity, for this reason enemies treat the player as any other rival creature and focuses on their own survival rather than killing the player, which is common in most other games.
 ### **Controls** 
 WSAD – Movement 
@@ -181,11 +184,8 @@ Anyone as it doesn't contain any graphic scenes or references to difficult topic
 # **Letter to Client** 
 
 Paragraph 1 - Introduce yourself and coursework 
-
 Paragraph 2 – why you have chosen them and what you need from them (interviews and game testing) 
-
 Paragraph 3 – GDPR (General Data Protection Regulation), data protection explain how you will follow these rules 
-
 Paragraph 4 – Thank them for working with you 
 
 31 Bucannon Road 
@@ -197,11 +197,8 @@ CV22 6AZ 
 Dear Ethan Armstrong, 
 
 My name is Karol Jeziorczak. I am studying computer science (OCR specification) at Rugby High School; the coursework requires me to create a game. 
-
 I am asking you to become a game tester for my game so that I can get feedback from you as to how to improve the game. In the future I will ask you to give me feedback on the game to improve the quality and usability of the game, this will be in the form of interviews and game testing. This will hopefully improve the quality of the game and allow me to develop this project further into a fully functional product. 
-
 All the data gathered will be kept secure in order with the GDPR (General Data Protection Regulation). This means that your data will be kept secure and will not be shared with any unauthorized personnel. I will do everything that I can to protect your data. However, if the data will get leaked, you will be the first to get notified.  
-
 Thank you for your time and co-operation (if you choose to). I am looking forward to working with you. 
 
 Sincerely,  
@@ -264,38 +261,21 @@ title Q5: What mechanics are important to you in a game? 
 "Permanent progression":1
 ```
 Combat and movement were the most common option so they should be the most polished systems in the game. Though different playstyles was something I should consider. Permanent progression wasn't a popular choice so a roguelike style would be more suitable 
-
-
-- Q8 -Do you prefer the game to be focused on story or have story in the background? 
-    
-
-- The results were very split on this question so I will have a story in the background which can be easily discovered if the player decides to look deeper into the environment  
-    
-
-- Q9 - What is most important to you in a game? 
-    
-
-- The majority answered combat and movement therefore I think that a game where you have to outmanoeuvre your enemies could work well 
-    
-
-- Q10 - How many skills should each character have? 
-    
-
-- Most people answered 2 so it would be important to make them distinct and useful as they will be unique.  
-    
-- and one will be an active ability that the user can activate when needed e.g. throwing grenade and it will have a cooldown. 
-    
-- A utility skill which can be picked regardless of character which is a limited resource and refreshes once a special item is picked up e.g. throwing knife that does damage. 
-    
-- One will be a passive (meaning that it is always active in the background e.g. 10% increased movement speed) since some people wanted a third ability and it just adds more uniqueness to each play style 
-    
-
-- Q11 - Should each character have their own weapon in their class or be able to pick up any weapon? 
-    
-
-- The majority wanted to have weapons that are picked up and not locked to class therefore I will give each character a starting weapon and give them the ability to change this weapon if they wish to. 
-    
-
+```mermaid
+pie showData
+title Q6: how many skills should each character have?
+"1":6
+"2":9
+"3":3
+```
+Most people answered 2 so it would be important to make the skills distinct and unique to allow for different playstyles. One ability could be active that the user can activate when needed e.g. throwing grenade and it will have a cooldown. The other ability could be a utility skill which can be picked regardless of character and is a limited resource and refreshes once a special item is picked up e.g. throwing knife that does damage, refreshes when more are picked up. There could also be a passive ability that the player doesn't need to do anything to activate it, it will be permanently active in the background (e.g. increased movement speed), this can make every character feel unique. 
+```mermaid
+pie showData
+title Q7: Should each character have their own weapon in their class or be able to pick up any weapon?
+"Weapon is locked to class":7
+"Weapon isn't locked to class":12
+```
+The majority wanted to have weapons that are picked up and not locked to a class therefore I will give each character a starting weapon and give them the ability to change this weapon if they wish to, allowing the player to experiment with different weapons that may suit their playstyle.
 # **Interview with Stakeholder** 
 
 I – Interviewer (Karol Jeziorczak)   
@@ -319,7 +299,7 @@ S: A bit after a new mechanic gets introduced so I have time to get used to it h
 
 I Question 4. What type of playstyle do you usually go for? 
 
-S: I usually go for a tanky1 playstyle with heavy weaponry 
+S: I usually go for a large health build with heavy weaponry 
 
 I: Question 5. Are there any specific features you would like to see? 
 
@@ -327,7 +307,7 @@ S: I would like to see a power slide because it makes the game seem fast paced.�
 
 I: Question 6. What would a good combat system include? 
 
-S: Enemies not having insane amounts of health as it slows down the pace of the game and makes killing them seem like it takes too long. So, with melee weapons there should be more blocking and skill involved rather than just bonking enemies and them dying? 
+S: Enemies not having insane amounts of health as it slows down the pace of the game and makes killing them seem like it takes too long. So, with melee weapons there should be more blocking and skill involved rather than just hitting enemies and them dying? 
 
 I: Question 7. What should the final boss look like? 
 
@@ -335,14 +315,11 @@ S: The final boss should be an enemy foreshadowed by the previous environments t
 
 I: Question 8. How should the inventory management system work? 
 
-S: I think that there should be a very limited amount of inventory room so that management and planning become very important. Also, so that the focus of the game isn’t shifted too much from the combat as it is the main focus of the game. 
-
- tanky1 – Has lots of health 
+S: I think that there should be a very limited amount of inventory room so that management and planning become very important. Also, so that the focus of the game isn’t shifted too much from the combat, as it is the main focus of the game. 
 
 # **System Requirements** 
 
-**Minimum Hardware Requirements** 
-
+## **Minimum Hardware Requirements** 
 Processor:   
 Graphics Card:   
 Memory:   
@@ -350,200 +327,28 @@ Storage: 
 Sound Card: yes 
 
 Input devices: 
-
 - Keyboard – allows you to input characters 
-    
 - Mouse – Inputs 2D vector coordinate for mouse position 
-    
 
 Output devices: 
-
 - Display – Outputs image 
-    
 - Speakers – Outputs sound 
-    
 
-**Minimum Software Requirements** 
-
+## **Minimum Software Requirements** 
 OS: Windows 10+   
 DirectX version: 12   
 
 # **Success Criteria** 
 
 Using the data gathered from my research phase I will aim to implement the following features: 
-
-- User Interface 
-    
-
-- Main Menu 
-    
-
-- Does it have a new game button? 
-    
-
-- Does it have an options button? 
-    
-- Does it have a quit game button? 
-    
-- Does it have a tutorial option? 
-    
-- Does it have a pretty background? 
-    
-
-- Pause Menu 
-    
-
-- Does it pause the game? 
-    
-- Is there an options button? 
-    
-- Is there a quit game button, with a message that tells them that the current run will be ended (since it’s a roguelike)? 
-    
-
-- HUD (Heads Up Display) 
-    
-
-- Is there a health bar? 
-    
-
-- Is there a current level box? 
-    
-- Is there a timer? 
-    
-- Are there small indicators for status effects? 
-    
-- Are these customizable? 
-    
-
-- Inventory 
-    
-
-- Is the cursor able to be moved around? 
-    
-- Can you drop items? 
-    
-- Are there item slots? 
-    
-
-- Audio 
-    
-
-- Main Menu 
-    
-
-- Is there some sort of music? 
-    
-- Do the buttons make a sound? 
-    
-
-- In game 
-    
-
-- Is there separate boss music? 
-    
-- Does the game have sound effects? 
-    
-
-- Gameplay 
-    
-
-- General level 
-    
-
-- Can you loot items? 
-    
-- Are there enemies to defeat? 
-    
-- Is there an exit? 
-    
-
-- Are the buildings unique? 
-    
-
-- Combat 
-    
-
-- Is it mostly melee? 
-    
-- Player 
-    
-
-- Can the player melee swing? 
-    
-
-- Does the player die when their health equals 0? 
-    
-- Does the player attack do damage to the enemy? 
-    
-- Does the special attack help the player in combat? 
-    
-- Can the player block? 
-    
-
-- Enemy 
-    
-
-- Can the enemy die when their health equals 0? 
-    
-- Can they damage the player? 
-    
-- Can they block incoming attack? 
-    
-- Can they damage each other? 
-    
-
-- Do weapons get better as you progress? 
-    
-
-- Do enemies get more powerful as you progress? 
-    
-
-- Boss encounters 
-    
-
-- Does the boss die when its health reaches 0? 
-    
-- Does it have a unique AI that makes it harder to defeat? 
-    
-- Does it have a large health bar on the HUD? 
-    
-
-- Looting 
-    
-
-- Are rare items more difficult to find? 
-    
-- Is there a limited amount of inventory space? 
-    
-- Can you pick up items? 
-    
-- Can you heal? 
-    
-
-- Movement 
-    
-
-- Can you move around? 
-    
-- Can you jump? 
-    
-- Can you slide? 
-    
-- Can you wall jump? 
-    
-
+*ss of excel sheet*
 # **Designing the solution** 
 
 **Decomposition of the problem**   
 This is one of the computational methods that I am going to use for my game. This is important as it allows me to think of how the game will work at a basic level. 
-
-![](file:///C:/Users/dimki/AppData/Local/Temp/lu1544013jnx.tmp/lu1544013jo0_tmp_8c676991b6920e69.png)  
-
 ## **Main Menu** 
 
 The main menu will be there to greet the player once they open the game and allow them to choose what they would like to do 
-
-![](file:///C:/Users/dimki/AppData/Local/Temp/lu1544013jnx.tmp/lu1544013jo0_tmp_823ac9560bfd3175.png)  
 
 These will be in the form of buttons that the user can click on.  
 
@@ -569,139 +374,55 @@ Abilities 
 Generation 
 
 ## **Folder Setup** 
-
-Game 
-
-- Assets 
-    
-
-- Characters 
-    
-
-- Enemies 
-    
-- Items 
-    
-- Scenery 
-    
-
-- Scripts 
-    
-
-- Movement 
-    
-
-- Abilities 
-    
-- Generation 
-    
-
+*ss of folder setup*
 # **Actual Coding** 
 
 **Initial Planning**  
-
 Can be split into two main segments 
-
 - Things that happen every frame  
-    
+	- Player Input 
+	- Will be under “private void Update()” which is called once every frame 
+- Things that happen every physics frame (constant 50Hz) 
+	- Anything physics related 
+	- Will be under “private void FixedUpdate()” which is called once every 0.02 seconds (can be changed in the unity project settings 
 
-- Player Input 
-    
-- Will be under “private void Update()” which is called once every frame 
-    
-
-Things that happen every physics frame (constant 50Hz) 
-
-- Anything physics related 
-    
-- Will be under “private void FixedUpdate()” which is called once every 0.02 seconds (can be changed in the unity project settings 
-    
-
-This is to keep things consistent as frame rate isn’t constant in a game therefore if we were to do physics related actions every frame it would be inconsistent and would feel unreliable. However, since we want physics to be consistent throughout the game. Some things will be exempt from this ruleset. This will happen when the force is applied once (like a jump) since the force will only be applied in one frame, then the frame rate doesn’t change how it behaves. This will make the game feel more responsive as if we were to do add impulsive forces in the physics frame, we would need to wait for the next physics frame to apply the force, however applying it in the Update void will allow the input to be processed as soon as it is inputted into the computer. 
+ Using fixed update aims to keep things consistent as frame rate isn’t constant in a game therefore if we were to do physics related actions every frame it would be inconsistent and would feel unreliable as the result would be different based on frame rate. Some things will be exempt from this rule. This will happen when the force is applied once (like a jump) since the force will only be applied in one frame, then the frame rate doesn’t change how it behaves. This will make the game feel more responsive as if we were to do add impulsive forces in the physics frame, we would need to wait for the next physics frame to apply the force, however applying it in the Update void will allow the input to be processed as soon as it is inputted into the computer. 
 
 ## **Player Movement** 
 
 ### **Success criteria** 
 
 - Walking 
-    
-
 - Can move in all directions relative to the camera 
-    
 - Can move up slopes at the same speed as on ground 
-    
-
 - Sprinting 
-    
-
 - Can move in all directions relative to the camera 
-    
 - Can move up slopes at the same speed as on ground 
-    
 - Moves at a different speed than the walking speed 
-    
 - Increased FOV to make it seem like the player is going faster 
-    
-
 - Crouching 
-    
-
 - Can move in all directions relative to the camera 
-    
 - Can move up slopes at the same speed as on ground 
-    
 - When running and initiating a crouch it becomes a slide 
-    
 - When sliding down the slope you accelerate down, and the magnitude is decided by the steepness of the slope. 
-    
-
 - When something is above the player, they can’t un-crouch 
-    
 - Player scale changes to make the hitbox smaller 
-    
 - Player moves down so that they don’t float when changing scale 
-    
-
 - Jumping 
-    
-
 - Always jumps up 
-    
-
 - Power can be changed 
-    
 - When slow enough and  
-    
-
 - Wall running 
-    
-
 - Can go around curves 
-    
 - Can't infinitely wall run to climb any wall 
-    
-
 - Can jump off from it 
-    
-
 - Camera 
-    
-
 - Can’t rotate fully up to go upside down 
-    
 - Can rotate around depending on mouse movement 
-    
-
 - Gravity 
-    
-
 - Works as intended on slopes 
-    
 - Smaller gravity when wall running 
-    
 - Acts down when player is in the air. 
-    
-
 ### **Testing Scene** 
 
 ![](file:///C:/Users/dimki/AppData/Local/Temp/lu1544013jnx.tmp/lu1544013jo0_tmp_aa6f8226a38856f8.png)  
