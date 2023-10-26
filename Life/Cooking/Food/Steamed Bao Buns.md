@@ -11,7 +11,7 @@
 - 2 teaspoons sea salt
 - ¼ cup avocado oil, more for brushing
 ## Filling
-- 8 ounces tempeh, sliced into 12 strips and steamed
+- 225g tempeh, sliced into 12 strips and steamed
 - 6 tablespoons hoisin sauce
 - 3 tablespoons sriracha
 - 1 teaspoon grated fresh ginger

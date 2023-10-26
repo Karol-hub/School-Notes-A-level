@@ -21,7 +21,7 @@
 - 2 tablespoons Maple Syrup
 - 1 teaspoon lemon zest, more for garnish
 # Instructions
-1. Preheat the oven to 390°F and lightly oil a 12-cup non-stick muffin tin.
+1. Preheat the oven to 200°C and lightly oil a 12-cup non-stick muffin tin.
 2. In a small bowl, combine the almond milk and apple cider vinegar. Set aside.
 3. In a large bowl, whisk together the flours, baking powder, baking soda, and salt.
 4. In a medium bowl, whisk together the sugar, olive oil, lemon zest, lemon juice, and vanilla. Stir in the almond milk mixture. Combine the wet ingredients with the dry ingredients and mix until just combined. Fold in the chia seeds and use a ⅓-cup measuring cup to scoop the batter into the muffin tins. 

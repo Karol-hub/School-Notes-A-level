@@ -4,35 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "092b175cdb3b530d",
+        "id": "eb2faa2633aaeefa",
         "type": "tabs",
         "children": [
           {
-            "id": "c3eba86120fd798f",
+            "id": "de5fe0bf42e55e8a",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "6b831104a5941007",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
+                "file": "Life/Personal Statement/Drafts/Fourth Draft.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -106,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
+                "file": "Life/Personal Statement/Drafts/Fourth Draft.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -123,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
+                "file": "Life/Personal Statement/Drafts/Fourth Draft.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md"
+                "file": "Life/Personal Statement/Drafts/Fourth Draft.md"
               }
             }
           },
@@ -196,12 +183,28 @@
       "graph:Open graph view": false
     }
   },
-  "active": "6b831104a5941007",
+  "active": "de5fe0bf42e55e8a",
   "lastOpenFiles": [
+    "Life/Personal Statement/Drafts/First Draft.md",
+    "School/Maths/Textbook/Applied Year 2.pdf",
+    "School/Maths/Textbook/Pure Year 2.pdf",
+    "Life/Cooking/Food/Japanese-style chicken curry.md",
+    "Life/Cooking/Food/Steamed Bao Buns.md",
+    "Life/Cooking/Food/Salmon risotto.md",
+    "Life/Cooking/Food/Pulled chicken & black bean chilli.md",
+    "Life/Cooking/Food/Kidney bean curry.md",
+    "Life/Cooking/Food/Double bean & roasted pepper chilli.md",
+    "Life/Cooking/Food/Classic lasagne.md",
+    "Life/Cooking/Food/Chipotle chicken tinga.md",
+    "Life/Cooking/Desert/Lemon Muffins.md",
+    "Life/Cooking/Food/Beef curry.md",
+    "Life/Cooking/Food/Chicken curry.md",
+    "School/EPQ/Final Submission/Final Submission checklist.md",
+    "School/EPQ/Final Submission/sample.pdf",
+    "School/Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
     "School/EPQ/Final Submission/lu30687pt88.tmp",
     "School/EPQ/Final Submission/4162_RHS31255_EPQH857_Product_.pdf",
     "School/Computer Science/Notes/Links.md",
-    "School/Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
     "Life/Cooking/Desert/Banana Bread.md",
     "School/Computer Science/Notes/Defenitions/Tree.md",
     "School/Computer Science/Notes/Defenitions/Post-order traversal.md",
@@ -214,18 +217,11 @@
     "School/Computer Science/Notes/Defenitions/Manipulating Boolean expressions.md",
     "School/Computer Science/Notes/Defenitions/Truth tables.md",
     "School/Computer Science/Notes/Defenitions/Queue.md",
-    "School/Computer Science/Notes/Defenitions/Linked-list.md",
-    "School/EPQ/How to access blend file/How to access blend file.md",
     "School/EPQ/Final Submission/lu19568d4ca2.tmp",
     "School/EPQ/Final Submission/lu19568d4c9y.tmp",
     "School/EPQ/Final Submission/lu19568d4c9v.tmp",
     "School/EPQ/Final Submission/lu19568d4c9s.tmp",
     "School/EPQ/Final Submission/lu19568d4c9o.tmp",
-    "School/EPQ/Final Submission/lu19568d4c9l.tmp",
-    "School/EPQ/Final Submission/lu19568d4c9i.tmp",
-    "School/EPQ/Final Submission/lu19568d4c9f.tmp",
-    "School/EPQ/Final Submission/lu19568d4c9c.tmp",
-    "School/EPQ/Final Submission/Final Submission checklist.md",
     "School/EPQ/How to access blend file/images/Pasted image 20231024203338.png",
     "School/EPQ/How to access blend file/images/Pasted image 20231024203322.png",
     "School/EPQ/How to access blend file/images/Pasted image 20231024203143.png",
@@ -235,17 +231,8 @@
     "School/EPQ/How to access blend file/images/Pasted image 20231024202753.png",
     "School/EPQ/How to access blend file/images/Pasted image 20231024202711.png",
     "School/EPQ/How to access blend file/images/Drawing 2023-10-24 20.22.23.excalidraw.png",
-    "Excalidraw/Drawing 2023-10-24 20.22.23.excalidraw.md",
-    "School/EPQ/Evaluation of research sources/Evaluation of research sources.md",
-    "School/Computer Science/Course Work/Reports/Report.md",
-    "Life/Personal Statement/Drafts/Fourth Draft.md",
-    "Life/Travel/Trains/Niki info on trains.md",
     "School/Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
     "Untitled.canvas",
-    "Excalidraw/Drawing 2023-10-23 10.23.43.excalidraw.md",
-    "School/EPQ/Overall evaluation/Overall evaluation.md",
-    "Life/Cooking/Side things/Crusty garlic bread.md",
-    "Life/Cooking/Desert/Lemon Muffins.md",
     "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas"
   ]
 }
