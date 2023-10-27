@@ -1,0 +1,7 @@
+- Add personal and school details to final submission first page
+- [ ] Report
+- [ ] final submission
+- [ ] final presentation
+- [ ] blender file
+- 4162_RHS31255_EPQH857_File name
+- 27/10/23 final feedback to check everything's in place
