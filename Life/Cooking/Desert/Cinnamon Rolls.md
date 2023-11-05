@@ -3,7 +3,7 @@
 # Ingredients
 # For the yeast
 - ½ cup warm water, 110°
-- 1 (¼-ounce) package active dry yeast
+- 1 (10-30g) package active dry yeast
 - 1 teaspoon cane sugar
 ## Dough
 - ⅓ cup melted coconut oil, plus more for brushing

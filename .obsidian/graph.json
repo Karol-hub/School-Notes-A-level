@@ -4,7 +4,7 @@
   "showTags": false,
   "showAttachments": false,
   "hideUnresolved": false,
-  "showOrphans": true,
+  "showOrphans": false,
   "collapse-color-groups": false,
   "colorGroups": [
     {
@@ -12,6 +12,34 @@
       "color": {
         "a": 1,
         "rgb": 14701138
+      }
+    },
+    {
+      "query": "path:School/Physics  ",
+      "color": {
+        "a": 1,
+        "rgb": 1048427
+      }
+    },
+    {
+      "query": "path:School/M",
+      "color": {
+        "a": 1,
+        "rgb": 46079
+      }
+    },
+    {
+      "query": "path:Life  ",
+      "color": {
+        "a": 1,
+        "rgb": 16719864
+      }
+    },
+    {
+      "query": "path:School/EPQ  ",
+      "color": {
+        "a": 1,
+        "rgb": 7488823
       }
     }
   ],
@@ -25,6 +53,6 @@
   "repelStrength": 9.6875,
   "linkStrength": 0.692708333333333,
   "linkDistance": 69,
-  "scale": 0.10716329989134206,
+  "scale": 0.1502411137169132,
   "close": false
 }

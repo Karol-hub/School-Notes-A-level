@@ -1,0 +1,2 @@
+- Used to find approximate value
+- Estimate by rounding values and carry out calculations

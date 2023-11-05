@@ -1,0 +1,1 @@
+The [[Sample]] taken from the [[Population]]

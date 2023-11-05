@@ -1,0 +1,1 @@
+A statement that describes the [[Population]] if [[Null Hypothesis]] is rejected

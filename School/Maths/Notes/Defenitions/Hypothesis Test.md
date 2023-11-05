@@ -1,0 +1,1 @@
+A test that tests the claim made by [[Null Hypothesis]] ($H_0$) against the [[Alternate Hypothesis]] ($H_1$)

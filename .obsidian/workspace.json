@@ -4,28 +4,33 @@
     "type": "split",
     "children": [
       {
-        "id": "092b175cdb3b530d",
+        "id": "beeefa2bdfa88eda",
         "type": "tabs",
         "children": [
           {
-            "id": "6b831104a5941007",
+            "id": "95b97245b4ff2a98",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/EPQ/Final Submission/Final feedback.md",
+                "file": "School/Maths/Notes/Statistics/Year 1/7 Hypothesis testing.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "28fce35e1d676224",
+            "id": "4b4caad3debd078b",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "canvas",
               "state": {
-                "file": "School/EPQ/Final Submission/sample.pdf"
+                "file": "School/Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
+                "viewState": {
+                  "x": 2044.258202449459,
+                  "y": 772.9247952308622,
+                  "zoom": -1.0648444974074318
+                }
               }
             }
           }
@@ -103,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/EPQ/Final Submission/Final feedback.md",
+                "file": "School/Maths/Notes/Statistics/Year 1/7 Hypothesis testing.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/EPQ/Final Submission/Final feedback.md",
+                "file": "School/Maths/Notes/Statistics/Year 1/7 Hypothesis testing.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/EPQ/Final Submission/Final feedback.md"
+                "file": "School/Maths/Notes/Statistics/Year 1/7 Hypothesis testing.md"
               }
             }
           },
@@ -193,54 +198,54 @@
       "graph:Open graph view": false
     }
   },
-  "active": "6b831104a5941007",
+  "active": "95b97245b4ff2a98",
   "lastOpenFiles": [
-    "Pasted image 20231027114656.png",
-    "School/EPQ/Final Submission/Final feedback.md",
-    "School/EPQ/Final Submission/Final Submission checklist.md",
-    "School/EPQ/Final Submission/sample.pdf",
-    "School/Maths/Textbook/Pure Year 2.pdf",
-    "School/EPQ/Untitled.md",
-    "School/Maths/Textbook/Applied Year 2.pdf",
-    "School/Computer Science/Notes/Unit 1/1.1 The characteristics of contemporary processors, input, output and storage devices/1.1.3 Input, output and storage.md",
-    "School/Computer Science/Notes/Defenitions/Quick Sort.md",
-    "School/Computer Science/Notes/Defenitions/Linear Search.md",
-    "School/Computer Science/Notes/Defenitions/Dijkstra's Shortest Path.md",
-    "School/Computer Science/Notes/Defenitions/Bubble Sort.md",
-    "School/Computer Science/Notes/Defenitions/Binary Search.md",
-    "School/Computer Science/Notes/Defenitions/Big O Notation.md",
-    "School/Computer Science/Notes/Defenitions/A-star Pathfinding.md",
-    "School/Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
-    "School/Computer Science/Notes/Links.md",
-    "School/Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
-    "School/EPQ/Final Submission/lu30687pt88.tmp",
-    "School/EPQ/Final Submission/4162_RHS31255_EPQH857_Product_.pdf",
-    "Life/Cooking/Desert/Banana Bread.md",
-    "School/Computer Science/Notes/Defenitions/Tree.md",
-    "School/Computer Science/Notes/Defenitions/Post-order traversal.md",
-    "School/Computer Science/Notes/Defenitions/In-order traversal.md",
-    "School/Computer Science/Notes/Defenitions/Pre-order traversal.md",
-    "Pasted image 20231025093927.png",
-    "School/Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.2 Data Structures.md",
-    "School/Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.3 Boolean Algebra.md",
-    "School/Computer Science/Notes/Defenitions/Karnaugh Maps.md",
-    "School/Computer Science/Notes/Defenitions/Manipulating Boolean expressions.md",
-    "School/Computer Science/Notes/Defenitions/Truth tables.md",
-    "School/Computer Science/Notes/Defenitions/Queue.md",
-    "School/EPQ/Final Submission/lu19568d4ca2.tmp",
-    "School/EPQ/Final Submission/lu19568d4c9y.tmp",
-    "School/EPQ/Final Submission/lu19568d4c9v.tmp",
-    "School/EPQ/Final Submission/lu19568d4c9s.tmp",
-    "School/EPQ/Final Submission/lu19568d4c9o.tmp",
-    "School/EPQ/How to access blend file/images/Pasted image 20231024203338.png",
-    "School/EPQ/How to access blend file/images/Pasted image 20231024203322.png",
-    "School/EPQ/How to access blend file/images/Pasted image 20231024203143.png",
-    "School/EPQ/How to access blend file/images/Pasted image 20231024203056.png",
-    "School/EPQ/How to access blend file/images/Pasted image 20231024203007.png",
-    "School/EPQ/How to access blend file/images/Pasted image 20231024202933.png",
-    "School/EPQ/How to access blend file/images/Pasted image 20231024202753.png",
-    "School/EPQ/How to access blend file/images/Pasted image 20231024202711.png",
+    "Life/Obsidian stuff/Latex cheat sheet.pdf",
     "School/Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
+    "School/Maths/Notes/Links.md",
+    "School/Maths/Notes/Statistics/Year 1/7 Hypothesis testing.md",
+    "School/Maths/Notes/Defenitions/One-tailed test.md",
+    "School/Maths/Notes/Defenitions/Test Statistic.md",
+    "School/Maths/Notes/Defenitions/Actual Significance.md",
+    "School/Maths/Notes/Defenitions/Alternate Hypothesis.md",
+    "School/Maths/Notes/Defenitions/Critical value.md",
+    "School/Maths/Notes/Defenitions",
+    "School/Maths/Notes/Defenitions/Critical region.md",
+    "School/Maths/Notes/Defenitions/Significance level.md",
+    "Life/Obsidian stuff",
+    "School/Maths/Notes/Defenitions/Two-tailed test.md",
+    "School/Maths/Notes/Defenitions/Hypothesis Test.md",
+    "School/Maths/Notes/Defenitions/Null Hypothesis.md",
+    "School/Computer Science/Course Work/Reports/Report.md",
+    "School/Computer Science/Course Work/Thoughts/Character/Character concept art/pixel art stuff/small hoodie dude.png",
+    "School/Maths/Notes/Statistics/Year 1/2 Measure of location and spread.md",
+    "School/Computer Science/Course Work/Thoughts/Character/Aseprite files/small char.aseprite",
+    "School/Maths/Notes/Defenitions/Variance.md",
+    "School/Maths/Notes/Defenitions/Standard Deviation.md",
+    "School/Maths/Notes/Statistics/Year 1/1 Data collection.md",
+    "Life/Cooking/Cook book.md",
+    "School/Maths/Notes/Defenitions/Continuous variable.md",
+    "School/Maths/Notes/Defenitions/Discrete variable.md",
+    "School/Maths/Notes/Defenitions/Qualitative variables.md",
+    "School/Maths/Notes/Defenitions/Quantitative variables.md",
+    "School/Maths/Notes/Defenitions/Opportunity sampling.md",
+    "School/Maths/Notes/Defenitions/Quota sampling.md",
+    "School/Computer Science/Course Work/Thoughts/Character/Aseprite files/oversized coat.gif",
+    "School/Computer Science/Course Work/Thoughts/Character/Aseprite files/oversized coat.aseprite",
+    "School/Computer Science/Course Work/Thoughts/Character/Character concept art/pixel art stuff/oversized coat.png",
+    "Pasted image 20231102182208.png",
+    "School/Computer Science/Course Work/Thoughts/Character/Aseprite files/hooded mf.aseprite",
+    "School/Computer Science/Course Work/Thoughts/Character/Aseprite files",
+    "School/Computer Science/Course Work/Thoughts/Character/New folder",
+    "School/Computer Science/Course Work/Thoughts/Character/Character concept art/pixel art stuff/Hooded mf.png",
+    "School/Computer Science/Course Work/Thoughts/Character/Character concept art/pixel art stuff/hooded mf.png",
+    "School/Maths/Notes/Defenitions/Stratified sampling.md",
+    "School/Maths/Notes/Mechanics/Defenitions",
+    "School/Maths/Notes/Pure/Defenitons",
+    "School/Physics/Notes/Images/velocity, displacement time graphs.png",
+    "Pasted image 20231027114656.png",
+    "Pasted image 20231025093927.png",
+    "School/EPQ/How to access blend file/images/Pasted image 20231024203338.png",
     "Untitled.canvas",
     "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas"
   ]

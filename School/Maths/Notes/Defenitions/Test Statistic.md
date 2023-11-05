@@ -1,0 +1,1 @@
+A statistic calculated from sample data which is used to decide weather or not to reject [[Null Hypothesis]] ($H_0$)
