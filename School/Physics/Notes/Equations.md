@@ -214,7 +214,7 @@ $v = -A \omega \, sin \, \omega \, t$
 
 $a = -A\omega^2 \, cos \, \omega t$
 
-$T = \frac{1}{f} = \frac{2\pi}{\omega}$#
+$T = \frac{1}{f} = \frac{2\pi}{\omega}$
 
 $\omega = 2\pi f$
 ### Simple harmonic oscillator

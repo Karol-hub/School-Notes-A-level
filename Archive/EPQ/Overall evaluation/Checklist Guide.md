@@ -1,0 +1,15 @@
+- [x] What did you enjoy/dislike/find most challenging and why?​ ✅ 2023-10-18
+- [x] What new expertise, skills and knowledge have you gained (selection, development and application)?​ ✅ 2023-10-18
+- [x] How did you find working independently/were you able to maintain motivation?​ ✅ 2023-10-18
+- [x] How successful have you been/how have you judged your success? ✅ 2023-10-18
+- [x] Did things go wrong/how did you solve problems and overcome difficulties/rectify mistakes?​ ✅ 2023-10-18
+- [x] Have you fulfilled your original aims and objectives/reasons for doing the EPQ/come to a conclusion based on your topic/theme/title?​ ✅ 2023-10-18
+- [x] How have you adapted/developed your project in light of your progress to meet your intentions/aims/objectives?​ ✅ 2023-10-18
+- [x] Are there any key decisions you have made along the way/what has been the impact of these?​ ✅ 2023-10-18
+- [x] Will your project lead on to any future work/could you develop it further in any way (skills or topic) and why?​ ✅ 2023-10-18
+- [x] How have you made use of the support offered to you?​ ✅ 2023-10-18
+- [x] What is the most important thing you will take away from your experience?  What advice would you give to others?​​ ✅ 2023-10-18
+- [x] Would you do anything differently if you were to start again?  In what areas could you make improvements?​ ✅ 2023-10-18
+- [x] What have you learned about learning?​ ✅ 2023-10-18
+- [x] How would you rate your performance against both your expectations and your achievements?​ ✅ 2023-10-18
+- [x] How could the skills you have developed/gained could be transferred to other situations? ✅ 2023-10-18

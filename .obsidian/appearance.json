@@ -3,6 +3,6 @@
   "enabledCssSnippets": [
     "custom-mermaid"
   ],
-  "baseFontSize": 14,
+  "baseFontSize": 16,
   "cssTheme": "Encore"
 }
