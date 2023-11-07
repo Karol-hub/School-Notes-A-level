@@ -1,0 +1,1 @@
+When two [[Straight Line Equations|lines]] have the same gradient ($m$)

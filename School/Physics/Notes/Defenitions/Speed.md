@@ -1,0 +1,3 @@
+- distance travelled per unit time
+- $s =\frac{\Delta d}{\Delta t}$
+- scalar quantity

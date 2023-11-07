@@ -1,0 +1,3 @@
+- rate of change of displacement 
+- $v=\frac{\Delta s}{\Delta t}$
+- vector quantity
