@@ -1,0 +1,1 @@
+For each force experienced by an object, the object exerts an equal and opposite force.

@@ -1,0 +1,1 @@
+An object will remain at rest or travelling at a constant velocity, until it experiences a resultant force.

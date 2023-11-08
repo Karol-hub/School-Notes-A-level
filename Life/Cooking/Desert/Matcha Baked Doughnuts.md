@@ -1,4 +1,4 @@
-#Untested 
+#recipe 
 [Source](https://www.loveandlemons.com/matcha-baked-doughnuts/)
 # Ingredients
 - ¼ cup melted coconut oil

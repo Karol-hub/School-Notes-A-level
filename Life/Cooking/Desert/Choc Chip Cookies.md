@@ -1,5 +1,4 @@
-#Freezeable 
-#Untested 
+#recipe 
 [Source](https://www.loveandlemons.com/vegan-chocolate-chip-cookies/#wprm-recipe-container-45163)
 # Ingredients
 - 2 cups all-purpose flour

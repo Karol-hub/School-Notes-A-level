@@ -1,5 +1,4 @@
-#Freezeable 
-#Untested 
+#recipe 
 [Source](https://www.loveandlemons.com/thumbprint-cookies/)
 # Ingredients
 - 2 cups all-purpose flour (spooned and levelled)

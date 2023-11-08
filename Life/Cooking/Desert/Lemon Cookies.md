@@ -1,5 +1,4 @@
-#Freezeable
-#Untested 
+#recipe 
 [Source](https://www.loveandlemons.com/lemon-cookies/)
 Serves: 12 large cookies
 # Ingredients

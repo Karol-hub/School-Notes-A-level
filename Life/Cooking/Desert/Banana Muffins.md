@@ -1,5 +1,4 @@
-#Freezeable 
-#Untested 
+#recipe 
 [Source](https://www.loveandlemons.com/healthy-banana-muffins/#wprm-recipe-container-46975)
 # Ingredients
 - 4 tablespoons ground flaxseed + 4 tablespoons warm water* (or 2 eggs)

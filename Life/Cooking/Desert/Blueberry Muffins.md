@@ -1,5 +1,4 @@
-#Freezeable 
-#Untested 
+#recipe 
 [Source](https://www.loveandlemons.com/healthy-blueberry-muffins/#wprm-recipe-container-43006)
 # Ingredients
 - ¾ cup + 2 tablespoons all-purpose flour, plus more for dusting the blueberries

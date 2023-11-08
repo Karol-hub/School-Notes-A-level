@@ -1,5 +1,4 @@
-#Freezeable
-#Untested 
+#recipe 
 [Source](https://www.loveandlemons.com/peanut-butter-cookies/)
 Serves: 20
 # Ingredients

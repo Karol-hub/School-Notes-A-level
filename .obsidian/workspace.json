@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Physics/Notes/Defenitions/Free body Force Diagram.md",
+                "file": "Life/Cooking/Food/Potato Bread.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "6127884b78e8defd",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Physics/Notes/Equations.md",
                 "mode": "source",
                 "source": false
               }
@@ -27,6 +39,14 @@
               "state": {
                 "file": "Life/Obsidian stuff/Latex cheat sheet.pdf"
               }
+            }
+          },
+          {
+            "id": "7d64305cff9a04ab",
+            "type": "leaf",
+            "state": {
+              "type": "graph",
+              "state": {}
             }
           }
         ]
@@ -58,7 +78,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "energy",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -87,7 +107,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 296
+    "width": 307
   },
   "right": {
     "id": "e681d3f8c3a52a42",
@@ -103,8 +123,8 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Physics/Notes/Defenitions/Free body Force Diagram.md",
-                "collapseAll": false,
+                "file": "Life/Cooking/Food/Potato Bread.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
@@ -120,7 +140,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Physics/Notes/Defenitions/Free body Force Diagram.md",
+                "file": "Life/Cooking/Food/Potato Bread.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -143,7 +163,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Physics/Notes/Defenitions/Free body Force Diagram.md"
+                "file": "Life/Cooking/Food/Potato Bread.md"
               }
             }
           },
@@ -194,38 +214,43 @@
   },
   "active": "3b7f31dae66c3d55",
   "lastOpenFiles": [
-    "School/Physics/Notes/Defenitions/free body diagram.png",
-    "School/Physics/Notes/Defenitions/Free body Force Diagram.md",
-    "School/Physics/Notes/Paper 1/Topic 2- Mechanics.md",
-    "School/Physics/Notes/Defenitions/Projectile Motion.md",
-    "School/Physics/Notes/Defenitions/projectile at angle.png",
-    "School/Physics/Notes/Defenitions/Vector.md",
-    "Life/Obsidian stuff/Latex cheat sheet.pdf",
-    "School/Physics/Notes/Defenitions/Displacement, velocity and acceleration-time graphs.md",
-    "School/Physics/Notes/Defenitions/Velocity.md",
-    "School/Physics/Notes/Defenitions/Displacement.md",
-    "School/Physics/Notes/Defenitions/Speed.md",
-    "School/Physics/Notes/Defenitions/Acceleration.md",
-    "School/Physics/Notes/Defenitions/Distance.md",
-    "School/Physics/Notes/Defenitions/SUVAT equations.md",
-    "School/Physics/Notes/Paper 1/Topic 1- Working as a Physicist.md",
-    "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
-    "School/Physics/Notes/Links.md",
+    "Life/Cooking/Food/Pulled chicken & black bean chilli.md",
+    "Life/Cooking/Food/Potato Bread.md",
+    "Life/Cooking/Food/Kidney bean curry.md",
+    "Life/Cooking/Desert/Thumbprint Cookies.md",
+    "Life/Cooking/Desert/Peanut Butter Cookies.md",
+    "Life/Cooking/Desert/Matcha Baked Doughnuts.md",
+    "Life/Cooking/Desert/Lemon Shortbread Cookies.md",
+    "Life/Cooking/Desert/Lemon Muffins.md",
+    "Life/Cooking/Desert/Lemon Cookies.md",
+    "Life/Cooking/Desert/Cinnamon Rolls.md",
+    "Life/Cooking/Desert/Choc Chip Cookies.md",
+    "Life/Cooking/Desert/Brownie.md",
+    "Life/Cooking/Desert/Blueberry Muffins.md",
+    "Life/Cooking/Desert/Banana Muffins.md",
+    "Life/Cooking/Desert/Banana Bread.md",
+    "Life/Cooking/Side things/White sauce.md",
     "Life/Cooking/Side things/Crusty garlic bread.md",
-    "School/Physics/Notes/Equations.md",
-    "Life/Games/Terraria Hardcore/Strats.md",
-    "Life/Games/Terraria Hardcore/Terraria Hardcore Checklist.md",
-    "School/Maths/Notes/Links.md",
-    "School/Maths/Notes/Defenitions/Cubic and Quartic Graphs.md",
-    "School/Maths/Notes/Pure/Year 1/5 Straight line graphs.md",
-    "School/Maths/Notes/Defenitions/Line Segment Length.md",
-    "School/Maths/Notes/Defenitions/Perpendicular Lines.md",
-    "School/Maths/Notes/Defenitions/Parallel Lines.md",
-    "School/Maths/Notes/Defenitions/Straight Line Equations.md",
+    "Life/Cooking/Food/Turkey chilli.md",
+    "Life/Cooking/Food/Teriyaki Chicken.md",
+    "Life/Cooking/Food/Steamed Bao Buns.md",
+    "Life/Cooking/Food/Salmon risotto.md",
+    "Life/Cooking/Food/Japanese-style chicken curry.md",
+    "Life/Cooking/Food/Double bean & roasted pepper chilli.md",
+    "Life/Cooking/Food/Classic lasagne.md",
+    "Life/Cooking/Food/Chipotle chicken tinga.md",
+    "Life/Cooking/Food/Chicken curry.md",
+    "Life/Obsidian stuff/Latex cheat sheet.pdf",
+    "School/Physics/Notes/Defenitions/Thermistor (NTC) VI graphs.png",
+    "School/Physics/Notes/Defenitions/Filament Bulb VI graph.png",
+    "School/Physics/Notes/Defenitions/Semiconductor Diode VI graphs.png",
+    "School/Physics/Notes/Defenitions/Ohmic conductor VI graph.png",
+    "School/Physics/Notes/Defenitions/Series Circuit.png",
+    "School/Physics/Notes/Defenitions/Parallel circuit.png",
+    "School/Physics/Notes/Defenitions/Direction of motion.png",
+    "School/Physics/Notes/Defenitions/free body diagram.png",
+    "School/Physics/Notes/Defenitions/projectile at angle.png",
     "School/Maths/Notes/Defenitions/Inequalities on Graphs.png",
-    "School/Maths/Notes/Defenitions/Number line and inequalities.png",
-    "School/Computer Science/Course Work/Thoughts/Character/Character concept art/pixel art stuff/small hoodie dude.png",
-    "School/Computer Science/Course Work/Thoughts/Character/Character concept art/pixel art stuff/oversized coat.png",
     "Archive",
     "Archive/EPQ/Final Submission/Actual Submission/4162_RHS31255_EPQH857_Final EPQ Submission.pdf",
     "Archive/EPQ/Final Submission/Actual Submission/4162_RHS31255_EPQH857_City.blend",
@@ -236,10 +261,6 @@
     "School/Maths/Notes/Defenitions",
     "Life/Obsidian stuff",
     "School/Computer Science/Course Work/Thoughts/Character/Aseprite files/small char.aseprite",
-    "School/Computer Science/Course Work/Thoughts/Character/Aseprite files/oversized coat.gif",
-    "Pasted image 20231102182208.png",
-    "School/Computer Science/Course Work/Thoughts/Character/Character concept art/pixel art stuff/Hooded mf.png",
-    "School/Computer Science/Course Work/Thoughts/Character/Character concept art/pixel art stuff/hooded mf.png",
     "Untitled.canvas",
     "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas"
   ]

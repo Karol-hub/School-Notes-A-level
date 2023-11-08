@@ -1,5 +1,4 @@
-#Freezeable
-#Untested 
+#recipe
 [Source](https://www.loveandlemons.com/banana-bread/)
 Serves: 8
 # Ingredients

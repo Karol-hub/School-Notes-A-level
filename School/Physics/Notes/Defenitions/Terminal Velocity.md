@@ -1,0 +1,4 @@
+- When the frictional force = driving force
+- So no resultant force 
+	- Hence no acceleration
+	- Because of [[Newton's second law of motion]]

@@ -1,2 +1,3 @@
 - The overall distance travelled from the starting position
+- Measured in $m$
 - vector quantity

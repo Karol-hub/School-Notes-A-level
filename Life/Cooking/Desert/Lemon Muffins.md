@@ -1,5 +1,4 @@
-#Freezeable 
-#Untested 
+#recipe 
 [Source](https://www.loveandlemons.com/vegan-lemon-muffins/)
 # Ingredients
 - 1 cup Almond Milk

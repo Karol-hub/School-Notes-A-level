@@ -1,5 +1,4 @@
-#Freezeable
-#Untested
+#recipe 
 [Source](https://www.loveandlemons.com/lemon-shortbread-cookies/)
 Serves: 30 (supposedly)
 # Ingredients
