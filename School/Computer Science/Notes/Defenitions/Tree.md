@@ -42,7 +42,7 @@ Binary tree is where each node can have a maximum of two children and can be rep
 		1. Set the current node to be the current node's right pointer.
 		2. Set the current node's right pointer to null.
 ## Traversal
-###  [[Pre-order traversal]]
+###  [[Pre-order traversal]] 
 1. Start at root node
 2. Output the node
 3. Follow the left pointer and repeat from step 2 until there is no pointer to follow
@@ -57,3 +57,11 @@ Binary tree is where each node can have a maximum of two children and can be rep
 2. Follow the left pointer and repeat from step 2 recursively until there is no pointer to follow.
 3. Follow the right pointer and repeat from step 2 recursively until there is no pointer to follow
 4. Output the node.
+
+# Depth First
+An algorithm that starts with the leaves and then moves up the tree to the root
+- [[Pre-order traversal]]
+- [[In-order traversal]]
+- [[Post-order traversal]]
+# Breadth First
+An algorithm that starts with the top of the tree and makes it's way down
