@@ -28,19 +28,15 @@
             }
           },
           {
-            "id": "7da9d0197887d417",
+            "id": "cba416abf000c5d0",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Computer Science/Notes/Defenitions/Tree.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -132,7 +128,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Computer Science/Notes/Defenitions/Tree.md",
+                "file": "School/Maths/Textbook/Applied Year 2.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -149,7 +145,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Computer Science/Notes/Defenitions/Tree.md",
+                "file": "School/Maths/Textbook/Applied Year 2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -172,7 +168,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Computer Science/Notes/Defenitions/Tree.md"
+                "file": "School/Maths/Textbook/Applied Year 2.pdf"
               }
             }
           },
@@ -222,10 +218,17 @@
       "graph:Open graph view": false
     }
   },
-  "active": "7da9d0197887d417",
+  "active": "68b55b3ba0118518",
   "lastOpenFiles": [
-    "School/Computer Science/Notes/Defenitions/Pre-order traversal.md",
+    "School/Maths/Textbook/Pure Year 2.pdf",
+    "School/Maths/Textbook/Applied Year 2.pdf",
+    "School/Physics/Notes/Defenitions/Simple Harmonic Motion.md",
+    "School/Physics/Notes/Paper 2/Topic 13- Oscillations.md",
+    "School/Physics/Notes/Links.md",
+    "School/Maths/Notes/Links.md",
+    "School/Physics/Notes/Paper 2",
     "School/Computer Science/Notes/Defenitions/Tree.md",
+    "School/Computer Science/Notes/Defenitions/Pre-order traversal.md",
     "School/Computer Science/Notes/Unit 1/1.4 Data types, data structures and algorithms/1.4.2 Data Structures.md",
     "School/Computer Science/Notes/Links.md",
     "School/Computer Science/Notes/Defenitions/Data Structure.md",
@@ -233,7 +236,6 @@
     "School/Computer Science/Notes/Defenitions/Hash Tables.md",
     "School/Computer Science/Notes/Defenitions/Data types.md",
     "School/Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
-    "School/Maths/Textbook/Applied Year 2.pdf",
     "Life/Obsidian stuff/Latex cheat sheet.pdf",
     "School/Physics/Notes/Equations.md",
     "Life/Cooking/Food/Potato Bread.md",
@@ -248,10 +250,6 @@
     "Life/Cooking/Desert/Cinnamon Rolls.md",
     "Life/Cooking/Desert/Choc Chip Cookies.md",
     "Life/Cooking/Desert/Brownie.md",
-    "Life/Cooking/Desert/Blueberry Muffins.md",
-    "Life/Cooking/Desert/Banana Muffins.md",
-    "Life/Cooking/Desert/Banana Bread.md",
-    "Life/Cooking/Side things/White sauce.md",
     "School/Physics/Notes/Defenitions/Thermistor (NTC) VI graphs.png",
     "School/Physics/Notes/Defenitions/Filament Bulb VI graph.png",
     "School/Physics/Notes/Defenitions/Semiconductor Diode VI graphs.png",
@@ -268,8 +266,6 @@
     "Archive/EPQ/Final Submission/Actual Submission/4162_RHS31255_EPQH857_PPR.pdf",
     "Archive/EPQ/Final Submission/Actual Submission/4162_RHS31255_EPQH857_Report.pdf",
     "School/Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
-    "School/Maths/Notes/Defenitions",
-    "Life/Obsidian stuff",
     "Untitled.canvas",
     "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas"
   ]
