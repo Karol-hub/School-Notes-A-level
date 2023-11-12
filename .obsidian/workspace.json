@@ -11,32 +11,49 @@
             "id": "d5c9239efe3288d0",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "School/Maths/Textbook/Applied Year 2.pdf"
+                "file": "School/Physics/Notes/Paper 2/Topic 13- Oscillations.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "68b55b3ba0118518",
+            "id": "48905b451353ab83",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "School/Maths/Textbook/Applied Year 2.pdf"
+                "file": "School/Physics/Notes/Defenitions/Simple Pendulum.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
           {
-            "id": "cba416abf000c5d0",
+            "id": "9d169655a7148008",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "markdown",
+              "state": {
+                "file": "School/Physics/Notes/Equations.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "16b44583022da8ab",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "Life/Obsidian stuff/Latex cheat sheet.pdf"
+              }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -128,7 +145,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Textbook/Applied Year 2.pdf",
+                "file": "School/Physics/Notes/Paper 2/Topic 13- Oscillations.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -145,7 +162,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Textbook/Applied Year 2.pdf",
+                "file": "School/Physics/Notes/Paper 2/Topic 13- Oscillations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -168,7 +185,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Textbook/Applied Year 2.pdf"
+                "file": "School/Physics/Notes/Paper 2/Topic 13- Oscillations.md"
               }
             }
           },
@@ -203,8 +220,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 273.5,
-    "collapsed": true
+    "width": 273.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -218,14 +234,33 @@
       "graph:Open graph view": false
     }
   },
-  "active": "68b55b3ba0118518",
+  "active": "d5c9239efe3288d0",
   "lastOpenFiles": [
-    "School/Maths/Textbook/Pure Year 2.pdf",
-    "School/Maths/Textbook/Applied Year 2.pdf",
     "School/Physics/Notes/Defenitions/Simple Harmonic Motion.md",
     "School/Physics/Notes/Paper 2/Topic 13- Oscillations.md",
+    "School/Physics/Notes/Defenitions/Mass-spring system.md",
+    "School/Physics/Notes/Defenitions/Simple Pendulum.md",
+    "School/Physics/Notes/Defenitions/Resonance.md",
+    "Life/Obsidian stuff/Latex cheat sheet.pdf",
+    "School/Physics/Notes/Equations.md",
+    "School/Physics/Notes/Defenitions/Mass on a spiral spring Drawing.md",
+    "School/Physics/Notes/Defenitions/Resonance graph.png",
+    "School/Physics/Notes/Defenitions/Time Period.md",
     "School/Physics/Notes/Links.md",
+    "School/Physics/Notes/Defenitions/Newton's second law of motion.md",
+    "School/Physics/Notes/Defenitions/spring pendulum example.png",
+    "School/Physics/Notes/Defenitions/Simple Pendulum Drawing.md",
+    "Excalidraw",
+    "School/Physics/Notes/Defenitions/Simple Pendulum example.png",
+    "School/Physics/Notes/Defenitions/Angular Speed.md",
+    "School/Physics/Notes/Defenitions/Frequency.md",
+    "School/Physics/Notes/Defenitions/Amplitude.md",
+    "School/Physics/Notes/Defenitions/Equilibrium.md",
+    "School/Physics/Notes/Defenitions/Displacement.md",
+    "School/Physics/Notes/Defenitions/Example of simple pendulem.png",
     "School/Maths/Notes/Links.md",
+    "School/Maths/Textbook/Applied Year 2.pdf",
+    "School/Maths/Textbook/Pure Year 2.pdf",
     "School/Physics/Notes/Paper 2",
     "School/Computer Science/Notes/Defenitions/Tree.md",
     "School/Computer Science/Notes/Defenitions/Pre-order traversal.md",
@@ -236,35 +271,16 @@
     "School/Computer Science/Notes/Defenitions/Hash Tables.md",
     "School/Computer Science/Notes/Defenitions/Data types.md",
     "School/Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
-    "Life/Obsidian stuff/Latex cheat sheet.pdf",
-    "School/Physics/Notes/Equations.md",
-    "Life/Cooking/Food/Potato Bread.md",
-    "Life/Cooking/Food/Pulled chicken & black bean chilli.md",
-    "Life/Cooking/Food/Kidney bean curry.md",
-    "Life/Cooking/Desert/Thumbprint Cookies.md",
-    "Life/Cooking/Desert/Peanut Butter Cookies.md",
-    "Life/Cooking/Desert/Matcha Baked Doughnuts.md",
-    "Life/Cooking/Desert/Lemon Shortbread Cookies.md",
-    "Life/Cooking/Desert/Lemon Muffins.md",
-    "Life/Cooking/Desert/Lemon Cookies.md",
-    "Life/Cooking/Desert/Cinnamon Rolls.md",
-    "Life/Cooking/Desert/Choc Chip Cookies.md",
-    "Life/Cooking/Desert/Brownie.md",
     "School/Physics/Notes/Defenitions/Thermistor (NTC) VI graphs.png",
     "School/Physics/Notes/Defenitions/Filament Bulb VI graph.png",
     "School/Physics/Notes/Defenitions/Semiconductor Diode VI graphs.png",
     "School/Physics/Notes/Defenitions/Ohmic conductor VI graph.png",
     "School/Physics/Notes/Defenitions/Series Circuit.png",
-    "School/Physics/Notes/Defenitions/Parallel circuit.png",
-    "School/Physics/Notes/Defenitions/Direction of motion.png",
-    "School/Physics/Notes/Defenitions/free body diagram.png",
-    "School/Physics/Notes/Defenitions/projectile at angle.png",
     "Archive",
     "Archive/EPQ/Final Submission/Actual Submission/4162_RHS31255_EPQH857_Final EPQ Submission.pdf",
     "Archive/EPQ/Final Submission/Actual Submission/4162_RHS31255_EPQH857_City.blend",
     "School/EPQ/Final Submission/Actual Submission/City.blend",
     "Archive/EPQ/Final Submission/Actual Submission/4162_RHS31255_EPQH857_PPR.pdf",
-    "Archive/EPQ/Final Submission/Actual Submission/4162_RHS31255_EPQH857_Report.pdf",
     "School/Computer Science/Course Work/Thoughts/Character/Character mood board.canvas",
     "Untitled.canvas",
     "Computer Science/Course Work/Thoughts/Character/Character mood board.canvas"

@@ -1,0 +1,1 @@
+Maximum displacement from [[Equilibrium]]

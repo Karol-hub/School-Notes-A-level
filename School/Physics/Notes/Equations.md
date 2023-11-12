@@ -162,10 +162,10 @@ $$g = \frac{Gm}{r^2}$$
 ### Gravitational potential
 $$V_{grav} = \frac{-GM}{r}$$
 ## Oscillations
-### Simple harmonic motion
+### [[Simple harmonic motion]]
 $$F = -kx$$
 $$a =\omega^2x$$
-$$x = acos \,\omega t$$
+$$x = a \cos \,\omega t$$
 $$v = -A \omega \, sin \, \omega \, t$$
 $$a = -A\omega^2 \, cos \, \omega t$$
 $$T = \frac{1}{f} = \frac{2\pi}{\omega}$$
