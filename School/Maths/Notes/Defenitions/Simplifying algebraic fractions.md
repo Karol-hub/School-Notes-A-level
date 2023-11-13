@@ -1,0 +1,1 @@
+[[Factorising|Factorise]] top and bottom then cancel

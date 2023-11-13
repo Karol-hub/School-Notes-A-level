@@ -1,0 +1,1 @@
+[[Equation of a circle]] and [[Straight Line Equations]] can be solved with [[Simultaneous Equations|quadratic simultaneous equations]] 

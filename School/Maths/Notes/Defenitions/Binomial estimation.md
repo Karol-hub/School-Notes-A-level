@@ -1,0 +1,1 @@
+if $x<1$ then $x^n$ gets smaller as $n$ larger. If $x^n$ becomes small enough it can be ignored when taking estimations

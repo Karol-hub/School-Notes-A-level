@@ -1,0 +1,2 @@
+Tangent is where a [[Straight Line Equations|Straight line]] touches a [[Equation of a circle|Circle]] at exactly one point. When solving [[The Discriminant]] will have one solution
+![[Tangent of a circle.png]]

@@ -38,3 +38,4 @@ $y=-x+5$
 Where two lines intersect is the solution
 Purple $(-1,6)$
 Black $(3,2)$
+[[The Discriminant]]
