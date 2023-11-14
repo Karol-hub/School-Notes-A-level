@@ -8,19 +8,31 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3502b049abfead86",
+            "id": "6548a011c4399885",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Maths/Notes/Pure/Year 1/9 Trigonometric ratios.md",
+                "file": "School/Maths/Notes/Pure/Year 1/10 Trigonometric identities and equations.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "1ae3d751d3858b0d",
+            "id": "b661a82551f163a9",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Maths/Notes/Links.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "5ca9a01b41947d7b",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -29,7 +41,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -103,7 +116,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Notes/Pure/Year 1/9 Trigonometric ratios.md",
+                "file": "School/Maths/Notes/Links.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +133,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Notes/Pure/Year 1/9 Trigonometric ratios.md",
+                "file": "School/Maths/Notes/Links.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -153,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Notes/Pure/Year 1/9 Trigonometric ratios.md"
+                "file": "School/Maths/Notes/Links.md"
               }
             }
           }
@@ -162,7 +175,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -176,20 +190,28 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3502b049abfead86",
+  "active": "b661a82551f163a9",
   "lastOpenFiles": [
+    "School/Maths/Notes/Pure/Year 1/10 Trigonometric identities and equations.md",
+    "School/Maths/Notes/Defenitions/Solutions to trig.md",
+    "Trig Identities.md",
+    "School/Maths/Notes/Defenitions/Sine Rule.md",
+    "Life/Obsidian stuff/Latex cheat sheet.pdf",
+    "School/Maths/Notes/Pure/Year 1/9 Trigonometric ratios.md",
     "School/Maths/Notes/Pure/Year 1/8 The binomial expansion.md",
+    "School/Maths/Notes/Links.md",
+    "School/Maths/Notes/Defenitions/Quadrants.md",
+    "School/Maths/Notes/Defenitions/Quadrant values.png",
+    "School/Maths/Notes/Defenitions/Quadrant circle.png",
+    "School/Maths/Notes/Defenitions/unit circle trig.png",
+    "School/Maths/Textbook/Pure Year 2.pdf",
     "School/Maths/Notes/Defenitions/Factorial Notation.md",
     "School/Maths/Notes/Defenitions/Binomial estimation.md",
     "School/Maths/Notes/Defenitions/example two solutions of sin.png",
-    "School/Maths/Notes/Defenitions/Sine Rule.md",
-    "School/Maths/Notes/Pure/Year 1/9 Trigonometric ratios.md",
-    "Area of Triangle.md",
+    "School/Maths/Notes/Defenitions/Area of Triangle.md",
     "Pasted image 20231113191351.png",
-    "Life/Obsidian stuff/Latex cheat sheet.pdf",
     "School/Maths/Notes/Defenitions/Cosine Rule.md",
     "School/Maths/Notes/Defenitions/triangle annotated.png",
-    "School/Maths/Notes/Links.md",
     "School/Maths/Notes/Defenitions/Pascals Triangle example.png",
     "School/Maths/Notes/Defenitions/Pascals Triangle.md",
     "School/Maths/Notes/Defenitions/Proof.md",

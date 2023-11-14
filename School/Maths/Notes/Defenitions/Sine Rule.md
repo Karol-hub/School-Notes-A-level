@@ -4,9 +4,12 @@ or
 $$\frac{\sin A}{a}=\frac{\sin B}{b}=\frac{\sin C}{c}$$
 # Two solutions for sine
 - Can sometimes produce two values for the angle
-	- Happens when: given angle + alternate possible angle < 180
-- Alternate solution for A
-	-  $180-\sin A =A$  
+- If we have angle given angle $A$ and calculated angle $B$
+	- If Given angle < Calculated Angle
+	- if $A<B$
+		- Then $B$ has an alternate solution
+- [[Solutions to trig|Alternate solution]] for $B$
+	-  $180-\sin B =B$  
 # Example
 $ABC$ is a triangle where $A =48°,a=4,b=5$
 $$\frac{\sin 48°}{4}=\frac{\sin B}{5}$$

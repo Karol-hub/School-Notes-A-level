@@ -34,13 +34,6 @@
         "a": 1,
         "rgb": 16719864
       }
-    },
-    {
-      "query": "path:School/EPQ  ",
-      "color": {
-        "a": 1,
-        "rgb": 7488823
-      }
     }
   ],
   "collapse-display": true,
@@ -53,6 +46,6 @@
   "repelStrength": 18.59375,
   "linkStrength": 1,
   "linkDistance": 69,
-  "scale": 0.1441910489651085,
+  "scale": 0.09451699518530109,
   "close": false
 }
