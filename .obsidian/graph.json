@@ -22,7 +22,7 @@
       }
     },
     {
-      "query": "path:School/M",
+      "query": "path:School/Maths  ",
       "color": {
         "a": 1,
         "rgb": 46079
@@ -46,6 +46,6 @@
   "repelStrength": 18.59375,
   "linkStrength": 1,
   "linkDistance": 69,
-  "scale": 0.09451699518530109,
+  "scale": 0.26045821150321785,
   "close": false
 }

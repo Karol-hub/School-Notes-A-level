@@ -3,5 +3,5 @@
 - [[Equation of a circle]]
 - [[Intersection of circles and straight lines]]
 - [[Tangent of a Circle]]
-- [[Chords in a circle]]
+- [[School/Maths/Notes/Defenitions/Chords in a circle]]
 - [[Triangles and circles]]

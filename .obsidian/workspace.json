@@ -8,31 +8,29 @@
         "type": "tabs",
         "children": [
           {
-            "id": "6548a011c4399885",
+            "id": "7b39010bc3e7321b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Maths/Notes/Pure/Year 1/10 Trigonometric identities and equations.md",
+                "file": "School/Maths/Notes/Defenitions/Exponentials.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "b661a82551f163a9",
+            "id": "ab489a988c0c075f",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "excalidraw",
               "state": {
-                "file": "School/Maths/Notes/Links.md",
-                "mode": "source",
-                "source": false
+                "file": "School/Maths/Notes/Defenitions/Logarithmic graph made linear.md"
               }
             }
           },
           {
-            "id": "5ca9a01b41947d7b",
+            "id": "eacd23aba301b57d",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -41,8 +39,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -116,14 +113,14 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Notes/Links.md",
-                "collapseAll": false,
+                "file": "School/Maths/Notes/Defenitions/Exponentials.md",
+                "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": true
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -133,9 +130,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Notes/Links.md",
-                "linksCollapsed": false,
-                "unlinkedCollapsed": true
+                "file": "School/Maths/Notes/Defenitions/Exponentials.md",
+                "linksCollapsed": true,
+                "unlinkedCollapsed": false
               }
             }
           },
@@ -166,57 +163,69 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Notes/Links.md"
+                "file": "School/Maths/Notes/Defenitions/Exponentials.md"
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 5
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-excalidraw-plugin:Create new drawing": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false
+      "command-palette:Open command palette": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "b661a82551f163a9",
+  "active": "7b39010bc3e7321b",
   "lastOpenFiles": [
-    "School/Maths/Notes/Pure/Year 1/10 Trigonometric identities and equations.md",
-    "School/Maths/Notes/Defenitions/Solutions to trig.md",
-    "Trig Identities.md",
-    "School/Maths/Notes/Defenitions/Sine Rule.md",
+    "School/Maths/Notes/Defenitions/Log laws.md",
+    "School/Maths/Notes/Defenitions/Exponentials.md",
+    "School/Maths/Notes/Defenitions/Logarithmic non-linear data.md",
+    "School/Maths/Notes/Defenitions/Logarithmic graph made linear.md",
     "Life/Obsidian stuff/Latex cheat sheet.pdf",
-    "School/Maths/Notes/Pure/Year 1/9 Trigonometric ratios.md",
-    "School/Maths/Notes/Pure/Year 1/8 The binomial expansion.md",
+    "Life/Cooking/Food/Potato Bread.md",
+    "School/Maths/Notes/Statistics/Year 1/1 Data collection.md",
+    "School/Physics/Notes/Links.md",
     "School/Maths/Notes/Links.md",
-    "School/Maths/Notes/Defenitions/Quadrants.md",
+    "School/Computer Science/Notes/Links.md",
+    "School/Maths/Notes/Pure/Year 1/14 Exponentials and logarithms.md",
+    "School/Maths/Notes/Defenitions/Exponential differentiation.md",
+    "School/Maths/Notes/Defenitions/Differentiation.md",
+    "Drawing 2023-11-14 18.12.12.excalidraw.md",
+    "School/Maths/Notes/Pure/Year 1/13 Integration.md",
+    "School/Maths/Notes/Pure/Year 1/12 Differentiation.md",
+    "School/Maths/Notes/Defenitions/Complex area integration example.md",
+    "School/Maths/Notes/Defenitions/Negative area under graph example.md",
+    "School/Maths/Notes/Defenitions/Integration.md",
+    "School/Maths/Notes/Defenitions/Complex area integration.md",
+    "School/Maths/Notes/Defenitions/Area under curve example.md",
+    "School/Maths/Notes/Defenitions/Stationary Points.md",
+    "School/Maths/Notes/Defenitions/unit vectors.md",
+    "School/Maths/Notes/Defenitions/Stationary point example.md",
+    "School/Maths/Notes/Defenitions/Second order derivative.md",
+    "School/Maths/Notes/Defenitions/Perpendicular Lines.md",
+    "School/Maths/Notes/Defenitions/Power Rule.md",
+    "Excalidraw",
+    "School/Maths/Notes/Defenitions/unit circle trig.png",
+    "School/Maths/Notes/Defenitions/Tangent of a circle.png",
+    "School/Maths/Notes/Defenitions/Sets image.png",
     "School/Maths/Notes/Defenitions/Quadrant values.png",
     "School/Maths/Notes/Defenitions/Quadrant circle.png",
-    "School/Maths/Notes/Defenitions/unit circle trig.png",
-    "School/Maths/Textbook/Pure Year 2.pdf",
-    "School/Maths/Notes/Defenitions/Factorial Notation.md",
-    "School/Maths/Notes/Defenitions/Binomial estimation.md",
-    "School/Maths/Notes/Defenitions/example two solutions of sin.png",
-    "School/Maths/Notes/Defenitions/Area of Triangle.md",
-    "Pasted image 20231113191351.png",
-    "School/Maths/Notes/Defenitions/Cosine Rule.md",
-    "School/Maths/Notes/Defenitions/triangle annotated.png",
     "School/Maths/Notes/Defenitions/Pascals Triangle example.png",
-    "School/Maths/Notes/Defenitions/Pascals Triangle.md",
-    "School/Maths/Notes/Defenitions/Proof.md",
-    "School/Maths/Notes/Defenitions/Proof by Exhaustion.md",
-    "School/Maths/Notes/Defenitions/Proof by Counter-example.md",
-    "School/Maths/Notes/Pure/Year 1/7 Algebraic methods.md"
+    "School/Maths/Notes/Defenitions/Number line and inequalities.png",
+    "School/Maths/Notes/Defenitions/Inequalities on Graphs.png",
+    "School/Maths/Notes/Defenitions/example two solutions of sin.png",
+    "School/Maths/Notes/Defenitions/Chords in a circle.png",
+    "School/Maths/Textbook/Pure Year 2.pdf"
   ]
 }
