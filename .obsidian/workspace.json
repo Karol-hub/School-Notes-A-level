@@ -4,33 +4,23 @@
     "type": "split",
     "children": [
       {
-        "id": "d5f6b9405abab195",
+        "id": "f26d399fdc194080",
         "type": "tabs",
         "children": [
           {
-            "id": "7b39010bc3e7321b",
+            "id": "3d69e2372ca5e04f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Exponentials.md",
+                "file": "School/Computer Science/Notes/Links.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "ab489a988c0c075f",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "School/Maths/Notes/Defenitions/Logarithmic graph made linear.md"
-              }
-            }
-          },
-          {
-            "id": "eacd23aba301b57d",
+            "id": "b0bbd0d66e68ca23",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -113,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Exponentials.md",
+                "file": "School/Computer Science/Notes/Links.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Exponentials.md",
+                "file": "School/Computer Science/Notes/Links.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -163,12 +153,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Exponentials.md"
+                "file": "School/Computer Science/Notes/Links.md"
               }
+            }
+          },
+          {
+            "id": "c3d0ee044b99a5c5",
+            "type": "leaf",
+            "state": {
+              "type": "advanced-tables-toolbar",
+              "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 6
       }
     ],
     "direction": "horizontal",
@@ -186,35 +184,44 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7b39010bc3e7321b",
+  "active": "3d69e2372ca5e04f",
   "lastOpenFiles": [
-    "School/Maths/Notes/Defenitions/Log laws.md",
-    "School/Maths/Notes/Defenitions/Exponentials.md",
-    "School/Maths/Notes/Defenitions/Logarithmic non-linear data.md",
-    "School/Maths/Notes/Defenitions/Logarithmic graph made linear.md",
+    "School/Maths/Notes/Defenitions/Integration.md",
+    "School/Maths/Notes/Pure/Year 1/13 Integration.md",
+    "School/Computer Science/Notes/Defenitions/Memory management.md",
+    "School/Computer Science/Work/HWK/2018 P02 Q3 A level.md",
+    "School/Computer Science/Work/ClassWork/Work/Temp.md",
+    "Drawing 2023-11-15 10.39.29.excalidraw.md",
+    "School/Computer Science/Notes/Links.md",
     "Life/Obsidian stuff/Latex cheat sheet.pdf",
+    "School/Computer Science/Notes/Defenitions/Modes of Addressing Memory.md",
+    "School/Computer Science/Work/ClassWork/Work/Exam Q.md",
+    "School/Computer Science/Work/ClassWork/Worksheets/Algorithms_AStar_Exercises.pdf",
+    "School/Computer Science/Work/ClassWork/Worksheets/exam Q/Pasted image 20231018101626.png",
+    "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.4 Types of Programming Language.md",
+    "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.3 Software Development.md",
+    "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.2 Applications Generation.md",
+    "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.1 Systems Software.md",
+    "School/Computer Science/Notes/Defenitions/Paging.md",
+    "School/Computer Science/Notes/Defenitions/Segmentation.md",
+    "School/Computer Science/Notes/Unit 1/1.1 The characteristics of contemporary processors, input, output and storage devices/1.1.3 Input, output and storage.md",
+    "School/Computer Science/Notes/Unit 1/1.1 The characteristics of contemporary processors, input, output and storage devices/1.1.2 Types of processor.md",
+    "School/Computer Science/Notes/Unit 1/1.1 The characteristics of contemporary processors, input, output and storage devices/1.1.1 Structure and function of the processor.md",
+    "School/Computer Science/Notes/OCR A Level Specification (H446).pdf",
+    "School/Computer Science/Notes/CS A Level Textbook.pdf",
+    "School/Computer Science/Course Work/A-star example/Analysis.pdf",
+    "School/Temp.md",
+    "School/Computer Science/Course Work/A-star example/Evaluation.pdf",
+    "School/Computer Science/Course Work/A-star example/Development.pdf",
+    "School/Computer Science/Course Work/A-star example/Design.pdf",
+    "School/Computer Science/Course Work/A-star example",
+    "School/Maths/Notes/Defenitions/Exponentials.md",
+    "School/Maths/Notes/Defenitions/Logarithmic graph made linear.md",
+    "School/Maths/Notes/Defenitions/Log laws.md",
+    "School/Maths/Notes/Defenitions/Logarithmic non-linear data.md",
     "Life/Cooking/Food/Potato Bread.md",
     "School/Maths/Notes/Statistics/Year 1/1 Data collection.md",
     "School/Physics/Notes/Links.md",
-    "School/Maths/Notes/Links.md",
-    "School/Computer Science/Notes/Links.md",
-    "School/Maths/Notes/Pure/Year 1/14 Exponentials and logarithms.md",
-    "School/Maths/Notes/Defenitions/Exponential differentiation.md",
-    "School/Maths/Notes/Defenitions/Differentiation.md",
-    "Drawing 2023-11-14 18.12.12.excalidraw.md",
-    "School/Maths/Notes/Pure/Year 1/13 Integration.md",
-    "School/Maths/Notes/Pure/Year 1/12 Differentiation.md",
-    "School/Maths/Notes/Defenitions/Complex area integration example.md",
-    "School/Maths/Notes/Defenitions/Negative area under graph example.md",
-    "School/Maths/Notes/Defenitions/Integration.md",
-    "School/Maths/Notes/Defenitions/Complex area integration.md",
-    "School/Maths/Notes/Defenitions/Area under curve example.md",
-    "School/Maths/Notes/Defenitions/Stationary Points.md",
-    "School/Maths/Notes/Defenitions/unit vectors.md",
-    "School/Maths/Notes/Defenitions/Stationary point example.md",
-    "School/Maths/Notes/Defenitions/Second order derivative.md",
-    "School/Maths/Notes/Defenitions/Perpendicular Lines.md",
-    "School/Maths/Notes/Defenitions/Power Rule.md",
     "Excalidraw",
     "School/Maths/Notes/Defenitions/unit circle trig.png",
     "School/Maths/Notes/Defenitions/Tangent of a circle.png",
@@ -224,8 +231,6 @@
     "School/Maths/Notes/Defenitions/Pascals Triangle example.png",
     "School/Maths/Notes/Defenitions/Number line and inequalities.png",
     "School/Maths/Notes/Defenitions/Inequalities on Graphs.png",
-    "School/Maths/Notes/Defenitions/example two solutions of sin.png",
-    "School/Maths/Notes/Defenitions/Chords in a circle.png",
-    "School/Maths/Textbook/Pure Year 2.pdf"
+    "School/Maths/Notes/Defenitions/example two solutions of sin.png"
   ]
 }
