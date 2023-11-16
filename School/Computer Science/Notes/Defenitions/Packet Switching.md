@@ -1,4 +1,3 @@
-
  - Data is communicated using [[Data Packets|Packets]] 
  - [[Data Packets|Packets]] are sent across the most efficient route which can vary for each packet
 

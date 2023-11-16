@@ -1,5 +1,5 @@
 - Devices connect to a server
-- Can ask server to send them data or process things
+- Can ask server to send client data or process things
 
 Adv| Dis
 ---|---
