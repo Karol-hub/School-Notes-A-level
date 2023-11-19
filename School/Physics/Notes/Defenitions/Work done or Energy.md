@@ -34,3 +34,7 @@ $$W = VIt$$
 | $I$    | $A$  | [[Current]]                  |
 | $t$    | $s$  | [[SI Units\|time]]           |
 
+# [[Topic 9- Thermodynamics]]
+## Internal Energy
+## Potential Energy
+

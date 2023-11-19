@@ -7,7 +7,7 @@
 | Length                                     | metre (m)    |
 | Time                                       | seconds (s)  |
 | Current                                    | Ampere (A)   |
-| Temperature                                | Kelvin (K)   |
+| [[Kelvin Scale\|Temperature]]              | Kelvin (K)   |
 | Amount of a substance                      | Mole (mol)   |
 | Luminous intensity (brightness of a light) | Candela (cd) |
 

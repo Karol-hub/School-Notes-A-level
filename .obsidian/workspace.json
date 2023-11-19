@@ -4,30 +4,28 @@
     "type": "split",
     "children": [
       {
-        "id": "f26d399fdc194080",
+        "id": "e48d79a3b8db7b3c",
         "type": "tabs",
         "children": [
           {
-            "id": "7d416ae061608aaf",
+            "id": "4c4bacd382bcde9f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Life/Cooking/Desert/Lemon Blondies.md",
+                "file": "School/Physics/Notes/Paper 2/Topic 9- Thermodynamics.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "c5905e69c5b2abf6",
+            "id": "7c3028563787f0c3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "Life/Cooking/Desert/Cinnamon Rolls.md",
-                "mode": "source",
-                "source": false
+                "file": "Life/Obsidian stuff/Latex cheat sheet.pdf"
               }
             }
           }
@@ -60,7 +58,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "[\"excalidraw-plugin\"]",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -105,7 +103,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Life/Cooking/Desert/Lemon Blondies.md",
+                "file": "School/Physics/Notes/Paper 2/Topic 9- Thermodynamics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -122,7 +120,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Life/Cooking/Desert/Lemon Blondies.md",
+                "file": "School/Physics/Notes/Paper 2/Topic 9- Thermodynamics.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -155,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Life/Cooking/Desert/Lemon Blondies.md"
+                "file": "School/Physics/Notes/Paper 2/Topic 9- Thermodynamics.md"
               }
             }
           },
@@ -168,11 +166,11 @@
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 302
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -186,45 +184,45 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "7d416ae061608aaf",
+  "active": "4c4bacd382bcde9f",
   "lastOpenFiles": [
-    "Life/Cooking/Desert/Cinnamon Rolls.md",
-    "Life/Cooking/Desert/Lemon Blondies.md",
-    "School/Maths/Notes/Defenitions/Quartiles.md",
-    "School/Maths/Notes/Statistics/Year 1/2 Measure of location and spread.md",
-    "School/Maths/Notes/Defenitions/Standard Deviation.md",
-    "School/Maths/Notes/Defenitions/Median.md",
-    "School/Maths/Notes/Defenitions/Frequency Tables.md",
-    "School/Maths/Notes/Defenitions/Mode.md",
-    "School/Maths/Notes/Defenitions/Mean.md",
-    "School/Maths/Notes/Links.md",
-    "School/Maths/Notes/Statistics/Year 1/1 Data collection.md",
-    "School/Computer Science/Notes/Defenitions/Packet Switching.md",
-    "School/Computer Science/Work/ClassWork/A.md",
+    "Life/Obsidian stuff/Latex cheat sheet.pdf",
+    "Life/Cooking/Desert/Peanut Butter Cookies.md",
+    "School/Maths/Notes/Defenitions/Complex area integration.md",
+    "School/Maths/Notes/Defenitions/Complex area integration example.md",
+    "School/Maths/Notes/Defenitions/Chords in a circle example.md",
+    "School/Maths/Notes/Defenitions/Area under curve example.md",
+    "Life/Games/Terraria Hardcore/Strats.md",
+    "2023-11-19.md",
+    "Life/Games/Terraria Hardcore/Terraria Hardcore Checklist.md",
+    "Life/Personal Statement/Feedback/Third Draft feedback.jpg",
+    "Life/Personal Statement/Feedback/Second Draft feedback.jpg",
+    "Life/Travel/Trains/Niki info on trains.md",
+    "Life/Cooking/Desert/Choc Chip Cookies.md",
+    "School/Physics/Notes/Paper 2/Topic 9- Thermodynamics.md",
+    "School/Physics/Notes/Defenitions/Thermodynamic laws.md",
+    "School/Physics/Notes/Defenitions/Ideal Gasses.md",
+    "School/Physics/Notes/Defenitions/Kinetic Energy.md",
+    "School/Physics/Notes/Defenitions/Internal Potential Energy.md",
+    "School/Physics/Notes/Defenitions/Boltzmann constant.md",
+    "School/Physics/Notes/Defenitions/Absolute Zero.md",
+    "Kinetic theory model.md",
+    "School/Physics/Notes/Defenitions/SI Units.md",
+    "School/Physics/Notes/Defenitions/Kelvin Scale.md",
+    "School/Physics/Notes/Defenitions/Internal energy.md",
+    "Potential energy.md",
+    "School/Physics/Notes/Defenitions/Vector.md",
+    "School/Physics/Notes/Defenitions/Work done or Energy.md",
+    "School/Physics/Notes/Defenitions/Specific Heat Capacity.md",
     "Pasted image 20231116153744.png",
     "Pasted image 20231116153731.png",
-    "School/Computer Science/Notes/Defenitions/Pipelining.md",
-    "School/Computer Science/Notes/Unit 1/1.3 Exchanging data/1.3.3 Networks.md",
-    "School/Computer Science/Notes/Defenitions/Circuit Switching.md",
-    "School/Computer Science/Notes/Defenitions/Client Server.md",
-    "School/Computer Science/Notes/Defenitions/Standards.md",
-    "School/Computer Science/Notes/Defenitions/Protocols.md",
-    "School/Computer Science/Notes/Unit 1/1.1 The characteristics of contemporary processors, input, output and storage devices/1.1.3 Input, output and storage.md",
-    "School/Computer Science/Work/ClassWork/Exam Q.md",
     "Pasted image 20231116141503.png",
     "Pasted image 20231116141310.png",
     "Pasted image 20231116141308.png",
     "Pasted image 20231116141307.png",
     "Pasted image 20231116141213.png",
     "Pasted image 20231116141005.png",
-    "School/Computer Science/Course Work/Images/Images.md",
-    "Life/Obsidian stuff/Latex cheat sheet.pdf",
-    "School/Physics/Notes/Equations.md",
-    "School/Physics/Notes/Links.md",
-    "School/Computer Science/Notes/Links.md",
-    "School/Maths/Notes/Defenitions/Integration.md",
     "School/Computer Science/Work/ClassWork/Worksheets/Algorithms_AStar_Exercises.pdf",
-    "School/Computer Science/Work/ClassWork/Worksheets/exam Q/Pasted image 20231018101626.png",
     "School/Computer Science/Notes/OCR A Level Specification (H446).pdf",
     "School/Computer Science/Notes/CS A Level Textbook.pdf",
     "School/Computer Science/Course Work/A-star example/Analysis.pdf",
@@ -232,7 +230,6 @@
     "School/Computer Science/Course Work/A-star example/Development.pdf",
     "School/Computer Science/Course Work/A-star example/Design.pdf",
     "School/Computer Science/Course Work/A-star example",
-    "Excalidraw",
-    "School/Maths/Notes/Defenitions/unit circle trig.png"
+    "Excalidraw"
   ]
 }

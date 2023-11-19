@@ -1,0 +1,12 @@
+- $0^{th}$ law
+	- Objects in thermal contact are the same temperature
+- $1^{st}$
+	- Energy is conserved 
+	- Energy can't be created or destroyed
+	- Change in internal energy (U) of a system is equal to the heat energy (Q) transferred to it plus the [[Work done or Energy|work done]] (W) on it
+	- $U = Q+W$
+- $2^{nd}$
+	- [[Entropy]] must increase
+	- Thermal energy has to transfer to a colder object
+- $3^{rd}$
+	- An object cannot reach [[Absolute Zero]]

@@ -2,7 +2,7 @@
 [Source](https://www.iheartnaptime.net/lemon-brownies/)
 # Ingredients
 ## Brownies
-- ½ cup salted butter , softened (1 stick)
+- ½ cup salted butter , softened (1 stick) /Unsalted with 1/4 teaspoon of salt
 - ¾ cup granulated sugar
 - 1 lemon , zested
 - 2 large eggs
