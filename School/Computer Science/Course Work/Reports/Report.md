@@ -74,7 +74,7 @@ I have chosen these people since they are part of my target demographic and they
 
 # **Researching the Problem** 
 ## **Risk of Rain 2** 
-![[ROR 2 ss.jpg]]
+![[School/Computer Science/Course Work/Reports/Images/ROR 2 ss.jpg]]
 Risk of Rain 2 is a roguelike, third person shooter. A roguelike game means that when you die in the game you must restart the entire game, which means that it does not take long to complete and it can be replayed multiple times, since it has a large variety of items which can be combined to make many unique runs. It has a unique concept since as the time goes up so does the difficulty, meaning that the more time you spend looting the more powerful enemies become creating a unique stressful and fast paced shooter. 
 ### **Controls:** 
 WSAD - to move 
@@ -119,7 +119,7 @@ Teens and older since the game contain blood, drug references and fantasy violen
 - The variety in characters and the play styles that they allow 
 - The different difficulties allowing the player to play at a level that their comfortable with 
 ## **Celeste**
-![[Celeste ss.jpg]]
+![[School/Computer Science/Course Work/Reports/Images/Celeste ss.jpg]]
 Celeste is a challenging 2D platformer where the aim is to give precise inputs that will clear the level and allow you to progress into the next room. It takes a long time to complete as the game is very difficult and constantly introduces new features that are harder than the last.
 ### **Controls** 
 WSAD – Movement 
@@ -144,7 +144,7 @@ Anyone as the game doesn't have any violent or difficult topics discussed, howev
 - A similar art style 
 - Similar movement system, but something that isn't as complicated so it doesn't overwhelm the player
 ## **Rain World**
-![[Rain world ss.jpg]]
+![[School/Computer Science/Course Work/Reports/Images/Rain world ss.jpg]]
 Rain world is an open world game meaning that the player can go explore anywhere to their heart's content. It's also very difficult, and focuses on treating the player as part of the ecosystem rather than a separate entity, for this reason enemies treat the player as any other rival creature and focuses on their own survival rather than killing the player, which is common in most other games.
 ### **Controls** 
 WSAD – Movement 
@@ -365,10 +365,473 @@ CONSTANT_NAME – represented as capitalized with underscores 
 variable_name – represented as lowercase with underscores 
 ## **Folder Setup** 
 *ss of folder setup*
-# **Actual Coding** 
+# Actual Coding
 ## UI Design
 ## Player Design
 ### Player Movement
+Player movement is something that is important to the feel of the game and is a make or break for many people. A significant number of people said that movement is the most important to them in a game but the majority of the people surveyed answered combat,  therefore I would like to make a movement system that complements the combat system but also isn't overwhelming so that the player can focus mainly on the combat while still enjoying the movement.
+
+Made a checklist so that I can implement all the features one at a time.
+- General Movement
+	- [ ] Can move left and right
+	- [ ] Decelerates when no input is given
+- Jumping
+	- [ ] Accelerates player up
+	- [ ] Limited amount of jumps
+- Dashing
+	- [ ] Makes the player move fast 
+	- [ ] Gets interrupted when hitting wall
+- Wall bouncing
+	- [ ] When dashing into a wall it bounces into opposite direction
+	- [ ] When dashing up a wall it bounces you slightly away from it
+	- [ ] When dashing into floor it bounces you back up a bit
+- Animation
+	- [ ] Sprite is facing the right way
+	- [ ] idle animation
+	- [ ] Animation for walking
+	- [ ] Animation for jumping
+	- [ ] Animation for dashing
+#### Iteration 1
+```c#
+using Godot;
+using System;
+
+public partial class CharacterCont : CharacterBody2D
+{
+	public const float Speed = 300.0f;
+	public const float JumpVelocity = -400.0f;
+
+	// Get the gravity from the project settings to be synced with RigidBody nodes.
+	public float gravity = ProjectSettings.GetSetting("physics/2d/default_gravity").AsSingle();
+	public override void _PhysicsProcess(double delta)
+	{
+		Vector2 velocity = Velocity;
+		// Add the gravity.
+		if (!IsOnFloor())
+			velocity.Y += gravity * (float)delta;
+		// Handle Jump.
+		if (Input.IsActionJustPressed("ui_accept") && IsOnFloor())
+			velocity.Y = JumpVelocity;
+		// Get the input direction and handle the movement/deceleration.
+		// Need to change ui_direction to a more appropriate button
+		Vector2 direction = Input.GetVector("ui_left","ui_right","ui_up","ui_down");
+		if (direction != Vector2.Zero)
+		{
+			velocity.X = direction.X * Speed;
+		}
+		else
+		{
+			velocity.X = Mathf.MoveToward(Velocity.X, 0, Speed);
+		}
+		Velocity = velocity;
+		MoveAndSlide();
+	}
+}
+```
+- General Movement
+	- [x] Can move left and right
+	- [x] Decelerates when no input is given
+- Jumping
+	- [x] Accelerates player up
+	- [ ] Limited amount of jumps
+- Dashing
+	- [ ] Makes the player move fast 
+	- [ ] Gets interrupted when hitting wall
+- Wall bouncing
+	- [ ] When dashing into a wall it bounces into opposite direction
+	- [ ] When dashing up a wall it bounces you slightly away from it
+	- [ ] When dashing into floor it bounces you back up a bit
+- Animation
+	- [ ] Sprite is facing the right way
+	- [ ] idle animation
+	- [ ] Animation for walking
+	- [ ] Animation for jumping
+	- [ ] Animation for dashing
+#### Iteration 2
+```c#
+using Godot;
+using System;
+using System.Diagnostics;
+
+public partial class character_movement : CharacterBody2D
+{
+    //Constants
+    public float gravity = ProjectSettings.GetSetting("physics/2d/default_gravity").AsSingle();
+    //Presets
+    private Vector2 velocity;
+    private Vector2 direction;
+    private bool facingLeft;
+    private bool inDash;
+    private Sprite2D sprite;
+    //Character presets
+    public float Speed = 300.0f;
+    public float JumpVelocity = -400.0f;
+    public float dashVelocity = 800f;
+    public float decelerateRate = 20f;
+    public override void _Ready()
+    {
+        sprite = GetNode<Sprite2D>("CharacterSprite");
+    }
+    public override void _Process(double delta)
+    {
+        PlayerInput();
+        ManageSprite();
+    }
+    public override void _PhysicsProcess(double delta)
+    {
+        #region gravity
+        // Add the gravity.
+        if (!IsOnFloor())
+            velocity.Y += gravity * (float)delta;
+        #endregion
+
+        #region move_player
+        if (direction != Vector2.Zero)
+        {
+            velocity.X = direction.X * Speed;
+        }
+        else
+        {
+            velocity.X = (float)Mathf.MoveToward(velocity.X, 0f, decelerateRate);
+        }
+        #endregion
+
+        Velocity = velocity;
+        MoveAndSlide();
+    }
+    private void PlayerInput()
+    {
+        direction = Input.GetVector("move_left", "move_right", "move_up", "move_down");
+        #region Moving
+        //gets direction of player input
+        if (direction.X < 0f)
+        {
+            facingLeft = true;
+        }
+        else if (direction.X > 0f)
+        {
+            facingLeft = false;
+        }
+        #endregion
+
+        #region jumping
+        // Handle Jump.
+        if (Input.IsActionJustPressed("jump") && IsOnFloor())
+        {
+            velocity.Y = JumpVelocity;
+        }
+        #endregion
+
+        #region dash
+        if (Input.IsActionJustPressed("dash"))
+        {
+            // If player isn't moving
+            if (direction == Vector2.Zero)
+            {
+                //dash left
+                if (facingLeft)
+                {
+                    velocity -= new Vector2(1f,0f) * dashVelocity;
+                }
+                //dash right
+                else
+                {
+                    velocity += new Vector2(1f, 0f) * dashVelocity;
+                }
+            }
+            else
+            {
+                GD.Print(direction.Normalized() * dashVelocity);
+                velocity += (direction.Normalized() * dashVelocity);
+                GD.Print(velocity);
+            }
+        }
+        #endregion
+    }
+    private void ManageSprite()
+    {
+        #region sprite dir
+        if (facingLeft)
+        {
+            sprite.Scale = new Vector2(1f, 1f);
+        }
+        else
+        {
+            sprite.Scale = new Vector2(-1f, 1f);
+        }
+        #endregion
+    }
+}
+```
+- General Movement
+	- [x] Can move left and right
+	- [x] Decelerates when no input is given
+- Jumping
+	- [x] Accelerates player up
+	- [ ] Limited amount of jumps
+- Dashing
+	- [x] Makes the player move fast
+	- [ ] Gets interrupted when hitting wall
+- Wall bouncing
+	- [ ] When dashing into a wall it bounces into opposite direction
+	- [ ] When dashing up a wall it bounces you slightly away from it
+	- [ ] When dashing into floor it bounces you back up a bit
+- Animation
+	- [x] Sprite is facing the right way
+	- [ ] idle animation
+	- [ ] Animation for walking
+	- [ ] Animation for jumping
+	- [ ] Animation for dashing
+#### Iteration 3
+```c#
+using Godot;
+using System;
+using System.ComponentModel.Design;
+using System.Diagnostics;
+using System.Threading.Tasks;
+
+public partial class character_movement : CharacterBody2D
+{
+    //Constants
+    public float gravity = ProjectSettings.GetSetting("physics/2d/default_gravity").AsSingle();
+    //Presets
+    private Vector2 velocity;
+    private Vector2 direction;
+    private Sprite2D sprite;
+    private Area2D climbCollider;
+    private bool facingLeft;
+    private enum playerState
+    {
+        idle,
+        walking,
+        airBorn,
+        dashing,
+        dashEndLag,
+        noResistance
+    }
+    private playerState state;
+    private float frameDelta;
+    private float time;
+    //Character presets
+    public float decelerateRate = 100f;
+    public float noResDecelerateRate = 1f;
+    //moving
+    public float speed = 5000.0f;
+    public float jumpVelocity = -400.0f;
+    //bounce
+    public float bounceVel = 50f;
+    public float bounceDir = 80f; //in degrees
+    public float bounceNoResLength = 0.1f; //in s
+    //dash
+    public float dashVelocity = 800f;
+    public float dashLength = 0.1f; // in s
+    public int endLagLength = 50; //in ms
+    
+    public override void _Ready()
+    {
+        sprite = GetNode<Sprite2D>("sprite");
+        climbCollider = GetNode<Area2D>("climbBox");
+    }
+    public override void _Process(double delta)
+    {
+        frameDelta = (float)delta;
+        direction = Input.GetVector("move_left", "move_right", "move_up", "move_down");
+        ManageState();
+        ManageSprite();
+        Movement();
+        Velocity = velocity;
+        GD.Print("acc Vel:"+Velocity);
+        GD.Print(state);
+        MoveAndSlide();
+    }
+    private void Movement()
+    {
+        #region gravity
+        // Add the gravity.
+        if (state == playerState.airBorn || state == playerState.noResistance)
+            velocity.Y += gravity * frameDelta;
+        #endregion
+
+        #region speed_control
+        if (state != playerState.dashing && state != playerState.noResistance)
+        {
+            velocity.X = (float)Mathf.MoveToward(velocity.X, 0f, decelerateRate) * frameDelta;
+        }
+        else if (state == playerState.noResistance)
+        {
+            velocity.X = (float)Mathf.MoveToward(velocity.X, 0f, noResDecelerateRate) * frameDelta;
+        }
+        #endregion
+
+        #region move_player
+        if (direction != Vector2.Zero && (state != playerState.dashing) && (state != playerState.noResistance))
+        {
+            velocity.X = direction.X * speed * frameDelta;
+        }
+        else if (state == playerState.noResistance)
+        {
+            velocity.X += direction.X * speed * frameDelta;
+        }
+        #endregion
+
+        #region jumping
+        // Handle Jump.
+        if (Input.IsActionJustPressed("jump") && IsOnFloor() && (state != playerState.dashing))
+        {
+            velocity.Y = jumpVelocity;
+        }
+        #endregion
+
+        #region dash
+        if (Input.IsActionJustPressed("dash")) //init dash
+        {
+            time = 0f;
+            state = playerState.dashing;
+            // If player isn't moving
+            if (direction == Vector2.Zero)
+            {
+                if (facingLeft) //dash left
+                {
+                    velocity -= new Vector2(1f,0f) * dashVelocity;
+                }
+                else //dash right
+                {
+                    velocity += new Vector2(1f, 0f) * dashVelocity;
+                }
+            }
+            else // dash in whatever direction facing
+            {
+                velocity = (direction.Normalized() * dashVelocity);
+            }
+        }
+        if (state == playerState.dashing) //when in dash
+        {
+            if (climbCollider.HasOverlappingBodies() && Input.IsActionPressed("jump")) //check for wallbounce
+            {
+                state = playerState.noResistance;
+                velocity.X *= -1f;
+                velocity += BounceVel(bounceVel,bounceDir);
+            }
+        }
+        #endregion
+    }
+    private void ManageSprite()
+    {
+        #region sprite dir
+        if (facingLeft)
+        {
+            sprite.Scale = new Vector2(1f, 1f);
+            climbCollider.Scale = new Vector2(1f, 1f);
+        }
+        else
+        {
+            sprite.Scale = new Vector2(-1f, 1f);
+            climbCollider.Scale = new Vector2(-1f, 1f);
+        }
+        #endregion
+
+        #region which_dir_facing
+        //gets direction of player input
+        if (direction.X < 0f)
+        {
+            facingLeft = true;
+        }
+        else if (direction.X > 0f)
+        {
+            facingLeft = false;
+        }
+        #endregion
+    }
+    private void ManageState()
+    {
+        // Handle player state
+        if (state == playerState.dashEndLag)
+        {
+            return;
+        }
+        else if (state == playerState.dashing)
+        {
+            time += frameDelta;
+            if (time >= dashLength)
+            {
+                EndDash();
+            }
+            return;
+        }
+        else if (state == playerState.noResistance)
+        {
+            if (IsOnFloor())
+            {
+                state = playerState.idle;
+            }
+
+            time += frameDelta;
+            if (time >= bounceNoResLength)
+            {
+                state = playerState.idle;
+            }
+            return;
+        }
+        else if (!IsOnFloor())
+        {
+            state = playerState.airBorn;
+            return;
+        }
+        else if (direction == Vector2.Zero && IsOnFloor())
+        {
+            state = playerState.idle;
+            return;
+        }
+        else if (direction != Vector2.Zero && IsOnFloor())
+        {
+            state = playerState.walking;
+            return;
+        }
+
+    }
+    private void EndDash()
+    {
+        state = playerState.dashEndLag;
+        velocity = Vector2.Zero;
+        Task.Delay(endLagLength).ContinueWith(t => ToIdle());
+    }
+    private void ToIdle()
+    {
+        state = playerState.idle;
+    }
+    private Vector2 BounceVel(float mag, float dir)
+    {
+        if (facingLeft)
+        {
+            return new Vector2(mag * MathF.Sin(dir), -mag * MathF.Cos(dir));
+        }
+        else
+        {
+            return new Vector2(-mag * MathF.Sin(dir), -mag * MathF.Cos(dir));
+        }
+    }
+}
+```
+- General Movement
+	- [x] Can move left and right
+	- [x] Decelerates when no input is given
+- Jumping
+	- [x] Accelerates player up
+	- [ ] Limited amount of jumps
+- Dashing
+	- [x] Makes the player move fast
+	- [ ] Gets interrupted when hitting wall
+- Wall bouncing
+	- [x] When dashing into a wall it bounces into opposite direction
+	- [x] When dashing up a wall it bounces you slightly away from it
+	- [x] When dashing into floor it bounces you back up a bit
+- Animation
+	- [x] Sprite is facing the right way
+	- [ ] idle animation
+	- [ ] Animation for walking
+	- [ ] Animation for jumping
+	- [ ] Animation for dashing
+#### Iteration 4
 
 ### Player Abilities
 

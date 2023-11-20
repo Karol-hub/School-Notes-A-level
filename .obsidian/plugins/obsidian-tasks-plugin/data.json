@@ -4,7 +4,7 @@
   "removeGlobalFilter": false,
   "taskFormat": "tasksPluginEmoji",
   "setCreatedDate": false,
-  "setDoneDate": true,
+  "setDoneDate": false,
   "autoSuggestInEditor": true,
   "autoSuggestMinMatch": 0,
   "autoSuggestMaxItems": 6,
