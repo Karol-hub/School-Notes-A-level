@@ -1,0 +1,462 @@
+{
+  "initialized": true,
+  "apiInitialized": true,
+  "defaultProjectName": "Inbox",
+  "automaticSynchronizationInterval": 300,
+  "TickTickTasksData": {
+    "projects": [
+      {
+        "id": "204b434fada7ef1a8a44688b",
+        "name": "CS coursework",
+        "isOwner": true,
+        "color": "#FF6161",
+        "inAll": true,
+        "sortOrder": 268435456,
+        "sortOption": null,
+        "sortType": "sortOrder",
+        "userCount": 1,
+        "etag": "9v54bfs6",
+        "modifiedTime": "2023-11-22T16:34:10.914+0000",
+        "closed": null,
+        "muted": true,
+        "transferred": null,
+        "groupId": "b996487aa11cd183c2b82db4",
+        "viewMode": "list",
+        "notificationOptions": null,
+        "teamId": null,
+        "permission": null,
+        "kind": "TASK",
+        "timeline": {
+          "range": null,
+          "sortType": "sortOrder",
+          "sortOption": null
+        },
+        "needAudit": true,
+        "openToTeam": null,
+        "teamMemberPermission": null,
+        "source": 1
+      },
+      {
+        "id": "ff18461bb870b90ced26fa14",
+        "name": "Computer Science",
+        "isOwner": true,
+        "color": "#FFAC38",
+        "inAll": true,
+        "sortOrder": 134217728,
+        "sortOption": null,
+        "sortType": null,
+        "userCount": 1,
+        "etag": "qfcsfvhw",
+        "modifiedTime": "2023-11-22T16:34:30.900+0000",
+        "closed": null,
+        "muted": true,
+        "transferred": null,
+        "groupId": "b996487aa11cd183c2b82db4",
+        "viewMode": "list",
+        "notificationOptions": null,
+        "teamId": null,
+        "permission": null,
+        "kind": "TASK",
+        "timeline": {
+          "range": null,
+          "sortType": "sortOrder",
+          "sortOption": null
+        },
+        "needAudit": true,
+        "openToTeam": null,
+        "teamMemberPermission": null,
+        "source": 1
+      },
+      {
+        "id": "d6a14c32a468cb4327595e58",
+        "name": "Maths",
+        "isOwner": true,
+        "color": "#35D870",
+        "inAll": true,
+        "sortOrder": 67108864,
+        "sortOption": null,
+        "sortType": null,
+        "userCount": 1,
+        "etag": "0dyhlu4f",
+        "modifiedTime": "2023-11-22T16:34:45.364+0000",
+        "closed": null,
+        "muted": true,
+        "transferred": null,
+        "groupId": "b996487aa11cd183c2b82db4",
+        "viewMode": "list",
+        "notificationOptions": null,
+        "teamId": null,
+        "permission": null,
+        "kind": "TASK",
+        "timeline": {
+          "range": null,
+          "sortType": "sortOrder",
+          "sortOption": null
+        },
+        "needAudit": true,
+        "openToTeam": null,
+        "teamMemberPermission": null,
+        "source": 1
+      },
+      {
+        "id": "48634f4ca09046500303f389",
+        "name": "Physics",
+        "isOwner": true,
+        "color": "#4CA1FF",
+        "inAll": true,
+        "sortOrder": -201326592,
+        "sortOption": null,
+        "sortType": "sortOrder",
+        "userCount": 1,
+        "etag": "pne7sx5e",
+        "modifiedTime": "2023-11-22T16:43:53.127+0000",
+        "closed": null,
+        "muted": true,
+        "transferred": null,
+        "groupId": "b996487aa11cd183c2b82db4",
+        "viewMode": "list",
+        "notificationOptions": null,
+        "teamId": null,
+        "permission": null,
+        "kind": "TASK",
+        "timeline": {
+          "range": null,
+          "sortType": "sortOrder",
+          "sortOption": null
+        },
+        "needAudit": true,
+        "openToTeam": null,
+        "teamMemberPermission": null,
+        "source": 1
+      },
+      {
+        "id": "0f0e4f2995c015530b96d061",
+        "name": "Events",
+        "isOwner": true,
+        "color": "#CF72F3",
+        "inAll": true,
+        "sortOrder": -134217728,
+        "sortOption": null,
+        "sortType": null,
+        "userCount": 1,
+        "etag": "pdk15lkr",
+        "modifiedTime": "2023-11-22T16:43:41.139+0000",
+        "closed": null,
+        "muted": true,
+        "transferred": null,
+        "groupId": "ac4548ca9349462585dfe71d",
+        "viewMode": "list",
+        "notificationOptions": null,
+        "teamId": null,
+        "permission": null,
+        "kind": "TASK",
+        "timeline": {
+          "range": null,
+          "sortType": "sortOrder",
+          "sortOption": null
+        },
+        "needAudit": true,
+        "openToTeam": null,
+        "teamMemberPermission": null,
+        "source": 1
+      },
+      {
+        "id": "inbox122592852",
+        "name": "Inbox"
+      }
+    ],
+    "tasks": [
+      {
+        "id": "39d546588490e02652669b6d",
+        "projectId": "48634f4ca09046500303f389",
+        "title": "Thermodynamics test  📅 2023-11-24",
+        "content": "[ToDo's/Physics.md](obsidian://open?vault=School-Notes&file=ToDo's/Physics.md)",
+        "parentId": "",
+        "dueDate": "2023-11-24T08:00:00.000-0000",
+        "startDate": "2023-11-24T08:00:00.000-0000",
+        "tags": [
+          "ticktick"
+        ],
+        "priority": 0,
+        "modifiedTime": "2023-11-22T18:47:00.000-0000",
+        "status": 0,
+        "timeZone": "Europe/London",
+        "path": "ToDo's/Physics.md"
+      },
+      {
+        "id": "4c974b6f8d3a2eae85be5a4a",
+        "projectId": "d6a14c32a468cb4327595e58",
+        "title": "Exercise 7E",
+        "content": "[ToDo's/Maths.md](obsidian://open?vault=School-Notes&file=ToDo's/Maths.md)",
+        "parentId": "",
+        "dueDate": "",
+        "startDate": "",
+        "tags": [
+          "ticktick"
+        ],
+        "priority": 0,
+        "modifiedTime": "2023-11-22T19:08:00.000-0000",
+        "status": 2,
+        "timeZone": "Europe/London",
+        "path": "ToDo's/Maths.md"
+      },
+      {
+        "id": "655e47a2076cfd2e6c858f08",
+        "projectId": "204b434fada7ef1a8a44688b",
+        "sortOrder": -2201573392384,
+        "title": "Deadline",
+        "content": "[ToDo's/CS coursework.md](obsidian://open?vault=School-Notes&file=ToDo's/CS%20coursework.md)",
+        "timeZone": "Europe/London",
+        "isFloating": false,
+        "reminder": "",
+        "reminders": [],
+        "priority": 0,
+        "status": 0,
+        "items": [],
+        "progress": 0,
+        "modifiedTime": "2023-11-22T18:25:00.000+0000",
+        "etag": "5olq63bj",
+        "deleted": 0,
+        "createdTime": "2023-11-22T18:25:41.514+0000",
+        "creator": 122592852,
+        "tags": [
+          "ticktick"
+        ],
+        "childIds": [
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08",
+          "655e47a2076cfd2e6c858f08"
+        ],
+        "kind": "TEXT",
+        "path": "ToDo's/CS coursework.md"
+      },
+      {
+        "id": "655e4928076cfd2e6c858f21",
+        "projectId": "204b434fada7ef1a8a44688b",
+        "title": "Software development and coding   📅 2023-12-22",
+        "content": "[ToDo's/CS coursework.md](obsidian://open?vault=School-Notes&file=ToDo's/CS%20coursework.md)",
+        "parentId": "655e47a2076cfd2e6c858f08",
+        "dueDate": "2023-12-22T08:00:00.000-0000",
+        "startDate": "2023-12-22T08:00:00.000-0000",
+        "tags": [
+          "ticktick"
+        ],
+        "priority": 0,
+        "modifiedTime": "2023-11-22T18:32:00.000-0000",
+        "status": 0,
+        "timeZone": "Europe/London",
+        "path": "ToDo's/CS coursework.md"
+      },
+      {
+        "id": "655e493b076cfd2e6c858f24",
+        "projectId": "204b434fada7ef1a8a44688b",
+        "title": "Testing   📅 2024-01-31",
+        "content": "[ToDo's/CS coursework.md](obsidian://open?vault=School-Notes&file=ToDo's/CS%20coursework.md)",
+        "parentId": "655e47a2076cfd2e6c858f08",
+        "dueDate": "2024-01-31T08:00:00.000-0000",
+        "startDate": "2024-01-31T08:00:00.000-0000",
+        "tags": [
+          "ticktick"
+        ],
+        "priority": 0,
+        "modifiedTime": "2023-11-22T18:32:00.000-0000",
+        "status": 0,
+        "timeZone": "Europe/London",
+        "path": "ToDo's/CS coursework.md"
+      },
+      {
+        "id": "655e494b076cfd2e6c858f27",
+        "projectId": "204b434fada7ef1a8a44688b",
+        "title": "Success of the solution   📅 2024-02-16",
+        "content": "[ToDo's/CS coursework.md](obsidian://open?vault=School-Notes&file=ToDo's/CS%20coursework.md)",
+        "parentId": "655e47a2076cfd2e6c858f08",
+        "dueDate": "2024-02-16T08:00:00.000-0000",
+        "startDate": "2024-02-16T08:00:00.000-0000",
+        "tags": [
+          "ticktick"
+        ],
+        "priority": 0,
+        "modifiedTime": "2023-11-22T18:32:00.000-0000",
+        "status": 0,
+        "timeZone": "Europe/London",
+        "path": "ToDo's/CS coursework.md"
+      },
+      {
+        "id": "655e495d076cfd2e6c858f2a",
+        "projectId": "204b434fada7ef1a8a44688b",
+        "title": "Evaluation   📅 2024-02-29",
+        "content": "[ToDo's/CS coursework.md](obsidian://open?vault=School-Notes&file=ToDo's/CS%20coursework.md)",
+        "parentId": "655e47a2076cfd2e6c858f08",
+        "dueDate": "2024-02-29T08:00:00.000-0000",
+        "startDate": "2024-02-29T08:00:00.000-0000",
+        "tags": [
+          "ticktick"
+        ],
+        "priority": 0,
+        "modifiedTime": "2023-11-22T18:33:00.000-0000",
+        "status": 0,
+        "timeZone": "Europe/London",
+        "path": "ToDo's/CS coursework.md"
+      },
+      {
+        "id": "655e496f076cfd2e6c858f2d",
+        "projectId": "204b434fada7ef1a8a44688b",
+        "title": "Usability features   📅 2024-02-29",
+        "content": "[ToDo's/CS coursework.md](obsidian://open?vault=School-Notes&file=ToDo's/CS%20coursework.md)",
+        "parentId": "655e47a2076cfd2e6c858f08",
+        "dueDate": "2024-02-29T08:00:00.000-0000",
+        "startDate": "2024-02-29T08:00:00.000-0000",
+        "tags": [
+          "ticktick"
+        ],
+        "priority": 0,
+        "modifiedTime": "2023-11-22T18:34:00.000-0000",
+        "status": 0,
+        "timeZone": "Europe/London",
+        "path": "ToDo's/CS coursework.md"
+      },
+      {
+        "id": "655e4983076cfd2e6c858f30",
+        "projectId": "204b434fada7ef1a8a44688b",
+        "title": "Maintenance and development   📅 2024-03-15",
+        "content": "[ToDo's/CS coursework.md](obsidian://open?vault=School-Notes&file=ToDo's/CS%20coursework.md)",
+        "parentId": "655e47a2076cfd2e6c858f08",
+        "dueDate": "2024-03-15T08:00:00.000-0000",
+        "startDate": "2024-03-15T08:00:00.000-0000",
+        "tags": [
+          "ticktick"
+        ],
+        "priority": 0,
+        "modifiedTime": "2023-11-22T18:34:00.000-0000",
+        "status": 0,
+        "timeZone": "Europe/London",
+        "path": "ToDo's/CS coursework.md"
+      },
+      {
+        "id": "655e49a0076cfd2e6c858f34",
+        "projectId": "204b434fada7ef1a8a44688b",
+        "title": "Bibliography   📅 2024-03-22",
+        "content": "[ToDo's/CS coursework.md](obsidian://open?vault=School-Notes&file=ToDo's/CS%20coursework.md)",
+        "parentId": "655e47a2076cfd2e6c858f08",
+        "dueDate": "2024-03-22T08:00:00.000-0000",
+        "startDate": "2024-03-22T08:00:00.000-0000",
+        "tags": [
+          "ticktick"
+        ],
+        "priority": 0,
+        "modifiedTime": "2023-11-22T18:34:00.000-0000",
+        "status": 0,
+        "timeZone": "Europe/London",
+        "path": "ToDo's/CS coursework.md"
+      },
+      {
+        "id": "655e49b1076cfd2e6c858f37",
+        "projectId": "204b434fada7ef1a8a44688b",
+        "title": "Improvements to coursework   📅 2024-04-01",
+        "content": "[ToDo's/CS coursework.md](obsidian://open?vault=School-Notes&file=ToDo's/CS%20coursework.md)",
+        "parentId": "655e47a2076cfd2e6c858f08",
+        "dueDate": "2024-04-01T08:00:00.000+-100",
+        "startDate": "2024-04-01T08:00:00.000+-100",
+        "tags": [
+          "ticktick"
+        ],
+        "priority": 0,
+        "modifiedTime": "2023-11-22T18:37:00.000-0000",
+        "status": 0,
+        "timeZone": "Europe/London",
+        "path": "ToDo's/CS coursework.md"
+      },
+      {
+        "id": "8d554d21a707b727babeb777",
+        "projectId": "48634f4ca09046500303f389",
+        "title": "Core practical 14 - Gamma blocking  📅 2023-12-01",
+        "content": "[ToDo's/Physics.md](obsidian://open?vault=School-Notes&file=ToDo's/Physics.md)",
+        "parentId": "",
+        "dueDate": "2023-12-01T08:00:00.000-0000",
+        "startDate": "2023-12-01T08:00:00.000-0000",
+        "tags": [
+          "ticktick"
+        ],
+        "priority": 0,
+        "modifiedTime": "2023-11-22T18:44:00.000-0000",
+        "status": 0,
+        "timeZone": "Europe/London",
+        "path": "ToDo's/Physics.md"
+      }
+    ]
+  },
+  "fileMetadata": {
+    "ToDo's/CS coursework.md": {
+      "TickTickTasks": [
+        "655e4928076cfd2e6c858f21",
+        "655e493b076cfd2e6c858f24",
+        "655e494b076cfd2e6c858f27",
+        "655e495d076cfd2e6c858f2a",
+        "655e4983076cfd2e6c858f30",
+        "655e496f076cfd2e6c858f2d",
+        "655e49a0076cfd2e6c858f34",
+        "655e47a2076cfd2e6c858f08",
+        "655e49b1076cfd2e6c858f37"
+      ],
+      "TickTickCount": 9,
+      "defaultProjectId": "204b434fada7ef1a8a44688b"
+    },
+    "ToDo's/Physics.md": {
+      "TickTickTasks": [
+        "8d554d21a707b727babeb777",
+        "39d546588490e02652669b6d"
+      ],
+      "TickTickCount": 2,
+      "defaultProjectId": "48634f4ca09046500303f389"
+    },
+    "ToDo's/Maths.md": {
+      "TickTickTasks": [
+        "4c974b6f8d3a2eae85be5a4a"
+      ],
+      "TickTickCount": 1,
+      "defaultProjectId": "d6a14c32a468cb4327595e58"
+    },
+    "School/Physics/Equations.md": {
+      "TickTickTasks": [],
+      "TickTickCount": 0
+    },
+    "School/Computer Science/Work/A.md": {
+      "TickTickTasks": [],
+      "TickTickCount": 0
+    },
+    "Kinetic theory model.md": {
+      "TickTickTasks": [],
+      "TickTickCount": 0
+    },
+    "School/Physics/Notes/Defenitions/Kinetic theory derivation cube.png": {
+      "TickTickTasks": [],
+      "TickTickCount": 0
+    },
+    "Impulse.md": {
+      "TickTickTasks": [],
+      "TickTickCount": 0
+    },
+    "Mean Square Speed.md": {
+      "TickTickTasks": [],
+      "TickTickCount": 0
+    }
+  },
+  "enableFullVaultSync": false,
+  "statistics": {},
+  "debugMode": false,
+  "password": "",
+  "username": "",
+  "defaultProjectId": "inbox122592852"
+}

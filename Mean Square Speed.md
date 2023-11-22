@@ -1,0 +1,1 @@
+The mean of the squares of the speeds of the gas molecules

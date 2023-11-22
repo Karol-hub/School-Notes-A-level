@@ -4,9 +4,10 @@
   "obsidian-tasks-plugin",
   "image-captions",
   "obsidian-plugin-toc",
-  "obsidian-text-format",
   "obsidian-desmos",
   "quick-latex",
-  "obsidian-full-calendar",
-  "cycle-through-panes"
+  "cycle-through-panes",
+  "tickticksync",
+  "tasks-calendar-wrapper",
+  "surfing"
 ]

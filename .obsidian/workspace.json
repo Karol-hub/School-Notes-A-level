@@ -8,27 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "60efb093e5c808db",
+            "id": "acf42c413c3bef8d",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
+                "file": "ToDo's/Physics.md",
                 "mode": "source",
                 "source": false
               }
             }
-          },
-          {
-            "id": "390205a17ee2306c",
-            "type": "leaf",
-            "state": {
-              "type": "full-calendar-view",
-              "state": {}
-            }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -57,8 +48,8 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
-                "matchingCase": false,
+                "query": "tag:#ticktick",
+                "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -71,6 +62,25 @@
             "type": "leaf",
             "state": {
               "type": "bookmarks",
+              "state": {}
+            }
+          },
+          {
+            "id": "effea6ded7b88b2b",
+            "type": "leaf",
+            "state": {
+              "type": "tag",
+              "state": {
+                "sortOrder": "frequency",
+                "useHierarchy": true
+              }
+            }
+          },
+          {
+            "id": "239bd43824ab0aae",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-tab-tree",
               "state": {}
             }
           }
@@ -94,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
+                "file": "ToDo's/Physics.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -111,30 +121,9 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
+                "file": "ToDo's/Physics.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
-              }
-            }
-          },
-          {
-            "id": "effea6ded7b88b2b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "2fd203dcb3164d99",
-            "type": "leaf",
-            "state": {
-              "type": "all-properties",
-              "state": {
-                "sortOrder": "frequency"
               }
             }
           },
@@ -144,20 +133,20 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md"
+                "file": "ToDo's/Physics.md"
               }
             }
           },
           {
-            "id": "c3d0ee044b99a5c5",
+            "id": "0447036a5456fdac",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
+              "type": "tasks_timeline_view",
               "state": {}
             }
           }
         ],
-        "currentTab": 5
+        "currentTab": 3
       }
     ],
     "direction": "horizontal",
@@ -165,63 +154,62 @@
   },
   "left-ribbon": {
     "hiddenItems": {
-      "obsidian-full-calendar:Open Full Calendar": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
-      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
       "command-palette:Open command palette": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "graph:Open graph view": false
     }
   },
-  "active": "390205a17ee2306c",
+  "active": "acf42c413c3bef8d",
   "lastOpenFiles": [
-    "Life/Calendar/Scheduled Lessons/Maths/(Every F) Maths.md",
-    "Life/Calendar/Scheduled Lessons/CS/(Every W) Computer Science.md",
-    "Life/Calendar/Scheduled Lessons/Physics",
-    "Life/Calendar/Scheduled Lessons/CS",
-    "Life/Calendar/Scheduled Lessons/Maths",
-    "Life/Calendar/Scheduled Lessons/CS/(Every M) Computer Science.md",
-    "Life/Calendar/Scheduled Lessons",
-    "Life/Calendar/Scheduled Lessons/Physics/(Every F) Physics.md",
-    "Life/Calendar/Scheduled Lessons/CS/(Every R) Computer Science.md",
-    "Life/Calendar/Scheduled Lessons/Maths/(Every R) Maths.md",
-    "Life/Calendar/Scheduled Lessons/Physics/(Every R) Physics.md",
-    "Life/Calendar/Scheduled Lessons/Maths/(Every T) Maths.md",
-    "Life/Calendar/Scheduled Lessons/Physics/(Every M) Physics.md",
-    "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
-    "Life/Calendar",
     "Kinetic theory model.md",
+    "Mean Square Speed.md",
+    "Life/Obsidian stuff/Latex cheat sheet.pdf",
+    "School/Physics/Notes/Defenitions/Force.md",
+    "School/Physics/Notes/Defenitions/Pressure.md",
+    "Impulse.md",
+    "School/Physics/Notes/Defenitions/SI Units.md",
+    "School/Physics/Notes/Defenitions/Momentum.md",
+    "School/Physics/Notes/Defenitions/Kinetic theory derivation cube.png",
     "School/Physics/Notes/Paper 2/Topic 9- Thermodynamics.md",
-    "School/Physics/Notes/Paper 1/Topic 2- Mechanics.md",
-    "School/Physics/Notes/Paper 1/Topic 1- Working as a Physicist.md",
-    "School/Physics/Notes/Defenitions/Black body.md",
+    "School/Physics/Notes/Defenitions/Kinetic Energy.md",
+    "School/Physics/Notes/Defenitions/Ideal Gasses.md",
+    "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
+    "School/Computer Science/Course Work/A-star example/Analysis.pdf",
+    "School/Physics/Equations.md",
+    "ToDo's/Maths.md",
+    "ToDo's/CS coursework.md",
+    "ToDo's/Physics.md",
+    "ToDo's",
+    "Life/Travel/Trains/Niki info on trains.md",
+    "ticktick-backup-20231122173429.json",
+    "Life/Tick Tick.md",
+    "Life/Calendar/School/Computer science/(Every W) Computer Science.md",
+    "Life/Calendar/Life/(Every U) Church.md",
+    "Life/Calendar/Life/(Every U) Tutoring.md",
+    "Life/Calendar/Life",
+    "Life/Calendar/Untitled.md",
+    "Life/Calendar/School/Computer science/(Every R) Computer Science.md",
+    "Life/Calendar/School/Computer science/2023-11-23 Computer Science.md",
+    "Life/Calendar/Sport/Volleyball/(Every W) Volleyball.md",
+    "Life/Calendar/Sport/TKD/(Every U) TKD training.md",
+    "Life/Calendar/Sport/TKD",
+    "Life/Calendar/Sport/Volleyball",
+    "Life/Calendar/Sport",
+    "Life/Calendar/School/Computer science",
+    "Life/Calendar/School/Physics",
     "School/Physics/Notes/Defenitions/Radiation curve.png",
     "School/Physics/Notes/Defenitions/Wein's law graph.png",
-    "School/Physics/Notes/Defenitions/Wein's Law.md",
-    "School/Physics/Notes/Defenitions/Stefan-Boltzmann law.md",
-    "School/Physics/Notes/Defenitions/Avogadro constant.md",
-    "School/Physics/Notes/Defenitions/Ideal Gasses.md",
-    "School/Physics/Notes/Defenitions/Pressure.md",
-    "School/Physics/Notes/Defenitions/SI Units.md",
-    "School/Physics/Notes/Defenitions/Derived quantities.md",
-    "School/Physics/Notes/Defenitions/Prefixes.md",
-    "School/Physics/Notes/Defenitions/Boltzmann constant.md",
-    "School/Physics/Notes/Defenitions/Molar gas Constant.md",
-    "School/Computer Science/Notes/CS A Level Textbook.pdf",
-    "School/Maths/Textbook/Pure Year 2.pdf",
-    "School/Maths/Textbook/Applied Year 2.pdf",
-    "Life/Obsidian stuff/Latex cheat sheet.pdf",
-    "School/Computer Science/Course Work/Reports/Report.pdf",
     "Life/Personal Statement/Feedback/Third Draft feedback.jpg",
     "Life/Personal Statement/Feedback/Second Draft feedback.jpg",
     "Pasted image 20231116153744.png",
     "Pasted image 20231116153731.png",
     "Pasted image 20231116141503.png",
     "Pasted image 20231116141310.png",
-    "Pasted image 20231116141308.png",
-    "Pasted image 20231116141307.png"
+    "Pasted image 20231116141308.png"
   ]
 }
