@@ -1,3 +1,3 @@
 - Units that are not [[SI Units]]
-- eg Newtons (N)
+- e.g. Newtons (N)
 - Can have [[Prefixes]]

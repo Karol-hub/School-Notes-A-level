@@ -21,4 +21,4 @@
 ##  Stefan-Boltzmann law
 - [[Stefan-Boltzmann law]]
 ## Wien’s law
-- [[Stefan-Boltzmann law]]
+- [[Wein's Law]]

@@ -3,6 +3,9 @@ Makes sure:
 	- Ensures information that is required elsewhere can't be removed
 - Data is consistent throughout the database
 
+Can be broken with
+- Redundant data
+
 Transaction Processing
 - One or more operation executed on data
 

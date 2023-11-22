@@ -1,13 +1,12 @@
 [
   "obsidian-excalidraw-plugin",
-  "calendar",
   "table-editor-obsidian",
   "obsidian-tasks-plugin",
-  "obsidian-git",
   "image-captions",
   "obsidian-plugin-toc",
-  "obsidian-pandoc",
   "obsidian-text-format",
   "obsidian-desmos",
-  "quick-latex"
+  "quick-latex",
+  "obsidian-full-calendar",
+  "cycle-through-panes"
 ]

@@ -1,2 +1,0 @@
-- Is in [[First Normal Form]]
-- Doesn’t have any [[Partial Dependencies]]

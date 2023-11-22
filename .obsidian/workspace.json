@@ -8,28 +8,27 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4c4bacd382bcde9f",
+            "id": "60efb093e5c808db",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Differentiating sin and cos.md",
+                "file": "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "cc571d2ece1fc221",
+            "id": "390205a17ee2306c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
-              "state": {
-                "file": "Life/Obsidian stuff/Latex cheat sheet.pdf"
-              }
+              "type": "full-calendar-view",
+              "state": {}
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -58,7 +57,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "[\"excalidraw-plugin\"]",
+                "query": "",
                 "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -90,20 +89,12 @@
         "type": "tabs",
         "children": [
           {
-            "id": "4c92af6d913f5727",
-            "type": "leaf",
-            "state": {
-              "type": "calendar",
-              "state": {}
-            }
-          },
-          {
             "id": "c890405ada7ea989",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Differentiating sin and cos.md",
+                "file": "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -120,7 +111,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Differentiating sin and cos.md",
+                "file": "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Differentiating sin and cos.md"
+                "file": "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md"
               }
             }
           },
@@ -174,6 +165,7 @@
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-full-calendar:Open Full Calendar": false,
       "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
       "graph:Open graph view": false,
@@ -184,52 +176,52 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "a23261b6ce4fa130",
+  "active": "390205a17ee2306c",
   "lastOpenFiles": [
-    "School/Maths/Notes/Defenitions/Differentiating exponentials and logarithms.md",
-    "Life/Obsidian stuff/Latex cheat sheet.pdf",
-    "School/Maths/Notes/Defenitions/Differentiating sin and cos.md",
-    "School/Maths/Notes/Pure/Year 2/9 Differentiation.md",
-    "School/Maths/Notes/Links.md",
-    "School/Physics/Notes/Links.md",
-    "School/Maths/Textbook/Pure Year 2.pdf",
-    "School/Physics/Notes/Equations.md",
-    "School/Computer Science/Course Work/Reports/Report.md",
-    "School/Computer Science/Course Work/Reports/Report.pdf",
-    "School/Computer Science/Course Work/A-star example/Development.pdf",
-    "School/Computer Science/Course Work/Reports/Images/Code",
+    "Life/Calendar/Scheduled Lessons/Maths/(Every F) Maths.md",
+    "Life/Calendar/Scheduled Lessons/CS/(Every W) Computer Science.md",
+    "Life/Calendar/Scheduled Lessons/Physics",
+    "Life/Calendar/Scheduled Lessons/CS",
+    "Life/Calendar/Scheduled Lessons/Maths",
+    "Life/Calendar/Scheduled Lessons/CS/(Every M) Computer Science.md",
+    "Life/Calendar/Scheduled Lessons",
+    "Life/Calendar/Scheduled Lessons/Physics/(Every F) Physics.md",
+    "Life/Calendar/Scheduled Lessons/CS/(Every R) Computer Science.md",
+    "Life/Calendar/Scheduled Lessons/Maths/(Every R) Maths.md",
+    "Life/Calendar/Scheduled Lessons/Physics/(Every R) Physics.md",
+    "Life/Calendar/Scheduled Lessons/Maths/(Every T) Maths.md",
+    "Life/Calendar/Scheduled Lessons/Physics/(Every M) Physics.md",
+    "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
+    "Life/Calendar",
+    "Kinetic theory model.md",
     "School/Physics/Notes/Paper 2/Topic 9- Thermodynamics.md",
-    "Life/Cooking/Desert/Peanut Butter Cookies.md",
-    "School/Maths/Notes/Defenitions/Complex area integration.md",
-    "School/Maths/Notes/Defenitions/Complex area integration example.md",
-    "School/Maths/Notes/Defenitions/Chords in a circle example.md",
-    "School/Maths/Notes/Defenitions/Area under curve example.md",
-    "Life/Games/Terraria Hardcore/Strats.md",
-    "2023-11-19.md",
-    "Life/Games/Terraria Hardcore/Terraria Hardcore Checklist.md",
+    "School/Physics/Notes/Paper 1/Topic 2- Mechanics.md",
+    "School/Physics/Notes/Paper 1/Topic 1- Working as a Physicist.md",
+    "School/Physics/Notes/Defenitions/Black body.md",
+    "School/Physics/Notes/Defenitions/Radiation curve.png",
+    "School/Physics/Notes/Defenitions/Wein's law graph.png",
+    "School/Physics/Notes/Defenitions/Wein's Law.md",
+    "School/Physics/Notes/Defenitions/Stefan-Boltzmann law.md",
+    "School/Physics/Notes/Defenitions/Avogadro constant.md",
+    "School/Physics/Notes/Defenitions/Ideal Gasses.md",
+    "School/Physics/Notes/Defenitions/Pressure.md",
+    "School/Physics/Notes/Defenitions/SI Units.md",
+    "School/Physics/Notes/Defenitions/Derived quantities.md",
+    "School/Physics/Notes/Defenitions/Prefixes.md",
+    "School/Physics/Notes/Defenitions/Boltzmann constant.md",
+    "School/Physics/Notes/Defenitions/Molar gas Constant.md",
+    "School/Computer Science/Notes/CS A Level Textbook.pdf",
+    "School/Maths/Textbook/Pure Year 2.pdf",
+    "School/Maths/Textbook/Applied Year 2.pdf",
+    "Life/Obsidian stuff/Latex cheat sheet.pdf",
+    "School/Computer Science/Course Work/Reports/Report.pdf",
     "Life/Personal Statement/Feedback/Third Draft feedback.jpg",
     "Life/Personal Statement/Feedback/Second Draft feedback.jpg",
-    "Life/Travel/Trains/Niki info on trains.md",
-    "Life/Cooking/Desert/Choc Chip Cookies.md",
-    "School/Physics/Notes/Defenitions/Thermodynamic laws.md",
-    "School/Physics/Notes/Defenitions/Ideal Gasses.md",
-    "School/Physics/Notes/Defenitions/Kinetic Energy.md",
-    "School/Physics/Notes/Defenitions/Internal Potential Energy.md",
-    "School/Physics/Notes/Defenitions/Boltzmann constant.md",
-    "School/Physics/Notes/Defenitions/Absolute Zero.md",
-    "Kinetic theory model.md",
     "Pasted image 20231116153744.png",
     "Pasted image 20231116153731.png",
     "Pasted image 20231116141503.png",
     "Pasted image 20231116141310.png",
     "Pasted image 20231116141308.png",
-    "Pasted image 20231116141307.png",
-    "Pasted image 20231116141213.png",
-    "Pasted image 20231116141005.png",
-    "School/Computer Science/Work/ClassWork/Worksheets/Algorithms_AStar_Exercises.pdf",
-    "School/Computer Science/Notes/OCR A Level Specification (H446).pdf",
-    "School/Computer Science/Notes/CS A Level Textbook.pdf",
-    "School/Computer Science/Course Work/A-star example/Analysis.pdf",
-    "School/Computer Science/Course Work/A-star example/Evaluation.pdf"
+    "Pasted image 20231116141307.png"
   ]
 }

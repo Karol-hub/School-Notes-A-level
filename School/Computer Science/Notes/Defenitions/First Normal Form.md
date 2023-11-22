@@ -1,1 +1,0 @@
-- Each entry is atomic (No attribute contains more than one value)
