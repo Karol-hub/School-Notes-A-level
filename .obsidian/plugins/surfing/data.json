@@ -43,17 +43,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "12ced2101a9c359e",
-      "parent": 0,
-      "droppable": true,
-      "text": "How to put therefore and implies symbols - TeX - LaTeX Stack Exchange",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }
