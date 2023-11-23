@@ -1,3 +1,0 @@
-== Added by Obsidian-TickTick == 
-- [ ] Thermodynamics test  [link](https://ticktick.com/webapp/#q/all/tasks/https://ticktick.com/webapp/#q/all/tasks/39d546588490e02652669b6d) #ticktick %%[ticktick_id:: 39d546588490e02652669b6d]%% 📅 2023-11-24
-- [ ] Core practical 14 - Gamma blocking [link](https://ticktick.com/webapp/#q/all/tasks/https://ticktick.com/webapp/#q/all/tasks/8d554d21a707b727babeb777) #ticktick %%[ticktick_id:: 8d554d21a707b727babeb777]%% 📅 2023-12-01
