@@ -134,7 +134,7 @@ $$\frac{1}{2}m<c^2> = \frac{3}{2}kT$$
 $$pV = \frac{1}{3} Nm<c^2>$$
 ### Ideal gas equation
 $$pV = NkT$$
-### Stefan-Boltzmann law
+### [[Stefan-Boltzmann law]]
 $$L =\sigma T^4 A$$
 $$L = 4\pi r^2 \sigma T^4$$
 ### Wien's law
@@ -178,7 +178,7 @@ $$T = 2\pi \sqrt{\frac{l}{g}}$$
 | Constant                     | Symbol          | Value             | Unit                    |
 | ---------------------------- | --------------- | ----------------- | ----------------------- |
 | Acceleration of free fall    | $g$             | $9.81$            | $m \, s^{-2}$           |
-| Boltzmann constant           | $k$             | $1.38 * 10^{-23}$ | $J \, K^{-1}$           |
+| Boltzmann constant           | $k_B$           | $1.38 * 10^{-23}$ | $J \, K^{-1}$           |
 | Electron charge              | $k$             | $8.99 * 10^9$     | $N \, m^2 \, C^{-2}$    |
 | Electron mass                | $e$             | $9.11 * 10^{-31}$ | $kg$                    |
 | Electronvolt                 | $m_e$           | $1.60 * 10^{-19}$ | $J$                     |

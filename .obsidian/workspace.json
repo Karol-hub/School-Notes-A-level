@@ -8,31 +8,18 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e4bb82bff05df2ed",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Computer Science/Work/A.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
             "id": "bd52d15e905b7e9b",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.2 Applications Generation.md",
+                "file": "Life/Cooking/Desert/Basbousa.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -117,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.2 Applications Generation.md",
+                "file": "Life/Cooking/Desert/Basbousa.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -134,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.2 Applications Generation.md",
+                "file": "Life/Cooking/Desert/Basbousa.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -146,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.2 Applications Generation.md"
+                "file": "Life/Cooking/Desert/Basbousa.md"
               }
             }
           },
@@ -161,12 +148,11 @@
             }
           }
         ],
-        "currentTab": 3
+        "currentTab": 2
       }
     ],
     "direction": "horizontal",
-    "width": 302,
-    "collapsed": true
+    "width": 302
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -182,8 +168,17 @@
   },
   "active": "bd52d15e905b7e9b",
   "lastOpenFiles": [
-    "School/Computer Science/Work/A.md",
+    "Life/Obsidian stuff/Obsidian Callout Cheatsheet.md",
+    "Life/Cooking/Desert/Basbousa.md",
+    "Life/Cooking/Desert/Chocolate PB Macarons.md",
+    "Life/Cooking/Desert/Cinnamon Rolls.md",
+    "Life/Cooking/Food/Pulled chicken & black bean chilli.md",
+    "Life/Cooking/Food/Potato Bread.md",
+    "Life/Cooking/Food/Double bean & roasted pepper chilli.md",
+    "School/Physics/Equations.md",
     "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.2 Applications Generation.md",
+    "School/Physics/Notes/Defenitions/Stefan-Boltzmann law.md",
+    "School/Computer Science/Work/A.md",
     "School/Computer Science/Notes/Defenitions/Syntax Analysis.md",
     "School/Computer Science/Notes/Defenitions/Lexical Analysis.md",
     "School/Computer Science/Notes/Links.md",
@@ -210,17 +205,8 @@
     "Life/Obsidian stuff/Latex cheat sheet.pdf",
     "School/Physics/Notes/Defenitions/Force.md",
     "School/Physics/Notes/Defenitions/Pressure.md",
-    "School/Physics/Notes/Defenitions/SI Units.md",
-    "School/Physics/Notes/Defenitions/Momentum.md",
     "School/Physics/Notes/Defenitions/Kinetic theory derivation cube.png",
-    "School/Physics/Notes/Paper 2/Topic 9- Thermodynamics.md",
-    "School/Physics/Notes/Defenitions/Kinetic Energy.md",
-    "School/Physics/Notes/Defenitions/Ideal Gasses.md",
-    "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
     "School/Computer Science/Course Work/A-star example/Analysis.pdf",
-    "School/Physics/Equations.md",
-    "ToDo's/Maths.md",
-    "ToDo's/CS coursework.md",
     "ToDo's",
     "ticktick-backup-20231122173429.json",
     "Life/Calendar/Life",
