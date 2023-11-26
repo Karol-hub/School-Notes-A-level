@@ -24,6 +24,6 @@
 6. The batter is thick enough to cut into pre baking. Cut into even squares or diamonds in the size of your preference. I got approx. 24 pieces out of my pan. See video above for demonstration.
 7. Add a whole almond to the center of each piece just tapping it gently into the batter. You can also add a sprinkle of coconut powder over the top of the batter if you would like before baking.
 8. Bake uncovered in the oven for 25-30 min on the bottom rack until the edges start to brown. Then, move the pan to the top rack for another 5-10 minutes so the whole cake gets a beautiful light brown color.
-9. While the cake bakes, prepare the simple syrup by stirring together the sugar and water until the sugar is completely dissolved. Let this simmer for about 8 minutes until it thickens and add a asqueezeof lemon at the end.
-10. Once the cake is out of the oven, re-inforce the previously cut lines by going over it again with a sharp knife. Then, pour the warm syrup all over the top of the semolina cake. The cake especially when warm will soak it up.
+9. While the cake bakes, prepare the simple syrup by stirring together the sugar and water until the sugar is completely dissolved. Let this simmer for about 8 minutes until it thickens and add a squeeze of lemon at the end.
+10. Once the cake is out of the oven, re-enforce the previously cut lines by going over it again with a sharp knife. Then, pour the warm syrup all over the top of the semolina cake. The cake especially when warm will soak it up.
 11. Allow for the cake to cool completely for at least an hour before taking the slices out or you can risk it crumbling. You also want the cake to absorb all of the syrup.

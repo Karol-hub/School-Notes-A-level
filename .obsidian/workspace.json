@@ -8,7 +8,19 @@
         "type": "tabs",
         "children": [
           {
-            "id": "bd52d15e905b7e9b",
+            "id": "5cdaf4981f771b30",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "36dbf17b77da1ddc",
             "type": "leaf",
             "state": {
               "type": "markdown",
@@ -19,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -166,16 +179,24 @@
       "graph:Open graph view": false
     }
   },
-  "active": "bd52d15e905b7e9b",
+  "active": "36dbf17b77da1ddc",
   "lastOpenFiles": [
-    "Life/Obsidian stuff/Obsidian Callout Cheatsheet.md",
+    "Life/Cooking/Desert/Choc Chip Cookies.md",
     "Life/Cooking/Desert/Basbousa.md",
+    "School/Physics/Notes/Paper 3 (Practicals)/Competency Sheet.md",
+    "School/Physics/Notes/Links.md",
+    "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
+    "School/Physics/Notes/Defenitions/CP 15 setup.md",
+    "School/Physics/Notes/Paper 3 (Practicals)/Practical Skills.md",
+    "School/Maths/Textbook/Pure Year 2.pdf",
+    "School/Physics/Equations.md",
+    "School/Maths/Notes/Links.md",
+    "Life/Obsidian stuff/Obsidian Callout Cheatsheet.md",
     "Life/Cooking/Desert/Chocolate PB Macarons.md",
     "Life/Cooking/Desert/Cinnamon Rolls.md",
     "Life/Cooking/Food/Pulled chicken & black bean chilli.md",
     "Life/Cooking/Food/Potato Bread.md",
     "Life/Cooking/Food/Double bean & roasted pepper chilli.md",
-    "School/Physics/Equations.md",
     "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.2 Applications Generation.md",
     "School/Physics/Notes/Defenitions/Stefan-Boltzmann law.md",
     "School/Computer Science/Work/A.md",
@@ -197,14 +218,7 @@
     "Life/Cooking/Desert/Matcha Baked Doughnuts.md",
     "Life/Games/Terraria Hardcore/Strats.md",
     "Life/Games/Terraria Hardcore/Terraria Hardcore Checklist.md",
-    "Life/Personal Statement/Personal Statement.md",
-    "School/Physics/Notes/Defenitions/Impulse.md",
-    "School/Physics/Notes/Defenitions/Kinetic theory model.md",
-    "ToDo's/Physics.md",
-    "School/Physics/Notes/Defenitions/Mean Square Speed.md",
     "Life/Obsidian stuff/Latex cheat sheet.pdf",
-    "School/Physics/Notes/Defenitions/Force.md",
-    "School/Physics/Notes/Defenitions/Pressure.md",
     "School/Physics/Notes/Defenitions/Kinetic theory derivation cube.png",
     "School/Computer Science/Course Work/A-star example/Analysis.pdf",
     "ToDo's",
@@ -212,7 +226,6 @@
     "Life/Calendar/Life",
     "Life/Calendar/Sport/TKD",
     "Life/Calendar/Sport/Volleyball",
-    "Life/Calendar/Sport",
     "School/Physics/Notes/Defenitions/Radiation curve.png"
   ]
 }
