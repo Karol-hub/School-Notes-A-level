@@ -832,7 +832,25 @@ public partial class character_movement : CharacterBody2D
 	- [ ] Animation for jumping
 	- [ ] Animation for dashing
 #### Iteration 4
-
+- General Movement
+	- [x] Can move left and right
+	- [x] Decelerates when no input is given
+- Jumping
+	- [x] Accelerates player up
+	- [x] Limited amount of jumps
+- Dashing
+	- [x] Makes the player move fast
+	- [x] Gets interrupted when hitting wall
+- Wall bouncing
+	- [x] When dashing into a wall it bounces into opposite direction
+	- [x] When dashing up a wall it bounces you slightly away from it
+	- [x] When dashing into floor it bounces you back up a bit
+- Animation
+	- [x] Sprite is facing the right way
+	- [ ] idle animation
+	- [ ] Animation for walking
+	- [ ] Animation for jumping
+	- [ ] Animation for dashing
 ### Player Abilities
 
 ## Level Design

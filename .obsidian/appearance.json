@@ -1,8 +1,9 @@
 {
   "accentColor": "",
   "enabledCssSnippets": [
-    "custom-mermaid"
+    "custom-mermaid",
+    "code blocks"
   ],
   "baseFontSize": 16,
-  "cssTheme": "Encore"
+  "cssTheme": "AnuPpuccin"
 }
