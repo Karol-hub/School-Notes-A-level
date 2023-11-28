@@ -1,13 +1,15 @@
 Look like
-```desmos-graph
-right = 1; left = -3;
-top=3; bottom=-3;
+```functionplot
 ---
-y=e^x
-y=-e^x
+xLabel: 
+yLabel: 
+bounds: [-3,1,-3,3]
+disableZoom: false
+grid: true
+---
+y=2.718^x
+y=-2.718^x
 ```
-- Blue is positive
-- Green is negative
 $$m=\log_{a}{x} \rightarrow a^{m}=x$$
 # e
 if $y=e^x$ then $\frac{dy}{dx}=e^{x}$ 

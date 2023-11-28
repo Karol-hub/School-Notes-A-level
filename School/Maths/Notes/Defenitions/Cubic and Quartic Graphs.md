@@ -1,30 +1,50 @@
 # Cubic
 ## Positive
-```desmos-graph
+```functionplot
+---
+xLabel: 
+yLabel: 
+bounds: [-3,3,-1.5,1.5]
+disableZoom: false
+grid: true
+---
 y=x^3
-```
-```desmos-graph
 y= x^3 + 2x^2 -0.5
 ```
 ## Negative
-```desmos-graph
+```functionplot
+---
+xLabel: 
+yLabel: 
+bounds: [-3,3,-1.5,1.5]
+disableZoom: false
+grid: true
+---
 y=-x^3
-```
-```desmos-graph
-y= -(x^3 + 2x^2 -0.5)
+y=-(x^3 + 2x^2 -0.5)
 ```
 # Quartic
 ## Positive
-```desmos-graph
+```functionplot
+---
+xLabel: 
+yLabel: 
+bounds: [-3,3,-1.5,1.5]
+disableZoom: false
+grid: true
+---
 y=x^4
-```
-```desmos-graph
 y=x^4 + x^3 -x^2 + 0.5
 ```
 ## Negative
-```desmos-graph
+```functionplot
+---
+xLabel: 
+yLabel: 
+bounds: [-3,3,-1.5,1.5]
+disableZoom: false
+grid: true
+---
 y=-x^4
-```
-```desmos-graph
 y=-(x^4 + x^3 -x^2 + 0.5)
 ```

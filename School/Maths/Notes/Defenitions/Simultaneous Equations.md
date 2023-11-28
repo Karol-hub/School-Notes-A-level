@@ -27,15 +27,20 @@ $x=1,y=1$
 # Quadratic Simultaneous Equations
 You solve just like Linear Simultaneous Equations mostly with method 1
 # Simultaneous Equations on Graphs
-```desmos-graph
+```functionplot
+---
+title: 
+xLabel: 
+yLabel: 
+bounds: [-10,10,-10,10]
+disableZoom: false
+grid: true
+---
 y=x^2 -3x +2
 y=-x+5
-(-1,6)
-(3,2)
 ```
 $y=x^2 -3x +2$
 $y=-x+5$
 Where two lines intersect is the solution
-Purple $(-1,6)$
-Black $(3,2)$
+ $(-1,6)\; (3,2)$
 [[The Discriminant]]

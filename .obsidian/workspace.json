@@ -8,22 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "e37c8a3c8d926cc8",
+            "id": "51c4f3db86c48c64",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
-              }
-            }
-          },
-          {
-            "id": "3787b167bb3fd145",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+                "file": "School/Maths/Notes/Defenitions/Differentiation Trigonometric functions.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -37,8 +29,7 @@
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -52,26 +43,26 @@
         "type": "tabs",
         "children": [
           {
-            "id": "8d30083bae2d855f",
-            "type": "leaf",
-            "state": {
-              "type": "search",
-              "state": {
-                "query": "tag:#ticktick",
-                "matchingCase": true,
-                "explainSearch": false,
-                "collapseAll": false,
-                "extraContext": false,
-                "sortOrder": "alphabetical"
-              }
-            }
-          },
-          {
             "id": "a23261b6ce4fa130",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
               "state": {
+                "sortOrder": "alphabetical"
+              }
+            }
+          },
+          {
+            "id": "8d30083bae2d855f",
+            "type": "leaf",
+            "state": {
+              "type": "search",
+              "state": {
+                "query": "",
+                "matchingCase": true,
+                "explainSearch": false,
+                "collapseAll": false,
+                "extraContext": false,
                 "sortOrder": "alphabetical"
               }
             }
@@ -103,8 +94,7 @@
               "state": {}
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "horizontal",
@@ -124,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf",
+                "file": "School/Maths/Notes/Defenitions/Differentiation Trigonometric functions.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -141,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf",
+                "file": "School/Maths/Notes/Defenitions/Differentiation Trigonometric functions.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -153,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+                "file": "School/Maths/Notes/Defenitions/Differentiation Trigonometric functions.md"
               }
             }
           },
@@ -172,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5,
-    "collapsed": true
+    "width": 311.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -187,17 +176,32 @@
       "graph:Open graph view": false
     }
   },
-  "active": "3787b167bb3fd145",
+  "active": "a23261b6ce4fa130",
   "lastOpenFiles": [
+    "School/Maths/Notes/Defenitions/Chain Rule.md",
+    "School/Maths/Notes/Defenitions/Differentiation Trigonometric functions.md",
+    "School/Maths/Notes/Defenitions/Differentiating sin and cos.md",
+    "School/Maths/Notes/Pure/Year 2/9 Differentiation.md",
+    "School/Maths/Notes/Defenitions/Quotient Rule.md",
+    "School/Maths/Notes/Defenitions/Product Rule.md",
+    "School/Physics/Notes/Paper 2/Topic 13- Oscillations.md",
+    "School/Maths/Notes/Defenitions/Solutions to trig.md",
+    "School/Maths/Notes/Defenitions/Simultaneous Equations.md",
+    "School/Maths/Notes/Defenitions/Reciprocal Graphs.md",
+    "School/Maths/Notes/Defenitions/Quadratic Graphs.md",
     "Life/Obsidian stuff/Latex cheat sheet.pdf",
+    "School/Maths/Notes/Defenitions/Completing the Square.md",
+    "School/Maths/Notes/Defenitions/Logarithmic non-linear data.md",
+    "School/Maths/Notes/Defenitions/Exponentials.md",
+    "School/Maths/Notes/Pure/Year 1/9 Trigonometric ratios.md",
+    "School/Maths/Notes/Defenitions/Cubic and Quartic Graphs.md",
+    "School/Maths/Notes/Links.md",
     "School/Maths/Textbook/Pure Year 2.pdf",
     "School/Maths/Notes/Defenitions/Rates of change.md",
     "School/Maths/Textbook/Applied Year 2.pdf",
     "School/Maths/Notes/Defenitions/Interval.md",
-    "School/Maths/Notes/Pure/Year 2/9 Differentiation.md",
     "School/Maths/Notes/Defenitions/Concave and Convex Graphs.md",
     "School/Maths/Notes/Defenitions/Point of Inflection.md",
-    "School/Maths/Notes/Links.md",
     "School/Computer Science/Course Work/Reports/Report.md",
     "School/subway surfers YIPEE.md",
     "School/Computer Science/Course Work/Reports/Images/Rain world ss.jpg",
@@ -207,20 +211,6 @@
     "School/Maths/Notes/Defenitions/Differentiating exponentials and logarithms.md",
     "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
     "Life/Cooking/Desert/Basbousa.md",
-    "Life/Cooking/Desert/Choc Chip Cookies.md",
-    "School/Physics/Notes/Paper 3 (Practicals)/Competency Sheet.md",
-    "School/Physics/Notes/Links.md",
-    "School/Physics/Notes/Defenitions/CP 15 setup.md",
-    "School/Physics/Notes/Paper 3 (Practicals)/Practical Skills.md",
-    "School/Physics/Equations.md",
-    "Life/Obsidian stuff/Obsidian Callout Cheatsheet.md",
-    "Life/Cooking/Desert/Chocolate PB Macarons.md",
-    "Life/Cooking/Desert/Cinnamon Rolls.md",
-    "Life/Cooking/Food/Pulled chicken & black bean chilli.md",
-    "Life/Cooking/Food/Potato Bread.md",
-    "Life/Cooking/Food/Double bean & roasted pepper chilli.md",
-    "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.2 Applications Generation.md",
-    "School/Physics/Notes/Defenitions/Stefan-Boltzmann law.md",
     "Pasted image 20231123143648.png",
     "Pasted image 20231123144014.png",
     "Pasted image 20231123143808.png",

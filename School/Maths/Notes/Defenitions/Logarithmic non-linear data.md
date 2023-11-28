@@ -1,9 +1,13 @@
 If $y=ax^n$ 
-```desmos-graph
-left=0; right=1;
-bottom = -0.1; top=2;
+```functionplot
 ---
-y=2x^{3}
+xLabel: 
+yLabel: 
+bounds: [0,1,0,2]
+disableZoom: false
+grid: true
+---
+y=2x^3
 ```
 start with
 $$y=ax^{n}$$

@@ -1,16 +1,18 @@
 $$\sin x =\frac{1}{2}$$
 Can have more than one solution if we look at the graph 
-```desmos-graph
-top=1.5; bottom=-1.5;
-left=-6.28318530718;right=6.28318530718;
+```functionplot
 ---
-y=\sin{x}
-y={0.5}
-(0.52359877559,0.5)
-(2.61799387799,0.5)
-(-3.66519142919,0.5)
-(-5.75958653158,0.5)
+title: 
+xLabel: 
+yLabel: 
+bounds: [-6.28,6.28,-1.5,1.5]
+disableZoom: true
+grid: true
+---
+y= sin(x)
+y=0.5
 ```
+
 We can see that $\sin x = \frac{1}{2}$ will have infinite solutions.
 Alternate solution can be found with 
 - $\pi-arcsin{x}$

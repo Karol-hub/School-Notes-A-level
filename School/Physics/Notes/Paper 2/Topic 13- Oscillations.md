@@ -28,30 +28,46 @@ $$a = -A \omega^{2} \cos \omega t$$
 *All these graphs are under the assumption there is no damping*
 ## Displacement
 $$x = A \cos \omega t$$
-```desmos-graph
-left=0; right=15;
-top=10; bottom=-10;
+```functionplot
 ---
-y = 5 \cos{2x}
+title: 
+xLabel: 
+yLabel: 
+bounds: [0,15,-10,10]
+disableZoom: false
+grid: true
+---
+y = 5 cos(2x)
 ```
+
 Note that displacement can't start at 0
 ## Velocity 
 *Derivative of displacement time graph*
 $$v = -A \omega \sin \omega t$$
-```desmos-graph
-left=0; right=15;
-top=15; bottom=-15;
+```functionplot
 ---
-y = -10 \sin{2x}
+title: 
+xLabel: 
+yLabel: 
+bounds: [0,15,-15,15]
+disableZoom: false
+grid: true
+---
+y = -10 sin(2x)
 ```
 ## Acceleration
 *Derivative of velocity time graph*
 $$a = -A \omega^{2} \cos \omega t$$
-```desmos-graph
-left=0; right=15;
-top=25; bottom=-25;
+```functionplot
 ---
-y = -20 \cos{2x}
+title: 
+xLabel: 
+yLabel: 
+bounds: [0,15,-25,25]
+disableZoom: false
+grid: true
+---
+y = -20 cos(2x)
 ```
 # Resonance
 - [[Resonance]]
