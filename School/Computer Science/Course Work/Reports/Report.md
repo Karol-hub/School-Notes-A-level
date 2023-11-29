@@ -372,12 +372,15 @@ variable_name – represented as lowercase with underscores 
 Player movement is something that is important to the feel of the game and is a make or break for many people. A significant number of people said that movement is the most important to them in a game but the majority of the people surveyed answered combat,  therefore I would like to make a movement system that complements the combat system but also isn't overwhelming so that the player can focus mainly on the combat while still enjoying the movement.
 
 Made a checklist so that I can implement all the features one at a time.
+Though this checklist did get updated as I decided to include more features into my game and therefore didn't start like this.
 - General Movement
 	- [ ] Can move left and right
 	- [ ] Decelerates when no input is given
+	- [ ] Input Buffering
 - Jumping
 	- [ ] Accelerates player up
 	- [ ] Limited amount of jumps
+	- [ ] Is there coyote time
 - Dashing
 	- [ ] Makes the player move fast 
 	- [ ] Gets interrupted when hitting wall
@@ -835,9 +838,11 @@ public partial class character_movement : CharacterBody2D
 - General Movement
 	- [x] Can move left and right
 	- [x] Decelerates when no input is given
+	- [ ] Input buffering
 - Jumping
 	- [x] Accelerates player up
 	- [x] Limited amount of jumps
+	- [ ] Is there coyote time
 - Dashing
 	- [x] Makes the player move fast
 	- [x] Gets interrupted when hitting wall
