@@ -4,19 +4,31 @@
 - Some people believe in the idea of a free internet where nothing is filtered at all 
 - Censorship can exist on a small scale like in a school or workplace 
 - Censorship can be used to minimize distractions  
-
-Monitor Behaviour 
-
+# Monitor Behaviour 
 - Computers can be used to monitor people’s behaviour in various environments 
 - Employers track the websites employees visit to monitor productivity 
 - Surveillance systems can be used to detect crime 
 - Ankle monitors are used to track people in house arrest 
 - Some people believe this a violation of human right of privacy 
 - Others believe is it necessary to prevent crime 
-
-Analyse Personal Information 
-
+# Analyse Personal Information 
 - Data can reveal key insights on people and their behaviour 
 - Large amounts of data from a number of sources (called big data) can be analysed to make inferences about people, this process is called data mining 
 - Ethical concerns weather a company should have a responsibility to feedback trends they uncover to the people involved 
 - There is pressure on large companies to be more transparent on the data they collect.
+
+# General statement for questions
+## [[Moral]]
+- Who decides what content gets blocked
+## [[1.5.1 Computing related legislation|Legal]]
+- Could be used to manipulate people
+## [[Ethical]]
+- People could be manipulated through media
+## [[Environmental Effects|Environmental]]
+- 
+## Economic
+- Some devices/websites could be blocked to sabotaged them
+## Social
+- People's views are altered my media they are shown
+## Cultural
+-  People's views are altered my media they are shown

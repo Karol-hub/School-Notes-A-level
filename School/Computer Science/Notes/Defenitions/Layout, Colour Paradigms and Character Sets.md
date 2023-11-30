@@ -14,3 +14,15 @@ Character Sets 
 - Websites should be accessible to as many people as possible. 
 -  Website content needs to be able to be translated into other languages 
 - Unicode is the preferred character set as it can represent over a million characters
+
+# General statement for questions
+## [[Moral]]
+- People get less offended
+## [[1.5.1 Computing related legislation|Legal]]
+## [[Ethical]]
+## [[Environmental Effects|Environmental]]
+## Economic
+- Website may be more appealing so people more incentivised to use their product
+## Social
+## Cultural
+-  Respected in website layout
