@@ -32,5 +32,3 @@ Date accessed: 26/11/23
 3. Measure count rate over one minute
 4. Repeat from 3 until you have 3 readings and take average
 5. Place a sheet of lead between the source and GM tube and repeat from 3 until you have 3 readings for all lead thicknesses
-# Analysis
-# Evaluation

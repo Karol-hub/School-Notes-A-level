@@ -11,21 +11,19 @@
             "id": "809763c2058bceb3",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "School/Computer Science/Notes/Defenitions/Computers in the Workforce.md",
-                "mode": "source",
-                "source": false
+                "file": "School/Maths/Textbook/Applied Year 2.pdf"
               }
             }
           },
           {
-            "id": "e324231cdfb1c366",
+            "id": "ff3da885136aef96",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Computer Science/Work/A.md",
+                "file": "School/Physics/Notes/Defenitions/Half life of dice practical.md",
                 "mode": "source",
                 "source": false
               }
@@ -101,8 +99,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "bf4ac1899630a9ef",
@@ -118,7 +115,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Computer Science/Work/A.md",
+                "file": "School/Physics/Notes/Defenitions/Half life of dice practical.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -135,7 +132,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Computer Science/Work/A.md",
+                "file": "School/Physics/Notes/Defenitions/Half life of dice practical.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -147,7 +144,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Computer Science/Work/A.md"
+                "file": "School/Physics/Notes/Defenitions/Half life of dice practical.md"
               }
             }
           },
@@ -166,8 +163,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5,
-    "collapsed": true
+    "width": 311.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -181,12 +177,20 @@
       "graph:Open graph view": false
     }
   },
-  "active": "e324231cdfb1c366",
+  "active": "ff3da885136aef96",
   "lastOpenFiles": [
+    "School/Physics/Notes/Paper 2/Topic 11- Nuclear Radiation.md",
+    "School/Physics/Notes/Paper 2/Topic 9- Thermodynamics.md",
+    "School/Physics/Notes/Defenitions/Half life of dice practical.md",
+    "School/Physics/Notes/Defenitions/dice practical ln graph.png",
+    "School/Physics/Notes/Links.md",
+    "School/Physics/Notes/Defenitions/dice practical dice left graph.png",
+    "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
+    "School/Maths/Textbook/Applied Year 2.pdf",
+    "School/Computer Science/Work/A.md",
     "School/Computer Science/Notes/Defenitions/Layout, Colour Paradigms and Character Sets.md",
     "School/Computer Science/Notes/Defenitions/Computers in the Workforce.md",
     "School/Computer Science/Notes/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.2 Moral and ethical Issues.md",
-    "School/Computer Science/Work/A.md",
     "School/Computer Science/Notes/Defenitions/Piracy and offensive communications.md",
     "School/Computer Science/Notes/Defenitions/Copyright, Design and Patents Act 1988.md",
     "School/Computer Science/Notes/Defenitions/Censorship and the Internet.md",
@@ -196,7 +200,6 @@
     "School/Computer Science/Notes/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.1 Computing related legislation.md",
     "School/Computer Science/Notes/Defenitions/Moral.md",
     "School/Computer Science/Notes/Defenitions/Ethical.md",
-    "School/Maths/Textbook/Applied Year 2.pdf",
     "School/Computer Science/Course Work/Reports/Report.md",
     "School/Computer Science/Notes/Links.md",
     "Life/Obsidian stuff/Latex cheat sheet.pdf",
@@ -207,11 +210,6 @@
     "School/Maths/Notes/Defenitions/Differentiating sin and cos.md",
     "School/Maths/Notes/Pure/Year 2/9 Differentiation.md",
     "School/Maths/Notes/Defenitions/Quotient Rule.md",
-    "School/Maths/Notes/Defenitions/Product Rule.md",
-    "School/Physics/Notes/Paper 2/Topic 13- Oscillations.md",
-    "School/Maths/Notes/Defenitions/Solutions to trig.md",
-    "School/Maths/Notes/Defenitions/Simultaneous Equations.md",
-    "School/Maths/Notes/Defenitions/Reciprocal Graphs.md",
     "School/Maths/Textbook/Pure Year 2.pdf",
     "School/Computer Science/Course Work/Reports/Images/Rain world ss.jpg",
     "School/Computer Science/Course Work/Reports/Images/ROR 2 ss.jpg",
@@ -221,8 +219,6 @@
     "Pasted image 20231123144014.png",
     "Pasted image 20231123143808.png",
     "Pasted image 20231123143747.png",
-    "Pasted image 20231123141329.png",
-    "Pasted image 20231123141253.png",
     "School/Computer Science/OCR A Level Specification (H446).pdf",
     "School/Computer Science/Course Work/A-star example/Analysis.pdf",
     "ToDo's",
