@@ -1,4 +1,4 @@
-- [[Simplifying algebraic fractions]]
+- [[Algebraic Fractions]]
 - [[Dividing polynomials]]
 - [[Factor Theorem]]
 - [[Proof]]

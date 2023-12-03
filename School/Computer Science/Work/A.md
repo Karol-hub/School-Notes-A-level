@@ -1,6 +1,0 @@
-Q)
-AI stand for artificial intelligence, recently it has been vary controversial due to the way that the AI is trained. As they are mainly trained on large data sets, which are often containing work of people who did not agree to be put into the large data set. Though these data sets are considered as "for research purposes only", so it doesn't break any copyright legislation . Though this can be viewed immoral and many artists have spoken up against this as their artwork is used to train an AI model and replicate their work without giving any compensation to the artist.
-Though some governments have banned the copyright of AI created work, so it is free to use for any purpose by anyone. Some people have been using this to aid them in their schoolwork. Though some people are taking advantage of this to make their entire work created by an AI. This makes it difficult to judge a student's true capabilities when the work that they show to the teachers could be AI generated, this will make teaching difficult since anything that isn't done under exam conditions could be made by an AI. This could lead to things like coursework being entirely created  by AI and inflating people's grades.
-
-1.
-The algorithm could be bias
