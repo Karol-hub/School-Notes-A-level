@@ -42,3 +42,17 @@ ley $y=g(x)$ be the red line
 we can do
 $$\int_{0}^{A_{x}}f(x)-g(x) \ dx$$
 to get the area of the shaded region
+# Integrating x^-1
+The only function in the form of $x^n$ that cannot be integrated is $x^{-1}$ because $\frac{x^{0}}{0}$ will give us an undefined answer
+$$\int \frac{1}{x} dx=ln|x|+c$$
+# Integrating trig
+## basic
+$$\int \cos x dx = \sin x + c$$
+$$\int \sin x dx = -\cos x +c$$
+## harder
+$$\int \sec^{2}x dx=\tan x +c$$
+$$\int \csc x \cot x dx =-\csc x + c$$
+$$\int \csc^{2}x dx = -\cot x + c$$
+$$\int \sec x \tan x dx = \sec x + c$$
+# Even harder trig
+- [[Reverse Chain Rule]]

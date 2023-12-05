@@ -8,18 +8,39 @@
         "type": "tabs",
         "children": [
           {
-            "id": "10b83fb3cb14a7b4",
+            "id": "809763c2058bceb3",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+              }
+            }
+          },
+          {
+            "id": "60ec27e39eace413",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+              }
+            }
+          },
+          {
+            "id": "4a04e7809820424f",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Computer Science/Course Work/Reports/Report.md",
+                "file": "School/Maths/Notes/Defenitions/Integration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Computer Science/Course Work/Reports/Report.md",
+                "file": "School/Maths/Textbook/Pure Year 2.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Computer Science/Course Work/Reports/Report.md",
+                "file": "School/Maths/Textbook/Pure Year 2.pdf",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Computer Science/Course Work/Reports/Report.md"
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
               }
             }
           },
@@ -166,14 +187,21 @@
       "graph:Open graph view": false
     }
   },
-  "active": "10b83fb3cb14a7b4",
+  "active": "60ec27e39eace413",
   "lastOpenFiles": [
-    "School/Computer Science/Course Work/Thoughts/Character/Aseprite files/small char.gif",
-    "Life/Cooking/Desert/Choc Chip Cookies.md",
-    "School/Computer Science/Course Work/Reports/Report.md",
-    "Life/Cooking/Desert/Lemon Blondies.md",
+    "School/Maths/Notes/Defenitions/Integration.md",
+    "School/Maths/Notes/Pure/Year 2/11 Integration.md",
+    "School/Maths/Textbook/Pure Year 2.pdf",
+    "School/Maths/Notes/Defenitions/Chain Rule.md",
+    "School/Maths/Notes/Defenitions/Differentiating exponentials and logarithms.md",
     "School/Maths/Textbook/Applied Year 2.pdf",
+    "School/Maths/Notes/Links.md",
     "School/Physics/Notes/Defenitions/Half life of dice practical.md",
+    "School/Maths/Notes/Pure/Year 2/1 Algebraic methods.md",
+    "School/Maths/Notes/Defenitions/Proof by Contradiction.md",
+    "School/Maths/Notes/Defenitions/Algebraic division example.md",
+    "School/Maths/Notes/Defenitions/Algebraic Fractions.md",
+    "School/Temp.md",
     "School/Physics/Notes/Paper 2/Topic 11- Nuclear Radiation.md",
     "School/Physics/Notes/Paper 2/Topic 9- Thermodynamics.md",
     "School/Physics/Notes/Defenitions/dice practical ln graph.png",
@@ -190,16 +218,8 @@
     "School/Computer Science/Notes/Defenitions/Environmental Effects.md",
     "School/Computer Science/Notes/Defenitions/Artificial Intelligence (AI).md",
     "School/Computer Science/Notes/Defenitions/Automated Decision Making.md",
-    "School/Computer Science/Notes/Unit 1/1.5 Legal, moral, cultural and ethical issues/1.5.1 Computing related legislation.md",
-    "School/Computer Science/Notes/Defenitions/Moral.md",
-    "School/Computer Science/Notes/Defenitions/Ethical.md",
-    "School/Computer Science/Notes/Links.md",
     "Life/Obsidian stuff/Latex cheat sheet.pdf",
-    "School/Computer Science/Temp.md",
     "School/Computer Science/Notes/CS A Level Textbook.pdf",
-    "School/Maths/Notes/Defenitions/Differentiation Trigonometric functions.md",
-    "School/Maths/Notes/Defenitions/Chain Rule.md",
-    "School/Maths/Textbook/Pure Year 2.pdf",
     "School/Computer Science/Course Work/Reports/Images/Rain world ss.jpg",
     "School/Computer Science/Course Work/Reports/Images/ROR 2 ss.jpg",
     "School/Computer Science/Course Work/Reports/Images/Celeste ss.jpg",

@@ -14,7 +14,7 @@ $$\frac{dy}{dx}=f'(x)e^{f(x)}$$
 $$y=\ln f(x)$$
 $$\frac{dy}{dx}=\frac{f'(x)}{f(x)}$$
 ## Proof
-use [[Chain Rule]] to prove $y=\ln f(x)$ but we ain't here to prove chain rule so here's the important stuff
+use [[Chain Rule]] to prove $y=\ln f(x)$ but we ain't here to prove [[chain rule]] so here's the important stuff
 $$\circledast  \;y=\ln x$$
 $$e^{y}=x$$
 $$\frac{dx}{dy}=e^y$$
