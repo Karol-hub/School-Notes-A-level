@@ -10,10 +10,13 @@ Centre Number: 31255
 <div style="page-break-after: always;"></div>
 
 # **Sources** 
-Name: 
-URL: 
-Date Accessed: 
+Name: Procedurally Generated 3D Dungeons
+URL: [https://www.youtube.com/watch?v=rBY2Dzej03A](https://www.youtube.com/watch?v=rBY2Dzej03A)
+Date Accessed: 05/12/23
 
+Name: Comparing Algorithms for Dispersing Overlapping Rectangles
+URL: [https://mikekling.com/comparing-algorithms-for-dispersing-overlapping-rectangles/](https://mikekling.com/comparing-algorithms-for-dispersing-overlapping-rectangles/)
+Date Accessed: 05/12/23
 # **Image sources** 
 Name: Risk of Rain 2
 URL: [https://store.steampowered.com/app/632360/Risk_of_Rain_2/](https://store.steampowered.com/app/632360/Risk_of_Rain_2/)  
@@ -859,7 +862,19 @@ public partial class character_movement : CharacterBody2D
 ### Player Abilities
 
 ## Level Design
-
+Planning to use a similar algorithm to the one mentioned in the "Procedurally Generated 3D Dungeons" The algorithm can be decomposed into some subprograms where
+- General shape is generated
+- Other stuff (I will come back to this)
+### General shape Generation
+Started with generating a finite amount of rooms and separating them until there are no overlaps between all the rooms.
+#### Iteration 1
+Started with generating all the rooms within a small confined area. Then separating them all at once by checking each room, one by one and if it's overlapping with any other room. It will move in the opposite direction of the centre of the other room making all the rooms spread out gradually.
+![[rooms seperated.png]]
+Product of algorithm
+##### Problems encountered
+Lots of loops need to be carried out for the algorithm to spread out all the rooms, for 100 rooms it took around 275,000 changes in positions of the rooms to generate a solution which is very inefficient and takes approximately an entire minute to compute, the complexity of the algorithm is polynomial $O(n^{k})$ due to the nested loops used in the algorithm. 
+This may not be a concern since this algorithm is only executed once at the start of each run in the game. However this is still only the first step of the algorithm. The inefficiency could be because when the difference in positions are calculated, the distant overlapping rooms have a greater effect on the displacement of the original room, whereas the rooms close to the original room don't have as much of an impact. After this was altered the average changes in positions decreased to around 120,000 changes in position, taking around 15 seconds. 
+#### Iteration 2
 ## Enemy Design
 ### Enemy Movement
 
