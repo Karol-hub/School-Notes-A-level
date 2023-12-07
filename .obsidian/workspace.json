@@ -23,9 +23,11 @@
             "id": "46a1bcead60b3c53",
             "type": "leaf",
             "state": {
-              "type": "excalidraw",
+              "type": "markdown",
               "state": {
-                "file": "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/circumcentre maths.md"
+                "file": "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/Circumcentre maths.md",
+                "mode": "source",
+                "source": false
               }
             }
           },
@@ -127,7 +129,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/circumcentre maths.md",
+                "file": "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/Circumcentre maths.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -144,7 +146,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/circumcentre maths.md",
+                "file": "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/Circumcentre maths.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -156,7 +158,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/circumcentre maths.md"
+                "file": "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/Circumcentre maths.md"
               }
             }
           },
@@ -191,8 +193,9 @@
   },
   "active": "46a1bcead60b3c53",
   "lastOpenFiles": [
-    "School/Computer Science/Course Work/Reports/Report.md",
     "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/circumcentre maths.md",
+    "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/Circumcentre maths.md",
+    "School/Computer Science/Course Work/Reports/Report.md",
     "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation",
     "School/Computer Science/Course Work/Thoughts/Coding",
     "School/Computer Science/Notes/Defenitions/Procedural Programming.md",
@@ -227,7 +230,6 @@
     "School/Maths/Notes/Defenitions/Algebraic Fractions.md",
     "School/Temp.md",
     "School/Physics/Notes/Paper 2/Topic 11- Nuclear Radiation.md",
-    "School/Physics/Notes/Paper 2/Topic 9- Thermodynamics.md",
     "School/Physics/Notes/Defenitions/dice practical ln graph.png",
     "School/Physics/Notes/Defenitions/dice practical dice left graph.png",
     "School/Computer Science/Course Work/Reports/Images/Rain world ss.jpg",
