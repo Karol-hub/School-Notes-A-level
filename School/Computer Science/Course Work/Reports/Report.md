@@ -17,6 +17,10 @@ Date Accessed: 05/12/23
 Name: Comparing Algorithms for Dispersing Overlapping Rectangles
 URL: [https://mikekling.com/comparing-algorithms-for-dispersing-overlapping-rectangles/](https://mikekling.com/comparing-algorithms-for-dispersing-overlapping-rectangles/)
 Date Accessed: 05/12/23
+
+Name: Bowyer–Watson algorithm
+URL: https://en.wikipedia.org/wiki/Bowyer–Watson_algorithm
+Date Accessed: 07/12/23
 # **Image sources** 
 Name: Risk of Rain 2
 URL: [https://store.steampowered.com/app/632360/Risk_of_Rain_2/](https://store.steampowered.com/app/632360/Risk_of_Rain_2/)  
