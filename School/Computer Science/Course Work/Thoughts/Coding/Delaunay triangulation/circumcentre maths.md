@@ -1,4 +1,4 @@
-Given the points $(x_{1},y_{1}),(x_{2},y_{2}),(x_{3},y_{3})$ The perpendicular bisectors $(h,k)$ will intersect at the circumcentre $(A,B)$ 
+Given the points $(x_{1},y_{1}),(x_{2},y_{2}),(x_{3},y_{3})$ The perpendicular bisectors $(h,k)$ will intersect at the circumcentre
 $$(h_1, k_1) = \left(\frac{x_1 + x_2}{2}, \frac{y_1 + y_2}{2}\right)$$
 $$ (h_2, k_2) = \left(\frac{x_2 + x_3}{2}, \frac{y_2 + y_3}{2}\right)$$
 $$ m_{\text{perp1}} = -\frac{1}{\frac{y_2 - y_1}{x_2 - x_1}} $$
