@@ -1,0 +1,1 @@
+Hardware/Software that monitors/filters traffic/packets going in and out of a network

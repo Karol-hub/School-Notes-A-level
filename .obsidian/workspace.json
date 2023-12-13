@@ -8,7 +8,7 @@
         "type": "tabs",
         "children": [
           {
-            "id": "ac0feb72a71722a2",
+            "id": "79bacd30aab7a3d2",
             "type": "leaf",
             "state": {
               "type": "pdf",
@@ -18,24 +18,12 @@
             }
           },
           {
-            "id": "b01069a1ac422566",
+            "id": "de4e3690326f655c",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
                 "file": "School/Maths/Textbook/Pure Year 2.pdf"
-              }
-            }
-          },
-          {
-            "id": "18d988edd2292adf",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Maths/Notes/Defenitions/Reverse Chain Rule.md",
-                "mode": "source",
-                "source": false
               }
             }
           }
@@ -68,7 +56,7 @@
             "state": {
               "type": "search",
               "state": {
-                "query": "",
+                "query": "firewall",
                 "matchingCase": true,
                 "explainSearch": false,
                 "collapseAll": false,
@@ -187,10 +175,12 @@
       "graph:Open graph view": false
     }
   },
-  "active": "ac0feb72a71722a2",
+  "active": "79bacd30aab7a3d2",
   "lastOpenFiles": [
-    "School/Maths/Notes/Defenitions/Reverse Chain Rule.md",
     "School/Maths/Textbook/Pure Year 2.pdf",
+    "School/Computer Science/Notes/Defenitions/Firewall.md",
+    "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.1 Systems Software.md",
+    "School/Maths/Notes/Defenitions/Reverse Chain Rule.md",
     "School/Maths/Notes/Defenitions/Integration.md",
     "School/Maths/Notes/Pure/Year 2/11 Integration.md",
     "School/Computer Science/Course Work/Reports/Report.md",
@@ -225,8 +215,6 @@
     "School/Physics/Notes/Defenitions/dice practical ln graph.png",
     "School/Physics/Notes/Links.md",
     "School/Physics/Notes/Defenitions/dice practical dice left graph.png",
-    "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
-    "School/Computer Science/Notes/Defenitions/Layout, Colour Paradigms and Character Sets.md",
     "School/Computer Science/Course Work/Reports/Images/Rain world ss.jpg",
     "School/Computer Science/Course Work/Reports/Images/ROR 2 ss.jpg",
     "School/Computer Science/Course Work/Reports/Images/Celeste ss.jpg",
