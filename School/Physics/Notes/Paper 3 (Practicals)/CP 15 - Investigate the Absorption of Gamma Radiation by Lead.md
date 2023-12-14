@@ -32,3 +32,25 @@ Date accessed: 26/11/23
 3. Measure count rate over one minute
 4. Repeat from 3 until you have 3 readings and take average
 5. Place a sheet of lead between the source and GM tube and repeat from 3 until you have 3 readings for all lead thicknesses
+
+<div style="page-break-after: always;"></div>
+
+# Analysis
+## Background Radiation
+![[Pasted image 20231214181321.png|]]
+
+<div style="page-break-after: always;"></div>
+
+## Lead Blocking
+![[Pasted image 20231214180554.png|700]]
+Decay Constant ($\lambda$): $0.0443 \, mm^{-1}$
+Half Thickness: $15.65 \, mm$
+
+<div style="page-break-after: always;"></div>
+
+## Error allowance
+Max Gradient (green)
+$$\left(\frac{-1.21-2.47}{56.32-0}\right) = -0.0653$$
+Min Gradient (red)
+$$\left(\frac{-0.66-1.52}{68.66-0.60}\right)= -0.0320$$
+$$0.0320\leq \lambda \leq 0.0653$$

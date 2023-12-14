@@ -8,22 +8,24 @@
         "type": "tabs",
         "children": [
           {
-            "id": "79bacd30aab7a3d2",
+            "id": "de4e3690326f655c",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+                "file": "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
+                "mode": "source",
+                "source": true
               }
             }
           },
           {
-            "id": "de4e3690326f655c",
+            "id": "30e5c74834241cbf",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "excalidraw",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+                "file": "School/Physics/Notes/Defenitions/potential dividers circuit example.md"
               }
             }
           }
@@ -112,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf",
+                "file": "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf",
+                "file": "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -141,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+                "file": "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md"
               }
             }
           },
@@ -160,8 +162,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 311.5,
-    "collapsed": true
+    "width": 311.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -175,8 +176,20 @@
       "graph:Open graph view": false
     }
   },
-  "active": "79bacd30aab7a3d2",
+  "active": "de4e3690326f655c",
   "lastOpenFiles": [
+    "School/Physics/Notes/Paper 3 (Practicals)/Competency Sheet.md",
+    "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
+    "School/Physics/Notes/Paper 3 (Practicals)/SS data/Pasted image 20231214180554.png.0.pdnSave",
+    "School/Physics/Notes/Paper 3 (Practicals)/SS data/Pasted image 20231214180340.png",
+    "School/Physics/Notes/Paper 3 (Practicals)/SS data",
+    "School/Physics/Notes/Paper 3 (Practicals)/SS data/Pasted image 20231214181321.png",
+    "School/Physics/Notes/Paper 3 (Practicals)/SS data/Pasted image 20231214180554.png",
+    "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
+    "School/Physics/Notes/Defenitions/Potential Dividers.md",
+    "School/Physics/Notes/Defenitions/potential dividers circuit example.md",
+    "School/Physics/Notes/Defenitions/Drift Velocity.md",
+    "School/Physics/Notes/Links.md",
     "School/Maths/Textbook/Pure Year 2.pdf",
     "School/Computer Science/Notes/Defenitions/Firewall.md",
     "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.1 Systems Software.md",
@@ -200,27 +213,16 @@
     "Life/Obsidian stuff/Order of report.md",
     "Life/Obsidian stuff/latexsheet.pdf",
     "Life/Obsidian stuff/latexsheet.pdf.opdownload",
-    "School/Computer Science/Course Work/Reports/Report.tex",
-    "School/Computer Science/Course Work/Reports/Report.synctex.gz",
     "School/Maths/Notes/Defenitions/Chain Rule.md",
     "School/Maths/Notes/Defenitions/Differentiating exponentials and logarithms.md",
     "School/Physics/Notes/Defenitions/Half life of dice practical.md",
     "School/Maths/Notes/Pure/Year 2/1 Algebraic methods.md",
     "School/Maths/Notes/Defenitions/Proof by Contradiction.md",
-    "School/Maths/Notes/Defenitions/Algebraic division example.md",
-    "School/Maths/Notes/Defenitions/Algebraic Fractions.md",
-    "School/Temp.md",
-    "School/Physics/Notes/Paper 2/Topic 11- Nuclear Radiation.md",
-    "School/Physics/Notes/Paper 2/Topic 9- Thermodynamics.md",
     "School/Physics/Notes/Defenitions/dice practical ln graph.png",
-    "School/Physics/Notes/Links.md",
     "School/Physics/Notes/Defenitions/dice practical dice left graph.png",
     "School/Computer Science/Course Work/Reports/Images/Rain world ss.jpg",
     "School/Computer Science/Course Work/Reports/Images/ROR 2 ss.jpg",
     "School/Computer Science/Course Work/Reports/Images/Celeste ss.jpg",
-    "School/Computer Science/Course Work/Reports/Images/Decay of defence.png",
-    "Pasted image 20231123143648.png",
-    "Pasted image 20231123144014.png",
-    "Pasted image 20231123143808.png"
+    "School/Computer Science/Course Work/Reports/Images/Decay of defence.png"
   ]
 }
