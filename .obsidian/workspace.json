@@ -8,24 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "de4e3690326f655c",
+            "id": "902c6d063c986268",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
+                "file": "School/Untitled.md",
                 "mode": "source",
-                "source": true
-              }
-            }
-          },
-          {
-            "id": "30e5c74834241cbf",
-            "type": "leaf",
-            "state": {
-              "type": "excalidraw",
-              "state": {
-                "file": "School/Physics/Notes/Defenitions/potential dividers circuit example.md"
+                "source": false
               }
             }
           }
@@ -114,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
+                "file": "School/Untitled.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
+                "file": "School/Untitled.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -143,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md"
+                "file": "School/Untitled.md"
               }
             }
           },
@@ -176,10 +166,21 @@
       "graph:Open graph view": false
     }
   },
-  "active": "de4e3690326f655c",
+  "active": "902c6d063c986268",
   "lastOpenFiles": [
-    "School/Physics/Notes/Paper 3 (Practicals)/Competency Sheet.md",
     "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
+    "School/Untitled.md",
+    "Pasted image 20231215151910.png",
+    "Pasted image 20231215151306.png",
+    "School/Physics/Equations.md",
+    "School/Physics/Notes/Links.md",
+    "Life/Obsidian stuff/Latex cheat sheet.pdf",
+    "School/Maths/Textbook/Pure Year 2.pdf",
+    "School/Maths/Textbook/Applied Year 2.pdf",
+    "School/Maths/Notes/Pure/Year 2/11 Integration.md",
+    "School/Maths/Notes/Defenitions/Integration.md",
+    "School/Physics/Notes/Defenitions/potential dividers circuit example.md",
+    "School/Physics/Notes/Paper 3 (Practicals)/Competency Sheet.md",
     "School/Physics/Notes/Paper 3 (Practicals)/SS data/Pasted image 20231214180554.png.0.pdnSave",
     "School/Physics/Notes/Paper 3 (Practicals)/SS data/Pasted image 20231214180340.png",
     "School/Physics/Notes/Paper 3 (Practicals)/SS data",
@@ -187,19 +188,12 @@
     "School/Physics/Notes/Paper 3 (Practicals)/SS data/Pasted image 20231214180554.png",
     "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
     "School/Physics/Notes/Defenitions/Potential Dividers.md",
-    "School/Physics/Notes/Defenitions/potential dividers circuit example.md",
     "School/Physics/Notes/Defenitions/Drift Velocity.md",
-    "School/Physics/Notes/Links.md",
-    "School/Maths/Textbook/Pure Year 2.pdf",
     "School/Computer Science/Notes/Defenitions/Firewall.md",
     "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.1 Systems Software.md",
     "School/Maths/Notes/Defenitions/Reverse Chain Rule.md",
-    "School/Maths/Notes/Defenitions/Integration.md",
-    "School/Maths/Notes/Pure/Year 2/11 Integration.md",
     "School/Computer Science/Course Work/Reports/Report.md",
     "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/circumcentre maths.md",
-    "School/Physics/Equations.md",
-    "School/Maths/Textbook/Applied Year 2.pdf",
     "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation",
     "School/Computer Science/Course Work/Thoughts/Coding",
     "School/Computer Science/Temp.md",
@@ -212,17 +206,13 @@
     "School/Computer Science/Course Work/Reports/Images/rooms seperated.png",
     "Life/Obsidian stuff/Order of report.md",
     "Life/Obsidian stuff/latexsheet.pdf",
-    "Life/Obsidian stuff/latexsheet.pdf.opdownload",
     "School/Maths/Notes/Defenitions/Chain Rule.md",
     "School/Maths/Notes/Defenitions/Differentiating exponentials and logarithms.md",
     "School/Physics/Notes/Defenitions/Half life of dice practical.md",
     "School/Maths/Notes/Pure/Year 2/1 Algebraic methods.md",
-    "School/Maths/Notes/Defenitions/Proof by Contradiction.md",
     "School/Physics/Notes/Defenitions/dice practical ln graph.png",
     "School/Physics/Notes/Defenitions/dice practical dice left graph.png",
     "School/Computer Science/Course Work/Reports/Images/Rain world ss.jpg",
-    "School/Computer Science/Course Work/Reports/Images/ROR 2 ss.jpg",
-    "School/Computer Science/Course Work/Reports/Images/Celeste ss.jpg",
-    "School/Computer Science/Course Work/Reports/Images/Decay of defence.png"
+    "School/Computer Science/Course Work/Reports/Images/ROR 2 ss.jpg"
   ]
 }

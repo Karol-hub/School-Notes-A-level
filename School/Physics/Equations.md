@@ -64,7 +64,7 @@ $$P = P_1 + P_2 + P_3 +...$$
 ### Thin lens equations
 $$\frac{1}{u} + \frac{1}{v} = \frac{1}{f}$$
 ### Magnification for a lens
-$$magnification = Image \; height \,/ \, Object \; height$$
+$$\text{magnification} = \frac{\text{Image height}}{\text{Object height}}$$
 $$m = \frac{v}{u}$$
 ### Diffraction grating
 $$n \lambda  = dsin \theta$$

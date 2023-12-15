@@ -56,3 +56,8 @@ $$\int \csc^{2}x dx = -\cot x + c$$
 $$\int \sec x \tan x dx = \sec x + c$$
 # Even harder trig
 - [[Reverse Chain Rule]]
+# Integration by substitution
+- Use the expression for $u$ to find $\frac{du}{dx}$ and rearrange for $dx$
+- Substitute $u$ into the integral and replace $dx$ in terms of $du$
+- Simplify where possible and integrate with respect to $du$
+- Replace $u$ with original expression
