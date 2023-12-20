@@ -1,0 +1,33 @@
+\contentsline {section}{\numberline {1}Abstract}{4}{}%
+\contentsline {section}{\numberline {2}Introduction}{4}{}%
+\contentsline {section}{\numberline {3}Computational Methods}{4}{}%
+\contentsline {section}{\numberline {4}Researching The Problem}{5}{}%
+\contentsline {subsection}{\numberline {4.1}Risk of Rain 2}{5}{}%
+\contentsline {paragraph}{Controls}{6}{}%
+\contentsline {paragraph}{Characters}{6}{}%
+\contentsline {paragraph}{Aim of the game}{6}{}%
+\contentsline {paragraph}{Target demographic}{6}{}%
+\contentsline {paragraph}{Good Qualities}{6}{}%
+\contentsline {paragraph}{Bad Qualities}{7}{}%
+\contentsline {paragraph}{What I would include}{7}{}%
+\contentsline {subsection}{\numberline {4.2}Celeste}{7}{}%
+\contentsline {paragraph}{Controls}{7}{}%
+\contentsline {paragraph}{Characters}{8}{}%
+\contentsline {paragraph}{Aim of the game}{8}{}%
+\contentsline {paragraph}{Target demographic}{8}{}%
+\contentsline {paragraph}{Good Qualities}{8}{}%
+\contentsline {paragraph}{Bad Qualities}{8}{}%
+\contentsline {paragraph}{What I would include}{8}{}%
+\contentsline {subsection}{\numberline {4.3}Rain World}{9}{}%
+\contentsline {paragraph}{Controls}{9}{}%
+\contentsline {paragraph}{Characters}{9}{}%
+\contentsline {paragraph}{Aim of the game}{10}{}%
+\contentsline {paragraph}{Target demographic}{10}{}%
+\contentsline {paragraph}{Good Qualities}{10}{}%
+\contentsline {paragraph}{Bad Qualities}{10}{}%
+\contentsline {paragraph}{What I would include}{10}{}%
+\contentsline {section}{\numberline {5}Market Analysis}{10}{}%
+\contentsline {subsection}{\numberline {5.1}Stakeholders}{10}{}%
+\contentsline {subsection}{\numberline {5.2}Letter to Client}{11}{}%
+\contentsline {subsection}{\numberline {5.3}Questionnaire}{11}{}%
+\contentsline {paragraph}{Analysis}{11}{}%

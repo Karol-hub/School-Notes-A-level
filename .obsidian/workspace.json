@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/circumcentre maths.md",
+                "file": "School/Computer Science/Course Work/Reports/Report.md",
                 "mode": "source",
                 "source": false
               }
@@ -104,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/circumcentre maths.md",
+                "file": "School/Computer Science/Course Work/Reports/Report.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/circumcentre maths.md",
+                "file": "School/Computer Science/Course Work/Reports/Report.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/circumcentre maths.md"
+                "file": "School/Computer Science/Course Work/Reports/Report.md"
               }
             }
           },
@@ -168,22 +168,30 @@
   },
   "active": "902c6d063c986268",
   "lastOpenFiles": [
+    "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
+    "School/Computer Science/Course Work/Reports/Report.pdf",
+    "School/Computer Science/Course Work/Reports/Report.md",
+    "School/Computer Science/Course Work/Reports/Report.bcf",
+    "School/Computer Science/Course Work/Reports/Report.bbl",
+    "School/Computer Science/Course Work/Reports/Report.blg",
+    "School/Computer Science/Course Work/Reports/Report.synctex.gz",
+    "School/Computer Science/Course Work/Reports/Report.run.xml",
+    "School/Computer Science/Course Work/Reports/Report.toc",
+    "School/Computer Science/Course Work/Reports/Report-blx.bib",
+    "School/Computer Science/Course Work/Reports/Report.aux",
+    "School/Computer Science/Course Work/Reports/Report.log",
+    "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/circumcentre maths.md",
     "School/Untitled.md",
     "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
     "School/Physics/Notes/Paper 3 (Practicals)/SS data/Pasted image 20231215151910.png",
     "School/Physics/Notes/Paper 3 (Practicals)/SS data/Pasted image 20231215151306.png",
     "School/Physics/Equations.md",
     "School/Physics/Notes/Links.md",
-    "Life/Obsidian stuff/Latex cheat sheet.pdf",
-    "School/Maths/Textbook/Pure Year 2.pdf",
-    "School/Maths/Textbook/Applied Year 2.pdf",
     "School/Maths/Notes/Pure/Year 2/11 Integration.md",
     "School/Maths/Notes/Defenitions/Integration.md",
     "School/Physics/Notes/Defenitions/potential dividers circuit example.md",
     "School/Physics/Notes/Paper 3 (Practicals)/Competency Sheet.md",
-    "School/Physics/Notes/Paper 3 (Practicals)/SS data/Pasted image 20231214180554.png.0.pdnSave",
     "School/Physics/Notes/Paper 3 (Practicals)/SS data/Pasted image 20231214180340.png",
-    "School/Physics/Notes/Paper 3 (Practicals)/SS data",
     "School/Physics/Notes/Paper 3 (Practicals)/SS data/Pasted image 20231214181321.png",
     "School/Physics/Notes/Paper 3 (Practicals)/SS data/Pasted image 20231214180554.png",
     "School/Physics/Notes/Paper 1/Topic 3- Electric Circuits.md",
@@ -192,24 +200,16 @@
     "School/Computer Science/Notes/Defenitions/Firewall.md",
     "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.1 Systems Software.md",
     "School/Maths/Notes/Defenitions/Reverse Chain Rule.md",
-    "School/Computer Science/Course Work/Reports/Report.md",
-    "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation/circumcentre maths.md",
-    "School/Computer Science/Course Work/Thoughts/Coding/Delaunay triangulation",
-    "School/Computer Science/Course Work/Thoughts/Coding",
     "School/Computer Science/Temp.md",
     "School/Computer Science/Notes/Defenitions/Hashing.md",
     "School/Computer Science/Notes/Unit 1/1.3 Exchanging data/1.3.1 Compression, Encryption and Hashing.md",
     "School/Computer Science/Notes/Links.md",
-    "School/Computer Science/Notes/CS A Level Textbook.pdf",
-    "School/Computer Science/OCR A Level Specification (H446).pdf",
     "School/Maths/Notes/Links.md",
     "School/Computer Science/Course Work/Reports/Images/rooms seperated.png",
     "Life/Obsidian stuff/Order of report.md",
-    "Life/Obsidian stuff/latexsheet.pdf",
     "School/Maths/Notes/Defenitions/Chain Rule.md",
     "School/Maths/Notes/Defenitions/Differentiating exponentials and logarithms.md",
     "School/Physics/Notes/Defenitions/Half life of dice practical.md",
-    "School/Maths/Notes/Pure/Year 2/1 Algebraic methods.md",
     "School/Physics/Notes/Defenitions/dice practical ln graph.png",
     "School/Physics/Notes/Defenitions/dice practical dice left graph.png",
     "School/Computer Science/Course Work/Reports/Images/Rain world ss.jpg",

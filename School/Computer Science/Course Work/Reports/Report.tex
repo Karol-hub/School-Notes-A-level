@@ -1,23 +1,415 @@
-\documentclass{report}
+\documentclass{article}
 \usepackage{graphicx} % Required for inserting images
 \usepackage{geometry}
+\usepackage{tikz}
+\usepackage{pgf-pie}
+\usepackage[backend=bibtex,style=alphabetic,sorting=ynt]{biblatex}
 
+\bibliography{biblio}
 \geometry{
 a4paper,
 total = {170mm,257mm},
 left = 20mm,
 top = 20mm,
 }
+\setlength{\parindent}{0pt}
+\graphicspath{ {./Images/} }
+
+\newcommand{\parBr}{\vspace{5mm}}%5mm vertical space
+\newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\} %line break after paragraph declared
+
 \begin{document}
-\title{% 
-	Computer Science \\ Advanced GCE H447 \\ Unit F453 \\[2\baselineskip]
-	\large Name: Karol Jeziorczak \\ Candidate Number: 4162 \\ Centre Name: Rugby High School \\ Centre Number: 31255 }
-\date{Change on export}
+\title{Computer Science \\ Advanced GCE H447 \\ Unit F453 \\[2\baselineskip]}
+\author{\large Name: Karol Jeziorczak \\ Candidate Number: 4162 \\ Centre Name: Rugby High School \\ Centre Number: 31255 }
+\date{}
 \maketitle
-\pagebreak
+\newpage
 \tableofcontents
-\begin{abstract}
-Abstract text
-\end{abstract}
+\newpage
+
+\printbibliography
+\newpage
+
+\section{Abstract}
+I decided to create a game for my coursework. I had researched the market to influence my game to make it more appealing to the target audience. Creating the game was very challenging and challenged my understanding of c\#, and forced me to learn the language in greater detail, it also challenged the methods that I tend to favour when approaching a challenge forcing me to explore new ways of computational methods. I decided on a 2D rouge-like game with a heavy focus on melee combat and movement. For this I needed to make a character controller, dungeon generation algorithm, enemy AI and balanced items for the player. Each requiring it's own delicate calibration to make the game fun. 
+
+\section{Introduction}
+For my project I intend to create a 2D rouge like game which is focuses on melee combat. This game would be like Rain World with Celeste movement. I chose this style because there are few games which focus on melee combat and this would help it stand out amongst the other games, the rouge like aspect would allow every run to be unique and distinct. Allowing people to replay the game multiple times without getting bored.
+
+\parBr
+
+The melee combat will be close range and it will allow people to play in distinctive styles, for example people will be able to change their weapon and ability to suit the play style that they are looking for, making any play style viable.
+
+\parBr
+
+There will be progress through floors. When the player completes one floor they can move on and enter the next floor. At the end of each floor there will be a boss that the player must defeat to progress.
+
+\parBr
+
+The loot and map generation will be random meaning that the player cannot memorize the layout and do the same thing every time but need to adjust to the environment, making the game more challenging.
+
+\parBr
+
+I plan for there to be different enemies that have different attack patterns that will not be entirely random meaning that the player can learn how to effectively defeat the enemy. The enemy difficulty will increase as the player progresses through the floors.
+
+\section{Computational Methods}
+Computational methods are computer-based methods which are used to solve problems. They are suitable for my project since I want to make a game which is fun and the following concepts allow me to accomplish this 
+
+\parBr
+
+\textbf{Decomposition} – Splitting a large problem into smaller problems which are more manageable. This would help with my project as I am not going to be working in every aspect of the game at once, decomposition allows me to work on one part of the game at a time since debugging one small piece of code with a couple of errors is a lot easier than debugging all the game code with many, many errors
+
+\parBr
+
+\textbf{Divide and conquer} – Dividing a problem into smaller problems until they are small enough to be solved directly. This would allow me to develop one aspect of the game at a time and make steady progress on the game. Since each aspect is finished and polished by the time I move on to the next aspect.
+
+\parBr
+
+\textbf{Abstraction} – is removing the additional detail allowing me to focus on the main points rather than wasting time trying to work on pointless detail that will not be noticed. This will allow me to use my time efficiently as the main points will get the most amount of time making the basics of the game reliable.
+
+\parBr
+
+\textbf{Modular design} – Subdividing the problem into smaller modules in my case these would be: physics engine, movement, abilities, characters etc. These allow me to priorities the modules which need more attention and keep organized as each module can have its own separate folder for all the things needed for that module.
+
+\parBr
+
+\textbf{Algorithms} – Algorithms allow me to implement features that do not need anything but computer processing to be solved. For example, enemies will use an algorithm to detect and attack the player, the scenery might be made by an algorithm etc. These allow the computer to do specialized processing for the problem that needs to be solved 
+
+\parBr
+
+\textbf{Selection} – Allows for choices to be made in the code. For example, if statement is a type of selection since a condition needs to be met for the code to be executed. This is useful in many scenarios, just to list a couple: if the player is in the air, they should not have the ability to jump. If the players health drops to zero they should be sent to the game over screen and many more.
+
+\parBr
+
+\textbf{Iteration (looping)} - Allows a certain piece of code to be ran multiple times for example while or for loops which will continue to cycle the code until it is told to stop. These are useful since in a 3D game the players input needs to be recorded every frame to minimize latency, the code needs to sort through those inputs every to make the necessary adjustment to the character and environment all in the same frame. These tasks are repetitive therefore the code will be the same every loop and iteration is perfect for that.
+
+\parBr
+
+\textbf{Visualization} – The player will not be able to process the raw data outputted by the computer therefore it needs to be put in a format which is comprehensible for humans. There will be a lot of data processing while the game is running such as player position constantly moving, enemies moving and attacking the player. If that were outputted as a string of numbers to the player, they would have no idea what is going on therefore visualization is used to allow the user to interact with the program
+
+\parBr
+
+\textbf{Pattern recognition} – It would be useful for the computer to recognize patterns as a certain pattern could be used as a condition for selection this could be useful as when the player attacks the computer could recognize this and react accordingly to make the fight interesting. Or it can be used in fighting games to make a move since in some games like mortal combat you can chain inputs to do a special attack.
+
+\section{Researching The Problem}
+
+\subsection{Risk of Rain 2}
+
+\begin{figure}[h]
+\includegraphics[scale=0.8]{ROR 2 ss}
+\caption{\cite{website:1} Risk of Rain 2 Screen shot}
+\end{figure}
+Risk of Rain 2 is a rogue like, third person shooter. A rogue like game means that when you die in the game you must restart the entire game, which means that it does not take long to complete and it can be replayed multiple times, since it has a large variety of items which can be combined to make many unique runs. It has a unique concept since as the time goes up so does the difficulty, meaning that the more time you spend looting the more powerful enemies become creating a unique stressful and fast paced shooter. 
+
+\myparagraph{Controls}
+\begin{tabular}{c|l}
+Key/Button & Action                                                                       \\ \hline
+WSAD       & Moving Around                                                                \\
+Space      & Jump                                                                         \\
+E          & Interact with the environment (open crates etc.)                             \\
+Q          & Activate equipment (item that can be used by every character)                \\
+Ctrl       & Toggle sprint (to move faster)                                               \\
+M1         & Primary Skill (unique to character, usually damaging)                        \\
+M2         & Secondary Skill (unique to character, usually damaging)                      \\
+Shift      & Utility Skill (unique to character, usually movement)                        \\
+R          & Special Skill (Unique to character, usually heavy damage, and long cooldown) \\
+Tab        & Info Screen (shows the statistics of the current run)                        \\
+M3         & Ping (allows players to communicate in game)                                
+\end{tabular}
+
+\myparagraph{Characters}
+Commando and Huntress – Both are beginner friendly characters which have a basic set of skills and utility to ease the player into the game. They are the first characters you unlock and they are both good characters even after the player has learn to play the game. 
+
+\parBr
+
+Every character apart from these two needs some sort of challenge to be completed before the player gains access to them. This allows the player to progress at their own pace. 
+
+\parBr
+
+Acrid, Artificer, Bandit, Captain, Engineer, MUL-T and REX – Once these characters are unlocked, they expand the possible play styles possible to the play allowing the player to play the game in any way they want to for example, Engineer has turrets and a shield if the player wants to bunker down, while Bandit has an invisibility cloak and shotgun allowing for the player to get close and personal. 
+
+\parBr
+
+Loader and Mercenary – Both have the highest skill ceiling (lots of things to master) and both have lots of unique tech (advanced strategies to use utility to achieve a certain result) for example Loader can launch out her pylon and grapple to it immediately after launching the player a great distance 
+
+\parBr
+
+Railgunner and Void fiend – Both DLC characters which is a good example of the developers expanding the play style since none of the other characters had long range and these characters fit that style perfectly since Railgunner has a rail-gun which is like a sniper allowing the player to keep their distance and pick of enemies one by one. 
+
+\parBr
+
+Heretic – A secret character which is unique since they cannot be unlocked, and the character is bound by the run as they are unlocked by picking up a combination of items on that run. 
+
+\myparagraph{Aim of the game}
+The aim of the game is to get loot and activate the teleporter, after this a boss will spawn, which you must kill to progress. You get teleported to a different stage and the process repeats until stage 5 and after that you get teleported to the moon to kill final boss (Mythrix) or obliterate yourself which has a more secret ending which needs the player to enter a portal on stage 8 after they loop (return back to stage 1 and keep all their items), sometimes a large purple portal can appear which teleports the player to a different realm (with some pretty interesting lore) and they have to defeat Voidling which gives the player an alternate ending. 
+
+\myparagraph{Target demographic}
+Teens and older since the game contain blood, drug references and fantasy violence. It is aimed at people with all skill types as the game has different difficulty rating which allows the player to play at the level that they are comfortable with.  
+
+\myparagraph{Good Qualities}
+\begin{itemize}
+\item The game is very beginner friendly and is enjoyable both alone and with friends.  
+\item The variety of items allows the player to replay the game with many different combinations and the game does not feel repetitive. The different ending makes the player want to experience them all.  
+\item The variety in character makes any play style suitable. 
+\item The game is never “too easy” since there are eclipse challenges which get progressively harder 
+\end{itemize}
+
+
+\myparagraph{Bad Qualities}
+\begin{itemize}
+\item Once you loop a lot the game gets very chaotic and resource intensive because there are so many enemies with different attributes that can create lots of projectiles which slow down the game a lot.  
+\item Some things can kill you in one hit making death unavoidable in some cases. 
+\item Sometimes you get runs where you get no good items, and the game becomes a lot more difficult because of bad luck. 
+\end{itemize}
+
+
+\myparagraph{What I would include}
+\begin{itemize}
+\item The variety in characters and the play styles that they allow 
+\item The different difficulties allowing the player to play at a level that their comfortable with 
+\end{itemize}
+
+
+\subsection{Celeste}
+\begin{figure}[h]
+\includegraphics[scale=0.8]{Celeste ss}
+\caption{\cite{website:2} Celeste Screen shot}
+\end{figure}
+Celeste is a challenging 2D platformer where the aim is to give precise inputs that will clear the level and allow you to progress into the next room. It takes a long time to complete as the game is very difficult and constantly introduces new features that are harder than the last.
+
+\myparagraph{Controls}
+\begin{tabular}{c|l}
+Key/Button & Action        \\ \hline
+WSAD       & Moving Around \\
+Space      & Jump          \\
+K          & Dash          \\
+L          & Grab         
+\end{tabular}
+
+\myparagraph{Characters}
+Madeline is the protagonist of the game and as the game progresses, as the game progresses they get more and more abilities and the level design reflects this as the game presents rooms that can only be solved with the new skill that the player was shown. The game never gives the character any new skills are just shown to the player and never granted or unlocked meaning that the player can revisit earlier levels and complete them in newer and more efficient ways. The player does get an extra dash in some of the later rooms in the game and this is the only upgrade that the player gets.
+
+\myparagraph{Aim of the game}
+The aim is to get to the top of the celeste mountain climbing the mountain one room at a time. Rooms get harder the further you progress in the game, the length of these rooms can vary drastically, the same applies to the difficulty. The game itself doesn't have that much levels however each level is very difficult which makes completing one very rewarding.
+
+\myparagraph{Target demographic}
+Anyone as the game doesn't have any violent or difficult topics discussed, however it will cater better to a slightly older audience because of it's difficulty. The game also targets people who are more experience in platformers as the difficulty of the levels scales quickly.
+
+\paragraph{Good Qualities}
+\begin{itemize}
+\item Beating a room feels rewarding
+\item Caters who anyone who is willing to try it.
+\item The movement feels fun
+\item The movement feels consistent
+\end{itemize}
+
+\paragraph{Bad Qualities}
+\begin{itemize}
+\item Getting stuck on one room can be very frustrating
+\item To progress far into the game you need to dedicate a lot of time and have a lot of skill
+\end{itemize}
+
+\paragraph{What I would include}
+\begin{itemize}
+\item A similar art style 
+\item Similar movement system, but something that isn't as complicated so it doesn't overwhelm the player
+\end{itemize}
+
+\pagebreak
+
+\subsection{Rain World}
+\begin{figure}[h]
+\includegraphics[scale=0.8]{Rain world ss}
+\caption{\cite{website:3} Rain World Screen shot}
+\end{figure}
+Rain world is an open world game meaning that the player can go explore anywhere to their heart's content. It's also very difficult, and focuses on treating the player as part of the ecosystem rather than a separate entity, for this reason enemies treat the player as any other rival creature and focuses on their own survival rather than killing the player, which is common in most other games.
+
+\myparagraph{Controls}
+\begin{tabular}{c|l}
+Key/Button & Action        \\ \hline
+WSAD       & Moving Around \\
+Space      & Jump          \\
+E          & Grab          \\
+Q          & Grab          \\
+Z          & Map           \\
+Escape     & Pause        
+\end{tabular}
+
+\myparagraph{Characters}
+The player plays as a slugcat which is a small creature with the ability to wield rocks and spears. They can also befriend other wild creatures. They can also interact with scavengers if the player's reputation is good with the scavengers, however this isn't the case for all slugcats as scavengers will become hostile if the player's reputation is low. 
+
+\parBr
+
+Monk - The easy mode of rain world, where enemies are less common and less aggressive. This character is good for people playing the game for the first time as it allows them to experience the game in a less harsh environment than usual.
+
+\parBr
+
+Survivor - Regular difficulty of the game
+
+\parBr
+
+Hunter - Hard mode of rain world where some special tougher enemies spawn that don't usually spawn, enemies are also more common and aggressive. There is also a time limit as the hunter has a limited amount of cycles (days) unlike any of the other characters, hunter also has the ability to consume dead animals.
+
+\parBr
+
+Rain world also has a DLC called downpour which adds 5 new characters, where each character has unique abilities and objectives, the different characters are unique to the base game characters as they have their own abilities which also come with their downsides. Each character is also set at a different time in the timeline meaning that the layout of the game will be similar however each room will be different for each character and the enemies in that area will also be different. These new characters each require a different approach for the game due to their different downsides, for example gourmand gets tiered after throwing a spear, forcing the player to plan their combat as they will get tiered if they spend too long in combat. Whereas the saint isn't able to use spears because it's a pacifist, but they have a grapple which it can use to traverse the land faster, forcing the player to avoid combat at all costs. 
+
+\myparagraph{Aim of the game}
+The aim for each character in the game varies, however they all need to progress through the environment to reach their goal, often resulting in combat with the wildlife. The player must also gain enough food to be able to sleep in a shelter and avoid the rain that comes at the end of each cycle (game equivalent of a day). Dying results in the player respawning in the shelter they previously slept in and losing a karma point, however for each successful cycle that the player completes they will gain a karma point. Karma is important as it allows the player to traverse between regions, since regions are separated by karma gates which only let you through if your karma is above a certain level. 
+
+\myparagraph{Target demographic}
+Anyone as it doesn't contain any graphic scenes or references to difficult topics. However the game caters more to people who are willing to spend time trying to understand it as it's a very challenging game which is very harsh for a new player, lacking any kind of tutorial or explanation. 
+
+\paragraph{Good Qualities}
+\begin{itemize}
+\item Game play is fun and keeps the player engaged
+\item Game has a high skill ceiling meaning there is always a way the player can improve 
+\item Movement is incredibly fun and feels exceptionally smooth. 
+\item Lack of permanent upgrades makes the game focus on skill rather than items and unlocks.
+\item Completing a cycle if very rewarding.
+\item Player is treated as part of ecosystem rather than separate entity
+\end{itemize}
+
+\paragraph{Bad Qualities}
+\begin{itemize}
+\item Difficult to get into due to no tutorial
+\item Game is very unforgiving and a small mistake can result in the player getting killed
+\end{itemize}
+
+\paragraph{What I would include}
+\begin{itemize}
+\item A similar combat system 
+\item Similar movement system
+\item Treating the player as part of the ecosystem
+\end{itemize}
+
+\section{Market Analysis}
+\subsection{Stakeholders}
+My game would be suited for people who have more experience with games, it will be suitable for any age over the age of twelve (might be a too violent for children under the age of twelve). 
+
+\parBr
+
+Therefore, Ethan Armstrong would be a suitable stakeholder. He is 16 years of age therefore he fits the target demographic. He will give feedback through playtesting and according to the feedback I will be able to adjust the difficulty and balance the aspects of the game to fit the genre and style I am going for. The feedback given to me by him will allow me to adjust the game to make it more enjoyable. 
+
+\parBr
+
+Daniel Cabrel would also be a stakeholder as they are new to gaming therefore, I will be able to make the game more beginner friendly to expand my target audience and make it more appealing to more people. He will also give feedback through play testing and interviews allowing me to make the game easy to pick up regardless of skill. 
+
+\parBr
+
+I have chosen these people since they are part of my target demographic and they will help me to make the game easy to pick up yet challenging.
+
+\subsection{Letter to Client}
+%Paragraph 1 - Introduce yourself and coursework 
+%Paragraph 2 – why you have chosen them and what you need from them (interviews and game testing) 
+%Paragraph 3 – GDPR (General Data Protection Regulation), data protection explain how you will follow these rules 
+%Paragraph 4 – Thank them for working with you 
+\begin{flushright}
+31 Bucannon Road \linebreak CV22 6AZ \linebreak 20/11/2022
+\end{flushright}
+
+Dear Ethan Armstrong, 
+
+\parBr
+
+\begin{flushleft}
+My name is Karol Jeziorczak. I am studying computer science (OCR specification) at Rugby High School; the coursework requires me to create a game. \linebreak
+I am asking you to become a game tester for my game so that I can get feedback from you as to how to improve the game. In the future I will ask you to give me feedback on the game to improve the quality and usability of the game, this will be in the form of interviews and game testing. This will hopefully improve the quality of the game and allow me to develop this project further into a fully functional product. \linebreak
+All the data gathered will be kept secure in order with the GDPR (General Data Protection Regulation). This means that your data will be kept secure and will not be shared with any unauthorized personnel. I will do everything that I can to protect your data. However, if the data will get leaked, you will be the first to get notified.  \linebreak
+Thank you for your time and co-operation (if you choose to). I am looking forward to working with you.
+ 
+\parBr
+
+Sincerely, \linebreak Karol Jeziorczak
+\end{flushleft}
+
+\subsection{Questionnaire}
+\paragraph{Analysis}
+\flushleft{Q1: What is your age?} \linebreak
+
+\begin{tikzpicture}
+\pie [text=legend]
+    {6/less than 12 (1),
+    67/between 12 and 17 (12),
+    17/between 18 and 25 (3),
+    11/above 25 (2)}
+\end{tikzpicture}
+
+We can see that the target demographic is teens and above meaning that the game can include some violence. It is important to make the game appropriate to the target demographic as they will be the majority of the player base. 
+
+\parBr
+
+\flushleft{Q2: How much do you play games a week?} \linebreak
+\begin{tikzpicture}
+\pie [text=legend]
+    {6/less than 1 hr (1),
+    28/between 1 and 3 hours (5),
+    39/between 4 and 8 hours (7),
+    17/between 9 and 14 hours (3),
+    11/above 15 hours (2)}
+\end{tikzpicture}
+
+It is important to balance the progress made and the time invested as if people only play 1-2hrs a day as shown by the questionnaire, it is important to make the player feel like they made progress in that time so that they are willing to continue playing. This could be implemented by each run being 30-40 mins allowing the user to have a couple runs in a session.
+
+\parBr
+
+\flushleft{Q3: What platform do you play games on?} \linebreak
+\begin{tikzpicture}
+\pie [text=legend]
+    {28/Console (5),
+    11/Mobile (2),
+    61/PC (11)}
+\end{tikzpicture}
+
+Most people answered replied that they play on pc meaning that it should be ported to pc first. A significant amount of people also play on console so it would be good to port the game to console if possible. 
+
+\parBr
+
+\flushleft{Q4: what genre of games do you play?} \linebreak
+\begin{tikzpicture}
+\pie [text=legend]
+    {28/Rougelike or Rougelite (5),
+    11/Stratergy (2),
+    22/Platformer (4),
+    11/Fighter (2),
+    17/Survival (3),
+    11/Open World (2)}
+\end{tikzpicture}
+
+\parBr
+
+Most people answered Roguelike/Rougelite and platformer meaning I should focus on these two aspects the most when making my game. Survival will be implemented though planning ahead this might be what routes to take and the risk associated with those routes as well as the risk of combat. As well as management of resources to make sure you survive to the next stage. 
 
 \end{document}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
