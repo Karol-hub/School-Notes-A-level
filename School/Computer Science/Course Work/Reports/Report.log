@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.21)  21 DEC 2023 12:57
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.21)  21 DEC 2023 15:01
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -600,6 +600,16 @@ Package biblatex Info: ... file 'blx-compat.def' found.
 (C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
+Package biblatex Info: Trying to load BibTeX backend compatibility...
+Package biblatex Info: ... file 'blx-bibtex.def' found.
+
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
+File: blx-bibtex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
+
+Package biblatex Warning: Using fall-back bibtex backend:
+(biblatex)                functionality may be reduced/unavailable.
+
+)
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
  (C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
@@ -770,7 +780,10 @@ File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Automatic encoding selection.
 (biblatex)             Assuming data encoding 'utf8'.
-\openout4 = `Report.bcf'.
+Package biblatex Info: Input encoding 'utf8' detected.
+Package biblatex Info: Data encoding 'utf8' specified.
+(biblatex)             No need to reencode data.
+\openout4 = `Report-blx.bib'.
 
 Package biblatex Info: Trying to load bibliographic data...
 Package biblatex Info: ... file 'Report.bbl' found.
@@ -798,25 +811,12 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 \tf@lof=\write6
 \openout6 = `Report.lof'.
 
- [3]
-! Misplaced alignment tab character &.
-<argument> Steam Hardware &
-                            Software Survey: November 2023
-l.32 \newpage
-             
-I can't figure out why you would want to use a tab mark
-here. If you just want an ampersand, the remedy is
-simple: Just type `I\&' now. But if some right brace
-up above has ended a previous alignment prematurely,
-you're probably due for more error messages, and you
-might try typing `S' now just to see what is salvageable.
-
-[4] [5]
+ [3] [4] [5]
 <./Images/ROR 2 ss.jpg, id=28, 602.25pt x 338.26375pt>
 File: ./Images/ROR 2 ss.jpg Graphic file (type jpg)
 <use ./Images/ROR 2 ss.jpg>
 Package pdftex.def Info: ./Images/ROR 2 ss.jpg  used on input line 100.
-(pdftex.def)             Requested size: 481.80064pt x 270.61136pt.
+(pdftex.def)             Requested size: 483.69684pt x 271.68494pt.
  [6 <./Images/ROR 2 ss.jpg>]
 Underfull \hbox (badness 10000) in paragraph at lines 150--151
 
@@ -836,13 +836,13 @@ Underfull \hbox (badness 10000) in paragraph at lines 167--168
 File: ./Images/Celeste ss.jpg Graphic file (type jpg)
 <use ./Images/Celeste ss.jpg>
 Package pdftex.def Info: ./Images/Celeste ss.jpg  used on input line 176.
-(pdftex.def)             Requested size: 481.80064pt x 270.61136pt.
+(pdftex.def)             Requested size: 483.69684pt x 271.68494pt.
 [8 <./Images/Celeste ss.jpg>] [9]
 <./Images/Rain world ss.jpg, id=44, 602.25pt x 338.26375pt>
 File: ./Images/Rain world ss.jpg Graphic file (type jpg)
 <use ./Images/Rain world ss.jpg>
 Package pdftex.def Info: ./Images/Rain world ss.jpg  used on input line 223.
-(pdftex.def)             Requested size: 481.80064pt x 270.61136pt.
+(pdftex.def)             Requested size: 483.69684pt x 271.68494pt.
  [10 <./Images/Rain world ss.jpg>] [11]
 <./Images/Questionnaire Screenshot.png, id=51, 731.73375pt x 239.39438pt>
 File: ./Images/Questionnaire Screenshot.png Graphic file (type png)
@@ -851,23 +851,129 @@ Package pdftex.def Info: ./Images/Questionnaire Screenshot.png  used on input l
 ine 329.
 (pdftex.def)             Requested size: 475.6213pt x 155.60449pt.
 
-[12 <./Images/Questionnaire Screenshot.png>] [13] [14] [15] [16] (Report.aux)
+[12 <./Images/Questionnaire Screenshot.png>] [13] [14] [15]
+
+LaTeX Warning: Citation 'SHWS' on page 16 undefined on input line 506.
+
+
+! LaTeX Error: Not in outer par mode.
+
+See the LaTeX manual or LaTeX Companion for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.509 \begin{figure}[h]
+                       
+You've lost some text.  Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+! Undefined control sequence.
+\@xfloat ...@fltovf \fi \global \setbox \@currbox 
+                                                  \color@vbox \normalcolor \...
+l.509 \begin{figure}[h]
+                       
+The control sequence at the end of the top line
+of your error message was never \def'ed. If you have
+misspelled it (e.g., `\hobx'), type `I' and the correct
+spelling (e.g., `I\hbox'). Otherwise just continue,
+and I'll forget about whatever was undefined.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \vbox 
+l.509 \begin{figure}[h]
+                       
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Missing \endcsname inserted.
+<to be read again> 
+                   \linewidth 
+l.510 \includegraphics[\linewidth]{steamOSsurvey}
+                                                 
+The control sequence marked <to be read again> should
+not appear between \csname and \endcsname.
+
+! Missing number, treated as zero.
+<to be read again> 
+                   \endcsname 
+l.510 \includegraphics[\linewidth]{steamOSsurvey}
+                                                 
+A number should have been here; I inserted `0'.
+(If you can't figure out why I needed to see a number,
+look up `weird error' in the index to The TeXbook.)
+
+! Illegal unit of measure (pt inserted).
+<to be read again> 
+                   \endcsname 
+l.510 \includegraphics[\linewidth]{steamOSsurvey}
+                                                 
+Dimensions can be in units of em, ex, in, pt, pc,
+cm, mm, dd, cc, nd, nc, bp, or sp; but yours is a new one!
+I'll assume that you meant to say pt, for printer's points.
+To recover gracefully from this error, it's best to
+delete the erroneous units; e.g., type `2' to delete
+two letters. (See Chapter 27 of The TeXbook.)
+
+! Extra \endcsname.
+<recently read> \endcsname 
+                           
+l.510 \includegraphics[\linewidth]{steamOSsurvey}
+                                                 
+I'm ignoring this, since I wasn't doing a \csname.
+
+
+! Package keyval Error: \linewidth  undefined.
+
+See the keyval package documentation for explanation.
+Type  H <return>  for immediate help.
+ ...                                              
+                                                  
+l.510 \includegraphics[\linewidth]{steamOSsurvey}
+                                                 
+Try typing  <return>  to proceed.
+If that doesn't work, type  X <return>  to quit.
+
+<./Images/steamOSsurvey.png, id=66, 377.15906pt x 469.755pt>
+File: ./Images/steamOSsurvey.png Graphic file (type png)
+<use ./Images/steamOSsurvey.png>
+Package pdftex.def Info: ./Images/steamOSsurvey.png  used on input line 510.
+(pdftex.def)             Requested size: 377.15814pt x 469.75386pt.
+
+Overfull \hbox (86.93709pt too wide) in paragraph at lines 510--511
+[][] 
+ []
+
+
+LaTeX Warning: Citation 'SHWS' on page 16 undefined on input line 511.
+
+[16] (Report.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
  ***********
+
+
+LaTeX Warning: There were undefined references.
+
+
+Package biblatex Warning: Please (re)run BibTeX on the file(s):
+(biblatex)                Report
+(biblatex)                and rerun LaTeX afterwards.
+
 Package logreq Info: Writing requests to 'Report.run.xml'.
 \openout1 = `Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 20937 strings out of 475248
- 430274 string characters out of 5757812
+ 21024 strings out of 475248
+ 432028 string characters out of 5757812
  1943785 words of memory out of 5000000
- 42169 multiletter control sequences out of 15000+600000
+ 42252 multiletter control sequences out of 15000+600000
  563474 words of font info for 54 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,7n,89p,964b,1293s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,8n,89p,1854b,1326s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\jezio\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk><C:/Users/jezio/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfon
 ts/cm/cmbx10.pfb><C:/Users/jezio/AppData/Local/Programs/MiKTeX/fonts/type1/publ
@@ -878,9 +984,9 @@ ams/MiKTeX/fonts/type1/public/amsfonts/cm/cmr12.pfb><C:/Users/jezio/AppData/Loc
 al/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmr17.pfb><C:/Users/jezio/App
 Data/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmti10.pfb><C:/Users/
 jezio/AppData/Local/Programs/MiKTeX/fonts/type1/public/amsfonts/cm/cmtt10.pfb>
-Output written on Report.pdf (16 pages, 398332 bytes).
+Output written on Report.pdf (16 pages, 395192 bytes).
 PDF statistics:
- 107 PDF objects out of 1000 (max. 8388607)
+ 108 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 33 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 38 words of extra memory for PDF output out of 10000 (max. 10000000)
 

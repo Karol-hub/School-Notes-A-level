@@ -17,9 +17,9 @@
 \endgroup
 
 \datalist[entry]{ynt/global//global/global}
-  \entry{Css}{misc}{}
+  \entry{Celss}{misc}{}
     \field{labeltitlesource}{title}
-    \field{labelalpha}{Css}
+    \field{labelalpha}{Cel}
     \field{sortinit}{9}
     \field{sortinithash}{9}
     \field{note}{Accessed: 25/09/2023}
@@ -50,19 +50,6 @@
     \field{title}{Risk of Rain 2 on Steam}
     \verb{url}
     \verb https://store.steampowered.com/app/632360/Risk_of_Rain_2/
-    \endverb
-  \endentry
-
-  \entry{SHWS}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Shw}
-    \field{sortinit}{9}
-    \field{sortinithash}{9}
-    \field{note}{Accessed: 21/12/2023}
-    \field{title}{Steam Hardware & Software Survey: November 2023}
-    \verb{url}
-    \verb https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Surve
-    \verb y-Welcome-to-Steam
     \endverb
   \endentry
 \enddatalist
