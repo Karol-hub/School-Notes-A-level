@@ -353,11 +353,6 @@ Using the data gathered from my research phase I will aim to implement the follo
 
 **Decomposition of the problem**   
 This is one of the computational methods that I am going to use for my game. This is important as it allows me to think of how the game will work at a basic level. 
-## **Main Menu** 
-The main menu will be there to greet the player once they open the game and allow them to choose what they would like to do 
-
-These will be in the form of buttons that the user can click on.  
-
 ## **Variables** 
 Variable – stores some sort of data in main memory 
 
@@ -372,6 +367,10 @@ CONSTANT_NAME – represented as capitalized with underscores 
 variable_name – represented as lowercase with underscores 
 ## **Folder Setup** 
 *ss of folder setup*
+## **Main Menu** 
+The main menu will be there to greet the player once they open the game and allow them to choose what they would like to do 
+
+These will be in the form of buttons that the user can click on.  
 # Actual Coding
 ## UI Design
 ## Player Design

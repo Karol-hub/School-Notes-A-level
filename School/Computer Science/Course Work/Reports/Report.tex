@@ -3,7 +3,7 @@
 \usepackage{geometry}
 \usepackage{tikz}
 \usepackage{pgf-pie}
-\usepackage[backend=bibtex,style=alphabetic,sorting=ynt]{biblatex}
+\usepackage[backend=biber,style=alphabetic,sorting=ynt]{biblatex}
 
 \bibliography{biblio}
 \geometry{
@@ -26,7 +26,8 @@ top = 20mm,
 \newpage
 \tableofcontents
 \newpage
-
+\listoffigures
+\newpage
 \printbibliography
 \newpage
 
@@ -97,7 +98,7 @@ Computational methods are computer-based methods which are used to solve problem
 
 \begin{figure}[h]
 \includegraphics[scale=0.8]{ROR 2 ss}
-\caption{\cite{website:1} Risk of Rain 2 Screen shot}
+\caption{\cite{ROR2ss} Risk of Rain 2 Screen shot}
 \end{figure}
 Risk of Rain 2 is a rogue like, third person shooter. A rogue like game means that when you die in the game you must restart the entire game, which means that it does not take long to complete and it can be replayed multiple times, since it has a large variety of items which can be combined to make many unique runs. It has a unique concept since as the time goes up so does the difficulty, meaning that the more time you spend looting the more powerful enemies become creating a unique stressful and fast paced shooter. 
 
@@ -173,7 +174,7 @@ Teens and older since the game contain blood, drug references and fantasy violen
 \subsection{Celeste}
 \begin{figure}[h]
 \includegraphics[scale=0.8]{Celeste ss}
-\caption{\cite{website:2} Celeste Screen shot}
+\caption{\cite{Css} Celeste Screen shot}
 \end{figure}
 Celeste is a challenging 2D platformer where the aim is to give precise inputs that will clear the level and allow you to progress into the next room. It takes a long time to complete as the game is very difficult and constantly introduces new features that are harder than the last.
 
@@ -220,7 +221,7 @@ Anyone as the game doesn't have any violent or difficult topics discussed, howev
 \subsection{Rain World}
 \begin{figure}[h]
 \includegraphics[scale=0.8]{Rain world ss}
-\caption{\cite{website:3} Rain World Screen shot}
+\caption{\cite{RWss} Rain World Screen shot}
 \end{figure}
 Rain world is an open world game meaning that the player can go explore anywhere to their heart's content. It's also very difficult, and focuses on treating the player as part of the ecosystem rather than a separate entity, for this reason enemies treat the player as any other rival creature and focuses on their own survival rather than killing the player, which is common in most other games.
 
@@ -324,6 +325,13 @@ Sincerely, \linebreak Karol Jeziorczak
 \end{flushleft}
 
 \subsection{Questionnaire}
+\begin{figure}[h]
+\includegraphics[scale=0.65]{Questionnaire Screenshot}
+\caption{Questionnaire Header}
+\end{figure}
+
+A questionnaire will allow me to analyse the market and make a game that people want to play. It also allows me to ask the intended audience for any features that they want.
+
 \paragraph{Analysis}
 \flushleft{Q1: What is your age?} \linebreak
 
@@ -379,6 +387,126 @@ Most people answered replied that they play on pc meaning that it should be port
 \parBr
 
 Most people answered Roguelike/Rougelite and platformer meaning I should focus on these two aspects the most when making my game. Survival will be implemented though planning ahead this might be what routes to take and the risk associated with those routes as well as the risk of combat. As well as management of resources to make sure you survive to the next stage. 
+
+\flushleft{Q5: What mechanics are important to you in a game?} \linebreak
+\begin{tikzpicture}
+\pie [text=legend]
+    {39/Gameplay - combat (7),
+	28/Gameplay - movement (5),
+	0/User interface (0),
+	11/Story (2),
+	17/Different playstyles (3),
+	6/Permanent progression (1)}
+\end{tikzpicture}
+
+\parBr
+
+Combat and movement were the most common option so they should be the most polished systems in the game. Though different playstyles was something I should consider. Permanent progression wasn't a popular choice so a roguelike style would be more suitable 
+
+\flushleft{Q6: how many skills should each character have?} \linebreak
+\begin{tikzpicture}
+\pie [text=legend]
+    {33/1 (6),
+    50/2 (9),
+    17/3 (3)}
+\end{tikzpicture}
+
+\parBr
+
+Most people answered 2 so it would be important to make the skills distinct and unique to allow for different play styles. One ability could be active that the user can activate when needed e.g. throwing grenade and it will have a cool down. The other ability could be a utility skill which can be picked regardless of character and is a limited resource and refreshes once a special item is picked up e.g. throwing knife that does damage, refreshes when more are picked up. There could also be a passive ability that the player doesn't need to do anything to activate it, it will be permanently active in the background (e.g. increased movement speed), this can make every character feel unique. 
+
+\flushleft{Q7: Should each character have their own weapon in their class or be able to?} \linebreak
+\begin{tikzpicture}
+\pie [text=legend]
+    {37/Weapon is locked to class (7),
+    63/Weapon isn't locked to class (12)}
+\end{tikzpicture}
+
+\parBr
+
+The majority wanted to have weapons that are picked up and not locked to a class therefore I will give each character a starting weapon and give them the ability to change this weapon if they wish to, allowing the player to experiment with different weapons that may suit their play style.
+
+\subsection{Interview with Stakeholder}
+I – Interviewer (Karol Jeziorczak) \linebreak
+S – Stakeholder (Ethan Armstrong) 
+
+\parBr
+
+I: Everything you say here will be recorded and used for development of my game; however, it will not be shared with any unauthorized personnel and your data will protected under the GDPA 
+
+\parBr
+
+S: I understand and agree to these terms. 
+
+\parBr
+
+I: Question 1. What is the most important feature to you in a game? 
+
+\parBr
+
+S: Exploration is very important to me; I love finding out hidden mechanics and secrets. 
+
+\parBr
+
+I: Question 2. How important is difficulty scaling with progress to you? 
+
+\parBr
+
+S: It is important to make the game challenging as it will make it more fun to overcome. 
+
+\parBr
+
+I: Question 3. How often should there be boss fights? 
+
+\parBr
+
+S: A bit after a new mechanic gets introduced so I have time to get used to it however the boss fight will be a test to see if the player can use the gimmicks 
+
+\parBr
+
+I Question 4. What type of playstyle do you usually go for? 
+
+\parBr
+
+S: I usually go for a large health build with heavy weaponry 
+
+\parBr
+
+I: Question 5. Are there any specific features you would like to see? 
+
+\parBr
+
+S: I would like to see a power slide because it makes the game seem fast paced. 
+
+\parBr
+
+I: Question 6. What would a good combat system include? 
+
+\parBr
+
+S: Enemies not having insane amounts of health as it slows down the pace of the game and makes killing them seem like it takes too long. So, with melee weapons there should be more blocking and skill involved rather than just hitting enemies and them dying? 
+
+\parBr
+
+I: Question 7. What should the final boss look like? 
+
+\parBr
+
+S: The final boss should be an enemy foreshadowed by the previous environments that has different mechanics from the different bosses that combine them all into one where they need to be interchanged, with a satisfying dying animation for the final boss.  
+
+\parBr
+
+I: Question 8. How should the inventory management system work? 
+
+\parBr
+
+S: I think that there should be a very limited amount of inventory room so that management and planning become very important. Also, so that the focus of the game isn't shifted too much from the combat, as it is the main focus of the game. 
+
+\subsection{Hardware Analysis}
+Steam does a hardware analysis on all of it's users every month so I will be able to make a game that will meet the requirements of the majority of players. So all the data in this section is taken from \cite{SHWS}
+
+\myparagraph{System OS}
+Deciding which systems I will be able to support is going to be an important decision I have to make to make sure that the users can play the game us
 
 \end{document}
 
