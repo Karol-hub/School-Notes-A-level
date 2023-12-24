@@ -52,5 +52,18 @@
     \verb https://store.steampowered.com/app/632360/Risk_of_Rain_2/
     \endverb
   \endentry
+
+  \entry{SHS}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Shs}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
+    \field{note}{Accessed: 21/12/2023}
+    \field{title}{Steam Hardware \& Software Survey: November 2023}
+    \verb{url}
+    \verb https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Surve
+    \verb y-Welcome-to-Steam
+    \endverb
+  \endentry
 \enddatalist
 \endinput

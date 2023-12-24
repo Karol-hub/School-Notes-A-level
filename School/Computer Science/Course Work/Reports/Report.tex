@@ -1,5 +1,6 @@
 \documentclass{article}
 \usepackage{graphicx} % Required for inserting images
+\usepackage{wrapfig}
 \usepackage{geometry}
 \usepackage{tikz}
 \usepackage{pgf-pie}
@@ -503,14 +504,15 @@ I: Question 8. How should the inventory management system work?
 S: I think that there should be a very limited amount of inventory room so that management and planning become very important. Also, so that the focus of the game isn't shifted too much from the combat, as it is the main focus of the game. 
 
 \subsection{Hardware Analysis}
-Steam does a hardware analysis on all of it's users every month so I will be able to make a game that will meet the requirements of the majority of players. So all the data in this section is taken from \cite{SHWS}
+Steam does a hardware analysis on all of it's users every month so I will be able to make a game that will meet the requirements of the majority of players. So all the data in this section is taken from \cite{SHS}
 
-\begin{minipage}{0.6\textwidth}
-\begin{figure}[h]
-\includegraphics[\linewidth]{steamOSsurvey}
+
+\begin{wrapfigure}{R}{0.4\linewidth} 
+\centering
+\includegraphics[width=\linewidth]{steamOSsurvey}
 \caption{\cite{SHWS} Steam OS statistics}
-\end{figure}
-\end{minipage}
+\end{wrapfigure}
+
 
 \myparagraph{System OS}
 Deciding which systems I will be able to support is going to be an important decision I have to make to make sure that the users can play the game us
