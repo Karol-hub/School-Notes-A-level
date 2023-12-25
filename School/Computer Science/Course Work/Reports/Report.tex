@@ -3,8 +3,17 @@
 \usepackage{wrapfig}
 \usepackage{geometry}
 \usepackage{tikz}
+\usetikzlibrary{shapes.geometric, arrows}
 \usepackage{pgf-pie}
 \usepackage[backend=bibtex,style=alphabetic,sorting=ynt]{biblatex}
+\usepackage[sharp]{easylist}
+
+\tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
+\tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
+\tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
+\tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
+\tikzstyle{arrow} = [thick,->,>=stealth]
+%https://www.overleaf.com/learn/latex/LaTeX_Graphics_using_TikZ%3A_A_Tutorial_for_Beginners_(Part_3)%E2%80%94Creating_Flowcharts
 
 \bibliography{biblio}
 \geometry{
@@ -148,7 +157,7 @@ The aim of the game is to get loot and activate the teleporter, after this a bos
 \myparagraph{Target demographic}
 Teens and older since the game contain blood, drug references and fantasy violence. It is aimed at people with all skill types as the game has different difficulty rating which allows the player to play at the level that they are comfortable with.  
 
-\myparagraph{Good Qualities}
+\paragraph{Good Qualities}
 \begin{itemize}
 \item The game is very beginner friendly and is enjoyable both alone and with friends.  
 \item The variety of items allows the player to replay the game with many different combinations and the game does not feel repetitive. The different ending makes the player want to experience them all.  
@@ -157,7 +166,7 @@ Teens and older since the game contain blood, drug references and fantasy violen
 \end{itemize}
 
 
-\myparagraph{Bad Qualities}
+\paragraph{Bad Qualities}
 \begin{itemize}
 \item Once you loop a lot the game gets very chaotic and resource intensive because there are so many enemies with different attributes that can create lots of projectiles which slow down the game a lot.  
 \item Some things can kill you in one hit making death unavoidable in some cases. 
@@ -165,7 +174,7 @@ Teens and older since the game contain blood, drug references and fantasy violen
 \end{itemize}
 
 
-\myparagraph{What I would include}
+\paragraph{What I would include}
 \begin{itemize}
 \item The variety in characters and the play styles that they allow 
 \item The different difficulties allowing the player to play at a level that their comfortable with 
@@ -481,7 +490,7 @@ S: I would like to see a power slide because it makes the game seem fast paced.
 
 \parBr
 
-I: Question 6. What would a good combat system include? 
+I: Question 6. What are some qualities of a good combat system? 
 
 \parBr
 
@@ -503,41 +512,165 @@ I: Question 8. How should the inventory management system work?
 
 S: I think that there should be a very limited amount of inventory room so that management and planning become very important. Also, so that the focus of the game isn't shifted too much from the combat, as it is the main focus of the game. 
 
-\subsection{Hardware Analysis}
+\subsection{Analysing Market}
 Steam does a hardware analysis on all of it's users every month so I will be able to make a game that will meet the requirements of the majority of players. So all the data in this section is taken from \cite{SHS}
 
+\myparagraph{System OS Analysis}
 
-\begin{wrapfigure}{R}{0.4\linewidth} 
+\begin{figure}[h]
 \centering
-\includegraphics[width=\linewidth]{steamOSsurvey}
-\caption{\cite{SHWS} Steam OS statistics}
-\end{wrapfigure}
+\includegraphics[width = 0.4\textwidth]{steamOSsurvey}
+\caption{\cite{SHS} Steam OS statistics}
+\label{steam OS statistics}
+\end{figure}
 
+Deciding which systems I will be able to support is going to be an important decision I have to make to make sure that the users can play the game us. Figure \ref{steam OS statistics} shows us that the overwhelming majority of players use windows, this tells me that I should prioritise porting the game to windows as it will make it available to the most amount of players as possible. Mac OS (OS x) only account for a small percentage of players. The difficulties that come with porting my game to Mac simply makes it an inefficient use of time. Linux also accounts for a small percentage of players however porting to Linux is very easy in Godot so it may be something to consider in the future if I have time.
 
-\myparagraph{System OS}
-Deciding which systems I will be able to support is going to be an important decision I have to make to make sure that the users can play the game us
+\parBr
+\parBr
 
+\myparagraph{Hardware Analysis}
+\begin{figure}[ht]
+\centering
+\includegraphics[width = 0.4\textheight]{steamSurvey}
+\caption{\cite{SHS} Steam Hardware Statistics}
+\label{steam statistics}
+\end{figure}
 
+I intend to make a 2D game. These types of games don't tend to be resource intensive. The most important statistics in figure \ref{steam statistics} are system RAM, Intel CPU speeds (More players use Intel CPUs rather than AMD CPUs so this is a valid statistic to use), Physical CPUs, VRAM, Free Hard Disk Space (the ones with a red mark next to them). None of the statistics should be limiting for my project as they would be more important to consider for a 3D game using a fancy rendering system. However my game is 2D so it should be able to run smoothly on most devices.
+
+\section{System Requirements}
+\paragraph{Minimum Hardware Requirements}
+\begin{itemize}
+\item Processor:   
+\item Graphics Card:   
+\item Memory:   
+\item Storage:   
+\item Sound Card: yes
+\end{itemize}
+
+Input devices:
+\begin{itemize}
+\item Keyboard – allows you to input characters 
+\item Mouse – Inputs 2D vector coordinate for mouse position 
+\end{itemize}
+
+Output devices:
+\begin{itemize}
+\item Display – Outputs image 
+\item Speakers – Outputs sound 
+\end{itemize}
+
+\paragraph{Minimum Software Requirements}
+\begin{itemize}
+\item OS: Windows 10+   
+\item DirectX version: 12   
+\end{itemize}
+
+\section{Success Criteria}
+% SS of success Criteria
+\begin{easylist}
+# \large{\textbf{User Interface}}
+## \textbf{Main Menu}
+### Does it have a new game button?
+### Does it have an options button?
+### Does it have a tutorial option?
+### Does it have a interesting background?
+### Does it have a quit game button?
+#### Does it ask you "are you sure"?
+## \textbf{Pause Menu}
+### Does it pause the game?
+### Is there an options button?
+### Is there an exit to main menu button?
+#### Does it tell you "The current run will be ended"?
+## \textbf{HUD (Heads Up Display)}
+### Is there a health bar?
+### Is there a current level box?
+### Is there a timer?
+### Are there small indicators for status effects?
+### Is the HUD customisable?
+## \textbf{Inventory}
+### Can you drop items?
+### Are there item slots?
+### Can you rearrange your inventory?
+# \large{\textbf{Audio}}
+## \textbf{Main Menu}
+### Is there some sort of music?
+### Do the buttons make a sound?
+## \textbf{In Game}
+### Is there boss music?
+### Does the game have hitting sfx?
+### Does the game have a sound for getting hit?
+### Does the game have music?
+### Does the game have a sound for dying?
+# \large{\textbf{Gameplay}}
+## \textbf{Level Generation}
+### Does it create a level in a reasonable amount of time?
+### Are there objects you can interact with that give items?
+### Are enemies spawned?
+### Is there a safe starting room?
+### Is there a boss room at the end?
+### Is there variety between levels
+## \textbf{Player Combat}
+### Does the player die when they have 0 health?
+### Can the player melee swing?
+### Can the player block?
+# \large{\textbf{Visuals}}
+\end{easylist}
+
+\section{Designing the Solution}
+\myparagraph{Decomposition of the problem}   
+This is one of the computational methods that I am going to use for my game. This is important as it allows me to think of how the game will work at a basic level. 
+
+\parBr
+
+\myparagraph{Variables}
+stores some sort of data in main memory \linebreak \textbf{Data Types}
+\begin{itemize}
+\item Integer – whole number   
+\item Float – real number   
+\item Character – single letter/symbol   
+\item String – series of characters   
+\item Boolean – true or false   
+\end{itemize}
+
+CONSTANT – represented as capitalized with underscores
+\linebreak
+variable – represented as lowercase with underscores 
+
+\subsection{Folder Setup}
+% SS of folder setup when complete
+
+\subsection{Main Menu}
+The main menu will be there to greet the player once they open the game and allow them to choose what they would like to do.
+
+\parBr
+
+These will be in the form of buttons that the user can click on.
+
+\parBr
+
+% idk some flowchart or something
+\begin{center}
+\begin{tikzpicture}[node distance=2cm]
+\node (start) [startstop] {Start};
+\node (in1) [io, below of=start] {Player Presses a button};
+\node (pro1) [process, below of=in1, yshift = -2cm] {Game loads};
+\node (pro2) [process, left of=pro1, xshift=-2cm] {Settings Load};
+\node (in2) [io, below of=in1, xshift =-5cm] {Player returns to main menu}; 
+\node (load) [startstop, below of=in1, yshift = -2cm] {Game Starts};
+\node (quit) [startstop, right of=pro1, xshift = 2cm] {Quits Game};
+\draw [arrow] (start) -- (in1);
+\draw [arrow] (in1) -- (load);
+\draw [arrow] (in1) -- (pro2);
+\draw [arrow] (in1) -- (quit);
+\draw [arrow] (pro2) -- (in2);
+\draw [arrow] (in2) -- (in1);
+\end{tikzpicture}
+\end{center}
 
 
 \end{document}
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
 

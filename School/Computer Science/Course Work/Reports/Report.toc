@@ -12,7 +12,7 @@
 \contentsline {paragraph}{What I would include}{8}{}%
 \contentsline {subsection}{\numberline {4.2}Celeste}{8}{}%
 \contentsline {paragraph}{Controls}{8}{}%
-\contentsline {paragraph}{Characters}{9}{}%
+\contentsline {paragraph}{Characters}{8}{}%
 \contentsline {paragraph}{Aim of the game}{9}{}%
 \contentsline {paragraph}{Target demographic}{9}{}%
 \contentsline {paragraph}{Good Qualities}{9}{}%
@@ -32,5 +32,15 @@
 \contentsline {subsection}{\numberline {5.3}Questionnaire}{12}{}%
 \contentsline {paragraph}{Analysis}{12}{}%
 \contentsline {subsection}{\numberline {5.4}Interview with Stakeholder}{15}{}%
-\contentsline {subsection}{\numberline {5.5}Hardware Analysis}{16}{}%
-\contentsline {paragraph}{System OS}{16}{}%
+\contentsline {subsection}{\numberline {5.5}Analysing Market}{16}{}%
+\contentsline {paragraph}{System OS Analysis}{16}{}%
+\contentsline {paragraph}{Hardware Analysis}{16}{}%
+\contentsline {section}{\numberline {6}System Requirements}{17}{}%
+\contentsline {paragraph}{Minimum Hardware Requirements}{17}{}%
+\contentsline {paragraph}{Minimum Software Requirements}{17}{}%
+\contentsline {section}{\numberline {7}Success Criteria}{17}{}%
+\contentsline {section}{\numberline {8}Designing the Solution}{18}{}%
+\contentsline {paragraph}{Decomposition of the problem}{18}{}%
+\contentsline {paragraph}{Variables}{18}{}%
+\contentsline {subsection}{\numberline {8.1}Folder Setup}{19}{}%
+\contentsline {subsection}{\numberline {8.2}Main Menu}{19}{}%
