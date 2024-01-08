@@ -1,10 +1,10 @@
 $$p =mv$$
 
-| Symbol | Definition         |
-|:------:| ------------------ |
-|  $p$   | Momentum           |
-|  $m$   | [[SI Units\|mass]] |
-|  $v$   | [[Velocity]]       |
+| Symbol | Unit | Definition |
+| :--: | ---- | ---- |
+| $p$ | $kgms^{-1}$ | Momentum |
+| $m$ | $kg$ | [[SI Units\|mass]] |
+| $v$ | $ms^{-1}$ | [[Velocity]] |
 
 # Conservation of momentum
 - In a collision all momentum is conserved

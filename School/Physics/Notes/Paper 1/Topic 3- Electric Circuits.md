@@ -24,3 +24,5 @@
 - [[Electromotive force]]
 - [[Internal Resistance]]
 # Semiconductors
+- [[Thermistor (NTC)]]
+- [[Light-Dependent Resistor (LDR)]]

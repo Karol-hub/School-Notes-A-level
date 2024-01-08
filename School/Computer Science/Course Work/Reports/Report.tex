@@ -241,7 +241,7 @@ Key/Button & Action        \\ \hline
 WSAD       & Moving Around \\
 Space      & Jump          \\
 E          & Grab          \\
-Q          & Grab          \\
+Q          & Throw         \\
 Z          & Map           \\
 Escape     & Pause        
 \end{tabular}
@@ -655,11 +655,10 @@ These will be in the form of buttons that the user can click on.
 \begin{tikzpicture}[node distance=2cm]
 \node (start) [startstop] {Start};
 \node (in1) [io, below of=start] {Player Presses a button};
-\node (pro1) [process, below of=in1, yshift = -2cm] {Game loads};
-\node (pro2) [process, left of=pro1, xshift=-2cm] {Settings Load};
-\node (in2) [io, below of=in1, xshift =-5cm] {Player returns to main menu}; 
-\node (load) [startstop, below of=in1, yshift = -2cm] {Game Starts};
-\node (quit) [startstop, right of=pro1, xshift = 2cm] {Quits Game};
+\node (load) [startstop, below of=in1, yshift = 0cm] {Game Starts};
+\node (pro2) [process, left of=load, xshift=-2cm] {Settings Load};
+\node (in2) [io, below of=pro2, xshift =0cm] {Player returns to main menu};
+\node (quit) [startstop, right of=load, xshift = 2cm] {Quits Game};
 \draw [arrow] (start) -- (in1);
 \draw [arrow] (in1) -- (load);
 \draw [arrow] (in1) -- (pro2);
