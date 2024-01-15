@@ -1,4 +1,5 @@
 Force per unit area
+Sometimes referred to as stress
 $$P=\frac{F}{A}$$
 
 | Symbol | Unit      | Definition |

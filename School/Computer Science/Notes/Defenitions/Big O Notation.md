@@ -1,3 +1,8 @@
+Important to consider:
+- Worst Case
+- Best Case
+- Average Case
+# Time Complexity
 Descries relationship between time taken to compute and number of items being processed
 
 - Looks at how long an algorithm takes in the worst case scenario
@@ -17,8 +22,9 @@ Best performance
 - [[O(k^n) Exponential Complexity]]
 Worst performance
 
-Searches:
+![[Big-O Algorithm Complexity Cheat Sheet.pdf|1000]]
 
+## Searches:
 Algorithm| Big O notation
 ---|---
 [[Linear Search]] | O(n)
@@ -28,5 +34,6 @@ Algorithm| Big O notation
 [[Merge Sort]]| O(log(n))
 
 ![[Table for big O notation.png]]
-![[complexity graphs big O.png]]
 ![[What to look out for in big O.png]]
+# Space Complexity
+Important to consider best case, worst case and average case.

@@ -44,17 +44,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "9add2b5447a058e0",
-      "parent": 0,
-      "droppable": true,
-      "text": "Learn SQL - Online SQL Terminal - Practice SQL Querys",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }

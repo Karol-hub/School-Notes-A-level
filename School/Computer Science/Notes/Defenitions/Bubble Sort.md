@@ -1,3 +1,5 @@
+> [!summary] [[Big O notation]]
+> O($n^{2}$)
 -  Iterated from left to right and repeatedly does this through every pass
 - Works by repeatedly swapping the adjacent elements if they are in the wrong order. 
 - This algorithm is not suitable for large data sets

@@ -1,3 +1,6 @@
+>[!summary] [[Big O Notation]]
+>O($n^{2}$)
+
 - Iterate through the data set
 - Compare current item to previous item
 - If item < previous item
