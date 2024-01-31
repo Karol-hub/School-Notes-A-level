@@ -29,6 +29,18 @@
     \endverb
   \endentry
 
+  \entry{Gen_Alg}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Gen}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
+    \field{note}{Accessed: 05/12/23}
+    \field{title}{Procedurally Generated 3D Dungeons}
+    \verb{url}
+    \verb https://www.youtube.com/watch?v=rBY2Dzej03A
+    \endverb
+  \endentry
+
   \entry{RWss}{misc}{}
     \field{labeltitlesource}{title}
     \field{labelalpha}{Rws}

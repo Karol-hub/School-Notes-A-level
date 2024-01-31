@@ -638,7 +638,7 @@ CONSTANT – represented as capitalized with underscores
 \linebreak
 variable – represented as lowercase with underscores 
 
-\subsection{Folder Setup}
+\subsection{Folder Set up}
 % SS of folder setup when complete
 
 \subsection{Main Menu}
@@ -668,6 +668,28 @@ These will be in the form of buttons that the user can click on.
 \end{tikzpicture}
 \end{center}
 
+\subsection{Dungeon Generation}
+The Generation algorithm that I used is a modified version of the algorithm used in {\cite{Gen_Alg}}. The stages I used can be summarised with the key points:
+\begin{itemize}
+\item{Create rooms}
+\item{Spread rooms}
+\item{Delaunay triangulation}
+\item{Remove random amount of edges}
+\item{Make sure all rooms are accessible}
+\item{Turn edges into horizontal and vertical}
+\item{Generate corridors}
+\item{Turn into tile map}
+\end{itemize}
+
+\subsubsection{Create Rooms}
+Begin with generating a defined amount of rooms. Rooms are pre-made layouts that a room as seen in figure \ref{Room Layout}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width = 0.4\textwidth]{room layout}
+\caption{Room Layout}
+\label{Room Layout}
+\end{figure}
 
 \end{document}
 
