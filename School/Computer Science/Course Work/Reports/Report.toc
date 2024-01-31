@@ -46,3 +46,6 @@
 \contentsline {subsection}{\numberline {8.2}Main Menu}{19}{}%
 \contentsline {subsection}{\numberline {8.3}Dungeon Generation}{19}{}%
 \contentsline {subsubsection}{\numberline {8.3.1}Create Rooms}{19}{}%
+\contentsline {subsubsection}{\numberline {8.3.2}Spread rooms}{20}{}%
+\contentsline {subsubsection}{\numberline {8.3.3}Delaunay Triangulation}{21}{}%
+\contentsline {subsubsection}{\numberline {8.3.4}Remove random amount of edges}{22}{}%

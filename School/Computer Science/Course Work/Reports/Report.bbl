@@ -17,6 +17,18 @@
 \endgroup
 
 \datalist[entry]{ynt/global//global/global}
+  \entry{BW_alg}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Bwa}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
+    \field{note}{Accessed: 07/12/23}
+    \field{title}{Bowyer–Watson algorithm}
+    \verb{url}
+    \verb https://en.wikipedia.org/wiki/Bowyer–Watson_algorithm
+    \endverb
+  \endentry
+
   \entry{Celss}{misc}{}
     \field{labeltitlesource}{title}
     \field{labelalpha}{Cel}
@@ -26,6 +38,19 @@
     \field{title}{Celeste on Steam}
     \verb{url}
     \verb https://store.steampowered.com/app/504230/Celeste/
+    \endverb
+  \endentry
+
+  \entry{Dis_Alg}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Dis}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
+    \field{note}{Accessed: 05/12/23}
+    \field{title}{Comparing Algorithms for Dispersing Overlapping Rectangles}
+    \verb{url}
+    \verb https://mikekling.com/comparing-algorithms-for-dispersing-overlapping
+    \verb -rectangles/
     \endverb
   \endentry
 

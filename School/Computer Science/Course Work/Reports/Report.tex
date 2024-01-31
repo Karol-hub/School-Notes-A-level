@@ -8,6 +8,26 @@
 \usepackage[backend=bibtex,style=alphabetic,sorting=ynt]{biblatex}
 \usepackage[sharp]{easylist}
 
+\usepackage[T1]{fontenc}
+\usepackage{inconsolata}
+\usepackage{color}
+\definecolor{bluekeywords}{rgb}{0.13,0.13,1}
+\definecolor{greencomments}{rgb}{0,0.5,0}
+\definecolor{redstrings}{rgb}{0.9,0,0}
+\usepackage{listings}
+\lstset{language=[Sharp]C,
+  showspaces=false,
+  showtabs=false,
+  breaklines=true,
+  showstringspaces=false,
+  breakatwhitespace=true,
+  escapeinside={(*@}{@*)},
+  commentstyle=\color{greencomments},
+  keywordstyle=\color{bluekeywords},
+  stringstyle=\color{redstrings},
+  basicstyle=\ttfamily
+}
+
 \tikzstyle{startstop} = [rectangle, rounded corners, minimum width=3cm, minimum height=1cm,text centered, draw=black, fill=red!30]
 \tikzstyle{io} = [trapezium, trapezium left angle=70, trapezium right angle=110, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=blue!30]
 \tikzstyle{process} = [rectangle, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=orange!30]
@@ -530,7 +550,7 @@ Deciding which systems I will be able to support is going to be an important dec
 \parBr
 
 \myparagraph{Hardware Analysis}
-\begin{figure}[ht]
+\begin{figure}[h]
 \centering
 \includegraphics[width = 0.4\textheight]{steamSurvey}
 \caption{\cite{SHS} Steam Hardware Statistics}
@@ -682,14 +702,122 @@ The Generation algorithm that I used is a modified version of the algorithm used
 \end{itemize}
 
 \subsubsection{Create Rooms}
-Begin with generating a defined amount of rooms. Rooms are pre-made layouts that a room as seen in figure \ref{Room Layout}
-
 \begin{figure}[h]
 \centering
-\includegraphics[width = 0.4\textwidth]{room layout}
+\includegraphics[height = 0.2\textwidth]{room layout}
+\includegraphics[height = 0.2\textwidth]{room layout1}
 \caption{Room Layout}
 \label{Room Layout}
 \end{figure}
+Begin with generating a defined amount of rooms. Rooms are pre-made layouts that a room as seen in figure \ref{Room Layout}. Originally I generated a cube and gave it a random size, but this would be problematic down the line since when it comes to creating a tile map it would be difficult to generate a room that would be playable.
+
+\subsubsection{Spread rooms}
+Once all the rooms are all generated in a confined area they need to be spread out until they are no longer overlapping. To separate the rooms I iterated through each room object and check it for overlapping areas. I found the difference in positions to get the vector of the room relative to the original room being considered, using this I can find the direction that the room should be moved in. This idea was taken from \cite{Dis_Alg}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width = 0.5\textwidth]{sep_vecs_rects}
+\caption{\cite{Dis_Alg} Room Movement Direction}
+\label{Room Movement Direction}
+\end{figure}
+
+The only major difference in the way that I implemented was that I multiplied the vector by the reciprocal of the magnitude, this would make it so that when there is a colliding room closer to the room being considered it's effect on the displacement of the room is much greater than if it was far from the center of the room
+\linebreak
+\textbf{Pseudocode}
+\begin{lstlisting}
+//this piece of code is called every frame until it develops as solution
+checkedRooms = 0
+for each room in all_rooms_generated
+{
+	if room.HasOverlappingAreas()
+	{
+		direction = Vector2.Zero //sets value to (0,0);
+		for each overlappingRoom in room.GetOverlappingAreas()
+		{
+			displacement = room.Position - overlappingRoom.Position;
+			direction += (1/displacement.Length()) * displacement.Normalised;
+			//takes reciprocal of displacement and adds it to direction
+		}
+		//rounds towards nearest int and multiplies by step, which is a variable that scales up with amount of rooms as more rooms will need to spread further which optimizes the algorithm
+		direction.X = (float)Math.Round(direction.X) * step;
+        direction.Y = (float)Math.Round(direction.Y) * step;
+        room.Position += direction
+	}
+	else
+	{
+		checkedRooms +=1;
+	}
+}
+if (checkedRooms == amountOfRooms)
+{
+	//each room has been checked and doesn't have overlapping areas so algorithm finished	
+	//move onto next stage of generation
+}
+
+\end{lstlisting}
+Once complete a result typically looks as such
+\begin{figure}[h]
+\centering
+\includegraphics[height = 0.2\textwidth]{rooms seperated}
+\includegraphics[height = 0.2\textwidth]{spread rooms}
+\caption{Result of room separation}
+\label{room seperation result}
+\end{figure}
+
+After this process a pre-defined amount of rooms are deleted so that there are gaps in between the rooms, removing 60\% of the rooms works well. On top of this the position of each room is multiplied by 2 to spread the rooms further
+
+\begin{figure}[h]
+\centering
+\includegraphics[height = 0.3\textwidth]{deleted rooms}
+\includegraphics[height = 0.3\textwidth]{deleted rooms1}
+\caption{Result of room deletion}
+\label{room deletion result}
+\end{figure}
+
+\subsubsection{Delaunay Triangulation}
+The algorithm used in this section was taken from \cite{BW_alg}(Bowyer–Watson algorithm). For the algorithm to function I needed a data structure for points, which link the Area2D, position and a list of points which the point is connected to. Edges are an array of two points which represents a connection between two points. Triangles are an array of three edges and hence three points, from these a circumcircle can be drawn, which is important for the Bowyer-Watson algorithm, this is represented as a vector2 storing the circumcentre and a float for the radius.\linebreak
+\textbf{Pseudocode} \linebreak
+\textit{The pseudocode was taken from} \cite{BW_alg}
+\begin{lstlisting}
+function BowyerWatson (pointList)
+    // pointList is a list of points defining the points to be triangulated
+    triangulation := empty list of triangles
+    add super-triangle to triangulation // must be large enough to completely contain all the points in pointList
+    for each point in pointList do // add all the points one at a time to the triangulation
+        badTriangles := empty list of triangles
+        for each triangle in triangulation do // first find all the triangles that are no longer valid due to the insertion
+            if point is inside circumcircle of triangle
+                add triangle to badTriangles
+        polygon := list of edges
+        for each triangle in badTriangles do // find the boundary of the polygonal hole
+            for each edge in triangle do
+                if edge is not shared by any other triangles in badTriangles
+                    add edge to polygon
+        for each triangle in badTriangles do // remove them from the data structure
+            remove triangle from triangulation
+        for each edge in polygon do // re-triangulate the polygonal hole
+            newTri := form a triangle from edge to the new point
+            add newTri to triangulation
+    for each triangle in triangulation // done inserting points, now clean up
+        if triangle contains a vertex from original super-triangle
+            remove triangle from triangulation
+    return triangulation
+\end{lstlisting}
+
+\begin{figure}[h]
+\centering
+\includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation just edges}
+\includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation}
+\includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation stress test}
+\includegraphics[width = 0.4\textwidth]{deluaney triangulation stress test}
+\caption{result of Bowyer–Watson algorithm}
+\label{bwa result}
+\end{figure}
+
+\subsubsection{Remove random amount of edges}
+Figure \ref{bwa result} shows the result of the algorithm, however this many corridors would be overwhelming for players and would result in each room having 4-5 corridors leading out of it, which would could overwhelm the player. Other rouge-like games usually contain 2-3 corridors leading out of it, this would mean I needed to delete some of the edges but still make sure all the rooms are accessible.
+
+
 
 \end{document}
 

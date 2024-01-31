@@ -8,39 +8,16 @@
         "type": "tabs",
         "children": [
           {
-            "id": "7303a8f9d66fa25f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
-              }
-            }
-          },
-          {
-            "id": "0486898ca58b26a2",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
-              }
-            }
-          },
-          {
             "id": "d7c457ebd3acd553",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Integration.md",
-                "mode": "source",
-                "source": false
+                "file": "Life/Cheat Sheets/latexsheet.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
@@ -125,7 +102,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf",
+                "file": "Life/Cheat Sheets/latexsheet.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +119,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf",
+                "file": "Life/Cheat Sheets/latexsheet.pdf",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -154,7 +131,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+                "file": "Life/Cheat Sheets/latexsheet.pdf"
               }
             }
           },
@@ -198,30 +175,32 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "0486898ca58b26a2",
+  "active": "d7c457ebd3acd553",
   "lastOpenFiles": [
-    "School/Maths/Notes/Defenitions/Integration.md",
-    "School/Maths/Notes/Pure/Year 2/11 Integration.md",
-    "School/Maths/Textbook/Pure Year 2.pdf",
-    "Life/Cheat Sheets/latexsheet.pdf",
     "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
-    "School/Computer Science/Course Work/Reports/Images/room layout.png",
-    "School/Computer Science/Course Work/Reports/Images/room layout.png.0.pdnSave",
+    "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation just edges.png.0.pdnSave",
+    "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation.png.0.pdnSave",
+    "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation stress test.png.0.pdnSave",
+    "School/Computer Science/Course Work/Reports/Images/deluaney triangulation stress test.png.0.pdnSave",
+    "School/Computer Science/Course Work/Reports/Images/deleted rooms1.png",
+    "School/Computer Science/Course Work/Reports/Images/deleted rooms1.png.0.pdnSave",
+    "School/Computer Science/Course Work/Reports/Images/deleted rooms.png",
+    "School/Computer Science/Course Work/Reports/Images/deleted rooms.png.0.pdnSave",
+    "School/Computer Science/Course Work/Reports/Images/spread rooms.png",
+    "School/Computer Science/Course Work/Reports/Images/spread rooms.png.0.pdnSave",
+    "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation stress test.png",
+    "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation just edges.png",
+    "Life/Cheat Sheets/latexsheet.pdf",
     "Life/Cheat Sheets/Latex cheat sheet.pdf",
+    "School/Computer Science/Course Work/Reports/Report.md",
+    "School/Computer Science/Course Work/Reports/Images/sep_vecs_rects.png",
+    "School/Computer Science/Course Work/Reports/Images/sep_vecs_rects.png.opdownload",
+    "School/Maths/Notes/Defenitions/Integration.md",
+    "School/Computer Science/Course Work/Reports/Images/room layout1.png",
+    "School/Maths/Notes/Pure/Year 2/11 Integration.md",
+    "School/Computer Science/Course Work/Reports/Images/room layout.png",
     "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Goblin/Idle.png",
     "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Goblin/Take Hit.png",
-    "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Goblin/Run.png",
-    "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Goblin/Death.png",
-    "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Goblin/Bomb_sprite.png",
-    "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Goblin/Attack3.png",
-    "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Goblin/Attack2.png",
-    "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Goblin/Attack.png",
-    "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Goblin",
-    "School/Computer Science/Course Work/Thoughts/Character/Aseprite files/modern looking character.aseprite",
-    "School/Computer Science/Course Work/Reports/Images/processed rooms.png",
-    "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Skeleton",
-    "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Mushroom",
-    "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Main character/walk.aseprite",
     "School/Maths/Notes/Links.md",
     "School/Maths/Notes/Statistics/Year 1/7 Hypothesis testing.md",
     "School/Computer Science/Notes/Links.md",
@@ -243,7 +222,6 @@
     "School/Physics/Equations.md",
     "School/Physics/Notes/Defenitions/Flow.md",
     "School/Physics/Notes/Defenitions/Laminar Flow.md",
-    "School/Physics/Notes/Defenitions/Viscous Flow.md",
-    "School/Physics/Notes/Defenitions/Stokes' Law.md"
+    "School/Physics/Notes/Defenitions/Viscous Flow.md"
   ]
 }
