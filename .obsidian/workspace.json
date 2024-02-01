@@ -11,9 +11,11 @@
             "id": "d7c457ebd3acd553",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "Life/Cheat Sheets/latexsheet.pdf"
+                "file": "School/Maths/Notes/Defenitions/Differentiating exponentials and logarithms.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -102,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Life/Cheat Sheets/latexsheet.pdf",
+                "file": "School/Maths/Notes/Defenitions/Differentiating exponentials and logarithms.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Life/Cheat Sheets/latexsheet.pdf",
+                "file": "School/Maths/Notes/Defenitions/Differentiating exponentials and logarithms.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Life/Cheat Sheets/latexsheet.pdf"
+                "file": "School/Maths/Notes/Defenitions/Differentiating exponentials and logarithms.md"
               }
             }
           },
@@ -177,6 +179,8 @@
   },
   "active": "d7c457ebd3acd553",
   "lastOpenFiles": [
+    "School/Maths/Notes/Pure/Year 2/9 Differentiation.md",
+    "Life/Cheat Sheets/latexsheet.pdf",
     "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
     "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation just edges.png.0.pdnSave",
     "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation.png.0.pdnSave",
@@ -190,11 +194,9 @@
     "School/Computer Science/Course Work/Reports/Images/spread rooms.png.0.pdnSave",
     "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation stress test.png",
     "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation just edges.png",
-    "Life/Cheat Sheets/latexsheet.pdf",
     "Life/Cheat Sheets/Latex cheat sheet.pdf",
     "School/Computer Science/Course Work/Reports/Report.md",
     "School/Computer Science/Course Work/Reports/Images/sep_vecs_rects.png",
-    "School/Computer Science/Course Work/Reports/Images/sep_vecs_rects.png.opdownload",
     "School/Maths/Notes/Defenitions/Integration.md",
     "School/Computer Science/Course Work/Reports/Images/room layout1.png",
     "School/Maths/Notes/Pure/Year 2/11 Integration.md",

@@ -23,4 +23,11 @@ using $\circledast$
 $$\frac{dy}{dx}=\frac{1}{e^{\ln{x}}}$$
 $$\frac{dy}{dx}=\frac{1}{x}$$
 
-
+$$y=a^x$$
+# Fancier Logs
+$$y = a^x$$
+$$\frac{dy}{dx} = \ln{a}*a^{x}$$
+## Proof
+$$y=a^x$$
+$$y=(e^{x\ln{a}})$$
+$$\frac{dy}{dx}=\ln{(a)}{ * a^x}$$

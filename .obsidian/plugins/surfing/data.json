@@ -44,17 +44,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "70ccded4019f4c4c",
-      "parent": 0,
-      "droppable": true,
-      "text": "Comparing Algorithms for Dispersing Overlapping Rectangles",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }
