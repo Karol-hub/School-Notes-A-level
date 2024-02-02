@@ -700,6 +700,11 @@ The Generation algorithm that I used is a modified version of the algorithm used
 \item{Generate corridors}
 \item{Turn into tile map}
 \end{itemize}
+Some other miscellaneous algorithms used in generation
+\begin{itemize}
+\item{Turning list of edges to graph}
+\item{Turning graph to list of edges}
+\end{itemize}
 
 \subsubsection{Create Rooms}
 \begin{figure}[h]
@@ -775,7 +780,8 @@ After this process a pre-defined amount of rooms are deleted so that there are g
 \end{figure}
 
 \subsubsection{Delaunay Triangulation}
-The algorithm used in this section was taken from \cite{BW_alg}(Bowyer–Watson algorithm). For the algorithm to function I needed a data structure for points, which link the Area2D, position and a list of points which the point is connected to. Edges are an array of two points which represents a connection between two points. Triangles are an array of three edges and hence three points, from these a circumcircle can be drawn, which is important for the Bowyer-Watson algorithm, this is represented as a vector2 storing the circumcentre and a float for the radius.\linebreak
+The algorithm used in this section was taken from \cite{BW_alg}(Bowyer–Watson algorithm). For the algorithm to function I needed a data structure for points, which link the Area2D, position and a list of points which the point is connected to. Edges are an array of two points which represents a connection between two points. Triangles are an array of three edges and hence three points, from these a circumcircle can be drawn, which is important for the Bowyer-Watson algorithm, this is represented as a vector2 storing the circumcentre and a float for the radius.
+\linebreak
 \textbf{Pseudocode} \linebreak
 \textit{The pseudocode was taken from} \cite{BW_alg}
 \begin{lstlisting}
@@ -803,14 +809,14 @@ function BowyerWatson (pointList)
             remove triangle from triangulation
     return triangulation
 \end{lstlisting}
-
+\parBr
 \begin{figure}[h]
 \centering
 \includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation just edges}
 \includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation}
 \includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation stress test}
 \includegraphics[width = 0.4\textwidth]{deluaney triangulation stress test}
-\caption{result of Bowyer–Watson algorithm}
+\caption{Result of Bowyer–Watson algorithm}
 \label{bwa result}
 \end{figure}
 
@@ -819,8 +825,138 @@ Figure \ref{bwa result} shows the result of the algorithm, however this many cor
 
 \parBr
 
-The original list of edges of the entire process triangulated is called polygon
+Currently the mesh is stored as a list of edges. So to remove a certain amount I can make a copy of the list and then remove a random amount of edges. However C\# passes the list by reference so any alterations on the copy of the list will also alter the original. Therefore I made a new empty list and added a random amount of edges from the original list.
+\linebreak
+\textbf{Pseudocode}
+\begin{lstlisting}
+float edgeDeletingFactor; //number between 0-1 representing how much edges to keep
+List<Edge> polygon; //List of edges from triangulation stage
+List<Edge> edgeList = new List<Edge>();
+List<int> indexList = new List<int>();
+int newIndex;
+while (edgeList.Count() < (int)(polygon.Count()* edgeDeletingFactor))
+{
+	newIndex = RandomIntBetween(0,polygon.Count())
+	//this part ensures there is no duplicates in edgeList
+	if (!indexList.Contains(newIndex))
+	{
+		edgeList.Add(polygon[newIndex]);
+		indexList.Add(newIndex);
+	}
+}
+\end{lstlisting}
+\parBr
+\begin{figure}[h]
+\centering
+\includegraphics[width = 0.4\textwidth]{deleted edges no rooms}
+\includegraphics[width = 0.4\textwidth]{deleted edges}
+\caption{Deleting edges result}
+\label{deleting edges result}
+\end{figure}
 
+However this creates a problem as now some of the rooms are inaccessible because they have no edges connecting to them or are in another inaccessible section. This is solved in the next section.
+
+\subsubsection{Make sure all rooms are accessible}
+This section can be decomposed into smaller problems. That being detecting sections and connecting sections. First comes detecting sections, this is accomplished more easily when the the graph is represented with list of points along with each point having a list of points it's connected to. Currently the graph is represented as a list of edges. This can be done with a simple algorithm explored further in the "Turning list of edge to graph" section.
+\linebreak
+\textbf{Pseudocode} \linebreak
+\textit{Algorithm for detecting weather a new section needs to be made at the current point}
+\begin{lstlisting}
+function DetectSections(List<Edge> edges)
+//list of section, each section is a list of points
+List<List<Point>> sects = new List<List<Point>>()
+List<Point> graph = MakeGraph(edges)
+bool exists = false
+for each point in graph
+{
+	//check weather point already exists in sects
+	exists = false
+	for each section in sects
+	{
+		for each sectionPoint in section
+		{
+			if (point.Position == sectionPoint.Position)
+			{
+				exists = true
+				//don't check rest of points if already detected it exists
+				break
+			}
+		}
+		if (exists)
+		{
+		//don't check other points if already detected that it exists
+		break
+		}
+	}
+	if (!exists)
+	{
+		//add section to list of sections
+		sects.Add(MakeSection(point, new List<Point>()))
+	}
+}
+return sects
+endfunction
+\end{lstlisting}
+\textit{Recursive algorithm for detecting a section, given a starting point}
+\begin{lstlisting}
+function MakeSection(Point startPoint, List<Point> exclude)
+List<Point> NewPoints = new List<Point>()
+//add current startPoint to list of points to exclude
+exclude.Add(point)
+for each point in startPoint.Connectedpoints
+{
+	//branch out when point isn't already detected and is connected
+	if exclude does not contain point
+	{
+		NewPoints = MakeSection(point, exclude)
+		for each newPoint in NewPoints
+		{
+			if (newPoint doesn't exist in NewPoints)
+			{
+				exclude.Add(newPoint)
+			}
+		}
+	}
+}
+return exclude
+endfuntion
+\end{lstlisting}
+Now that I am able to detect sections we want to connect them. This is done by saving the list of edges from the triangulation section and finding the difference between the list after removing edges.
+\linebreak
+\begin{lstlisting}
+//code called once before main loop is started
+//polygon is all the edge after triangulated
+//polygonEdgeList are the edges left over after deleting a random amount
+//polygonDifference is polygon - polygonEdgeList
+List<Edge> polygonDifference(polygon, polygonEdgeList)
+List<List<Point>> sections = DetectSections(polygonEdgeList)
+
+//code inside the main loop that runs every frame
+if (sections.Count != 1)
+{
+	//need to add points until there is only one section left
+	int index = RandIntInRange(0,polygonDifference.Count - 1)
+	//remove random edge from polygonDifference and add it to polygonEdgeList
+	polygonEdgeList.Add(polygonDifference[index])
+	polygonDifference.RemoveAtIndex(index)
+	sections = DetectSections(polygonEdgeList)
+}
+else
+{
+	//remove rooms with no edges connected to them
+	List<Point> graph = MakeGraph(polygonEdgeList)
+	//all rooms are represented with an Area2D data type (custom structure made by godot) and need to check if children(the rooms) of the object are a point in the edgeList
+	for each child in GetChildren
+	{
+		if (a point in graph doesn't have same position as a child)
+		{
+			//In this case the child isn't considered for in the edgeList
+			RemoveChild(child)
+		}
+	}
+	//move onto the next stage of generation
+}
+\end{lstlisting}
 \end{document}
 
 

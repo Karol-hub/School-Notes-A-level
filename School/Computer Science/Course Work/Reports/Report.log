@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.5)  31 JAN 2024 19:38
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.5)  1 FEB 2024 20:04
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -976,66 +976,73 @@ LaTeX Warning: `h' float specifier changed to `ht'.
 <./Images/room layout.png, id=80, 709.90219pt x 413.29407pt>
 File: ./Images/room layout.png Graphic file (type png)
 <use ./Images/room layout.png>
-Package pdftex.def Info: ./Images/room layout.png  used on input line 707.
+Package pdftex.def Info: ./Images/room layout.png  used on input line 712.
 (pdftex.def)             Requested size: 166.15544pt x 96.73788pt.
 <./Images/room layout1.png, id=81, 588.69937pt x 523.9575pt>
 File: ./Images/room layout1.png Graphic file (type png)
 <use ./Images/room layout1.png>
-Package pdftex.def Info: ./Images/room layout1.png  used on input line 708.
+Package pdftex.def Info: ./Images/room layout1.png  used on input line 713.
 (pdftex.def)             Requested size: 108.6831pt x 96.73788pt.
- [19 <./Images/room layout.png> <./Images/room layout1.png>]
-<./Images/sep_vecs_rects.png, id=86, 455.7025pt x 397.485pt>
+
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+<./Images/sep_vecs_rects.png, id=82, 455.7025pt x 397.485pt>
 File: ./Images/sep_vecs_rects.png Graphic file (type png)
 <use ./Images/sep_vecs_rects.png>
-Package pdftex.def Info: ./Images/sep_vecs_rects.png  used on input line 719.
+Package pdftex.def Info: ./Images/sep_vecs_rects.png  used on input line 724.
 (pdftex.def)             Requested size: 241.84842pt x 210.95717pt.
+
+LaTeX Warning: `h' float specifier changed to `ht'.
+
+[19] [20 <./Images/room layout.png> <./Images/room layout1.png> <./Images/sep_v
+ecs_rects.png>]
 LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 7
-53.
+58.
 
 (C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 753.
-
-[20 <./Images/sep_vecs_rects.png>]
+(Font)              scaled to size 10.0pt on input line 758.
 <./Images/rooms seperated.png, id=92, 649.67719pt x 356.0803pt>
 File: ./Images/rooms seperated.png Graphic file (type png)
 <use ./Images/rooms seperated.png>
-Package pdftex.def Info: ./Images/rooms seperated.png  used on input line 761.
+Package pdftex.def Info: ./Images/rooms seperated.png  used on input line 766.
 (pdftex.def)             Requested size: 176.49573pt x 96.73788pt.
 <./Images/spread rooms.png, id=93, 1014.79124pt x 647.41875pt>
 File: ./Images/spread rooms.png Graphic file (type png)
 <use ./Images/spread rooms.png>
-Package pdftex.def Info: ./Images/spread rooms.png  used on input line 762.
+Package pdftex.def Info: ./Images/spread rooms.png  used on input line 767.
 (pdftex.def)             Requested size: 151.6237pt x 96.73788pt.
 <./Images/deleted rooms.png, id=94, 964.35281pt x 672.26157pt>
 File: ./Images/deleted rooms.png Graphic file (type png)
 <use ./Images/deleted rooms.png>
-Package pdftex.def Info: ./Images/deleted rooms.png  used on input line 771.
+Package pdftex.def Info: ./Images/deleted rooms.png  used on input line 776.
 (pdftex.def)             Requested size: 208.15584pt x 145.11052pt.
 <./Images/deleted rooms1.png, id=95, 1169.11781pt x 715.17188pt>
 File: ./Images/deleted rooms1.png Graphic file (type png)
 <use ./Images/deleted rooms1.png>
-Package pdftex.def Info: ./Images/deleted rooms1.png  used on input line 772.
+Package pdftex.def Info: ./Images/deleted rooms1.png  used on input line 777.
 (pdftex.def)             Requested size: 237.20888pt x 145.11052pt.
- [21{C:/Users/dimki/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i
-4-ts1.enc} <./Images/rooms seperated.png> <./Images/spread rooms.png> <./Images
-/deleted rooms.png> <./Images/deleted rooms1.png>]
+
+[21{C:/Users/dimki/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
+-ts1.enc} <./Images/rooms seperated.png> <./Images/spread rooms.png> <./Images/
+deleted rooms.png> <./Images/deleted rooms1.png>]
 <./Images/rooms deluaney triangulation just edges.png, id=104, 1077.27469pt x 7
 19.68875pt>
 File: ./Images/rooms deluaney triangulation just edges.png Graphic file (type p
 ng)
 <use ./Images/rooms deluaney triangulation just edges.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation just edges.png  
-used on input line 809.
+used on input line 815.
 (pdftex.def)             Requested size: 193.47577pt x 129.25285pt.
 <./Images/rooms deluaney triangulation.png, id=105, 1077.27469pt x 719.68875pt>
 
 File: ./Images/rooms deluaney triangulation.png Graphic file (type png)
 <use ./Images/rooms deluaney triangulation.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation.png  used on inp
-ut line 810.
+ut line 816.
 (pdftex.def)             Requested size: 193.47577pt x 129.25285pt.
 <./Images/rooms deluaney triangulation stress test.png, id=106, 1343.77031pt x 
 761.09344pt>
@@ -1043,18 +1050,31 @@ File: ./Images/rooms deluaney triangulation stress test.png Graphic file (type
 png)
 <use ./Images/rooms deluaney triangulation stress test.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation stress test.png 
- used on input line 811.
+ used on input line 817.
 (pdftex.def)             Requested size: 193.47577pt x 109.57182pt.
 <./Images/deluaney triangulation stress test.png, id=107, 1343.77031pt x 761.09
 344pt>
 File: ./Images/deluaney triangulation stress test.png Graphic file (type png)
 <use ./Images/deluaney triangulation stress test.png>
 Package pdftex.def Info: ./Images/deluaney triangulation stress test.png  used 
-on input line 812.
+on input line 818.
 (pdftex.def)             Requested size: 193.47577pt x 109.57182pt.
  [22 <./Images/rooms deluaney triangulation just edges.png> <./Images/rooms del
 uaney triangulation.png> <./Images/rooms deluaney triangulation stress test.png
-> <./Images/deluaney triangulation stress test.png>] (Report.aux)
+> <./Images/deluaney triangulation stress test.png>]
+<./Images/deleted edges no rooms.png, id=115, 1038.88126pt x 735.49782pt>
+File: ./Images/deleted edges no rooms.png Graphic file (type png)
+<use ./Images/deleted edges no rooms.png>
+Package pdftex.def Info: ./Images/deleted edges no rooms.png  used on input lin
+e 851.
+(pdftex.def)             Requested size: 193.47577pt x 136.97401pt.
+<./Images/deleted edges.png, id=116, 1038.88126pt x 735.49782pt>
+File: ./Images/deleted edges.png Graphic file (type png)
+<use ./Images/deleted edges.png>
+Package pdftex.def Info: ./Images/deleted edges.png  used on input line 852.
+(pdftex.def)             Requested size: 193.47577pt x 136.97401pt.
+ [23 <./Images/deleted edges no rooms.png> <./Images/deleted edges.png>] [24] [
+25] (Report.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1064,13 +1084,13 @@ Package logreq Info: Writing requests to 'Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 25198 strings out of 475247
- 505658 string characters out of 5757792
- 1995785 words of memory out of 5000000
- 46356 multiletter control sequences out of 15000+600000
+ 25260 strings out of 475247
+ 506981 string characters out of 5757792
+ 2032785 words of memory out of 5000000
+ 46418 multiletter control sequences out of 15000+600000
  568846 words of font info for 58 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,7n,89p,1882b,1672s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,7n,89p,1882b,1676s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\dimki\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\tcrm
 1000.pk> <C:\Users\dimki\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecbx1200.pk> <C:\Users\dimki\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1082,9 +1102,9 @@ ts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\dimki\AppData\Local\MiKT
 eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\dimki\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/dimki/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
-Output written on Report.pdf (22 pages, 612521 bytes).
+Output written on Report.pdf (25 pages, 637077 bytes).
 PDF statistics:
- 474 PDF objects out of 1000 (max. 8388607)
+ 489 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 98 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 108 words of extra memory for PDF output out of 10000 (max. 10000000)
 

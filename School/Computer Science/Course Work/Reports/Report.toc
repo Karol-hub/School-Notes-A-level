@@ -49,3 +49,4 @@
 \contentsline {subsubsection}{\numberline {8.3.2}Spread rooms}{20}{}%
 \contentsline {subsubsection}{\numberline {8.3.3}Delaunay Triangulation}{21}{}%
 \contentsline {subsubsection}{\numberline {8.3.4}Remove random amount of edges}{22}{}%
+\contentsline {subsubsection}{\numberline {8.3.5}Make sure all rooms are accessible}{23}{}%
