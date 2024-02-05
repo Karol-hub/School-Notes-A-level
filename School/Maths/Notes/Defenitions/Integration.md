@@ -61,3 +61,6 @@ $$\int \sec x \tan x dx = \sec x + c$$
 - Substitute $u$ into the integral and replace $dx$ in terms of $du$
 - Simplify where possible and integrate with respect to $du$
 - Replace $u$ with original expression
+# Partial Fractions
+$$\int \frac{x^{2}+3x-2}{x^2-2x-3}$$
+$$\int \frac{x^{2}+3x-2}{x^{2}-2x-3}$$

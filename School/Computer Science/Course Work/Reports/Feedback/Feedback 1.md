@@ -1,0 +1,4 @@
+- Justify Computational methods
+- Why the stakeholder needs it
+- Expand on what I would include in researched games
+- Identify limitations
