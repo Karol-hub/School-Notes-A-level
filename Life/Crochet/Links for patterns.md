@@ -10,3 +10,7 @@
 [Badtz-Maru](https://www.sanrio.com/blogs/sanrio/badtz-maru-crochet-doll)
 [pompompurin](https://www.sanrio.com/blogs/sanrio/pompompurin-crochet-doll)
 [sleepy fox](https://eserehtanin.blogspot.com/2016/09/the-sleepy-fox.html?spref=pi)
+[Amigurumi Patrón pokemon](https://www.tarturumies.com/2016/10/12/amigurumi-patron-pokemon-mimikyu/)
+[lil bunny](https://www.onceuponacheerio.com/2018/01/classic-amigurumi-bunny-crochet-pattern.html)
+[lil bat](https://www.mariskavos.nl/free-bat-crochet-pattern/)
+[lil bear](https://www.natalinacraft.com/crochet-pocket-bear/)

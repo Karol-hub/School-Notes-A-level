@@ -44,5 +44,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "061cb9f64d9d2cb7",
+      "parent": 0,
+      "droppable": true,
+      "text": "móhu — amigurumi apple pattern These amigurumi apples...",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }
