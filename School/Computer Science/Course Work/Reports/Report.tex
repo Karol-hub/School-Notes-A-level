@@ -7,6 +7,7 @@
 \usepackage{pgf-pie}
 \usepackage[backend=bibtex,style=alphabetic,sorting=ynt]{biblatex}
 \usepackage[sharp]{easylist}
+\usepackage[simplified]{pgf-umlcd}
 
 \usepackage[T1]{fontenc}
 \usepackage{inconsolata}
@@ -84,19 +85,19 @@ The loot and map generation will be random meaning that the player cannot memori
 I plan for there to be different enemies that have different attack patterns that will not be entirely random meaning that the player can learn how to effectively defeat the enemy. The enemy difficulty will increase as the player progresses through the floors.
 
 \section{Computational Methods}
-Computational methods are computer-based methods which are used to solve problems. They are suitable for my project since I want to make a game which is fun and the following concepts allow me to accomplish this 
+Computational methods are computer-based methods which are used to solve problems. They are suitable for my project since I want to make an entertaining game. And I can accomplish this by creating features using the following methods.
 
 \parBr
 
-\textbf{Decomposition} – Splitting a large problem into smaller problems which are more manageable. This would help with my project as I am not going to be working in every aspect of the game at once, decomposition allows me to work on one part of the game at a time since debugging one small piece of code with a couple of errors is a lot easier than debugging all the game code with many, many errors
+\textbf{Decomposition} – Splitting a large problem into smaller problems which are more manageable. This would help with my project as I am not going to be working in every aspect of the game at once, decomposition allows me to work on one part of the game at a time since debugging one small piece of code with a couple of errors is a lot easier than debugging the entire game code with many, many errors. It also allows me to work on different parts of the game independently from another part, since each problem is broken into it's own self contained module.
 
 \parBr
 
-\textbf{Divide and conquer} – Dividing a problem into smaller problems until they are small enough to be solved directly. This would allow me to develop one aspect of the game at a time and make steady progress on the game. Since each aspect is finished and polished by the time I move on to the next aspect.
+\textbf{Divide and conquer} – Dividing a problem into smaller problems until they are small enough to be solved directly. This would allow me to develop one aspect of the game at a time and make steady progress on the game. Since each aspect is finished and polished by the time I move on to the next aspect. This can be utilised if decomposition doesn't break the code into small enough segments.
 
 \parBr
 
-\textbf{Abstraction} – is removing the additional detail allowing me to focus on the main points rather than wasting time trying to work on pointless detail that will not be noticed. This will allow me to use my time efficiently as the main points will get the most amount of time making the basics of the game reliable.
+\textbf{Abstraction} – Removing the additional detail allowing me to focus on the main points rather than wasting time trying to work on pointless detail that will not be noticed. This will allow me to use my time efficiently as the main features will get the most amount of time making the basics of the game reliable.
 
 \parBr
 
@@ -104,7 +105,7 @@ Computational methods are computer-based methods which are used to solve problem
 
 \parBr
 
-\textbf{Algorithms} – Algorithms allow me to implement features that do not need anything but computer processing to be solved. For example, enemies will use an algorithm to detect and attack the player, the scenery might be made by an algorithm etc. These allow the computer to do specialized processing for the problem that needs to be solved 
+\textbf{Algorithms} – Algorithms allow me to implement features that do not need anything but computer processing to be solved. For example, enemies will use an algorithm to detect and attack the player, the scenery might be made by an algorithm etc. These allow the computer to do specialized processing for the problem that needs to be solved.
 
 \parBr
 
@@ -112,15 +113,15 @@ Computational methods are computer-based methods which are used to solve problem
 
 \parBr
 
-\textbf{Iteration (looping)} - Allows a certain piece of code to be ran multiple times for example while or for loops which will continue to cycle the code until it is told to stop. These are useful since in a 3D game the players input needs to be recorded every frame to minimize latency, the code needs to sort through those inputs every to make the necessary adjustment to the character and environment all in the same frame. These tasks are repetitive therefore the code will be the same every loop and iteration is perfect for that.
+\textbf{Iteration (looping)} - Allows a certain piece of code to be ran multiple times, these can be count controlled of condition controlled. Loops which will continue to cycle the code until it has reached a stopping condition. These are useful since in a 2D game the players input needs to be recorded every frame to minimize latency, the code needs to sort through those inputs every to make the necessary adjustment to the character and environment all in the same frame. These tasks are repetitive therefore the code will be the same every loop and iteration is perfect for that.
 
 \parBr
 
-\textbf{Visualization} – The player will not be able to process the raw data outputted by the computer therefore it needs to be put in a format which is comprehensible for humans. There will be a lot of data processing while the game is running such as player position constantly moving, enemies moving and attacking the player. If that were outputted as a string of numbers to the player, they would have no idea what is going on therefore visualization is used to allow the user to interact with the program
+\textbf{Visualization} – The player will not be able to process the raw data outputted by the computer therefore it needs to be put in a format which is comprehensible for humans. There will be a lot of data processing while the game is running such as player position constantly moving, enemies moving and attacking the player. If that were outputted as a string of numbers to the player, they would have no idea what is going on therefore visualization is used to allow the user to interact with the program.
 
 \parBr
 
-\textbf{Pattern recognition} – It would be useful for the computer to recognize patterns as a certain pattern could be used as a condition for selection this could be useful as when the player attacks the computer could recognize this and react accordingly to make the fight interesting. Or it can be used in fighting games to make a move since in some games like mortal combat you can chain inputs to do a special attack.
+\textbf{Pattern recognition} – It would be useful for the computer to recognize patterns as a certain pattern could be used as a condition for selection this could be useful as when the player attacks the computer could recognize this and react accordingly to make the fight interesting. Or it can be used in fighting games to make a move since in some games you can chain inputs to do a special attack.
 
 \section{Researching The Problem}
 
@@ -316,11 +317,11 @@ Anyone as it doesn't contain any graphic scenes or references to difficult topic
 
 \section{Market Analysis}
 \subsection{Stakeholders}
-My game would be suited for people who have more experience with games, it will be suitable for any age over the age of twelve (might be a too violent for children under the age of twelve). 
+My game would be suited for people who have more experience with games, it will be suitable for any age over the age of twelve (might be a too violent for children under the age of twelve). A stakeholder would also be important as they could give me direct feedback for the game to improve it and make it a more enjoyable experience. They would play the game as they often play games as a source of entertainment the survey conducted in a later section shows what type of games people play and therefore would be willing to try.
 
 \parBr
 
-Therefore, Ethan Armstrong would be a suitable stakeholder. He is 16 years of age therefore he fits the target demographic. He will give feedback through playtesting and according to the feedback I will be able to adjust the difficulty and balance the aspects of the game to fit the genre and style I am going for. The feedback given to me by him will allow me to adjust the game to make it more enjoyable. 
+Therefore, Ethan Armstrong would be a suitable stakeholder. He is 16 years of age therefore he fits the target demographic. He will give feedback through play testing and according to the feedback I will be able to adjust the difficulty and balance the aspects of the game to fit the genre and style I am going for. The feedback given to me by him will allow me to adjust the game to make it more enjoyable. 
 
 \parBr
 
@@ -810,6 +811,8 @@ function BowyerWatson (pointList)
     return triangulation
 \end{lstlisting}
 \parBr
+The pseudo code states that there needs to be triangles, edges and points. These structures can be achieved with object oriented programming as I can make a class with all the relevant attributes and methods for each data structure mentioned.
+
 \begin{figure}[h]
 \centering
 \includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation just edges}

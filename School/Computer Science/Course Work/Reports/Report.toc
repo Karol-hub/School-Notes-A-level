@@ -12,7 +12,7 @@
 \contentsline {paragraph}{What I would include}{8}{}%
 \contentsline {subsection}{\numberline {4.2}Celeste}{8}{}%
 \contentsline {paragraph}{Controls}{8}{}%
-\contentsline {paragraph}{Characters}{8}{}%
+\contentsline {paragraph}{Characters}{9}{}%
 \contentsline {paragraph}{Aim of the game}{9}{}%
 \contentsline {paragraph}{Target demographic}{9}{}%
 \contentsline {paragraph}{Good Qualities}{9}{}%
