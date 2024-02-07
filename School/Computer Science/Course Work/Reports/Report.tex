@@ -48,6 +48,7 @@ top = 20mm,
 
 \newcommand{\parBr}{\vspace{5mm}}%5mm vertical space
 \newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\} %line break after paragraph declared
+\newcommand{\smallBr}{\vspace{1.5mm}}
 
 \begin{document}
 \title{Computer Science \\ Advanced GCE H447 \\ Unit F453 \\[2\baselineskip]}
@@ -630,22 +631,22 @@ Level generation will also be important as it creates the environment the player
 # \large{\textbf{User Interface}}
 ## \textbf{Main Menu}
 ### Does it have a new game button? \linebreak
-Allows the player to start the game.
+Allows the player to start the game. \smallBr
 ### Does it have an options button? \linebreak
-Allows the player to customise the game to suit them
+Allows the player to customise the game to suit them \smallBr
 ### Does it have a tutorial option? \linebreak
-Takes the player to a tutorial level where they can learn the game, important for new players who are playing for the first time.
+Takes the player to a tutorial level where they can learn the game, important for new players who are playing for the first time. \smallBr
 ### Does it have a interesting background? \linebreak
-Gives a good first impression to the player when they open the game.
+Gives a good first impression to the player when they open the game. \smallBr
 ### Does it have a quit game button? \linebreak
-Allows the player to close the game.
+Allows the player to close the game. \smallBr
 #### Does it ask you "are you sure"? \linebreak
-Makes sure that the played didn't press the button by accident.
-## \textbf{Pause Menu}
+Makes sure that the played didn't press the button by accident. \smallBr
+## \textbf{Pause Menu} 
 ### Does it pause the game? \linebreak
-Allows player to take a break if they need to.
+Allows player to take a break if they need to. \smallBr
 ### Is there an options button? \linebreak
-Allows the player to change setting in game in case they need to.
+Allows the player to change setting in game in case they need to. \smallBr
 ### Is there an exit to main menu button? \linebreak
 Allows the player to quit the current run and return to the main menu.
 #### Does it tell you "The current run will be ended"? \linebreak
@@ -829,6 +830,46 @@ After this process a pre-defined amount of rooms are deleted so that there are g
 \subsubsection{Delaunay Triangulation}
 The algorithm used in this section was taken from \cite{BW_alg}(Bowyer–Watson algorithm). For the algorithm to function I needed a data structure for points, which link the Area2D, position and a list of points which the point is connected to. Edges are an array of two points which represents a connection between two points. Triangles are an array of three edges and hence three points, from these a circumcircle can be drawn, which is important for the Bowyer-Watson algorithm, this is represented as a vector2 storing the circumcentre and a float for the radius.
 \linebreak
+\begin{center}
+\begin{tikzpicture}
+\begin{class}[text width = 0.5\textwidth]{Point}{0 ,0}
+\attribute{Public area: Area2D}
+\attribute{Private position: Vector2}
+\attribute{Private connectedPoints: List<Point>} 
+\operation{Public Constructor(Area2D area) \smallBr}
+\operation{Public Position() \linebreak returns position \smallBr}
+\operation{Public ConnectedPoint() \linebreak returns connectedPoints \smallBr}
+\operation{Public AlterPos(Vector2 newPos) \linebreak updates position \smallBr}
+\operation{Public ConnectPoint(Point newPoint) \linebreak adds point to connectedPoints}
+\end{class}
+\end{tikzpicture}
+
+\parBr
+
+\begin{tikzpicture}
+\begin{class}[text width = 0.5\textwidth]{Edge}{0 ,0}
+\attribute{Private points: Array[2] Point}
+\operation{Public HasPoints(Point point1, Point point2) \linebreak returns bool weather the edge has those points}
+\end{class}
+\end{tikzpicture}
+
+\parBr
+
+\begin{tikzpicture}
+\begin{class}[text width =0.6\textwidth]{Triangle}{0 ,0}
+\attribute{Private edges: Array[3] Edge}
+\attribute{Private points: Array[3] Point}
+\attribute{Private circumcenter: Vector2}
+\attribute{Private radius: float}
+\operation{Public Constructor(List<Triangle> triangulation, \linebreak Point point1, Point point2, Point point3) \smallBr}
+\operation{Public IsWithin(Point newPoint) \linebreak returns a bool if a point lies within a triangles circumcircle \smallBr}
+\operation{Private ContainsEdge(Edge edgeToCompare) \linebreak returns the edge if it already exists \smallBr}
+\operation{Private FindCircumcentre() \linebreak updates circumcenter \smallBr}
+\operation{Private FindRadius()\linebreak updates radius}
+\end{class}
+\end{tikzpicture}
+\end{center}
+
 \textbf{Pseudocode} \linebreak
 \textit{The pseudocode was taken from} \cite{BW_alg}
 \begin{lstlisting}

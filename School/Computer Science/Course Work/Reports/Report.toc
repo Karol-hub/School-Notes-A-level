@@ -43,14 +43,14 @@
 \contentsline {subsection}{\numberline {3.11}Success Criteria}{18}{}%
 \contentsline {section}{\numberline {4}Designing the Solution}{19}{}%
 \contentsline {paragraph}{Decomposition of the problem}{19}{}%
-\contentsline {paragraph}{Variables}{19}{}%
+\contentsline {paragraph}{Variables}{20}{}%
 \contentsline {subsection}{\numberline {4.1}Folder Set up}{20}{}%
 \contentsline {subsection}{\numberline {4.2}Main Menu}{20}{}%
 \contentsline {subsection}{\numberline {4.3}Dungeon Generation}{20}{}%
-\contentsline {subsubsection}{\numberline {4.3.1}Create Rooms}{20}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}Create Rooms}{21}{}%
 \contentsline {subsubsection}{\numberline {4.3.2}Spread rooms}{21}{}%
 \contentsline {subsubsection}{\numberline {4.3.3}Delaunay Triangulation}{22}{}%
-\contentsline {subsubsection}{\numberline {4.3.4}Remove random amount of edges}{23}{}%
-\contentsline {subsubsection}{\numberline {4.3.5}Make sure all rooms are accessible}{24}{}%
-\contentsline {section}{\numberline {5}Designing a solution}{26}{}%
-\contentsline {section}{\numberline {6}Evaluation}{26}{}%
+\contentsline {subsubsection}{\numberline {4.3.4}Remove random amount of edges}{24}{}%
+\contentsline {subsubsection}{\numberline {4.3.5}Make sure all rooms are accessible}{25}{}%
+\contentsline {section}{\numberline {5}Designing a solution}{27}{}%
+\contentsline {section}{\numberline {6}Evaluation}{27}{}%
