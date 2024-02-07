@@ -63,7 +63,7 @@ top = 20mm,
 \newpage
 
 \section{Abstract}
-I decided to create a game for my coursework. I had researched the market to influence my game to make it more appealing to the target audience. Creating the game was very challenging and challenged my understanding of c\#, and forced me to learn the language in greater detail, it also challenged the methods that I tend to favour when approaching a challenge forcing me to explore new ways of computational methods. I decided on a 2D rouge-like game with a heavy focus on melee combat and movement. For this I needed to make a character controller, dungeon generation algorithm, enemy AI and balanced items for the player. Each requiring it's own delicate calibration to make the game fun. 
+I decided to create a game for my coursework. I had researched the market to influence my game to make it more appealing to the target audience. Creating the game was very challenging and challenged my  limited understanding of c\#, and forced me to learn the language in greater detail, it also challenged the methods that I tend to favour when approaching a challenge forcing me to explore new ways of computational methods. I decided on a 2D rouge-like game with a heavy focus on melee combat and movement. For this I needed to make a character controller, dungeon generation algorithm, enemy AI and balanced items for the player. Each requiring it's own delicate calibration to make the game fun. 
 
 \section{Introduction}
 For my project I intend to create a 2D rouge like game which is focuses on melee combat. This game would be like Rain World with Celeste movement. I chose this style because there are few games which focus on melee combat and this would help it stand out amongst the other games, the rouge like aspect would allow every run to be unique and distinct. Allowing people to replay the game multiple times without getting bored.
@@ -84,7 +84,8 @@ The loot and map generation will be random meaning that the player cannot memori
 
 I plan for there to be different enemies that have different attack patterns that will not be entirely random meaning that the player can learn how to effectively defeat the enemy. The enemy difficulty will increase as the player progresses through the floors.
 
-\section{Computational Methods}
+\section{Analysis}
+\subsection{Computational Methods}
 Computational methods are computer-based methods which are used to solve problems. They are suitable for my project since I want to make an entertaining game. And I can accomplish this by creating features using the following methods.
 
 \parBr
@@ -123,9 +124,13 @@ Computational methods are computer-based methods which are used to solve problem
 
 \textbf{Pattern recognition} – It would be useful for the computer to recognize patterns as a certain pattern could be used as a condition for selection this could be useful as when the player attacks the computer could recognize this and react accordingly to make the fight interesting. Or it can be used in fighting games to make a move since in some games you can chain inputs to do a special attack.
 
-\section{Researching The Problem}
+\parBr
 
-\subsection{Risk of Rain 2}
+These computational methods are suitable for solving my problem because each problem can be broken down into smaller sections that are able to be solved by a machine. 
+
+\subsection{Researching The Problem}
+
+\subsubsection{Risk of Rain 2}
 
 \begin{figure}[h]
 \includegraphics[width=\linewidth]{ROR 2 ss}
@@ -180,29 +185,31 @@ Teens and older since the game contain blood, drug references and fantasy violen
 
 \paragraph{Good Qualities}
 \begin{itemize}
-\item The game is very beginner friendly and is enjoyable both alone and with friends.  
-\item The variety of items allows the player to replay the game with many different combinations and the game does not feel repetitive. The different ending makes the player want to experience them all.  
+\item The game is very beginner friendly because of the difficulty options provided.
+\item The variety of items allows the player to replay the game with many different combinations and the game does not feel repetitive. 
+\item The different ending makes the player want to experience them all.  
 \item The variety in character makes any play style suitable. 
-\item The game is never “too easy” since there are eclipse challenges which get progressively harder 
+\item The game is never “too easy” since there are eclipse challenges which get progressively harder
+\item The many secrets in the game allow insentiences the player to explore and solve puzzles to unlock new aspects of the game.
 \end{itemize}
 
 
 \paragraph{Bad Qualities}
 \begin{itemize}
-\item Once you loop a lot the game gets very chaotic and resource intensive because there are so many enemies with different attributes that can create lots of projectiles which slow down the game a lot.  
-\item Some things can kill you in one hit making death unavoidable in some cases. 
+\item Once you loop a lot the game gets very chaotic and resource intensive because there are so many enemies with different attributes that can create lots of projectiles that slow down the game a lot.  
+\item Some things can kill you in one hit making death unavoidable in some cases which can feel unfair. 
 \item Sometimes you get runs where you get no good items, and the game becomes a lot more difficult because of bad luck. 
 \end{itemize}
 
 
 \paragraph{What I would include}
 \begin{itemize}
-\item The variety in characters and the play styles that they allow 
-\item The different difficulties allowing the player to play at a level that their comfortable with 
+\item The variety in characters and the play styles that the game allows would allow my game to be playable by anyone.
+\item The different difficulties allowing the player to play at a level that their comfortable with, this would make the game approachable to anyone with any skill level.
 \end{itemize}
 
 
-\subsection{Celeste}
+\subsubsection{Celeste}
 \begin{figure}[h]
 \includegraphics[width=\linewidth]{Celeste ss}
 \caption{\cite{Celss} Celeste Screen shot}
@@ -229,27 +236,27 @@ Anyone as the game doesn't have any violent or difficult topics discussed, howev
 
 \paragraph{Good Qualities}
 \begin{itemize}
-\item Beating a room feels rewarding
-\item Caters who anyone who is willing to try it.
-\item The movement feels fun
-\item The movement feels consistent
+\item Beating a room feels rewarding and it makes the player want to continue playing.
+\item The movement is very simple which makes it easy for anyone to start.
+\item The movement feels fun due to the combinations with different  movement techniques. 
+\item The movement feels consistent, if you die it feels like it's your fault and not the game being unfair.
 \end{itemize}
 
 \paragraph{Bad Qualities}
 \begin{itemize}
-\item Getting stuck on one room can be very frustrating
-\item To progress far into the game you need to dedicate a lot of time and have a lot of skill
+\item Getting stuck on one room can be very frustrating.
+\item To progress far into the game you need to dedicate a lot of time and have a lot of skill.
 \end{itemize}
 
 \paragraph{What I would include}
 \begin{itemize}
-\item A similar art style 
-\item Similar movement system, but something that isn't as complicated so it doesn't overwhelm the player
+\item A similar art style, since the simple pixel art would be easier to implement than hand drawn characters.
+\item Similar movement system, but something that isn't as complicated so it doesn't overwhelm the player since I also want to add a combat system.
 \end{itemize}
 
 \pagebreak
 
-\subsection{Rain World}
+\subsubsection{Rain World}
 \begin{figure}[h]
 \includegraphics[width=\linewidth]{Rain world ss}
 \caption{\cite{RWss} Rain World Screen shot}
@@ -294,28 +301,27 @@ Anyone as it doesn't contain any graphic scenes or references to difficult topic
 
 \paragraph{Good Qualities}
 \begin{itemize}
-\item Game play is fun and keeps the player engaged
-\item Game has a high skill ceiling meaning there is always a way the player can improve 
+\item Game play is fun and keeps the player engaged due to the many things that the player can do.
+\item Game has a high skill ceiling meaning there is always a way the player can improve.
 \item Movement is incredibly fun and feels exceptionally smooth. 
 \item Lack of permanent upgrades makes the game focus on skill rather than items and unlocks.
-\item Completing a cycle if very rewarding.
-\item Player is treated as part of ecosystem rather than separate entity
+\item Completing a cycle is very rewarding.
+\item Player is treated as part of ecosystem rather than separate entity, meaning they are treated as every other enemy is by the other enemies which makes it feel more realistic.
 \end{itemize}
 
 \paragraph{Bad Qualities}
 \begin{itemize}
-\item Difficult to get into due to no tutorial
-\item Game is very unforgiving and a small mistake can result in the player getting killed
+\item Difficult to get into due to no tutorial, there is no way of knowing what to do when you start and the player has to figure it out for themselves, which can be enough to deter some players.
+\item Game is very unforgiving and a small mistake can result in the player getting killed and losing a lot of progress.
+\item The map is very large and the in game map system is very unreliable so it's often played with a map open on a separate tab or device.
 \end{itemize}
 
 \paragraph{What I would include}
 \begin{itemize}
-\item A similar combat system 
-\item Similar movement system
-\item Treating the player as part of the ecosystem
+\item A similar combat system, as it is simple but still fun and has lots of ways the player can express their skill.
+\item Treating the player as part of the ecosystem, as it makes the game feel more alive.
 \end{itemize}
 
-\section{Market Analysis}
 \subsection{Stakeholders}
 My game would be suited for people who have more experience with games, it will be suitable for any age over the age of twelve (might be a too violent for children under the age of twelve). A stakeholder would also be important as they could give me direct feedback for the game to improve it and make it a more enjoyable experience. They would play the game as they often play games as a source of entertainment the survey conducted in a later section shows what type of games people play and therefore would be willing to try.
 
@@ -331,7 +337,85 @@ Daniel Cabrel would also be a stakeholder as they are new to gaming therefore, I
 
 I have chosen these people since they are part of my target demographic and they will help me to make the game easy to pick up yet challenging.
 
-\subsection{Letter to Client}
+\subsection{Interview with Stakeholder}
+\begin{flushleft}
+I – Interviewer (Karol Jeziorczak) \linebreak
+S – Stakeholder (Ethan Armstrong) 
+\end{flushleft} 
+
+\parBr
+
+I: Everything you say here will be recorded and used for development of my game; however, it will not be shared with any unauthorized personnel and your data will protected under the GDPA 
+
+\parBr
+
+S: I understand and agree to these terms. 
+
+\parBr
+
+I: Question 1. What is the most important feature to you in a game? 
+
+\parBr
+
+S: Exploration is very important to me; I love finding out hidden mechanics and secrets. 
+
+\parBr
+
+I: Question 2. How important is difficulty scaling with progress to you? 
+
+\parBr
+
+S: It is important to make the game challenging as it will make it more fun to overcome. 
+
+\parBr
+
+I: Question 3. How often should there be boss fights? 
+
+\parBr
+
+S: A bit after a new mechanic gets introduced so I have time to get used to it however the boss fight will be a test to see if the player can use the gimmicks 
+
+\parBr
+
+I Question 4. What type of playstyle do you usually go for? 
+
+\parBr
+
+S: I usually go for a large health build with heavy weaponry 
+
+\parBr
+
+I: Question 5. Are there any specific features you would like to see? 
+
+\parBr
+
+S: I would like to see a power slide because it makes the game seem fast paced. 
+
+\parBr
+
+I: Question 6. What are some qualities of a good combat system? 
+
+\parBr
+
+S: Enemies not having insane amounts of health as it slows down the pace of the game and makes killing them seem like it takes too long. So, with melee weapons there should be more blocking and skill involved rather than just hitting enemies and them dying? 
+
+\parBr
+
+I: Question 7. What should the final boss look like? 
+
+\parBr
+
+S: The final boss should be an enemy foreshadowed by the previous environments that has different mechanics from the different bosses that combine them all into one where they need to be interchanged, with a satisfying dying animation for the final boss.  
+
+\parBr
+
+I: Question 8. How should the inventory management system work? 
+
+\parBr
+
+S: I think that there should be a very limited amount of inventory room so that management and planning become very important. Also, so that the focus of the game isn't shifted too much from the combat, as it is the main focus of the game. 
+
+\subsection{Letter to Stakeholder}
 %Paragraph 1 - Introduce yourself and coursework 
 %Paragraph 2 – why you have chosen them and what you need from them (interviews and game testing) 
 %Paragraph 3 – GDPR (General Data Protection Regulation), data protection explain how you will follow these rules 
@@ -457,82 +541,6 @@ Most people answered 2 so it would be important to make the skills distinct and 
 
 The majority wanted to have weapons that are picked up and not locked to a class therefore I will give each character a starting weapon and give them the ability to change this weapon if they wish to, allowing the player to experiment with different weapons that may suit their play style.
 
-\subsection{Interview with Stakeholder}
-I – Interviewer (Karol Jeziorczak) \linebreak
-S – Stakeholder (Ethan Armstrong) 
-
-\parBr
-
-I: Everything you say here will be recorded and used for development of my game; however, it will not be shared with any unauthorized personnel and your data will protected under the GDPA 
-
-\parBr
-
-S: I understand and agree to these terms. 
-
-\parBr
-
-I: Question 1. What is the most important feature to you in a game? 
-
-\parBr
-
-S: Exploration is very important to me; I love finding out hidden mechanics and secrets. 
-
-\parBr
-
-I: Question 2. How important is difficulty scaling with progress to you? 
-
-\parBr
-
-S: It is important to make the game challenging as it will make it more fun to overcome. 
-
-\parBr
-
-I: Question 3. How often should there be boss fights? 
-
-\parBr
-
-S: A bit after a new mechanic gets introduced so I have time to get used to it however the boss fight will be a test to see if the player can use the gimmicks 
-
-\parBr
-
-I Question 4. What type of playstyle do you usually go for? 
-
-\parBr
-
-S: I usually go for a large health build with heavy weaponry 
-
-\parBr
-
-I: Question 5. Are there any specific features you would like to see? 
-
-\parBr
-
-S: I would like to see a power slide because it makes the game seem fast paced. 
-
-\parBr
-
-I: Question 6. What are some qualities of a good combat system? 
-
-\parBr
-
-S: Enemies not having insane amounts of health as it slows down the pace of the game and makes killing them seem like it takes too long. So, with melee weapons there should be more blocking and skill involved rather than just hitting enemies and them dying? 
-
-\parBr
-
-I: Question 7. What should the final boss look like? 
-
-\parBr
-
-S: The final boss should be an enemy foreshadowed by the previous environments that has different mechanics from the different bosses that combine them all into one where they need to be interchanged, with a satisfying dying animation for the final boss.  
-
-\parBr
-
-I: Question 8. How should the inventory management system work? 
-
-\parBr
-
-S: I think that there should be a very limited amount of inventory room so that management and planning become very important. Also, so that the focus of the game isn't shifted too much from the combat, as it is the main focus of the game. 
-
 \subsection{Analysing Market}
 Steam does a hardware analysis on all of it's users every month so I will be able to make a game that will meet the requirements of the majority of players. So all the data in this section is taken from \cite{SHS}
 
@@ -560,7 +568,7 @@ Deciding which systems I will be able to support is going to be an important dec
 
 I intend to make a 2D game. These types of games don't tend to be resource intensive. The most important statistics in figure \ref{steam statistics} are system RAM, Intel CPU speeds (More players use Intel CPUs rather than AMD CPUs so this is a valid statistic to use), Physical CPUs, VRAM, Free Hard Disk Space (the ones with a red mark next to them). None of the statistics should be limiting for my project as they would be more important to consider for a 3D game using a fancy rendering system. However my game is 2D so it should be able to run smoothly on most devices.
 
-\section{System Requirements}
+\subsection{System Requirements}
 \paragraph{Minimum Hardware Requirements}
 \begin{itemize}
 \item Processor:   
@@ -588,22 +596,60 @@ Output devices:
 \item DirectX version: 12   
 \end{itemize}
 
-\section{Success Criteria}
+\subsection{Limitations}
+Compared to the large studios that produced the games that I researched I have a significant amount of limitations that could slow down the progress of my game development. Such as manpower as studios usually consist of many specialised and trained people. However I am trying to make a game on my own, this means I will need to do everything on my own, from game assets and art to audio design and code. This could be mitigated slightly by the free assets available online which would save me time as I don't have to create them myself.
+
+\parBr
+
+Another limitation is my knowledge and experience in developing games as I only have experience developing one small game for a game jam over the course of a couple days. The project was very limited and used GD script, whereas I would like to use c\# to develop my game. I could overcome  this by following tutorials and doing research to make myself more comfortable with developing my own methodology and ideas.
+
+\parBr
+
+I am also limited by time since there is a deadline I must reach so  I can't continuously develop the game over the course of a couple years. This can be less impactful with good time management and use of abstraction so that I can focus on the main points of the game when developing and spend less time on small features that will go unnoticed for the most part.
+
+\subsection{Essential Features}
+One essential feature is the user interface as it allows the user to navigate any menus and displays any important information to the player. The main menu is the first screen that a player would see therefore it is important to give a good  first impression and set the tone of the game and allows the user to start a game and customise their settings. The pause menu is also an important feature of the user interface as it allows the player to pause the game and customise their settings. These things are standard in most games so it would be good to implement it in my game. The HUD (Heads Up Display) is the only user interface that the user sees when they are in game, so it's important to keep it clean and out of the way as it will be overlayed on the users screen at all times. It will also be important to have it display the relevant information, such as the player's health, inventory, and possibly a timer. However not all players will want all of this information on screen at all times so it will be important for the HUD to be customizable to suit a player's needs.
+
+\parBr
+
+Audio is another key feature of games as audio queues can help players fight an enemy, or get feedback since they can hear the sound of their character getting hurt and immediately know that their health has went down without having to look at their health bar. Or when a hit from the player connects with an enemy they know that they damaged the enemy and it also adds to the user experience. This is observed in all the other games I researched, therefore it would be good to include. In game music also sets the tone of the game since if the game changes theme to a combat theme, the player can prepare for combat before the enemies show up.
+
+\parBr
+
+The type of gameplay that I will focus on can be split into two main sections, player combat and player movement. \linebreak
+Having a good combat system is important as the player will engage with it very often so it's important for it to feel responsive and fun. This could be done by having a variety of weapons that work well together with the movement system. \linebreak
+The movement system will be how the player traverses the level, so having a responsive and fun movement system will be important as the player will always be interacting with it. Allowing for the player to combine movement and combat would create a lot of combinations the player could discover and experiment with.
+
+\parBr
+
+Level generation will also be important as it creates the environment the player will experience the game in. So it needs to work well with the movement system for the levels to be easy to traverse through. Since if the player is unable to reach an important room that could hinder their progress in the game.  
+
+\subsection{Success Criteria}
 % SS of success Criteria
 \begin{easylist}
 # \large{\textbf{User Interface}}
 ## \textbf{Main Menu}
-### Does it have a new game button?
-### Does it have an options button?
-### Does it have a tutorial option?
-### Does it have a interesting background?
-### Does it have a quit game button?
-#### Does it ask you "are you sure"?
+### Does it have a new game button? \linebreak
+Allows the player to start the game.
+### Does it have an options button? \linebreak
+Allows the player to customise the game to suit them
+### Does it have a tutorial option? \linebreak
+Takes the player to a tutorial level where they can learn the game, important for new players who are playing for the first time.
+### Does it have a interesting background? \linebreak
+Gives a good first impression to the player when they open the game.
+### Does it have a quit game button? \linebreak
+Allows the player to close the game.
+#### Does it ask you "are you sure"? \linebreak
+Makes sure that the played didn't press the button by accident.
 ## \textbf{Pause Menu}
-### Does it pause the game?
-### Is there an options button?
-### Is there an exit to main menu button?
-#### Does it tell you "The current run will be ended"?
+### Does it pause the game? \linebreak
+Allows player to take a break if they need to.
+### Is there an options button? \linebreak
+Allows the player to change setting in game in case they need to.
+### Is there an exit to main menu button? \linebreak
+Allows the player to quit the current run and return to the main menu.
+#### Does it tell you "The current run will be ended"? \linebreak
+Makes sure the player didn't press this button by accident and occidentally quits their run
 ## \textbf{HUD (Heads Up Display)}
 ### Is there a health bar?
 ### Is there a current level box?
@@ -960,6 +1006,10 @@ else
 	//move onto the next stage of generation
 }
 \end{lstlisting}
+
+\section{Designing a solution}
+
+\section{Evaluation}
 \end{document}
 
 

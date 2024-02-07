@@ -1,24 +1,25 @@
 \contentsline {section}{\numberline {1}Abstract}{5}{}%
 \contentsline {section}{\numberline {2}Introduction}{5}{}%
-\contentsline {section}{\numberline {3}Computational Methods}{5}{}%
-\contentsline {section}{\numberline {4}Researching The Problem}{6}{}%
-\contentsline {subsection}{\numberline {4.1}Risk of Rain 2}{6}{}%
+\contentsline {section}{\numberline {3}Analysis}{5}{}%
+\contentsline {subsection}{\numberline {3.1}Computational Methods}{5}{}%
+\contentsline {subsection}{\numberline {3.2}Researching The Problem}{6}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Risk of Rain 2}{6}{}%
 \contentsline {paragraph}{Controls}{7}{}%
 \contentsline {paragraph}{Characters}{7}{}%
 \contentsline {paragraph}{Aim of the game}{7}{}%
 \contentsline {paragraph}{Target demographic}{7}{}%
-\contentsline {paragraph}{Good Qualities}{7}{}%
+\contentsline {paragraph}{Good Qualities}{8}{}%
 \contentsline {paragraph}{Bad Qualities}{8}{}%
 \contentsline {paragraph}{What I would include}{8}{}%
-\contentsline {subsection}{\numberline {4.2}Celeste}{8}{}%
-\contentsline {paragraph}{Controls}{8}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Celeste}{8}{}%
+\contentsline {paragraph}{Controls}{9}{}%
 \contentsline {paragraph}{Characters}{9}{}%
 \contentsline {paragraph}{Aim of the game}{9}{}%
 \contentsline {paragraph}{Target demographic}{9}{}%
 \contentsline {paragraph}{Good Qualities}{9}{}%
 \contentsline {paragraph}{Bad Qualities}{9}{}%
 \contentsline {paragraph}{What I would include}{9}{}%
-\contentsline {subsection}{\numberline {4.3}Rain World}{10}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Rain World}{10}{}%
 \contentsline {paragraph}{Controls}{10}{}%
 \contentsline {paragraph}{Characters}{10}{}%
 \contentsline {paragraph}{Aim of the game}{11}{}%
@@ -26,27 +27,30 @@
 \contentsline {paragraph}{Good Qualities}{11}{}%
 \contentsline {paragraph}{Bad Qualities}{11}{}%
 \contentsline {paragraph}{What I would include}{11}{}%
-\contentsline {section}{\numberline {5}Market Analysis}{11}{}%
-\contentsline {subsection}{\numberline {5.1}Stakeholders}{11}{}%
-\contentsline {subsection}{\numberline {5.2}Letter to Client}{12}{}%
-\contentsline {subsection}{\numberline {5.3}Questionnaire}{12}{}%
-\contentsline {paragraph}{Analysis}{12}{}%
-\contentsline {subsection}{\numberline {5.4}Interview with Stakeholder}{15}{}%
-\contentsline {subsection}{\numberline {5.5}Analysing Market}{16}{}%
+\contentsline {subsection}{\numberline {3.3}Stakeholders}{11}{}%
+\contentsline {subsection}{\numberline {3.4}Interview with Stakeholder}{12}{}%
+\contentsline {subsection}{\numberline {3.5}Letter to Stakeholder}{13}{}%
+\contentsline {subsection}{\numberline {3.6}Questionnaire}{13}{}%
+\contentsline {paragraph}{Analysis}{13}{}%
+\contentsline {subsection}{\numberline {3.7}Analysing Market}{16}{}%
 \contentsline {paragraph}{System OS Analysis}{16}{}%
-\contentsline {paragraph}{Hardware Analysis}{16}{}%
-\contentsline {section}{\numberline {6}System Requirements}{17}{}%
+\contentsline {paragraph}{Hardware Analysis}{17}{}%
+\contentsline {subsection}{\numberline {3.8}System Requirements}{17}{}%
 \contentsline {paragraph}{Minimum Hardware Requirements}{17}{}%
 \contentsline {paragraph}{Minimum Software Requirements}{17}{}%
-\contentsline {section}{\numberline {7}Success Criteria}{17}{}%
-\contentsline {section}{\numberline {8}Designing the Solution}{18}{}%
-\contentsline {paragraph}{Decomposition of the problem}{18}{}%
-\contentsline {paragraph}{Variables}{18}{}%
-\contentsline {subsection}{\numberline {8.1}Folder Set up}{19}{}%
-\contentsline {subsection}{\numberline {8.2}Main Menu}{19}{}%
-\contentsline {subsection}{\numberline {8.3}Dungeon Generation}{19}{}%
-\contentsline {subsubsection}{\numberline {8.3.1}Create Rooms}{19}{}%
-\contentsline {subsubsection}{\numberline {8.3.2}Spread rooms}{20}{}%
-\contentsline {subsubsection}{\numberline {8.3.3}Delaunay Triangulation}{21}{}%
-\contentsline {subsubsection}{\numberline {8.3.4}Remove random amount of edges}{22}{}%
-\contentsline {subsubsection}{\numberline {8.3.5}Make sure all rooms are accessible}{23}{}%
+\contentsline {subsection}{\numberline {3.9}Limitations}{18}{}%
+\contentsline {subsection}{\numberline {3.10}Essential Features}{18}{}%
+\contentsline {subsection}{\numberline {3.11}Success Criteria}{18}{}%
+\contentsline {section}{\numberline {4}Designing the Solution}{19}{}%
+\contentsline {paragraph}{Decomposition of the problem}{19}{}%
+\contentsline {paragraph}{Variables}{19}{}%
+\contentsline {subsection}{\numberline {4.1}Folder Set up}{20}{}%
+\contentsline {subsection}{\numberline {4.2}Main Menu}{20}{}%
+\contentsline {subsection}{\numberline {4.3}Dungeon Generation}{20}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}Create Rooms}{20}{}%
+\contentsline {subsubsection}{\numberline {4.3.2}Spread rooms}{21}{}%
+\contentsline {subsubsection}{\numberline {4.3.3}Delaunay Triangulation}{22}{}%
+\contentsline {subsubsection}{\numberline {4.3.4}Remove random amount of edges}{23}{}%
+\contentsline {subsubsection}{\numberline {4.3.5}Make sure all rooms are accessible}{24}{}%
+\contentsline {section}{\numberline {5}Designing a solution}{26}{}%
+\contentsline {section}{\numberline {6}Evaluation}{26}{}%

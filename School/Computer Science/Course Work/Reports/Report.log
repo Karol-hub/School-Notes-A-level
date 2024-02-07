@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.21)  6 FEB 2024 12:00
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.21)  7 FEB 2024 12:51
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -954,9 +954,9 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 {C:/Users/jezio/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 (Report.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <7> on input line 5.
+(Font)              <7> on input line 4.
 LaTeX Font Info:    External font `cmex10' loaded for size
-(Font)              <5> on input line 5.
+(Font)              <5> on input line 4.
 )
 \tf@toc=\write5
 \openout5 = `Report.toc'.
@@ -983,149 +983,143 @@ dia . org / wiki / Bowyer–Watson _
 
 [4{C:/Users/jezio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4-
 t1-0.enc}] [5]
-<./Images/ROR 2 ss.jpg, id=28, 602.25pt x 338.26375pt>
+<./Images/ROR 2 ss.jpg, id=29, 602.25pt x 338.26375pt>
 File: ./Images/ROR 2 ss.jpg Graphic file (type jpg)
 <use ./Images/ROR 2 ss.jpg>
-Package pdftex.def Info: ./Images/ROR 2 ss.jpg  used on input line 131.
+Package pdftex.def Info: ./Images/ROR 2 ss.jpg  used on input line 136.
 (pdftex.def)             Requested size: 483.69684pt x 271.68494pt.
  [6 <./Images/ROR 2 ss.jpg>] [7]
-<./Images/Celeste ss.jpg, id=38, 602.25pt x 338.26375pt>
+<./Images/Celeste ss.jpg, id=37, 602.25pt x 338.26375pt>
 File: ./Images/Celeste ss.jpg Graphic file (type jpg)
 <use ./Images/Celeste ss.jpg>
-Package pdftex.def Info: ./Images/Celeste ss.jpg  used on input line 207.
+Package pdftex.def Info: ./Images/Celeste ss.jpg  used on input line 214.
 (pdftex.def)             Requested size: 483.69684pt x 271.68494pt.
  [8 <./Images/Celeste ss.jpg>]
 [9]
 <./Images/Rain world ss.jpg, id=45, 602.25pt x 338.26375pt>
 File: ./Images/Rain world ss.jpg Graphic file (type jpg)
 <use ./Images/Rain world ss.jpg>
-Package pdftex.def Info: ./Images/Rain world ss.jpg  used on input line 254.
+Package pdftex.def Info: ./Images/Rain world ss.jpg  used on input line 261.
 (pdftex.def)             Requested size: 483.69684pt x 271.68494pt.
- [10 <./Images/Rain world ss.jpg>] [11]
-<./Images/Questionnaire Screenshot.png, id=52, 731.73375pt x 239.39438pt>
+ [10 <./Images/Rain world ss.jpg>] [11] [12]
+<./Images/Questionnaire Screenshot.png, id=55, 731.73375pt x 239.39438pt>
 File: ./Images/Questionnaire Screenshot.png Graphic file (type png)
 <use ./Images/Questionnaire Screenshot.png>
 Package pdftex.def Info: ./Images/Questionnaire Screenshot.png  used on input l
-ine 360.
+ine 444.
 (pdftex.def)             Requested size: 475.6213pt x 155.60449pt.
- [12 <./Images/Questionnaire Screenshot.png>] [13] [14] [15]
+ [13 <./Images/Questionnaire Screenshot.png>] [14] [15]
 <./Images/steamOSsurvey.png, id=67, 377.15906pt x 469.755pt>
 File: ./Images/steamOSsurvey.png Graphic file (type png)
 <use ./Images/steamOSsurvey.png>
-Package pdftex.def Info: ./Images/steamOSsurvey.png  used on input line 543.
+Package pdftex.def Info: ./Images/steamOSsurvey.png  used on input line 551.
 (pdftex.def)             Requested size: 193.47577pt x 240.97679pt.
-<./Images/steamSurvey.png, id=68, 876.27374pt x 346.29375pt>
+ [16 <./Images/steamOSsurvey.png>]
+<./Images/steamSurvey.png, id=72, 876.27374pt x 346.29375pt>
 File: ./Images/steamSurvey.png Graphic file (type png)
 <use ./Images/steamSurvey.png>
-Package pdftex.def Info: ./Images/steamSurvey.png  used on input line 556.
+Package pdftex.def Info: ./Images/steamSurvey.png  used on input line 564.
 (pdftex.def)             Requested size: 292.48985pt x 115.58772pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[16 <./Images/steamOSsurvey.png>] [17 <./Images/steamSurvey.png>] [18]
-<./Images/room layout.png, id=80, 709.90219pt x 413.29407pt>
+ [17 <./Images/steamSurvey.png>] [18] [19]
+<./Images/room layout.png, id=84, 709.90219pt x 413.29407pt>
 File: ./Images/room layout.png Graphic file (type png)
 <use ./Images/room layout.png>
-Package pdftex.def Info: ./Images/room layout.png  used on input line 713.
+Package pdftex.def Info: ./Images/room layout.png  used on input line 750.
 (pdftex.def)             Requested size: 166.15544pt x 96.73788pt.
-<./Images/room layout1.png, id=81, 588.69937pt x 523.9575pt>
+<./Images/room layout1.png, id=85, 588.69937pt x 523.9575pt>
 File: ./Images/room layout1.png Graphic file (type png)
 <use ./Images/room layout1.png>
-Package pdftex.def Info: ./Images/room layout1.png  used on input line 714.
+Package pdftex.def Info: ./Images/room layout1.png  used on input line 751.
 (pdftex.def)             Requested size: 108.6831pt x 96.73788pt.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-<./Images/sep_vecs_rects.png, id=82, 455.7025pt x 397.485pt>
+<./Images/sep_vecs_rects.png, id=86, 455.7025pt x 397.485pt>
 File: ./Images/sep_vecs_rects.png Graphic file (type png)
 <use ./Images/sep_vecs_rects.png>
-Package pdftex.def Info: ./Images/sep_vecs_rects.png  used on input line 725.
+Package pdftex.def Info: ./Images/sep_vecs_rects.png  used on input line 762.
 (pdftex.def)             Requested size: 241.84842pt x 210.95717pt.
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[19] [20 <./Images/room layout.png> <./Images/room layout1.png> <./Images/sep_v
+[20] [21 <./Images/room layout.png> <./Images/room layout1.png> <./Images/sep_v
 ecs_rects.png>]
 LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 7
-59.
+96.
 
 (C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 759.
-<./Images/rooms seperated.png, id=92, 649.67719pt x 356.0803pt>
+(Font)              scaled to size 10.0pt on input line 796.
+<./Images/rooms seperated.png, id=95, 649.67719pt x 356.0803pt>
 File: ./Images/rooms seperated.png Graphic file (type png)
 <use ./Images/rooms seperated.png>
-Package pdftex.def Info: ./Images/rooms seperated.png  used on input line 767.
+Package pdftex.def Info: ./Images/rooms seperated.png  used on input line 804.
 (pdftex.def)             Requested size: 176.49573pt x 96.73788pt.
-<./Images/spread rooms.png, id=93, 1014.79124pt x 647.41875pt>
+<./Images/spread rooms.png, id=96, 1014.79124pt x 647.41875pt>
 File: ./Images/spread rooms.png Graphic file (type png)
 <use ./Images/spread rooms.png>
-Package pdftex.def Info: ./Images/spread rooms.png  used on input line 768.
+Package pdftex.def Info: ./Images/spread rooms.png  used on input line 805.
 (pdftex.def)             Requested size: 151.6237pt x 96.73788pt.
-<./Images/deleted rooms.png, id=94, 964.35281pt x 672.26157pt>
+<./Images/deleted rooms.png, id=97, 964.35281pt x 672.26157pt>
 File: ./Images/deleted rooms.png Graphic file (type png)
 <use ./Images/deleted rooms.png>
-Package pdftex.def Info: ./Images/deleted rooms.png  used on input line 777.
+Package pdftex.def Info: ./Images/deleted rooms.png  used on input line 814.
 (pdftex.def)             Requested size: 208.15584pt x 145.11052pt.
-<./Images/deleted rooms1.png, id=95, 1169.11781pt x 715.17188pt>
+<./Images/deleted rooms1.png, id=98, 1169.11781pt x 715.17188pt>
 File: ./Images/deleted rooms1.png Graphic file (type png)
 <use ./Images/deleted rooms1.png>
-Package pdftex.def Info: ./Images/deleted rooms1.png  used on input line 778.
+Package pdftex.def Info: ./Images/deleted rooms1.png  used on input line 815.
 (pdftex.def)             Requested size: 237.20888pt x 145.11052pt.
 
-[21{C:/Users/jezio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
+[22{C:/Users/jezio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
 -ts1.enc} <./Images/rooms seperated.png> <./Images/spread rooms.png> <./Images/
 deleted rooms.png> <./Images/deleted rooms1.png>]
-<./Images/rooms deluaney triangulation just edges.png, id=104, 1077.27469pt x 7
+<./Images/rooms deluaney triangulation just edges.png, id=107, 1077.27469pt x 7
 19.68875pt>
 File: ./Images/rooms deluaney triangulation just edges.png Graphic file (type p
 ng)
 <use ./Images/rooms deluaney triangulation just edges.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation just edges.png  
-used on input line 818.
+used on input line 855.
 (pdftex.def)             Requested size: 193.47577pt x 129.25285pt.
-<./Images/rooms deluaney triangulation.png, id=105, 1077.27469pt x 719.68875pt>
+<./Images/rooms deluaney triangulation.png, id=108, 1077.27469pt x 719.68875pt>
 
 File: ./Images/rooms deluaney triangulation.png Graphic file (type png)
 <use ./Images/rooms deluaney triangulation.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation.png  used on inp
-ut line 819.
+ut line 856.
 (pdftex.def)             Requested size: 193.47577pt x 129.25285pt.
-<./Images/rooms deluaney triangulation stress test.png, id=106, 1343.77031pt x 
+<./Images/rooms deluaney triangulation stress test.png, id=109, 1343.77031pt x 
 761.09344pt>
 File: ./Images/rooms deluaney triangulation stress test.png Graphic file (type 
 png)
 <use ./Images/rooms deluaney triangulation stress test.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation stress test.png 
- used on input line 820.
+ used on input line 857.
 (pdftex.def)             Requested size: 193.47577pt x 109.57182pt.
-<./Images/deluaney triangulation stress test.png, id=107, 1343.77031pt x 761.09
+<./Images/deluaney triangulation stress test.png, id=110, 1343.77031pt x 761.09
 344pt>
 File: ./Images/deluaney triangulation stress test.png Graphic file (type png)
 <use ./Images/deluaney triangulation stress test.png>
 Package pdftex.def Info: ./Images/deluaney triangulation stress test.png  used 
-on input line 821.
+on input line 858.
 (pdftex.def)             Requested size: 193.47577pt x 109.57182pt.
- [22 <./Images/rooms deluaney triangulation just edges.png> <./Images/rooms del
+ [23 <./Images/rooms deluaney triangulation just edges.png> <./Images/rooms del
 uaney triangulation.png> <./Images/rooms deluaney triangulation stress test.png
 > <./Images/deluaney triangulation stress test.png>]
-<./Images/deleted edges no rooms.png, id=115, 1038.88126pt x 735.49782pt>
+<./Images/deleted edges no rooms.png, id=118, 1038.88126pt x 735.49782pt>
 File: ./Images/deleted edges no rooms.png Graphic file (type png)
 <use ./Images/deleted edges no rooms.png>
 Package pdftex.def Info: ./Images/deleted edges no rooms.png  used on input lin
-e 854.
+e 891.
 (pdftex.def)             Requested size: 193.47577pt x 136.97401pt.
-<./Images/deleted edges.png, id=116, 1038.88126pt x 735.49782pt>
+<./Images/deleted edges.png, id=119, 1038.88126pt x 735.49782pt>
 File: ./Images/deleted edges.png Graphic file (type png)
 <use ./Images/deleted edges.png>
-Package pdftex.def Info: ./Images/deleted edges.png  used on input line 855.
+Package pdftex.def Info: ./Images/deleted edges.png  used on input line 892.
 (pdftex.def)             Requested size: 193.47577pt x 136.97401pt.
- [23 <./Images/deleted edges no rooms.png> <./Images/deleted edges.png>] [24] [
-25] (Report.aux)
+ [24 <./Images/deleted edges no rooms.png> <./Images/deleted edges.png>] [25] [
+26] (Report.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1153,9 +1147,9 @@ ts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\jezio\AppData\Local\MiKT
 eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\jezio\AppData\Loca
 l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/jezio/AppData
 /Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pfb>
-Output written on Report.pdf (25 pages, 640131 bytes).
+Output written on Report.pdf (26 pages, 642941 bytes).
 PDF statistics:
- 489 PDF objects out of 1000 (max. 8388607)
+ 493 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  108 words of extra memory for PDF output out of 10000 (max. 10000000)
 
