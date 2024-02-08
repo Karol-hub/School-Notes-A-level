@@ -60,8 +60,6 @@ top = 20mm,
 \newpage
 \listoffigures
 \newpage
-\printbibliography
-\newpage
 
 \section{Abstract}
 I decided to create a game for my coursework. I had researched the market to influence my game to make it more appealing to the target audience. Creating the game was very challenging and challenged my  limited understanding of c\#, and forced me to learn the language in greater detail, it also challenged the methods that I tend to favour when approaching a challenge forcing me to explore new ways of computational methods. I decided on a 2D rouge-like game with a heavy focus on melee combat and movement. For this I needed to make a character controller, dungeon generation algorithm, enemy AI and balanced items for the player. Each requiring it's own delicate calibration to make the game fun. 
@@ -570,32 +568,35 @@ Deciding which systems I will be able to support is going to be an important dec
 I intend to make a 2D game. These types of games don't tend to be resource intensive. The most important statistics in figure \ref{steam statistics} are system RAM, Intel CPU speeds (More players use Intel CPUs rather than AMD CPUs so this is a valid statistic to use), Physical CPUs, VRAM, Free Hard Disk Space (the ones with a red mark next to them). None of the statistics should be limiting for my project as they would be more important to consider for a 3D game using a fancy rendering system. However my game is 2D so it should be able to run smoothly on most devices.
 
 \subsection{System Requirements}
+All the requirements are taken from \cite{spec}, the official Godot 4 documentation.
 \paragraph{Minimum Hardware Requirements}
 \begin{itemize}
-\item Processor:   
-\item Graphics Card:   
-\item Memory:   
-\item Storage:   
+\item Processor: x86\_32 CPU with SSE2 instructions, or any x86\_64 CPU 
+\item Graphics Card: Integrated graphics with full Vulkan 1.0 support 
+\item Memory: 2GB
+\item Storage: Fill out when done
 \item Sound Card: yes
 \end{itemize}
 
-Input devices:
+\paragraph{Input devices:}
 \begin{itemize}
-\item Keyboard – allows you to input characters 
+\item Keyboard – allows you to input characters
 \item Mouse – Inputs 2D vector coordinate for mouse position 
 \end{itemize}
+The input devices allow the user to input signals that the computer to process and adjust accordingly based on the inputs provided.
 
-Output devices:
+\paragraph{Output devices:}
 \begin{itemize}
 \item Display – Outputs image 
 \item Speakers – Outputs sound 
 \end{itemize}
+An example of visualisation since the raw data is presented in a way that the user can comprehend. It also allows them to understand what is happening in the game and feedback on any inputs given.
 
 \paragraph{Minimum Software Requirements}
 \begin{itemize}
-\item OS: Windows 10+   
-\item DirectX version: 12   
+\item OS: Windows 7+
 \end{itemize}
+
 
 \subsection{Limitations}
 Compared to the large studios that produced the games that I researched I have a significant amount of limitations that could slow down the progress of my game development. Such as manpower as studios usually consist of many specialised and trained people. However I am trying to make a game on my own, this means I will need to do everything on my own, from game assets and art to audio design and code. This could be mitigated slightly by the free assets available online which would save me time as I don't have to create them myself.
@@ -626,7 +627,9 @@ The movement system will be how the player traverses the level, so having a resp
 Level generation will also be important as it creates the environment the player will experience the game in. So it needs to work well with the movement system for the levels to be easy to traverse through. Since if the player is unable to reach an important room that could hinder their progress in the game.  
 
 \subsection{Success Criteria}
-% SS of success Criteria
+% split each point into wants and needs
+% wants is optional
+% needs is manditory
 \begin{easylist}
 # \large{\textbf{User Interface}}
 ## \textbf{Main Menu}
@@ -648,15 +651,20 @@ Allows player to take a break if they need to. \smallBr
 ### Is there an options button? \linebreak
 Allows the player to change setting in game in case they need to. \smallBr
 ### Is there an exit to main menu button? \linebreak
-Allows the player to quit the current run and return to the main menu.
+Allows the player to quit the current run and return to the main menu. \smallBr
 #### Does it tell you "The current run will be ended"? \linebreak
-Makes sure the player didn't press this button by accident and occidentally quits their run
+Makes sure the player didn't press this button by accident and occidentally quits their run \smallBr
 ## \textbf{HUD (Heads Up Display)}
-### Is there a health bar?
-### Is there a current level box?
-### Is there a timer?
-### Are there small indicators for status effects?
-### Is the HUD customisable?
+### Is there a health bar? \linebreak
+Allows player to see their health \smallBr
+### Is there a current level box? \linebreak
+Allows player to see which stage their on \smallBr
+### Is there a timer? \linebreak
+Allows player to see how long the run has lasted \smallBr
+### Are there small indicators for status effects? \linebreak
+Allows player to see if they are affected by and de-buffs/buffs \smallBr
+### Is the HUD customisable? \linebreak
+Allows player to adjust HUD to their need \smallBr
 ## \textbf{Inventory}
 ### Can you drop items?
 ### Are there item slots?
@@ -1051,6 +1059,9 @@ else
 \section{Designing a solution}
 
 \section{Evaluation}
+
+\newpage
+\printbibliography
 \end{document}
 
 
