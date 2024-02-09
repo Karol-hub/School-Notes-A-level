@@ -8,12 +8,14 @@
         "type": "tabs",
         "children": [
           {
-            "id": "3d7cbb418715a4cc",
+            "id": "f48a97bb218f5da7",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "School/Computer Science/Course Work/A-star example/Analysis.pdf"
+                "file": "School/Maths/Notes/Test/Maths 2024 Mock Mistakes.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
@@ -102,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Computer Science/Course Work/A-star example/Analysis.pdf",
+                "file": "School/Maths/Notes/Test/Maths 2024 Mock Mistakes.md",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -119,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Computer Science/Course Work/A-star example/Analysis.pdf",
+                "file": "School/Maths/Notes/Test/Maths 2024 Mock Mistakes.md",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -131,7 +133,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Computer Science/Course Work/A-star example/Analysis.pdf"
+                "file": "School/Maths/Notes/Test/Maths 2024 Mock Mistakes.md"
               }
             }
           },
@@ -175,8 +177,11 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "3d7cbb418715a4cc",
+  "active": "f48a97bb218f5da7",
   "lastOpenFiles": [
+    "School/Maths/Notes/Test/Maths 2024 Mock Mistakes.md",
+    "School/Maths/Notes/Test",
+    "School/Computer Science/Course Work/A-star example/Analysis.pdf",
     "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
     "Life/Crochet/Links for patterns.md",
     "Life/Crochet/Junimo_Amigurumi_by_icrochetthings.pdf",
@@ -190,8 +195,6 @@
     "School/Maths/Notes/Pure/Year 2/9 Differentiation.md",
     "Life/Cheat Sheets/latexsheet.pdf",
     "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation just edges.png.0.pdnSave",
-    "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation.png.0.pdnSave",
-    "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation stress test.png.0.pdnSave",
     "School/Computer Science/Course Work/Reports/Images/deleted rooms1.png",
     "School/Computer Science/Course Work/Reports/Images/deleted rooms.png",
     "School/Computer Science/Course Work/Reports/Images/spread rooms.png",
