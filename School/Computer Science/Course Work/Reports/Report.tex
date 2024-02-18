@@ -3,7 +3,7 @@
 \usepackage{wrapfig}
 \usepackage{geometry}
 \usepackage{tikz}
-\usetikzlibrary{shapes.geometric, arrows}
+\usetikzlibrary{shapes, arrows}
 \usepackage{pgf-pie}
 \usepackage[backend=bibtex,style=alphabetic,sorting=ynt]{biblatex}
 \usepackage[sharp]{easylist}
@@ -49,6 +49,7 @@ top = 20mm,
 \newcommand{\parBr}{\vspace{5mm}}%5mm vertical space
 \newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\} %line break after paragraph declared
 \newcommand{\smallBr}{\vspace{1.5mm}}
+\newcommand{\mycomment}[1]{}
 
 \begin{document}
 \title{Computer Science \\ Advanced GCE H447 \\ Unit F453 \\[2\baselineskip]}
@@ -726,6 +727,7 @@ These will be in the form of buttons that the user can click on.
 
 \parBr
 
+\mycomment{
 % idk some flowchart or something
 \begin{center}
 \begin{tikzpicture}[node distance=2cm]
@@ -743,18 +745,21 @@ These will be in the form of buttons that the user can click on.
 \draw [arrow] (in2) -- (in1);
 \end{tikzpicture}
 \end{center}
+}
 
 \subsection{Dungeon Generation}
 The Generation algorithm that I used is a modified version of the algorithm used in {\cite{Gen_Alg}}. The stages I used can be summarised with the key points:
 \begin{itemize}
 \item{Create rooms}
 \item{Spread rooms}
+\item{Delete rooms}
 \item{Delaunay triangulation}
 \item{Remove random amount of edges}
 \item{Make sure all rooms are accessible}
 \item{Turn edges into horizontal and vertical}
 \item{Generate corridors}
 \item{Turn into tile map}
+\item{Spawn player}
 \end{itemize}
 Some other miscellaneous algorithms used in generation
 \begin{itemize}
@@ -776,14 +781,48 @@ Begin with generating a defined amount of rooms. Rooms are pre-made layouts that
 Once all the rooms are all generated in a confined area they need to be spread out until they are no longer overlapping. To separate the rooms I iterated through each room object and check it for overlapping areas. I found the difference in positions to get the vector of the room relative to the original room being considered, using this I can find the direction that the room should be moved in. This idea was taken from \cite{Dis_Alg}
 
 \begin{figure}[h]
-\centering
+\begin{center}
 \includegraphics[width = 0.5\textwidth]{sep_vecs_rects}
 \caption{\cite{Dis_Alg} Room Movement Direction}
+\end{center}
 \label{Room Movement Direction}
 \end{figure}
 
 The only major difference in the way that I implemented was that I multiplied the vector by the reciprocal of the magnitude, this would make it so that when there is a colliding room closer to the room being considered it's effect on the displacement of the room is much greater than if it was far from the center of the room
-\linebreak
+
+\begin{figure}
+\centering
+\begin{tikzpicture}[node distance=6cm, every node/.style={font=\small}]
+
+% Nodes
+\node (start) [draw, rounded corners, align=center, startstop] {Start};
+\node (init) [below of=start, align=center, process, yshift = 4cm] {counter for \\ all rooms};
+\node (loop1) [below of=init, align=center, decision, yshift = 2.5cm] {Iterate over \\ all rooms generated};
+\node (overlap) [below of=loop1, align=center, decision, yshift = 0.5cm] {if room.HasOverlappingAreas()};
+\node (calc) [below of=overlap, align=center, process, yshift = 2cm] {Calculate \\ direction};
+\node (update) [below of=calc, align=center, process, yshift = 2cm] {Update \\ room position};
+\node (increment) [right of=overlap, xshift=2cm, align=center, process] {counter += 1};
+\node (check) [below of=increment, align=center, decision, yshift = 2cm] {if counter == \\ amountOfRooms};
+\node (end) [below of=check, align=center, draw, rounded corners, startstop, yshift = 2cm] {End};
+
+% Arrows
+\draw [->] (start) -- (init);
+\draw [->] (init) -- (loop1);
+\draw [->] (loop1) -- (overlap);
+\draw [->] (overlap) -- node[anchor=east] {yes} (calc);
+\draw [->] (overlap) -- node[anchor=south] {no} (increment);
+\draw [->] (calc) -- (update);
+\draw [->] (update.west) |- (-4, -19) -- (-4, -5.5)  -- (loop1.west);
+\draw [->] (increment) -- (check);
+\draw [->] (check) -- node[anchor=east] {yes} (end);
+\draw [->] (check.east) -| node[anchor=west, pos=1] {no} ++(0cm,5cm) |- (loop1);
+
+\end{tikzpicture}
+\caption{Flowchart for spreading rooms}
+\label{fig:fc sep rooms}
+\end{figure}
+\pagebreak
+
 \textbf{Pseudocode}
 \begin{lstlisting}
 //this piece of code is called every frame until it develops as solution
@@ -827,6 +866,35 @@ Once complete a result typically looks as such
 
 After this process a pre-defined amount of rooms are deleted so that there are gaps in between the rooms, removing 60\% of the rooms works well. On top of this the position of each room is multiplied by 2 to spread the rooms further
 
+\subsubsection{Delete Rooms}
+The rooms being too close together means that all the corridors will be short and it will be uneventful. Therefore deleting a certain percentage of rooms will make the level more interesting for the player as they will be spread unevenly. To spread the rooms apart further without having to generate more rooms and deleter them we can also multiply the position of each room to spread them apart further. This will make the algorithm more efficient because the program doesn't need to generate more rooms to get the same effect.
+\linebreak \linebreak
+
+\begin{figure}[h]
+  \centering
+  \begin{tikzpicture}[node distance=2cm, align=center]
+    \node (start) [startstop] {Start};
+    \node (forloop) [process, below of=start] {for (int)amountOfRooms * deletingRoomsFactor};
+    \node (removechild) [process, below of=forloop] {RemoveChild(random child);};
+    \node (end) [startstop, below of=removechild] {End};
+    
+    \draw [arrow] (start) -- (forloop);
+    \draw [arrow] (forloop) -- (removechild);
+    \draw [arrow] (removechild) -- (end);
+    \draw [arrow] (removechild.west) -- ++(-2,0) node[anchor=east, yshift=1cm] {Loop back} -- ++(0,2) -- (forloop.west);
+  \end{tikzpicture}
+  \caption{Flowchart for deleting rooms}
+  \label{deleting flowchart}
+\end{figure}
+
+\textbf{Pseudocode}
+\begin{lstlisting}
+for (int)(amountOfRooms * deletingRoomsFactor);
+{
+    RemoveChild(random child);
+}
+\end{lstlisting}
+
 \begin{figure}[h]
 \centering
 \includegraphics[height = 0.3\textwidth]{deleted rooms}
@@ -838,6 +906,7 @@ After this process a pre-defined amount of rooms are deleted so that there are g
 \subsubsection{Delaunay Triangulation}
 The algorithm used in this section was taken from \cite{BW_alg}(Bowyer–Watson algorithm). For the algorithm to function I needed a data structure for points, which link the Area2D, position and a list of points which the point is connected to. Edges are an array of two points which represents a connection between two points. Triangles are an array of three edges and hence three points, from these a circumcircle can be drawn, which is important for the Bowyer-Watson algorithm, this is represented as a vector2 storing the circumcentre and a float for the radius.
 \linebreak
+\begin{figure}
 \begin{center}
 \begin{tikzpicture}
 \begin{class}[text width = 0.5\textwidth]{Point}{0 ,0}
@@ -877,6 +946,46 @@ The algorithm used in this section was taken from \cite{BW_alg}(Bowyer–Watson 
 \end{class}
 \end{tikzpicture}
 \end{center}
+\caption{Bowyer-Watson Classes}
+\label{bw class}
+\end{figure}
+
+
+\begin{figure}
+\centering
+\begin{tikzpicture}[node distance=2cm, auto]
+
+% Nodes
+\node (start) [startstop] {Start};
+\node (init) [process, below of=start] {Initialize triangulation};
+\node (addSuperTriangle) [process, below of=init] {Add super-triangle};
+\node (loopStart) [process, below of=addSuperTriangle] {Loop over each point};
+\node (findBadTriangles) [process, below of=loopStart] {Find bad triangles};
+\node (findPolygon) [process, below of=findBadTriangles] {Find polygonal hole};
+\node (removeBadTriangles) [process, below of=findPolygon] {Remove bad triangles};
+\node (retriangulate) [process, below of=removeBadTriangles] {Re-triangulate hole};
+\node (cleanUp) [process, below of=retriangulate] {Clean up triangulation};
+\node (stop) [startstop, below of=cleanUp] {Stop};
+
+% Arrows
+\draw [arrow] (start) -- (init);
+\draw [arrow] (init) -- (addSuperTriangle);
+\draw [arrow] (addSuperTriangle) -- (loopStart);
+\draw [arrow] (loopStart) -- (findBadTriangles);
+\draw [arrow] (findBadTriangles) -- (findPolygon);
+\draw [arrow] (findPolygon) -- (removeBadTriangles);
+\draw [arrow] (removeBadTriangles) -- (retriangulate);
+\draw [arrow] (retriangulate) -- (cleanUp);
+\draw [arrow] (cleanUp) -- (stop);
+
+% Loop back arrow
+\draw [arrow] (cleanUp.east) -- ++(2.5,0) |- (loopStart.east);
+
+\end{tikzpicture}
+\caption{Bowyer-Watson Algorithm Flowchart}
+\label{fig:bowyer_watson_flowchart}
+\end{figure}
+\pagebreak
 
 \textbf{Pseudocode} \linebreak
 \textit{The pseudocode was taken from} \cite{BW_alg}
@@ -924,7 +1033,40 @@ Figure \ref{bwa result} shows the result of the algorithm, however this many cor
 \parBr
 
 Currently the mesh is stored as a list of edges. So to remove a certain amount I can make a copy of the list and then remove a random amount of edges. However C\# passes the list by reference so any alterations on the copy of the list will also alter the original. Therefore I made a new empty list and added a random amount of edges from the original list.
-\linebreak
+
+\pagebreak
+
+\begin{figure}
+    \centering
+    \begin{tikzpicture}[node distance=2cm, every node/.style={font=\small}, align=center]
+    % Nodes
+    \node (start) [startstop] {Start};
+    \node (init) [process, below of=start] {Initialize variables};
+    \node (loopStart) [process, below of=init] {Loop until edgeList size is reached};
+    \node (generateRandomIndex) [process, below of=loopStart] {Generate random index};
+    \node (checkDuplicate) [decision, below of=generateRandomIndex, yshift=-1.5cm] {Index not in indexList?};
+    \node (addEdgeToList) [process, below of=checkDuplicate, yshift=-1.5cm] {Add edge to edgeList and \\ index to indexList};
+    \node (loopEnd) [process, below of=addEdgeToList] {Loop end};
+    \node (del) [process, below of=loopEnd] {remove all edges \\ inedexes in indexList};
+    \node (stop) [startstop, below of=del] {Stop};
+    
+    % Arrows
+    \draw [arrow] (start) -- (init);
+    \draw [arrow] (init) -- (loopStart);
+    \draw [arrow] (loopStart) -- (generateRandomIndex);
+    \draw [arrow] (generateRandomIndex) -- (checkDuplicate);
+    \draw [arrow] (checkDuplicate) -- node[anchor=east] {No} (addEdgeToList);
+    \draw [arrow] (checkDuplicate.west) -- ++(-1.5,0) |- node[anchor=east] {Yes} (generateRandomIndex.west);
+    \draw [arrow] (addEdgeToList) -- (loopEnd);
+    \draw [arrow] (loopEnd.east) -- ++(2.5,0) |- (loopStart.east);
+    \draw [arrow] (loopEnd) -- (del);
+    \draw [arrow] (del) -- (stop);
+
+    \end{tikzpicture}
+    \caption{Flowchart for Edge Deletion Algorithm}
+    \label{fig:edge-deletion}
+\end{figure}
+
 \textbf{Pseudocode}
 \begin{lstlisting}
 float edgeDeletingFactor; //number between 0-1 representing how much edges to keep
@@ -944,7 +1086,7 @@ while (edgeList.Count() < (int)(polygon.Count()* edgeDeletingFactor))
 }
 \end{lstlisting}
 \parBr
-\begin{figure}[h]
+\begin{figure}
 \centering
 \includegraphics[width = 0.4\textwidth]{deleted edges no rooms}
 \includegraphics[width = 0.4\textwidth]{deleted edges}
@@ -1056,7 +1198,78 @@ else
 }
 \end{lstlisting}
 
-\section{Designing a solution}
+\subsubsection{Turn edges into horizontal and vertical}
+The movement system isn't optimised for edges that are angled in such obscure ways as seen in figure \ref{deleting edges result}. Therefore it's important to change the edges into it's vertical and horizontal components to make the level more traversable for the player. Originally I was going to create an advanced network to connect all the points in the most efficient way possible, but looking at how long it took me to implement delaunay triangulation I decided against it as it would take too long. So instead I created an algorithm that generates all possibilities to make sure all rooms are accessible.
+
+\begin{figure}[h]
+\centering
+\includegraphics[width = 0.6\textwidth]{point possibilities}
+\caption{All possibilities for points}
+\label{point possibilities}
+\end{figure}
+
+The green dotted lines in figure \ref{point possibilities} shows where the new edges would be placed when they are replacing the old red edges. This does mean that each edge creates 4 new edges that will likely overlap with other edges, however once this is turned into a tilemap this isn't a problem as all these objects will be deleted.
+
+\pagebreak
+\textbf{Flowchart}
+\begin{figure}
+  \centering
+  \begin{tikzpicture}[node distance=2cm, align=center]
+    \node (start) [startstop] {Start};
+    \node (forloop) [process, below of=start] {for each edge in polygonEdgeList};
+    \node (getpoints) [process, below of=forloop] {Take points form the edge};
+    \node (newpoints) [process, below of=getpoints] {New points using X coord of \\ one point and Y coord of other};
+    \node (updatepoints) [process, below of=newpoints] {Update positions of new points};
+    \node (addedges) [process, below of=updatepoints] {Add new points to a list of edges };
+    \node (end) [startstop, below of=addedges] {End};
+    
+    \draw [arrow] (start) -- (forloop);
+    \draw [arrow] (forloop) -- (getpoints);
+    \draw [arrow] (getpoints) -- (newpoints);
+    \draw [arrow] (newpoints) -- (updatepoints);
+    \draw [arrow] (updatepoints) -- (addedges);
+    \draw [arrow] (addedges.west) --++(-2,0) --++(0,8)  node[anchor=east, yshift=-4cm] {Loop back} -- (forloop.west);
+    \draw [arrow] (addedges) -- (end);
+  \end{tikzpicture}
+  \caption{Flowchart for the given pseudocode}
+  \label{fig:pseudocode-flowchart}
+\end{figure}
+
+\textbf{Pseudocode}
+\begin{lstlisting}
+polygon = new list of edges
+//polygonEdgeList is a list of Edges from previous section
+for each edge in polygonEdgeList
+{
+	//take position from points in edge in list
+    Point point1 = edge.points[0];
+    Point point2 = edge.points[1];
+    //new temp point with no values
+    Point newPoint1 = new Point(null);
+    Point newPoint2 = new Point(null);
+    newPoint1.AlterPos(new Vector2(point1.position.X, point2.position.Y));
+    newPoint2.AlterPos(new Vector2(point2.position.X, point1.position.Y));
+    //all possible paths made and stored in new list of edges (polygon)
+    polygon.Add(new Edge(point1, newPoint1));
+    polygon.Add(new Edge(point2, newPoint1));
+    polygon.Add(new Edge(point1, newPoint2));
+    polygon.Add(new Edge(point2, newPoint2));
+}
+\end{lstlisting}
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.6\textwidth]{coridoors and edges}
+\caption{Before (pink) and after algorithm (green)}
+\label{ba coridoors and edges}
+\end{figure}
+The pink lines are the edges before the rooms were generated. The green boxes are the result of this algorithm plus the generate corridors algorithm but it shows the algorithm well so it's included in this section.
+
+\subsubsection{Generate corridors}
+
+\subsubsection{Turn into tile map}
+
+\subsubsection{Spawn player}
 
 \section{Evaluation}
 

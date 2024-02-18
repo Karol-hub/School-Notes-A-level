@@ -54,17 +54,6 @@
     \endverb
   \endentry
 
-  \entry{spec}{misc}{}
-    \field{labeltitlesource}{title}
-    \field{labelalpha}{Spe}
-    \field{sortinit}{9}
-    \field{sortinithash}{9}
-    \field{title}{Godot Engine System Requirements}
-    \verb{url}
-    \verb https://www.pcgamebenchmark.com/godot-engine-system-requirements
-    \endverb
-  \endentry
-
   \entry{Gen_Alg}{misc}{}
     \field{labeltitlesource}{title}
     \field{labelalpha}{Gen}
@@ -111,6 +100,18 @@
     \verb{url}
     \verb https://store.steampowered.com/hwsurvey/Steam-Hardware-Software-Surve
     \verb y-Welcome-to-Steam
+    \endverb
+  \endentry
+
+  \entry{spec}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Spe}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
+    \field{title}{System requirements}
+    \verb{url}
+    \verb https://docs.godotengine.org/en/stable/about/system_requirements.html
+    \verb #exported-godot-project
     \endverb
   \endentry
 \enddatalist
