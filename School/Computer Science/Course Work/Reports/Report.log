@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.5)  19 FEB 2024 19:18
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.5)  19 FEB 2024 19:27
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1035,50 +1035,49 @@ File: ./Images/steamSurvey.png Graphic file (type png)
 Package pdftex.def Info: ./Images/steamSurvey.png  used on input line 564.
 (pdftex.def)             Requested size: 292.48985pt x 115.58772pt.
 
-[16 <./Images/steamSurvey.png>] [17] [18]
-<./Images/room layout.png, id=77, 709.90219pt x 413.29407pt>
+[16 <./Images/steamSurvey.png>] [17] [18] [19]
+<./Images/room layout.png, id=81, 709.90219pt x 413.29407pt>
 File: ./Images/room layout.png Graphic file (type png)
 <use ./Images/room layout.png>
-Package pdftex.def Info: ./Images/room layout.png  used on input line 773.
+Package pdftex.def Info: ./Images/room layout.png  used on input line 774.
 (pdftex.def)             Requested size: 166.15544pt x 96.73788pt.
-<./Images/room layout1.png, id=78, 588.69937pt x 523.9575pt>
+<./Images/room layout1.png, id=82, 588.69937pt x 523.9575pt>
 File: ./Images/room layout1.png Graphic file (type png)
 <use ./Images/room layout1.png>
-Package pdftex.def Info: ./Images/room layout1.png  used on input line 774.
+Package pdftex.def Info: ./Images/room layout1.png  used on input line 775.
 (pdftex.def)             Requested size: 108.6831pt x 96.73788pt.
- [19]
 <./Images/sep_vecs_rects.png, id=83, 455.7025pt x 397.485pt>
 File: ./Images/sep_vecs_rects.png Graphic file (type png)
 <use ./Images/sep_vecs_rects.png>
-Package pdftex.def Info: ./Images/sep_vecs_rects.png  used on input line 785.
+Package pdftex.def Info: ./Images/sep_vecs_rects.png  used on input line 786.
 (pdftex.def)             Requested size: 241.84842pt x 210.95717pt.
  [20 <./Images/room layout.png> <./Images/room layout1.png> <./Images/sep_vecs_
 rects.png>] [21]
 LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 82
-7.
+8.
 
 (C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 827.
+(Font)              scaled to size 10.0pt on input line 828.
 LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 8
-53.
+54.
 
 (C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 853.
+(Font)              scaled to size 10.0pt on input line 854.
 <./Images/rooms seperated.png, id=93, 649.67719pt x 356.0803pt>
 File: ./Images/rooms seperated.png Graphic file (type png)
 <use ./Images/rooms seperated.png>
-Package pdftex.def Info: ./Images/rooms seperated.png  used on input line 861.
+Package pdftex.def Info: ./Images/rooms seperated.png  used on input line 862.
 (pdftex.def)             Requested size: 176.49573pt x 96.73788pt.
 <./Images/spread rooms.png, id=94, 1014.79124pt x 647.41875pt>
 File: ./Images/spread rooms.png Graphic file (type png)
 <use ./Images/spread rooms.png>
-Package pdftex.def Info: ./Images/spread rooms.png  used on input line 862.
+Package pdftex.def Info: ./Images/spread rooms.png  used on input line 863.
 (pdftex.def)             Requested size: 151.6237pt x 96.73788pt.
 
 
@@ -1090,120 +1089,120 @@ lata/i4-ts1.enc} <./Images/rooms seperated.png> <./Images/spread rooms.png>]
 <./Images/deleted rooms.png, id=102, 964.35281pt x 672.26157pt>
 File: ./Images/deleted rooms.png Graphic file (type png)
 <use ./Images/deleted rooms.png>
-Package pdftex.def Info: ./Images/deleted rooms.png  used on input line 900.
+Package pdftex.def Info: ./Images/deleted rooms.png  used on input line 901.
 (pdftex.def)             Requested size: 208.15584pt x 145.11052pt.
 <./Images/deleted rooms1.png, id=103, 1169.11781pt x 715.17188pt>
 File: ./Images/deleted rooms1.png Graphic file (type png)
 <use ./Images/deleted rooms1.png>
-Package pdftex.def Info: ./Images/deleted rooms1.png  used on input line 901.
+Package pdftex.def Info: ./Images/deleted rooms1.png  used on input line 902.
 (pdftex.def)             Requested size: 237.20888pt x 145.11052pt.
 
-Underfull \hbox (badness 10000) in paragraph at lines 921--921
+Underfull \hbox (badness 10000) in paragraph at lines 922--922
 [][]\T1/cmr/m/n/10 Public area: Area2D 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 921--921
+Underfull \hbox (badness 10000) in paragraph at lines 922--922
 \T1/cmr/m/n/10 Private po-si-tion: Vec-tor2 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 921--921
+Underfull \hbox (badness 10000) in paragraph at lines 922--922
 [][]\T1/cmr/m/n/10 Public Con-struc-tor(Area2D area)  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 921--921
+Underfull \hbox (badness 10000) in paragraph at lines 922--922
 \T1/cmr/m/n/10 Public Po-si-tion() 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 921--921
+Underfull \hbox (badness 10000) in paragraph at lines 922--922
 \T1/cmr/m/n/10 re-turns po-si-tion  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 921--921
+Underfull \hbox (badness 10000) in paragraph at lines 922--922
 \T1/cmr/m/n/10 Public Con-nect-ed-Point() 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 921--921
+Underfull \hbox (badness 10000) in paragraph at lines 922--922
 \T1/cmr/m/n/10 re-turns con-nect-ed-Points  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 921--921
+Underfull \hbox (badness 10000) in paragraph at lines 922--922
 \T1/cmr/m/n/10 Public Al-ter-Pos(Vector2 new-Pos) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 921--921
+Underfull \hbox (badness 10000) in paragraph at lines 922--922
 \T1/cmr/m/n/10 up-dates po-si-tion  
  []
 
 
-Underfull \hbox (badness 5431) in paragraph at lines 921--921
+Underfull \hbox (badness 5431) in paragraph at lines 922--922
 \T1/cmr/m/n/10 Public Con-nect-Point(Point new-Point) 
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 930--930
+Underfull \hbox (badness 1043) in paragraph at lines 931--931
 [][]\T1/cmr/m/n/10 Public Has-Points(Point point1, Point point2) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--946
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
 [][]\T1/cmr/m/n/10 Private edges: Ar-ray[3] Edge 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--946
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
 \T1/cmr/m/n/10 Private points: Ar-ray[3] Point 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--946
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
 \T1/cmr/m/n/10 Private cir-cum-cen-ter: Vec-tor2 
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 946--946
+Underfull \hbox (badness 4608) in paragraph at lines 947--947
 [][]\T1/cmr/m/n/10 Public Con-struc-tor(List<Triangle> tri-an-gu-la-tion, 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--946
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
 \T1/cmr/m/n/10 Point point1, Point point2, Point point3)  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--946
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
 \T1/cmr/m/n/10 Public IsWithin(Point new-Point) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--946
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
 \T1/cmr/m/n/10 Private Con-tainsEdge(Edge edgeTo-Com-pare) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--946
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
 \T1/cmr/m/n/10 re-turns the edge if it al-ready ex-ists  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--946
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
 \T1/cmr/m/n/10 Private Find-Cir-cum-cen-tre() 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--946
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
 \T1/cmr/m/n/10 up-dates cir-cum-cen-ter  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 946--946
+Underfull \hbox (badness 10000) in paragraph at lines 947--947
 \T1/cmr/m/n/10 Private Find-Ra-dius() 
  []
 
@@ -1214,14 +1213,14 @@ File: ./Images/rooms deluaney triangulation just edges.png Graphic file (type p
 ng)
 <use ./Images/rooms deluaney triangulation just edges.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation just edges.png  
-used on input line 1022.
+used on input line 1023.
 (pdftex.def)             Requested size: 193.47577pt x 129.25285pt.
 <./Images/rooms deluaney triangulation.png, id=117, 1077.27469pt x 719.68875pt>
 
 File: ./Images/rooms deluaney triangulation.png Graphic file (type png)
 <use ./Images/rooms deluaney triangulation.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation.png  used on inp
-ut line 1023.
+ut line 1024.
 (pdftex.def)             Requested size: 193.47577pt x 129.25285pt.
 <./Images/rooms deluaney triangulation stress test.png, id=118, 1343.77031pt x 
 761.09344pt>
@@ -1229,14 +1228,14 @@ File: ./Images/rooms deluaney triangulation stress test.png Graphic file (type
 png)
 <use ./Images/rooms deluaney triangulation stress test.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation stress test.png 
- used on input line 1024.
+ used on input line 1025.
 (pdftex.def)             Requested size: 193.47577pt x 109.57182pt.
 <./Images/deluaney triangulation stress test.png, id=119, 1343.77031pt x 761.09
 344pt>
 File: ./Images/deluaney triangulation stress test.png Graphic file (type png)
 <use ./Images/deluaney triangulation stress test.png>
 Package pdftex.def Info: ./Images/deluaney triangulation stress test.png  used 
-on input line 1025.
+on input line 1026.
 (pdftex.def)             Requested size: 193.47577pt x 109.57182pt.
 
 [26 <./Images/rooms deluaney triangulation just edges.png> <./Images/rooms delu
@@ -1246,12 +1245,12 @@ aney triangulation.png> <./Images/rooms deluaney triangulation stress test.png>
 File: ./Images/deleted edges no rooms.png Graphic file (type png)
 <use ./Images/deleted edges no rooms.png>
 Package pdftex.def Info: ./Images/deleted edges no rooms.png  used on input lin
-e 1091.
+e 1092.
 (pdftex.def)             Requested size: 193.47577pt x 136.97401pt.
 <./Images/deleted edges.png, id=135, 1038.88126pt x 735.49782pt>
 File: ./Images/deleted edges.png Graphic file (type png)
 <use ./Images/deleted edges.png>
-Package pdftex.def Info: ./Images/deleted edges.png  used on input line 1092.
+Package pdftex.def Info: ./Images/deleted edges.png  used on input line 1093.
 (pdftex.def)             Requested size: 193.47577pt x 136.97401pt.
  [29 <./Images/deleted edges no rooms.png> <./Images/deleted edges.png>] [30] [
 31] [32] [33]
@@ -1259,7 +1258,7 @@ Package pdftex.def Info: ./Images/deleted edges.png  used on input line 1092.
 File: ./Images/point possibilities.png Graphic file (type png)
 <use ./Images/point possibilities.png>
 Package pdftex.def Info: ./Images/point possibilities.png  used on input line 1
-275.
+276.
 (pdftex.def)             Requested size: 290.22105pt x 217.67595pt.
 
 [34 <./Images/point possibilities.png>] [35]
@@ -1267,7 +1266,7 @@ Package pdftex.def Info: ./Images/point possibilities.png  used on input line 1
 File: ./Images/coridoors and edges.png Graphic file (type png)
 <use ./Images/coridoors and edges.png>
 Package pdftex.def Info: ./Images/coridoors and edges.png  used on input line 1
-332.
+333.
 (pdftex.def)             Requested size: 290.22105pt x 189.42004pt.
  [36 <./Images/coridoors and edges.png>] [37] (Report.aux)
  ***********
@@ -1299,7 +1298,7 @@ l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\dimki\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/dimki/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pf
 b>
-Output written on Report.pdf (37 pages, 712034 bytes).
+Output written on Report.pdf (37 pages, 712830 bytes).
 PDF statistics:
  591 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
