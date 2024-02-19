@@ -54,9 +54,9 @@
 \contentsline {subsubsection}{\numberline {4.3.3}Delete Rooms}{22}{}%
 \contentsline {subsubsection}{\numberline {4.3.4}Delaunay Triangulation}{23}{}%
 \contentsline {subsubsection}{\numberline {4.3.5}Remove random amount of edges}{27}{}%
-\contentsline {subsubsection}{\numberline {4.3.6}Make sure all rooms are accessible}{28}{}%
-\contentsline {subsubsection}{\numberline {4.3.7}Turn edges into horizontal and vertical}{31}{}%
-\contentsline {subsubsection}{\numberline {4.3.8}Generate corridors}{33}{}%
-\contentsline {subsubsection}{\numberline {4.3.9}Turn into tile map}{33}{}%
-\contentsline {subsubsection}{\numberline {4.3.10}Spawn player}{33}{}%
-\contentsline {section}{\numberline {5}Evaluation}{33}{}%
+\contentsline {subsubsection}{\numberline {4.3.6}Make sure all rooms are accessible}{29}{}%
+\contentsline {subsubsection}{\numberline {4.3.7}Turn edges into horizontal and vertical}{33}{}%
+\contentsline {subsubsection}{\numberline {4.3.8}Generate corridors}{35}{}%
+\contentsline {subsubsection}{\numberline {4.3.9}Turn into tile map}{35}{}%
+\contentsline {subsubsection}{\numberline {4.3.10}Spawn player}{35}{}%
+\contentsline {section}{\numberline {5}Evaluation}{35}{}%
