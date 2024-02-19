@@ -823,7 +823,7 @@ The only major difference in the way that I implemented was that I multiplied th
 \end{figure}
 \pagebreak
 
-\textbf{Pseudocode}
+\textbf{Pseudocode for figure \ref{fig:fc sep rooms}}
 \begin{lstlisting}
 //this piece of code is called every frame until it develops as solution
 checkedRooms = 0
@@ -887,7 +887,7 @@ The rooms being too close together means that all the corridors will be short an
   \label{deleting flowchart}
 \end{figure}
 
-\textbf{Pseudocode}
+\textbf{Pseudocode for figure \ref{deleting flowchart}}
 \begin{lstlisting}
 for (int)(amountOfRooms * deletingRoomsFactor);
 {
@@ -987,7 +987,7 @@ The algorithm used in this section was taken from \cite{BW_alg}(Bowyer–Watson 
 \end{figure}
 \pagebreak
 
-\textbf{Pseudocode} \linebreak
+\textbf{Pseudocode for figure \ref{fig:bowyer_watson_flowchart}} \linebreak
 \textit{The pseudocode was taken from} \cite{BW_alg}
 \begin{lstlisting}
 function BowyerWatson (pointList)
@@ -1067,7 +1067,7 @@ Currently the mesh is stored as a list of edges. So to remove a certain amount I
 
 \pagebreak
 
-\textbf{Pseudocode}
+\textbf{Pseudocode for figure \ref{fig:edge-deletion}}
 \begin{lstlisting}
 float edgeDeletingFactor; //number between 0-1 representing how much edges to keep
 List<Edge> polygon; //List of edges from triangulation stage
@@ -1130,33 +1130,61 @@ This section can be decomposed into smaller problems. That being detecting secti
     \node (initpoints) [process, below of=start] {List<Point> NewPoints = new List<Point>()};
     \node (addexclude) [process, below of=initpoints] {exclude.Add(point)};
     \node (outerloop) [process, below of=addexclude] {for each point \\ conneted to startPoint};
-    \node (checkexclude) [decision, below of=outerloop, yshift=-0.5cm] {if exclude does \\ not contain point};
+    \node (checkexclude) [decision, below of=outerloop, yshift=-1cm] {if exclude does \\ not contain point};
     \node (branchout) [process, right of=checkexclude, xshift=5cm] {NewPoints = MakeSection(point, exclude)};
     \node (innerloop) [process, below of=branchout] {for each point in NewPoints};
-    \node (addnewpoint) [process, below of=innerloop] {if point doesn't \\ exist in NewPoints};
-    \node (addtoexclude) [process, right of=addnewpoint, xshift=3cm] {exclude.Add(newPoint)};
-    \node (returnexclude) [startstop, below of=addtoexclude] {return exclude};
+    \node (addnewpoint) [process, below of=innerloop] {if point doesn't \\ exist in exclude \\ add it to exclude};
+    \node (returnexclude) [startstop, below of=checkexclude, yshift=-3cm] {return exclude};
     
     \draw [arrow] (start) -- (initpoints);
     \draw [arrow] (initpoints) -- (addexclude);
     \draw [arrow] (addexclude) -- (outerloop);
     \draw [arrow] (outerloop) -- (checkexclude);
     \draw [arrow] (checkexclude) -- node[anchor=south] {true} (branchout);
-    \draw [arrow] (checkexclude.south) -- ++(0,-0.5) node[anchor=east, yshift=-0.2cm] {false} -| ([xshift=-0.5cm,yshift=0.5cm]returnexclude.north);
+    \draw [arrow] (checkexclude.west) -- ++(-2,0) -- node[anchor=east] {false} ++(0,3) -- (outerloop.west);
+    \draw [arrow] (checkexclude.south) -- (returnexclude);
     \draw [arrow] (branchout) -- (innerloop);
+    \draw [arrow] (branchout.north) -- node[anchor=west] {recursion} ++(0,8.5) -- (start.east);
     \draw [arrow] (innerloop) -- (addnewpoint);
-    \draw [arrow] (addnewpoint) -- (addtoexclude);
-    \draw [arrow] (addtoexclude.south) -- ++(0,-0.5) node[anchor=east, yshift=-0.2cm] {Loop back} -| ([xshift=-0.5cm,yshift=0.5cm]outerloop.north);
     \draw [arrow] (addnewpoint.east) -- ++(1,0) |- (innerloop.east);
-    \draw [arrow] (addtoexclude) -- (returnexclude);
   \end{tikzpicture}
-  \caption{Flowchart for the given pseudocode}
-  \label{fig:makesection-flowchart}
+  \caption{Flowchart for recursive function to find entire section}
+  \label{fig:recursive detect}
+\end{figure}
+
+\begin{figure}
+  \centering
+  \begin{tikzpicture}[node distance=2cm, align=center]
+    % Nodes
+    \node (start) [startstop] {Start};
+    \node (diff) [process, below of=start] {remove all randomEdges (from previous section) \\ from triangulatedEdges (from triangulation section) \\ and put in new list of edges edgeDifference};
+    \node (detect) [process, below of=diff] {DetectSections(polygonEdgeList)};
+    \node (decision) [decision, below of=detect, yshift=-1.5cm] {if sections.Count != 1};
+    \node (addpoints) [process, below of=decision, yshift=-1.5cm] {Add random edge from \\ edgeDifference to randomEdges};
+    \node (detect2) [process, below of=addpoints] {DetectSections(polygonEdgeList)};
+    \node (removerooms) [process, right of=decision, xshift=4cm] {Remove rooms \\ with no edges};
+    \node (nextstage) [process, below of=removerooms] {Move to \\ next stage};
+    \node (stop) [startstop, below of=nextstage] {Stop};
+
+    % Arrows
+    \draw [arrow] (start) -- (diff);
+    \draw [arrow] (diff) -- (detect);
+    \draw [arrow] (detect) -- (decision);
+    \draw [arrow] (decision) -- node[anchor=east] {Yes} (addpoints);
+    \draw [arrow] (decision) -- node[anchor=north] {No} (removerooms);
+    \draw [arrow] (addpoints) -- (detect2);
+    \draw [arrow] (detect2.west) -- ++(-2,0) -- node[anchor=west] {Loop \\ back} ++(0,5.5) -- (decision);
+    \draw [arrow] (removerooms) -- (nextstage);
+    \draw [arrow] (nextstage) -- (stop);
+
+  \end{tikzpicture}
+  \caption{Flowchart for detecting sections in the program}
+  \label{in game detect sections}
 \end{figure}
 
 \pagebreak
 
-\textbf{Pseudocode} \linebreak
+\textbf{Pseudocode for figure \ref{fig:detect-sections}} \linebreak
 \textit{Algorithm for detecting weather a new section needs to be made given a list of edges}
 \begin{lstlisting}
 function DetectSections(List<Edge> edges)
@@ -1176,6 +1204,7 @@ for each point in graph
 return sects
 endfunction
 \end{lstlisting}
+\textbf{Pseudocode for figure \ref{fig:recursive detect}} \linebreak
 \textit{Recursive algorithm for detecting a section, given a starting point}
 \begin{lstlisting}
 function MakeSection(Point startPoint, List<Point> exclude)
@@ -1202,6 +1231,7 @@ endfuntion
 \end{lstlisting}
 Now that I am able to detect sections we want to connect them. This is done by saving the list of edges from the triangulation section and finding the difference between the list after removing edges.
 \linebreak
+\textbf{Pseudocode for figure \ref{in game detect sections}}
 \begin{lstlisting}
 //code called once before main loop is started
 //polygon is all the edge after triangulated
@@ -1249,9 +1279,8 @@ The movement system isn't optimised for edges that are angled in such obscure wa
 
 The green dotted lines in figure \ref{point possibilities} shows where the new edges would be placed when they are replacing the old red edges. This does mean that each edge creates 4 new edges that will likely overlap with other edges, however once this is turned into a tilemap this isn't a problem as all these objects will be deleted.
 
-\pagebreak
-\textbf{Flowchart}[h]
-\begin{figure}
+
+\begin{figure}[p]
   \centering
   \begin{tikzpicture}[node distance=2cm, align=center]
     \node (start) [startstop] {Start};
@@ -1270,11 +1299,13 @@ The green dotted lines in figure \ref{point possibilities} shows where the new e
     \draw [arrow] (addedges.west) --++(-2,0) --++(0,8)  node[anchor=east, yshift=-4cm] {Loop back} -- (forloop.west);
     \draw [arrow] (addedges) -- (end);
   \end{tikzpicture}
-  \caption{Flowchart for the given pseudocode}
-  \label{fig:pseudocode-flowchart}
+  \caption{Flowchart for turning edges into horizontal and vertical edges}
+  \label{fig:turn edges}
 \end{figure}
+\pagebreak
 
-\textbf{Pseudocode}
+
+\textbf{Pseudocode for figure \ref{fig:turn edges}}
 \begin{lstlisting}
 polygon = new list of edges
 //polygonEdgeList is a list of Edges from previous section
