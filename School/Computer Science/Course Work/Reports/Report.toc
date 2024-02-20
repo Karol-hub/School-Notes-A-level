@@ -57,6 +57,6 @@
 \contentsline {subsubsection}{\numberline {4.3.6}Make sure all rooms are accessible}{29}{}%
 \contentsline {subsubsection}{\numberline {4.3.7}Turn edges into horizontal and vertical}{34}{}%
 \contentsline {subsubsection}{\numberline {4.3.8}Generate corridors}{36}{}%
-\contentsline {subsubsection}{\numberline {4.3.9}Turn into tile map}{36}{}%
-\contentsline {subsubsection}{\numberline {4.3.10}Spawn player}{36}{}%
-\contentsline {section}{\numberline {5}Evaluation}{36}{}%
+\contentsline {subsubsection}{\numberline {4.3.9}Turn into tile map}{37}{}%
+\contentsline {subsubsection}{\numberline {4.3.10}Spawn player}{40}{}%
+\contentsline {section}{\numberline {5}Evaluation}{40}{}%

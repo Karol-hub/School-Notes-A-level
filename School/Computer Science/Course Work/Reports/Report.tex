@@ -1303,6 +1303,7 @@ The green dotted lines in figure \ref{point possibilities} shows where the new e
   \caption{Flowchart for turning edges into horizontal and vertical edges}
   \label{fig:turn edges}
 \end{figure}
+
 \pagebreak
 
 
@@ -1334,11 +1335,154 @@ for each edge in polygonEdgeList
 \caption{Before (pink) and after algorithm (green)}
 \label{ba coridoors and edges}
 \end{figure}
-The pink lines are the edges before the rooms were generated. The green boxes are the result of this algorithm plus the generate corridors algorithm but it shows the algorithm well so it's included in this section.
+In figure \ref{ba coridoors and edges} the pink lines are the edges before the rooms were generated. The green boxes are the result of this algorithm plus the generate corridors algorithm but it shows the algorithm well so it's included in this section.
 
 \subsubsection{Generate corridors}
+The edges currently have no depth as they are just a connection between two point so we need to convert it into something with an area that the player can interact with. Since we already have the edge we can iterate through the list of edges generated in the previous section and generate a corridor for each edge.
+
+\begin{figure}[h]
+    \centering
+    \begin{tikzpicture}[node distance=2cm, auto, align=center]
+        % Nodes
+        \node (start) [startstop] {Start};
+        \node (init) [process, below of=start] {Initialize variables};
+        \node (loop) [process, below of=init] {For each edge in polygon};
+        \node (calculate) [process, below of=loop, yshift = -1cm] {
+            \begin{tabular}{l}
+                Take pos1, pos2 from edge \\
+                Instantiate corridor \\
+                Add corridor as child \\
+                Set instance name \\
+                Set instance position \\
+                Find correct scale \\
+                Apply scale \\
+                Take absolute value of scale
+            \end{tabular}
+        };
+        \node (end) [startstop, below of=calculate, yshift=-1cm] {End};
+
+        % Arrows
+        \draw [arrow] (start) -- (init);
+        \draw [arrow] (init) -- (loop);
+        \draw [arrow] (loop) -- (calculate);
+        \draw [arrow] (calculate) -- (end);
+        \draw [arrow] (calculate.west) -- ++(-1,0) -- node[anchor=east] {Loop back}  ++(0,3) -- (loop);
+
+    \end{tikzpicture}
+    \caption{Flowchart for the given pseudocode}
+    \label{generate coridoor}
+\end{figure}
+
+\pagebreak
+
+\textbf{Pseudocode for figure \ref{generate coridoor}} \linebreak
+\textit{The result of this algorithm can be seen if figure \ref{ba coridoors and edges}}
+\begin{lstlisting}
+// polygon is edge list from previous section
+// coridoorRadius is the radius of the coridoor as a vector2
+for each edge in polygon
+{
+	//need to make corridor between two positions
+    Vector2 pos1 = edge.points[0].position;
+    Vector2 pos2 = edge.points[1].position;
+    Node instance;
+    instance = coridoor.Instantiate();
+    AddChild(instance);
+    //make sure they are tagged so that they can be recognised later
+    instance.Name = "cr" + i;
+    //place in middle
+    instance.Position = (pos1 + pos2) / 2;
+    //make sure the radius is added to right part of the room
+    //want to add radius to bottom left of one point and top right of other
+    Find correct scale and apply to instance
+    Take absolute value of x and y of instance scale so it's always positive;
+}
+\end{lstlisting} 
+However these rooms are still areas  that are solid blocks meaning that the player still isn't able to interact with any of the rooms as they are currently all solid blocks. That is why we need to regenerate the entire map to make it playable. A lot of the corridors are overlapping which could be problematic in the future however it wouldn't be worth it to remake that section as it would be very time consuming and wouldn't make any difference to the player since they would never see this section and would hardly effect the following sections.
+
+
 
 \subsubsection{Turn into tile map}
+Now that there is a large amount of rooms and corridors there needs to be a way of turning these areas into some kind of environment that the player can interact with. This can be done by turning the map into a tilemap, where the entire map is made of individual square tiles that the player can interact with. This is beneficial as it removes a lot of the detail the areas provide which makes it easier to manage. 
+
+\begin{figure}[p]
+\begin{tikzpicture}[node distance=1.5cm, align=center]
+
+\node (start) [startstop] {Start};
+\node (init) [process, below of=start] {Initialize};
+\node (minmax) [process, below of=init] {Find min and max position of all rooms};
+\node (currentCoord) [process, below of=minmax] {currentCoord = minCoord};
+\node (generate) [process, below of=currentCoord] {Generate new tileMapGeneration};
+\node (addToCheck) [process, below of=generate] {Add new item to tileMapCheck \\ for each row needed};
+\node (updatePosition) [process, below of=addToCheck] {Update position to be in its own row};
+\node (iterate) [decision, below of=updatePosition, aspect=2, yshift=-1cm] {currentCoord.X < maxCoord.X};
+\node (innerLoop) [process, below of=iterate, yshift=-1.5cm] {Iterate through each column};
+\node (updateInnerPos) [process, below of=innerLoop] {Update position accordingly};
+\node (placeTile) [process, below of=updateInnerPos] {Place tile based on overlapping areas};
+\node (updateCoord) [process, below of=placeTile] {currentCoord.X += 16};
+\node (else) [process, left of=iterate, xshift=-4.5cm, yshift=-3cm] {Delete all tileMapCheck items \\ Move onto next generation state};
+\node (stop) [startstop, below of=else] {Stop};
+
+\draw [arrow] (start) -- (init);
+\draw [arrow] (init) -- (minmax);
+\draw [arrow] (minmax) -- (currentCoord);
+\draw [arrow] (currentCoord) -- (generate);
+\draw [arrow] (generate) -- (addToCheck);
+\draw [arrow] (addToCheck) -- (updatePosition);
+\draw [arrow] (updatePosition) -- (iterate);
+\draw [arrow] (iterate) -- node[anchor=east] {true} (innerLoop);
+\draw [arrow] (innerLoop) -- (updateInnerPos);
+\draw [arrow] (updateInnerPos) -- (placeTile);
+\draw [arrow] (placeTile) -- (updateCoord);
+\draw [arrow] (updateCoord.east) -- ++(2,0) -- ++(0,7.5) -- (iterate.east);
+\draw [arrow] (iterate.west) -- ++(-3,0) -- node[anchor=east,yshift=-0.69cm] {false} (else);
+\draw [arrow] (else) -- (stop);
+
+\end{tikzpicture}
+\caption{Flowchart for generating the tilemap}
+\label{fc generating tilemap}
+\end{figure}
+\pagebreak
+
+\textbf{Pseudocode for figure \ref{fc generating tilemap}} \linebreak
+\textit{*one tile is 16 pixels large}
+\begin{lstlisting}
+//tileMapGeneration is a class containing properties that help decide what tile should be selected
+tileMapCheck is a list of tileMapGeneration
+Find min and max position of all rooms
+currentCoord = minCoord;
+//Find how much rows of tilemap are needed to make tilemap
+checkAmount = (int)Mathf.Ceil((maxCoord.Y - minCoord.Y) / 16);
+Node tempNode;
+for (int i = 0; i < checkAmount; i++)
+{
+	//instantiate new Area2D that will check an area of the map
+    tempNode = tileMapCheckScene.Instantiate();
+    AddChild(tempNode);
+    //update position so it's in it's own row
+    tempNode.Position = currentCoord + new Vector2(0f, 16f * i);
+    tileMapCheck.Add(tempNode);
+}
+
+//this part is ran every frame until next stage is reached
+//iterate through each column
+if (currentCoord.X < maxCoord.X)
+{
+    //check each box
+    for (int i = 0; i < tileMapCheck.Count(); i++)
+    {
+        //update position accordingly
+        tileMapCheck[i].area.Position = currentCoord + new Vector2(0f, 16f * i);
+        place tile based on overlapping areas 
+    }
+    currentCoord.X += 16f;
+}
+else
+{
+    delete all tileMapCheck items
+    move onto next generation state
+}
+\end{lstlisting}
 
 \subsubsection{Spawn player}
 
