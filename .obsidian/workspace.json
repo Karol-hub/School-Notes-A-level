@@ -33,7 +33,11 @@
             "state": {
               "type": "markdown",
               "state": {
+<<<<<<< HEAD
                 "file": "School/Maths/Notes/Defenitions/Integration.md",
+=======
+                "file": "Life/Cooking/Desert/Brownie.md",
+>>>>>>> e7d003b62858b30cf019941416dd46ef5f22abbd
                 "mode": "source",
                 "source": false
               }
@@ -125,7 +129,11 @@
             "state": {
               "type": "backlink",
               "state": {
+<<<<<<< HEAD
                 "file": "School/Maths/Textbook/Pure Year 2.pdf",
+=======
+                "file": "Life/Cooking/Desert/Brownie.md",
+>>>>>>> e7d003b62858b30cf019941416dd46ef5f22abbd
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -142,7 +150,11 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+<<<<<<< HEAD
                 "file": "School/Maths/Textbook/Pure Year 2.pdf",
+=======
+                "file": "Life/Cooking/Desert/Brownie.md",
+>>>>>>> e7d003b62858b30cf019941416dd46ef5f22abbd
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -154,7 +166,11 @@
             "state": {
               "type": "outline",
               "state": {
+<<<<<<< HEAD
                 "file": "School/Maths/Textbook/Pure Year 2.pdf"
+=======
+                "file": "Life/Cooking/Desert/Brownie.md"
+>>>>>>> e7d003b62858b30cf019941416dd46ef5f22abbd
               }
             }
           },
@@ -200,14 +216,18 @@
   },
   "active": "f1d8770552bbe44a",
   "lastOpenFiles": [
+<<<<<<< HEAD
     "School/Maths/Notes/Defenitions/Integration.md",
     "School/Maths/Textbook/Pure Year 2.pdf",
     "School/Computer Science/Course Work/Reports/Feedback/Feedback 1.md",
     "School/Maths/Notes/Pure/Year 2/11 Integration.md",
+=======
+    "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
+    "School/Computer Science/Course Work/Reports/Report.synctex.gz",
+>>>>>>> e7d003b62858b30cf019941416dd46ef5f22abbd
     "School/Maths/Notes/Test/Maths 2024 Mock Mistakes.md",
     "School/Maths/Notes/Test",
     "School/Computer Science/Course Work/A-star example/Analysis.pdf",
-    "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
     "Life/Crochet/Links for patterns.md",
     "Life/Crochet/Junimo_Amigurumi_by_icrochetthings.pdf",
     "Life/Crochet/Plague_Doctor_Amigurumi.pdf",

@@ -16,7 +16,8 @@
 \contentsline {figure}{\numberline {16}{\ignorespaces Flowchart for Edge Deletion Algorithm}}{28}{}%
 \contentsline {figure}{\numberline {17}{\ignorespaces Deleting edges result}}{29}{}%
 \contentsline {figure}{\numberline {18}{\ignorespaces Flowchart for detecting if a new section needs to be made}}{30}{}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Flowchart for the given pseudocode}}{31}{}%
-\contentsline {figure}{\numberline {20}{\ignorespaces All possibilities for points}}{33}{}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Flowchart for the given pseudocode}}{34}{}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Before (pink) and after algorithm (green)}}{35}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Flowchart for recursive function to find entire section}}{31}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Flowchart for detecting sections in the program}}{32}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces All possibilities for points}}{34}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Flowchart for turning edges into horizontal and vertical edges}}{35}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Before (pink) and after algorithm (green)}}{36}{}%
