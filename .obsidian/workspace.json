@@ -11,15 +11,36 @@
             "id": "f48a97bb218f5da7",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+              }
+            }
+          },
+          {
+            "id": "711701353efc9bbd",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+              }
+            }
+          },
+          {
+            "id": "99dc28361592634a",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Maths/Notes/Test/Maths 2024 Mock Mistakes.md",
+                "file": "School/Maths/Notes/Defenitions/Integration.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -104,7 +125,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Notes/Test/Maths 2024 Mock Mistakes.md",
+                "file": "School/Maths/Textbook/Pure Year 2.pdf",
                 "collapseAll": true,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +142,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Notes/Test/Maths 2024 Mock Mistakes.md",
+                "file": "School/Maths/Textbook/Pure Year 2.pdf",
                 "linksCollapsed": true,
                 "unlinkedCollapsed": false
               }
@@ -133,7 +154,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Notes/Test/Maths 2024 Mock Mistakes.md"
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
               }
             }
           },
@@ -158,7 +179,7 @@
             }
           }
         ],
-        "currentTab": 2
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
@@ -177,8 +198,12 @@
       "obsidian-excalidraw-plugin:Create new drawing": false
     }
   },
-  "active": "f48a97bb218f5da7",
+  "active": "f1d8770552bbe44a",
   "lastOpenFiles": [
+    "School/Maths/Notes/Defenitions/Integration.md",
+    "School/Maths/Textbook/Pure Year 2.pdf",
+    "School/Computer Science/Course Work/Reports/Feedback/Feedback 1.md",
+    "School/Maths/Notes/Pure/Year 2/11 Integration.md",
     "School/Maths/Notes/Test/Maths 2024 Mock Mistakes.md",
     "School/Maths/Notes/Test",
     "School/Computer Science/Course Work/A-star example/Analysis.pdf",
@@ -186,7 +211,6 @@
     "Life/Crochet/Links for patterns.md",
     "Life/Crochet/Junimo_Amigurumi_by_icrochetthings.pdf",
     "Life/Crochet/Plague_Doctor_Amigurumi.pdf",
-    "School/Computer Science/Course Work/Reports/Feedback/Feedback 1.md",
     "School/Maths/Notes/Defenitions/Differentiating exponentials and logarithms.md",
     "School/Computer Science/Course Work/Reports/Feedback",
     "School/Computer Science/Course Work/Reports/Images/deleted edges no rooms.png",
@@ -194,7 +218,6 @@
     "School/Computer Science/Course Work/Reports/Images/deleted edges.png.0.pdnSave",
     "School/Maths/Notes/Pure/Year 2/9 Differentiation.md",
     "Life/Cheat Sheets/latexsheet.pdf",
-    "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation just edges.png.0.pdnSave",
     "School/Computer Science/Course Work/Reports/Images/deleted rooms1.png",
     "School/Computer Science/Course Work/Reports/Images/deleted rooms.png",
     "School/Computer Science/Course Work/Reports/Images/spread rooms.png",
@@ -202,9 +225,7 @@
     "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation just edges.png",
     "School/Computer Science/Course Work/Reports/Report.md",
     "School/Computer Science/Course Work/Reports/Images/sep_vecs_rects.png",
-    "School/Maths/Notes/Defenitions/Integration.md",
     "School/Computer Science/Course Work/Reports/Images/room layout1.png",
-    "School/Maths/Notes/Pure/Year 2/11 Integration.md",
     "School/Computer Science/Course Work/Reports/Images/room layout.png",
     "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Goblin/Idle.png",
     "School/Maths/Notes/Links.md",
@@ -223,7 +244,6 @@
     "School/Physics/Notes/Defenitions/Viscosity.md",
     "School/Physics/Notes/Defenitions/Young modulus.md",
     "School/Physics/Notes/Defenitions/Strain.md",
-    "School/Physics/Notes/Defenitions/Pressure.md",
-    "School/Physics/Notes/Defenitions/Hooke's Law.md"
+    "School/Physics/Notes/Defenitions/Pressure.md"
   ]
 }

@@ -5,9 +5,14 @@ $$\frac{dy}{dx}=f(x)$$
 then
 $$y=\int{f(x)} \; dx$$
 $dx$ shows we are integrating with respect to $x$
+
 # Definite integrals
 $$\int^{b}_{a}{f'(x)}\;{dx}=[f(x)]^{b}_{a}=f(b)-f(a)$$
 When dealing with definite integrals we don't have to consider the constant of integration because if we did we would get $f(b)+c-(f(a)+c)=f(b)-f(a)$ the constant cancel each other out so it doesn't need to be considered.
+
+## Cool detail
+$$\int_{a}^{b}f(x) = \int_{b}^{a}-f(x)$$
+Can add/remove minus sign to flip limits
 # Integrating polynomials
 $$\int{kx^{n}}\;dx=k(\frac{x^{n+1}}{n+1})+c$$
 - When differentiating you lose the $+c$ (constant of integration)
@@ -64,3 +69,13 @@ $$\int \sec x \tan x dx = \sec x + c$$
 # Partial Fractions
 $$\int \frac{x^{2}+3x-2}{x^2-2x-3}$$
 $$\int \frac{x^{2}+3x-2}{x^{2}-2x-3}$$
+# Integration by part
+$$\int u \ dv = uv - \int v \ du$$
+Can use $u/dv$ as $1$ for some more complicated integrals such as $\ln(x)$ 
+# Integrating Parametric equations
+For a curve with parametric equations
+$$x = f(t)$$
+$$y = g(t)$$
+$$\int y \ \frac{dx}{dt} dt = \int g(t) * f'(t)$$
+## Finite Parametric equation integration
+Make sure to change limits when adding to formula
