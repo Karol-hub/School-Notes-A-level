@@ -181,7 +181,10 @@ Heretic – A secret character which is unique since they cannot be unlocked, an
 The aim of the game is to get loot and activate the teleporter, after this a boss will spawn, which you must kill to progress. You get teleported to a different stage and the process repeats until stage 5 and after that you get teleported to the moon to kill final boss (Mythrix) or obliterate yourself which has a more secret ending which needs the player to enter a portal on stage 8 after they loop (return back to stage 1 and keep all their items), sometimes a large purple portal can appear which teleports the player to a different realm (with some pretty interesting lore) and they have to defeat Voidling which gives the player an alternate ending. 
 
 \myparagraph{Target demographic}
-Teens and older since the game contain blood, drug references and fantasy violence. It is aimed at people with all skill types as the game has different difficulty rating which allows the player to play at the level that they are comfortable with.  
+Teens and older since the game contain blood, drug references and fantasy violence. It is aimed at people with all skill types as the game has different difficulty rating which allows the player to play at the level that they are comfortable with.  ]
+
+\myparagraph{Reviews}
+
 
 \paragraph{Good Qualities}
 \begin{itemize}
@@ -755,8 +758,8 @@ The Generation algorithm that I used is a modified version of the algorithm used
 \item{Delete rooms}
 \item{Delaunay triangulation}
 \item{Remove random amount of edges}
-\item{Make sure all rooms are accessible}
 \item{Add spawn and boss room}
+\item{Make sure all rooms are accessible}
 \item{Turn edges into horizontal and vertical}
 \item{Generate corridors}
 \item{Turn into tile map}
@@ -773,10 +776,70 @@ Some other miscellaneous algorithms used in generation
 \centering
 \includegraphics[height = 0.2\textwidth]{room layout}
 \includegraphics[height = 0.2\textwidth]{room layout1}
-\caption{Room Layout}
+\caption{Room layout example}
 \label{Room Layout}
 \end{figure}
-Begin with generating a defined amount of rooms. Rooms are pre-made layouts that a room as seen in figure \ref{Room Layout}. Originally I generated a cube and gave it a random size, but this would be problematic down the line since when it comes to creating a tile map it would be difficult to generate a room that would be playable.
+Begin with generating a defined amount of rooms. Rooms are pre-made layouts that a room as seen in figure \ref{Room Layout}. Originally I generated a cube and gave it a random size, but this would be problematic down the line since when it comes to creating a tile map it would be difficult to generate a room that would be playable \linebreak
+This section only needs to generate the rooms.
+
+\begin{figure}[p]
+    \centering
+    \begin{tikzpicture}[node distance=2cm, align=center]
+    \node (start) [startstop] {Start};
+    \node (load) [process, below of=start] {Load all scenes with room layout};
+    \node (enoughRooms) [decision, below of=load, yshift=-1.5cm] {Are there enough rooms?};
+    \node (init) [process, below of=enoughRooms, yshift=-1.5cm] {Initialize a random room layout};
+    \node (parent) [process, below of=init] {Give the room a parent};
+    \node (chance) [process, below of=parent] {Chance to make the room larger};
+    \node (position) [process, below of=chance] {Give a random initial position in a small area};
+    \node (stop) [startstop, right of=enoughRooms, xshift=4cm] {End};
+    
+    \draw [arrow] (start) -- (load);
+    \draw [arrow] (load) -- (enoughRooms);
+    \draw [arrow] (enoughRooms) -- node[anchor=east] {No} (init);
+    \draw [arrow] (position.west) -- ++(-1,0) -- ++(0,9.5)  -- (enoughRooms.west);
+    \draw [arrow] (init) -- (parent);
+    \draw [arrow] (parent) -- (chance);
+    \draw [arrow] (chance) -- (position);
+    \draw [arrow] (enoughRooms) -- node[anchor=south] {Yes} (stop);
+    
+    \end{tikzpicture}
+    \caption{Flowchart for generating rooms}
+    \label{fig:pseudocode-flowchart}
+\end{figure}
+\pagebreak
+
+\myparagraph{Pseudocode}
+\begin{lstlisting}
+load all scenes with room layout
+for (int i = 0; i < amountOfRooms; i++)
+{
+	initialise a random room
+	give the room a parent
+	chance to make the room larger //for level variation
+	give a random initial position in small area
+}
+\end{lstlisting}
+
+\myparagraph{Variable table} 
+\smallBr
+\begin{tabular}{l|l|l}
+\hline
+\multicolumn{1}{|l|}{Variable Name} & Variable Type                            & \multicolumn{1}{l|}{Description}                             \\ \hline
+amountOfRooms                       & integer                                  & Definse amoubt of room to be generated                       \\
+scaleRange                          & Vector2                                  & Defines the min and max scale of a room                      \\
+roomVars                            & integer                                  & Tells the program how many room variations exist             \\
+randNum                             & integer                                  & Random integer used for deciding which room type to generate \\
+rooms                               & List\textless{}PackedScene\textgreater{} & Contains all possible room variations                        \\
+instacne                            & Node                                     & An instance of a room                                       
+\end{tabular}
+
+\myparagraph{Identifying test data}
+The algorithm will be successful if the following conditions are met:
+\begin{itemize}
+\item{There is a correct amount of rooms}
+\item{There is variation in rooms generated}
+\end{itemize}
 
 \subsubsection{Spread rooms}
 Once all the rooms are all generated in a confined area they need to be spread out until they are no longer overlapping. To separate the rooms I iterated through each room object and check it for overlapping areas. I found the difference in positions to get the vector of the room relative to the original room being considered, using this I can find the direction that the room should be moved in. This idea was taken from \cite{Dis_Alg}
@@ -856,14 +919,17 @@ if (checkedRooms == amountOfRooms)
 }
 
 \end{lstlisting}
-Once complete a result typically looks as such
-\begin{figure}[h]
-\centering
-\includegraphics[height = 0.2\textwidth]{rooms seperated}
-\includegraphics[height = 0.2\textwidth]{spread rooms}
-\caption{Result of room separation}
-\label{room seperation result}
-\end{figure}
+
+\myparagraph{Variable table}
+
+\myparagraph{Identifying test data}
+The algorithm will be successful if the following conditions are met:
+\begin{itemize}
+\item{Rooms don't overlap}
+\item{Rooms are still close together}
+\item{Spreads in a reasonable amount of time}
+\end{itemize}
+
 
 After this process a pre-defined amount of rooms are deleted so that there are gaps in between the rooms, removing 60\% of the rooms works well. On top of this the position of each room is multiplied by 2 to spread the rooms further
 
@@ -896,13 +962,14 @@ for (int)(amountOfRooms * deletingRoomsFactor);
 }
 \end{lstlisting}
 
-\begin{figure}[h]
-\centering
-\includegraphics[height = 0.3\textwidth]{deleted rooms}
-\includegraphics[height = 0.3\textwidth]{deleted rooms1}
-\caption{Result of room deletion}
-\label{room deletion result}
-\end{figure}
+\myparagraph{Variable table}
+
+\myparagraph{Identifying test data}
+The algorithm will be successful if the following conditions are met:
+\begin{itemize}
+\item{Rooms are spread apart without being on top of each other}
+\item{Distance between rooms varies}
+\end{itemize}
 
 \subsubsection{Delaunay Triangulation}
 The algorithm used in this section was taken from \cite{BW_alg}(Bowyer–Watson algorithm). For the algorithm to function I needed a data structure for points, which link the Area2D, position and a list of points which the point is connected to. Edges are an array of two points which represents a connection between two points. Triangles are an array of three edges and hence three points, from these a circumcircle can be drawn, which is important for the Bowyer-Watson algorithm, this is represented as a vector2 storing the circumcentre and a float for the radius.
@@ -1015,18 +1082,19 @@ function BowyerWatson (pointList)
             remove triangle from triangulation
     return triangulation
 \end{lstlisting}
+
+\myparagraph{Variable table}
+
+\myparagraph{Identifying test data}
+The algorithm will be successful if the following conditions are met:
+\begin{itemize}
+\item{Triangulated in the most efficient way possible}
+\item{Every room is included in the triangulation}
+\item{Computes in a reasonable amount of time}
+\end{itemize}
+
 \parBr
 The pseudo code states that there needs to be triangles, edges and points. These structures can be achieved with object oriented programming as I can make a class with all the relevant attributes and methods for each data structure mentioned.
-
-\begin{figure}[h]
-\centering
-\includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation just edges}
-\includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation}
-\includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation stress test}
-\includegraphics[width = 0.4\textwidth]{deluaney triangulation stress test}
-\caption{Result of Bowyer–Watson algorithm}
-\label{bwa result}
-\end{figure}
 
 \subsubsection{Remove random amount of edges}
 Figure \ref{bwa result} shows the result of the algorithm, however this many corridors would be overwhelming for players and would result in each room having 4-5 corridors leading out of it, which would could overwhelm the player. Other rouge-like games usually contain 2-3 corridors leading out of it, this would mean I needed to delete some of the edges but still make sure all the rooms are accessible.
@@ -1086,16 +1154,112 @@ while (edgeList.Count() < (int)(polygon.Count()* edgeDeletingFactor))
 	}
 }
 \end{lstlisting}
+
+\myparagraph{Variable table}
+
+\myparagraph{Identifying test data}
+The algorithm will be successful if the following conditions are met:
+\begin{itemize}
+\item{Random amount of edges is deleted}
+\end{itemize}
+
 \parBr
-\begin{figure}[h]
-\centering
-\includegraphics[width = 0.4\textwidth]{deleted edges no rooms}
-\includegraphics[width = 0.4\textwidth]{deleted edges}
-\caption{Deleting edges result}
-\label{deleting edges result}
-\end{figure}
 
 However this creates a problem as now some of the rooms are inaccessible because they have no edges connecting to them or are in another inaccessible section. This is solved in the next section.
+
+\subsubsection{Generate spawn and boss room}
+Before connecting each room to each other we need to have the player a starting position and a goal, this will be done by creating a spawn room where the player starts, this room will always be at the top of the map and force the player to go down. The boss room will always be generated at the bottom of the map since it's the goal for the player to reach. Therefore the player can always go down if they are stuck or unsure as to where to go. 
+
+\begin{figure}[p]
+    \centering
+    \begin{tikzpicture}[node distance=2cm]
+    \node (start) [startstop] {Start};
+    \node (minmax) [process, below of=start] {Find min and max coordinates of every room};
+    \node (setup) [process, below of=minmax] {Set up variables and instantiate boss room};
+    \node (genposboss) [process, below of=setup] {Generate position for boss room};
+    \node (addboss) [process, below of=genposboss] {Add boss room to graph};
+    \node (connectboss) [process, below of=addboss] {Connect boss room to closest room};
+    \node (genspawn) [process, below of=connectboss] {Generate position for spawn room};
+    \node (spawnroom) [process, below of=genspawn] {Instantiate spawn room};
+    \node (addspawn) [process, below of=spawnroom] {Add spawn room to graph};
+    \node (connectspawn) [process, below of=addspawn] {Connect spawn room to closest room};
+    \node (nextstage) [startstop, below of=connectspawn] {Move onto next stage of generation};
+    
+    \draw [arrow] (start) -- (minmax);
+    \draw [arrow] (minmax) -- (setup);
+    \draw [arrow] (setup) -- (genposboss);
+    \draw [arrow] (genposboss) -- (addboss);
+    \draw [arrow] (addboss) -- (connectboss);
+    \draw [arrow] (connectboss) -- (genspawn);
+    \draw [arrow] (genspawn) -- (spawnroom);
+    \draw [arrow] (spawnroom) -- (addspawn);
+    \draw [arrow] (addspawn) -- (connectspawn);
+    \draw [arrow] (connectspawn) -- (nextstage);
+    
+    \end{tikzpicture}
+    \caption{Flowchart for Generating spawn and boss rooms}
+    \label{gen spanwboss}
+\end{figure}
+
+\pagebreak
+
+\textbf{Pseudocode for figure \ref{gen spanwboss}}
+\begin{lstlisting}
+//polygon is the list of edges where we have to connect new room, its taken from the previous section
+Find min and max coordinate of every room
+//set up variables needed
+List<Point> graph = MakeGraph(polygon);
+Point closestPoint;
+instantiate bossRoom
+AddChild(bossRoom);
+//label it so that it can be identified
+bossRoom.Name = "rmB";
+//genereate position between min and max X coord but bias for center
+//Make Y coord certain amount below other rooms.
+bossRoom.Position.X = minCoord.X + rng.RandfRange(0.2f, 0.8f) * (maxCoord.X - minCoord.X)
+//(0,1) is down in godot so we take maxcoord for y position to place it at the bottom
+bossRoom.Position.Y = maxCoord.Y + roomDist);
+//Make boss room into a point to add it to graph
+Point bossPoint = new Point(bossRoom);
+graph.Add(bossPoint);
+foreach (point in graph)
+{
+    if (point is closer to bossRoom then current closest known point)
+    {
+        closestPoint = point;
+    }
+}
+//connect boss to closest room
+bossPoint.ConnectPoint(closestPoint);
+closestPoint.ConnectPoint(bossPoint);
+//Do same thing for spawn room
+instantiate spawnRoom
+AddChild(spawnRoom);
+//lable room to make it easy to identify
+spawnRoom.Name = "rmS";
+//genereate position between min and max X coord but bias center more
+//Make Y coord certain amount above other rooms.
+bossRoom.Position.X = minCoord.X + rng.RandfRange(0.2f, 0.8f) * (maxCoord.X - minCoord.X)
+//(0,-1) is up in godot so we take mincoord for y position to place it at the top
+bossRoom.Position.Y = minCoord.Y - roomDist);
+//Make spawn room into a point to add it to graph
+Point spawnPoint = new Point(spawnRoom);
+graph.Add(spawnPoint);
+//reset value of closest point
+closestPoint = null;
+foreach (point in graph)
+{
+    if (point is closer to spawnRoom than currently closest known point)
+    {
+        closestPoint = room;
+    }
+}
+//connect spawn to closest room
+spawnPoint.ConnectPoint(closestPoint);
+closestPoint.ConnectPoint(spawnPoint);
+
+Move onto next stage of generation
+\end{lstlisting}
 
 \subsubsection{Make sure all rooms are accessible}
 This section can be decomposed into smaller problems. That being detecting sections and connecting sections. First comes detecting sections, this is accomplished more easily when the the graph is represented with list of points along with each point having a list of points it's connected to. Currently the graph is represented as a list of edges. This can be done with a simple algorithm explored further in the "Turning list of edge to graph" section.
@@ -1107,7 +1271,7 @@ This section can be decomposed into smaller problems. That being detecting secti
     \node (initsects) [process, below of=start] {List<List<Point>> sects = new List<List<Point>>()};
     \node (initgraph) [process, below of=initsects] {List<Point> graph = MakeGraph(edges)};
     \node (outerloop) [process, below of=initgraph] {for each point in graph};
-    \node (checkcondition) [decision, below of=outerloop, yshift=-0.5cm] {if it doesn't exist};
+    \node (checkcondition) [decision, below of=outerloop, yshift=-0.5cm] {if point doesn't \\ exist in any section};
     \node (newsection) [process, below of=checkcondition, yshift=-1cm] {sects.Add(MakeSection(point, new List<Point>()))};
     \node (end) [startstop, below of=newsection] {return sects};
     
@@ -1124,7 +1288,7 @@ This section can be decomposed into smaller problems. That being detecting secti
   \label{fig:detect-sections}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[p]
   \centering
   \begin{tikzpicture}[node distance=2cm,align=center]
     \node (start) [startstop] {function MakeSection(Point startPoint, List<Point> exclude)};
@@ -1153,7 +1317,7 @@ This section can be decomposed into smaller problems. That being detecting secti
   \label{fig:recursive detect}
 \end{figure}
 
-\begin{figure}
+\begin{figure}[p]
   \centering
   \begin{tikzpicture}[node distance=2cm, align=center]
     % Nodes
@@ -1268,6 +1432,15 @@ else
 }
 \end{lstlisting}
 
+\myparagraph{Variable table}
+
+\myparagraph{Identifying test data}
+The algorithm will be successful if the following conditions are met:
+\begin{itemize}
+\item{Each room is accessible}
+\item{}
+\end{itemize}
+
 \subsubsection{Turn edges into horizontal and vertical}
 The movement system isn't optimised for edges that are angled in such obscure ways as seen in figure \ref{deleting edges result}. Therefore it's important to change the edges into it's vertical and horizontal components to make the level more traversable for the player. Originally I was going to create an advanced network to connect all the points in the most efficient way possible, but looking at how long it took me to implement delaunay triangulation I decided against it as it would take too long. So instead I created an algorithm that generates all possibilities to make sure all rooms are accessible.
 
@@ -1329,12 +1502,15 @@ for each edge in polygonEdgeList
 }
 \end{lstlisting}
 
-\begin{figure}[h]
-\centering
-\includegraphics[width = 0.6\textwidth]{coridoors and edges}
-\caption{Before (pink) and after algorithm (green)}
-\label{ba coridoors and edges}
-\end{figure}
+\myparagraph{Variable table}
+
+\myparagraph{Identifying test data}
+The algorithm will be successful if the following conditions are met:
+\begin{itemize}
+\item{There is a correct amount of rooms}
+\item{There is variation in rooms generated}
+\end{itemize}
+
 In figure \ref{ba coridoors and edges} the pink lines are the edges before the rooms were generated. The green boxes are the result of this algorithm plus the generate corridors algorithm but it shows the algorithm well so it's included in this section.
 
 \subsubsection{Generate corridors}
@@ -1398,6 +1574,16 @@ for each edge in polygon
     Take absolute value of x and y of instance scale so it's always positive;
 }
 \end{lstlisting} 
+
+\myparagraph{Variable table}
+
+\myparagraph{Identifying test data}
+The algorithm will be successful if the following conditions are met:
+\begin{itemize}
+\item{There is a correct amount of rooms}
+\item{There is variation in rooms generated}
+\end{itemize}
+
 However these rooms are still areas  that are solid blocks meaning that the player still isn't able to interact with any of the rooms as they are currently all solid blocks. That is why we need to regenerate the entire map to make it playable. A lot of the corridors are overlapping which could be problematic in the future however it wouldn't be worth it to remake that section as it would be very time consuming and wouldn't make any difference to the player since they would never see this section and would hardly effect the following sections.
 
 
@@ -1484,7 +1670,61 @@ else
 }
 \end{lstlisting}
 
+\myparagraph{Variable table}
+
+\myparagraph{Identifying test data}
+The algorithm will be successful if the following conditions are met:
+\begin{itemize}
+\item{There is a correct amount of rooms}
+\item{There is variation in rooms generated}
+\end{itemize}
+
 \subsubsection{Spawn player}
+
+\section{Developing a solution}
+
+\subsection{Temp Fig Holder}
+
+\begin{figure}
+\centering
+\includegraphics[height = 0.2\textwidth]{rooms seperated}
+\includegraphics[height = 0.2\textwidth]{spread rooms}
+\caption{Result of room separation}
+\label{room seperation result}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[height = 0.3\textwidth]{deleted rooms}
+\includegraphics[height = 0.3\textwidth]{deleted rooms1}
+\caption{Result of room deletion}
+\label{room deletion result}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation just edges}
+\includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation}
+\includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation stress test}
+\includegraphics[width = 0.4\textwidth]{deluaney triangulation stress test}
+\caption{Result of Bowyer–Watson algorithm}
+\label{bwa result}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.4\textwidth]{deleted edges no rooms}
+\includegraphics[width = 0.4\textwidth]{deleted edges}
+\caption{Deleting edges result}
+\label{deleting edges result}
+\end{figure}
+
+\begin{figure}
+\centering
+\includegraphics[width = 0.6\textwidth]{coridoors and edges}
+\caption{Before (pink) and after algorithm (green)}
+\label{ba coridoors and edges}
+\end{figure}
 
 \section{Evaluation}
 

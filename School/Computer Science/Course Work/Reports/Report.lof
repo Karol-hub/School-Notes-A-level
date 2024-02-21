@@ -1,25 +1,27 @@
 \contentsline {figure}{\numberline {1}{\ignorespaces \blx@tocontentsinit {0}\cite {ROR2ss} Risk of Rain 2 Screen shot}}{5}{}%
-\contentsline {figure}{\numberline {2}{\ignorespaces \blx@tocontentsinit {0}\cite {Celss} Celeste Screen shot}}{7}{}%
+\contentsline {figure}{\numberline {2}{\ignorespaces \blx@tocontentsinit {0}\cite {Celss} Celeste Screen shot}}{8}{}%
 \contentsline {figure}{\numberline {3}{\ignorespaces \blx@tocontentsinit {0}\cite {RWss} Rain World Screen shot}}{9}{}%
 \contentsline {figure}{\numberline {4}{\ignorespaces Questionnaire Header}}{12}{}%
 \contentsline {figure}{\numberline {5}{\ignorespaces \blx@tocontentsinit {0}\cite {SHS} Steam OS statistics}}{15}{}%
 \contentsline {figure}{\numberline {6}{\ignorespaces \blx@tocontentsinit {0}\cite {SHS} Steam Hardware Statistics}}{16}{}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Room Layout}}{20}{}%
-\contentsline {figure}{\numberline {8}{\ignorespaces \blx@tocontentsinit {0}\cite {Dis_Alg} Room Movement Direction}}{20}{}%
-\contentsline {figure}{\numberline {9}{\ignorespaces Flowchart for spreading rooms}}{21}{}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Result of room separation}}{22}{}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Flowchart for deleting rooms}}{23}{}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Result of room deletion}}{23}{}%
-\contentsline {figure}{\numberline {13}{\ignorespaces Bowyer-Watson Classes}}{24}{}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Bowyer-Watson Algorithm Flowchart}}{25}{}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Result of Bowyer–Watson algorithm}}{26}{}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Flowchart for Edge Deletion Algorithm}}{28}{}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Deleting edges result}}{29}{}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Flowchart for detecting if a new section needs to be made}}{30}{}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Flowchart for recursive function to find entire section}}{31}{}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Flowchart for detecting sections in the program}}{32}{}%
-\contentsline {figure}{\numberline {21}{\ignorespaces All possibilities for points}}{34}{}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Flowchart for turning edges into horizontal and vertical edges}}{35}{}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Before (pink) and after algorithm (green)}}{36}{}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Flowchart for the given pseudocode}}{37}{}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Flowchart for generating the tilemap}}{39}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Room layout example}}{20}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces Flowchart for generating rooms}}{21}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces \blx@tocontentsinit {0}\cite {Dis_Alg} Room Movement Direction}}{22}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Flowchart for spreading rooms}}{23}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Flowchart for deleting rooms}}{25}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Bowyer-Watson Classes}}{26}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces Bowyer-Watson Algorithm Flowchart}}{27}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Flowchart for Edge Deletion Algorithm}}{29}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Flowchart for Generating spawn and boss rooms}}{31}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Flowchart for detecting if a new section needs to be made}}{34}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Flowchart for recursive function to find entire section}}{35}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Flowchart for detecting sections in the program}}{36}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces All possibilities for points}}{38}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Flowchart for turning edges into horizontal and vertical edges}}{40}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Flowchart for the given pseudocode}}{42}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Flowchart for generating the tilemap}}{44}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Result of room separation}}{46}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Result of room deletion}}{46}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Result of Bowyer–Watson algorithm}}{46}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Deleting edges result}}{47}{}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Before (pink) and after algorithm (green)}}{47}{}%

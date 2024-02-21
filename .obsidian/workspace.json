@@ -1,64 +1,37 @@
 {
   "main": {
-    "id": "73d29b5a211a5dce",
+    "id": "d967e89b48b96346",
     "type": "split",
     "children": [
       {
-        "id": "4cb8cb06b56e16ee",
+        "id": "eebe7c86e8d19506",
         "type": "tabs",
         "children": [
           {
-            "id": "f48a97bb218f5da7",
+            "id": "4d62187c9600d60b",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
-              }
-            }
-          },
-          {
-            "id": "711701353efc9bbd",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
-              }
-            }
-          },
-          {
-            "id": "99dc28361592634a",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-<<<<<<< HEAD
-                "file": "School/Maths/Notes/Defenitions/Integration.md",
-=======
-                "file": "Life/Cooking/Desert/Brownie.md",
->>>>>>> e7d003b62858b30cf019941416dd46ef5f22abbd
-                "mode": "source",
-                "source": false
+                "file": "School/Computer Science/Course Work/A-star example/Design.pdf"
               }
             }
           }
-        ],
-        "currentTab": 1
+        ]
       }
     ],
     "direction": "vertical"
   },
   "left": {
-    "id": "b116e89c4cfc8d0d",
+    "id": "590fad5003a36880",
     "type": "split",
     "children": [
       {
-        "id": "8e5d19a9bbf04e93",
+        "id": "be5a79213fd011c1",
         "type": "tabs",
         "children": [
           {
-            "id": "a23261b6ce4fa130",
+            "id": "deb376b05189ba5d",
             "type": "leaf",
             "state": {
               "type": "file-explorer",
@@ -68,13 +41,13 @@
             }
           },
           {
-            "id": "8d30083bae2d855f",
+            "id": "e0ab913968bee3f6",
             "type": "leaf",
             "state": {
               "type": "search",
               "state": {
-                "query": "firewall",
-                "matchingCase": true,
+                "query": "",
+                "matchingCase": false,
                 "explainSearch": false,
                 "collapseAll": false,
                 "extraContext": false,
@@ -83,7 +56,7 @@
             }
           },
           {
-            "id": "283536f42a74e406",
+            "id": "6502d010aed45ebc",
             "type": "leaf",
             "state": {
               "type": "bookmarks",
@@ -91,18 +64,7 @@
             }
           },
           {
-            "id": "effea6ded7b88b2b",
-            "type": "leaf",
-            "state": {
-              "type": "tag",
-              "state": {
-                "sortOrder": "frequency",
-                "useHierarchy": true
-              }
-            }
-          },
-          {
-            "id": "d458d843d666069c",
+            "id": "9297f6df1ba79635",
             "type": "leaf",
             "state": {
               "type": "surfing-tab-tree",
@@ -116,66 +78,55 @@
     "width": 300
   },
   "right": {
-    "id": "bf4ac1899630a9ef",
+    "id": "257e1be1801de4db",
     "type": "split",
     "children": [
       {
-        "id": "e90c4e9a5a9063c5",
+        "id": "03b24b6baa43ba95",
         "type": "tabs",
         "children": [
           {
-            "id": "c890405ada7ea989",
+            "id": "3401363e0b3c1e79",
             "type": "leaf",
             "state": {
               "type": "backlink",
               "state": {
-<<<<<<< HEAD
-                "file": "School/Maths/Textbook/Pure Year 2.pdf",
-=======
-                "file": "Life/Cooking/Desert/Brownie.md",
->>>>>>> e7d003b62858b30cf019941416dd46ef5f22abbd
-                "collapseAll": true,
+                "file": "School/Computer Science/Course Work/A-star example/Design.pdf",
+                "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
                 "showSearch": false,
                 "searchQuery": "",
                 "backlinkCollapsed": false,
-                "unlinkedCollapsed": false
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "2744b84d0c584e7e",
+            "id": "ab5e9ec17dca8518",
             "type": "leaf",
             "state": {
               "type": "outgoing-link",
               "state": {
-<<<<<<< HEAD
-                "file": "School/Maths/Textbook/Pure Year 2.pdf",
-=======
-                "file": "Life/Cooking/Desert/Brownie.md",
->>>>>>> e7d003b62858b30cf019941416dd46ef5f22abbd
-                "linksCollapsed": true,
-                "unlinkedCollapsed": false
+                "file": "School/Computer Science/Course Work/A-star example/Design.pdf",
+                "linksCollapsed": false,
+                "unlinkedCollapsed": true
               }
             }
           },
           {
-            "id": "f2ff2a748fac7abb",
+            "id": "cc599b906a0972a2",
             "type": "leaf",
             "state": {
-              "type": "outline",
+              "type": "tag",
               "state": {
-<<<<<<< HEAD
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
-=======
-                "file": "Life/Cooking/Desert/Brownie.md"
->>>>>>> e7d003b62858b30cf019941416dd46ef5f22abbd
+                "sortOrder": "frequency",
+                "useHierarchy": true
               }
             }
           },
           {
-            "id": "34e5f1ab724ad246",
+            "id": "7d83a1a89da9b4b4",
             "type": "leaf",
             "state": {
               "type": "all-properties",
@@ -187,83 +138,36 @@
             }
           },
           {
-            "id": "f1d8770552bbe44a",
+            "id": "3d085a9fd853897c",
             "type": "leaf",
             "state": {
-              "type": "advanced-tables-toolbar",
-              "state": {}
+              "type": "outline",
+              "state": {
+                "file": "School/Computer Science/Course Work/A-star example/Design.pdf"
+              }
             }
           }
-        ],
-        "currentTab": 4
+        ]
       }
     ],
     "direction": "horizontal",
-    "width": 311.5,
+    "width": 300,
     "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
+      "obsidian-excalidraw-plugin:Create new drawing": false,
+      "table-editor-obsidian:Advanced Tables Toolbar": false,
       "switcher:Open quick switcher": false,
+      "graph:Open graph view": false,
       "canvas:Create new canvas": false,
       "daily-notes:Open today's daily note": false,
       "templates:Insert template": false,
-      "command-palette:Open command palette": false,
-      "graph:Open graph view": false,
-      "table-editor-obsidian:Advanced Tables Toolbar": false,
-      "obsidian-excalidraw-plugin:Create new drawing": false
+      "command-palette:Open command palette": false
     }
   },
-  "active": "f1d8770552bbe44a",
+  "active": "4d62187c9600d60b",
   "lastOpenFiles": [
-<<<<<<< HEAD
-    "School/Maths/Notes/Defenitions/Integration.md",
-    "School/Maths/Textbook/Pure Year 2.pdf",
-    "School/Computer Science/Course Work/Reports/Feedback/Feedback 1.md",
-    "School/Maths/Notes/Pure/Year 2/11 Integration.md",
-=======
-    "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
-    "School/Computer Science/Course Work/Reports/Report.synctex.gz",
->>>>>>> e7d003b62858b30cf019941416dd46ef5f22abbd
-    "School/Maths/Notes/Test/Maths 2024 Mock Mistakes.md",
-    "School/Maths/Notes/Test",
-    "School/Computer Science/Course Work/A-star example/Analysis.pdf",
-    "Life/Crochet/Links for patterns.md",
-    "Life/Crochet/Junimo_Amigurumi_by_icrochetthings.pdf",
-    "Life/Crochet/Plague_Doctor_Amigurumi.pdf",
-    "School/Maths/Notes/Defenitions/Differentiating exponentials and logarithms.md",
-    "School/Computer Science/Course Work/Reports/Feedback",
-    "School/Computer Science/Course Work/Reports/Images/deleted edges no rooms.png",
-    "School/Computer Science/Course Work/Reports/Images/deleted edges no rooms.png.0.pdnSave",
-    "School/Computer Science/Course Work/Reports/Images/deleted edges.png.0.pdnSave",
-    "School/Maths/Notes/Pure/Year 2/9 Differentiation.md",
-    "Life/Cheat Sheets/latexsheet.pdf",
-    "School/Computer Science/Course Work/Reports/Images/deleted rooms1.png",
-    "School/Computer Science/Course Work/Reports/Images/deleted rooms.png",
-    "School/Computer Science/Course Work/Reports/Images/spread rooms.png",
-    "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation stress test.png",
-    "School/Computer Science/Course Work/Reports/Images/rooms deluaney triangulation just edges.png",
-    "School/Computer Science/Course Work/Reports/Report.md",
-    "School/Computer Science/Course Work/Reports/Images/sep_vecs_rects.png",
-    "School/Computer Science/Course Work/Reports/Images/room layout1.png",
-    "School/Computer Science/Course Work/Reports/Images/room layout.png",
-    "School/Computer Science/Course Work/Pixel Art/Monsters_Creatures_Fantasy/Goblin/Idle.png",
-    "School/Maths/Notes/Links.md",
-    "School/Maths/Notes/Statistics/Year 1/7 Hypothesis testing.md",
-    "School/Computer Science/Notes/Links.md",
-    "School/Computer Science/Notes/Unit 2/2.3 Algorithms/2.3.1 Algorithms.md",
-    "School/Computer Science/Notes/Defenitions/Dijkstra's Shortest Path.md",
-    "School/Computer Science/Notes/Defenitions/A-star Pathfinding.md",
-    "School/Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.3 Thinking procedurally.md",
-    "School/Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.1 Thinking abstractly.md",
-    "School/Computer Science/Notes/Unit 2/2.1 Elements of computational thinking/2.1.2 Thinking ahead.md",
-    "School/Computer Science/Notes/Defenitions/Quick Sort.md",
-    "School/Computer Science/Notes/Defenitions/Merge Sort.md",
-    "School/Computer Science/Notes/Defenitions/Bubble Sort.md",
-    "School/Physics/Notes/Paper 2/Topic 4- Materials.md",
-    "School/Physics/Notes/Defenitions/Viscosity.md",
-    "School/Physics/Notes/Defenitions/Young modulus.md",
-    "School/Physics/Notes/Defenitions/Strain.md",
-    "School/Physics/Notes/Defenitions/Pressure.md"
+    "School/Computer Science/Course Work/Reports/Report.synctex(busy)"
   ]
 }

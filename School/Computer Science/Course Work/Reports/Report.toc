@@ -8,13 +8,14 @@
 \contentsline {paragraph}{Characters}{6}{}%
 \contentsline {paragraph}{Aim of the game}{6}{}%
 \contentsline {paragraph}{Target demographic}{6}{}%
+\contentsline {paragraph}{Reviews}{7}{}%
 \contentsline {paragraph}{Good Qualities}{7}{}%
 \contentsline {paragraph}{Bad Qualities}{7}{}%
 \contentsline {paragraph}{What I would include}{7}{}%
 \contentsline {subsubsection}{\numberline {3.2.2}Celeste}{7}{}%
-\contentsline {paragraph}{Controls}{8}{}%
-\contentsline {paragraph}{Characters}{8}{}%
-\contentsline {paragraph}{Aim of the game}{8}{}%
+\contentsline {paragraph}{Controls}{7}{}%
+\contentsline {paragraph}{Characters}{7}{}%
+\contentsline {paragraph}{Aim of the game}{7}{}%
 \contentsline {paragraph}{Target demographic}{8}{}%
 \contentsline {paragraph}{Good Qualities}{8}{}%
 \contentsline {paragraph}{Bad Qualities}{8}{}%
@@ -50,13 +51,35 @@
 \contentsline {subsection}{\numberline {4.2}Main Menu}{19}{}%
 \contentsline {subsection}{\numberline {4.3}Dungeon Generation}{19}{}%
 \contentsline {subsubsection}{\numberline {4.3.1}Create Rooms}{20}{}%
-\contentsline {subsubsection}{\numberline {4.3.2}Spread rooms}{20}{}%
-\contentsline {subsubsection}{\numberline {4.3.3}Delete Rooms}{22}{}%
-\contentsline {subsubsection}{\numberline {4.3.4}Delaunay Triangulation}{23}{}%
-\contentsline {subsubsection}{\numberline {4.3.5}Remove random amount of edges}{27}{}%
-\contentsline {subsubsection}{\numberline {4.3.6}Make sure all rooms are accessible}{29}{}%
-\contentsline {subsubsection}{\numberline {4.3.7}Turn edges into horizontal and vertical}{34}{}%
-\contentsline {subsubsection}{\numberline {4.3.8}Generate corridors}{36}{}%
-\contentsline {subsubsection}{\numberline {4.3.9}Turn into tile map}{37}{}%
-\contentsline {subsubsection}{\numberline {4.3.10}Spawn player}{40}{}%
-\contentsline {section}{\numberline {5}Evaluation}{40}{}%
+\contentsline {paragraph}{Pseudocode}{22}{}%
+\contentsline {paragraph}{Variable table}{22}{}%
+\contentsline {paragraph}{Identifying test data}{22}{}%
+\contentsline {subsubsection}{\numberline {4.3.2}Spread rooms}{22}{}%
+\contentsline {paragraph}{Variable table}{24}{}%
+\contentsline {paragraph}{Identifying test data}{24}{}%
+\contentsline {subsubsection}{\numberline {4.3.3}Delete Rooms}{24}{}%
+\contentsline {paragraph}{Variable table}{25}{}%
+\contentsline {paragraph}{Identifying test data}{25}{}%
+\contentsline {subsubsection}{\numberline {4.3.4}Delaunay Triangulation}{25}{}%
+\contentsline {paragraph}{Variable table}{28}{}%
+\contentsline {paragraph}{Identifying test data}{28}{}%
+\contentsline {subsubsection}{\numberline {4.3.5}Remove random amount of edges}{28}{}%
+\contentsline {paragraph}{Variable table}{30}{}%
+\contentsline {paragraph}{Identifying test data}{30}{}%
+\contentsline {subsubsection}{\numberline {4.3.6}Generate spawn and boss room}{30}{}%
+\contentsline {subsubsection}{\numberline {4.3.7}Make sure all rooms are accessible}{33}{}%
+\contentsline {paragraph}{Variable table}{38}{}%
+\contentsline {paragraph}{Identifying test data}{38}{}%
+\contentsline {subsubsection}{\numberline {4.3.8}Turn edges into horizontal and vertical}{38}{}%
+\contentsline {paragraph}{Variable table}{41}{}%
+\contentsline {paragraph}{Identifying test data}{41}{}%
+\contentsline {subsubsection}{\numberline {4.3.9}Generate corridors}{41}{}%
+\contentsline {paragraph}{Variable table}{42}{}%
+\contentsline {paragraph}{Identifying test data}{42}{}%
+\contentsline {subsubsection}{\numberline {4.3.10}Turn into tile map}{43}{}%
+\contentsline {paragraph}{Variable table}{45}{}%
+\contentsline {paragraph}{Identifying test data}{45}{}%
+\contentsline {subsubsection}{\numberline {4.3.11}Spawn player}{45}{}%
+\contentsline {section}{\numberline {5}Developing a solution}{45}{}%
+\contentsline {subsection}{\numberline {5.1}Temp Fig Holder}{45}{}%
+\contentsline {section}{\numberline {6}Evaluation}{45}{}%
