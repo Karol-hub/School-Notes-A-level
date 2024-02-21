@@ -8,78 +8,77 @@
 \contentsline {paragraph}{Characters}{6}{}%
 \contentsline {paragraph}{Aim of the game}{6}{}%
 \contentsline {paragraph}{Target demographic}{6}{}%
-\contentsline {paragraph}{Reviews}{7}{}%
 \contentsline {paragraph}{Good Qualities}{7}{}%
 \contentsline {paragraph}{Bad Qualities}{7}{}%
-\contentsline {paragraph}{What I would include}{7}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}Celeste}{7}{}%
-\contentsline {paragraph}{Controls}{7}{}%
-\contentsline {paragraph}{Characters}{7}{}%
-\contentsline {paragraph}{Aim of the game}{7}{}%
-\contentsline {paragraph}{Target demographic}{8}{}%
-\contentsline {paragraph}{Good Qualities}{8}{}%
-\contentsline {paragraph}{Bad Qualities}{8}{}%
 \contentsline {paragraph}{What I would include}{8}{}%
-\contentsline {subsubsection}{\numberline {3.2.3}Rain World}{9}{}%
-\contentsline {paragraph}{Controls}{9}{}%
-\contentsline {paragraph}{Characters}{9}{}%
-\contentsline {paragraph}{Aim of the game}{10}{}%
-\contentsline {paragraph}{Target demographic}{10}{}%
-\contentsline {paragraph}{Good Qualities}{10}{}%
-\contentsline {paragraph}{Bad Qualities}{10}{}%
-\contentsline {paragraph}{What I would include}{10}{}%
-\contentsline {subsection}{\numberline {3.3}Stakeholders}{10}{}%
-\contentsline {subsection}{\numberline {3.4}Interview with Stakeholder}{11}{}%
-\contentsline {subsection}{\numberline {3.5}Letter to Stakeholder}{12}{}%
-\contentsline {subsection}{\numberline {3.6}Questionnaire}{12}{}%
-\contentsline {paragraph}{Analysis}{12}{}%
-\contentsline {subsection}{\numberline {3.7}Analysing Market}{15}{}%
-\contentsline {paragraph}{System OS Analysis}{15}{}%
-\contentsline {paragraph}{Hardware Analysis}{16}{}%
-\contentsline {subsection}{\numberline {3.8}System Requirements}{16}{}%
-\contentsline {paragraph}{Minimum Hardware Requirements}{16}{}%
-\contentsline {paragraph}{Input devices:}{16}{}%
-\contentsline {paragraph}{Output devices:}{16}{}%
-\contentsline {paragraph}{Minimum Software Requirements}{17}{}%
-\contentsline {subsection}{\numberline {3.9}Limitations}{17}{}%
-\contentsline {subsection}{\numberline {3.10}Essential Features}{17}{}%
-\contentsline {subsection}{\numberline {3.11}Success Criteria}{17}{}%
-\contentsline {section}{\numberline {4}Designing the Solution}{19}{}%
-\contentsline {paragraph}{Decomposition of the problem}{19}{}%
-\contentsline {paragraph}{Variables}{19}{}%
-\contentsline {subsection}{\numberline {4.1}Folder Set up}{19}{}%
-\contentsline {subsection}{\numberline {4.2}Main Menu}{19}{}%
-\contentsline {subsection}{\numberline {4.3}Dungeon Generation}{19}{}%
-\contentsline {subsubsection}{\numberline {4.3.1}Create Rooms}{20}{}%
-\contentsline {paragraph}{Pseudocode}{22}{}%
-\contentsline {paragraph}{Variable table}{22}{}%
-\contentsline {paragraph}{Identifying test data}{22}{}%
-\contentsline {subsubsection}{\numberline {4.3.2}Spread rooms}{22}{}%
-\contentsline {paragraph}{Variable table}{24}{}%
-\contentsline {paragraph}{Identifying test data}{24}{}%
-\contentsline {subsubsection}{\numberline {4.3.3}Delete Rooms}{24}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Celeste}{8}{}%
+\contentsline {paragraph}{Controls}{8}{}%
+\contentsline {paragraph}{Characters}{8}{}%
+\contentsline {paragraph}{Aim of the game}{8}{}%
+\contentsline {paragraph}{Target demographic}{9}{}%
+\contentsline {paragraph}{Good Qualities}{9}{}%
+\contentsline {paragraph}{Bad Qualities}{9}{}%
+\contentsline {paragraph}{What I would include}{9}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Rain World}{10}{}%
+\contentsline {paragraph}{Controls}{10}{}%
+\contentsline {paragraph}{Characters}{10}{}%
+\contentsline {paragraph}{Aim of the game}{11}{}%
+\contentsline {paragraph}{Target demographic}{11}{}%
+\contentsline {paragraph}{Good Qualities}{11}{}%
+\contentsline {paragraph}{Bad Qualities}{12}{}%
+\contentsline {paragraph}{What I would include}{12}{}%
+\contentsline {subsection}{\numberline {3.3}Stakeholders}{12}{}%
+\contentsline {subsection}{\numberline {3.4}Interview with Stakeholder}{12}{}%
+\contentsline {subsection}{\numberline {3.5}Letter to Stakeholder}{13}{}%
+\contentsline {subsection}{\numberline {3.6}Questionnaire}{14}{}%
+\contentsline {paragraph}{Analysis}{14}{}%
+\contentsline {subsection}{\numberline {3.7}Analysing Market}{17}{}%
+\contentsline {paragraph}{System OS Analysis}{17}{}%
+\contentsline {paragraph}{Hardware Analysis}{17}{}%
+\contentsline {subsection}{\numberline {3.8}System Requirements}{18}{}%
+\contentsline {paragraph}{Minimum Hardware Requirements}{18}{}%
+\contentsline {paragraph}{Input devices:}{18}{}%
+\contentsline {paragraph}{Output devices:}{18}{}%
+\contentsline {paragraph}{Minimum Software Requirements}{18}{}%
+\contentsline {subsection}{\numberline {3.9}Limitations}{18}{}%
+\contentsline {subsection}{\numberline {3.10}Essential Features}{19}{}%
+\contentsline {subsection}{\numberline {3.11}Success Criteria}{19}{}%
+\contentsline {section}{\numberline {4}Designing the Solution}{20}{}%
+\contentsline {paragraph}{Decomposition of the problem}{20}{}%
+\contentsline {paragraph}{Variables}{20}{}%
+\contentsline {subsection}{\numberline {4.1}Folder Set up}{21}{}%
+\contentsline {subsection}{\numberline {4.2}Main Menu}{21}{}%
+\contentsline {subsection}{\numberline {4.3}Dungeon Generation}{21}{}%
+\contentsline {subsubsection}{\numberline {4.3.1}Create Rooms}{21}{}%
+\contentsline {paragraph}{Pseudocode}{23}{}%
+\contentsline {paragraph}{Variable table}{23}{}%
+\contentsline {paragraph}{Identifying test data}{23}{}%
+\contentsline {subsubsection}{\numberline {4.3.2}Spread rooms}{23}{}%
 \contentsline {paragraph}{Variable table}{25}{}%
 \contentsline {paragraph}{Identifying test data}{25}{}%
-\contentsline {subsubsection}{\numberline {4.3.4}Delaunay Triangulation}{25}{}%
-\contentsline {paragraph}{Variable table}{28}{}%
-\contentsline {paragraph}{Identifying test data}{28}{}%
-\contentsline {subsubsection}{\numberline {4.3.5}Remove random amount of edges}{28}{}%
-\contentsline {paragraph}{Variable table}{30}{}%
-\contentsline {paragraph}{Identifying test data}{30}{}%
-\contentsline {subsubsection}{\numberline {4.3.6}Generate spawn and boss room}{30}{}%
-\contentsline {subsubsection}{\numberline {4.3.7}Make sure all rooms are accessible}{33}{}%
-\contentsline {paragraph}{Variable table}{38}{}%
-\contentsline {paragraph}{Identifying test data}{38}{}%
-\contentsline {subsubsection}{\numberline {4.3.8}Turn edges into horizontal and vertical}{38}{}%
-\contentsline {paragraph}{Variable table}{41}{}%
-\contentsline {paragraph}{Identifying test data}{41}{}%
-\contentsline {subsubsection}{\numberline {4.3.9}Generate corridors}{41}{}%
+\contentsline {subsubsection}{\numberline {4.3.3}Delete Rooms}{25}{}%
+\contentsline {paragraph}{Variable table}{26}{}%
+\contentsline {paragraph}{Identifying test data}{26}{}%
+\contentsline {subsubsection}{\numberline {4.3.4}Delaunay Triangulation}{26}{}%
+\contentsline {paragraph}{Variable table}{29}{}%
+\contentsline {paragraph}{Identifying test data}{29}{}%
+\contentsline {subsubsection}{\numberline {4.3.5}Remove random amount of edges}{29}{}%
+\contentsline {paragraph}{Variable table}{31}{}%
+\contentsline {paragraph}{Identifying test data}{31}{}%
+\contentsline {subsubsection}{\numberline {4.3.6}Generate spawn and boss room}{31}{}%
+\contentsline {subsubsection}{\numberline {4.3.7}Make sure all rooms are accessible}{34}{}%
+\contentsline {paragraph}{Variable table}{39}{}%
+\contentsline {paragraph}{Identifying test data}{39}{}%
+\contentsline {subsubsection}{\numberline {4.3.8}Turn edges into horizontal and vertical}{39}{}%
 \contentsline {paragraph}{Variable table}{42}{}%
 \contentsline {paragraph}{Identifying test data}{42}{}%
-\contentsline {subsubsection}{\numberline {4.3.10}Turn into tile map}{43}{}%
-\contentsline {paragraph}{Variable table}{45}{}%
-\contentsline {paragraph}{Identifying test data}{45}{}%
-\contentsline {subsubsection}{\numberline {4.3.11}Spawn player}{45}{}%
-\contentsline {section}{\numberline {5}Developing a solution}{45}{}%
-\contentsline {subsection}{\numberline {5.1}Temp Fig Holder}{45}{}%
-\contentsline {section}{\numberline {6}Evaluation}{45}{}%
+\contentsline {subsubsection}{\numberline {4.3.9}Generate corridors}{42}{}%
+\contentsline {paragraph}{Variable table}{43}{}%
+\contentsline {paragraph}{Identifying test data}{43}{}%
+\contentsline {subsubsection}{\numberline {4.3.10}Turn into tile map}{44}{}%
+\contentsline {paragraph}{Variable table}{46}{}%
+\contentsline {paragraph}{Identifying test data}{46}{}%
+\contentsline {subsubsection}{\numberline {4.3.11}Spawn player}{46}{}%
+\contentsline {section}{\numberline {5}Developing a solution}{46}{}%
+\contentsline {subsection}{\numberline {5.1}Temp Fig Holder}{46}{}%
+\contentsline {section}{\numberline {6}Evaluation}{46}{}%
