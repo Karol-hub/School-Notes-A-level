@@ -780,35 +780,6 @@ variable – represented as lowercase with underscores
 \subsection{Folder Set up}
 % SS of folder setup when complete
 
-\subsection{Main Menu}
-The main menu will be there to greet the player once they open the game and allow them to choose what they would like to do.
-
-\parBr
-
-These will be in the form of buttons that the user can click on.
-
-\parBr
-
-\mycomment{
-% idk some flowchart or something
-\begin{center}
-\begin{tikzpicture}[node distance=2cm]
-\node (start) [startstop] {Start};
-\node (in1) [io, below of=start] {Player Presses a button};
-\node (load) [startstop, below of=in1, yshift = 0cm] {Game Starts};
-\node (pro2) [process, left of=load, xshift=-2cm] {Settings Load};
-\node (in2) [io, below of=pro2, xshift =0cm] {Player returns to main menu};
-\node (quit) [startstop, right of=load, xshift = 2cm] {Quits Game};
-\draw [arrow] (start) -- (in1);
-\draw [arrow] (in1) -- (load);
-\draw [arrow] (in1) -- (pro2);
-\draw [arrow] (in1) -- (quit);
-\draw [arrow] (pro2) -- (in2);
-\draw [arrow] (in2) -- (in1);
-\end{tikzpicture}
-\end{center}
-}
-
 \subsection{Dungeon Generation}
 The Generation algorithm that I used is a modified version of the algorithm used in {\cite{Gen_Alg}}. The stages I used can be summarised with the key points:
 \begin{itemize}
@@ -884,10 +855,10 @@ for (int i = 0; i < amountOfRooms; i++)
 \smallBr
 \begin{tabular}{l|l|l}
 \multicolumn{1}{l|}{Variable Name} & Variable Type                            & \multicolumn{1}{|l}{Description}                             \\ \hline
-amountOfRooms                       & integer                                  & Definse amoubt of room to be generated                       \\
+amountOfRooms                       & Integer                                  & Definse amoubt of room to be generated                       \\
 scaleRange                          & Vector2                                  & Defines the min and max scale of a room                      \\
 roomVars                            & integer                                  & Tells the program how many room variations exist             \\
-randNum                             & integer                                  & Random integer used for deciding which room type to generate \\
+randNum                             & Integer                                  & Random integer used for deciding which room type to generate \\
 rooms                               & List\textless{}PackedScene\textgreater{} & Contains all possible room variations                        \\
 instacne                            & Node                                     & An instance of a room                                       
 \end{tabular}
@@ -979,7 +950,14 @@ if (checkedRooms == amountOfRooms)
 \end{lstlisting}
 
 \myparagraph{Variable table}
-
+\smallBr
+\begin{tabular}{l|l|l}
+Variable Name & Variable Type & Description                                                                                                                         \\ \hline
+count         & Integer       & \begin{tabular}[c]{@{}l@{}}Counts the rooms that are separated, if it's equal to room count\\  the section is finished\end{tabular} \\
+displacement  & Vector2       & Average displacement vector of all the overlapping rooms                                                                            \\
+direction     & Vector2       & Manipulated displacement value to suit the program                                                                                  \\
+step          & float         & How far the rooms move each iteration                                                                                              
+\end{tabular}
 
 \myparagraph{Identifying test data}
 The algorithm will be successful if the following conditions are met:
@@ -1000,7 +978,7 @@ The rooms being too close together means that all the corridors will be short an
   \centering
   \begin{tikzpicture}[node distance=2cm, align=center]
     \node (start) [startstop] {Start};
-    \node (forloop) [process, below of=start] {for (int)amountOfRooms * deletingRoomsFactor};
+    \node (forloop) [process, below of=start] {for amountOfRooms * deletingRoomsFactor};
     \node (removechild) [process, below of=forloop] {RemoveChild(random child);};
     \node (end) [startstop, below of=removechild] {End};
     
@@ -1022,6 +1000,11 @@ for (int)(amountOfRooms * deletingRoomsFactor);
 \end{lstlisting}
 
 \myparagraph{Variable table}
+\smallBr
+\begin{tabular}{l|l|l}
+Variable Name       & Variable Type & Description                                                         \\ \hline
+deletingRoomsFactor & float         & Needs to be between 0-1 (if its 0.8 it will delete 80\% of rooms)
+\end{tabular}
 
 \myparagraph{Identifying test data}
 The algorithm will be successful if the following conditions are met:
@@ -1143,6 +1126,19 @@ function BowyerWatson (pointList)
 \end{lstlisting}
 
 \myparagraph{Variable table}
+\smallBr
+\begin{tabular}{l|l|l}
+Variable Name   & Variable Type                         & Description                                 \\ \hline
+triangulation   & List\textless{}Triangle\textgreater{} & List of the triangulated mesh               \\
+badTriangles    & List\textless{}Triangle\textgreater{} & List of triangles to discard                \\
+polygon         & List\textless{}Edge\textgreater{}     & All edges in end result                     \\
+polygonEdgeList & List\textless{}Edge\textgreater{}     & List of edges to retriangulate to new point \\
+superTriPoint1  & Point                                 & Point of triangle surrounding all points    \\
+superTriPoint2  & Point                                 & Point of triangle surrounding all points    \\
+superTriPoint3  & Point                                 & Point of triangle surrounding all points    \\
+point           & Point                                 & Point being added to the triangulation      \\
+allPoints       & List\textless{}Point\textgreater{}    & List of all points to be triangulated      
+\end{tabular}
 
 \myparagraph{Identifying test data}
 The algorithm will be successful if the following conditions are met:
@@ -1215,6 +1211,13 @@ while (edgeList.Count() < (int)(polygon.Count()* edgeDeletingFactor))
 \end{lstlisting}
 
 \myparagraph{Variable table}
+\smallBr
+\begin{tabular}{l|l|l}
+Variable Name      & Variable Type                    & Description                                                     \\ \hline
+edgeDeletingFactor & float                            & Needs to be between 0-1 (if its 0.8 it will keep 80\% of edges) \\
+indexList          & List\textless{}int\textgreater{} & List of indexes to remove from edge list                        \\
+newIndex           & int                              & New index to be checked if it can be deleted                   
+\end{tabular}
 
 \myparagraph{Identifying test data}
 The algorithm will be successful if the following conditions are met:
@@ -1320,32 +1323,31 @@ closestPoint.ConnectPoint(spawnPoint);
 Move onto next stage of generation
 \end{lstlisting}
 
-\subsubsection{Make sure all rooms are accessible}
-This section can be decomposed into smaller problems. That being detecting sections and connecting sections. First comes detecting sections, this is accomplished more easily when the the graph is represented with list of points along with each point having a list of points it's connected to. Currently the graph is represented as a list of edges. This can be done with a simple algorithm explored further in the "Turning list of edge to graph" section.
+\myparagraph{Variable table}
+\smallBr
+\begin{tabular}{l|l|l}
+Variable Name   & Variable Type                      & Description                                                     \\ \hline
+closestPoint    & Point                              & Closest known point to room that is being generated             \\
+graph           & List\textless{}Point\textgreater{} & List of all the rooms that have been generated                  \\
+currentLength   & float                              & distance between closest known point and room being generated   \\
+bossRoom        & Node                               & The actual boss room                                            \\
+bossPoint       & Point                              & bossRoom turned to a point                                      \\
+spawnRoom       & Node                               & The actual spawn room                                           \\
+spawnPoint      & Point                              & spawnRoom turned into a point                                   \\
+polygonEdgeList & List\textless{}Edge\textgreater{}  & List of all the edges that compose the current state of the map
+\end{tabular}
 
-\begin{figure}[p]
-  \centering
-  \begin{tikzpicture}[node distance=2cm, align=center]
-    \node (start) [startstop] {function DetectSections(List<Edge> edges)};
-    \node (initsects) [process, below of=start] {List<List<Point>> sects = new List<List<Point>>()};
-    \node (initgraph) [process, below of=initsects] {List<Point> graph = MakeGraph(edges)};
-    \node (outerloop) [process, below of=initgraph] {for each point in graph};
-    \node (checkcondition) [decision, below of=outerloop, yshift=-0.5cm] {if point doesn't \\ exist in any section};
-    \node (newsection) [process, below of=checkcondition, yshift=-1cm] {sects.Add(MakeSection(point, new List<Point>()))};
-    \node (end) [startstop, below of=newsection] {return sects};
-    
-    \draw [arrow] (start) -- (initsects);
-    \draw [arrow] (initsects) -- (initgraph);
-    \draw [arrow] (initgraph) -- (outerloop);
-    \draw [arrow] (outerloop) -- (checkcondition);
-    \draw [arrow] (checkcondition) -- node[anchor=west] {true} (newsection);
-    \draw [arrow] (checkcondition.west) -- ++(-1,0) node[anchor=west, yshift=-0.2cm] {false} -- ++(0,2.5) -- (outerloop.west);
-    \draw [arrow] (newsection.east) -- ++(1,0) -- node[anchor=west, yshift=-0.2cm] {loop \\ back} ++(0,5.5) -- (outerloop.east);
-    \draw [arrow] (newsection.south) -- (end);
-  \end{tikzpicture}
-  \caption{Flowchart for detecting if a new section needs to be made}
-  \label{fig:detect-sections}
-\end{figure}
+\myparagraph{Identifying test data}
+The algorithm will be successful if the following conditions are met:
+\begin{itemize}
+\item{Spawn room and boss room are generated}
+\item{Spawn is generated above all other rooms}
+\item{Boss room is generated below all other rooms}
+\item{Both rooms are generated relatively close to the center}
+\end{itemize}
+
+\subsubsection{Make sure all rooms are accessible}
+This section can be decomposed into smaller problems. That being detecting sections and connecting sections. First comes detecting sections, this is accomplished more easily when the the graph is represented with list of points along with each point having a list of points it's connected to. Currently the graph is represented as a list of edges. This can be done with a simple algorithm explored further in the "Turning list of edge to graph" section. The detecting sections part is an example of depth first graph traversal since algorithm identifies leaf nodes first.
 
 \begin{figure}[p]
   \centering
@@ -1375,6 +1377,114 @@ This section can be decomposed into smaller problems. That being detecting secti
   \caption{Flowchart for recursive function to find entire section}
   \label{fig:recursive detect}
 \end{figure}
+\pagebreak
+
+\textbf{Pseudocode for figure \ref{fig:recursive detect}} \linebreak
+\textit{Recursive algorithm for detecting a section, given a starting point}
+\begin{lstlisting}
+function MakeSection(Point startPoint, List<Point> exclude)
+List<Point> NewPoints = new List<Point>()
+//add current startPoint to list of points to exclude
+exclude.Add(point)
+for each point in startPoint.Connectedpoints
+{
+	//branch out when point isn't already detected and is connected
+	if exclude does not contain point
+	{
+		NewPoints = MakeSection(point, exclude)
+		for each newPoint in NewPoints
+		{
+			if (newPoint doesn't exist in NewPoints)
+			{
+				exclude.Add(newPoint)
+			}
+		}
+	}
+}
+return exclude
+endfuntion
+\end{lstlisting}
+
+\myparagraph{Variable table}
+\smallBr
+\begin{tabular}{l|l|l}
+Variable Name & Variable Type                      & Description                                              \\ \hline
+point         & Point                              & Starting point for the algorithm to check                \\
+exclude       & List\textless{}Point\textgreater{} & List of points to exclude when checking connected points \\
+NewPoints     & List\textless{}Point\textgreater{} & Takes result of recursion in the algorithm              
+\end{tabular}
+
+\myparagraph{Identifying test data}
+The algorithm will be successful if the following conditions are met:
+\begin{itemize}
+\item{An entire section is detected given a single input point}
+\end{itemize}
+
+\begin{figure}[p]
+  \centering
+  \begin{tikzpicture}[node distance=2cm, align=center]
+    \node (start) [startstop] {function DetectSections(List<Edge> edges)};
+    \node (initsects) [process, below of=start] {List<List<Point>> sects = new List<List<Point>>()};
+    \node (initgraph) [process, below of=initsects] {List<Point> graph = MakeGraph(edges)};
+    \node (outerloop) [process, below of=initgraph] {for each point in graph};
+    \node (checkcondition) [decision, below of=outerloop, yshift=-1.5cm] {if point doesn't \\ exist in any section};
+    \node (newsection) [process, below of=checkcondition, yshift=-1cm] {sects.Add(MakeSection(point, new List<Point>()))};
+    \node (end) [startstop, below of=newsection] {return sects};
+    
+    \draw [arrow] (start) -- (initsects);
+    \draw [arrow] (initsects) -- (initgraph);
+    \draw [arrow] (initgraph) -- (outerloop);
+    \draw [arrow] (outerloop) -- (checkcondition);
+    \draw [arrow] (checkcondition) -- node[anchor=west] {true} (newsection);
+    \draw [arrow] (checkcondition.west) -- ++(-1,0) node[anchor=west, yshift=-0.2cm] {false} -- ++(0,3.5) -- (outerloop.west);
+    \draw [arrow] (newsection.east) -- ++(1,0) -- node[anchor=west, yshift=-0.2cm] {loop \\ back} ++(0,6.5) -- (outerloop.east);
+    \draw [arrow] (newsection.south) -- (end);
+  \end{tikzpicture}
+  \caption{Flowchart for detecting if a new section needs to be made}
+  \label{fig:detect-sections}
+\end{figure}
+\pagebreak
+
+\textbf{Pseudocode for figure \ref{fig:detect-sections}} \linebreak
+\textit{Algorithm for detecting weather a new section needs to be made given a list of edges}
+\begin{lstlisting}
+function DetectSections(List<Edge> edges)
+//list of section, each section is a list of points
+List<List<Point>> sects = new List<List<Point>>()
+List<Point> graph = MakeGraph(edges)
+for each point in graph
+{
+	check weather point already exists in sects
+	
+	if it doesn't exist start a new section with the not existing point as starting point
+	{
+		//add section to list of sections
+		sects.Add(MakeSection(point, new List<Point>()))
+	}
+}
+return sects
+endfunction
+\end{lstlisting}
+
+\myparagraph{Variable table}
+\smallBr
+\begin{tabular}{l|l|l}
+Variable Name & Variable Type                                                   & Description                                                                                                                                      \\ \hline
+sections      & List\textless{}List\textless{}Point\textgreater{}\textgreater{} & Each List of points is an independent section                                                                                                    \\
+graph         & List\textless{}Point\textgreater{}                              & List of points to be checked                                                                                                                     \\
+edges         & List\textless{}Edge\textgreater{}                               & \begin{tabular}[c]{@{}l@{}}Gets turned into graph but is a parameter of the function since lists of edges\\ are easier to work with\end{tabular} \\
+exist         & bool                                                            & Acts as a flag set to true if point already exists in a section                                                                                  \\
+NewPoints     & List\textless{}Point\textgreater{}                              & Takes result of recursion in the algorithm                                                                                                      
+\end{tabular}
+
+\myparagraph{Identifying test data}
+The algorithm will be successful if the following conditions are met:
+\begin{itemize}
+\item{Detects correct amount of sections}
+\item{Doesn't create another section when point being checked is already in a section}
+\end{itemize}
+
+Now that I am able to detect sections we want to connect them. This is done by saving the list of edges from the triangulation section and finding the difference between the list after removing edges.
 
 \begin{figure}[p]
   \centering
@@ -1405,56 +1515,9 @@ This section can be decomposed into smaller problems. That being detecting secti
   \caption{Flowchart for detecting sections in the program}
   \label{in game detect sections}
 \end{figure}
-
 \pagebreak
 
-\textbf{Pseudocode for figure \ref{fig:detect-sections}} \linebreak
-\textit{Algorithm for detecting weather a new section needs to be made given a list of edges}
-\begin{lstlisting}
-function DetectSections(List<Edge> edges)
-//list of section, each section is a list of points
-List<List<Point>> sects = new List<List<Point>>()
-List<Point> graph = MakeGraph(edges)
-for each point in graph
-{
-	check weather point already exists in sects
-	
-	if it doesn't exist start a new section with the not existing point as starting point
-	{
-		//add section to list of sections
-		sects.Add(MakeSection(point, new List<Point>()))
-	}
-}
-return sects
-endfunction
-\end{lstlisting}
-\textbf{Pseudocode for figure \ref{fig:recursive detect}} \linebreak
-\textit{Recursive algorithm for detecting a section, given a starting point}
-\begin{lstlisting}
-function MakeSection(Point startPoint, List<Point> exclude)
-List<Point> NewPoints = new List<Point>()
-//add current startPoint to list of points to exclude
-exclude.Add(point)
-for each point in startPoint.Connectedpoints
-{
-	//branch out when point isn't already detected and is connected
-	if exclude does not contain point
-	{
-		NewPoints = MakeSection(point, exclude)
-		for each newPoint in NewPoints
-		{
-			if (newPoint doesn't exist in NewPoints)
-			{
-				exclude.Add(newPoint)
-			}
-		}
-	}
-}
-return exclude
-endfuntion
-\end{lstlisting}
-Now that I am able to detect sections we want to connect them. This is done by saving the list of edges from the triangulation section and finding the difference between the list after removing edges.
-\linebreak
+
 \textbf{Pseudocode for figure \ref{in game detect sections}}
 \begin{lstlisting}
 //code called once before main loop is started
@@ -1492,12 +1555,21 @@ else
 \end{lstlisting}
 
 \myparagraph{Variable table}
+\smallBr
+\begin{tabular}{l|l|l}
+Variable Name     & Variable Type                       & Description                                                                 \\ \hline
+index             & int                                 & random number corresponding to edge to be added/removed                     \\
+polygonEdgeList   & List\textless{}Edge\textgreater{}   & Edges left over after deleting                                              \\
+polygon           & List\textless{}Edge\textgreater{}   & All edges after triangulating                                               \\
+polygonDifference & List\textless{}Edge\textgreater{}   & Whatever edges are left after polygon - polygonEdgelist                     \\
+removeThese       & List\textless{}Area2D\textgreater{} & Collection of all rooms to be deleted since they don't have any connections
+\end{tabular}
 
 \myparagraph{Identifying test data}
 The algorithm will be successful if the following conditions are met:
 \begin{itemize}
-\item{Each room is accessible}
-\item{}
+\item{The list of edges are now all connected to each other}
+\item{Removes all rooms without connections to other rooms}
 \end{itemize}
 
 \subsubsection{Turn edges into horizontal and vertical}
@@ -1566,8 +1638,7 @@ for each edge in polygonEdgeList
 \myparagraph{Identifying test data}
 The algorithm will be successful if the following conditions are met:
 \begin{itemize}
-\item{There is a correct amount of rooms}
-\item{There is variation in rooms generated}
+\item{Entire graph is made from horizontal and vertical edges}
 \end{itemize}
 
 In figure \ref{ba coridoors and edges} the pink lines are the edges before the rooms were generated. The green boxes are the result of this algorithm plus the generate corridors algorithm but it shows the algorithm well so it's included in this section.
@@ -1639,8 +1710,8 @@ for each edge in polygon
 \myparagraph{Identifying test data}
 The algorithm will be successful if the following conditions are met:
 \begin{itemize}
-\item{There is a correct amount of rooms}
-\item{There is variation in rooms generated}
+\item{Each edge has a corridor generated for it}
+\item{The corridor is an appropriate size}
 \end{itemize}
 
 However these rooms are still areas  that are solid blocks meaning that the player still isn't able to interact with any of the rooms as they are currently all solid blocks. That is why we need to regenerate the entire map to make it playable. A lot of the corridors are overlapping which could be problematic in the future however it wouldn't be worth it to remake that section as it would be very time consuming and wouldn't make any difference to the player since they would never see this section and would hardly effect the following sections.
@@ -1734,11 +1805,51 @@ else
 \myparagraph{Identifying test data}
 The algorithm will be successful if the following conditions are met:
 \begin{itemize}
-\item{There is a correct amount of rooms}
-\item{There is variation in rooms generated}
+\item{Takes reasonable amount of time}
+\item{Variation in tiles that looks good}
+\item{Makes an interesting map for the player to explore}
 \end{itemize}
 
 \subsubsection{Spawn player}
+The only thing left is to let the player explore the map and battle the enemies for themselves. To do this we need to load the player object and place them into the spawn room.
+
+\begin{figure}[p]
+    \centering
+    \begin{tikzpicture}[node distance=2cm, align=center]
+    \node (start) [process] {Start};
+    \node (instantiate) [process, below of=start] {Instantiate player};
+    \node (addchild) [process, below of=instantiate] {Add player as a child to root};
+    \node (putplayer) [process, below of=addchild] {Set player position to spawn coordinates};
+    \node (end) [startstop, below of=putplayer] {End};
+    
+    \draw [arrow] (start) -- (instantiate);
+    \draw [arrow] (instantiate) -- (addchild);
+    \draw [arrow] (addchild) -- (putplayer);
+    \draw [arrow] (putplayer) -- (end);
+    
+    \end{tikzpicture}
+    \caption{Flowchart for spawning the player}
+    \label{fig:spawn player}
+\end{figure}
+\pagebreak
+
+\textbf{Pseudocode for figure \ref{fig:spawn player}}
+\begin{lstlisting}
+Instantiate player
+//Add child to root rather than temporary node holding all the area rooms
+GetNode("/root").AddChild(player);
+//Put player in spawn room
+player.Position = spawnCoords;
+\end{lstlisting}
+
+
+\subsection{Player Movement}
+
+\subsection{Enemy Design}
+
+\subsection{Boss Design}
+
+\subsection{UI}
 
 \section{Developing a solution}
 

@@ -14,17 +14,18 @@
 \contentsline {figure}{\numberline {14}{\ignorespaces Flowchart for deleting rooms}}{26}{}%
 \contentsline {figure}{\numberline {15}{\ignorespaces Bowyer-Watson Classes}}{27}{}%
 \contentsline {figure}{\numberline {16}{\ignorespaces Bowyer-Watson Algorithm Flowchart}}{28}{}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Flowchart for Edge Deletion Algorithm}}{30}{}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Flowchart for Generating spawn and boss rooms}}{32}{}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Flowchart for detecting if a new section needs to be made}}{35}{}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Flowchart for recursive function to find entire section}}{36}{}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Flowchart for detecting sections in the program}}{37}{}%
-\contentsline {figure}{\numberline {22}{\ignorespaces All possibilities for points}}{39}{}%
-\contentsline {figure}{\numberline {23}{\ignorespaces Flowchart for turning edges into horizontal and vertical edges}}{41}{}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Flowchart for the given pseudocode}}{43}{}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Flowchart for generating the tilemap}}{45}{}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Result of room separation}}{47}{}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Result of room deletion}}{47}{}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Result of Bowyer–Watson algorithm}}{47}{}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Deleting edges result}}{48}{}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Before (pink) and after algorithm (green)}}{48}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Flowchart for Edge Deletion Algorithm}}{31}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Flowchart for Generating spawn and boss rooms}}{33}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Flowchart for recursive function to find entire section}}{36}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Flowchart for detecting if a new section needs to be made}}{38}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Flowchart for detecting sections in the program}}{40}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces All possibilities for points}}{42}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces Flowchart for turning edges into horizontal and vertical edges}}{43}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Flowchart for the given pseudocode}}{45}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Flowchart for generating the tilemap}}{47}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Flowchart for spawning the player}}{50}{}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Result of room separation}}{50}{}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Result of room deletion}}{50}{}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Result of Bowyer–Watson algorithm}}{51}{}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Deleting edges result}}{51}{}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Before (pink) and after algorithm (green)}}{51}{}%

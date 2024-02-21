@@ -47,38 +47,47 @@
 \contentsline {paragraph}{Decomposition of the problem}{20}{}%
 \contentsline {paragraph}{Variables}{20}{}%
 \contentsline {subsection}{\numberline {4.1}Folder Set up}{21}{}%
-\contentsline {subsection}{\numberline {4.2}Main Menu}{21}{}%
-\contentsline {subsection}{\numberline {4.3}Dungeon Generation}{21}{}%
-\contentsline {subsubsection}{\numberline {4.3.1}Create Rooms}{21}{}%
+\contentsline {subsection}{\numberline {4.2}Dungeon Generation}{21}{}%
+\contentsline {subsubsection}{\numberline {4.2.1}Create Rooms}{21}{}%
 \contentsline {paragraph}{Pseudocode}{23}{}%
 \contentsline {paragraph}{Variable table}{23}{}%
 \contentsline {paragraph}{Identifying test data}{23}{}%
-\contentsline {subsubsection}{\numberline {4.3.2}Spread rooms}{23}{}%
+\contentsline {subsubsection}{\numberline {4.2.2}Spread rooms}{23}{}%
 \contentsline {paragraph}{Variable table}{25}{}%
 \contentsline {paragraph}{Identifying test data}{25}{}%
-\contentsline {subsubsection}{\numberline {4.3.3}Delete Rooms}{25}{}%
+\contentsline {subsubsection}{\numberline {4.2.3}Delete Rooms}{25}{}%
 \contentsline {paragraph}{Variable table}{26}{}%
 \contentsline {paragraph}{Identifying test data}{26}{}%
-\contentsline {subsubsection}{\numberline {4.3.4}Delaunay Triangulation}{26}{}%
+\contentsline {subsubsection}{\numberline {4.2.4}Delaunay Triangulation}{26}{}%
 \contentsline {paragraph}{Variable table}{29}{}%
 \contentsline {paragraph}{Identifying test data}{29}{}%
-\contentsline {subsubsection}{\numberline {4.3.5}Remove random amount of edges}{29}{}%
-\contentsline {paragraph}{Variable table}{31}{}%
-\contentsline {paragraph}{Identifying test data}{31}{}%
-\contentsline {subsubsection}{\numberline {4.3.6}Generate spawn and boss room}{31}{}%
-\contentsline {subsubsection}{\numberline {4.3.7}Make sure all rooms are accessible}{34}{}%
+\contentsline {subsubsection}{\numberline {4.2.5}Remove random amount of edges}{29}{}%
+\contentsline {paragraph}{Variable table}{32}{}%
+\contentsline {paragraph}{Identifying test data}{32}{}%
+\contentsline {subsubsection}{\numberline {4.2.6}Generate spawn and boss room}{32}{}%
+\contentsline {paragraph}{Variable table}{35}{}%
+\contentsline {paragraph}{Identifying test data}{35}{}%
+\contentsline {subsubsection}{\numberline {4.2.7}Make sure all rooms are accessible}{35}{}%
+\contentsline {paragraph}{Variable table}{37}{}%
+\contentsline {paragraph}{Identifying test data}{37}{}%
 \contentsline {paragraph}{Variable table}{39}{}%
 \contentsline {paragraph}{Identifying test data}{39}{}%
-\contentsline {subsubsection}{\numberline {4.3.8}Turn edges into horizontal and vertical}{39}{}%
-\contentsline {paragraph}{Variable table}{42}{}%
-\contentsline {paragraph}{Identifying test data}{42}{}%
-\contentsline {subsubsection}{\numberline {4.3.9}Generate corridors}{42}{}%
-\contentsline {paragraph}{Variable table}{43}{}%
-\contentsline {paragraph}{Identifying test data}{43}{}%
-\contentsline {subsubsection}{\numberline {4.3.10}Turn into tile map}{44}{}%
-\contentsline {paragraph}{Variable table}{46}{}%
-\contentsline {paragraph}{Identifying test data}{46}{}%
-\contentsline {subsubsection}{\numberline {4.3.11}Spawn player}{46}{}%
-\contentsline {section}{\numberline {5}Developing a solution}{46}{}%
-\contentsline {subsection}{\numberline {5.1}Temp Fig Holder}{46}{}%
-\contentsline {section}{\numberline {6}Evaluation}{46}{}%
+\contentsline {paragraph}{Variable table}{41}{}%
+\contentsline {paragraph}{Identifying test data}{41}{}%
+\contentsline {subsubsection}{\numberline {4.2.8}Turn edges into horizontal and vertical}{41}{}%
+\contentsline {paragraph}{Variable table}{44}{}%
+\contentsline {paragraph}{Identifying test data}{44}{}%
+\contentsline {subsubsection}{\numberline {4.2.9}Generate corridors}{44}{}%
+\contentsline {paragraph}{Variable table}{45}{}%
+\contentsline {paragraph}{Identifying test data}{45}{}%
+\contentsline {subsubsection}{\numberline {4.2.10}Turn into tile map}{46}{}%
+\contentsline {paragraph}{Variable table}{48}{}%
+\contentsline {paragraph}{Identifying test data}{48}{}%
+\contentsline {subsubsection}{\numberline {4.2.11}Spawn player}{48}{}%
+\contentsline {subsection}{\numberline {4.3}Player Movement}{49}{}%
+\contentsline {subsection}{\numberline {4.4}Enemy Design}{49}{}%
+\contentsline {subsection}{\numberline {4.5}Boss Design}{49}{}%
+\contentsline {subsection}{\numberline {4.6}UI}{49}{}%
+\contentsline {section}{\numberline {5}Developing a solution}{49}{}%
+\contentsline {subsection}{\numberline {5.1}Temp Fig Holder}{49}{}%
+\contentsline {section}{\numberline {6}Evaluation}{49}{}%
