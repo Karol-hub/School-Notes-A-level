@@ -1558,8 +1558,8 @@ else
 \smallBr
 \begin{tabular}{l|l|l}
 Variable Name     & Variable Type                       & Description                                                                 \\ \hline
-index             & int                                 & random number corresponding to edge to be added/removed                     \\
-polygonEdgeList   & List\textless{}Edge\textgreater{}   & Edges left over after deleting                                              \\
+index             & int                                 & random number corresponding to index of edge to be added/removed                     \\
+polygonEdgeList   & List\textless{}Edge\textgreater{}   & Edges left over after deleting, taken from previous section                                              \\
 polygon           & List\textless{}Edge\textgreater{}   & All edges after triangulating                                               \\
 polygonDifference & List\textless{}Edge\textgreater{}   & Whatever edges are left after polygon - polygonEdgelist                     \\
 removeThese       & List\textless{}Area2D\textgreater{} & Collection of all rooms to be deleted since they don't have any connections
@@ -1634,6 +1634,16 @@ for each edge in polygonEdgeList
 \end{lstlisting}
 
 \myparagraph{Variable table}
+\smallBr
+\begin{tabular}{l|l|l}
+Variable Name   & Variable Type                     & Description                                                 \\ \hline
+polygon         & List\textless{}Edge\textgreater{} & Contaings all the new edges generated                       \\
+polygonEdgeList & List\textless{}Edge\textgreater{} & List of edges from the previous section                     \\
+point1          & Point                             & First point of edge being checked                           \\
+point2          & Point                             & Second point of edges being checked                         \\
+newPoint1       & Point                             & End point for new edge after being made horizontal/vertical \\
+newPoint2       & Point                             & End point for new edge after being made horizontal/vertical
+\end{tabular}
 
 \myparagraph{Identifying test data}
 The algorithm will be successful if the following conditions are met:
@@ -1706,6 +1716,16 @@ for each edge in polygon
 \end{lstlisting} 
 
 \myparagraph{Variable table}
+\smallBr
+\begin{tabular}{l|l|l}
+Variable Name & Variable Type                     & Description                                            \\ \hline
+polygon       & List\textless{}Edge\textgreater{} & list of edges to be turned into coridoors              \\
+edge          & Edge                              & The current edge being turned into a coridoor          \\
+pos1          & Vector2                           & The start position of the coridoor                     \\
+pos2          & Vector2                           & The end position of the coridoor                       \\
+roomRadius    & Vector2                           & How much the coridoor corner is offset from the center \\
+instance      & Node                              & The new coridoor that is instantiated                 
+\end{tabular}
 
 \myparagraph{Identifying test data}
 The algorithm will be successful if the following conditions are met:
@@ -1801,6 +1821,18 @@ else
 \end{lstlisting}
 
 \myparagraph{Variable table}
+\smallBr
+\begin{tabular}{l|l|l}
+Variable Name     & Variable Type                                  & Description                                                                                                                      \\ \hline
+tileMapCheck      & List\textless{}TileMapGeneration\textgreater{} & \begin{tabular}[c]{@{}l@{}}Contains all the areas that check what type of tile belongs in \\ what position\end{tabular}          \\
+minCoord          & Vector2                                        & Minimum coordinate the tilemap will be generated                                                                                 \\
+maxCoord          & Vector2                                        & Maximum coordinate the tilemap will be generated                                                                                 \\
+currentCoord      & Vector2                                        & The current coordinate being checked                                                                                             \\
+checkAmount       & integer                                        & The amount of tileMapCheck items to be created                                                                                   \\
+tempNode          & Node                                           & \begin{tabular}[c]{@{}l@{}}Instantiates a scene so it can be used in the constructor \\ method of TileMapGeneration\end{tabular} \\
+tileMapCheckScene & PackedScene                                    & The scene that is instantiated into tempNode                                                                                     \\
+tilemap           & Tilemap                                        & The subject which has tiles generated into it                                                                                   
+\end{tabular}
 
 \myparagraph{Identifying test data}
 The algorithm will be successful if the following conditions are met:
@@ -1813,7 +1845,7 @@ The algorithm will be successful if the following conditions are met:
 \subsubsection{Spawn player}
 The only thing left is to let the player explore the map and battle the enemies for themselves. To do this we need to load the player object and place them into the spawn room.
 
-\begin{figure}[p]
+\begin{figure}[h]
     \centering
     \begin{tikzpicture}[node distance=2cm, align=center]
     \node (start) [process] {Start};
@@ -1831,7 +1863,6 @@ The only thing left is to let the player explore the map and battle the enemies 
     \caption{Flowchart for spawning the player}
     \label{fig:spawn player}
 \end{figure}
-\pagebreak
 
 \textbf{Pseudocode for figure \ref{fig:spawn player}}
 \begin{lstlisting}
@@ -1842,8 +1873,27 @@ GetNode("/root").AddChild(player);
 player.Position = spawnCoords;
 \end{lstlisting}
 
+\myparagraph{Variable table}
+\smallBr
+\begin{tabular}{l|l|l}
+Variable Name  & Variable Type & Description                                                         \\ \hline
+characterScene & PackedScene   & The scene which contains the player object                          \\
+spawnCoords    & Vector2       & Position where player should be placed, taken form previous section
+\end{tabular}
+
+\myparagraph{Identifying test data}
+The algorithm will be successful if the following conditions are met:
+\begin{itemize}
+\item{Player is spawned}
+\item{Player is able to be controlled}
+\end{itemize}
+
+The player is now able to move around and explore the dungeon however we still need to design the player along with all of it's movement.
 
 \subsection{Player Movement}
+
+\subsection{Player Combat}
+At this point in design I don't have enough time to create a proper combat system therefore this will be heavily reduced compared to the initial vision for this part.
 
 \subsection{Enemy Design}
 
