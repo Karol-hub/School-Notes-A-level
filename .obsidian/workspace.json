@@ -13,29 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Arithmetic Series.md",
+                "file": "Nuclear Fusion.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "4ce27b29663b37ac",
+            "id": "64a2e22f05e672d3",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "excalidraw",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
-              }
-            }
-          },
-          {
-            "id": "ed578682f20f7f6f",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+                "file": "Nuclear Fusion Process.md"
               }
             }
           }
@@ -114,7 +104,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf",
+                "file": "Nuclear Fusion Process.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -131,7 +121,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf",
+                "file": "Nuclear Fusion Process.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -166,7 +156,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+                "file": "Nuclear Fusion Process.md"
               }
             }
           }
@@ -189,12 +179,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4ce27b29663b37ac",
+  "active": "64a2e22f05e672d3",
   "lastOpenFiles": [
-    "Arithmetic Series.md",
-    "3 Sequences and series.md",
-    "Arithmetic Sequence.md",
+    "Beta+ Radiation.md",
+    "Nuclear Fusion Process.md",
+    "Nuclear Fusion.md",
+    "School/Physics/Notes/Paper 2/Topic 11- Nuclear Radiation.md",
+    "Radioactive Decay.md",
+    "Decay Constant.md",
+    "Background Radiation.md",
+    "Gamma Radiation.md",
+    "Beta- Radiation.md",
+    "School/Physics/Notes/Links.md",
+    "Life/Cheat Sheets/Latex cheat sheet.pdf",
+    "Alpha Radiation.md",
+    "School/Physics/Notes/Paper 3 (Practicals)/CP 15 - Investigate the Absorption of Gamma Radiation by Lead.md",
+    "School/Physics/Notes/Paper 1/Topic 8- Nuclear and Particle Physics.md",
+    "School/Maths/Notes/Defenitions/Arithmetic Series.md",
     "School/Maths/Textbook/Pure Year 2.pdf",
+    "School/Maths/Notes/Pure/Year 2/3 Sequences and series.md",
+    "School/Maths/Notes/Defenitions/Arithmetic Sequence.md",
     "School/Maths/Textbook/Pure Year 1.pdf",
     "School/Maths/Notes/Links.md",
     "School/Maths/Notes/Defenitions/Integration.md",

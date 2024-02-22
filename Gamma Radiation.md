@@ -1,0 +1,3 @@
+- EM radiation
+- Never emitted alone, usually emited alongside another type of radiation
+- Since it doesn't have mass or charge a nucleus doesn't change mass or charge

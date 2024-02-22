@@ -1,0 +1,1 @@
+The probability that an individual nucleus will decay in a particular time interval
