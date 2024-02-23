@@ -79,3 +79,8 @@ $$y = g(t)$$
 $$\int y \ \frac{dx}{dt} dt = \int g(t) * f'(t)$$
 ## Finite Parametric equation integration
 Make sure to change limits when adding to formula
+# Trapezium rule
+$$\int _{a}^ {b}y\ dx \sim \frac{1}{2}h(y_{0} + 2(y_{1}+y_{2}+y_{3}+...+y_{n-2}+y_{n-1}) + y_n)$$
+- Spit complicated graph into trapezium
+- Find each of the areas
+- Find total area

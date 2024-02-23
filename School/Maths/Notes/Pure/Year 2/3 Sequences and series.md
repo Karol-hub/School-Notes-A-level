@@ -1,3 +1,6 @@
 # Arithmetic
-[[Arithmetic Sequence]]
-[[Arithmetic Series]]
+- [[Arithmetic Sequence]]
+- [[Arithmetic Series]]
+# Geometric
+- [[Geometric Sequence]]
+- [[Geometric Series]]
