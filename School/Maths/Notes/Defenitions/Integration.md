@@ -5,7 +5,6 @@ $$\frac{dy}{dx}=f(x)$$
 then
 $$y=\int{f(x)} \; dx$$
 $dx$ shows we are integrating with respect to $x$
-
 # Definite integrals
 $$\int^{b}_{a}{f'(x)}\;{dx}=[f(x)]^{b}_{a}=f(b)-f(a)$$
 When dealing with definite integrals we don't have to consider the constant of integration because if we did we would get $f(b)+c-(f(a)+c)=f(b)-f(a)$ the constant cancel each other out so it doesn't need to be considered.
