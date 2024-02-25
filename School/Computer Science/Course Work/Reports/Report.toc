@@ -92,5 +92,18 @@
 \contentsline {subsection}{\numberline {4.6}Boss Design}{50}{}%
 \contentsline {subsection}{\numberline {4.7}UI}{50}{}%
 \contentsline {section}{\numberline {5}Developing a solution}{50}{}%
-\contentsline {subsection}{\numberline {5.1}Temp Fig Holder}{50}{}%
-\contentsline {section}{\numberline {6}Evaluation}{50}{}%
+\contentsline {subsection}{\numberline {5.1}Dungeon Generation}{50}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}Create rooms}{51}{}%
+\contentsline {paragraph}{iteration 1}{51}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Spread rooms}{51}{}%
+\contentsline {subsubsection}{\numberline {5.1.3}Delete rooms}{51}{}%
+\contentsline {subsubsection}{\numberline {5.1.4}Delaunay triangulation}{51}{}%
+\contentsline {subsubsection}{\numberline {5.1.5}Remove random amount of edges}{51}{}%
+\contentsline {subsubsection}{\numberline {5.1.6}Add spawn and boss room}{51}{}%
+\contentsline {subsubsection}{\numberline {5.1.7}Make sure all rooms are accessible}{51}{}%
+\contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{51}{}%
+\contentsline {subsubsection}{\numberline {5.1.9}Generate corridors}{51}{}%
+\contentsline {subsubsection}{\numberline {5.1.10}Turn into tile map}{51}{}%
+\contentsline {subsubsection}{\numberline {5.1.11}Spawn player}{51}{}%
+\contentsline {section}{\numberline {6}Evaluation}{51}{}%
+\contentsline {subsection}{\numberline {6.1}Temp Fig Holder}{51}{}%

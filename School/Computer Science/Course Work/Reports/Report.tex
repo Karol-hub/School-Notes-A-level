@@ -1904,6 +1904,83 @@ At this point in design I don't have enough time to create a proper combat syste
 \subsection{UI}
 
 \section{Developing a solution}
+To create the code for the game I have designed I have decided to use an agile software development methodology as it's best suited for projects with a small to medium scale with unclear initial requirements, which applies perfectly to my project. It involves creating a prototype based on the user feedback/research and collect user feedback to refine the next iteration and continuously repeat this process until a usable product has been created. This methodology also requires a lot of user feedback which makes the final product very tailored to the stakeholders. It also able to be improved upon continuously until the stakeholders needs are satisfied and all the points on the success criteria are met.
+
+\parBr
+
+Since I am using the Godot game engine to create my project I can use many different languages which are supported in Godot such as C, C++, C\#, GDScript (made specifically for Godot) and other languages which were implemented by the community, using one of these languages would also mean that there would be less support, since less people would be using it and since it's not official the quality of the documentation may not be of the best quality. Therefore I have decided to use C\# to generate my project since I have the most experience with the language due to my experience with unity, however my knowledge is very limited and I would need to adapt my knowledge so I can apply it to Godot. 
+
+\subsection{Dungeon Generation}
+Each section will need to be completed for the algorithm to be finished, however each section may need multiple frames to be completed so to reliably switch between the generation states, for this to occur I created an enum variable and created an instance of the enum variable which can store one state defined in the enum variable. Below is an example of this in practice.
+\begin{lstlisting}
+//When initialising variables
+private enum generationState
+    {
+        generationState1,
+        generationState2,
+        generationState3,
+        generationState4,
+        generationState5,
+        finished
+    }
+private generationState currentState = generationState.generationState1;
+
+//Code executing every frame
+if (currnetState == generationState.generationState1)
+{
+	//Code for current section
+}
+else if (currnetState == generationState.generationState2)
+{
+	//Code for current section
+}
+else if (currnetState == generationState.generationState3)
+{
+	//Code for current section
+}
+else if (currnetState == generationState.generationState4)
+{
+	//Code for current section
+}
+else if (currnetState == generationState.generationState5)
+{
+	//Code for current section
+}
+\end{lstlisting}
+This system was implemented later in development but it seems most appropriate in this part as it shows how I am able to switch from one generation state to another. It allows me to switch between states as I please since all I have to do is update the currentState variable. However in my case I just switch from one state to the next since once a section of code is executed it doesn't need to be revisited, if I do need to revisit code I made it into it's own function as it's more convenient.
+\subsubsection{Create rooms}
+\myparagraph{iteration 1}
+
+\subsubsection{Spread rooms}
+
+
+\subsubsection{Delete rooms}
+
+
+\subsubsection{Delaunay triangulation}
+
+
+\subsubsection{Remove random amount of edges}
+
+
+\subsubsection{Add spawn and boss room}
+
+
+\subsubsection{Make sure all rooms are accessible}
+
+
+\subsubsection{Turn edges into horizontal and vertical}
+
+
+\subsubsection{Generate corridors}
+
+
+\subsubsection{Turn into tile map}
+
+
+\subsubsection{Spawn player}
+
+\section{Evaluation}
 
 \subsection{Temp Fig Holder}
 
@@ -1947,44 +2024,6 @@ At this point in design I don't have enough time to create a proper combat syste
 \caption{Before (pink) and after algorithm (green)}
 \label{ba coridoors and edges}
 \end{figure}
-
-\section{Evaluation}
-To create the code for the game I have designed I have decided to use an agile software development methodology as it's best suited for projects with a small to medium scale with unclear initial requirements, which applies perfectly to my project. It involves creating a prototype based on the user feedback/research and collect user feedback to refine the next iteration and continuously repeat this process until a usable product has been created. This methodology also requires a lot of user feedback which makes the final product very tailored to the stakeholders. It also able to be improved upon continuously until the stakeholders needs are satisfied and all the points on the success criteria are met.
-
-\subsection{Dungeon Generation}
-\subsubsection{rooms}
-
-
-\subsubsection{Spread rooms}
-
-
-\subsubsection{Delete rooms}
-
-
-\subsubsection{Delaunay triangulation}
-
-
-\subsubsection{Remove random amount of edges}
-
-
-\subsubsection{Add spawn and boss room}
-
-
-\subsubsection{Make sure all rooms are accessible}
-
-
-\subsubsection{Turn edges into horizontal and vertical}
-
-
-\subsubsection{Generate corridors}
-
-
-\subsubsection{Turn into tile map}
-
-
-\subsubsection{Spawn player}
-
-
 
 \newpage
 \printbibliography

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.5)  25 FEB 2024 21:06
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.5)  25 FEB 2024 22:44
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1288,82 +1288,81 @@ Overfull \hbox (22.39676pt too wide) in paragraph at lines 1827--1838
 [][]  
  []
 
-[48]
-<./Images/rooms seperated.png, id=191, 649.67719pt x 356.0803pt>
+[48] [49] [50]
+<./Images/rooms seperated.png, id=198, 649.67719pt x 356.0803pt>
 File: ./Images/rooms seperated.png Graphic file (type png)
 <use ./Images/rooms seperated.png>
-Package pdftex.def Info: ./Images/rooms seperated.png  used on input line 1912.
+Package pdftex.def Info: ./Images/rooms seperated.png  used on input line 1989.
 
 (pdftex.def)             Requested size: 176.49573pt x 96.73788pt.
-<./Images/spread rooms.png, id=192, 1014.79124pt x 647.41875pt>
+<./Images/spread rooms.png, id=199, 1014.79124pt x 647.41875pt>
 File: ./Images/spread rooms.png Graphic file (type png)
 <use ./Images/spread rooms.png>
-Package pdftex.def Info: ./Images/spread rooms.png  used on input line 1913.
+Package pdftex.def Info: ./Images/spread rooms.png  used on input line 1990.
 (pdftex.def)             Requested size: 151.6237pt x 96.73788pt.
- [49]
-<./Images/deleted rooms.png, id=197, 964.35281pt x 672.26157pt>
+<./Images/deleted rooms.png, id=200, 964.35281pt x 672.26157pt>
 File: ./Images/deleted rooms.png Graphic file (type png)
 <use ./Images/deleted rooms.png>
-Package pdftex.def Info: ./Images/deleted rooms.png  used on input line 1920.
+Package pdftex.def Info: ./Images/deleted rooms.png  used on input line 1997.
 (pdftex.def)             Requested size: 208.15584pt x 145.11052pt.
-<./Images/deleted rooms1.png, id=198, 1169.11781pt x 715.17188pt>
+<./Images/deleted rooms1.png, id=201, 1169.11781pt x 715.17188pt>
 File: ./Images/deleted rooms1.png Graphic file (type png)
 <use ./Images/deleted rooms1.png>
-Package pdftex.def Info: ./Images/deleted rooms1.png  used on input line 1921.
+Package pdftex.def Info: ./Images/deleted rooms1.png  used on input line 1998.
 (pdftex.def)             Requested size: 237.20888pt x 145.11052pt.
-<./Images/rooms deluaney triangulation just edges.png, id=199, 1077.27469pt x 7
+<./Images/rooms deluaney triangulation just edges.png, id=202, 1077.27469pt x 7
 19.68875pt>
 File: ./Images/rooms deluaney triangulation just edges.png Graphic file (type p
 ng)
 <use ./Images/rooms deluaney triangulation just edges.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation just edges.png  
-used on input line 1928.
+used on input line 2005.
 (pdftex.def)             Requested size: 193.47577pt x 129.25285pt.
-<./Images/rooms deluaney triangulation.png, id=200, 1077.27469pt x 719.68875pt>
+<./Images/rooms deluaney triangulation.png, id=203, 1077.27469pt x 719.68875pt>
 
 File: ./Images/rooms deluaney triangulation.png Graphic file (type png)
 <use ./Images/rooms deluaney triangulation.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation.png  used on inp
-ut line 1929.
+ut line 2006.
 (pdftex.def)             Requested size: 193.47577pt x 129.25285pt.
-<./Images/rooms deluaney triangulation stress test.png, id=201, 1343.77031pt x 
+<./Images/rooms deluaney triangulation stress test.png, id=204, 1343.77031pt x 
 761.09344pt>
 File: ./Images/rooms deluaney triangulation stress test.png Graphic file (type 
 png)
 <use ./Images/rooms deluaney triangulation stress test.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation stress test.png 
- used on input line 1930.
+ used on input line 2007.
 (pdftex.def)             Requested size: 193.47577pt x 109.57182pt.
-<./Images/deluaney triangulation stress test.png, id=202, 1343.77031pt x 761.09
+<./Images/deluaney triangulation stress test.png, id=205, 1343.77031pt x 761.09
 344pt>
 File: ./Images/deluaney triangulation stress test.png Graphic file (type png)
 <use ./Images/deluaney triangulation stress test.png>
 Package pdftex.def Info: ./Images/deluaney triangulation stress test.png  used 
-on input line 1931.
+on input line 2008.
 (pdftex.def)             Requested size: 193.47577pt x 109.57182pt.
-<./Images/deleted edges no rooms.png, id=203, 1038.88126pt x 735.49782pt>
+<./Images/deleted edges no rooms.png, id=206, 1038.88126pt x 735.49782pt>
 File: ./Images/deleted edges no rooms.png Graphic file (type png)
 <use ./Images/deleted edges no rooms.png>
 Package pdftex.def Info: ./Images/deleted edges no rooms.png  used on input lin
-e 1938.
+e 2015.
 (pdftex.def)             Requested size: 193.47577pt x 136.97401pt.
-<./Images/deleted edges.png, id=204, 1038.88126pt x 735.49782pt>
+<./Images/deleted edges.png, id=207, 1038.88126pt x 735.49782pt>
 File: ./Images/deleted edges.png Graphic file (type png)
 <use ./Images/deleted edges.png>
-Package pdftex.def Info: ./Images/deleted edges.png  used on input line 1939.
+Package pdftex.def Info: ./Images/deleted edges.png  used on input line 2016.
 (pdftex.def)             Requested size: 193.47577pt x 136.97401pt.
-<./Images/coridoors and edges.png, id=205, 1003.49907pt x 654.94687pt>
+<./Images/coridoors and edges.png, id=208, 1003.49907pt x 654.94687pt>
 File: ./Images/coridoors and edges.png Graphic file (type png)
 <use ./Images/coridoors and edges.png>
-Package pdftex.def Info: ./Images/coridoors and edges.png  used on input line 1
-946.
+Package pdftex.def Info: ./Images/coridoors and edges.png  used on input line 2
+023.
 (pdftex.def)             Requested size: 290.22105pt x 189.42004pt.
- [50 <./Images/rooms seperated.png> <./Images/spread rooms.png> <./Images/delet
-ed rooms.png> <./Images/deleted rooms1.png>] [51 <./Images/rooms deluaney trian
+ [51 <./Images/rooms seperated.png> <./Images/spread rooms.png> <./Images/delet
+ed rooms.png> <./Images/deleted rooms1.png>] [52 <./Images/rooms deluaney trian
 gulation just edges.png> <./Images/rooms deluaney triangulation.png> <./Images/
 rooms deluaney triangulation stress test.png> <./Images/deluaney triangulation 
 stress test.png> <./Images/deleted edges no rooms.png> <./Images/deleted edges.
-png> <./Images/coridoors and edges.png>] [52] (Report.aux)
+png> <./Images/coridoors and edges.png>] [53] (Report.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1373,13 +1372,13 @@ Package logreq Info: Writing requests to 'Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 27670 strings out of 475247
- 573357 string characters out of 5757792
+ 27679 strings out of 475247
+ 573529 string characters out of 5757792
  2086785 words of memory out of 5000000
- 48781 multiletter control sequences out of 15000+600000
+ 48790 multiletter control sequences out of 15000+600000
  569611 words of font info for 59 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
- 84i,12n,89p,1882b,1346s stack positions out of 10000i,1000n,20000p,200000b,200000s
+ 84i,12n,89p,1882b,1590s stack positions out of 10000i,1000n,20000p,200000b,200000s
  <C:\Users\dimki\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
 1000.pk> <C:\Users\dimki\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
 0\ecti1000.pk> <C:\Users\dimki\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
@@ -1393,9 +1392,9 @@ l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\dimki\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/dimki/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pf
 b>
-Output written on Report.pdf (52 pages, 968377 bytes).
+Output written on Report.pdf (53 pages, 970854 bytes).
 PDF statistics:
- 656 PDF objects out of 1000 (max. 8388607)
+ 659 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
  163 words of extra memory for PDF output out of 10000 (max. 10000000)
 
