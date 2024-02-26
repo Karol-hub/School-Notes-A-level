@@ -8,26 +8,6 @@
         "type": "tabs",
         "children": [
           {
-            "id": "90c571131a96ffc8",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
-              }
-            }
-          },
-          {
-            "id": "d0b282d00e36f1e1",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
-              }
-            }
-          },
-          {
             "id": "9e0838a4844ad512",
             "type": "leaf",
             "state": {
@@ -113,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf",
+                "file": "School/Maths/Notes/Defenitions/Integration.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf",
+                "file": "School/Maths/Notes/Defenitions/Integration.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+                "file": "School/Maths/Notes/Defenitions/Integration.md"
               }
             }
           }
@@ -189,11 +169,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "90c571131a96ffc8",
+  "active": "9e0838a4844ad512",
   "lastOpenFiles": [
+    "School/Maths/Textbook/Pure Year 2.pdf",
     "School/Maths/Notes/Defenitions/Integration.md",
     "School/Maths/Notes/Pure/Year 2/11 Integration.md",
-    "School/Maths/Textbook/Pure Year 2.pdf",
     "School/Computer Science/Notes/Defenitions/Agile Methodology.md",
     "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
     "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.3 Software Development.md",

@@ -1958,6 +1958,7 @@ private float maxXScale = 20f;
 private float minXScale = 8f;
 private float maxYScale = 20f;
 private float minYScale = 8f;
+private int amountOfRooms = 50;
 
 public override void _Ready()
 {
@@ -1974,7 +1975,7 @@ public override void _Ready()
         instance.GetNode<CollisionShape2D>("Collision").Scale = new Vector2(Map(rng.Randf(),minXScale,maxXScale), Map(rng.Randf(), minYScale, maxYScale)); //generates random scale
         instance.GetNode<Area2D>(".").Position = new Vector2(rng.Randf()*10, rng.Randf())*10; //generates initial random position
     }
-    GenerateRooms();
+    SpreadRooms();
 }
 \end{lstlisting}
 
@@ -1989,6 +1990,7 @@ I also changes the rooms from a cube with random scale to a pre-made room which 
 
 Putting the code in the ready function means that it's called one before the game loads, with this all the rooms can be created before the game loads and they will be available to use once the scene is ready. Even if it takes a long time to load the scene all the rooms will be loaded when the rest of the generation starts. Which is crucial for the program to work.
 \begin{lstlisting}
+private int amountOfRooms = 25;
 public override void _Ready()
 {
 	room = GD.Load<PackedScene>("res://Scenes/RoomVars/room_var_1.tscn");
@@ -2002,8 +2004,96 @@ public override void _Ready()
 }
 \end{lstlisting}
 
+\myparagraph{Iteration 3}
+For this iteration I aimed to add another room variation and because of this I would be able to scale this up for any amount of rooms I plan to add in the future
+\begin{lstlisting}
+private int amountOfRooms = 20;
+public override void _Ready()
+{
+    rng.Seed = 00;
+    rng.Randomize();  
+    room1 = GD.Load<PackedScene>("res://Scenes/RoomVars/room_var_1.tscn");
+    room2 = GD.Load<PackedScene>("res://Scenes/RoomVars/room_var_2.tscn");
+    spreadFactor = amountOfRooms * 5f;
+    int randNum;
+    
+    #region make rooms
+    // Makes a certain amount of "rooms"
+    for (int i = 0; i < amountOfRooms; i++)
+    {
+        Node instance;
+        //pick random room variation
+        randNum = rng.RandiRange(0, 1);
+        if (randNum == 0)
+        {
+            instance = room1.Instantiate();
+        }
+        else if (randNum == 1)
+        {
+            instance = room2.Instantiate();
+        }
+        else
+        {
+        	//would never be called but needs to exist because without it there is a syntax error
+            instance = room1.Instantiate();
+        }
+        AddChild(instance);
+        // Generates initial random position
+        instance.GetNode<Area2D>(".").Position = new Vector2((float)Math.Round(rng.Randf() * spreadFactor), (float)Math.Round(rng.Randf() * spreadFactor)); 
+    }
+    #endregion
+}
+\end{lstlisting}
+
+\myparagraph{Iteration 4}
+For this iteration I aimed to add more room variations and make it even easier to add more variations if needed in the future, since one of the stakeholders has said that they would like there to be a variation in the rooms, so that each room doesn't feel the same.
+\begin{lstlisting}
+private int amountOfRooms = 50;
+private Vector2 scaleRange = new Vector2(1f, 1.5f); //min and max of scalse of rooms
+private int roomVars = 10;
+public override void _Ready()
+{
+    rng.Seed = 00;
+    rng.Randomize(); 
+    float spreadFactor = amountOfRooms * 10f;
+    int randNum;
+    float scaleRand;
+    
+    #region make rooms
+    //Load all the scenes with the room variations
+    Node instance;
+    List<PackedScene> rooms = new List<PackedScene>();
+    for (int i = 0; i < roomVars; i++)
+    {
+        rooms.Add(GD.Load<PackedScene>("res://Scenes/RoomVars/room_var_" + i + ".tscn"));
+    }
+	//Instantiate a random room variation
+    for (int i = 0; i < amountOfRooms; i++) // Makes a certain amount of "rooms"
+    {
+        randNum = rng.RandiRange(0, roomVars - 1);
+        instance = rooms[randNum].Instantiate();
+        //label room for identification later
+        instance.Name = ("rm" + i);
+        AddChild(instance);
+		//Add some variation to the size of the rooms
+        scaleRand = rng.RandfRange(scaleRange.X, scaleRange.Y);
+		//flip room variation so that it appears there are more room variations
+        if (rng.RandiRange(0, 1) == 0)
+        {
+            scaleRand *= -1;
+        }
+		// Generates initial random position and scale
+        instance.GetNode<Area2D>(".").Scale = new Vector2(scaleRand, scaleRand);
+        instance.GetNode<Area2D>(".").Position = new Vector2(Mathf.Round(rng.Randf() * spreadFactor * 3f), Mathf.Round(rng.Randf() * spreadFactor)); 
+    }
+    #endregion
+}
+\end{lstlisting}
+This iteration allows me to use a naming convention to add all the scenes to a list and then instantiate a room from that list. This satisfies all the needs for development in the future and further generation states, therefore it's complete.
+
 \subsubsection{Spread rooms}
 \myparagraph{Iteration 1}
+C\# offers an async function which allows me to run the code while other things are happening, by dedicating a thread to this task. This allows the while loop to work since the code is executed until an end condition is met.
 \begin{lstlisting}
 //spreading rooms apart
 private bool spread = false;
@@ -2013,7 +2103,7 @@ private float step = 1f;
 //temp statistics stuff for testing
 private int loopCount = 0;
 
-public async void GenerateRooms()
+public async void SpreadRooms()
 {
     //this only runs once at the start of the game so the inefficiency is loading time
     while (!spread) //if the rooms have overlapping areas
@@ -2048,38 +2138,185 @@ public async void GenerateRooms()
         }
     }
 }
-private float Map(float from, float min, float max)
-{
-    return min+ (from * (max-min));
-}
 \end{lstlisting}
+Using an async function would mess up my work flow since I am unable to switch between generation stages since one an async function has began it would be difficult to end the task and since I am using methods native to Godot, inside an async method the refresh rate between the two threads may not be aligned properly so checking overlapping areas would have no result until Godot has updated slowing the program down and it would most likely cause problems when other sections are introduced.
 
 \myparagraph{Iteration 2}
-
+This iteration moves the room one at a time rather than all of them one bit at a time. However it's inside the void which updates every frame, which will make it easier for managing sections.
 \begin{lstlisting}
-for (int i = 0; i < GetChildCount(); i++)
+public override void _Process(double delta)
 {
-    Thread.Sleep(1);
-    while (GetChild<Area2D>(i).HasOverlappingAreas())
+    if (currentState == generationState.spreadRooms)
     {
-        Thread.Sleep(1);
-        direction = Vector2.Zero; //resets direction to 0
-        for (int j = 0; j < GetChild<Area2D>(i).GetOverlappingAreas().Count; j++) //check every overlapping area
+        for (int i = 0; i < GetChildCount(); i++)
         {
-            displacement = GetChild<Area2D>(i).Position - GetChild<Area2D>(i).GetOverlappingAreas()[j].Position;
-            direction += (10 / displacement.Length()) * displacement.Normalized(); //finds difference between original area and overlapping area
+            Thread.Sleep(1);
+            while (GetChild<Area2D>(i).HasOverlappingAreas())
+            {
+                Thread.Sleep(1);
+                direction = Vector2.Zero; // Resets direction to 0
+                for (int j = 0; j < GetChild<Area2D>(i).GetOverlappingAreas().Count; j++) 
+                {
+                	// Check every overlapping area
+                    displacement = GetChild<Area2D>(i).Position - GetChild<Area2D>(i).GetOverlappingAreas()[j].Position;
+                    direction += (10 / displacement.Length()) * displacement.Normalized(); 
+                    // Finds difference between original area and overlapping area
+                }
+                //update position of room
+                direction = direction.Normalized();
+                GetChild<Area2D>(i).Position += direction * step;
+            }
         }
-        direction = direction.Normalized();
-        //loopCount += 1;
-        GetChild<Area2D>(i).Position += direction * step;
+        currentState = generationState.deleteRooms;
     }
+    // Code for other sections (when it exists)
 }
 \end{lstlisting}
+The problem with this is the fact that it uses a while loop, which is bad practice to start every frame. As it sometimes makes the program stop responding when running. Also the room sometimes gets stuck between other rooms as it keeps moving a room in an infinite loop since it's trying to move the rooms one at a time. This iteration still needs to use thread.sleep to slow the thread as too much processing happens per frame which causes the program to freeze, this will need to be expanded upon next iteration.
 
-This iteration uses a while loop which is bad practice since it tries to execute the entire thing in one go. This 
+\myparagraph{Iteration 3}
+
+\begin{lstlisting}
+ public override void _Process(double delta)
+    {
+        if (currentState == generationState.spreadRooms)
+        {
+            #region spreading rooms
+            count = 0; //resets count to check overlapping areas of child
+            for (int i = 0; i < amountOfRooms; i++)
+            {
+                if (GetChild<Area2D>(i).HasOverlappingAreas()) //if there are overlapping areas on the child
+                {
+                    direction = Vector2.Zero; //resets direction to 0
+                    for (int j = 0; j < GetChild<Area2D>(i).GetOverlappingAreas().Count; j++) //check every overlapping area
+                    {
+                        displacement = GetChild<Area2D>(i).Position - GetChild<Area2D>(i).GetOverlappingAreas()[j].Position;
+                        direction += (10 / displacement.Length()) * displacement.Normalized(); //finds difference between original area and overlapping area
+                    }
+                    // Rounds the result to make the numbers easier to work with
+                    direction = direction.Normalized() * step;
+                    direction.X = Mathf.Round(direction.X) * step;
+                    direction.Y = Mathf.Round(direction.Y) * step;
+                    GetChild<Area2D>(i).Position += direction;
+                }
+                else
+                {
+                    count += 1; //adds 1 to count if no overlapping areas
+                }
+            }
+            if (count == amountOfRooms)
+            {
+                currentState = generationState.deleteRooms;
+                return;
+                //GD.Print("fin");
+                //GD.Print(loopCount);
+            }
+		}
+		// Code for other sections (when it exists)
+	}
+\end{lstlisting}
+
+\myparagraph{Iteration 4}
+I implemented the switching of generation states using the enum variable. As well as taking the reciprocal of what the room needs to be displaced so that rooms closer to the room being checked will have more of an effect on the displacement, hopefully making the algorithm faster.
+\begin{lstlisting}
+public override void _Process(double delta)
+{
+    if (currentState == generationState.spreadRooms)
+    {
+        #region spreading rooms
+        count = 0; 
+        // Resets count to check overlapping areas of child
+        for (int i = 0; i < amountOfRooms; i++)
+        {
+            // If there are overlapping areas on the child
+            if (GetChild<Area2D>(i).HasOverlappingAreas()) 
+            {
+                direction = Vector2.Zero; // Resets direction to 0
+                // Check every overlapping area
+                for (int j = 0; j < GetChild<Area2D>(i).GetOverlappingAreas().Count; j++) 
+                {
+                    // Finds difference between original area and overlapping area
+                    displacement = GetChild<Area2D>(i).Position - GetChild<Area2D>(i).GetOverlappingAreas()[j].Position;
+                    // Take reciprocal so closer rooms have more of an effect
+                    direction += (10 / displacement.Length()) * displacement.Normalized(); 
+                }
+                direction = direction.Normalized();
+                GetChild<Area2D>(i).Position += direction * step * rng.Randf();
+            }
+            else
+            {
+                count += 1; // Adds 1 to count if no overlapping areas
+            }
+        }
+        if (count == amountOfRooms)
+        {
+            // Move onto the next stage of generation
+            spread = true;
+            currentState = generationState.deleteRooms;
+            return;
+        }
+        #endregion
+    }
+    // Code for other sections
+}
+
+\end{lstlisting}
+The algorithm in it's current state allows for development in the future (if needed) since it's well commented, it also achieves it's purpose therefore it's complete. 
 
 \subsubsection{Delete rooms}
+\myparagraph{Iteration 1}
+Algorithm generates a random index for a room to be deleted
+\begin{lstlisting}
+//Needs to be between 0-1 (if its 0.8 it will delete 80% of rooms)
+private float deletingRoomsFactor = 0.5f; 
+public override void _Process(double delta)
+{
+    // Code for other sections
 
+    if (currentState == generationState.deleteRooms)
+    {
+        #region delete rooms
+        for (int i = 0; i < (int)(amountOfRooms * deletingRoomsFactor); i++)
+        {
+        	//generate index of room to delete
+            count = rng.RandiRange(0, GetChildCount());
+            RemoveChild(GetChild<Area2D>(count));
+        }
+        currentState = generationState.triangulation;
+        #endregion
+    }
+
+    // Code for other sections
+}
+\end{lstlisting}
+Will error when count = GetChildCount() since there is nothing at that index as the last item of the list is GetChildCount()-1.
+
+\myparagraph{Iteration 2}
+Simple fix to improve last iteration
+\begin{lstlisting}
+//Needs to be between 0-1 (if its 0.8 it will delete 80% of rooms)
+private float deletingRoomsFactor = 0.5f; 
+public override void _Process(double delta)
+{
+    // Code for other sections
+
+    if (currentState == generationState.deleteRooms)
+    {
+        #region delete rooms
+        for (int i = 0; i < (int)(amountOfRooms * deletingRoomsFactor); i++)
+        {
+        	//generate index of room to delete
+            count = rng.RandiRange(0, GetChildCount() -1);
+            RemoveChild(GetChild<Area2D>(count));
+        }
+        currentState = generationState.triangulation;
+        #endregion
+    }
+
+    // Code for other sections
+}
+\end{lstlisting}
+The algorithm performs the task that it's required to do therefore the algorithm is complete
 
 \subsubsection{Delaunay triangulation}
 
