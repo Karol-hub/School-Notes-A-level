@@ -1950,9 +1950,133 @@ else if (currnetState == generationState.generationState5)
 This system was implemented later in development but it seems most appropriate in this part as it shows how I am able to switch from one generation state to another. It allows me to switch between states as I please since all I have to do is update the currentState variable. However in my case I just switch from one state to the next since once a section of code is executed it doesn't need to be revisited, if I do need to revisit code I made it into it's own function as it's more convenient.
 \subsubsection{Create rooms}
 \myparagraph{iteration 1}
+The first iteration was made without the system for switching between generation stages.
+\begin{lstlisting}
+// presets for generating rooms
+private int amountOfRooms = 100;
+private float maxXScale = 20f;
+private float minXScale = 8f;
+private float maxYScale = 20f;
+private float minYScale = 8f;
+
+public override void _Ready()
+{
+    var rng = new RandomNumberGenerator();
+    rng.Randomize();
+    var room = GD.Load<PackedScene>("res://Scenes/room_generator.tscn");
+
+    for (int i = 0; i < amountOfRooms; i++) //makes a certain amount of "rooms"
+    {
+    	    //Make room instance
+        var instance = room.Instantiate();
+        AddChild(instance);
+        //Give random scale and position
+        instance.GetNode<CollisionShape2D>("Collision").Scale = new Vector2(Map(rng.Randf(),minXScale,maxXScale), Map(rng.Randf(), minYScale, maxYScale)); //generates random scale
+        instance.GetNode<Area2D>(".").Position = new Vector2(rng.Randf()*10, rng.Randf())*10; //generates initial random position
+    }
+    GenerateRooms();
+}
+\end{lstlisting}
+
+\myparagraph{Iteration 2}
+The last iteration set the position of each room to be a coordinate of two numbers between 0 and 1. This is inefficient because the rooms need to be spread apart so I could just spawn them further apart from each other so they have less distance to travel.
+
+\parBr
+
+I also changes the rooms from a cube with random scale to a pre-made room which can be instantiated as needed. In the future I will need to make more room variations to make it more interesting for the player. 
+
+\parBr
+
+Putting the code in the ready function means that it's called one before the game loads, with this all the rooms can be created before the game loads and they will be available to use once the scene is ready. Even if it takes a long time to load the scene all the rooms will be loaded when the rest of the generation starts. Which is crucial for the program to work.
+\begin{lstlisting}
+public override void _Ready()
+{
+	room = GD.Load<PackedScene>("res://Scenes/RoomVars/room_var_1.tscn");
+	spreadFactor = amountOfRooms * 5f;
+	for (int i = 0; i < amountOfRooms; i++) //makes a certain amount of "rooms"
+	{
+    	var instance = room.Instantiate();
+    	AddChild(instance);
+    	instance.GetNode<Area2D>(".").Position = new Vector2(rng.Randf() * spreadFactor, rng.Randf() * spreadFactor); //generates initial random position
+	}
+}
+\end{lstlisting}
 
 \subsubsection{Spread rooms}
+\myparagraph{Iteration 1}
+\begin{lstlisting}
+//spreading rooms apart
+private bool spread = false;
+private int count = 0;
+private Vector2 direction = Vector2.Zero;
+private float step = 1f;
+//temp statistics stuff for testing
+private int loopCount = 0;
 
+public async void GenerateRooms()
+{
+    //this only runs once at the start of the game so the inefficiency is loading time
+    while (!spread) //if the rooms have overlapping areas
+    {
+        loopCount += 1;
+        step = 2 + (4000/(((0.1f*MathF.Pow(loopCount,2f))+200)));
+        await Task.Delay(TimeSpan.FromMilliseconds(1));
+        count = 0; //resets count to check overlapping areas of child
+        for (int i = 0; i < amountOfRooms; i++)
+        {
+            if (GetChild<Area2D>(i).HasOverlappingAreas()) //if there are overlapping areas on the child
+            {
+                direction = Vector2.Zero; //resets direction to 0
+                for (int j = 0; j < GetChild<Area2D>(i).GetOverlappingAreas().Count; j++) //check every overlapping area
+                {
+                    direction += GetChild<Area2D>(i).Position - GetChild<Area2D>(i).GetOverlappingAreas()[j].Position; //finds difference between original area and overlapping area
+                }
+                //changes area position
+                direction = direction.Normalized();
+                GetChild<Area2D>(i).Position += direction * step;
+            }
+            else
+            {
+                count += 1; //adds 1 to count if no overlapping areas
+            }
+        }
+        if (count == amountOfRooms)
+        {
+            spread = true;
+            GD.Print("fin");
+            GD.Print(loopCount);
+        }
+    }
+}
+private float Map(float from, float min, float max)
+{
+    return min+ (from * (max-min));
+}
+\end{lstlisting}
+
+\myparagraph{Iteration 2}
+
+\begin{lstlisting}
+for (int i = 0; i < GetChildCount(); i++)
+{
+    Thread.Sleep(1);
+    while (GetChild<Area2D>(i).HasOverlappingAreas())
+    {
+        Thread.Sleep(1);
+        direction = Vector2.Zero; //resets direction to 0
+        for (int j = 0; j < GetChild<Area2D>(i).GetOverlappingAreas().Count; j++) //check every overlapping area
+        {
+            displacement = GetChild<Area2D>(i).Position - GetChild<Area2D>(i).GetOverlappingAreas()[j].Position;
+            direction += (10 / displacement.Length()) * displacement.Normalized(); //finds difference between original area and overlapping area
+        }
+        direction = direction.Normalized();
+        //loopCount += 1;
+        GetChild<Area2D>(i).Position += direction * step;
+    }
+}
+\end{lstlisting}
+
+This iteration uses a while loop which is bad practice since it tries to execute the entire thing in one go. This 
 
 \subsubsection{Delete rooms}
 
@@ -1982,6 +2106,7 @@ This system was implemented later in development but it seems most appropriate i
 
 \section{Evaluation}
 
+\pagebreak
 \subsection{Temp Fig Holder}
 
 \begin{figure}
