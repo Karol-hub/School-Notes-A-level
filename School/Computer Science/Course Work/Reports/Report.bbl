@@ -54,6 +54,18 @@
     \endverb
   \endentry
 
+  \entry{equation}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Equ}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
+    \field{note}{Accessed:18/12/23}
+    \field{title}{Finding Circumcenter given three points}
+    \verb{url}
+    \verb https://www.omnicalculator.com/math/circumcenter-of-a-triangle
+    \endverb
+  \endentry
+
   \entry{Gen_Alg}{misc}{}
     \field{labeltitlesource}{title}
     \field{labelalpha}{Gen}
@@ -108,6 +120,7 @@
     \field{labelalpha}{Spe}
     \field{sortinit}{9}
     \field{sortinithash}{9}
+    \field{note}{Accessed: 08/02/24}
     \field{title}{System requirements}
     \verb{url}
     \verb https://docs.godotengine.org/en/stable/about/system_requirements.html

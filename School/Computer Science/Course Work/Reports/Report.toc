@@ -107,12 +107,16 @@
 \contentsline {paragraph}{Iteration 1}{57}{}%
 \contentsline {paragraph}{Iteration 2}{57}{}%
 \contentsline {subsubsection}{\numberline {5.1.4}Delaunay triangulation}{58}{}%
-\contentsline {subsubsection}{\numberline {5.1.5}Remove random amount of edges}{58}{}%
-\contentsline {subsubsection}{\numberline {5.1.6}Add spawn and boss room}{58}{}%
-\contentsline {subsubsection}{\numberline {5.1.7}Make sure all rooms are accessible}{58}{}%
-\contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{58}{}%
-\contentsline {subsubsection}{\numberline {5.1.9}Generate corridors}{58}{}%
-\contentsline {subsubsection}{\numberline {5.1.10}Turn into tile map}{58}{}%
-\contentsline {subsubsection}{\numberline {5.1.11}Spawn player}{58}{}%
-\contentsline {section}{\numberline {6}Evaluation}{58}{}%
-\contentsline {subsection}{\numberline {6.1}Temp Fig Holder}{59}{}%
+\contentsline {paragraph}{Point Class iteration 1}{58}{}%
+\contentsline {paragraph}{Point Class iteration 2}{58}{}%
+\contentsline {paragraph}{Edge Class iteration 1}{58}{}%
+\contentsline {paragraph}{Triangle Class iteration 1}{58}{}%
+\contentsline {subsubsection}{\numberline {5.1.5}Remove random amount of edges}{61}{}%
+\contentsline {subsubsection}{\numberline {5.1.6}Add spawn and boss room}{61}{}%
+\contentsline {subsubsection}{\numberline {5.1.7}Make sure all rooms are accessible}{61}{}%
+\contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{61}{}%
+\contentsline {subsubsection}{\numberline {5.1.9}Generate corridors}{61}{}%
+\contentsline {subsubsection}{\numberline {5.1.10}Turn into tile map}{61}{}%
+\contentsline {subsubsection}{\numberline {5.1.11}Spawn player}{61}{}%
+\contentsline {section}{\numberline {6}Evaluation}{61}{}%
+\contentsline {subsection}{\numberline {6.1}Temp Fig Holder}{62}{}%

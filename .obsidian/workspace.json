@@ -13,13 +13,34 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Integration.md",
+                "file": "Differential Equations.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "a8a860e03e57a105",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+              }
+            }
+          },
+          {
+            "id": "3ff7a333fb434548",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -93,7 +114,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Integration.md",
+                "file": "School/Maths/Textbook/Pure Year 2.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +131,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Integration.md",
+                "file": "School/Maths/Textbook/Pure Year 2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +166,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Integration.md"
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
               }
             }
           }
@@ -169,13 +190,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e0838a4844ad512",
+  "active": "3ff7a333fb434548",
   "lastOpenFiles": [
-    "School/Maths/Textbook/Pure Year 2.pdf",
-    "School/Maths/Notes/Defenitions/Integration.md",
-    "School/Maths/Notes/Pure/Year 2/11 Integration.md",
-    "School/Computer Science/Notes/Defenitions/Agile Methodology.md",
     "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
+    "Differential Equations.md",
+    "School/Maths/Textbook/Pure Year 2.pdf",
+    "School/Maths/Notes/Pure/Year 2/11 Integration.md",
+    "School/Maths/Notes/Defenitions/Integration.md",
+    "School/Computer Science/Notes/Defenitions/Agile Methodology.md",
     "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.3 Software Development.md",
     "School/Computer Science/Notes/Links.md",
     "School/Computer Science/Notes/CS A Level Textbook.pdf",

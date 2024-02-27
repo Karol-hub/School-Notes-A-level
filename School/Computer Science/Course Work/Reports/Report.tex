@@ -2319,7 +2319,239 @@ public override void _Process(double delta)
 The algorithm performs the task that it's required to do therefore the algorithm is complete
 
 \subsubsection{Delaunay triangulation}
+\myparagraph{Point Class iteration 1}
+There is no advantage using the point class over just using a list of Area2D's yet, apart from accessing the position is slightly more convenient.
+\begin{lstlisting}
+class Point
+{
+    Area2D area;
+    Vector2 position;
 
+    public Point(Area2D area)
+    {
+    		//Constructor method for point
+        this.area = area;
+        //Position is for convenience
+        position = area.Position;
+    }
+}
+\end{lstlisting}
+The attributes also aren't declared as public or private, by default C\# assumes that they are private so all the values aren't able to be updated since there are no methods to access them.
+
+\myparagraph{Point Class iteration 2}
+Changing the attributes to public allows me to access them from any other class in C\#, which may be bad practice but it performs the function that it needs to do.
+\parBr
+The AlterPos method was added so that the position of the point can be altered without actually changing the position of the area that the point represents. This is used for the superTri points in the delaunay triangulation function as they don't need to have an area, so the value is set to null, but their position is necessary for the algorithm to function.
+\begin{lstlisting}
+public class Point
+{
+    public Area2D area;
+    public Vector2 position;
+
+    public Point(Area2D area)
+    {
+        this.area = area;
+        position = area.Position;
+    }
+
+    public void AlterPos(Vector2 newPos)
+    {
+    		//allows to update position without actually changing position of area
+        position = newPos;
+    }
+}
+\end{lstlisting}
+
+\myparagraph{Edge Class iteration 1}
+
+\begin{lstlisting}
+class Edge
+{
+    public Point[] points = new Point[2]; // 2 points make an edge
+
+    public Edge(Point point1, Point point2)
+    {
+        points[0] = point1;
+        points[1] = point2;
+        // Set the value of the two points
+    }
+
+    public Vector2 Midpoint()
+    {
+    		//Finds the midpoint of the two points
+        Vector2 mid;
+        mid.X = 0.5f * (points[0].position.X + points[1].position.X);
+        mid.Y = 0.5f * (points[0].position.Y + points[1].position.Y);
+        return mid;
+    }
+
+    public float Perpendicular()
+    {
+    		//finds perpendicular of gradient of line that links the two points
+        float gradient = (points[0].position.X - points[1].position.X) / (points[0].position.Y - points[1].position.Y);
+        return (-1f / gradient);
+    }
+}
+\end{lstlisting}
+
+\myparagraph{Edge Class iteration 2}
+This iteration adds the HasPoints method which allows me to check if two edges are the same or if an edge is composed of two specific points. This is useful as when comparing two edges, they could be made up of the same points however since they are different instances they wouldn't be considered as the same edge, for my use case I want to consider them as the same edge, this method allows me to accomplish this
+\begin{lstlisting}
+public class Edge
+{
+    public Point[] points = new Point[2]; // 2 points make an edge
+
+    public Edge(Point point1, Point point2)
+    {
+        points[0] = point1; points[1] = point2; // Set value of the two points
+    }
+
+    public Vector2 midpoint() // Finds midpoint of edges
+    {
+        Vector2 mid;
+        mid.X = 0.5f * (points[0].position.X + points[1].position.X);
+        mid.Y = 0.5f * (points[0].position.Y + points[1].position.Y);
+        return mid;
+    }
+
+    public float perpendicular() // Finds perpendicular gradient of the line that links the two points
+    {
+        float gradient = (points[0].position.X - points[1].position.X) / (points[0].position.Y - points[1].position.Y);
+        return (-1f / gradient);
+    }
+
+    public bool HasPoints(Point point1, Point point2) // Checks whether the edge is composed of specified points
+    {
+        if ((points[0] == point1 && points[1] == point2) || (points[0] == point2 && points[1] == point1))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+}
+\end{lstlisting}
+
+\myparagraph{Triangle Class iteration 1}
+Equation used in the findCircumcentre method is taken from \cite{equation}. This class aims to bring together 3 edges and 3 points.
+\begin{lstlisting}
+public class Triangle
+{
+    public Edge[] edges = new Edge[3]; // 3 edges make a triangle
+    public Point[] points = new Point[3];
+    public Vector2 circumcentre;
+    public float radius;
+
+    public Triangle(List<Triangle> triangulation, Point point1, Point point2, Point point3)
+    {
+        points[0] = point1; points[1] = point2; points[2] = point3;
+
+        #region edge check
+        // Checks whether the edge already exists and if not, it creates a new one
+        int edge1index = -1;
+        int edge2index = -1;
+        int edge3index = -1;
+
+        for (int i = 0; i < triangulation.Count; i++)
+        {
+            if (triangulation[i].ContainsEdge(new Edge(point1, point2)) != null && edge1index == -1)
+            {
+                edge1index = i;
+            }
+            if (triangulation[i].ContainsEdge(new Edge(point2, point3)) != null && edge2index == -1)
+            {
+                edge2index = i;
+            }
+            if (triangulation[i].ContainsEdge(new Edge(point1, point3)) != null)
+            {
+                edge3index = i;
+            }
+        }
+
+        if (edge1index != -1)
+        {
+            edges[0] = triangulation[edge1index].ContainsEdge(new Edge(point1, point2));
+        }
+        else
+        {
+            edges[0] = new Edge(point1, point2);
+        }
+
+        if (edge2index != -1)
+        {
+            edges[1] = triangulation[edge2index].ContainsEdge(new Edge(point2, point3));
+        }
+        else
+        {
+            edges[1] = new Edge(point2, point3);
+        }
+
+        if (edge3index != -1)
+        {
+            edges[2] = triangulation[edge3index].ContainsEdge(new Edge(point1, point3));
+        }
+        else
+        {
+            edges[2] = new Edge(point1, point3);
+        }
+        #endregion
+
+        findCircumcentre();
+        findRadius();
+    }
+
+    public Edge ContainsEdge(Edge edgeToCompare)
+    {
+        Point point1 = edgeToCompare.points[0];
+        Point point2 = edgeToCompare.points[0];
+
+        for (int i = 0; i < 3; i++)
+        {
+            if (edges[i].HasPoints(point1, point2))
+            {
+                return edges[i];
+            }
+        }
+
+        return null;
+    }
+
+    public bool isWithin(Point newNode)
+    {
+        // Check whether the new node lies within the circumcircle
+        // Pythagorean theorem to check if it lies within
+        if (Mathf.Pow(newNode.position.X - circumcentre.X, 2f) + Mathf.Pow(newNode.position.Y - circumcentre.Y, 2f) < MathF.Pow(radius, 2f))
+        {
+            return true;
+        }
+        else
+        {
+            return false;
+        }
+    }
+
+    private void findCircumcentre()
+    {
+        // Find circumcentre of the circumcircle
+        // Equation from https://www.omnicalculator.com/math/circumcenter-of-a-triangle
+        float t = Mathf.Pow(points[0].position.X, 2f) + Mathf.Pow(points[0].position.Y, 2f) - Mathf.Pow(points[1].position.X, 2f) - Mathf.Pow(points[1].position.Y, 2f);
+        float u = Mathf.Pow(points[0].position.X, 2f) + Mathf.Pow(points[0].position.Y, 2f) - Mathf.Pow(points[2].position.X, 2f) - Mathf.Pow(points[2].position.Y, 2f);
+        float J = ((points[0].position.X - points[1].position.X) * (points[0].position.Y - points[2].position.Y)) - ((points[0].position.X - points[2].position.X) * (points[0].position.Y - points[1].position.Y));
+
+        circumcentre.X = ((t * (points[0].position.Y - points[2].position.Y)) - (u * (points[0].position.Y - points[1].position.Y))) / (2 * J);
+        circumcentre.Y = ((u * (points[0].position.X - points[1].position.X)) - (t * (points[0].position.X - points[2].position.X))) / (2 * J);
+    }
+
+    private void findRadius()
+    {
+        // Find radius of circumcircle that the edges lie on
+        // Pythagorean theorem to find distance between points and centre 
+        radius = Mathf.Sqrt(MathF.Pow((circumcentre.X - edges[0].points[0].position.X), 2f) + MathF.Pow((circumcentre.Y - edges[0].points[0].position.Y), 2f));
+    }
+}
+\end{lstlisting}
 
 \subsubsection{Remove random amount of edges}
 
