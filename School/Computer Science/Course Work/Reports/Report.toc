@@ -131,8 +131,11 @@
 \contentsline {paragraph}{Connecting sections Iteration 2}{73}{}%
 \contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{74}{}%
 \contentsline {paragraph}{Iteration 1}{74}{}%
-\contentsline {subsubsection}{\numberline {5.1.9}Generate corridors}{74}{}%
-\contentsline {subsubsection}{\numberline {5.1.10}Turn into tile map}{74}{}%
-\contentsline {subsubsection}{\numberline {5.1.11}Spawn player}{74}{}%
-\contentsline {section}{\numberline {6}Evaluation}{74}{}%
-\contentsline {subsection}{\numberline {6.1}Temp Fig Holder}{75}{}%
+\contentsline {paragraph}{Iteration 2}{75}{}%
+\contentsline {subsubsection}{\numberline {5.1.9}Turn into tile map}{76}{}%
+\contentsline {paragraph}{Iteration 1}{76}{}%
+\contentsline {paragraph}{Iteration 2}{77}{}%
+\contentsline {paragraph}{Iteration 3}{78}{}%
+\contentsline {subsubsection}{\numberline {5.1.10}Spawn player}{80}{}%
+\contentsline {section}{\numberline {6}Evaluation}{80}{}%
+\contentsline {subsection}{\numberline {6.1}Temp Fig Holder}{81}{}%

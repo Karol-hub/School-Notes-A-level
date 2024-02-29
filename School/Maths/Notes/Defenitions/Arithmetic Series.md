@@ -1,4 +1,4 @@
-- Sum of an arithmetic sequence
+- Sum of an [[Arithmetic Sequence]]
 # Formula
 $$S_{n}= \frac{n}{2}(2a + (n-1)d)$$
 $$S_{n}= \frac{n}{2}(a + l)$$
