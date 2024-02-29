@@ -44,17 +44,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "944f82c2e75f29d4",
-      "parent": 0,
-      "droppable": true,
-      "text": "Infinity Symbol - LaTeX-Tutorial.com",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }

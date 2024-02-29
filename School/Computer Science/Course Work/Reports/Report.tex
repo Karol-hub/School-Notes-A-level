@@ -8,6 +8,7 @@
 \usepackage[backend=bibtex,style=alphabetic,sorting=ynt]{biblatex}
 \usepackage[sharp]{easylist}
 \usepackage[simplified]{pgf-umlcd}
+\usepackage{lscape}
 
 \usepackage[T1]{fontenc}
 \usepackage{inconsolata}
@@ -35,6 +36,17 @@
 \tikzstyle{decision} = [diamond, minimum width=3cm, minimum height=1cm, text centered, draw=black, fill=green!30]
 \tikzstyle{arrow} = [thick,->,>=stealth]
 %https://www.overleaf.com/learn/latex/LaTeX_Graphics_using_TikZ%3A_A_Tutorial_for_Beginners_(Part_3)%E2%80%94Creating_Flowcharts
+%For decomposition diagram
+\definecolor{rootcol}{HTML}{576490}
+\definecolor{l1col}{HTML}{23C9FF}
+\definecolor{l2col}{HTML}{7CC6FE}
+\definecolor{l3col}{HTML}{CCD5FF}
+\definecolor{l4col}{HTML}{E7BBE3}
+\tikzstyle{root} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.8cm, text centered, draw=black, fill=rootcol]
+\tikzstyle{l1} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.8cm, text centered, draw=black, fill=l1col]
+\tikzstyle{l2} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.8cm, text centered, draw=black, fill=l2col]
+\tikzstyle{l3} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.8cm, text centered, draw=black, fill=l3col]
+\tikzstyle{l4} = [rectangle, rounded corners, minimum width=3cm, minimum height=0.8cm, text centered, draw=black, fill=l4col]
 
 \bibliography{biblio}
 \geometry{
@@ -760,10 +772,144 @@ Allows player to adjust HUD to their need \smallBr
 \end{easylist}
 
 \section{Designing the Solution}
-\myparagraph{Decomposition of the problem}   
-This is one of the computational methods that I am going to use for my game. This is important as it allows me to think of how the game will work at a basic level. 
+\subsection{Development Methodology}
+There are multiple ways of developing a solution so I've complied a table to summarise all the advantages of disadvantages of each methodology
 
-\parBr
+\pagebreak
+
+\begin{table}[]
+\begin{tabular}{|c|l|l|l|l|}
+\hline
+Methodology & \multicolumn{1}{c|}{Description}                                                                                                                                                         & \multicolumn{1}{c|}{Uses}                                                                                                                          & \multicolumn{1}{c|}{Advantages}                                                                                                                      & \multicolumn{1}{c|}{Disadvantages}                                                                                                                             \\ \hline
+Rapid       & \begin{tabular}[c]{@{}l@{}}Iterative methodology where \\ partialy functional prototypes \\ are continually built upon.\end{tabular}                                                     & \begin{tabular}[c]{@{}l@{}}- Small to medium\\    projects\\ - Low budget\\ - Short timeframe\end{tabular}                                         & \begin{tabular}[c]{@{}l@{}}- Flexible to \\   changes\\ - Highly usable \\   product\\ - Focuses on core \\   features\end{tabular}                  & \begin{tabular}[c]{@{}l@{}}- Poorer quality \\   documentation\\ - Fast pace may \\   reduce quality\end{tabular}                                              \\ \hline
+Spiral      & \begin{tabular}[c]{@{}l@{}}Goes through four key stages: \\ analysis, risk mitigation, \\ development and evaluation. \\ With each iteration building \\ on the last.\end{tabular}       & \begin{tabular}[c]{@{}l@{}}- Large project\\ - Risk intensive \\   projects\\ - High budget\end{tabular}                                           & \begin{tabular}[c]{@{}l@{}}- Thorough  risk \\   analysis and \\   mitigation\\ - Flexible to \\   changes\\ - Produces \\   prototypes\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Expensive to \\   analyse risks\\ - Lack of focus \\   on efficiency\\ - High costs due \\   to prototypes\end{tabular}           \\ \hline
+Agile       & \begin{tabular}[c]{@{}l@{}}Collection of methodlogies \\ which aims to be flexible \\ allowing different sections to \\ be developed in parallel in \\ no particular order.\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Small to medium \\   projects\\ - Unclear initial \\   requirements\end{tabular}                                      & \begin{tabular}[c]{@{}l@{}}- Makes high \\   quality code\\ - Flexible to \\   changes\\ - Regular user \\   input\end{tabular}                      & \begin{tabular}[c]{@{}l@{}}- Poorer quality\\   documentation\\ - Requires consistant \\   interaction between \\   user and programmer\end{tabular}           \\ \hline
+Waterfall   & \begin{tabular}[c]{@{}l@{}}Traditianal mode where there \\ is a series of stages which are \\ completed in sequence from \\ start to finish.\end{tabular}                                & \begin{tabular}[c]{@{}l@{}}- Static, low risk \\   project\\ - Require little user \\   input\end{tabular}                                         & \begin{tabular}[c]{@{}l@{}}- Easy to \\   manage\\ - Clearly \\   documented\end{tabular}                                                            & \begin{tabular}[c]{@{}l@{}}- Lack of flexibility\\ - No risk analysis\\ - Limited user \\   involvement\end{tabular}                                           \\ \hline
+Extreme     & \begin{tabular}[c]{@{}l@{}}Agile methodology where \\ programmers work alongside \\ and end user to cater to their \\ desires.\end{tabular}                                              & \begin{tabular}[c]{@{}l@{}}- Small to medium \\   projects\\ - Unclear initial \\   requirements\\ - Require excellent \\   usability\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Produces high \\   quality code\\ - Highly usable \\ product\end{tabular}                                               & \begin{tabular}[c]{@{}l@{}}- High cost of two \\   working on project\\ - Teamwork is essential\\ - End user may not be \\   present at all times\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
+
+To create the code for the game I have designed I have decided to use an agile software development methodology as it's best suited for projects with a small to medium scale with unclear initial requirements, which applies perfectly to my project. It involves creating a prototype based on the user feedback/research and collect user feedback to refine the next iteration and continuously repeat this process until a usable product has been created. This methodology also requires a lot of user feedback which makes the final product very tailored to the stakeholders. It also able to be improved upon continuously until the stakeholders needs are satisfied and all the points on the success criteria are met.
+
+\subsection{Decomposing the problem}
+This is one of the computational methods that I am going to use for my game. This is important as it allows me to think of how the game will work at a basic level, instead of considering all the components at once.
+\begin{landscape}
+\begin{figure}[p]
+\centering
+\begin{tikzpicture}[node distance=1cm, every node/.style={font=\small}, align=center]
+\node (game) [root] {Game};
+
+%Dungeon Generation
+\node (dg) [l1, below of = game,yshift=-1cm] {Dungeon Generation};
+\node (layers) [l2, below of=dg, xshift = 1cm] {Different themes};
+\node (tilemap) [l3, below of=layers, xshift = 1cm] {Different tile maps};
+\node (create) [l2, below of=tilemap, xshift = -1cm] {Creating Rooms};
+\node (delaunay) [l3, below of=create, xshift = 1.3cm] {Delaunay Triangulation};
+\node (connect) [l3, below of=delaunay,xshift =-0.3cm] {Making Pathways};
+\node (ct) [l2, below of=connect, xshift = -1cm] {Creating Tile map};
+
+\draw [arrow] (dg.south)++(-1,0) -- ++(0,-0.6) -- (layers.west);
+\draw [arrow] (dg.south)++(-1,0) -- ++(0,-2.6) -- (create.west);
+\draw [arrow] (dg.south)++(-1,0) -- ++(0,-5.6) -- (ct.west);
+\draw [arrow] (layers.south)++(-1,0) -- ++(0,-0.6) -- (tilemap.west);
+\draw [arrow] (create.south)++(-1,0) -- ++(0,-0.6) -- (delaunay.west);
+\draw [arrow] (create.south)++(-1,0) -- ++(0,-1.6) -- (connect.west);
+
+%User Interface
+\node (ui) [l1, left of= dg, xshift=-4cm] {User Interface};
+\node (mm1) [l2, below of= ui, xshift = 1cm] {Main Menu};
+\node (ig1) [l2, below of= mm1] {In Game};
+\node (hud) [l3, below of= ig1, xshift=1cm] {HUD};
+\node (pm) [l3, below of= hud] {Pause Menu};
+
+\draw [arrow] (ui.south)++(-1,0) -- ++(0,-0.6) -- (mm1.west);
+\draw [arrow] (ui.south)++(-1,0) -- ++(0,-1.6) -- (ig1.west);
+\draw [arrow] (ig1.south)++(-1,0) -- ++(0,-0.6) -- (hud.west);
+\draw [arrow] (ig1.south)++(-1,0) -- ++(0,-1.6) -- (pm.west);
+
+%Audio
+\node (audio) [l1, left of = ui, xshift=-4cm] {Audio};
+\node (mm2) [l2, below of=audio, xshift = 1cm] {Main Menu};
+\node (music) [l3, below of=mm2, xshift=1cm] {Music};
+\node (bcsfx) [l3, below of=music] {Button Click SFX};
+\node (ig2) [l2, below of = bcsfx, xshift=-1cm] {In Game};
+\node (level) [l3, below of = ig2, xshift = 1cm] {Level};
+\node (ambience) [l4, below of = level, xshift = 1cm] {Ambience};
+\node (theme) [l4, below of = ambience] {Theme};
+\node (enemy) [l3, below of = theme, xshift = -1cm] {Enemy};
+\node (hitsfx1) [l4, below of = enemy, xshift = 1cm] {Hit SFX};
+\node (damagesfx1) [l4, below of = hitsfx1] {Damage SFX};
+\node (player) [l3, below of = damagesfx1, xshift = -1cm] {Player};
+\node (hitsfx2) [l4, below of = player, xshift = 1cm] {Hit SFX};
+\node (damagesfx2) [l4, below of = hitsfx2] {Damage SFX};
+
+\draw [arrow] (audio.south)++(-1,0) -- ++(0,-0.6) -- (mm2.west);
+\draw [arrow] (audio.south)++(-1,0) -- ++(0,-3.6) -- (ig2.west);
+\draw [arrow] (mm2.south)++(-1,0) -- ++(0,-0.6) -- (music.west);
+\draw [arrow] (mm2.south)++(-1,0) -- ++(0,-1.6) -- (bcsfx.west);
+\draw [arrow] (ig2.south)++(-1,0) -- ++(0,-0.6) -- (level.west);
+\draw [arrow] (ig2.south)++(-1,0) -- ++(0,-3.6) -- (enemy.west);
+\draw [arrow] (ig2.south)++(-1,0) -- ++(0,-6.6) -- (player.west);
+\draw [arrow] (level.south)++(-1,0) -- ++(0,-0.6) -- (ambience.west);
+\draw [arrow] (level.south)++(-1,0) -- ++(0,-1.6) -- (theme.west);
+\draw [arrow] (enemy.south)++(-1,0) -- ++(0,-0.6) -- (hitsfx1.west);
+\draw [arrow] (enemy.south)++(-1,0) -- ++(0,-1.6) -- (damagesfx1.west);
+\draw [arrow] (player.south)++(-1,0) -- ++(0,-0.6) -- (hitsfx2.west);
+\draw [arrow] (player.south)++(-1,0) -- ++(0,-1.6) -- (damagesfx2.west);
+
+%Enemy Design
+\node (ed) [l1, right of = dg, xshift=5cm] {Enemy Design};
+\node (boss) [l2, below of=ed, xshift = 1cm] {Bosses};
+\node (pattern) [l3, below of=boss, xshift = 1cm] {Attack Pattern};
+\node (visual) [l3, below of=pattern] {Boss Visuals};
+\node (common) [l2, below of=visual, xshift = -1cm] {Common Enemies};
+\node (move1) [l3, below of=common, xshift = 1cm] {Movement};
+\node (attack) [l3, below of=move1] {Attacking};
+
+\draw [arrow] (ed.south)++(-1,0) -- ++(0,-0.6) -- (boss.west);
+\draw [arrow] (ed.south)++(-1,0) -- ++(0,-3.6) -- (common.west);
+\draw [arrow] (boss.south)++(-1,0) -- ++(0,-0.6) -- (pattern.west);
+\draw [arrow] (boss.south)++(-1,0) -- ++(0,-1.6) -- (visual.west);
+\draw [arrow] (common.south)++(-1,0) -- ++(0,-0.6) -- (move1.west);
+\draw [arrow] (common.south)++(-1,0) -- ++(0,-1.6) -- (attack.west);
+
+%Player Desing
+\node (pd) [l1, right of = ed, xshift=4cm] {Player Design};
+\node (death) [l2, below of=pd, xshift = 1cm] {Death};
+\node (move2) [l2, below of=death] {Movement};
+\node (jump) [l3, below of=move2, xshift = 1cm] {Jumping};
+\node (move3) [l3, below of=jump] {Moving};
+\node (dash) [l3, below of=move3] {Dashing};
+\node (wall) [l3, below of=dash] {Wall Bouncing};
+\node (combat) [l2, below of=wall, xshift = -1cm] {Combat};
+\node (hit) [l3, below of=combat, xshift = 1cm] {Hitting Enemies};
+\node (dmg) [l3, below of=hit] {Taking Damage};
+\node (kill) [l3, below of=dmg,xshift=0.25cm] {Mixing with Movement};
+
+\draw [arrow] (pd.south)++(-1,0) -- ++(0,-0.6) -- (death.west);
+\draw [arrow] (pd.south)++(-1,0) -- ++(0,-1.6) -- (move2.west);
+\draw [arrow] (pd.south)++(-1,0) -- ++(0,-6.6) -- (combat.west);
+\draw [arrow] (move2.south)++(-1,0) -- ++(0,-0.6) -- (jump.west);
+\draw [arrow] (move2.south)++(-1,0) -- ++(0,-1.6) -- (move3.west);
+\draw [arrow] (move2.south)++(-1,0) -- ++(0,-2.6) -- (dash.west);
+\draw [arrow] (move2.south)++(-1,0) -- ++(0,-3.6) -- (wall.west);
+\draw [arrow] (combat.south)++(-1,0) -- ++(0,-0.6) -- (hit.west);
+\draw [arrow] (combat.south)++(-1,0) -- ++(0,-1.6) -- (dmg.west);
+\draw [arrow] (combat.south)++(-1,0) -- ++(0,-2.6) -- (kill.west);
+
+%Root to l1
+\draw [arrow] (game.south) -- (dg.north);
+\draw [arrow] (game.south)++(0,-0.5) -- ++ (-5,0) -- (ui.north);
+\draw [arrow] (game.south)++(0,-0.5) -- ++ (-10,0) -- (audio.north);
+\draw [arrow] (game.south)++(0,-0.5) -- ++ (6,0) -- (ed.north);
+\draw [arrow] (game.south)++(0,-0.5) -- ++ (11,0) -- (pd.north);
+\end{tikzpicture}
+\caption{Decomposition Diagram}
+\label{decomp}
+\end{figure}
+\end{landscape}
+
+\subsection{Variable types}   
 
 \myparagraph{Variables}
 stores some sort of data in main memory \linebreak \textbf{Data Types}
@@ -1904,10 +2050,6 @@ At this point in design I don't have enough time to create a proper combat syste
 \subsection{UI}
 
 \section{Developing a solution}
-To create the code for the game I have designed I have decided to use an agile software development methodology as it's best suited for projects with a small to medium scale with unclear initial requirements, which applies perfectly to my project. It involves creating a prototype based on the user feedback/research and collect user feedback to refine the next iteration and continuously repeat this process until a usable product has been created. This methodology also requires a lot of user feedback which makes the final product very tailored to the stakeholders. It also able to be improved upon continuously until the stakeholders needs are satisfied and all the points on the success criteria are met.
-
-\parBr
-
 Since I am using the Godot game engine to create my project I can use many different languages which are supported in Godot such as C, C++, C\#, GDScript (made specifically for Godot) and other languages which were implemented by the community, using one of these languages would also mean that there would be less support, since less people would be using it and since it's not official the quality of the documentation may not be of the best quality. Therefore I have decided to use C\# to generate my project since I have the most experience with the language due to my experience with unity, however my knowledge is very limited and I would need to adapt my knowledge so I can apply it to Godot. 
 
 \subsection{Dungeon Generation}
