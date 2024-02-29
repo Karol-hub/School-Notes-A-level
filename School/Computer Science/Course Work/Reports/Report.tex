@@ -1349,7 +1349,7 @@ The algorithm will be successful if the following conditions are met:
 \end{itemize}
 
 \subsubsection{Make sure all rooms are accessible}
-This section can be decomposed into smaller problems. That being detecting sections and connecting sections. First comes detecting sections, this is accomplished more easily when the the graph is represented with list of points along with each point having a list of points it's connected to. Currently the graph is represented as a list of edges. This can be done with a simple algorithm explored further in the "Turning list of edge to graph" section. The detecting sections part is an example of depth first graph traversal since algorithm identifies leaf nodes first.
+This section can be decomposed into smaller problems. That being detecting a single section and detecting all sections, then making sure they are connected. First comes detecting sections, this is accomplished more easily when the the graph is represented with list of points along with each point having a list of points it's connected to. Currently the graph is represented as a list of edges. This can be done with a simple algorithm explored further in the "Turning list of edge to graph" section. The detecting sections part is an example of depth first graph traversal since algorithm identifies leaf nodes first.
 
 \begin{figure}[p]
   \centering
@@ -2362,8 +2362,52 @@ public class Point
 }
 \end{lstlisting}
 
-\myparagraph{Edge Class iteration 1}
+\myparagraph{Point Class iteration 3}
+To represent the points as a graph I would need to know which other points they are connected to so for this iteration I added a list of points of which the point is connected to, allowing me to represent rooms layout as a directed graph, once the triangulation has completed.
+\begin{lstlisting}
+public class Point
+{
+    // Point in a graph also represents a room in the code
+    public Area2D area;
+    public Vector2 position;
+    public List<Point> connectedPoints = new List<Point>();
 
+    public Point(Area2D Area)
+    {
+        area = Area;
+		//For super triangle the points don't have area so null is passed in
+        if (area == null)
+        {
+            position = new Vector2();
+        }
+        else
+        {
+            position = Area.Position;
+        }
+    }
+
+    public void AlterPos(Vector2 newPos)
+    {
+        position = newPos;
+    }
+	//Want to do input validation on connected points so this method exists
+    public void ConnectPoint(Point newPoint)
+    {
+        if (newPoint == null || newPoint.position == position || connectedPoints.Any(x => x.position == newPoint.position))
+        {
+        	//If newPoint doesn't exist or is the current point or is already connected.
+        	//Want to know if this is called since if it gets called printed something went wrong
+            GD.Print("Invalid point");
+            return;
+        }
+
+        connectedPoints.Add(newPoint);
+    }
+}
+\end{lstlisting}
+
+\myparagraph{Edge Class iteration 1}
+The edge aims to represent the connection between two points. The midpoint and perpendicular methods are used to help the triangle class to find the circumcentre and circumcircle of the triangle.
 \begin{lstlisting}
 class Edge
 {
@@ -2393,6 +2437,8 @@ class Edge
     }
 }
 \end{lstlisting}
+Checking weather two edges are composed of the same points is problematic since C\# checks weather they are the same so comparing two edges may not work for all cases.
+
 
 \myparagraph{Edge Class iteration 2}
 This iteration adds the HasPoints method which allows me to check if two edges are the same or if an edge is composed of two specific points. This is useful as when comparing two edges, they could be made up of the same points however since they are different instances they wouldn't be considered as the same edge, for my use case I want to consider them as the same edge, this method allows me to accomplish this
@@ -2435,7 +2481,51 @@ public class Edge
 \end{lstlisting}
 
 \myparagraph{Triangle Class iteration 1}
-Equation used in the findCircumcentre method is taken from \cite{equation}. This class aims to bring together 3 edges and 3 points.
+This class aims to bring together 3 edges and 3 points.
+\begin{lstlisting}
+class Triangle
+{
+    public Edge[] edges = new Edge[3]; // 3 edges make a triangle
+    public Vector2 circumcentre;
+    public float radius;
+
+    public Triangle(Edge edge1, Edge edge2, Edge edge3)
+    {
+        edges[0] = edge1; edges[1] = edge2; edges[2] = edge3; // Set value of all the edges
+        FindCircumcentre();
+        FindRadius();
+    }
+
+    public bool IsWithin(Point newNode)
+    {
+        // Check whether the new node lies within the circumcircle
+        // Doesn't exist yet
+        return false;
+    }
+
+    private void FindCircumcentre()
+    {
+        // Find circumcentre of the circumcircle
+        // Finds x coordinate of circumcentre
+        circumcentre.X = ((edges[1].Midpoint().X * edges[1].Perpendicular()) - (edges[2].Midpoint().X * edges[2].Perpendicular()) + (edges[2].Midpoint().Y - edges[1].Midpoint().Y)) / (edges[1].Perpendicular() - edges[2].Perpendicular());
+
+        // Finds y coordinate of circumcentre
+        circumcentre.Y = (edges[2].Perpendicular() * (circumcentre.X - edges[2].Midpoint().X)) + edges[2].Midpoint().Y;
+        //This doesn't work yet
+    }
+
+    private void FindRadius()
+    {
+        // Find radius of circumcircle that the edges lie on
+        // Pythagorean theorem to find distance between points and centre
+        radius = Mathf.Sqrt(MathF.Pow((circumcentre.X - edges[0].points[0].position.X), 2f) + MathF.Pow((circumcentre.Y - edges[0].points[0].position.Y), 2f));
+    }
+}
+
+\end{lstlisting}
+
+\myparagraph{Triangle Class iteration 2}
+Equation used in the findCircumcentre method is taken from \cite{equation}. The method not also actually works and returns the correct result.
 \begin{lstlisting}
 public class Triangle
 {
@@ -2553,17 +2643,585 @@ public class Triangle
 }
 \end{lstlisting}
 
+\myparagraph{Delaunay Triangulation iteration 1}
+This iteration didn't make use of the switching between states, which makes it disorganised however since it's all carried out in one step this doesn't make a large difference apart from looking messy in the code. It also contains print statements for debugging.
+\begin{lstlisting}
+#region Delaunay Triangulation
+// Creates supertriangle that should be large enough to hold all points
+GD.Print("Make super triangle");
+Point superTriPoint1 = new Point(new Area2D());
+superTriPoint1.AlterPos(new Vector2(-999999f, -999999f));
+Point superTriPoint2 = new Point(new Area2D());
+superTriPoint2.AlterPos(new Vector2(-999999f, 999999f));
+Point superTriPoint3 = new Point(new Area2D());
+superTriPoint3.AlterPos(new Vector2(999999f, 0f));
+Triangle superTri = new Triangle(triangulation, superTriPoint1, superTriPoint2, superTriPoint3);
+triangulation.Add(superTri);
+GD.Print("Start big loop");
+for (int i = 0; i < GetChildCount(); i++)
+{
+    GD.Print("Iteration " + i);
+    // Resets bad triangles
+    badTriangles = new List<Triangle>();
+    GD.Print("Bad triangles list initialized");
+    // Makes new point
+    Point newPoint = new Point(GetChild<Area2D>(i));
+    GD.Print("New point created");
+    // Checks which triangles are invalid because of the new point
+    GD.Print(triangulation.Count);
+    for (int y = 0; y < triangulation.Count; y++)
+    {
+        if (triangulation[y].IsWithin(newPoint))
+        {
+            badTriangles.Add(triangulation[y]);
+        }
+    }
+    GD.Print("Passed adding bad triangles");
+    // For remeshing when a new point is added
+    polygon = new List<Edge>();
+    polygonEdgeList = new List<Edge>();
+    for (int y = 0; y < badTriangles.Count; y++)
+    {
+        triangulation.Remove(badTriangles[y]);
+        for (int x = 0; x < 3; x++)
+        {
+            polygonEdgeList.Add(badTriangles[y].edges[x]);
+        }
+    }
+    for (int y = 0; y < polygonEdgeList.Count; y++) // Checks if there is one or more items in the list
+    {
+        int count = 0;
+        for (int x = 0; x < polygonEdgeList.Count; x++) // Checks if values are equal
+        {
+            if (polygonEdgeList[y] == polygonEdgeList[x] && x != y)
+            {
+                count += 1;
+            }
+        }
+        if (count == 1) // If there is one of an item type, add it to the polygon
+        {
+            polygon.Add(polygonEdgeList[y]);
+        }
+    }
+    // Retriangulate mesh from polygon
+    for (int y = 0; y < polygon.Count; y++)
+    {
+        triangulation.Add(new Triangle(triangulation, newPoint, polygon[y].points[0], polygon[y].points[1])); // Add new triangle to triangulation
+    }
+}
+// Clean up points from superTri
+badTriangles = new List<Triangle>();
+for (int i = 0; i < triangulation.Count; i++)
+{
+    for (int y = 0; y < 3; y++)
+    {
+        if (triangulation[i].points[y] == superTriPoint1 || triangulation[i].points[y] == superTriPoint2 || triangulation[i].points[y] == superTriPoint3)
+        {
+            badTriangles.Add(triangulation[i]);
+        }
+    }
+}
+for (int i = 0; i < badTriangles.Count; i++)
+{
+    triangulation.Remove(badTriangles[i]);
+}
+#endregion
+
+#region Draw Result
+GD.Print("Finished");
+QueueRedraw();
+#endregion
+\end{lstlisting}
+
+\myparagraph{Delaunay Triangulation iteration 2}
+This iteration adds it to the better way of switching between the generation stages and converts the result from a list of triangles to a list of edges as it's easier to work with.
+\begin{lstlisting}
+#region Delaunay Triangulation
+if (loops == -1)
+{
+    // Creates supertriangle that should be large enough to hold all points
+    superTriPoint1 = new Point(new Area2D());
+    superTriPoint1.AlterPos(new Vector2(-999999f, -999999f));
+    superTriPoint2 = new Point(new Area2D());
+    superTriPoint2.AlterPos(new Vector2(-999999f, 999999f));
+    superTriPoint3 = new Point(new Area2D());
+    superTriPoint3.AlterPos(new Vector2(999999f, 0f));
+    Triangle superTri = new Triangle(triangulation, superTriPoint1, superTriPoint2, superTriPoint3);
+    triangulation.Add(superTri);
+    loops = 0;
+}
+if (loops < GetChildCount() && loops != -1)
+{
+    // Resets bad triangles
+    badTriangles = new List<Triangle>();
+    // Makes new point
+    Point newPoint = new Point(GetChild<Area2D>(loops));
+    // Checks which triangles are invalid because of the new point
+    for (int y = 0; y < triangulation.Count; y++)
+    {
+        if (triangulation[y].IsWithin(newPoint))
+        {
+            badTriangles.Add(triangulation[y]);
+        }
+    }
+    // For remeshing when a new point is added
+    polygon = new List<Edge>();
+    polygonEdgeList = new List<Edge>();
+    for (int y = 0; y < badTriangles.Count; y++)
+    {
+        triangulation.Remove(badTriangles[y]); // Remove bad triangles from triangulation
+        for (int x = 0; x < 3; x++)
+        {
+            polygonEdgeList.Add(badTriangles[y].edges[x]);
+        }
+    }
+    for (int y = 0; y < polygonEdgeList.Count; y++) // Checks if there is one or more item in the list
+    {
+        count = 0;
+        for (int x = 0; x < polygonEdgeList.Count; x++) // Checks if values are equal
+        {
+            if (AreTwoEdgesTheSame(polygonEdgeList[x], polygonEdgeList[y]) && x != y)
+            {
+                count += 1;
+            }
+        }
+        if (count == 0) // If there is one of an item type add it to polygon
+        {
+            polygon.Add(polygonEdgeList[y]);
+        }
+    }
+    // Re-triangulate mesh from polygon
+    for (int y = 0; y < polygon.Count; y++)
+    {
+        triangulation.Add(new Triangle(triangulation, newPoint, polygon[y].points[0], polygon[y].points[1])); // Add new triangle to triangulation
+    }
+}
+loops += 1;
+if (loops == GetChildCount())
+{
+    // Clean up points from superTri
+    badTriangles = new List<Triangle>();
+    for (int i = 0; i < triangulation.Count; i++)
+    {
+        for (int y = 0; y < 3; y++)
+        {
+            if (triangulation[i].points[y] == superTriPoint1 || triangulation[i].points[y] == superTriPoint2 || triangulation[i].points[y] == superTriPoint3)
+            {
+                badTriangles.Add(triangulation[i]);
+            }
+        }
+    }
+    for (int i = 0; i < badTriangles.Count; i++)
+    {
+        triangulation.Remove(badTriangles[i]);
+    }
+    // Dumps all edges into polygon for use
+    polygon = new List<Edge>();
+    
+    for (int triangle = 0; triangle < triangulation.Count; triangle++)
+    {
+        for (int edges = 0; edges < 3; edges++)
+        {
+            count = 0;
+            for (int poly = 0; poly < polygon.Count; poly++)
+            {
+                if (AreTwoEdgesTheSame(triangulation[triangle].edges[edges], polygon[poly])) // Check if item is already in list
+                {
+                    count += 1;
+                }
+            }
+            if (count == 0) // If item isn't already in list, add it to list
+            {
+                polygon.Add(triangulation[triangle].edges[edges]);
+            }
+        }
+    }
+    currentState = generationState.draw;
+}
+#endregion
+\end{lstlisting}
+
 \subsubsection{Remove random amount of edges}
+\myparagraph{Iteration 1}
+Removes a edge at a random index.
+\begin{lstlisting}
+// Removes a certain amount of edges
+int polyCount = polygon.Count;
+for (int i = 0; i < (int)(edgeDeleteFactor * polyCount); i++)
+{
+    polygon.RemoveAt(rng.RandiRange(0, polygon.Count - 1));
+}
+//Stuff to prepare for next section
+currentState = generationState.connectSections;
+GD.Print("polygon count: " + polygon.Count);
+sections = DetectSections(polygon);
+\end{lstlisting}
 
+\myparagraph{Iteration 2}
+The problem with the previous iteration is that when it removes an edge it removes all instances of that even if they are in other edges, because all copies and additions of that edge are fed by reference. So instead of removing a certain amount of edges I will add a certain amount of edges to a new list.
+\begin{lstlisting}
+// Removes a certain amount of edges
+// GD.Print("Edges Removed: "+ (int)(polygon.Count*edgeDeleteFactor));
+for (int i = 0; polygonEdgeList.Count < (int)(polygon.Count * edgeDeleteFactor); i++)
+{
+    // Make it so that it takes a random edge and not in order as it has too much structure
+    polygonEdgeList.Add(polygon[i]);
+    // GD.Print("loop: "+ polygonEdgeList.Count);
+}
 
+// Does stuff for the next section
+polygonDifference = EdgeDiff(polygon, polygonEdgeList);
+sections = DetectSections(polygonEdgeList);
+\end{lstlisting}
+
+\myparagraph{Iteration 3}
+Now it picks a random edge to add to the list of edges making sure that there are no duplicates
+\begin{lstlisting}
+// Removes a certain amount of edges
+// GD.Print("Edges Removed: "+ (int)(polygon.Count*edgeDeleteFactor));
+polygonEdgeList.Clear();
+List<int> indexList = new List<int>();
+int newIndex;
+
+for (int i = 0; polygonEdgeList.Count() < (int)(polygon.Count * edgeDeleteFactor); i++)
+{
+    // takes a random edge and not in order as it has too much structure
+    rng.Seed = (ulong)(i);
+    newIndex = rng.RandiRange(0, polygon.Count() - 1);
+
+    if (!indexList.Contains(newIndex))
+    {
+        // GD.Print(newIndex);
+        // If the edge doesn't already exist
+        polygonEdgeList.Add(polygon[newIndex]);
+        indexList.Add(newIndex);
+    }
+}
+currentState = generationState.connectSections;
+// Does stuff for the next section
+polygonDifference = EdgeDiff(polygon, polygonEdgeList);
+sections = DetectSections(polygonEdgeList);
+// Polygon is the entire triangulated thing
+// PolygonEdgeList is edges left over after deleting
+// polygonDifference = polygon - PolygonEdgeList
+\end{lstlisting}
 \subsubsection{Add spawn and boss room}
+\myparagraph{Iteration 1}
+Works as expected first try so I am not going to alter it.
+\begin{lstlisting}
+// PolygonEdgeList is where we have to connect new room
+FindMinMax(polygonEdgeList);
 
+// Set up variables needed
+Point closestPoint = new Point(null);
+List<Point> graph = MakeGraph(polygonEdgeList);
+float currentLength = 999999f;
+
+// Boss Room Setup
+Node bossRoom = GD.Load<PackedScene>("res://Scenes/RoomVars/boss.tscn").Instantiate();
+AddChild(bossRoom);
+
+// Generate position between min and max X coord but bias center more
+// Make Y coord a certain amount below other rooms.
+bossRoom.GetNode<Area2D>(".").Position = new Vector2(minCoord.X + rng.RandfRange(0.2f, 0.8f) * (maxCoord.X - minCoord.X), maxCoord.Y + roomDist);
+Vector2 bossRoomPos = bossRoom.GetNode<Area2D>(".").Position;
+
+// Make boss room into a point to add it to the graph
+Point bossPoint = new Point(bossRoom.GetNode<Area2D>("."));
+graph.Add(bossPoint);
+
+foreach (Point room in graph)
+{
+    if (currentLength > (room.position - bossRoomPos).Length() && room != bossPoint)
+    {
+        // If the room is closer to the currently closest known room
+        closestPoint = room;
+        currentLength = (room.position - bossRoomPos).Length();
+    }
+}
+
+GD.Print("Boss distance between: " + currentLength);
+
+// Connect boss to the closest room
+bossPoint.ConnectPoint(closestPoint);
+closestPoint.ConnectPoint(bossPoint);
+
+// Reset for the next section
+currentLength = 999999f;
+rng.Randomize();
+
+// Spawn Room Setup
+Node spawnRoom = GD.Load<PackedScene>("res://Scenes/RoomVars/spawn.tscn").Instantiate();
+AddChild(spawnRoom);
+
+// Generate position between min and max X coord but bias center more
+// Make Y coord a certain amount above other rooms.
+spawnRoom.GetNode<Area2D>(".").Position = new Vector2(minCoord.X + rng.RandfRange(0.2f, 0.8f) * (maxCoord.X - minCoord.X), minCoord.Y - roomDist);
+Vector2 spawnRoomPos = spawnRoom.GetNode<Area2D>(".").Position;
+
+// Make spawn room into a point to add it to the graph
+Point spawnPoint = new Point(spawnRoom.GetNode<Area2D>("."));
+graph.Add(spawnPoint);
+
+foreach (Point room in graph)
+{
+    if (currentLength > (room.position - spawnRoomPos).Length() && room != spawnPoint)
+    {
+        // If the room is closer to the currently closest known room
+        closestPoint = room;
+        currentLength = (room.position - spawnRoomPos).Length();
+    }
+}
+
+GD.Print("Spawn distance between: " + currentLength);
+
+// Connect spawn to the closest room
+spawnPoint.ConnectPoint(closestPoint);
+closestPoint.ConnectPoint(spawnPoint);
+
+// Prepare for the next section
+spawnCoords = spawnRoomPos;
+polygonEdgeList = MakeEdges(graph);
+currentState = generationState.makeCoridoors;
+\end{lstlisting}
 
 \subsubsection{Make sure all rooms are accessible}
+This section is broken down to 3 sections like in the design section, branching algorithm from a singular point, detecting a new sections and connecting sections
 
+\myparagraph{Branching algorithm Iteration 1}
+Currently doesn't work and infinitely loops, then crashes the program with a stack overflow.
+\begin{lstlisting}
+public List<Point> MakeSection(Point point, List<Point> exclude)
+{
+    List<Point> pts = new List<Point>();
+    List<Point> allPoints = new List<Point>();
+    bool visited = false;
+
+    //GD.Print("connected points: " + point.connectedPoints.Count);
+	//Don't want to make new point if it's already been checked
+    for (int i = 0; i < point.connectedPoints.Count; i++)
+    {
+        exclude.Add(point.connectedPoints[i]);
+    }
+
+    for (int i = 0; i < point.connectedPoints.Count; i++)
+    {
+    	//check every connected point
+        visited = false;
+
+        for (int j = 0; j < exclude.Count; j++)
+        {
+        	//if it exists in exclude set visited to true
+            if (exclude[j].position == point.connectedPoints[i].position)
+            {
+                visited = true;
+                break;
+            }
+        }
+
+		//if it doesn't exist in exist branch out from that point
+        if (!visited)
+        {
+            pts = MakeSection(point.connectedPoints[i], exclude);
+			//put all results of pts into allPoints
+            for (int k = 0; k < pts.Count; k++)
+            {
+                allPoints.Add(pts[k]);
+            }
+        }
+    }
+    return allPoints;
+}
+\end{lstlisting}
+
+\myparagraph{Branching algorithm Iteration 2}
+Don't need all the other variables at the start since the exclude points will be the same as the points visited, so they can be returned.
+\begin{lstlisting}
+public List<Point> MakeSection(Point point, List<Point> exclude)
+{
+    List<Point> newPoints = new List<Point>();
+    //add current point to exclude list as it doesn't need to be checked anymore
+    exclude.Add(point);
+
+    for (int i = 0; i < point.connectedPoints.Count; i++)
+    {
+        if (exclude.Where(x => x.position == point.connectedPoints[i].position).Count() == 0)
+        {
+            // check if connected point already exists in exclude 
+            // if it doesn't exist then add it to exclude and branch off at new point 
+            newPoints = MakeSection(point.connectedPoints[i], exclude);
+
+            for (int j = 0; j < newPoints.Count; j++)
+            {
+                if (exclude.Where(x => x.position == newPoints[j].position).Count() == 0)
+                {
+                	//if new point doesn't already exist in exclude add it to exclude
+                	//don't want duplicates
+                    exclude.Add(newPoints[j]);
+                }
+            }
+        }
+    }
+
+    return exclude;
+}
+\end{lstlisting}
+
+\myparagraph{New section detection Iteration 1}
+Recursive algorithm to detect all the other points a point is connected to. Sometimes doesn't pick up all the points
+\begin{lstlisting}
+public List<List<Point>> DetectSections(List<Edge> edges)
+{
+    List<List<Point>> sects = new List<List<Point>>(); // We already have a variable named 'section', so we shorten it to this
+    List<Point> newSection = new List<Point>();
+
+    // Each new item in 'sections' is a new section (stray edges not connected to each other)
+    GD.Print("Edge count: " + edges.Count);
+    List<Point> graph = MakeGraph(edges);
+    bool exists = false;
+
+    GD.Print("Graph count: " + graph.Count);
+    for (int i = 0; i < graph.Count; i++)
+    {
+        // Checks whether point exists in 'sects'
+        exists = false;
+        for (int j = 0; j < sects.Count; j++)
+        {
+            for (int k = 0; k < sects[j].Count; k++)
+            {
+                if (graph[i] == sects[j][k])
+                {
+                    exists = true;
+                    break;
+                }
+            }
+            if (exists)
+            {
+                break;
+            }
+        }
+
+        // If it doesn't already exist in 'sects'
+        if (!exists)
+        {
+            // Make a section with all the new connected edges
+            sects.Add(MakeSection(graph[i], new List<Point>()));
+        }
+    }
+
+    return sects;
+}
+\end{lstlisting}
+
+\myparagraph{New section detection Iteration 2}
+Previous iteration compared the actual point to check if it was the same point, however when a point is copied it's sometimes made into a new instance, so I need to compare the positions since they will always be the same if two points are the same, also all the debugging print statements were removed.
+\begin{lstlisting}
+public List<List<Point>> DetectSections(List<Edge> edges)
+{
+    List<List<Point>> sects = new List<List<Point>>(); // We already have a variable named 'section', so we shorten it to this
+    List<Point> newSection = new List<Point>();
+
+    // Each new item in 'sections' is a new section (stray edges not connected to each other)
+    // GD.Print("Edge count: " + edges.Count);
+    List<Point> graph = MakeGraph(edges);
+    bool exists = false;
+    // GD.Print("Graph count: " + graph.Count);
+    for (int i = 0; i < graph.Count; i++)
+    {
+        // Checks whether point exists in sects
+        exists = false;
+        for (int j = 0; j < sects.Count; j++)
+        {
+            for (int k = 0; k < sects[j].Count; k++)
+            {
+                if (graph[i].position == sects[j][k].position)
+                {
+                    // GD.Print("exists");
+                    exists = true;
+                    break;
+                }
+            }
+            if (exists)
+            {
+                break;
+            }
+        }
+        // If it doesn't already exist in sects
+        if (!exists)
+        {
+            // Make a section with all the new connected edges
+            sects.Add(MakeSection(graph[i], new List<Point>()));
+        }
+    }
+    return sects;
+}
+\end{lstlisting}
+
+\myparagraph{Connecting sections Iteration 1}
+Just planned what to do in this iteration
+\begin{lstlisting}
+if (sections.Count != 1)
+{
+    // add some edges
+                
+    // Detect sections
+    // sections = DetectSections(polygon);
+    // add some edges to connect sections
+    GD.Print("sections: " + sections.Count);
+}
+else
+{
+    currentState = generationState.draw;
+}
+
+\end{lstlisting}
+
+\myparagraph{Connecting sections Iteration 2}
+Made actual code that will add random edge each time until there is only one section. This now completes it's purpose therefore it's complete.
+\begin{lstlisting}
+if (sections.Count != 1)
+{
+    // add some edges
+    int index = rng.RandiRange(0, polygonDifference.Count - 1);
+    polygonEdgeList.Add(polygonDifference[index]);
+    polygonDifference.RemoveAt(index);
+    sections = DetectSections(polygonEdgeList);
+    // GD.Print("sections: "+sections.Count);
+}
+else
+{
+	// there is one sections so can move onto next stage
+    // remove rooms with no edges connecting to them
+    List<Point> graph = MakeGraph(polygonEdgeList);
+    List<Area2D> removeThese = new List<Area2D>();
+
+    // check all children to see if they are a stray point
+    for (int i = 0; i < GetChildCount(); i++)
+    {
+        if (!graph.Where(x => x.position == GetChild<Area2D>(i).Position).Any())
+        {
+            // add to list of items to remove to not mess up the loop
+            // remove children with no points connecting to them
+            removeThese.Add(GetChild<Area2D>(i));
+        }
+    }
+
+    // remove items detected in loop
+    for (int i = 0; i < removeThese.Count; i++)
+    {
+        RemoveChild(removeThese[i]);
+    }
+	//move onto next stage
+    currentState = generationState.makeCoridoors;
+}
+\end{lstlisting}
 
 \subsubsection{Turn edges into horizontal and vertical}
+\myparagraph{Iteration 1}
 
+\begin{lstlisting}
+
+\end{lstlisting}
 
 \subsubsection{Generate corridors}
 
