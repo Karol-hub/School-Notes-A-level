@@ -83,3 +83,5 @@ $$\int _{a}^ {b}y\ dx \sim \frac{1}{2}h(y_{0} + 2(y_{1}+y_{2}+y_{3}+...+y_{n-2}+
 - Spit complicated graph into trapezium
 - Find each of the areas
 - Find total area
+# As limit of a sum
+$$\lim_{\delta x \rightarrow 0} \; \Sigma _{x=a}^{b} f(x) \ \delta x = \int _{a}^ {b} f(x) \ dx$$

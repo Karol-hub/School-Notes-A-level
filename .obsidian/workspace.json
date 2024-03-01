@@ -13,9 +13,29 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Computer Science/Temp.md",
+                "file": "School/Maths/Notes/Defenitions/Geometric Series.md",
                 "mode": "source",
                 "source": false
+              }
+            }
+          },
+          {
+            "id": "bd9724cd5949057c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+              }
+            }
+          },
+          {
+            "id": "7e07226915c2b3e4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
               }
             }
           }
@@ -93,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Computer Science/Temp.md",
+                "file": "School/Maths/Notes/Defenitions/Geometric Series.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Computer Science/Temp.md",
+                "file": "School/Maths/Notes/Defenitions/Geometric Series.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Computer Science/Temp.md"
+                "file": "School/Maths/Notes/Defenitions/Geometric Series.md"
               }
             }
           }
@@ -171,6 +191,15 @@
   },
   "active": "9e0838a4844ad512",
   "lastOpenFiles": [
+    "School/Maths/Textbook/Pure Year 2.pdf",
+    "School/Maths/Notes/Defenitions/Geometric Series.md",
+    "School/Maths/Notes/Defenitions/Integration.md",
+    "School/Maths/Notes/Defenitions/Differentiation Trigonometric functions.md",
+    "School/Maths/Notes/Pure/Year 2/9 Differentiation.md",
+    "School/Maths/Notes/Pure/Year 2/11 Integration.md",
+    "School/Maths/Notes/Pure/Year 2/3 Sequences and series.md",
+    "School/Maths/Notes/Defenitions/Arithmetic Series.md",
+    "School/Computer Science/Temp.md",
     "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
     "School/Computer Science/Course Work/Reports/Report.synctex.gz",
     "School/Computer Science/Course Work/A-star example/Design.pdf",
@@ -181,16 +210,9 @@
     "School/Computer Science/Notes/Defenitions/Agile Methodology.md",
     "School/Computer Science/Notes/Defenitions/Waterfall Methodology.md",
     "School/Computer Science/Notes/Links.md",
-    "School/Computer Science/Temp.md",
-    "School/Maths/Notes/Defenitions/Geometric Series.md",
-    "School/Maths/Textbook/Pure Year 2.pdf",
     "School/Maths/Notes/Defenitions/Geometric Sequence.md",
     "Life/Cheat Sheets/Latex cheat sheet.pdf",
-    "School/Maths/Notes/Defenitions/Arithmetic Series.md",
-    "School/Maths/Notes/Pure/Year 2/3 Sequences and series.md",
     "School/Maths/Notes/Defenitions/Differential Equations.md",
-    "School/Maths/Notes/Pure/Year 2/11 Integration.md",
-    "School/Maths/Notes/Defenitions/Integration.md",
     "School/Computer Science/Notes/CS A Level Textbook.pdf",
     "Life/Crochet/Links for patterns.md",
     "School/Computer Science/Course Work/Reports/Images/regular coridoors.png",
@@ -203,8 +225,6 @@
     "School/Physics/Notes/Defenitions/Beta+ Radiation.md",
     "School/Physics/Notes/Paper 2/Topic 11- Nuclear Radiation.md",
     "School/Physics/Notes/Defenitions/Decay Constant.md",
-    "School/Physics/Notes/Defenitions/Background Radiation.md",
-    "School/Physics/Notes/Defenitions/Gamma Radiation.md",
     "School/Maths/Textbook/Pure Year 1.pdf"
   ]
 }

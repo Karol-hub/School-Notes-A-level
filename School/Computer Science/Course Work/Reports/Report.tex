@@ -3699,7 +3699,37 @@ else
 \end{lstlisting}
 
 \subsubsection{Spawn player}
+\myparagraph{Iteration 1}
+Spawning the player in a random position in the tile map is bad because they can spawn in the middle of enemies or close to the boss room, allowing them to essentially skip the level. The camera also doesn't change to the players camera so they aren't able to see the player character.
+\begin{lstlisting}
+//Random empty tile is selected as spawnCoords from previous tilemap generation iteration
+PackedScene character = GD.Load<PackedScene>("res://Scenes/character.tscn");
+Node player;
+player = character.Instantiate();
+GetNode("/root").AddChild(player);
+GD.Print("Spawn Coords: " + spawnCoords);
+//move to spawn
+player.GetNode<CharacterBody2D>(".").Position = spawnCoords;
+currentState = generationState.done;
+\end{lstlisting}
 
+\myparagraph{Iteration 2}
+
+\begin{lstlisting}
+//spawnCoords is position of spawn room
+PackedScene character = GD.Load<PackedScene>("res://Scenes/character.tscn");
+Node player;
+player = character.Instantiate();
+GetNode("/root").AddChild(player);
+
+GD.Print("Spawn Coords: " + spawnCoords);
+//move to spawn
+player.GetNode<CharacterBody2D>(".").Position = spawnCoords;
+//Change camera to player's camera
+player.GetNode<Camera2D>("./Camera2D").MakeCurrent();
+//Finished so can move t
+currentState = generationState.done;
+\end{lstlisting}
 
 \section{Evaluation}
 
