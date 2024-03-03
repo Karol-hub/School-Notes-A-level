@@ -1012,11 +1012,15 @@ instacne                            & Node                                     &
 \end{tabular}
 
 \myparagraph{Identifying test data}
-The algorithm will be successful if the following conditions are met:
-\begin{itemize}
-\item{There is a correct amount of rooms}
-\item{There is variation in rooms generated}
-\end{itemize}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                 & Justification                                                                                                                               \\ \hline
+1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}  & Annoying for player to wait too long for level to generate                                                                                  \\ \hline
+2                                                  & None  & \begin{tabular}[c]{@{}l@{}}There is correct amount\\ of rooms\end{tabular}          & \begin{tabular}[c]{@{}l@{}}Too much and a level will take too long to generate, too little \\ and the map won't be interesting\end{tabular} \\ \hline
+3                                                  & None  & \begin{tabular}[c]{@{}l@{}}There is variation in the\\ rooms generated\end{tabular} & Makes it more interesting for the player as there is less repetition                                                                        \\ \hline
+\end{tabular}
+\end{table}
 
 \subsubsection{Spread rooms}
 Once all the rooms are all generated in a confined area they need to be spread out until they are no longer overlapping. To separate the rooms I iterated through each room object and check it for overlapping areas. I found the difference in positions to get the vector of the room relative to the original room being considered, using this I can find the direction that the room should be moved in. This idea was taken from \cite{Dis_Alg}
@@ -1108,12 +1112,15 @@ step          & float         & How far the rooms move each iteration
 \end{tabular}
 
 \myparagraph{Identifying test data}
-The algorithm will be successful if the following conditions are met:
-\begin{itemize}
-\item{Rooms don't overlap}
-\item{Rooms are still close together}
-\item{Spreads in a reasonable amount of time}
-\end{itemize}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                & Justification                                                                                                            \\ \hline
+1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate                                                               \\ \hline
+2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Room are still close \\ together\end{tabular}           & Making the player travel for too long won't be fun                                                                       \\ \hline
+3                                                  & None  & Rooms don't overlap                                                                & \begin{tabular}[c]{@{}l@{}}Want to rooms to generate correctly, without overalp as\\ it may cause artifacts\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
 
 
 After this process a pre-defined amount of rooms are deleted so that there are gaps in between the rooms, removing 60\% of the rooms works well. On top of this the position of each room is multiplied by 2 to spread the rooms further
@@ -1155,11 +1162,14 @@ deletingRoomsFactor & float         & Needs to be between 0-1 (if its 0.8 it wil
 \end{tabular}
 
 \myparagraph{Identifying test data}
-The algorithm will be successful if the following conditions are met:
-\begin{itemize}
-\item{Rooms are spread apart without being on top of each other}
-\item{Distance between rooms varies}
-\end{itemize}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                & Justification                                              \\ \hline
+1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate \\ \hline
+2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Distance between rooms\\ varies\end{tabular}            & Making the player travel for too long won't be fun         \\ \hline
+\end{tabular}
+\end{table}
 
 \subsubsection{Delaunay Triangulation}
 The algorithm used in this section was taken from \cite{BW_alg}(Bowyer–Watson algorithm). For the algorithm to function I needed a data structure for points, which link the Area2D, position and a list of points which the point is connected to. Edges are an array of two points which represents a connection between two points. Triangles are an array of three edges and hence three points, from these a circumcircle can be drawn, which is important for the Bowyer-Watson algorithm, this is represented as a vector2 storing the circumcentre and a float for the radius.
@@ -1289,12 +1299,15 @@ allPoints       & List\textless{}Point\textgreater{}    & List of all points to 
 \end{tabular}
 
 \myparagraph{Identifying test data}
-The algorithm will be successful if the following conditions are met:
-\begin{itemize}
-\item{Triangulated in the most efficient way possible}
-\item{Every room is included in the triangulation}
-\item{Computes in a reasonable amount of time}
-\end{itemize}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                       & Justification                                                                                                                 \\ \hline
+1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}        & Annoying for player to wait too long for level to generate                                                                    \\ \hline
+2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Every room is included\\ in the triangulation\end{tabular}     & \begin{tabular}[c]{@{}l@{}}This way every room will be included and have a chance\\ of existing in the final map\end{tabular} \\ \hline
+3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Triangulated in the most\\ efficient way possible\end{tabular} & \begin{tabular}[c]{@{}l@{}}There is as little as possible overlap when coridoors are\\ generated\end{tabular}                 \\ \hline
+\end{tabular}
+\end{table}
 
 \parBr
 The pseudo code states that there needs to be triangles, edges and points. These structures can be achieved with object oriented programming as I can make a class with all the relevant attributes and methods for each data structure mentioned.
@@ -1368,11 +1381,14 @@ newIndex           & int                              & New index to be checked 
 \end{tabular}
 
 \myparagraph{Identifying test data}
-The algorithm will be successful if the following conditions are met:
-\begin{itemize}
-\item{Random amount of edges is deleted}
-\end{itemize}
-
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                & Justification                                                                                                             \\ \hline
+1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate                                                                \\ \hline
+2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Random amount of edges\\ are removed\end{tabular}       & \begin{tabular}[c]{@{}l@{}}Every room won't be connected to every other room that's close\\ adding variation\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
 \parBr
 
 However this creates a problem as now some of the rooms are inaccessible because they have no edges connecting to them or are in another inaccessible section. This is solved in the next section.
@@ -1486,13 +1502,17 @@ polygonEdgeList & List\textless{}Edge\textgreater{}  & List of all the edges tha
 \end{tabular}
 
 \myparagraph{Identifying test data}
-The algorithm will be successful if the following conditions are met:
-\begin{itemize}
-\item{Spawn room and boss room are generated}
-\item{Spawn is generated above all other rooms}
-\item{Boss room is generated below all other rooms}
-\item{Both rooms are generated relatively close to the center}
-\end{itemize}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                                            & Justification                                                                                                                             \\ \hline
+1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}                             & Annoying for player to wait too long for level to generate                                                                                \\ \hline
+2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Spawn and room are\\ generated and connected\end{tabular}                                         & Gives the player a safe room to spawn in                                                                                                  \\ \hline
+3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Spawn is generated above\\ other rooms\end{tabular}                                 & \begin{tabular}[c]{@{}l@{}}Player needs to travel down to get to boss room, Gives\\ them a general direction to travel\end{tabular}       \\ \hline
+4                                                  & None  & \begin{tabular}[c]{@{}l@{}}Boss room is generated \\ below of other rooms\end{tabular}                         & \begin{tabular}[c]{@{}l@{}}Gives the player a goal and way to progress into the\\ next player\end{tabular}                                \\ \hline
+5                                                  & None  & \begin{tabular}[c]{@{}l@{}}Both rooms are generated\\ relatively close to the\\ horizontal center\end{tabular} & \begin{tabular}[c]{@{}l@{}}Having a room generate too far to left or right may \\ limit the rooms that the player can access\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
 
 \subsubsection{Make sure all rooms are accessible}
 This section can be decomposed into smaller problems. That being detecting a single section and detecting all sections, then making sure they are connected. First comes detecting sections, this is accomplished more easily when the the graph is represented with list of points along with each point having a list of points it's connected to. Currently the graph is represented as a list of edges. This can be done with a simple algorithm explored further in the "Turning list of edge to graph" section. The detecting sections part is an example of depth first graph traversal since algorithm identifies leaf nodes first.
@@ -1563,10 +1583,14 @@ NewPoints     & List\textless{}Point\textgreater{} & Takes result of recursion i
 \end{tabular}
 
 \myparagraph{Identifying test data}
-The algorithm will be successful if the following conditions are met:
-\begin{itemize}
-\item{An entire section is detected given a single input point}
-\end{itemize}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                                  & Justification                                                                                                                                                                                                 \\ \hline
+1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}                   & Annoying for player to wait too long for level to generate                                                                                                                                                    \\ \hline
+2                                                  & None  & \begin{tabular}[c]{@{}l@{}}An entire section is\\ detected given a single\\ input point\end{tabular} & \begin{tabular}[c]{@{}l@{}}Can detect all the points that are connected to the start point\\ to make sure that there is one section so that there is one\\ meaning that all rooms are accessible\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
 
 \begin{figure}[p]
   \centering
@@ -1626,11 +1650,15 @@ NewPoints     & List\textless{}Point\textgreater{}                              
 \end{tabular}
 
 \myparagraph{Identifying test data}
-The algorithm will be successful if the following conditions are met:
-\begin{itemize}
-\item{Detects correct amount of sections}
-\item{Doesn't create another section when point being checked is already in a section}
-\end{itemize}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                        & Justification                                              \\ \hline
+1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}         & Annoying for player to wait too long for level to generate \\ \hline
+2                                                  & None  & \begin{tabular}[c]{@{}l@{}}If point has already been\\ checked don't check it\end{tabular} & Don't want to detect the wrong amount of sections          \\ \hline
+3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Detect correct amount of\\ sections\end{tabular}                & When there is one section all rooms are accessible         \\ \hline
+\end{tabular}
+\end{table}
 
 Now that I am able to detect sections we want to connect them. This is done by saving the list of edges from the triangulation section and finding the difference between the list after removing edges.
 
@@ -1714,11 +1742,15 @@ removeThese       & List\textless{}Area2D\textgreater{} & Collection of all room
 \end{tabular}
 
 \myparagraph{Identifying test data}
-The algorithm will be successful if the following conditions are met:
-\begin{itemize}
-\item{The list of edges are now all connected to each other}
-\item{Removes all rooms without connections to other rooms}
-\end{itemize}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                & Justification                                              \\ \hline
+1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate \\ \hline
+2                                                  & None  & \begin{tabular}[c]{@{}l@{}}All rooms are connected\\ to eachother\end{tabular}     & So the player can access all rooms                         \\ \hline
+3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Delete all rooms without\\ connections\end{tabular}     & removes all rooms that are inaccessible                    \\ \hline
+\end{tabular}
+\end{table}
 
 \subsubsection{Turn edges into horizontal and vertical}
 The movement system isn't optimised for edges that are angled in such obscure ways as seen in figure \ref{deleting edges result}. Therefore it's important to change the edges into it's vertical and horizontal components to make the level more traversable for the player. Originally I was going to create an advanced network to connect all the points in the most efficient way possible, but looking at how long it took me to implement delaunay triangulation I decided against it as it would take too long. So instead I created an algorithm that generates all possibilities to make sure all rooms are accessible.
@@ -1794,10 +1826,14 @@ newPoint2       & Point                             & End point for new edge aft
 \end{tabular}
 
 \myparagraph{Identifying test data}
-The algorithm will be successful if the following conditions are met:
-\begin{itemize}
-\item{Entire graph is made from horizontal and vertical edges}
-\end{itemize}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                               & Justification                                                                                                                                                                      \\ \hline
+1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}                & Annoying for player to wait too long for level to generate                                                                                                                         \\ \hline
+2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Entire map is made from\\ horizontal and vertical\\ edges\end{tabular} & \begin{tabular}[c]{@{}l@{}}Movement isn't designed for diagnal movement so having\\ only horizontal and vertical movement will make for a \\ better player experience\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
 
 In figure \ref{ba coridoors and edges} the pink lines are the edges before the rooms were generated. The green boxes are the result of this algorithm plus the generate corridors algorithm but it shows the algorithm well so it's included in this section.
 
@@ -1876,11 +1912,15 @@ instance      & Node                              & The new coridoor that is ins
 \end{tabular}
 
 \myparagraph{Identifying test data}
-The algorithm will be successful if the following conditions are met:
-\begin{itemize}
-\item{Each edge has a corridor generated for it}
-\item{The corridor is an appropriate size}
-\end{itemize}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                 & Justification                                                                                              \\ \hline
+1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}  & Annoying for player to wait too long for level to generate                                                 \\ \hline
+2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Each edge has a coridoor\\ generated for it\end{tabular} & Corridors allows players to traverse between rooms                                                         \\ \hline
+3                                                  & None  & \begin{tabular}[c]{@{}l@{}}The corridor is an\\ appropriate size\end{tabular}       & \begin{tabular}[c]{@{}l@{}}Needs to be an appropriate size for player to fit into the\\ room.\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
 
 However these rooms are still areas  that are solid blocks meaning that the player still isn't able to interact with any of the rooms as they are currently all solid blocks. That is why we need to regenerate the entire map to make it playable. A lot of the corridors are overlapping which could be problematic in the future however it wouldn't be worth it to remake that section as it would be very time consuming and wouldn't make any difference to the player since they would never see this section and would hardly effect the following sections.
 
@@ -1982,13 +2022,18 @@ tileMapCheckScene & PackedScene                                    & The scene t
 tilemap           & Tilemap                                        & The subject which has tiles generated into it                                                                                   
 \end{tabular}
 
+\pagebreak
+
 \myparagraph{Identifying test data}
-The algorithm will be successful if the following conditions are met:
-\begin{itemize}
-\item{Takes reasonable amount of time}
-\item{Variation in tiles that looks good}
-\item{Makes an interesting map for the player to explore}
-\end{itemize}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                & Justification                                                                                                           \\ \hline
+1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate                                                              \\ \hline
+2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Variation in the tiles looks\\ good\end{tabular}        & Makes it engaging for the player and more enjoyable                                                                     \\ \hline
+3                                                  & None  & Makes interesting map                                                              & \begin{tabular}[c]{@{}l@{}}Makes it entertaining for player to explore and actualy able\\ to interact with\end{tabular} \\ \hline
+\end{tabular}
+\end{table}
 
 \subsubsection{Spawn player}
 The only thing left is to let the player explore the map and battle the enemies for themselves. To do this we need to load the player object and place them into the spawn room.
@@ -2029,12 +2074,18 @@ characterScene & PackedScene   & The scene which contains the player object     
 spawnCoords    & Vector2       & Position where player should be placed, taken form previous section
 \end{tabular}
 
+\pagebreak
+
 \myparagraph{Identifying test data}
-The algorithm will be successful if the following conditions are met:
-\begin{itemize}
-\item{Player is spawned}
-\item{Player is able to be controlled}
-\end{itemize}
+\begin{table}[h]
+\begin{tabular}{|l|l|l|l|}
+\hline
+\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                & Justification                                              \\ \hline
+1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate \\ \hline
+2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Player is spawned in\\ spawn room\end{tabular}          & Player starts in the spawn room                            \\ \hline
+3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Player is able to be\\ controlled\end{tabular}          & Player can start the game                                  \\ \hline
+\end{tabular}
+\end{table}
 
 The player is now able to move around and explore the dungeon however we still need to design the player along with all of it's movement.
 

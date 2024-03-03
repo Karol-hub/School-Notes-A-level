@@ -4,38 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "420541689014d4b7",
+        "id": "7d1ff1c3097020fb",
         "type": "tabs",
         "children": [
           {
-            "id": "9e0838a4844ad512",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Maths/Notes/Defenitions/Geometric Series.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "bd9724cd5949057c",
+            "id": "283b10381a622ff1",
             "type": "leaf",
             "state": {
               "type": "pdf",
               "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
-              }
-            }
-          },
-          {
-            "id": "7e07226915c2b3e4",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+                "file": "School/Computer Science/Course Work/A-star example/Design.pdf"
               }
             }
           }
@@ -113,7 +91,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Geometric Series.md",
+                "file": "School/Computer Science/Course Work/A-star example/Design.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -130,7 +108,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Geometric Series.md",
+                "file": "School/Computer Science/Course Work/A-star example/Design.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -165,7 +143,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Notes/Defenitions/Geometric Series.md"
+                "file": "School/Computer Science/Course Work/A-star example/Design.pdf"
               }
             }
           }
@@ -189,9 +167,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9e0838a4844ad512",
+  "active": "283b10381a622ff1",
   "lastOpenFiles": [
+    "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
+    "Life/Crochet/Tracking Stuff.md",
+    "Life/Crochet/PDF Patterns/DDCrochetPattern_Cinnamaroll20160225.pdf",
+    "Life/Crochet/PDF Patterns",
+    "School/Computer Science/Notes/Defenitions/Control Unit (CU).md",
+    "School/Computer Science/Notes/Unit 1/1.1 The characteristics of contemporary processors, input, output and storage devices/1.1.1 Structure and function of the processor.md",
+    "School/Computer Science/Course Work/Reports/Images/anki-23.12.1-windows-qt6.exe",
+    "School/Computer Science/Course Work/Reports/Images/anki-23.12.1-windows-qt6.exe.opdownload",
     "School/Maths/Textbook/Pure Year 2.pdf",
+    "Life/Crochet/Links for patterns.md",
     "School/Maths/Notes/Defenitions/Geometric Series.md",
     "School/Maths/Notes/Defenitions/Integration.md",
     "School/Maths/Notes/Defenitions/Differentiation Trigonometric functions.md",
@@ -200,7 +187,6 @@
     "School/Maths/Notes/Pure/Year 2/3 Sequences and series.md",
     "School/Maths/Notes/Defenitions/Arithmetic Series.md",
     "School/Computer Science/Temp.md",
-    "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
     "School/Computer Science/Course Work/Reports/Report.synctex.gz",
     "School/Computer Science/Course Work/A-star example/Design.pdf",
     "School/Computer Science/Notes/Unit 1/1.2 Software and software development/1.2.3 Software Development.md",
@@ -214,17 +200,10 @@
     "Life/Cheat Sheets/Latex cheat sheet.pdf",
     "School/Maths/Notes/Defenitions/Differential Equations.md",
     "School/Computer Science/Notes/CS A Level Textbook.pdf",
-    "Life/Crochet/Links for patterns.md",
     "School/Computer Science/Course Work/Reports/Images/regular coridoors.png",
-    "School/Computer Science/Course Work/Reports/Images/regular coridoors.png.0.pdnSave",
-    "School/Maths/Textbook/Applied Year 2.pdf",
     "School/Physics/Notes/Defenitions/Radioactive Decay.md",
     "School/Physics/Notes/Defenitions/Nuclear Fusion.md",
     "School/Maths/Notes/Defenitions/Arithmetic Sequence.md",
-    "School/Physics/Notes/Defenitions/Nuclear Fusion Process.md",
-    "School/Physics/Notes/Defenitions/Beta+ Radiation.md",
-    "School/Physics/Notes/Paper 2/Topic 11- Nuclear Radiation.md",
-    "School/Physics/Notes/Defenitions/Decay Constant.md",
-    "School/Maths/Textbook/Pure Year 1.pdf"
+    "School/Physics/Notes/Defenitions/Nuclear Fusion Process.md"
   ]
 }
