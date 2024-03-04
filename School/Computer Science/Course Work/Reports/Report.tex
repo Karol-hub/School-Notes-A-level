@@ -9,6 +9,7 @@
 \usepackage[sharp]{easylist}
 \usepackage[simplified]{pgf-umlcd}
 \usepackage{lscape}
+\usepackage{tabularray}
 
 \usepackage[T1]{fontenc}
 \usepackage{inconsolata}
@@ -1015,7 +1016,7 @@ instacne                            & Node                                     &
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                 & Justification                                                                                                                               \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}  & Annoying for player to wait too long for level to generate                                                                                  \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}There is correct amount\\ of rooms\end{tabular}          & \begin{tabular}[c]{@{}l@{}}Too much and a level will take too long to generate, too little \\ and the map won't be interesting\end{tabular} \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}There is variation in the\\ rooms generated\end{tabular} & Makes it more interesting for the player as there is less repetition                                                                        \\ \hline
@@ -1115,7 +1116,7 @@ step          & float         & How far the rooms move each iteration
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                & Justification                                                                                                            \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate                                                               \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Room are still close \\ together\end{tabular}           & Making the player travel for too long won't be fun                                                                       \\ \hline
 3                                                  & None  & Rooms don't overlap                                                                & \begin{tabular}[c]{@{}l@{}}Want to rooms to generate correctly, without overalp as\\ it may cause artifacts\end{tabular} \\ \hline
@@ -1165,7 +1166,7 @@ deletingRoomsFactor & float         & Needs to be between 0-1 (if its 0.8 it wil
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                & Justification                                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                                                                          \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Distance between rooms\\ varies\end{tabular}            & Making the player travel for too long won't be fun         \\ \hline
 \end{tabular}
@@ -1302,7 +1303,7 @@ allPoints       & List\textless{}Point\textgreater{}    & List of all points to 
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                       & Justification                                                                                                                 \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}        & Annoying for player to wait too long for level to generate                                                                    \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Every room is included\\ in the triangulation\end{tabular}     & \begin{tabular}[c]{@{}l@{}}This way every room will be included and have a chance\\ of existing in the final map\end{tabular} \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Triangulated in the most\\ efficient way possible\end{tabular} & \begin{tabular}[c]{@{}l@{}}There is as little as possible overlap when coridoors are\\ generated\end{tabular}                 \\ \hline
@@ -1384,7 +1385,7 @@ newIndex           & int                              & New index to be checked 
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                & Justification                                                                                                             \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate                                                                \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Random amount of edges\\ are removed\end{tabular}       & \begin{tabular}[c]{@{}l@{}}Every room won't be connected to every other room that's close\\ adding variation\end{tabular} \\ \hline
 \end{tabular}
@@ -1505,7 +1506,7 @@ polygonEdgeList & List\textless{}Edge\textgreater{}  & List of all the edges tha
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                                            & Justification                                                                                                                             \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}                             & Annoying for player to wait too long for level to generate                                                                                \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Spawn and room are\\ generated and connected\end{tabular}                                         & Gives the player a safe room to spawn in                                                                                                  \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Spawn is generated above\\ other rooms\end{tabular}                                 & \begin{tabular}[c]{@{}l@{}}Player needs to travel down to get to boss room, Gives\\ them a general direction to travel\end{tabular}       \\ \hline
@@ -1586,7 +1587,7 @@ NewPoints     & List\textless{}Point\textgreater{} & Takes result of recursion i
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                                  & Justification                                                                                                                                                                                                 \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}                   & Annoying for player to wait too long for level to generate                                                                                                                                                    \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}An entire section is\\ detected given a single\\ input point\end{tabular} & \begin{tabular}[c]{@{}l@{}}Can detect all the points that are connected to the start point\\ to make sure that there is one section so that there is one\\ meaning that all rooms are accessible\end{tabular} \\ \hline
 \end{tabular}
@@ -1653,7 +1654,7 @@ NewPoints     & List\textless{}Point\textgreater{}                              
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                        & Justification                                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                                                                         \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}         & Annoying for player to wait too long for level to generate \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}If point has already been\\ checked don't check it\end{tabular} & Don't want to detect the wrong amount of sections          \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Detect correct amount of\\ sections\end{tabular}                & When there is one section all rooms are accessible         \\ \hline
@@ -1745,7 +1746,7 @@ removeThese       & List\textless{}Area2D\textgreater{} & Collection of all room
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                & Justification                                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                                                                        \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}All rooms are connected\\ to eachother\end{tabular}     & So the player can access all rooms                         \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Delete all rooms without\\ connections\end{tabular}     & removes all rooms that are inaccessible                    \\ \hline
@@ -1829,7 +1830,7 @@ newPoint2       & Point                             & End point for new edge aft
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                               & Justification                                                                                                                                                                      \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}                & Annoying for player to wait too long for level to generate                                                                                                                         \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Entire map is made from\\ horizontal and vertical\\ edges\end{tabular} & \begin{tabular}[c]{@{}l@{}}Movement isn't designed for diagnal movement so having\\ only horizontal and vertical movement will make for a \\ better player experience\end{tabular} \\ \hline
 \end{tabular}
@@ -1915,7 +1916,7 @@ instance      & Node                              & The new coridoor that is ins
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                 & Justification                                                                                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}  & Annoying for player to wait too long for level to generate                                                 \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Each edge has a coridoor\\ generated for it\end{tabular} & Corridors allows players to traverse between rooms                                                         \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}The corridor is an\\ appropriate size\end{tabular}       & \begin{tabular}[c]{@{}l@{}}Needs to be an appropriate size for player to fit into the\\ room.\end{tabular} \\ \hline
@@ -2028,7 +2029,7 @@ tilemap           & Tilemap                                        & The subject
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                & Justification                                                                                                           \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate                                                              \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Variation in the tiles looks\\ good\end{tabular}        & Makes it engaging for the player and more enjoyable                                                                     \\ \hline
 3                                                  & None  & Makes interesting map                                                              & \begin{tabular}[c]{@{}l@{}}Makes it entertaining for player to explore and actualy able\\ to interact with\end{tabular} \\ \hline
@@ -2080,7 +2081,7 @@ spawnCoords    & Vector2       & Position where player should be placed, taken f
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular} & Input & Aim                                                                                & Justification                                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Player is spawned in\\ spawn room\end{tabular}          & Player starts in the spawn room                            \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Player is able to be\\ controlled\end{tabular}          & Player can start the game                                  \\ \hline
@@ -3781,6 +3782,47 @@ player.GetNode<Camera2D>("./Camera2D").MakeCurrent();
 //Finished so can move t
 currentState = generationState.done;
 \end{lstlisting}
+
+\section{Testing}
+
+\subsection{Dungeon Generation}
+
+\subsubsection{Create Rooms}
+\myparagraph{Iteration 1}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                                                & \textbf{Actual Result} & \textbf{Improvements for future}                                                                                                 \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms generated in a \\dense section around \\coordinates (0,0)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{Failed to build}}             & \begin{tabular}[c]{@{}l@{}}Tried to access Node's position which doesn't\\~exist, need to access Area2D's position\end{tabular}  \\ 
+\hline
+2                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms generated in a \\dense section around \\coordinates (0,0)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{Nothing happened}}             & \begin{tabular}[c]{@{}l@{}}Forgot to assign a parent to the rooms so they \\didn't generate at all.\end{tabular}                 \\ 
+\hline
+3                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms generated in a \\dense section around \\coordinates (0,0)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{rooms generated successful}}             & \begin{tabular}[c]{@{}l@{}}Will be improved upon in the next iteration, \\but functions currently\end{tabular}                   \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{Spread Rooms}
+
+\subsubsection{Delete Rooms}
+
+\subsubsection{Delaunay Triangulation}
+
+\subsubsection{Remove random amount of edges}
+
+\subsubsection{Generate spawn and boss room}
+
+\subsubsection{Make sure all rooms are accessible}
+
+\subsubsection{Turn edges into horizontal and vertical}
+
+\subsubsection{Generate corridors}
+
+\subsubsection{Turn into tile map}
+
+\subsubsection{Spawn Player}
 
 \section{Evaluation}
 
