@@ -1016,7 +1016,7 @@ instacne                            & Node                                     &
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}  & Annoying for player to wait too long for level to generate                                                                                  \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}There is correct amount\\ of rooms\end{tabular}          & \begin{tabular}[c]{@{}l@{}}Too much and a level will take too long to generate, too little \\ and the map won't be interesting\end{tabular} \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}There is variation in the\\ rooms generated\end{tabular} & Makes it more interesting for the player as there is less repetition                                                                        \\ \hline
@@ -1116,7 +1116,7 @@ step          & float         & How far the rooms move each iteration
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate                                                               \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Room are still close \\ together\end{tabular}           & Making the player travel for too long won't be fun                                                                       \\ \hline
 3                                                  & None  & Rooms don't overlap                                                                & \begin{tabular}[c]{@{}l@{}}Want to rooms to generate correctly, without overalp as\\ it may cause artifacts\end{tabular} \\ \hline
@@ -1166,7 +1166,7 @@ deletingRoomsFactor & float         & Needs to be between 0-1 (if its 0.8 it wil
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                                                                          \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                                                                          \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Distance between rooms\\ varies\end{tabular}            & Making the player travel for too long won't be fun         \\ \hline
 \end{tabular}
@@ -1303,7 +1303,7 @@ allPoints       & List\textless{}Point\textgreater{}    & List of all points to 
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}        & Annoying for player to wait too long for level to generate                                                                    \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Every room is included\\ in the triangulation\end{tabular}     & \begin{tabular}[c]{@{}l@{}}This way every room will be included and have a chance\\ of existing in the final map\end{tabular} \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Triangulated in the most\\ efficient way possible\end{tabular} & \begin{tabular}[c]{@{}l@{}}There is as little as possible overlap when coridoors are\\ generated\end{tabular}                 \\ \hline
@@ -1383,14 +1383,19 @@ newIndex           & int                              & New index to be checked 
 
 \myparagraph{Identifying test data}
 \begin{table}[h]
-\begin{tabular}{|l|l|l|l|}
+\centering
+\begin{tabular}{|l|l|l|l|} 
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
-1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate                                                                \\ \hline
-2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Random amount of edges\\ are removed\end{tabular}       & \begin{tabular}[c]{@{}l@{}}Every room won't be connected to every other room that's close\\ adding variation\end{tabular} \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                       & \textbf{Justification}                                                                                                     \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate                                                                 \\ 
+\hline
+2                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Random amount of edges\\ are removed\end{tabular}       & \begin{tabular}[c]{@{}l@{}}Every room won't be connected to every other room that's close\\ adding variation\end{tabular}  \\ 
+\hline
+3                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Random edge is selected\\for removal\end{tabular}       & Doesn't bias any specific area when deleting edges~                                                                        \\
+\hline
 \end{tabular}
 \end{table}
-\parBr
 
 However this creates a problem as now some of the rooms are inaccessible because they have no edges connecting to them or are in another inaccessible section. This is solved in the next section.
 
@@ -1506,7 +1511,7 @@ polygonEdgeList & List\textless{}Edge\textgreater{}  & List of all the edges tha
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}                             & Annoying for player to wait too long for level to generate                                                                                \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Spawn and room are\\ generated and connected\end{tabular}                                         & Gives the player a safe room to spawn in                                                                                                  \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Spawn is generated above\\ other rooms\end{tabular}                                 & \begin{tabular}[c]{@{}l@{}}Player needs to travel down to get to boss room, Gives\\ them a general direction to travel\end{tabular}       \\ \hline
@@ -1587,7 +1592,7 @@ NewPoints     & List\textless{}Point\textgreater{} & Takes result of recursion i
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}                   & Annoying for player to wait too long for level to generate                                                                                                                                                    \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}An entire section is\\ detected given a single\\ input point\end{tabular} & \begin{tabular}[c]{@{}l@{}}Can detect all the points that are connected to the start point\\ to make sure that there is one section so that there is one\\ meaning that all rooms are accessible\end{tabular} \\ \hline
 \end{tabular}
@@ -1654,7 +1659,7 @@ NewPoints     & List\textless{}Point\textgreater{}                              
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                                                                         \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                                                                         \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}         & Annoying for player to wait too long for level to generate \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}If point has already been\\ checked don't check it\end{tabular} & Don't want to detect the wrong amount of sections          \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Detect correct amount of\\ sections\end{tabular}                & When there is one section all rooms are accessible         \\ \hline
@@ -1746,7 +1751,7 @@ removeThese       & List\textless{}Area2D\textgreater{} & Collection of all room
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                                                                        \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                                                                        \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}All rooms are connected\\ to eachother\end{tabular}     & So the player can access all rooms                         \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Delete all rooms without\\ connections\end{tabular}     & removes all rooms that are inaccessible                    \\ \hline
@@ -1830,7 +1835,7 @@ newPoint2       & Point                             & End point for new edge aft
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}                & Annoying for player to wait too long for level to generate                                                                                                                         \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Entire map is made from\\ horizontal and vertical\\ edges\end{tabular} & \begin{tabular}[c]{@{}l@{}}Movement isn't designed for diagnal movement so having\\ only horizontal and vertical movement will make for a \\ better player experience\end{tabular} \\ \hline
 \end{tabular}
@@ -1916,7 +1921,7 @@ instance      & Node                              & The new coridoor that is ins
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular}  & Annoying for player to wait too long for level to generate                                                 \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Each edge has a coridoor\\ generated for it\end{tabular} & Corridors allows players to traverse between rooms                                                         \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}The corridor is an\\ appropriate size\end{tabular}       & \begin{tabular}[c]{@{}l@{}}Needs to be an appropriate size for player to fit into the\\ room.\end{tabular} \\ \hline
@@ -2027,12 +2032,19 @@ tilemap           & Tilemap                                        & The subject
 
 \myparagraph{Identifying test data}
 \begin{table}[h]
-\begin{tabular}{|l|l|l|l|}
+\centering
+\begin{tabular}{|l|l|l|l|} 
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
-1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate                                                              \\ \hline
-2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Variation in the tiles looks\\ good\end{tabular}        & Makes it engaging for the player and more enjoyable                                                                     \\ \hline
-3                                                  & None  & Makes interesting map                                                              & \begin{tabular}[c]{@{}l@{}}Makes it entertaining for player to explore and actualy able\\ to interact with\end{tabular} \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                       & \textbf{Justification}                                                                                                    \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate                                                                \\ 
+\hline
+2                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Variation in the tiles looks\\ good\end{tabular}        & Makes it engaging for the player and more enjoyable                                                                       \\ 
+\hline
+3                                                                    & None           & Makes interesting map                                                              & \begin{tabular}[c]{@{}l@{}}Makes it entertaining for player to explore and actually able\\ to interact with\end{tabular}  \\ 
+\hline
+4                                                                    & None           & Makes a traversable map                                                            & Want the player to be able to move around in the map                                                                      \\
+\hline
 \end{tabular}
 \end{table}
 
@@ -2081,7 +2093,7 @@ spawnCoords    & Vector2       & Position where player should be placed, taken f
 \begin{table}[h]
 \begin{tabular}{|l|l|l|l|}
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
 1                                                  & None  & \begin{tabular}[c]{@{}l@{}}Executes in a reasonable \\ amount of time\end{tabular} & Annoying for player to wait too long for level to generate \\ \hline
 2                                                  & None  & \begin{tabular}[c]{@{}l@{}}Player is spawned in\\ spawn room\end{tabular}          & Player starts in the spawn room                            \\ \hline
 3                                                  & None  & \begin{tabular}[c]{@{}l@{}}Player is able to be\\ controlled\end{tabular}          & Player can start the game                                  \\ \hline
@@ -2143,8 +2155,9 @@ else if (currnetState == generationState.generationState5)
 \end{lstlisting}
 This system was implemented later in development but it seems most appropriate in this part as it shows how I am able to switch from one generation state to another. It allows me to switch between states as I please since all I have to do is update the currentState variable. However in my case I just switch from one state to the next since once a section of code is executed it doesn't need to be revisited, if I do need to revisit code I made it into it's own function as it's more convenient.
 \subsubsection{Create rooms}
+Putting the code in the ready function means that it's called one before the game loads, with this all the rooms can be created before the game loads and they will be available to use once the scene is ready. Which is crucial for the program to work.
 \myparagraph{iteration 1}
-The first iteration was made without the system for switching between generation stages.
+This iteration achieves goal number 1 and 2, where the algorithm executes within a reasonable amount of time and there is the correct amount of rooms, however there is no variation in the rooms generated so goal number 3 still needs to be developed.
 \begin{lstlisting}
 // presets for generating rooms
 private int amountOfRooms = 100;
@@ -2174,15 +2187,11 @@ public override void _Ready()
 \end{lstlisting}
 
 \myparagraph{Iteration 2}
-The last iteration set the position of each room to be a coordinate of two numbers between 0 and 1. This is inefficient because the rooms need to be spread apart so I could just spawn them further apart from each other so they have less distance to travel.
+The last iteration set the position of each room to be a coordinate of two numbers between 0 and 1. This is inefficient because the rooms need to be spread apart so I could just spawn them further apart from each other so they have less distance to travel, this doesn't effect the time to execute for this algorithm but it has a large impact on the time to execute for the next section (Spreading rooms apart).
 
 \parBr
 
-I also changes the rooms from a cube with random scale to a pre-made room which can be instantiated as needed. In the future I will need to make more room variations to make it more interesting for the player. 
-
-\parBr
-
-Putting the code in the ready function means that it's called one before the game loads, with this all the rooms can be created before the game loads and they will be available to use once the scene is ready. Even if it takes a long time to load the scene all the rooms will be loaded when the rest of the generation starts. Which is crucial for the program to work.
+I also changes the rooms from a cube with random scale to a pre-made room which can be instantiated as needed, however there is only one room variation so there is no progress on goal 3 (creating room variation).
 \begin{lstlisting}
 private int amountOfRooms = 25;
 public override void _Ready()
@@ -2199,7 +2208,7 @@ public override void _Ready()
 \end{lstlisting}
 
 \myparagraph{Iteration 3}
-For this iteration I aimed to add another room variation and because of this I would be able to scale this up for any amount of rooms I plan to add in the future
+For this iteration I aimed to add another room variation and because of this I would be able to scale this up for any amount of rooms I plan to add in the future, it also selects a random room variation to instantiate. This progresses goal 3 (room variation), however it still needs to be expanded upon.
 \begin{lstlisting}
 private int amountOfRooms = 20;
 public override void _Ready()
@@ -2240,7 +2249,11 @@ public override void _Ready()
 \end{lstlisting}
 
 \myparagraph{Iteration 4}
-For this iteration I aimed to add more room variations and make it even easier to add more variations if needed in the future, since one of the stakeholders has said that they would like there to be a variation in the rooms, so that each room doesn't feel the same.
+For this iteration I aimed to add more room variations and make it even easier to add more variations in the future if needed, since one of the stakeholders has said that they would like there to be a variation in the rooms after showing them the variation of the previous iteration.
+
+\parBr
+
+I used naming convention to add all the scenes to a list and then instantiate a room from that list. This achieves goal 3 and all the goals are now achieved and the algorithm can be considered complete, however there is also lots of room for expansion in the future if necessary.
 \begin{lstlisting}
 private int amountOfRooms = 50;
 private Vector2 scaleRange = new Vector2(1f, 1.5f); //min and max of scalse of rooms
@@ -2283,11 +2296,18 @@ public override void _Ready()
     #endregion
 }
 \end{lstlisting}
-This iteration allows me to use a naming convention to add all the scenes to a list and then instantiate a room from that list. This satisfies all the needs for development in the future and further generation states, therefore it's complete.
 
 \subsubsection{Spread rooms}
 \myparagraph{Iteration 1}
-C\# offers an async function which allows me to run the code while other things are happening, by dedicating a thread to this task. This allows the while loop to work since the code is executed until an end condition is met.
+C\# offers an async function which allows me to run the code while other things are happening, by dedicating a thread to this task. This allows the while loop to work since the code is executed until an end condition is met, this will later be replaced by the generation state system which makes the code neater and easier to manage.
+
+\parBr
+
+Using an async function would mess up my work flow since I am unable to switch between generation stages since once an async function has began it would be difficult to end the task and since I am using methods native to Godot, inside an async method the refresh rate between the two threads may not be aligned properly so checking overlapping areas would have no result until Godot has updated slowing the program down and it would most likely cause problems when other sections are introduced.
+
+\parBr
+
+Goals 2 and 3 are complete (rooms are still close together and rooms don't overlap), however the code is very disorganised and goal 1 (executes in a reasonable amount of time), which will need to be developed in the future
 \begin{lstlisting}
 //spreading rooms apart
 private bool spread = false;
@@ -2333,10 +2353,21 @@ public async void SpreadRooms()
     }
 }
 \end{lstlisting}
-Using an async function would mess up my work flow since I am unable to switch between generation stages since one an async function has began it would be difficult to end the task and since I am using methods native to Godot, inside an async method the refresh rate between the two threads may not be aligned properly so checking overlapping areas would have no result until Godot has updated slowing the program down and it would most likely cause problems when other sections are introduced.
 
 \myparagraph{Iteration 2}
+I implemented the switching of generation states using the enum variable. That makes the code cleaner and easier to manage.
+
+\parBr
+
 This iteration moves the room one at a time rather than all of them one bit at a time. However it's inside the void which updates every frame, which will make it easier for managing sections.
+
+\parBr
+
+The problem with this is the fact that it uses a while loop, which is bad practice to start every frame. As it sometimes makes the program stop responding when running. Also the room sometimes gets stuck between other rooms as it keeps moving a room in an infinite loop since it's trying to move the rooms one at a time. This iteration still needs to use thread.sleep to slow the thread as too much processing happens per frame which causes the program to freeze, this will need to be resolved upon next iteration.
+
+\parBr
+
+With this iteration none of the goals are achieved so I will have to alter the algorithm to check each room with every iteration rather that considering one room at a time.
 \begin{lstlisting}
 public override void _Process(double delta)
 {
@@ -2366,10 +2397,13 @@ public override void _Process(double delta)
     // Code for other sections (when it exists)
 }
 \end{lstlisting}
-The problem with this is the fact that it uses a while loop, which is bad practice to start every frame. As it sometimes makes the program stop responding when running. Also the room sometimes gets stuck between other rooms as it keeps moving a room in an infinite loop since it's trying to move the rooms one at a time. This iteration still needs to use thread.sleep to slow the thread as too much processing happens per frame which causes the program to freeze, this will need to be expanded upon next iteration.
 
 \myparagraph{Iteration 3}
+This iteration removes the need for while loops making it easier to debug as the program doesn't crash if there is an error. 
 
+\parBr
+
+With this goal 1,2 and 3 are all achieved in this iteration (executes in a reasonable amount of time, rooms are still together and none of the rooms overlap)
 \begin{lstlisting}
  public override void _Process(double delta)
     {
@@ -2411,7 +2445,11 @@ The problem with this is the fact that it uses a while loop, which is bad practi
 \end{lstlisting}
 
 \myparagraph{Iteration 4}
-I implemented the switching of generation states using the enum variable. As well as taking the reciprocal of what the room needs to be displaced so that rooms closer to the room being checked will have more of an effect on the displacement, hopefully making the algorithm faster.
+This iteration takes the reciprocal of the difference between the two rooms so that closer rooms have a larger impact on the overall displacement of the room, hopefully speeding up the algorithm and further achieving goal 1 of executing in a reasonable amount of time.
+
+\parBr
+
+Now all the goals are reached and expanded upon the algorithm can be considered complete. Messing with some of the parameters of the algorithm could also result in speeding up the algorithm.
 \begin{lstlisting}
 public override void _Process(double delta)
 {
@@ -2445,7 +2483,6 @@ public override void _Process(double delta)
         if (count == amountOfRooms)
         {
             // Move onto the next stage of generation
-            spread = true;
             currentState = generationState.deleteRooms;
             return;
         }
@@ -2459,7 +2496,7 @@ The algorithm in it's current state allows for development in the future (if nee
 
 \subsubsection{Delete rooms}
 \myparagraph{Iteration 1}
-Algorithm generates a random index for a room to be deleted
+Goal number 2 is completed if the algorithm doesn't crash which is a critical error that needs to be resolved soon.
 \begin{lstlisting}
 //Needs to be between 0-1 (if its 0.8 it will delete 80% of rooms)
 private float deletingRoomsFactor = 0.5f; 
@@ -2486,7 +2523,7 @@ public override void _Process(double delta)
 Will error when count = GetChildCount() since there is nothing at that index as the last item of the list is GetChildCount()-1.
 
 \myparagraph{Iteration 2}
-Simple fix to improve last iteration
+Simple fix to improve last iteration so that now the algorithms achieves all the goals (executing in a reasonable amount of time and distance between rooms varying).
 \begin{lstlisting}
 //Needs to be between 0-1 (if its 0.8 it will delete 80% of rooms)
 private float deletingRoomsFactor = 0.5f; 
@@ -2510,11 +2547,11 @@ public override void _Process(double delta)
     // Code for other sections
 }
 \end{lstlisting}
-The algorithm performs the task that it's required to do therefore the algorithm is complete
 
 \subsubsection{Delaunay triangulation}
+The classes don't achieve any of the goals single-handedly however they are a requirement for the Boyer Watson algorithm \cite{BW_alg} to function.
 \myparagraph{Point Class iteration 1}
-There is no advantage using the point class over just using a list of Area2D's yet, apart from accessing the position is slightly more convenient.
+The attributes also aren't declared as public or private, by default C\# assumes that they are private so all the values aren't able to be updated since there are no methods to access them.
 \begin{lstlisting}
 class Point
 {
@@ -2530,12 +2567,11 @@ class Point
     }
 }
 \end{lstlisting}
-The attributes also aren't declared as public or private, by default C\# assumes that they are private so all the values aren't able to be updated since there are no methods to access them.
 
 \myparagraph{Point Class iteration 2}
-Changing the attributes to public allows me to access them from any other class in C\#, which may be bad practice but it performs the function that it needs to do.
+Changing the attributes to public allows me to access them from any other class in C\#, which may be bad practice as they may be accidentally altered but it performs the function that it needs to do.
 \parBr
-The AlterPos method was added so that the position of the point can be altered without actually changing the position of the area that the point represents. This is used for the superTri points in the delaunay triangulation function as they don't need to have an area, so the value is set to null, but their position is necessary for the algorithm to function.
+The AlterPos method was added so that the position of the point can be altered without actually changing the position of the area that the point represents. This is used for the superTri points in the delaunay triangulation function as they don't need to have an area, so the value is set to null, but their position values are necessary for the algorithm to function.
 \begin{lstlisting}
 public class Point
 {
@@ -2558,6 +2594,10 @@ public class Point
 
 \myparagraph{Point Class iteration 3}
 To represent the points as a graph I would need to know which other points they are connected to so for this iteration I added a list of points of which the point is connected to, allowing me to represent rooms layout as a directed graph, once the triangulation has completed.
+
+\parBr
+
+This iteration also adds input validation to the values passed into the instantiation class, so that when an null value is passed instead of a Area2D there is still an position value generated.
 \begin{lstlisting}
 public class Point
 {
@@ -2631,11 +2671,9 @@ class Edge
     }
 }
 \end{lstlisting}
-Checking weather two edges are composed of the same points is problematic since C\# checks weather they are the same so comparing two edges may not work for all cases.
-
 
 \myparagraph{Edge Class iteration 2}
-This iteration adds the HasPoints method which allows me to check if two edges are the same or if an edge is composed of two specific points. This is useful as when comparing two edges, they could be made up of the same points however since they are different instances they wouldn't be considered as the same edge, for my use case I want to consider them as the same edge, this method allows me to accomplish this
+Checking weather two edges are composed of the same points is problematic since C\# checks weather they are the same so comparing two edges may not work for all cases. This iteration adds the HasPoints method which allows me to check if two edges are the same or if an edge is composed of two specific points. This is useful as when comparing two edges, they could be made up of the same points however since they are in different instances they wouldn't be considered as the same edge, for my use case I want to consider them as the same edge, this method allows me to accomplish this
 \begin{lstlisting}
 public class Edge
 {
@@ -2674,8 +2712,32 @@ public class Edge
 }
 \end{lstlisting}
 
+\myparagraph{Edge Class Iteration 3}
+Some of the now redundant code is removed, as it was needed for a previous iteration of the triangle class, but no longer has a use.
+\begin{lstlisting}
+public class Edge
+{
+	public Point[] points = new Point[2]; //2 points make a edge
+	public Edge (Point point1,Point point2)
+	{
+		points[0] = point1; points[1] = point2; //set value of the two points
+	}
+	public bool HasPoints(Point point1, Point point2)//checks weather the edge is composed of specified points
+	{
+		if ((points[0] == point1 && points[1] == point2) || (points[0] == point2 && points[1] == point1))
+		{
+			return true;
+		}
+		else
+		{
+			return false;
+		}
+	}
+}
+\end{lstlisting}
+
 \myparagraph{Triangle Class iteration 1}
-This class aims to bring together 3 edges and 3 points.
+This class aims to bring together 3 edges and 3 points, so that it can be used in the Bowyer Watson algorithm.
 \begin{lstlisting}
 class Triangle
 {
@@ -2719,7 +2781,7 @@ class Triangle
 \end{lstlisting}
 
 \myparagraph{Triangle Class iteration 2}
-Equation used in the findCircumcentre method is taken from \cite{equation}. The method not also actually works and returns the correct result.
+Equation used in the findCircumcentre method is taken from \cite{equation}. The method actually works and returns the correct result. Triangulation is also added as a parameter for the constructor method, this aims to reduce the amount of new instances of edges created, which will save memory when running the program as well as reducing the amount of edges I need to work with.
 \begin{lstlisting}
 public class Triangle
 {
@@ -2838,7 +2900,7 @@ public class Triangle
 \end{lstlisting}
 
 \myparagraph{Delaunay Triangulation iteration 1}
-This iteration didn't make use of the switching between states, which makes it disorganised however since it's all carried out in one step this doesn't make a large difference apart from looking messy in the code. It also contains print statements for debugging.
+This iteration didn't make use of the switching between states, which makes it disorganised. It also contains print statements for debugging so I can identify where errors arise.
 \begin{lstlisting}
 #region Delaunay Triangulation
 // Creates supertriangle that should be large enough to hold all points
@@ -2928,7 +2990,11 @@ QueueRedraw();
 \end{lstlisting}
 
 \myparagraph{Delaunay Triangulation iteration 2}
-This iteration adds it to the better way of switching between the generation stages and converts the result from a list of triangles to a list of edges as it's easier to work with.
+This iteration adds it to the better way of switching between the generation stages, making the code neater and easier to maintain. It also converts the result from a list of triangles to a list of edges which is easier to work with.
+
+\parBr
+
+This algorithm accomplishes all the goals defined in the design stage, those being executing within a reasonable amount of time, every room is included in the triangulation and triangulating the rooms in the most efficient way possible.
 \begin{lstlisting}
 #region Delaunay Triangulation
 if (loops == -1)
@@ -3037,7 +3103,7 @@ if (loops == GetChildCount())
 
 \subsubsection{Remove random amount of edges}
 \myparagraph{Iteration 1}
-Removes a edge at a random index.
+Removes random amount of edges at random indexes. However it permanently removes the edges which means if a rooms is inaccessible there is no way of connecting it back to other rooms. So even though it achieves all the goals set out, it jeopardises the following section.
 \begin{lstlisting}
 // Removes a certain amount of edges
 int polyCount = polygon.Count;
@@ -3052,7 +3118,11 @@ sections = DetectSections(polygon);
 \end{lstlisting}
 
 \myparagraph{Iteration 2}
-The problem with the previous iteration is that when it removes an edge it removes all instances of that even if they are in other edges, because all copies and additions of that edge are fed by reference. So instead of removing a certain amount of edges I will add a certain amount of edges to a new list.
+The problem with the previous iteration is that when it removes an edge it removes all instances of that even if they are in other lists of edges, because all copies of that edge are fed by reference, meaning if one reference of that edge are removed all references are removed. So instead of removing a certain amount of edges I will add a certain amount of edges to a new list.
+
+\parBr
+
+With this iteration goal 1 and 2 are complete so it executes within a reasonable amount of time and removes a random amount of edges, however this still leaves goal 3 where a random edge is selected for removal and currently biases some edges as it takes them in order.
 \begin{lstlisting}
 // Removes a certain amount of edges
 // GD.Print("Edges Removed: "+ (int)(polygon.Count*edgeDeleteFactor));
@@ -3069,7 +3139,7 @@ sections = DetectSections(polygonEdgeList);
 \end{lstlisting}
 
 \myparagraph{Iteration 3}
-Now it picks a random edge to add to the list of edges making sure that there are no duplicates
+Now it picks a random edge to add to the list of indexes, before removing it at the end making sure that there are no duplicates removed and a random edge is selected. Meaning that all goals are achieved as the algorithm executes in a reasonable amount of time (goal 1), random amount of edges are removed (goal 2) and a random edge is selected for removal (goal 3).
 \begin{lstlisting}
 // Removes a certain amount of edges
 // GD.Print("Edges Removed: "+ (int)(polygon.Count*edgeDeleteFactor));
@@ -3099,9 +3169,10 @@ sections = DetectSections(polygonEdgeList);
 // PolygonEdgeList is edges left over after deleting
 // polygonDifference = polygon - PolygonEdgeList
 \end{lstlisting}
+
 \subsubsection{Add spawn and boss room}
 \myparagraph{Iteration 1}
-Works as expected first try so I am not going to alter it.
+The first iteration works well and achieves all the goals listed in design process. Those being: executing in a reasonable amount of time (goal 1), spawn room is generated and connected to the rest of the rooms (goal 2), spawn room is generated above all the other rooms (goal 3), boss room is generated below of other rooms (goal 4) and both rooms are generated relatively close to the horizontal center (goal 5)
 \begin{lstlisting}
 // PolygonEdgeList is where we have to connect new room
 FindMinMax(polygonEdgeList);
@@ -3180,10 +3251,10 @@ currentState = generationState.makeCoridoors;
 \end{lstlisting}
 
 \subsubsection{Make sure all rooms are accessible}
-This section is broken down to 3 sections like in the design section, branching algorithm from a singular point, detecting a new sections and connecting sections
+This section is broken down to 3 sections like in the design section, branching algorithm from a singular point, detecting a new sections and connecting sections.
 
 \myparagraph{Branching algorithm Iteration 1}
-Currently doesn't work and infinitely loops, then crashes the program with a stack overflow.
+Currently doesn't work and infinitely loops, then crashes the program with a stack overflow, which doesn't accomplish any of the goals set out.
 \begin{lstlisting}
 public List<Point> MakeSection(Point point, List<Point> exclude)
 {
@@ -3229,7 +3300,7 @@ public List<Point> MakeSection(Point point, List<Point> exclude)
 \end{lstlisting}
 
 \myparagraph{Branching algorithm Iteration 2}
-Don't need all the other variables at the start since the exclude points will be the same as the points visited, so they can be returned.
+Don't need all the other variables at the start since the exclude points will be the same as the points visited, so they can be returned, It also accomplishes both of the goals defined being executing within a reasonable amount of time (goal 1) and detecting an entire section given a single input point (goal 2).
 \begin{lstlisting}
 public List<Point> MakeSection(Point point, List<Point> exclude)
 {
@@ -3262,7 +3333,7 @@ public List<Point> MakeSection(Point point, List<Point> exclude)
 \end{lstlisting}
 
 \myparagraph{New section detection Iteration 1}
-Recursive algorithm to detect all the other points a point is connected to. Sometimes doesn't pick up all the points
+Algorithm to detect all sections given a list of edges. Doesn't achieve any of the goals as it doesn't work.
 \begin{lstlisting}
 public List<List<Point>> DetectSections(List<Edge> edges)
 {
@@ -3309,6 +3380,10 @@ public List<List<Point>> DetectSections(List<Edge> edges)
 
 \myparagraph{New section detection Iteration 2}
 Previous iteration compared the actual point to check if it was the same point, however when a point is copied it's sometimes made into a new instance, so I need to compare the positions since they will always be the same if two points are the same, also all the debugging print statements were removed.
+
+\parBr
+
+This algorithm now accomplishes all of the goals set out, those being executing within a reasonable time frame (goal 1), if a point is already checked don't check it to improve efficiency and function properly (goal 2) and detecting the correct amount of sections (goal 3).
 \begin{lstlisting}
 public List<List<Point>> DetectSections(List<Edge> edges)
 {
@@ -3352,7 +3427,7 @@ public List<List<Point>> DetectSections(List<Edge> edges)
 \end{lstlisting}
 
 \myparagraph{Connecting sections Iteration 1}
-Just planned what to do in this iteration
+Just planned what to do in this iteration so none of the goals are achieved.
 \begin{lstlisting}
 if (sections.Count != 1)
 {
@@ -3365,13 +3440,14 @@ if (sections.Count != 1)
 }
 else
 {
+	//Move onto next stage
     currentState = generationState.draw;
 }
 
 \end{lstlisting}
 
 \myparagraph{Connecting sections Iteration 2}
-Made actual code that will add random edge each time until there is only one section. This now completes it's purpose therefore it's complete.
+Algorithm will add a random edge each time it loops until there is only one section. This means that it accomplishes goal 2, which was making sure all edges are accessible. Goal 1 and 3 are also achieved since the algorithm executes in a reasonable amount of time and rooms without connections are deleted.
 \begin{lstlisting}
 if (sections.Count != 1)
 {
@@ -3412,7 +3488,11 @@ else
 
 \subsubsection{Turn edges into horizontal and vertical}
 \myparagraph{Iteration 1}
-Still doesn't generate new objects for the corridor just converts the list of edges into vertical and horizontal. However it doesn't generate an edge if there is an overlap, this makes some rooms inaccessible so I will need to remake that system or settle with the overlapping edges.
+Still doesn't generate new objects for the corridor just converts the list of edges into vertical and horizontal. However it doesn't generate an edge if there is an overlap due to a system I tried to implement, this makes some rooms inaccessible so I will need to remake that system or settle with the overlapping edges.
+
+\parBr
+
+Goal 1 is achieved since it executes in a reasonable amount of time however goal 2 isn't because some parts are being rejected meaning the entire map isn't converted.
 \begin{lstlisting}
 // Make the corridors horizontal and vertical
 polygon.Clear();
@@ -3471,7 +3551,7 @@ currentState = generationState.draw;
 \end{lstlisting}
 
 \myparagraph{Iteration 2}
-Settled with overlapping corridors and generated all possibilities to ensure that all rooms are accessible. With this the generate corridors section has also been accomplished.
+Settled with overlapping corridors and generated all possibilities to ensure that all rooms are accessible. With this the generate corridors section has also been accomplished as both goals are achieved since the algorithm executes in a reasonable amount of time (goal 1) and the entire map is now composed of vertical and horizontal edges.
 \begin{lstlisting}
 // Make the corridors horizontal and vertical
 polygon.Clear();
@@ -3527,7 +3607,7 @@ currentState = generationState.draw;
 \end{lstlisting}
 
 \subsubsection{Turn into tile map}
-Checks each tile one at a time, is very slow and doesn't have much variation in tiles placed.
+Checks each tile one at a time, is very slow (goal 1 isn't achieved) and doesn't have much variation in tiles placed (goal 2 isn't achieved), this causes the map to be boring so goal 3 is also not met. There is also no way for the player to traverse the vertical corridor so it's not manoeuvrable for the player (goal 4).
 \myparagraph{Iteration 1}
 \begin{lstlisting}
 //preparing for section in previous section
@@ -3577,7 +3657,7 @@ if (currentCoord.Y > maxCoord.Y)
 \end{lstlisting}
 
 \myparagraph{Iteration 2}
-This iteration is a lot faster as there is a box for every row of the tilemap so it iterates through each column and is therefore faster. Still lacks variation in tiles.
+This iteration is a lot faster as there is a box for every row of the tilemap so it iterates through each column and is therefore faster (goal 1 is achieved). Still lacks variation in tiles (goal 2 and 3 aren't achieved). There is still no way for the player to traverse vertical corridors so goal 4 isn't met.
 \begin{lstlisting}
 // Preparing for section in previous section
 //find bottom left and top right of all rooms to find limits of tilemap
@@ -3632,7 +3712,11 @@ else
 \end{lstlisting}
 
 \myparagraph{Iteration 3}
-This iteration aims to add more variations to the tiles generated, there are also 10 room variations instead of the two that were in the previous iteration. This iteration also adds platforms in rooms that are in predefined locations, they can be different tile types to make the room more interesting to look at. Also added platforms in vertical corridors to allow the player to traverse upwards in them. This is done with a class to allow me to store attributes that can be used to check previous tiles to decide weather a hole needs to be generated for a platform. Problematic since it generates a hole to the left side of each corridor that the player can fall down.
+This iteration aims to add more variations to the tiles generated (goal 2 partially achieved), there are also 10 room variations instead of the two that were in the previous iteration. This iteration also adds platforms in rooms that are in predefined locations, they can be different tile types to make the room more interesting to look at (goal 3 is achieved). Also added platforms in vertical corridors to allow the player to traverse upwards in them. This is done with a class to allow me to store attributes that can be used to check previous tiles to decide weather a hole needs to be generated for a platform. Problematic since it generates a hole to the left side of each corridor that the player can fall down (goal 4 is partially achieved).
+
+\parBr
+
+All of this means that most of the goals are achieved however they are just barely achieved and could still be improved upon to make the game better.
 \begin{lstlisting}
 // Class to allow for platform generation
 public class TileMapGeneration
@@ -3747,12 +3831,97 @@ else
     }
     currentState = generationState.spawnPlayer;
 }
+\end{lstlisting}
 
+\myparagraph{Iteration 4}
+Fixed the problem where there is a hole to the left side of every vertical corridor so goal 4 is now achieved there is also some progress on goal 3 since the platforms made in vertical corridors are varying in sizes which was a change made by a stakeholder who pointed out that they didn't like the regularity of the platforms generated previously. 
+\begin{lstlisting}
+// If it hasn't reached the side yet
+if (currentCoord.X < maxCoord.X)
+{
+    // GD.Print(currentCoord);
+    // Check each box
+    for (int i = 0; i < tileMapCheck.Count(); i++)
+    {
+        // Room tiles
+        tileMapCheck[i].area.Position = currentCoord + new Vector2(0f, 16f * i);
+        if (tileMapCheck[i].GOAWhere("bd").Any() &&
+            !tileMapCheck[i].GOAWhere("cr").Any())
+        {
+            // Border of rooms
+            tile.SetCell(0, ToTileCoords(tileMapCheck[i].area.Position), 0, new Vector2I(1, 1));
+            tileMapCheck[i].lastTile = "room border";
+            // If not, then an empty space because corridor leads into it.   
+        }
+        else if (tileMapCheck[i].GOAWhere("pl").Any())
+        {
+            // Checks whether tile should be a platform
+            tile.SetCell(0, ToTileCoords(tileMapCheck[i].area.Position), 0, new Vector2I(4, 4));
+            tileMapCheck[i].lastTile = "room platform";
+        }
+        else if (tileMapCheck[i].GOAWhere("rm").Any())
+        {
+            // Do nothing, just need to not do other stuff
+            tile.SetCell(0, ToTileCoords(tileMapCheck[i].area.Position), 0, new Vector2I(-1, -1));
+            tileMapCheck[i].lastTile = "empty";
+        }
+
+        // Corridors
+        if (tileMapCheck[i].GOAWhere("cr").Where(x => x.Scale.X < x.Scale.Y).Any() &&
+            !tileMapCheck[i].GOAWhere("rm").Any() &&
+            (((tileMapCheck[i].area.Position.Y - 8) / 16) % 5) == 0f)
+        {
+            // Make platform in vertical corridors
+            if (tileMapCheck[i].currentSize > tileMapCheck[i].maxHoleSize && !tileMapCheck[i].genPlat)
+            {
+                // Switch state to generate platforms and change the size of the platform
+                tileMapCheck[i].genPlat = true;
+                tileMapCheck[i].maxPlatSize = rng.RandiRange(2, 8);
+                tileMapCheck[i].currentSize = 0;
+            }
+            if (tileMapCheck[i].currentSize > tileMapCheck[i].maxPlatSize && tileMapCheck[i].genPlat)
+            {
+                // Switch state to generate holes and change the size of the hole
+                tileMapCheck[i].maxHoleSize = rng.RandiRange(2, 4);
+                tileMapCheck[i].genPlat = false;
+                tileMapCheck[i].currentSize = 0;
+            }
+            if (tileMapCheck[i].currentSize <= tileMapCheck[i].maxPlatSize && tileMapCheck[i].genPlat)
+            {
+                // Fill with tile
+                tile.SetCell(0, ToTileCoords(tileMapCheck[i].area.Position), 0, new Vector2I(1, 1));
+                tileMapCheck[i].currentSize += 1;
+                tileMapCheck[i].lastTile = "corridor platform";
+            }
+            if (tileMapCheck[i].currentSize <= tileMapCheck[i].maxHoleSize && !tileMapCheck[i].genPlat)
+            {
+                // Make hole
+                tileMapCheck[i].currentSize += 1;
+                tileMapCheck[i].lastTile = "empty";
+            }
+        }
+        else
+        {
+            // When not making a platform, use a large size so it will generate a platform next time
+            tileMapCheck[i].genPlat = false;
+            tileMapCheck[i].currentSize = 9999;
+        }
+
+        // Checks for empty space
+        if (!tileMapCheck[i].area.HasOverlappingAreas())
+        {
+            // Checks whether tile should exist or not
+            tile.SetCell(0, ToTileCoords(tileMapCheck[i].area.Position), 0, new Vector2I(4, 7));
+            tileMapCheck[i].lastTile = "filled";
+        }
+    }
+    currentCoord.X += 16f;
+}
 \end{lstlisting}
 
 \subsubsection{Spawn player}
 \myparagraph{Iteration 1}
-Spawning the player in a random position in the tile map is bad because they can spawn in the middle of enemies or close to the boss room, allowing them to essentially skip the level. The camera also doesn't change to the players camera so they aren't able to see the player character.
+This iteration spawns the player in a  random position (failing goal 2 of spawning player in spawn room) on the map, this is bad because they can spawn in the middle of enemies or close to the boss room, allowing them to essentially skip the level, or immediately get killed by enemies. The camera also doesn't change to the players camera so they aren't able to see the player character.
 \begin{lstlisting}
 //Random empty tile is selected as spawnCoords from previous tilemap generation iteration
 PackedScene character = GD.Load<PackedScene>("res://Scenes/character.tscn");
@@ -3766,7 +3935,7 @@ currentState = generationState.done;
 \end{lstlisting}
 
 \myparagraph{Iteration 2}
-
+This iteration spawns the player in the spawn room giving them a safe and predictable start achieving goal 2 and the camera switches to the player and the character is no able to be controlled. The algorithm also executes in a reasonable amount of time so goal 1 is achieved.
 \begin{lstlisting}
 //spawnCoords is position of spawn room
 PackedScene character = GD.Load<PackedScene>("res://Scenes/character.tscn");
@@ -3793,7 +3962,7 @@ currentState = generationState.done;
 \centering
 \begin{tabular}{|l|l|l|l|l|} 
 \hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                                                & \textbf{Actual Result} & \textbf{Improvements for future}                                                                                                 \\ 
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                                                & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                                 \\ 
 \hline
 1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms generated in a \\dense section around \\coordinates (0,0)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{Failed to build}}             & \begin{tabular}[c]{@{}l@{}}Tried to access Node's position which doesn't\\~exist, need to access Area2D's position\end{tabular}  \\ 
 \hline

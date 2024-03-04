@@ -97,7 +97,7 @@
 \contentsline {subsection}{\numberline {5.1}Dungeon Generation}{54}{}%
 \contentsline {subsubsection}{\numberline {5.1.1}Create rooms}{55}{}%
 \contentsline {paragraph}{iteration 1}{55}{}%
-\contentsline {paragraph}{Iteration 2}{55}{}%
+\contentsline {paragraph}{Iteration 2}{56}{}%
 \contentsline {paragraph}{Iteration 3}{56}{}%
 \contentsline {paragraph}{Iteration 4}{57}{}%
 \contentsline {subsubsection}{\numberline {5.1.2}Spread rooms}{58}{}%
@@ -107,53 +107,55 @@
 \contentsline {paragraph}{Iteration 4}{60}{}%
 \contentsline {subsubsection}{\numberline {5.1.3}Delete rooms}{61}{}%
 \contentsline {paragraph}{Iteration 1}{61}{}%
-\contentsline {paragraph}{Iteration 2}{61}{}%
+\contentsline {paragraph}{Iteration 2}{62}{}%
 \contentsline {subsubsection}{\numberline {5.1.4}Delaunay triangulation}{62}{}%
 \contentsline {paragraph}{Point Class iteration 1}{62}{}%
-\contentsline {paragraph}{Point Class iteration 2}{62}{}%
+\contentsline {paragraph}{Point Class iteration 2}{63}{}%
 \contentsline {paragraph}{Point Class iteration 3}{63}{}%
-\contentsline {paragraph}{Edge Class iteration 1}{63}{}%
+\contentsline {paragraph}{Edge Class iteration 1}{64}{}%
 \contentsline {paragraph}{Edge Class iteration 2}{64}{}%
-\contentsline {paragraph}{Triangle Class iteration 1}{65}{}%
-\contentsline {paragraph}{Triangle Class iteration 2}{65}{}%
-\contentsline {paragraph}{Delaunay Triangulation iteration 1}{68}{}%
-\contentsline {paragraph}{Delaunay Triangulation iteration 2}{69}{}%
-\contentsline {subsubsection}{\numberline {5.1.5}Remove random amount of edges}{71}{}%
-\contentsline {paragraph}{Iteration 1}{71}{}%
-\contentsline {paragraph}{Iteration 2}{72}{}%
-\contentsline {paragraph}{Iteration 3}{72}{}%
-\contentsline {subsubsection}{\numberline {5.1.6}Add spawn and boss room}{73}{}%
-\contentsline {paragraph}{Iteration 1}{73}{}%
-\contentsline {subsubsection}{\numberline {5.1.7}Make sure all rooms are accessible}{74}{}%
-\contentsline {paragraph}{Branching algorithm Iteration 1}{74}{}%
-\contentsline {paragraph}{Branching algorithm Iteration 2}{75}{}%
-\contentsline {paragraph}{New section detection Iteration 1}{75}{}%
-\contentsline {paragraph}{New section detection Iteration 2}{76}{}%
-\contentsline {paragraph}{Connecting sections Iteration 1}{77}{}%
-\contentsline {paragraph}{Connecting sections Iteration 2}{77}{}%
-\contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{78}{}%
-\contentsline {paragraph}{Iteration 1}{78}{}%
-\contentsline {paragraph}{Iteration 2}{79}{}%
-\contentsline {subsubsection}{\numberline {5.1.9}Turn into tile map}{80}{}%
-\contentsline {paragraph}{Iteration 1}{80}{}%
-\contentsline {paragraph}{Iteration 2}{81}{}%
-\contentsline {paragraph}{Iteration 3}{82}{}%
-\contentsline {subsubsection}{\numberline {5.1.10}Spawn player}{84}{}%
-\contentsline {paragraph}{Iteration 1}{84}{}%
-\contentsline {paragraph}{Iteration 2}{84}{}%
-\contentsline {section}{\numberline {6}Testing}{85}{}%
-\contentsline {subsection}{\numberline {6.1}Dungeon Generation}{85}{}%
-\contentsline {subsubsection}{\numberline {6.1.1}Create Rooms}{85}{}%
-\contentsline {paragraph}{Iteration 1}{85}{}%
-\contentsline {subsubsection}{\numberline {6.1.2}Spread Rooms}{85}{}%
-\contentsline {subsubsection}{\numberline {6.1.3}Delete Rooms}{85}{}%
-\contentsline {subsubsection}{\numberline {6.1.4}Delaunay Triangulation}{85}{}%
-\contentsline {subsubsection}{\numberline {6.1.5}Remove random amount of edges}{85}{}%
-\contentsline {subsubsection}{\numberline {6.1.6}Generate spawn and boss room}{85}{}%
-\contentsline {subsubsection}{\numberline {6.1.7}Make sure all rooms are accessible}{85}{}%
-\contentsline {subsubsection}{\numberline {6.1.8}Turn edges into horizontal and vertical}{85}{}%
-\contentsline {subsubsection}{\numberline {6.1.9}Generate corridors}{85}{}%
-\contentsline {subsubsection}{\numberline {6.1.10}Turn into tile map}{85}{}%
-\contentsline {subsubsection}{\numberline {6.1.11}Spawn Player}{85}{}%
-\contentsline {section}{\numberline {7}Evaluation}{85}{}%
-\contentsline {subsection}{\numberline {7.1}Temp Fig Holder}{86}{}%
+\contentsline {paragraph}{Edge Class Iteration 3}{65}{}%
+\contentsline {paragraph}{Triangle Class iteration 1}{66}{}%
+\contentsline {paragraph}{Triangle Class iteration 2}{66}{}%
+\contentsline {paragraph}{Delaunay Triangulation iteration 1}{69}{}%
+\contentsline {paragraph}{Delaunay Triangulation iteration 2}{70}{}%
+\contentsline {subsubsection}{\numberline {5.1.5}Remove random amount of edges}{72}{}%
+\contentsline {paragraph}{Iteration 1}{72}{}%
+\contentsline {paragraph}{Iteration 2}{73}{}%
+\contentsline {paragraph}{Iteration 3}{73}{}%
+\contentsline {subsubsection}{\numberline {5.1.6}Add spawn and boss room}{74}{}%
+\contentsline {paragraph}{Iteration 1}{74}{}%
+\contentsline {subsubsection}{\numberline {5.1.7}Make sure all rooms are accessible}{75}{}%
+\contentsline {paragraph}{Branching algorithm Iteration 1}{75}{}%
+\contentsline {paragraph}{Branching algorithm Iteration 2}{76}{}%
+\contentsline {paragraph}{New section detection Iteration 1}{77}{}%
+\contentsline {paragraph}{New section detection Iteration 2}{77}{}%
+\contentsline {paragraph}{Connecting sections Iteration 1}{78}{}%
+\contentsline {paragraph}{Connecting sections Iteration 2}{79}{}%
+\contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{79}{}%
+\contentsline {paragraph}{Iteration 1}{79}{}%
+\contentsline {paragraph}{Iteration 2}{80}{}%
+\contentsline {subsubsection}{\numberline {5.1.9}Turn into tile map}{82}{}%
+\contentsline {paragraph}{Iteration 1}{82}{}%
+\contentsline {paragraph}{Iteration 2}{82}{}%
+\contentsline {paragraph}{Iteration 3}{83}{}%
+\contentsline {paragraph}{Iteration 4}{86}{}%
+\contentsline {subsubsection}{\numberline {5.1.10}Spawn player}{87}{}%
+\contentsline {paragraph}{Iteration 1}{87}{}%
+\contentsline {paragraph}{Iteration 2}{88}{}%
+\contentsline {section}{\numberline {6}Testing}{88}{}%
+\contentsline {subsection}{\numberline {6.1}Dungeon Generation}{88}{}%
+\contentsline {subsubsection}{\numberline {6.1.1}Create Rooms}{88}{}%
+\contentsline {paragraph}{Iteration 1}{88}{}%
+\contentsline {subsubsection}{\numberline {6.1.2}Spread Rooms}{89}{}%
+\contentsline {subsubsection}{\numberline {6.1.3}Delete Rooms}{89}{}%
+\contentsline {subsubsection}{\numberline {6.1.4}Delaunay Triangulation}{89}{}%
+\contentsline {subsubsection}{\numberline {6.1.5}Remove random amount of edges}{89}{}%
+\contentsline {subsubsection}{\numberline {6.1.6}Generate spawn and boss room}{89}{}%
+\contentsline {subsubsection}{\numberline {6.1.7}Make sure all rooms are accessible}{89}{}%
+\contentsline {subsubsection}{\numberline {6.1.8}Turn edges into horizontal and vertical}{89}{}%
+\contentsline {subsubsection}{\numberline {6.1.9}Generate corridors}{89}{}%
+\contentsline {subsubsection}{\numberline {6.1.10}Turn into tile map}{89}{}%
+\contentsline {subsubsection}{\numberline {6.1.11}Spawn Player}{89}{}%
+\contentsline {section}{\numberline {7}Evaluation}{89}{}%
+\contentsline {subsection}{\numberline {7.1}Temp Fig Holder}{90}{}%

@@ -11,11 +11,9 @@
             "id": "9e0838a4844ad512",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "School/Computer Science/Course Work/Reports/Tables.md",
-                "mode": "source",
-                "source": false
+                "file": "Life/Crochet/PDF Patterns/DDCrochetPattern_Cinnamaroll20160225.pdf"
               }
             }
           },
@@ -87,8 +85,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 300
   },
   "right": {
     "id": "257e1be1801de4db",
@@ -104,7 +101,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Computer Science/Course Work/Reports/Tables.md",
+                "file": "Life/Crochet/PDF Patterns/DDCrochetPattern_Cinnamaroll20160225.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -121,7 +118,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Computer Science/Course Work/Reports/Tables.md",
+                "file": "Life/Crochet/PDF Patterns/DDCrochetPattern_Cinnamaroll20160225.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -156,7 +153,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Computer Science/Course Work/Reports/Tables.md"
+                "file": "Life/Crochet/PDF Patterns/DDCrochetPattern_Cinnamaroll20160225.pdf"
               }
             }
           }
@@ -182,9 +179,10 @@
   },
   "active": "9e0838a4844ad512",
   "lastOpenFiles": [
-    "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
-    "School/Computer Science/Course Work/Reports/Images/Nothing happened.png",
     "School/Computer Science/Course Work/Reports/Tables.md",
+    "School/Computer Science/Course Work/Reports/Report.synctex(busy)",
+    "School/Computer Science/Course Work/Reports/Report.synctex.gz",
+    "School/Computer Science/Course Work/Reports/Images/Nothing happened.png",
     "School/Computer Science/Course Work/Reports/Images/rooms generated successful.png",
     "School/Computer Science/Course Work/Reports/Images/up down lines.png",
     "School/Computer Science/Course Work/Reports/Images/SteamSurvey.png",
@@ -205,7 +203,6 @@
     "Life/Crochet/PDF Patterns/Raven.pdf",
     "Life/Crochet/PDF Patterns/Plague_Doctor_Amigurumi.pdf",
     "Life/Crochet/PDF Patterns/KrobusAmigurumiFinal.pdf",
-    "Life/Crochet/PDF Patterns/Junimo_Amigurumi_by_icrochetthings.pdf",
     "School/Maths/Notes/Defenitions/Integration.md",
     "School/Maths/Notes/Defenitions/Differentiation Trigonometric functions.md",
     "School/Maths/Notes/Pure/Year 2/9 Differentiation.md",
