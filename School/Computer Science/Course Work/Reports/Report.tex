@@ -2156,7 +2156,7 @@ else if (currnetState == generationState.generationState5)
 This system was implemented later in development but it seems most appropriate in this part as it shows how I am able to switch from one generation state to another. It allows me to switch between states as I please since all I have to do is update the currentState variable. However in my case I just switch from one state to the next since once a section of code is executed it doesn't need to be revisited, if I do need to revisit code I made it into it's own function as it's more convenient.
 \subsubsection{Create rooms}
 Putting the code in the ready function means that it's called one before the game loads, with this all the rooms can be created before the game loads and they will be available to use once the scene is ready. Which is crucial for the program to work.
-\myparagraph{iteration 1}
+\myparagraph{Iteration 1}
 This iteration achieves goal number 1 and 2, where the algorithm executes within a reasonable amount of time and there is the correct amount of rooms, however there is no variation in the rooms generated so goal number 3 still needs to be developed.
 \begin{lstlisting}
 // presets for generating rooms
@@ -3973,7 +3973,65 @@ currentState = generationState.done;
 \end{tabular}
 \end{table}
 
+\pagebreak
+
+\myparagraph{Iteration 2}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                      & \textbf{Actual Result} & \textbf{Why it happened/What happened}    \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms generated in a\\less dense area\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{less dense gen}}             & Rooms are generated in a less dense area  \\
+\hline
+\end{tabular}
+\end{table}
+
+\myparagraph{Iteration 3}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms structure has \\variation\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{less dense gen room variations}}             & \begin{tabular}[c]{@{}l@{}}Difficult to tell but there is more variation\\in the structure of the rooms\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
+
+\myparagraph{Iteration 4}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                     & \textbf{Actual Result} & \textbf{Why it happened/What happened}    \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms structure has \\more variation\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{room variations generation}} & Easier to tell with less rooms generated  \\
+\hline
+\end{tabular}
+\end{table}
+
 \subsubsection{Spread Rooms}
+\myparagraph{Iteration 1}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                            & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                                                                 \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms are spread apart\\without any overlap\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{rooms seperated}}             & \begin{tabular}[c]{@{}l@{}}Eventually the program seperates all\\rooms, it did take around 40-50 seconds\\which is too long to be considered\\successful\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
+
+\myparagraph{Iteration 2}
+
+
+\myparagraph{Iteration 3}
+
+
+\myparagraph{Iteration 4}
+
 
 \subsubsection{Delete Rooms}
 

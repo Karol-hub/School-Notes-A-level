@@ -96,7 +96,7 @@
 \contentsline {section}{\numberline {5}Developing a solution}{54}{}%
 \contentsline {subsection}{\numberline {5.1}Dungeon Generation}{54}{}%
 \contentsline {subsubsection}{\numberline {5.1.1}Create rooms}{55}{}%
-\contentsline {paragraph}{iteration 1}{55}{}%
+\contentsline {paragraph}{Iteration 1}{55}{}%
 \contentsline {paragraph}{Iteration 2}{56}{}%
 \contentsline {paragraph}{Iteration 3}{56}{}%
 \contentsline {paragraph}{Iteration 4}{57}{}%
@@ -147,7 +147,14 @@
 \contentsline {subsection}{\numberline {6.1}Dungeon Generation}{88}{}%
 \contentsline {subsubsection}{\numberline {6.1.1}Create Rooms}{88}{}%
 \contentsline {paragraph}{Iteration 1}{88}{}%
+\contentsline {paragraph}{Iteration 2}{89}{}%
+\contentsline {paragraph}{Iteration 3}{89}{}%
+\contentsline {paragraph}{Iteration 4}{89}{}%
 \contentsline {subsubsection}{\numberline {6.1.2}Spread Rooms}{89}{}%
+\contentsline {paragraph}{Iteration 1}{89}{}%
+\contentsline {paragraph}{Iteration 2}{89}{}%
+\contentsline {paragraph}{Iteration 3}{89}{}%
+\contentsline {paragraph}{Iteration 4}{89}{}%
 \contentsline {subsubsection}{\numberline {6.1.3}Delete Rooms}{89}{}%
 \contentsline {subsubsection}{\numberline {6.1.4}Delaunay Triangulation}{89}{}%
 \contentsline {subsubsection}{\numberline {6.1.5}Remove random amount of edges}{89}{}%

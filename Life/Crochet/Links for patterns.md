@@ -14,3 +14,4 @@
 [lil bunny](https://www.onceuponacheerio.com/2018/01/classic-amigurumi-bunny-crochet-pattern.html)
 [lil bat](https://www.mariskavos.nl/free-bat-crochet-pattern/)
 [lil bear](https://www.natalinacraft.com/crochet-pocket-bear/)
+[puppycat](https://53stitches.com/puppycat/)
