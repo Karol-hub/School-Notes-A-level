@@ -10,6 +10,8 @@
 \usepackage[simplified]{pgf-umlcd}
 \usepackage{lscape}
 \usepackage{tabularray}
+\usepackage{float}
+\usepackage[normalem]{ulem}
 
 \usepackage[T1]{fontenc}
 \usepackage{inconsolata}
@@ -63,6 +65,7 @@ top = 20mm,
 \newcommand{\myparagraph}[1]{\paragraph{#1}\mbox{}\\} %line break after paragraph declared
 \newcommand{\smallBr}{\vspace{1.5mm}}
 \newcommand{\mycomment}[1]{}
+\newcommand{\testImageSize}{0.22\textwidth}
 
 \begin{document}
 \title{Computer Science \\ Advanced GCE H447 \\ Unit F453 \\[2\baselineskip]}
@@ -2154,6 +2157,10 @@ else if (currnetState == generationState.generationState5)
 }
 \end{lstlisting}
 This system was implemented later in development but it seems most appropriate in this part as it shows how I am able to switch from one generation state to another. It allows me to switch between states as I please since all I have to do is update the currentState variable. However in my case I just switch from one state to the next since once a section of code is executed it doesn't need to be revisited, if I do need to revisit code I made it into it's own function as it's more convenient.
+
+\parBr
+
+None of the tests for this section require any input from the user, therefore the input is always none, this is done because if the player had any sort of input they could manipulate the map generation to give themselves some sort of unintended advantage.
 \subsubsection{Create rooms}
 Putting the code in the ready function means that it's called one before the game loads, with this all the rooms can be created before the game loads and they will be available to use once the scene is ready. Which is crucial for the program to work.
 \myparagraph{Iteration 1}
@@ -2186,6 +2193,22 @@ public override void _Ready()
 }
 \end{lstlisting}
 
+\myparagraph{Iteration 1 Testing}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                                                & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                                 \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms generated in a \\dense section around \\coordinates (0,0)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{Failed to build}}             & \begin{tabular}[c]{@{}l@{}}Tried to access Node's position which doesn't\\~exist, need to access Area2D's position\end{tabular}  \\ 
+\hline
+2                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms generated in a \\dense section around \\coordinates (0,0)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{Nothing happened}}             & \begin{tabular}[c]{@{}l@{}}Forgot to assign a parent to the rooms so they \\didn't generate at all.\end{tabular}                 \\ 
+\hline
+3                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms generated in a \\dense section around \\coordinates (0,0)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{rooms generated successful}}             & \begin{tabular}[c]{@{}l@{}}Will be improved upon in the next iteration, \\but functions currently\end{tabular}                   \\
+\hline
+\end{tabular}
+\end{table}
+
 \myparagraph{Iteration 2}
 The last iteration set the position of each room to be a coordinate of two numbers between 0 and 1. This is inefficient because the rooms need to be spread apart so I could just spawn them further apart from each other so they have less distance to travel, this doesn't effect the time to execute for this algorithm but it has a large impact on the time to execute for the next section (Spreading rooms apart).
 
@@ -2206,6 +2229,18 @@ public override void _Ready()
 	}
 }
 \end{lstlisting}
+
+\myparagraph{Iteration 2 Testing}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                      & \textbf{Actual Result} & \textbf{Why it happened/What happened}    \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms generated in a\\less dense area\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{less dense gen}}             & Rooms are generated in a less dense area  \\
+\hline
+\end{tabular}
+\end{table}
 
 \myparagraph{Iteration 3}
 For this iteration I aimed to add another room variation and because of this I would be able to scale this up for any amount of rooms I plan to add in the future, it also selects a random room variation to instantiate. This progresses goal 3 (room variation), however it still needs to be expanded upon.
@@ -2247,6 +2282,18 @@ public override void _Ready()
     #endregion
 }
 \end{lstlisting}
+
+\myparagraph{Iteration 3 Testing}
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms structure has \\variation\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{less dense gen room variations}}             & \begin{tabular}[c]{@{}l@{}}Difficult to tell but there is more variation\\in the structure of the rooms\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
 
 \myparagraph{Iteration 4}
 For this iteration I aimed to add more room variations and make it even easier to add more variations in the future if needed, since one of the stakeholders has said that they would like there to be a variation in the rooms after showing them the variation of the previous iteration.
@@ -2296,6 +2343,19 @@ public override void _Ready()
     #endregion
 }
 \end{lstlisting}
+
+\myparagraph{Iteration 4 Testing}
+
+\begin{table}[h]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                     & \textbf{Actual Result} & \textbf{Why it happened/What happened}    \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms structure has \\more variation\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{room variations generation}} & Easier to tell with less rooms generated  \\
+\hline
+\end{tabular}
+\end{table}
 
 \subsubsection{Spread rooms}
 \myparagraph{Iteration 1}
@@ -2354,12 +2414,25 @@ public async void SpreadRooms()
 }
 \end{lstlisting}
 
+\myparagraph{Iteration 1 Testing}
+\myparagraph{Iteration 1}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                            & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                                                                 \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms are spread apart\\without any overlap\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{rooms seperated}}             & \begin{tabular}[c]{@{}l@{}}Eventually the program seperates all\\rooms, it did take around 40-50 seconds\\which is too long to be considered\\successful\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
+
 \myparagraph{Iteration 2}
 I implemented the switching of generation states using the enum variable. That makes the code cleaner and easier to manage.
 
 \parBr
 
-This iteration moves the room one at a time rather than all of them one bit at a time. However it's inside the void which updates every frame, which will make it easier for managing sections.
+This iteration moves the room one at a time rather than all of them one bit at a time. However it's inside the update void which updates every frame, which will make it easier for managing sections.
 
 \parBr
 
@@ -2397,6 +2470,18 @@ public override void _Process(double delta)
     // Code for other sections (when it exists)
 }
 \end{lstlisting}
+
+\myparagraph{Iteration 2 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                                   & \textbf{Actual Result} & \textbf{What happened/Why it happened}                                                                                                                     \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms spread apart faster\\than previous iteration\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{not responding}}              & \begin{tabular}[c]{@{}l@{}}Rooms get stuck on eachother while\\ trying to spread apart and program can't\\ end while loop causing it to freeze\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
 
 \myparagraph{Iteration 3}
 This iteration removes the need for while loops making it easier to debug as the program doesn't crash if there is an error. 
@@ -2443,6 +2528,18 @@ With this goal 1,2 and 3 are all achieved in this iteration (executes in a reaso
 		// Code for other sections (when it exists)
 	}
 \end{lstlisting}
+
+\myparagraph{Iteration 3 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                              & \textbf{Actual Result} & \textbf{What happened/Why it happened}                                                                                                                                 \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Room spread actually works\\and doesn't crash\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{spread rooms}}                          & \begin{tabular}[c]{@{}l@{}}After running the program 5 times it didn't \\crash, previous iteration would freeze every\\time it's ran so it's more robust\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
 
 \myparagraph{Iteration 4}
 This iteration takes the reciprocal of the difference between the two rooms so that closer rooms have a larger impact on the overall displacement of the room, hopefully speeding up the algorithm and further achieving goal 1 of executing in a reasonable amount of time.
@@ -2492,11 +2589,24 @@ public override void _Process(double delta)
 }
 
 \end{lstlisting}
+
+\myparagraph{Iteration 4 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                           & \textbf{Actual Result} & \textbf{What happened/Why it happened}                                                                                                                                    \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms spread apart\\faster\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{room variations spread}}                           & \begin{tabular}[c]{@{}l@{}}Difficult to tell it is actually faster due to\\random nature however, room variations\\were implemented and it still functions.\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
+
 The algorithm in it's current state allows for development in the future (if needed) since it's well commented, it also achieves it's purpose therefore it's complete. 
 
 \subsubsection{Delete rooms}
 \myparagraph{Iteration 1}
-Goal number 2 is completed if the algorithm doesn't crash which is a critical error that needs to be resolved soon.
+Algorithm crashes from time to time which is a critical error since it completely halts the generation process and breaks the program. Therefore none of the goals are achieved
 \begin{lstlisting}
 //Needs to be between 0-1 (if its 0.8 it will delete 80% of rooms)
 private float deletingRoomsFactor = 0.5f; 
@@ -2520,7 +2630,18 @@ public override void _Process(double delta)
     // Code for other sections
 }
 \end{lstlisting}
-Will error when count = GetChildCount() since there is nothing at that index as the last item of the list is GetChildCount()-1.
+
+\myparagraph{Iteration 1 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                   & \textbf{Actual Result} & \textbf{What happened/Why it happened}                                                                                                                                       \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Random amount\\of rooms is deleted\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{index out of range error}}             & \begin{tabular}[c]{@{}l@{}}Index out of range error when count \\= GetChildCount() since there is nothing\\ at that index as the last item of the list is\\ GetChildCount()-1.\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
 
 \myparagraph{Iteration 2}
 Simple fix to improve last iteration so that now the algorithms achieves all the goals (executing in a reasonable amount of time and distance between rooms varying).
@@ -2548,8 +2669,25 @@ public override void _Process(double delta)
 }
 \end{lstlisting}
 
+\myparagraph{Iteration 2 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                   & \textbf{Actual Result} & \textbf{What happened/Why it happened}                                                                               \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Random amount\\of rooms is deleted\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{deleted rooms}}              & \begin{tabular}[c]{@{}l@{}}Rooms are spread appart further making\\their placement appear more random.\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
+
+
 \subsubsection{Delaunay triangulation}
 The classes don't achieve any of the goals single-handedly however they are a requirement for the Boyer Watson algorithm \cite{BW_alg} to function.
+
+\parBr
+
+Testing is not available for any of the classes as their only use is in delaunay triangulation so testing the Bowyer Watson algorithm will reveal any errors in the code of the classes. More code needs to be written to test the classes if I intended to do so, however since all of these were developed in parallel with the Bowyer Watson algorithm they were tested accordingly.
 \myparagraph{Point Class iteration 1}
 The attributes also aren't declared as public or private, by default C\# assumes that they are private so all the values aren't able to be updated since there are no methods to access them.
 \begin{lstlisting}
@@ -3951,151 +4089,6 @@ player.GetNode<Camera2D>("./Camera2D").MakeCurrent();
 //Finished so can move t
 currentState = generationState.done;
 \end{lstlisting}
-
-\section{Testing}
-
-\subsection{Dungeon Generation}
-
-\subsubsection{Create Rooms}
-\myparagraph{Iteration 1}
-\begin{table}[h]
-\centering
-\begin{tabular}{|l|l|l|l|l|} 
-\hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                                                & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                                 \\ 
-\hline
-1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms generated in a \\dense section around \\coordinates (0,0)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{Failed to build}}             & \begin{tabular}[c]{@{}l@{}}Tried to access Node's position which doesn't\\~exist, need to access Area2D's position\end{tabular}  \\ 
-\hline
-2                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms generated in a \\dense section around \\coordinates (0,0)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{Nothing happened}}             & \begin{tabular}[c]{@{}l@{}}Forgot to assign a parent to the rooms so they \\didn't generate at all.\end{tabular}                 \\ 
-\hline
-3                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms generated in a \\dense section around \\coordinates (0,0)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{rooms generated successful}}             & \begin{tabular}[c]{@{}l@{}}Will be improved upon in the next iteration, \\but functions currently\end{tabular}                   \\
-\hline
-\end{tabular}
-\end{table}
-
-\pagebreak
-
-\myparagraph{Iteration 2}
-\begin{table}[h]
-\centering
-\begin{tabular}{|l|l|l|l|l|} 
-\hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                      & \textbf{Actual Result} & \textbf{Why it happened/What happened}    \\ 
-\hline
-1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms generated in a\\less dense area\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{less dense gen}}             & Rooms are generated in a less dense area  \\
-\hline
-\end{tabular}
-\end{table}
-
-\myparagraph{Iteration 3}
-\begin{table}[h]
-\centering
-\begin{tabular}{|l|l|l|l|l|} 
-\hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                \\ 
-\hline
-1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms structure has \\variation\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{less dense gen room variations}}             & \begin{tabular}[c]{@{}l@{}}Difficult to tell but there is more variation\\in the structure of the rooms\end{tabular}  \\
-\hline
-\end{tabular}
-\end{table}
-
-\myparagraph{Iteration 4}
-\begin{table}[h]
-\centering
-\begin{tabular}{|l|l|l|l|l|} 
-\hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                     & \textbf{Actual Result} & \textbf{Why it happened/What happened}    \\ 
-\hline
-1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms structure has \\more variation\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{room variations generation}} & Easier to tell with less rooms generated  \\
-\hline
-\end{tabular}
-\end{table}
-
-\subsubsection{Spread Rooms}
-\myparagraph{Iteration 1}
-\begin{table}[h]
-\centering
-\begin{tabular}{|l|l|l|l|l|} 
-\hline
-\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                            & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                                                                 \\ 
-\hline
-1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Rooms are spread apart\\without any overlap\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = 0.2\textwidth]{rooms seperated}}             & \begin{tabular}[c]{@{}l@{}}Eventually the program seperates all\\rooms, it did take around 40-50 seconds\\which is too long to be considered\\successful\end{tabular}  \\
-\hline
-\end{tabular}
-\end{table}
-
-\myparagraph{Iteration 2}
-
-
-\myparagraph{Iteration 3}
-
-
-\myparagraph{Iteration 4}
-
-
-\subsubsection{Delete Rooms}
-
-\subsubsection{Delaunay Triangulation}
-
-\subsubsection{Remove random amount of edges}
-
-\subsubsection{Generate spawn and boss room}
-
-\subsubsection{Make sure all rooms are accessible}
-
-\subsubsection{Turn edges into horizontal and vertical}
-
-\subsubsection{Generate corridors}
-
-\subsubsection{Turn into tile map}
-
-\subsubsection{Spawn Player}
-
-\section{Evaluation}
-
-\pagebreak
-\subsection{Temp Fig Holder}
-
-\begin{figure}
-\centering
-\includegraphics[height = 0.2\textwidth]{rooms seperated}
-\includegraphics[height = 0.2\textwidth]{spread rooms}
-\caption{Result of room separation}
-\label{room seperation result}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[height = 0.3\textwidth]{deleted rooms}
-\includegraphics[height = 0.3\textwidth]{deleted rooms1}
-\caption{Result of room deletion}
-\label{room deletion result}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation just edges}
-\includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation}
-\includegraphics[width = 0.4\textwidth]{rooms deluaney triangulation stress test}
-\includegraphics[width = 0.4\textwidth]{deluaney triangulation stress test}
-\caption{Result of Bowyer–Watson algorithm}
-\label{bwa result}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width = 0.4\textwidth]{deleted edges no rooms}
-\includegraphics[width = 0.4\textwidth]{deleted edges}
-\caption{Deleting edges result}
-\label{deleting edges result}
-\end{figure}
-
-\begin{figure}
-\centering
-\includegraphics[width = 0.6\textwidth]{coridoors and edges}
-\caption{Before (pink) and after algorithm (green)}
-\label{ba coridoors and edges}
-\end{figure}
 
 \newpage
 \printbibliography

@@ -1,168 +1,156 @@
-\contentsline {section}{\numberline {1}Abstract}{5}{}%
-\contentsline {section}{\numberline {2}Introduction}{5}{}%
-\contentsline {section}{\numberline {3}Analysis}{5}{}%
-\contentsline {subsection}{\numberline {3.1}Computational Methods}{5}{}%
-\contentsline {subsection}{\numberline {3.2}Researching The Problem}{6}{}%
-\contentsline {subsubsection}{\numberline {3.2.1}Risk of Rain 2}{6}{}%
-\contentsline {paragraph}{Controls}{7}{}%
-\contentsline {paragraph}{Characters}{7}{}%
-\contentsline {paragraph}{Aim of the game}{7}{}%
-\contentsline {paragraph}{Target demographic}{7}{}%
-\contentsline {paragraph}{Good Qualities}{8}{}%
-\contentsline {paragraph}{Bad Qualities}{8}{}%
+\contentsline {section}{\numberline {1}Abstract}{4}{}%
+\contentsline {section}{\numberline {2}Introduction}{4}{}%
+\contentsline {section}{\numberline {3}Analysis}{4}{}%
+\contentsline {subsection}{\numberline {3.1}Computational Methods}{4}{}%
+\contentsline {subsection}{\numberline {3.2}Researching The Problem}{5}{}%
+\contentsline {subsubsection}{\numberline {3.2.1}Risk of Rain 2}{5}{}%
+\contentsline {paragraph}{Controls}{6}{}%
+\contentsline {paragraph}{Characters}{6}{}%
+\contentsline {paragraph}{Aim of the game}{6}{}%
+\contentsline {paragraph}{Target demographic}{6}{}%
+\contentsline {paragraph}{Good Qualities}{7}{}%
+\contentsline {paragraph}{Bad Qualities}{7}{}%
+\contentsline {paragraph}{What I would include}{8}{}%
+\contentsline {subsubsection}{\numberline {3.2.2}Celeste}{8}{}%
+\contentsline {paragraph}{Controls}{8}{}%
+\contentsline {paragraph}{Characters}{8}{}%
+\contentsline {paragraph}{Aim of the game}{8}{}%
+\contentsline {paragraph}{Target demographic}{9}{}%
+\contentsline {paragraph}{Good Qualities}{9}{}%
+\contentsline {paragraph}{Bad Qualities}{9}{}%
 \contentsline {paragraph}{What I would include}{9}{}%
-\contentsline {subsubsection}{\numberline {3.2.2}Celeste}{9}{}%
-\contentsline {paragraph}{Controls}{9}{}%
-\contentsline {paragraph}{Characters}{9}{}%
-\contentsline {paragraph}{Aim of the game}{9}{}%
-\contentsline {paragraph}{Target demographic}{10}{}%
-\contentsline {paragraph}{Good Qualities}{10}{}%
-\contentsline {paragraph}{Bad Qualities}{10}{}%
-\contentsline {paragraph}{What I would include}{10}{}%
-\contentsline {subsubsection}{\numberline {3.2.3}Rain World}{11}{}%
-\contentsline {paragraph}{Controls}{11}{}%
-\contentsline {paragraph}{Characters}{11}{}%
-\contentsline {paragraph}{Aim of the game}{12}{}%
-\contentsline {paragraph}{Target demographic}{12}{}%
-\contentsline {paragraph}{Good Qualities}{12}{}%
-\contentsline {paragraph}{Bad Qualities}{13}{}%
-\contentsline {paragraph}{What I would include}{13}{}%
-\contentsline {subsection}{\numberline {3.3}Stakeholders}{13}{}%
-\contentsline {subsection}{\numberline {3.4}Interview with Stakeholder}{13}{}%
-\contentsline {subsection}{\numberline {3.5}Letter to Stakeholder}{14}{}%
-\contentsline {subsection}{\numberline {3.6}Questionnaire}{15}{}%
-\contentsline {paragraph}{Analysis}{15}{}%
-\contentsline {subsection}{\numberline {3.7}Analysing Market}{18}{}%
-\contentsline {paragraph}{System OS Analysis}{18}{}%
-\contentsline {paragraph}{Hardware Analysis}{18}{}%
-\contentsline {subsection}{\numberline {3.8}System Requirements}{19}{}%
-\contentsline {paragraph}{Minimum Hardware Requirements}{19}{}%
-\contentsline {paragraph}{Input devices:}{19}{}%
-\contentsline {paragraph}{Output devices:}{19}{}%
-\contentsline {paragraph}{Minimum Software Requirements}{19}{}%
-\contentsline {subsection}{\numberline {3.9}Limitations}{19}{}%
-\contentsline {subsection}{\numberline {3.10}Essential Features}{20}{}%
-\contentsline {subsection}{\numberline {3.11}Success Criteria}{20}{}%
-\contentsline {section}{\numberline {4}Designing the Solution}{21}{}%
-\contentsline {subsection}{\numberline {4.1}Development Methodology}{21}{}%
-\contentsline {subsection}{\numberline {4.2}Decomposing the problem}{22}{}%
-\contentsline {subsection}{\numberline {4.3}Variable types}{24}{}%
-\contentsline {paragraph}{Variables}{24}{}%
-\contentsline {subsection}{\numberline {4.4}Folder Set up}{24}{}%
-\contentsline {subsection}{\numberline {4.5}Dungeon Generation}{24}{}%
-\contentsline {subsubsection}{\numberline {4.5.1}Create Rooms}{24}{}%
-\contentsline {paragraph}{Pseudocode}{26}{}%
-\contentsline {paragraph}{Variable table}{26}{}%
-\contentsline {paragraph}{Identifying test data}{26}{}%
-\contentsline {subsubsection}{\numberline {4.5.2}Spread rooms}{26}{}%
+\contentsline {subsubsection}{\numberline {3.2.3}Rain World}{10}{}%
+\contentsline {paragraph}{Controls}{10}{}%
+\contentsline {paragraph}{Characters}{10}{}%
+\contentsline {paragraph}{Aim of the game}{11}{}%
+\contentsline {paragraph}{Target demographic}{11}{}%
+\contentsline {paragraph}{Good Qualities}{11}{}%
+\contentsline {paragraph}{Bad Qualities}{12}{}%
+\contentsline {paragraph}{What I would include}{12}{}%
+\contentsline {subsection}{\numberline {3.3}Stakeholders}{12}{}%
+\contentsline {subsection}{\numberline {3.4}Interview with Stakeholder}{12}{}%
+\contentsline {subsection}{\numberline {3.5}Letter to Stakeholder}{13}{}%
+\contentsline {subsection}{\numberline {3.6}Questionnaire}{14}{}%
+\contentsline {paragraph}{Analysis}{14}{}%
+\contentsline {subsection}{\numberline {3.7}Analysing Market}{17}{}%
+\contentsline {paragraph}{System OS Analysis}{17}{}%
+\contentsline {paragraph}{Hardware Analysis}{17}{}%
+\contentsline {subsection}{\numberline {3.8}System Requirements}{18}{}%
+\contentsline {paragraph}{Minimum Hardware Requirements}{18}{}%
+\contentsline {paragraph}{Input devices:}{18}{}%
+\contentsline {paragraph}{Output devices:}{18}{}%
+\contentsline {paragraph}{Minimum Software Requirements}{18}{}%
+\contentsline {subsection}{\numberline {3.9}Limitations}{18}{}%
+\contentsline {subsection}{\numberline {3.10}Essential Features}{19}{}%
+\contentsline {subsection}{\numberline {3.11}Success Criteria}{19}{}%
+\contentsline {section}{\numberline {4}Designing the Solution}{20}{}%
+\contentsline {subsection}{\numberline {4.1}Development Methodology}{20}{}%
+\contentsline {subsection}{\numberline {4.2}Decomposing the problem}{21}{}%
+\contentsline {subsection}{\numberline {4.3}Variable types}{23}{}%
+\contentsline {paragraph}{Variables}{23}{}%
+\contentsline {subsection}{\numberline {4.4}Folder Set up}{23}{}%
+\contentsline {subsection}{\numberline {4.5}Dungeon Generation}{23}{}%
+\contentsline {subsubsection}{\numberline {4.5.1}Create Rooms}{23}{}%
+\contentsline {paragraph}{Pseudocode}{25}{}%
+\contentsline {paragraph}{Variable table}{25}{}%
+\contentsline {paragraph}{Identifying test data}{25}{}%
+\contentsline {subsubsection}{\numberline {4.5.2}Spread rooms}{25}{}%
+\contentsline {paragraph}{Variable table}{28}{}%
+\contentsline {paragraph}{Identifying test data}{28}{}%
+\contentsline {subsubsection}{\numberline {4.5.3}Delete Rooms}{29}{}%
 \contentsline {paragraph}{Variable table}{29}{}%
 \contentsline {paragraph}{Identifying test data}{29}{}%
-\contentsline {subsubsection}{\numberline {4.5.3}Delete Rooms}{30}{}%
-\contentsline {paragraph}{Variable table}{30}{}%
-\contentsline {paragraph}{Identifying test data}{30}{}%
-\contentsline {subsubsection}{\numberline {4.5.4}Delaunay Triangulation}{30}{}%
-\contentsline {paragraph}{Variable table}{33}{}%
-\contentsline {paragraph}{Identifying test data}{33}{}%
-\contentsline {subsubsection}{\numberline {4.5.5}Remove random amount of edges}{34}{}%
-\contentsline {paragraph}{Variable table}{36}{}%
-\contentsline {paragraph}{Identifying test data}{36}{}%
-\contentsline {subsubsection}{\numberline {4.5.6}Generate spawn and boss room}{36}{}%
-\contentsline {paragraph}{Variable table}{39}{}%
-\contentsline {paragraph}{Identifying test data}{39}{}%
-\contentsline {subsubsection}{\numberline {4.5.7}Make sure all rooms are accessible}{39}{}%
-\contentsline {paragraph}{Variable table}{41}{}%
-\contentsline {paragraph}{Identifying test data}{41}{}%
-\contentsline {paragraph}{Variable table}{43}{}%
-\contentsline {paragraph}{Identifying test data}{43}{}%
-\contentsline {paragraph}{Variable table}{45}{}%
-\contentsline {paragraph}{Identifying test data}{45}{}%
-\contentsline {subsubsection}{\numberline {4.5.8}Turn edges into horizontal and vertical}{46}{}%
+\contentsline {subsubsection}{\numberline {4.5.4}Delaunay Triangulation}{29}{}%
+\contentsline {paragraph}{Variable table}{32}{}%
+\contentsline {paragraph}{Identifying test data}{32}{}%
+\contentsline {subsubsection}{\numberline {4.5.5}Remove random amount of edges}{33}{}%
+\contentsline {paragraph}{Variable table}{35}{}%
+\contentsline {paragraph}{Identifying test data}{35}{}%
+\contentsline {subsubsection}{\numberline {4.5.6}Generate spawn and boss room}{35}{}%
+\contentsline {paragraph}{Variable table}{38}{}%
+\contentsline {paragraph}{Identifying test data}{38}{}%
+\contentsline {subsubsection}{\numberline {4.5.7}Make sure all rooms are accessible}{38}{}%
+\contentsline {paragraph}{Variable table}{40}{}%
+\contentsline {paragraph}{Identifying test data}{40}{}%
+\contentsline {paragraph}{Variable table}{42}{}%
+\contentsline {paragraph}{Identifying test data}{42}{}%
+\contentsline {paragraph}{Variable table}{44}{}%
+\contentsline {paragraph}{Identifying test data}{44}{}%
+\contentsline {subsubsection}{\numberline {4.5.8}Turn edges into horizontal and vertical}{45}{}%
+\contentsline {paragraph}{Variable table}{47}{}%
+\contentsline {paragraph}{Identifying test data}{47}{}%
+\contentsline {subsubsection}{\numberline {4.5.9}Generate corridors}{47}{}%
 \contentsline {paragraph}{Variable table}{48}{}%
-\contentsline {paragraph}{Identifying test data}{48}{}%
-\contentsline {subsubsection}{\numberline {4.5.9}Generate corridors}{48}{}%
-\contentsline {paragraph}{Variable table}{49}{}%
-\contentsline {paragraph}{Identifying test data}{50}{}%
-\contentsline {subsubsection}{\numberline {4.5.10}Turn into tile map}{50}{}%
+\contentsline {paragraph}{Identifying test data}{49}{}%
+\contentsline {subsubsection}{\numberline {4.5.10}Turn into tile map}{49}{}%
+\contentsline {paragraph}{Variable table}{51}{}%
+\contentsline {paragraph}{Identifying test data}{52}{}%
+\contentsline {subsubsection}{\numberline {4.5.11}Spawn player}{52}{}%
 \contentsline {paragraph}{Variable table}{52}{}%
 \contentsline {paragraph}{Identifying test data}{53}{}%
-\contentsline {subsubsection}{\numberline {4.5.11}Spawn player}{53}{}%
-\contentsline {paragraph}{Variable table}{53}{}%
-\contentsline {paragraph}{Identifying test data}{54}{}%
-\contentsline {subsection}{\numberline {4.6}Player Movement}{54}{}%
-\contentsline {subsection}{\numberline {4.7}Player Combat}{54}{}%
-\contentsline {subsection}{\numberline {4.8}Enemy Design}{54}{}%
-\contentsline {subsection}{\numberline {4.9}Boss Design}{54}{}%
-\contentsline {subsection}{\numberline {4.10}UI}{54}{}%
-\contentsline {section}{\numberline {5}Developing a solution}{54}{}%
-\contentsline {subsection}{\numberline {5.1}Dungeon Generation}{54}{}%
-\contentsline {subsubsection}{\numberline {5.1.1}Create rooms}{55}{}%
-\contentsline {paragraph}{Iteration 1}{55}{}%
-\contentsline {paragraph}{Iteration 2}{56}{}%
-\contentsline {paragraph}{Iteration 3}{56}{}%
+\contentsline {subsection}{\numberline {4.6}Player Movement}{53}{}%
+\contentsline {subsection}{\numberline {4.7}Player Combat}{53}{}%
+\contentsline {subsection}{\numberline {4.8}Enemy Design}{53}{}%
+\contentsline {subsection}{\numberline {4.9}Boss Design}{53}{}%
+\contentsline {subsection}{\numberline {4.10}UI}{53}{}%
+\contentsline {section}{\numberline {5}Developing a solution}{53}{}%
+\contentsline {subsection}{\numberline {5.1}Dungeon Generation}{53}{}%
+\contentsline {subsubsection}{\numberline {5.1.1}Create rooms}{54}{}%
+\contentsline {paragraph}{Iteration 1}{54}{}%
+\contentsline {paragraph}{Iteration 1 Testing}{55}{}%
+\contentsline {paragraph}{Iteration 2}{55}{}%
+\contentsline {paragraph}{Iteration 2 Testing}{55}{}%
+\contentsline {paragraph}{Iteration 3}{55}{}%
+\contentsline {paragraph}{Iteration 3 Testing}{56}{}%
 \contentsline {paragraph}{Iteration 4}{57}{}%
-\contentsline {subsubsection}{\numberline {5.1.2}Spread rooms}{58}{}%
-\contentsline {paragraph}{Iteration 1}{58}{}%
+\contentsline {paragraph}{Iteration 4 Testing}{57}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Spread rooms}{57}{}%
+\contentsline {paragraph}{Iteration 1}{57}{}%
+\contentsline {paragraph}{Iteration 1 Testing}{59}{}%
+\contentsline {paragraph}{Iteration 1}{59}{}%
 \contentsline {paragraph}{Iteration 2}{59}{}%
-\contentsline {paragraph}{Iteration 3}{59}{}%
-\contentsline {paragraph}{Iteration 4}{60}{}%
-\contentsline {subsubsection}{\numberline {5.1.3}Delete rooms}{61}{}%
-\contentsline {paragraph}{Iteration 1}{61}{}%
-\contentsline {paragraph}{Iteration 2}{62}{}%
-\contentsline {subsubsection}{\numberline {5.1.4}Delaunay triangulation}{62}{}%
-\contentsline {paragraph}{Point Class iteration 1}{62}{}%
-\contentsline {paragraph}{Point Class iteration 2}{63}{}%
-\contentsline {paragraph}{Point Class iteration 3}{63}{}%
-\contentsline {paragraph}{Edge Class iteration 1}{64}{}%
-\contentsline {paragraph}{Edge Class iteration 2}{64}{}%
-\contentsline {paragraph}{Edge Class Iteration 3}{65}{}%
-\contentsline {paragraph}{Triangle Class iteration 1}{66}{}%
-\contentsline {paragraph}{Triangle Class iteration 2}{66}{}%
-\contentsline {paragraph}{Delaunay Triangulation iteration 1}{69}{}%
-\contentsline {paragraph}{Delaunay Triangulation iteration 2}{70}{}%
-\contentsline {subsubsection}{\numberline {5.1.5}Remove random amount of edges}{72}{}%
-\contentsline {paragraph}{Iteration 1}{72}{}%
-\contentsline {paragraph}{Iteration 2}{73}{}%
-\contentsline {paragraph}{Iteration 3}{73}{}%
-\contentsline {subsubsection}{\numberline {5.1.6}Add spawn and boss room}{74}{}%
+\contentsline {paragraph}{Iteration 2 Testing}{60}{}%
+\contentsline {paragraph}{Iteration 3}{60}{}%
+\contentsline {paragraph}{Iteration 3 Testing}{61}{}%
+\contentsline {paragraph}{Iteration 4}{61}{}%
+\contentsline {paragraph}{Iteration 4 Testing}{62}{}%
+\contentsline {subsubsection}{\numberline {5.1.3}Delete rooms}{62}{}%
+\contentsline {paragraph}{Iteration 1}{62}{}%
+\contentsline {paragraph}{Iteration 1 Testing}{63}{}%
+\contentsline {paragraph}{Iteration 2}{63}{}%
+\contentsline {paragraph}{Iteration 2 Testing}{63}{}%
+\contentsline {subsubsection}{\numberline {5.1.4}Delaunay triangulation}{63}{}%
+\contentsline {paragraph}{Point Class iteration 1}{63}{}%
+\contentsline {paragraph}{Point Class iteration 2}{64}{}%
+\contentsline {paragraph}{Point Class iteration 3}{64}{}%
+\contentsline {paragraph}{Edge Class iteration 1}{65}{}%
+\contentsline {paragraph}{Edge Class iteration 2}{66}{}%
+\contentsline {paragraph}{Edge Class Iteration 3}{66}{}%
+\contentsline {paragraph}{Triangle Class iteration 1}{67}{}%
+\contentsline {paragraph}{Triangle Class iteration 2}{68}{}%
+\contentsline {paragraph}{Delaunay Triangulation iteration 1}{70}{}%
+\contentsline {paragraph}{Delaunay Triangulation iteration 2}{72}{}%
+\contentsline {subsubsection}{\numberline {5.1.5}Remove random amount of edges}{74}{}%
 \contentsline {paragraph}{Iteration 1}{74}{}%
-\contentsline {subsubsection}{\numberline {5.1.7}Make sure all rooms are accessible}{75}{}%
-\contentsline {paragraph}{Branching algorithm Iteration 1}{75}{}%
-\contentsline {paragraph}{Branching algorithm Iteration 2}{76}{}%
-\contentsline {paragraph}{New section detection Iteration 1}{77}{}%
-\contentsline {paragraph}{New section detection Iteration 2}{77}{}%
-\contentsline {paragraph}{Connecting sections Iteration 1}{78}{}%
-\contentsline {paragraph}{Connecting sections Iteration 2}{79}{}%
-\contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{79}{}%
-\contentsline {paragraph}{Iteration 1}{79}{}%
-\contentsline {paragraph}{Iteration 2}{80}{}%
-\contentsline {subsubsection}{\numberline {5.1.9}Turn into tile map}{82}{}%
-\contentsline {paragraph}{Iteration 1}{82}{}%
+\contentsline {paragraph}{Iteration 2}{74}{}%
+\contentsline {paragraph}{Iteration 3}{74}{}%
+\contentsline {subsubsection}{\numberline {5.1.6}Add spawn and boss room}{75}{}%
+\contentsline {paragraph}{Iteration 1}{75}{}%
+\contentsline {subsubsection}{\numberline {5.1.7}Make sure all rooms are accessible}{76}{}%
+\contentsline {paragraph}{Branching algorithm Iteration 1}{76}{}%
+\contentsline {paragraph}{Branching algorithm Iteration 2}{77}{}%
+\contentsline {paragraph}{New section detection Iteration 1}{78}{}%
+\contentsline {paragraph}{New section detection Iteration 2}{79}{}%
+\contentsline {paragraph}{Connecting sections Iteration 1}{79}{}%
+\contentsline {paragraph}{Connecting sections Iteration 2}{80}{}%
+\contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{80}{}%
+\contentsline {paragraph}{Iteration 1}{80}{}%
 \contentsline {paragraph}{Iteration 2}{82}{}%
-\contentsline {paragraph}{Iteration 3}{83}{}%
-\contentsline {paragraph}{Iteration 4}{86}{}%
-\contentsline {subsubsection}{\numberline {5.1.10}Spawn player}{87}{}%
-\contentsline {paragraph}{Iteration 1}{87}{}%
-\contentsline {paragraph}{Iteration 2}{88}{}%
-\contentsline {section}{\numberline {6}Testing}{88}{}%
-\contentsline {subsection}{\numberline {6.1}Dungeon Generation}{88}{}%
-\contentsline {subsubsection}{\numberline {6.1.1}Create Rooms}{88}{}%
+\contentsline {subsubsection}{\numberline {5.1.9}Turn into tile map}{83}{}%
+\contentsline {paragraph}{Iteration 1}{83}{}%
+\contentsline {paragraph}{Iteration 2}{84}{}%
+\contentsline {paragraph}{Iteration 3}{84}{}%
+\contentsline {paragraph}{Iteration 4}{87}{}%
+\contentsline {subsubsection}{\numberline {5.1.10}Spawn player}{88}{}%
 \contentsline {paragraph}{Iteration 1}{88}{}%
 \contentsline {paragraph}{Iteration 2}{89}{}%
-\contentsline {paragraph}{Iteration 3}{89}{}%
-\contentsline {paragraph}{Iteration 4}{89}{}%
-\contentsline {subsubsection}{\numberline {6.1.2}Spread Rooms}{89}{}%
-\contentsline {paragraph}{Iteration 1}{89}{}%
-\contentsline {paragraph}{Iteration 2}{89}{}%
-\contentsline {paragraph}{Iteration 3}{89}{}%
-\contentsline {paragraph}{Iteration 4}{89}{}%
-\contentsline {subsubsection}{\numberline {6.1.3}Delete Rooms}{89}{}%
-\contentsline {subsubsection}{\numberline {6.1.4}Delaunay Triangulation}{89}{}%
-\contentsline {subsubsection}{\numberline {6.1.5}Remove random amount of edges}{89}{}%
-\contentsline {subsubsection}{\numberline {6.1.6}Generate spawn and boss room}{89}{}%
-\contentsline {subsubsection}{\numberline {6.1.7}Make sure all rooms are accessible}{89}{}%
-\contentsline {subsubsection}{\numberline {6.1.8}Turn edges into horizontal and vertical}{89}{}%
-\contentsline {subsubsection}{\numberline {6.1.9}Generate corridors}{89}{}%
-\contentsline {subsubsection}{\numberline {6.1.10}Turn into tile map}{89}{}%
-\contentsline {subsubsection}{\numberline {6.1.11}Spawn Player}{89}{}%
-\contentsline {section}{\numberline {7}Evaluation}{89}{}%
-\contentsline {subsection}{\numberline {7.1}Temp Fig Holder}{90}{}%
