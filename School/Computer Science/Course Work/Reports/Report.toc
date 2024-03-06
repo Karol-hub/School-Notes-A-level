@@ -107,7 +107,6 @@
 \contentsline {subsubsection}{\numberline {5.1.2}Spread rooms}{57}{}%
 \contentsline {paragraph}{Iteration 1}{57}{}%
 \contentsline {paragraph}{Iteration 1 Testing}{59}{}%
-\contentsline {paragraph}{Iteration 1}{59}{}%
 \contentsline {paragraph}{Iteration 2}{59}{}%
 \contentsline {paragraph}{Iteration 2 Testing}{60}{}%
 \contentsline {paragraph}{Iteration 3}{60}{}%
@@ -128,29 +127,31 @@
 \contentsline {paragraph}{Edge Class Iteration 3}{66}{}%
 \contentsline {paragraph}{Triangle Class iteration 1}{67}{}%
 \contentsline {paragraph}{Triangle Class iteration 2}{68}{}%
-\contentsline {paragraph}{Delaunay Triangulation iteration 1}{70}{}%
-\contentsline {paragraph}{Delaunay Triangulation iteration 2}{72}{}%
-\contentsline {subsubsection}{\numberline {5.1.5}Remove random amount of edges}{74}{}%
-\contentsline {paragraph}{Iteration 1}{74}{}%
-\contentsline {paragraph}{Iteration 2}{74}{}%
-\contentsline {paragraph}{Iteration 3}{74}{}%
-\contentsline {subsubsection}{\numberline {5.1.6}Add spawn and boss room}{75}{}%
+\contentsline {paragraph}{Bowyer Watson Algorithm Iteration 1}{70}{}%
+\contentsline {paragraph}{Bowyer Watson Algorithm Iteration 1 Testing}{72}{}%
+\contentsline {paragraph}{Bowyer Watson Algorithm Iteration 2}{72}{}%
+\contentsline {paragraph}{Bowyer Watson Algorithm Iteration 2 Testing}{74}{}%
+\contentsline {subsubsection}{\numberline {5.1.5}Remove random amount of edges}{75}{}%
 \contentsline {paragraph}{Iteration 1}{75}{}%
-\contentsline {subsubsection}{\numberline {5.1.7}Make sure all rooms are accessible}{76}{}%
-\contentsline {paragraph}{Branching algorithm Iteration 1}{76}{}%
-\contentsline {paragraph}{Branching algorithm Iteration 2}{77}{}%
-\contentsline {paragraph}{New section detection Iteration 1}{78}{}%
-\contentsline {paragraph}{New section detection Iteration 2}{79}{}%
-\contentsline {paragraph}{Connecting sections Iteration 1}{79}{}%
-\contentsline {paragraph}{Connecting sections Iteration 2}{80}{}%
-\contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{80}{}%
-\contentsline {paragraph}{Iteration 1}{80}{}%
-\contentsline {paragraph}{Iteration 2}{82}{}%
-\contentsline {subsubsection}{\numberline {5.1.9}Turn into tile map}{83}{}%
-\contentsline {paragraph}{Iteration 1}{83}{}%
+\contentsline {paragraph}{Iteration 2}{75}{}%
+\contentsline {paragraph}{Iteration 3}{75}{}%
+\contentsline {subsubsection}{\numberline {5.1.6}Add spawn and boss room}{76}{}%
+\contentsline {paragraph}{Iteration 1}{76}{}%
+\contentsline {subsubsection}{\numberline {5.1.7}Make sure all rooms are accessible}{77}{}%
+\contentsline {paragraph}{Branching algorithm Iteration 1}{77}{}%
+\contentsline {paragraph}{Branching algorithm Iteration 2}{78}{}%
+\contentsline {paragraph}{New section detection Iteration 1}{79}{}%
+\contentsline {paragraph}{New section detection Iteration 2}{80}{}%
+\contentsline {paragraph}{Connecting sections Iteration 1}{80}{}%
+\contentsline {paragraph}{Connecting sections Iteration 2}{81}{}%
+\contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{81}{}%
+\contentsline {paragraph}{Iteration 1}{81}{}%
+\contentsline {paragraph}{Iteration 2}{83}{}%
+\contentsline {subsubsection}{\numberline {5.1.9}Turn into tile map}{84}{}%
+\contentsline {paragraph}{Iteration 1}{84}{}%
 \contentsline {paragraph}{Iteration 2}{84}{}%
-\contentsline {paragraph}{Iteration 3}{84}{}%
-\contentsline {paragraph}{Iteration 4}{87}{}%
-\contentsline {subsubsection}{\numberline {5.1.10}Spawn player}{88}{}%
-\contentsline {paragraph}{Iteration 1}{88}{}%
-\contentsline {paragraph}{Iteration 2}{89}{}%
+\contentsline {paragraph}{Iteration 3}{85}{}%
+\contentsline {paragraph}{Iteration 4}{88}{}%
+\contentsline {subsubsection}{\numberline {5.1.10}Spawn player}{89}{}%
+\contentsline {paragraph}{Iteration 1}{89}{}%
+\contentsline {paragraph}{Iteration 2}{90}{}%

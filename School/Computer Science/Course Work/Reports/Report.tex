@@ -2415,7 +2415,6 @@ public async void SpreadRooms()
 \end{lstlisting}
 
 \myparagraph{Iteration 1 Testing}
-\myparagraph{Iteration 1}
 \begin{table}[H]
 \centering
 \begin{tabular}{|l|l|l|l|l|} 
@@ -3037,8 +3036,8 @@ public class Triangle
 }
 \end{lstlisting}
 
-\myparagraph{Delaunay Triangulation iteration 1}
-This iteration didn't make use of the switching between states, which makes it disorganised. It also contains print statements for debugging so I can identify where errors arise.
+\myparagraph{Bowyer Watson Algorithm Iteration 1}
+This iteration didn't make use of the switching between states, which makes it disorganised. It also contains print statements for debugging so I can identify where errors arise. As the classes were still in development this allowed me to do some sort of testing on them.
 \begin{lstlisting}
 #region Delaunay Triangulation
 // Creates supertriangle that should be large enough to hold all points
@@ -3127,7 +3126,23 @@ QueueRedraw();
 #endregion
 \end{lstlisting}
 
-\myparagraph{Delaunay Triangulation iteration 2}
+\myparagraph{Bowyer Watson Algorithm Iteration 1 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                   & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                                                                               \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Triangulation\\between all points\end{tabular}  & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{triangulation not responding}}             & Stops responding because a loop isn't closed                                                                                                                                         \\ 
+\hline
+2                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Triangulation \\between all points\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{circumcenter not correct}} & \begin{tabular}[c]{@{}l@{}}Circumcentre wasn't calculated correctly\\so generation messed up.~ Will need to\\alter the find circumcentre method in the\\triangle class\end{tabular}  \\ 
+\hline
+3                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Triangulation\\between all points\end{tabular}  & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{doesnt remove some edges}}             & \begin{tabular}[c]{@{}l@{}}Some of the edges that were meant to be\\removed when adding a new point aren't~\\removed\end{tabular}                                                    \\
+\hline
+\end{tabular}
+\end{table}
+
+\myparagraph{Bowyer Watson Algorithm Iteration 2}
 This iteration adds it to the better way of switching between the generation stages, making the code neater and easier to maintain. It also converts the result from a list of triangles to a list of edges which is easier to work with.
 
 \parBr
@@ -3238,6 +3253,22 @@ if (loops == GetChildCount())
 }
 #endregion
 \end{lstlisting}
+
+\myparagraph{Bowyer Watson Algorithm Iteration 2 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                   & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                                  \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Triangulation\\between all points\end{tabular}  & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{super tri not removed}} & \begin{tabular}[c]{@{}l@{}}Doesn't remove triangles containing\\super tri points at the end\end{tabular}                                \\ 
+\hline
+2                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Triangulation \\between all points\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{rooms deluaney triangulation}}             & Triangulates all points successfully~                                                                                                   \\ 
+\hline
+3                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Triangulation\\between all points\end{tabular}  & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{deluaney triangulation stress test}} & \begin{tabular}[c]{@{}l@{}}Triangulated all points successfully\\even when there was an abnormally\\large amount of rooms\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
 
 \subsubsection{Remove random amount of edges}
 \myparagraph{Iteration 1}
