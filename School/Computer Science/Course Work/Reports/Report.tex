@@ -3286,6 +3286,19 @@ GD.Print("polygon count: " + polygon.Count);
 sections = DetectSections(polygon);
 \end{lstlisting}
 
+\myparagraph{Iteration 1 Testing}
+
+\begin{table} [H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                    & \textbf{Actual Result} & \textbf{What happened/Why it happened}                                                                                                                                                                    \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Random amount of \\edges is removed\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{deleted edges}} & \begin{tabular}[c]{@{}l@{}}Random amount of rooms is deleted\\however it deletes all references of an\\edge rather than just the instance in the\\list breaking the rest of the generation.\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
+
 \myparagraph{Iteration 2}
 The problem with the previous iteration is that when it removes an edge it removes all instances of that even if they are in other lists of edges, because all copies of that edge are fed by reference, meaning if one reference of that edge are removed all references are removed. So instead of removing a certain amount of edges I will add a certain amount of edges to a new list.
 
@@ -3306,6 +3319,19 @@ for (int i = 0; polygonEdgeList.Count < (int)(polygon.Count * edgeDeleteFactor);
 polygonDifference = EdgeDiff(polygon, polygonEdgeList);
 sections = DetectSections(polygonEdgeList);
 \end{lstlisting}
+
+\myparagraph{Iteration 2 Testing}
+
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                    & \textbf{Actual Result} & \textbf{What happened/Why it happened}                                                                                  \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Random amount of \\edges is removed\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{remove edges not random}} & \begin{tabular}[c]{@{}l@{}}The selection of edges isn't random\\and some sections are biased over\\others\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
 
 \myparagraph{Iteration 3}
 Now it picks a random edge to add to the list of indexes, before removing it at the end making sure that there are no duplicates removed and a random edge is selected. Meaning that all goals are achieved as the algorithm executes in a reasonable amount of time (goal 1), random amount of edges are removed (goal 2) and a random edge is selected for removal (goal 3).
@@ -3339,88 +3365,21 @@ sections = DetectSections(polygonEdgeList);
 // polygonDifference = polygon - PolygonEdgeList
 \end{lstlisting}
 
-\subsubsection{Add spawn and boss room}
-\myparagraph{Iteration 1}
-The first iteration works well and achieves all the goals listed in design process. Those being: executing in a reasonable amount of time (goal 1), spawn room is generated and connected to the rest of the rooms (goal 2), spawn room is generated above all the other rooms (goal 3), boss room is generated below of other rooms (goal 4) and both rooms are generated relatively close to the horizontal center (goal 5)
-\begin{lstlisting}
-// PolygonEdgeList is where we have to connect new room
-FindMinMax(polygonEdgeList);
+\myparagraph{Iteration 3 Testing}
 
-// Set up variables needed
-Point closestPoint = new Point(null);
-List<Point> graph = MakeGraph(polygonEdgeList);
-float currentLength = 999999f;
-
-// Boss Room Setup
-Node bossRoom = GD.Load<PackedScene>("res://Scenes/RoomVars/boss.tscn").Instantiate();
-AddChild(bossRoom);
-
-// Generate position between min and max X coord but bias center more
-// Make Y coord a certain amount below other rooms.
-bossRoom.GetNode<Area2D>(".").Position = new Vector2(minCoord.X + rng.RandfRange(0.2f, 0.8f) * (maxCoord.X - minCoord.X), maxCoord.Y + roomDist);
-Vector2 bossRoomPos = bossRoom.GetNode<Area2D>(".").Position;
-
-// Make boss room into a point to add it to the graph
-Point bossPoint = new Point(bossRoom.GetNode<Area2D>("."));
-graph.Add(bossPoint);
-
-foreach (Point room in graph)
-{
-    if (currentLength > (room.position - bossRoomPos).Length() && room != bossPoint)
-    {
-        // If the room is closer to the currently closest known room
-        closestPoint = room;
-        currentLength = (room.position - bossRoomPos).Length();
-    }
-}
-
-GD.Print("Boss distance between: " + currentLength);
-
-// Connect boss to the closest room
-bossPoint.ConnectPoint(closestPoint);
-closestPoint.ConnectPoint(bossPoint);
-
-// Reset for the next section
-currentLength = 999999f;
-rng.Randomize();
-
-// Spawn Room Setup
-Node spawnRoom = GD.Load<PackedScene>("res://Scenes/RoomVars/spawn.tscn").Instantiate();
-AddChild(spawnRoom);
-
-// Generate position between min and max X coord but bias center more
-// Make Y coord a certain amount above other rooms.
-spawnRoom.GetNode<Area2D>(".").Position = new Vector2(minCoord.X + rng.RandfRange(0.2f, 0.8f) * (maxCoord.X - minCoord.X), minCoord.Y - roomDist);
-Vector2 spawnRoomPos = spawnRoom.GetNode<Area2D>(".").Position;
-
-// Make spawn room into a point to add it to the graph
-Point spawnPoint = new Point(spawnRoom.GetNode<Area2D>("."));
-graph.Add(spawnPoint);
-
-foreach (Point room in graph)
-{
-    if (currentLength > (room.position - spawnRoomPos).Length() && room != spawnPoint)
-    {
-        // If the room is closer to the currently closest known room
-        closestPoint = room;
-        currentLength = (room.position - spawnRoomPos).Length();
-    }
-}
-
-GD.Print("Spawn distance between: " + currentLength);
-
-// Connect spawn to the closest room
-spawnPoint.ConnectPoint(closestPoint);
-closestPoint.ConnectPoint(spawnPoint);
-
-// Prepare for the next section
-spawnCoords = spawnRoomPos;
-polygonEdgeList = MakeEdges(graph);
-currentState = generationState.makeCoridoors;
-\end{lstlisting}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                    & \textbf{Actual Result} & \textbf{What happened/Why it happened}                                                                                        \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Random amount of \\edges is removed\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{rand edges removed}} & \begin{tabular}[c]{@{}l@{}}Random edge is selected and kept, but\\it has same effect as deleting a random\\edge\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
 
 \subsubsection{Make sure all rooms are accessible}
-This section is broken down to 3 sections like in the design section, branching algorithm from a singular point, detecting a new sections and connecting sections.
+This section is broken down to 3 sections like in the design section, branching algorithm from a singular point, detecting a new sections and connecting sections. The algorithm that will run will be the connecting sections algorithm, but it makes use of all the other algorithms to function, therefore testing for these needs to be conducted together, so all testing will be done on the connecting sections algorithm since it will be the easiest to test.
 
 \myparagraph{Branching algorithm Iteration 1}
 Currently doesn't work and infinitely loops, then crashes the program with a stack overflow, which doesn't accomplish any of the goals set out.
@@ -3614,6 +3573,8 @@ else
 }
 
 \end{lstlisting}
+ 
+ There is no testing as no functional code has been produced.
 
 \myparagraph{Connecting sections Iteration 2}
 Algorithm will add a random edge each time it loops until there is only one section. This means that it accomplishes goal 2, which was making sure all edges are accessible. Goal 1 and 3 are also achieved since the algorithm executes in a reasonable amount of time and rooms without connections are deleted.
@@ -3654,6 +3615,117 @@ else
     currentState = generationState.makeCoridoors;
 }
 \end{lstlisting}
+
+\myparagraph{Connecting sections Iteration 2 Testing}
+\begin{table}
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                             & \textbf{Actual Result} & \textbf{What happened/Why it happened}                                                                                                                                                                                        \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Adds edges until\\there is only one\\section\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{freeze on sections}} & \begin{tabular}[c]{@{}l@{}}Recursive algorithm end condition didn't\\work properly so the function kept calling\\itself until the program crashed.\end{tabular}                                                               \\ 
+\hline
+2                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Adds edges until\\there is only one\\section\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{sections wrong stats}} & \begin{tabular}[c]{@{}l@{}}When turning list of edges into graph the\\connected points aren't cleared and are\\added on top of the old ones so their\\connected to points they aren't meant to\\be connected to\end{tabular}  \\ 
+\hline
+4                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Adds edges until\\there is only one\\section\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{sections connected}}  & \begin{tabular}[c]{@{}l@{}}Algorithm adds edges untill there is onlt\\one section left as intended\end{tabular}                                                                                                               \\
+\hline
+\end{tabular}
+\end{table}
+
+\subsubsection{Add spawn and boss room}
+\myparagraph{Iteration 1}
+The first iteration works well and achieves all the goals listed in design process. Those being: executing in a reasonable amount of time (goal 1), spawn room is generated and connected to the rest of the rooms (goal 2), spawn room is generated above all the other rooms (goal 3), boss room is generated below of other rooms (goal 4) and both rooms are generated relatively close to the horizontal center (goal 5)
+\begin{lstlisting}
+// PolygonEdgeList is where we have to connect new room
+FindMinMax(polygonEdgeList);
+
+// Set up variables needed
+Point closestPoint = new Point(null);
+List<Point> graph = MakeGraph(polygonEdgeList);
+float currentLength = 999999f;
+
+// Boss Room Setup
+Node bossRoom = GD.Load<PackedScene>("res://Scenes/RoomVars/boss.tscn").Instantiate();
+AddChild(bossRoom);
+
+// Generate position between min and max X coord but bias center more
+// Make Y coord a certain amount below other rooms.
+bossRoom.GetNode<Area2D>(".").Position = new Vector2(minCoord.X + rng.RandfRange(0.2f, 0.8f) * (maxCoord.X - minCoord.X), maxCoord.Y + roomDist);
+Vector2 bossRoomPos = bossRoom.GetNode<Area2D>(".").Position;
+
+// Make boss room into a point to add it to the graph
+Point bossPoint = new Point(bossRoom.GetNode<Area2D>("."));
+graph.Add(bossPoint);
+
+foreach (Point room in graph)
+{
+    if (currentLength > (room.position - bossRoomPos).Length() && room != bossPoint)
+    {
+        // If the room is closer to the currently closest known room
+        closestPoint = room;
+        currentLength = (room.position - bossRoomPos).Length();
+    }
+}
+
+GD.Print("Boss distance between: " + currentLength);
+
+// Connect boss to the closest room
+bossPoint.ConnectPoint(closestPoint);
+closestPoint.ConnectPoint(bossPoint);
+
+// Reset for the next section
+currentLength = 999999f;
+rng.Randomize();
+
+// Spawn Room Setup
+Node spawnRoom = GD.Load<PackedScene>("res://Scenes/RoomVars/spawn.tscn").Instantiate();
+AddChild(spawnRoom);
+
+// Generate position between min and max X coord but bias center more
+// Make Y coord a certain amount above other rooms.
+spawnRoom.GetNode<Area2D>(".").Position = new Vector2(minCoord.X + rng.RandfRange(0.2f, 0.8f) * (maxCoord.X - minCoord.X), minCoord.Y - roomDist);
+Vector2 spawnRoomPos = spawnRoom.GetNode<Area2D>(".").Position;
+
+// Make spawn room into a point to add it to the graph
+Point spawnPoint = new Point(spawnRoom.GetNode<Area2D>("."));
+graph.Add(spawnPoint);
+
+foreach (Point room in graph)
+{
+    if (currentLength > (room.position - spawnRoomPos).Length() && room != spawnPoint)
+    {
+        // If the room is closer to the currently closest known room
+        closestPoint = room;
+        currentLength = (room.position - spawnRoomPos).Length();
+    }
+}
+
+GD.Print("Spawn distance between: " + currentLength);
+
+// Connect spawn to the closest room
+spawnPoint.ConnectPoint(closestPoint);
+closestPoint.ConnectPoint(spawnPoint);
+
+// Prepare for the next section
+spawnCoords = spawnRoomPos;
+polygonEdgeList = MakeEdges(graph);
+currentState = generationState.makeCoridoors;
+\end{lstlisting}
+
+\myparagraph{Iteration 1 Testing}
+\begin{table}
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                                                     & \textbf{Actual Result} & \textbf{What happened/Why it happened}                                                                                 \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Spawn room at top\\boss room at bottom\\(rooms represented\\in blue)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{spawnboss fail}} & \begin{tabular}[c]{@{}l@{}}Didn't check if the closest point is\\itself so it connectes itself to itself\end{tabular}  \\ 
+\hline
+3                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Spawn room at top\\boss room at bottom\\(rooms represented\\in blue)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{spawnboss room generated}}             & \begin{tabular}[c]{@{}l@{}}Correctly generate above and below\\respectively\end{tabular}                               \\
+\hline
+\end{tabular}
+\end{table}
+
 
 \subsubsection{Turn edges into horizontal and vertical}
 \myparagraph{Iteration 1}

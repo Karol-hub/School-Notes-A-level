@@ -133,25 +133,30 @@
 \contentsline {paragraph}{Bowyer Watson Algorithm Iteration 2 Testing}{74}{}%
 \contentsline {subsubsection}{\numberline {5.1.5}Remove random amount of edges}{75}{}%
 \contentsline {paragraph}{Iteration 1}{75}{}%
+\contentsline {paragraph}{Iteration 1 Testing}{75}{}%
 \contentsline {paragraph}{Iteration 2}{75}{}%
-\contentsline {paragraph}{Iteration 3}{75}{}%
-\contentsline {subsubsection}{\numberline {5.1.6}Add spawn and boss room}{76}{}%
-\contentsline {paragraph}{Iteration 1}{76}{}%
-\contentsline {subsubsection}{\numberline {5.1.7}Make sure all rooms are accessible}{77}{}%
+\contentsline {paragraph}{Iteration 2 Testing}{75}{}%
+\contentsline {paragraph}{Iteration 3}{76}{}%
+\contentsline {paragraph}{Iteration 3 Testing}{76}{}%
+\contentsline {subsubsection}{\numberline {5.1.6}Make sure all rooms are accessible}{77}{}%
 \contentsline {paragraph}{Branching algorithm Iteration 1}{77}{}%
-\contentsline {paragraph}{Branching algorithm Iteration 2}{78}{}%
-\contentsline {paragraph}{New section detection Iteration 1}{79}{}%
-\contentsline {paragraph}{New section detection Iteration 2}{80}{}%
+\contentsline {paragraph}{Branching algorithm Iteration 2}{77}{}%
+\contentsline {paragraph}{New section detection Iteration 1}{78}{}%
+\contentsline {paragraph}{New section detection Iteration 2}{79}{}%
 \contentsline {paragraph}{Connecting sections Iteration 1}{80}{}%
-\contentsline {paragraph}{Connecting sections Iteration 2}{81}{}%
-\contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{81}{}%
+\contentsline {paragraph}{Connecting sections Iteration 2}{80}{}%
+\contentsline {paragraph}{Connecting sections Iteration 2 Testing}{81}{}%
+\contentsline {subsubsection}{\numberline {5.1.7}Add spawn and boss room}{81}{}%
 \contentsline {paragraph}{Iteration 1}{81}{}%
-\contentsline {paragraph}{Iteration 2}{83}{}%
-\contentsline {subsubsection}{\numberline {5.1.9}Turn into tile map}{84}{}%
-\contentsline {paragraph}{Iteration 1}{84}{}%
+\contentsline {paragraph}{Iteration 1 Testing}{83}{}%
+\contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{83}{}%
+\contentsline {paragraph}{Iteration 1}{83}{}%
 \contentsline {paragraph}{Iteration 2}{84}{}%
-\contentsline {paragraph}{Iteration 3}{85}{}%
-\contentsline {paragraph}{Iteration 4}{88}{}%
-\contentsline {subsubsection}{\numberline {5.1.10}Spawn player}{89}{}%
-\contentsline {paragraph}{Iteration 1}{89}{}%
-\contentsline {paragraph}{Iteration 2}{90}{}%
+\contentsline {subsubsection}{\numberline {5.1.9}Turn into tile map}{85}{}%
+\contentsline {paragraph}{Iteration 1}{85}{}%
+\contentsline {paragraph}{Iteration 2}{86}{}%
+\contentsline {paragraph}{Iteration 3}{87}{}%
+\contentsline {paragraph}{Iteration 4}{89}{}%
+\contentsline {subsubsection}{\numberline {5.1.10}Spawn player}{91}{}%
+\contentsline {paragraph}{Iteration 1}{91}{}%
+\contentsline {paragraph}{Iteration 2}{91}{}%
