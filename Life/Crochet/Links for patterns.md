@@ -15,3 +15,4 @@
 [lil bat](https://www.mariskavos.nl/free-bat-crochet-pattern/)
 [lil bear](https://www.natalinacraft.com/crochet-pocket-bear/)
 [puppycat](https://53stitches.com/puppycat/)
+[lil whale](https://amigurinos.wordpress.com/2018/08/08/free-amigurumi-pattern-whale-patron-gratuito-ballena-amigurumi/)
