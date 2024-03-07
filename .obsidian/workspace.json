@@ -4,19 +4,15 @@
     "type": "split",
     "children": [
       {
-        "id": "420541689014d4b7",
+        "id": "f65d5c810f9f83dd",
         "type": "tabs",
         "children": [
           {
-            "id": "678ff7dda400455e",
+            "id": "d91f4848e8fbfe21",
             "type": "leaf",
             "state": {
-              "type": "markdown",
-              "state": {
-                "file": "School/Physics/Equations.md",
-                "mode": "source",
-                "source": false
-              }
+              "type": "empty",
+              "state": {}
             }
           }
         ]
@@ -93,7 +89,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Physics/Equations.md",
+                "file": "Life/Crochet/Links for patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +106,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Physics/Equations.md",
+                "file": "Life/Crochet/Links for patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +141,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Physics/Equations.md"
+                "file": "Life/Crochet/Links for patterns.md"
               }
             }
           }
@@ -154,7 +150,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -168,21 +165,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "678ff7dda400455e",
+  "active": "d91f4848e8fbfe21",
   "lastOpenFiles": [
-    "Life/Crochet/PDF Patterns/DDCrochetPattern_Cinnamaroll20160225.pdf",
     "Life/Crochet/Links for patterns.md",
-    "Life/Crochet/PDF Patterns/Plague_Doctor_Amigurumi.pdf",
+    "Life/Crochet/Tracking Stuff.md",
+    "School/Maths/Textbook/Pure Year 2.pdf",
+    "Life/Crochet/PDF Patterns/Fleur-the-Whale.pdf",
+    "Life/Crochet/PDF Patterns/Paco_the_Tacosaurus__Updated_.pdf",
+    "Life/Crochet/PDF Patterns/Snow_Cabin_Dolphin_by_perozu_-_updated_2022.pdf",
+    "Life/Crochet/PDF Patterns/Baby_baphomet_amigurumi_patron_by_Lady_Artemisa.pdf",
     "Life/Crochet/PDF Patterns/Raven.pdf",
+    "School/Physics/Equations.md",
+    "Life/Crochet/PDF Patterns/DDCrochetPattern_Cinnamaroll20160225.pdf",
+    "Life/Crochet/PDF Patterns/Plague_Doctor_Amigurumi.pdf",
     "Life/Crochet/PDF Patterns/tiny_slugcat_pattern.pdf",
     "Life/Crochet/PDF Patterns/219amigurumi-62Pikachu-Pokemonnew.pdf",
-    "Life/Crochet/PDF Patterns/Junimo_Amigurumi_by_icrochetthings.pdf",
-    "Life/Crochet/PDF Patterns/KrobusAmigurumiFinal.pdf",
-    "Life/Crochet/PDF Patterns/little-blue-lobster-5.pdf",
     "School/Computer Science/Course Work/Reports/Images/less dense gen room variations.png",
-    "School/Computer Science/Course Work/Reports/Images/less dense gen room variations.png.0.pdnSave",
     "School/Computer Science/Course Work/Reports/Images/less dense gen.png",
-    "School/Computer Science/Course Work/Reports/Images/less dense gen.png.0.pdnSave",
     "School/Computer Science/Course Work/Reports/Tables.md",
     "School/Computer Science/Course Work/Reports/Images/Nothing happened.png",
     "School/Computer Science/Course Work/Reports/Images/rooms generated successful.png",
@@ -194,7 +193,6 @@
     "School/Computer Science/Course Work/Reports/Images/sep_vecs_rects.png",
     "School/Computer Science/Course Work/Reports/Feedback/Feedback 1.md",
     "School/Maths/Notes/Defenitions/Geometric Series.md",
-    "Life/Crochet/Tracking Stuff.md",
     "School/Maths/Notes/Defenitions/Integration.md",
     "School/Maths/Notes/Defenitions/Differentiation Trigonometric functions.md",
     "School/Maths/Notes/Pure/Year 2/9 Differentiation.md",
@@ -213,7 +211,6 @@
     "School/Maths/Notes/Defenitions/Differential Equations.md",
     "School/Physics/Notes/Defenitions/Radioactive Decay.md",
     "School/Physics/Notes/Defenitions/Nuclear Fusion.md",
-    "School/Maths/Notes/Defenitions/Arithmetic Sequence.md",
-    "School/Physics/Notes/Defenitions/Nuclear Fusion Process.md"
+    "School/Maths/Notes/Defenitions/Arithmetic Sequence.md"
   ]
 }

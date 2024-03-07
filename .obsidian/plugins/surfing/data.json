@@ -44,5 +44,28 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "cc32b3080ea0c3bd",
+      "parent": 0,
+      "droppable": true,
+      "text": "Sammy the Seal",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    },
+    {
+      "id": "5717740a4e736106",
+      "parent": 0,
+      "droppable": true,
+      "text": "FREE AMIGURUMI PATTERN: Blue Whale |",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }
