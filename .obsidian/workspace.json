@@ -4,11 +4,11 @@
     "type": "split",
     "children": [
       {
-        "id": "7ec57237e6446d16",
+        "id": "6bd9588074614a41",
         "type": "tabs",
         "children": [
           {
-            "id": "1910f74ec568eb65",
+            "id": "e9e69dc3a6ca1381",
             "type": "leaf",
             "state": {
               "type": "empty",
@@ -161,8 +161,9 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "1910f74ec568eb65",
+  "active": "e9e69dc3a6ca1381",
   "lastOpenFiles": [
+    "Life/Anime Watch List.md",
     "Life/Crochet/PDF Patterns/DDCrochetPattern_Cinnamaroll20160225.pdf",
     "Life/Crochet/Links for patterns.md",
     "Life/Crochet/PDF Patterns/Baby_baphomet_amigurumi_patron_by_Lady_Artemisa.pdf",
