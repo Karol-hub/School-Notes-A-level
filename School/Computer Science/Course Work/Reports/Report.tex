@@ -3719,7 +3719,7 @@ currentState = generationState.makeCoridoors;
 \hline
 \begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                                                     & \textbf{Actual Result} & \textbf{What happened/Why it happened}                                                                                 \\ 
 \hline
-1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Spawn room at top\\boss room at bottom\\(rooms represented\\in blue)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{spawnboss fail}} & \begin{tabular}[c]{@{}l@{}}Didn't check if the closest point is\\itself so it connectes itself to itself\end{tabular}  \\ 
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Spawn room at top\\boss room at bottom\\(rooms represented\\in blue)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{spawnboss fail}} & \begin{tabular}[c]{@{}l@{}}Didn't check if the closest point is\\itself, so it connectes itself to itself\end{tabular}  \\ 
 \hline
 3                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Spawn room at top\\boss room at bottom\\(rooms represented\\in blue)\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{spawnboss room generated}}             & \begin{tabular}[c]{@{}l@{}}Correctly generate above and below\\respectively\end{tabular}                               \\
 \hline
@@ -3791,8 +3791,20 @@ for (int i = 0; i < polygonEdgeList.Count; i++)
 currentState = generationState.draw;
 \end{lstlisting}
 
+\myparagraph{Iteration 1 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                                              & \textbf{Actual Result} & \textbf{Why it happened/What happened}  \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Horizontal and\\vertical edges are\\connecting all the\\rooms\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{bad horizontal + vert}} & Some rooms are unreachable              \\
+\hline
+\end{tabular}
+\end{table}
+
 \myparagraph{Iteration 2}
-Settled with overlapping corridors and generated all possibilities to ensure that all rooms are accessible. With this the generate corridors section has also been accomplished as both goals are achieved since the algorithm executes in a reasonable amount of time (goal 1) and the entire map is now composed of vertical and horizontal edges.
+Settled with overlapping corridors and generated all possibilities to ensure that all rooms are accessible. With this the generate corridors section has also been accomplished as both goals are achieved since the algorithm executes in a reasonable amount of time (goal 1) and the entire map is now composed of vertical and horizontal edges. It also generates the corridor object.
 \begin{lstlisting}
 // Make the corridors horizontal and vertical
 polygon.Clear();

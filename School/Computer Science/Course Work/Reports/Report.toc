@@ -151,12 +151,13 @@
 \contentsline {paragraph}{Iteration 1 Testing}{83}{}%
 \contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{83}{}%
 \contentsline {paragraph}{Iteration 1}{83}{}%
+\contentsline {paragraph}{Iteration 1 Testing}{84}{}%
 \contentsline {paragraph}{Iteration 2}{84}{}%
 \contentsline {subsubsection}{\numberline {5.1.9}Turn into tile map}{85}{}%
 \contentsline {paragraph}{Iteration 1}{85}{}%
 \contentsline {paragraph}{Iteration 2}{86}{}%
 \contentsline {paragraph}{Iteration 3}{87}{}%
-\contentsline {paragraph}{Iteration 4}{89}{}%
+\contentsline {paragraph}{Iteration 4}{90}{}%
 \contentsline {subsubsection}{\numberline {5.1.10}Spawn player}{91}{}%
 \contentsline {paragraph}{Iteration 1}{91}{}%
 \contentsline {paragraph}{Iteration 2}{91}{}%
