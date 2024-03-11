@@ -4,18 +4,41 @@
     "type": "split",
     "children": [
       {
-        "id": "6bd9588074614a41",
+        "id": "f65d5c810f9f83dd",
         "type": "tabs",
         "children": [
           {
-            "id": "e9e69dc3a6ca1381",
+            "id": "1f8768b34840375d",
             "type": "leaf",
             "state": {
-              "type": "empty",
-              "state": {}
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Applied Year 2.pdf"
+              }
+            }
+          },
+          {
+            "id": "75307474b14ea1c7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Applied Year 2.pdf"
+              }
+            }
+          },
+          {
+            "id": "8883749f38db38e7",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Applied Year 2.pdf"
+              }
             }
           }
-        ]
+        ],
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -89,6 +112,7 @@
             "state": {
               "type": "backlink",
               "state": {
+                "file": "School/Maths/Textbook/Applied Year 2.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -105,6 +129,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
+                "file": "School/Maths/Textbook/Applied Year 2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +163,9 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {}
+              "state": {
+                "file": "School/Maths/Textbook/Applied Year 2.pdf"
+              }
             }
           }
         ],
@@ -161,20 +188,21 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e9e69dc3a6ca1381",
+  "active": "8883749f38db38e7",
   "lastOpenFiles": [
+    "School/Computer Science/Course Work/Reports/Images/bad horizontal + vert.png",
     "Life/Anime Watch List.md",
-    "Life/Crochet/PDF Patterns/DDCrochetPattern_Cinnamaroll20160225.pdf",
-    "Life/Crochet/Links for patterns.md",
-    "Life/Crochet/PDF Patterns/Baby_baphomet_amigurumi_patron_by_Lady_Artemisa.pdf",
-    "Life/Crochet/PDF Patterns/Snow_Cabin_Dolphin_by_perozu_-_updated_2022.pdf",
-    "Life/Crochet/PDF Patterns/Raven.pdf",
-    "Life/Crochet/PDF Patterns/Plague_Doctor_Amigurumi.pdf",
-    "Life/Crochet/PDF Patterns/Paco_the_Tacosaurus__Updated_.pdf",
-    "Life/Crochet/Tracking Stuff.md",
     "School/Maths/Textbook/Pure Year 2.pdf",
+    "Life/Crochet/Links for patterns.md",
+    "Life/Crochet/Tracking Stuff.md",
     "Life/Crochet/PDF Patterns/Fleur-the-Whale.pdf",
+    "Life/Crochet/PDF Patterns/Paco_the_Tacosaurus__Updated_.pdf",
+    "Life/Crochet/PDF Patterns/Snow_Cabin_Dolphin_by_perozu_-_updated_2022.pdf",
+    "Life/Crochet/PDF Patterns/Baby_baphomet_amigurumi_patron_by_Lady_Artemisa.pdf",
+    "Life/Crochet/PDF Patterns/Raven.pdf",
     "School/Physics/Equations.md",
+    "Life/Crochet/PDF Patterns/DDCrochetPattern_Cinnamaroll20160225.pdf",
+    "Life/Crochet/PDF Patterns/Plague_Doctor_Amigurumi.pdf",
     "Life/Crochet/PDF Patterns/tiny_slugcat_pattern.pdf",
     "Life/Crochet/PDF Patterns/219amigurumi-62Pikachu-Pokemonnew.pdf",
     "School/Computer Science/Course Work/Reports/Images/less dense gen room variations.png",
@@ -207,7 +235,6 @@
     "School/Maths/Notes/Defenitions/Geometric Sequence.md",
     "School/Maths/Notes/Defenitions/Differential Equations.md",
     "School/Physics/Notes/Defenitions/Radioactive Decay.md",
-    "School/Physics/Notes/Defenitions/Nuclear Fusion.md",
-    "School/Maths/Notes/Defenitions/Arithmetic Sequence.md"
+    "School/Physics/Notes/Defenitions/Nuclear Fusion.md"
   ]
 }

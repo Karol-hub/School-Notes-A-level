@@ -2119,6 +2119,16 @@ At this point in design I don't have enough time to create a proper combat syste
 \section{Developing a solution}
 Since I am using the Godot game engine to create my project I can use many different languages which are supported in Godot such as C, C++, C\#, GDScript (made specifically for Godot) and other languages which were implemented by the community, using one of these languages would also mean that there would be less support, since less people would be using it and since it's not official the quality of the documentation may not be of the best quality. Therefore I have decided to use C\# to generate my project since I have the most experience with the language due to my experience with unity, however my knowledge is very limited and I would need to adapt my knowledge so I can apply it to Godot. 
 
+\parBr
+
+\myparagraph{Black box testing}
+Black box testing is where an application is tested without being able to see the inner workings and structure of the code. This would be good as I could make use of this when giving my stakeholders prototypes, as it would simulate how an end user would look at the program.
+
+\parBr
+
+\myparagraph{White box testing} 
+The tester has complete knowledge of the internal structure of the application, I am going to primary utilise this type of testing when developing algorithms to ensure that they are working.s
+
 \subsection{Dungeon Generation}
 Each section will need to be completed for the algorithm to be finished, however each section may need multiple frames to be completed so to reliably switch between the generation states, for this to occur I created an enum variable and created an instance of the enum variable which can store one state defined in the enum variable. Below is an example of this in practice.
 \begin{lstlisting}
@@ -3858,6 +3868,22 @@ for (int i = 0; i < polygon.Count; i++)
 //Move onto next stage of generation
 currentState = generationState.draw;
 \end{lstlisting}
+
+\myparagraph{Iteration 2 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                                          & \textbf{Actual Result} & \textbf{What happened/Why it happened}                                                                 \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}All rooms connected \\with horizontal and\\vertical edges\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{up down lines}} & Edges generate correctly                                                                               \\ 
+\hline
+2                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Corridor generated\\on each edge\end{tabular}                          & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{corridor error}} & Scale of corridor is wrong                                                                             \\ 
+\hline
+3                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Corridor generated\\on each edge\end{tabular}                          & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{coridoors and edges}} & \begin{tabular}[c]{@{}l@{}}All rooms connected~ with horizontal \\and vertical corridors, green represents\\corridors, pink representes edges\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
 
 \subsubsection{Turn into tile map}
 Checks each tile one at a time, is very slow (goal 1 isn't achieved) and doesn't have much variation in tiles placed (goal 2 isn't achieved), this causes the map to be boring so goal 3 is also not met. There is also no way for the player to traverse the vertical corridor so it's not manoeuvrable for the player (goal 4).

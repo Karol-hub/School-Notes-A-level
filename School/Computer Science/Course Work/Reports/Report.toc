@@ -94,18 +94,20 @@
 \contentsline {subsection}{\numberline {4.9}Boss Design}{53}{}%
 \contentsline {subsection}{\numberline {4.10}UI}{53}{}%
 \contentsline {section}{\numberline {5}Developing a solution}{53}{}%
+\contentsline {paragraph}{Black box testing}{53}{}%
+\contentsline {paragraph}{White box testing}{53}{}%
 \contentsline {subsection}{\numberline {5.1}Dungeon Generation}{53}{}%
 \contentsline {subsubsection}{\numberline {5.1.1}Create rooms}{54}{}%
 \contentsline {paragraph}{Iteration 1}{54}{}%
 \contentsline {paragraph}{Iteration 1 Testing}{55}{}%
 \contentsline {paragraph}{Iteration 2}{55}{}%
-\contentsline {paragraph}{Iteration 2 Testing}{55}{}%
-\contentsline {paragraph}{Iteration 3}{55}{}%
-\contentsline {paragraph}{Iteration 3 Testing}{56}{}%
+\contentsline {paragraph}{Iteration 2 Testing}{56}{}%
+\contentsline {paragraph}{Iteration 3}{56}{}%
+\contentsline {paragraph}{Iteration 3 Testing}{57}{}%
 \contentsline {paragraph}{Iteration 4}{57}{}%
-\contentsline {paragraph}{Iteration 4 Testing}{57}{}%
-\contentsline {subsubsection}{\numberline {5.1.2}Spread rooms}{57}{}%
-\contentsline {paragraph}{Iteration 1}{57}{}%
+\contentsline {paragraph}{Iteration 4 Testing}{58}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Spread rooms}{58}{}%
+\contentsline {paragraph}{Iteration 1}{58}{}%
 \contentsline {paragraph}{Iteration 1 Testing}{59}{}%
 \contentsline {paragraph}{Iteration 2}{59}{}%
 \contentsline {paragraph}{Iteration 2 Testing}{60}{}%
@@ -118,13 +120,13 @@
 \contentsline {paragraph}{Iteration 1 Testing}{63}{}%
 \contentsline {paragraph}{Iteration 2}{63}{}%
 \contentsline {paragraph}{Iteration 2 Testing}{63}{}%
-\contentsline {subsubsection}{\numberline {5.1.4}Delaunay triangulation}{63}{}%
-\contentsline {paragraph}{Point Class iteration 1}{63}{}%
+\contentsline {subsubsection}{\numberline {5.1.4}Delaunay triangulation}{64}{}%
+\contentsline {paragraph}{Point Class iteration 1}{64}{}%
 \contentsline {paragraph}{Point Class iteration 2}{64}{}%
 \contentsline {paragraph}{Point Class iteration 3}{64}{}%
 \contentsline {paragraph}{Edge Class iteration 1}{65}{}%
 \contentsline {paragraph}{Edge Class iteration 2}{66}{}%
-\contentsline {paragraph}{Edge Class Iteration 3}{66}{}%
+\contentsline {paragraph}{Edge Class Iteration 3}{67}{}%
 \contentsline {paragraph}{Triangle Class iteration 1}{67}{}%
 \contentsline {paragraph}{Triangle Class iteration 2}{68}{}%
 \contentsline {paragraph}{Bowyer Watson Algorithm Iteration 1}{70}{}%
@@ -135,12 +137,12 @@
 \contentsline {paragraph}{Iteration 1}{75}{}%
 \contentsline {paragraph}{Iteration 1 Testing}{75}{}%
 \contentsline {paragraph}{Iteration 2}{75}{}%
-\contentsline {paragraph}{Iteration 2 Testing}{75}{}%
+\contentsline {paragraph}{Iteration 2 Testing}{76}{}%
 \contentsline {paragraph}{Iteration 3}{76}{}%
-\contentsline {paragraph}{Iteration 3 Testing}{76}{}%
+\contentsline {paragraph}{Iteration 3 Testing}{77}{}%
 \contentsline {subsubsection}{\numberline {5.1.6}Make sure all rooms are accessible}{77}{}%
 \contentsline {paragraph}{Branching algorithm Iteration 1}{77}{}%
-\contentsline {paragraph}{Branching algorithm Iteration 2}{77}{}%
+\contentsline {paragraph}{Branching algorithm Iteration 2}{78}{}%
 \contentsline {paragraph}{New section detection Iteration 1}{78}{}%
 \contentsline {paragraph}{New section detection Iteration 2}{79}{}%
 \contentsline {paragraph}{Connecting sections Iteration 1}{80}{}%
@@ -152,12 +154,13 @@
 \contentsline {subsubsection}{\numberline {5.1.8}Turn edges into horizontal and vertical}{83}{}%
 \contentsline {paragraph}{Iteration 1}{83}{}%
 \contentsline {paragraph}{Iteration 1 Testing}{84}{}%
-\contentsline {paragraph}{Iteration 2}{84}{}%
-\contentsline {subsubsection}{\numberline {5.1.9}Turn into tile map}{85}{}%
-\contentsline {paragraph}{Iteration 1}{85}{}%
-\contentsline {paragraph}{Iteration 2}{86}{}%
-\contentsline {paragraph}{Iteration 3}{87}{}%
+\contentsline {paragraph}{Iteration 2}{85}{}%
+\contentsline {paragraph}{Iteration 2 Testing}{86}{}%
+\contentsline {subsubsection}{\numberline {5.1.9}Turn into tile map}{86}{}%
+\contentsline {paragraph}{Iteration 1}{86}{}%
+\contentsline {paragraph}{Iteration 2}{87}{}%
+\contentsline {paragraph}{Iteration 3}{88}{}%
 \contentsline {paragraph}{Iteration 4}{90}{}%
-\contentsline {subsubsection}{\numberline {5.1.10}Spawn player}{91}{}%
-\contentsline {paragraph}{Iteration 1}{91}{}%
-\contentsline {paragraph}{Iteration 2}{91}{}%
+\contentsline {subsubsection}{\numberline {5.1.10}Spawn player}{92}{}%
+\contentsline {paragraph}{Iteration 1}{92}{}%
+\contentsline {paragraph}{Iteration 2}{92}{}%

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.5)  10 MAR 2024 20:31
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.21)  11 MAR 2024 12:54
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -6,9 +6,9 @@ entering extended mode
 (Report.tex
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/base\article.cls
 Document Class: article 2023/05/17 v1.4n Standard LaTeX document class
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/base\size10.clo
 File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 )
 \c@part=\count185
@@ -23,43 +23,43 @@ File: size10.clo 2023/05/17 v1.4n Standard LaTeX file (size option)
 \belowcaptionskip=\skip49
 \bibindent=\dimen140
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphicx.sty
 Package: graphicx 2021/09/16 v1.2d Enhanced LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/graphics\keyval.sty
 Package: keyval 2022/05/29 v1.15 key=value parser (DPC)
 \KV@toks@=\toks17
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/graphics\graphics.sty
 Package: graphics 2022/03/10 v1.4e Standard LaTeX Graphics (DPC,SPQR)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/graphics\trig.sty
 Package: trig 2021/08/11 v1.11 sin cos tan (DPC)
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\graphics.c
 fg
 File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
 )
 Package graphics Info: Driver file: pdftex.def on input line 107.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/graphics-def\pdftex.def
 File: pdftex.def 2022/09/22 v1.2b Graphics/color driver for pdftex
 ))
 \Gin@req@height=\dimen141
 \Gin@req@width=\dimen142
-) (C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
+) (C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/wrapfig\wrapfig.sty
 \wrapoverhang=\dimen143
 \WF@size=\dimen144
 \c@WF@wrappedlines=\count193
 \WF@box=\box51
 \WF@everypar=\toks18
 Package: wrapfig 2003/01/31  v 3.6
-) (C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
+) (C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.sty
 Package: geometry 2020/01/02 v5.9 Page Geometry
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/iftex\ifvtex.sty
 Package: ifvtex 2019/10/25 v1.7 ifvtex legacy package. Use iftex instead.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/iftex\iftex.sty
 Package: iftex 2022/02/03 v1.0f TeX engine tests
 ))
 \Gm@cnth=\count194
@@ -75,44 +75,44 @@ Package: iftex 2022/02/03 v1.0f TeX engine tests
 \Gm@layoutvoffset=\dimen152
 \Gm@dimlist=\toks19
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/geometry\geometry.cfg))
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/frontendlayer\tikz.
 sty
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgf.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfrcs.st
 y
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -common.tex
 \pgfutil@everybye=\toks20
 \pgfutil@tempdima=\dimen153
 \pgfutil@tempdimb=\dimen154
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfutil
 -latex.def
 \pgfutil@abb=\box52
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfrcs.
 code.tex
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf\pgf.revision.tex)
 Package: pgfrcs 2023-01-15 v3.1.10 (3.1.10)
 ))
 Package: pgf 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/basiclayer\pgfcore.
 sty
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/systemlayer\pgfsys.
 sty
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 s.code.tex
 Package: pgfsys 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex
 \pgfkeys@pathtoks=\toks21
 \pgfkeys@temptoks=\toks22
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 libraryfiltered.code.tex
 \pgfkeys@tmptoks=\toks23
 ))
@@ -137,38 +137,38 @@ libraryfiltered.code.tex
 \t@pgf@tokc=\toks26
 \pgf@sys@id@count=\count267
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgf.c
 fg
 File: pgf.cfg 2023-01-15 v3.1.10 (3.1.10)
 )
 Driver file for pgf: pgfsys-pdftex.def
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 s-pdftex.def
 File: pgfsys-pdftex.def 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 s-common-pdf.def
 File: pgfsys-common-pdf.def 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 ssoftpath.code.tex
 File: pgfsyssoftpath.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfsyssoftpath@smallbuffer@items=\count268
 \pgfsyssoftpath@bigbuffer@items=\count269
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/systemlayer\pgfsy
 sprotocol.code.tex
 File: pgfsysprotocol.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/xcolor\xcolor.sty
 Package: xcolor 2022/06/12 v2.14 LaTeX color extensions (UK)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/graphics-cfg\color.cfg
 File: color.cfg 2016/01/02 v1.6 sample color configuration
 )
 Package xcolor Info: Driver file: pdftex.def on input line 227.
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/graphics\mathcolor.ltx)
 Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1353.
 Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1357.
 Package xcolor Info: Model `RGB' extended on input line 1369.
@@ -179,15 +179,15 @@ Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1374.
 Package xcolor Info: Model `Gray' substituted by `gray' on input line 1375.
 Package xcolor Info: Model `wave' substituted by `hsb' on input line 1376.
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 e.code.tex
 Package: pgfcore 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
 .tex
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathutil.
 code.tex)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathparse
 r.code.tex
 \pgfmath@dimen=\dimen165
 \pgfmath@count=\count270
@@ -196,33 +196,33 @@ r.code.tex
 \pgfmath@stack@operand=\toks28
 \pgfmath@stack@operation=\toks29
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.code.tex)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.basic.code.tex)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.trigonometric.code.tex)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.random.code.tex)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.comparison.code.tex)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.base.code.tex)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.round.code.tex)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.misc.code.tex)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfunct
 ions.integerarithmetics.code.tex)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathcalc.
 code.tex)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmathfloat
 .code.tex
 \c@pgfmathroundto@lastzeros=\count271
 ))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfint.code.
 tex)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epoints.code.tex
 File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@picminx=\dimen166
@@ -240,19 +240,19 @@ File: pgfcorepoints.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@zx=\dimen178
 \pgf@zy=\dimen179
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathconstruct.code.tex
 File: pgfcorepathconstruct.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@path@lastx=\dimen180
 \pgf@path@lasty=\dimen181
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathusage.code.tex
 File: pgfcorepathusage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@shorten@end@additional=\dimen182
 \pgf@shorten@start@additional=\dimen183
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 escopes.code.tex
 File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfpic=\box54
@@ -260,96 +260,96 @@ File: pgfcorescopes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@layerbox@main=\box56
 \pgf@picture@serial@count=\count272
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 egraphicstate.code.tex
 File: pgfcoregraphicstate.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgflinewidth=\dimen184
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 etransformations.code.tex
 File: pgfcoretransformations.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@pt@x=\dimen185
 \pgf@pt@y=\dimen186
 \pgf@pt@temp=\dimen187
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 equick.code.tex
 File: pgfcorequick.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eobjects.code.tex
 File: pgfcoreobjects.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epathprocessing.code.tex
 File: pgfcorepathprocessing.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 earrows.code.tex
 File: pgfcorearrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfarrowsep=\dimen188
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eshade.code.tex
 File: pgfcoreshade.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@max=\dimen189
 \pgf@sys@shading@range@num=\count273
 \pgf@shadingcount=\count274
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eimage.code.tex
 File: pgfcoreimage.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 eexternal.code.tex
 File: pgfcoreexternal.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfexternal@startupbox=\box57
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 elayers.code.tex
 File: pgfcorelayers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 etransparency.code.tex
 File: pgfcoretransparency.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 epatterns.code.tex
 File: pgfcorepatterns.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/basiclayer\pgfcor
 erdf.code.tex
 File: pgfcorerdf.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 shapes.code.tex
 File: pgfmoduleshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodeparttextbox=\box58
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 plot.code.tex
 File: pgfmoduleplot.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-0-65.sty
 Package: pgfcomp-version-0-65 2023-01-15 v3.1.10 (3.1.10)
 \pgf@nodesepstart=\dimen190
 \pgf@nodesepend=\dimen191
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/compatibility\pgfco
 mp-version-1-18.sty
 Package: pgfcomp-version-1-18 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgffor.st
 y
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/utilities\pgfkeys.s
 ty
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgfkeys
 .code.tex))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf/math\pgfmath.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/math\pgfmath.code
 .tex))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/utilities\pgffor.
 code.tex
 Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@iter=\dimen192
@@ -357,11 +357,11 @@ Package: pgffor 2023-01-15 v3.1.10 (3.1.10)
 \pgffor@stack=\toks30
 \pgffor@toks=\toks31
 ))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z\tikz.code.tex
 Package: tikz 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryplothandlers.code.tex
 File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@plot@mark@count=\count275
@@ -384,7 +384,7 @@ File: pgflibraryplothandlers.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \tikznumberofcurrentchild=\count278
 \tikz@fig@count=\count279
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/modules\pgfmodule
 matrix.code.tex
 File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfmatrixcurrentrow=\count280
@@ -393,55 +393,55 @@ File: pgfmodulematrix.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
 \tikz@expandcount=\count283
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarytopaths.code.tex
 File: tikzlibrarytopaths.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryshapes.code.tex
 File: tikzlibraryshapes.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryshapes.geometric.code.tex
 File: tikzlibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
 pgflibraryshapes.geometric.code.tex
 File: pgflibraryshapes.geometric.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryshapes.misc.code.tex
 File: tikzlibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
 pgflibraryshapes.misc.code.tex
 File: pgflibraryshapes.misc.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryshapes.symbols.code.tex
 File: tikzlibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
 pgflibraryshapes.symbols.code.tex
 File: pgflibraryshapes.symbols.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryshapes.arrows.code.tex
 File: tikzlibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
 pgflibraryshapes.arrows.code.tex
 File: pgflibraryshapes.arrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 ))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryshapes.callouts.code.tex
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
 pgflibraryshapes.callouts.code.tex))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryshapes.multipart.code.tex
 File: tikzlibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries/shapes\
 pgflibraryshapes.multipart.code.tex
 File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodepartlowerbox=\box63
@@ -465,65 +465,65 @@ File: pgflibraryshapes.multipart.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfnodepartsixbox=\box81
 \pgfnodepartfivebox=\box82
 )))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryarrows.code.tex
 File: tikzlibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/libraries\pgflibr
 aryarrows.code.tex
 File: pgflibraryarrows.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \arrowsize=\dimen259
 ))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf-pie\pgf-pie.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf-pie\pgf-pie.sty
 Package: pgf-pie 2022/06/14 v0.7 Some LaTeX macros for pie chart by using PGF/T
 ikz package.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf-pie\tikzlibrarypie.
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf-pie\tikzlibrarypie.
 code.tex
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/carlisle\scalefnt.sty)
 \pgfpie@angleEnd=\dimen260
 \pgfpie@explodeLength=\count284
 \pgfpie@colorLength=\count285
 \pgfpie@sliceLength=\count286
-)) (C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.st
+)) (C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.st
 y
 Package: biblatex 2023/03/05 v3.19 programmable bibliographies (PK/MW)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pdftexcmds\pdftexcmds
 .sty
 Package: pdftexcmds 2020-06-27 v0.33 Utility functions of pdfTeX for LuaTeX (HO
 )
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/infwarerr\infwarerr.s
 ty
 Package: infwarerr 2019/12/03 v1.5 Providing info/warning/error messages (HO)
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/ltxcmds\ltxcmds.sty
 Package: ltxcmds 2020-05-10 v1.25 LaTeX kernel commands for general use (HO)
 )
 Package pdftexcmds Info: \pdf@primitive is available.
 Package pdftexcmds Info: \pdf@ifprimitive is available.
 Package pdftexcmds Info: \pdfdraftmode found.
-) (C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
+) (C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/etoolbox\etoolbox.sty
 Package: etoolbox 2020/10/05 v2.5k e-TeX tools for LaTeX (JAW)
 \etb@tempcnta=\count287
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/kvoptions\kvoptions.sty
 Package: kvoptions 2022-06-15 v3.15 Key value format for package options (HO)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/kvsetkeys\kvsetkeys.sty
 Package: kvsetkeys 2022-10-05 v1.19 Key value parser (HO)
-)) (C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
+)) (C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.sty
 Package: logreq 2010/08/04 v1.0 xml request logger
 \lrq@indent=\count288
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/logreq\logreq.def
 File: logreq.def 2010/08/04 v1.0 logreq spec v1.0
 ))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/base\ifthen.sty
 Package: ifthen 2022/04/13 v1.1d Standard LaTeX ifthen package (DPC)
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/url\url.sty
 \Urlmuskip=\muskip16
 Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 )
@@ -587,7 +587,7 @@ Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
 Package biblatex Info: Trying to load biblatex default data model...
 Package biblatex Info: ... file 'blx-dm.def' found.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-dm.def
 File: blx-dm.def 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
 Package biblatex Info: Trying to load biblatex style data model...
@@ -679,13 +679,13 @@ Package biblatex Info: ... file 'biblatex-dm.cfg' not found.
 Package biblatex Info: Trying to load compatibility code...
 Package biblatex Info: ... file 'blx-compat.def' found.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-compat.def
 File: blx-compat.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 )
 Package biblatex Info: Trying to load BibTeX backend compatibility...
 Package biblatex Info: ... file 'blx-bibtex.def' found.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-bibtex.def
 File: blx-bibtex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 
 Package biblatex Warning: Using fall-back bibtex backend:
@@ -694,7 +694,7 @@ Package biblatex Warning: Using fall-back bibtex backend:
 )
 Package biblatex Info: Trying to load generic definitions...
 Package biblatex Info: ... file 'biblatex.def' found.
- (C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
+ (C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.def
 File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 \c@textcitecount=\count403
 \c@textcitetotal=\count404
@@ -713,13 +713,13 @@ File: biblatex.def 2023/03/05 v3.19 biblatex compatibility (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.bbx' found.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\alphabetic
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\alphabetic
 .bbx
 File: alphabetic.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load bibliography style 'standard'...
 Package biblatex Info: ... file 'standard.bbx' found.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/bbx\standard.b
 bx
 File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 \c@bbx:relatedcount=\count412
@@ -728,7 +728,7 @@ File: standard.bbx 2023/03/05 v3.19 biblatex bibliography style (PK/MW)
 Package biblatex Info: Trying to load citation style 'alphabetic'...
 Package biblatex Info: ... file 'alphabetic.cbx' found.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\alphabetic
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/cbx\alphabetic
 .cbx
 File: alphabetic.cbx 2023/03/05 v3.19 biblatex citation style (PK/MW)
 Package biblatex Info: Redefining '\cite'.
@@ -745,16 +745,16 @@ Package biblatex Info: Redefining '\smartcites'.
 Package biblatex Info: Trying to load configuration file...
 Package biblatex Info: ... file 'biblatex.cfg' found.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\biblatex.cfg
 File: biblatex.cfg 
 )
 Package biblatex Info: Input encoding 'utf8' detected.
 Package biblatex Info: Document encoding is UTF8 ....
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/l3kernel\expl3.sty
 Package: expl3 2023-08-29 L3 programming layer (loader) 
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/l3backend\l3backend-pdf
 tex.def
 File: l3backend-pdftex.def 2023-04-19 L3 backend support: PDF output (pdfTeX)
 \l__color_backend_stack_int=\count414
@@ -765,15 +765,15 @@ Package biblatex Info: ... and expl3
 (biblatex)             is new enough (at least 2020/04/06),
 (biblatex)             setting 'casechanger=expl3'.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex\blx-case-expl3
 .sty
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/l3packages/xparse\xpars
 e.sty
 Package: xparse 2023-08-29 L3 Experimental document command parser
 )
 Package: blx-case-expl3 2023/03/05 v3.19 expl3 case changing code for biblatex
 ))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/easylist\easylist.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/easylist\easylist.sty
 Package: easylist 2014/01/11 v.1.4 Numbered items with a single command.
 \el@CounterTotal=\count415
 \el@Scratch=\count416
@@ -795,18 +795,18 @@ Package: easylist 2014/01/11 v.1.4 Numbered items with a single command.
 \el@TotalMargin=\dimen262
 \el@LeftMove=\dimen263
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf-umlcd\pgf-umlcd.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf-umlcd\pgf-umlcd.sty
 Package: pgf-umlcd 2022/05/22 v0.3 Some LaTeX macros for UML Class Diagrams.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/pgf-umlcd\tikzlibraryum
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/pgf-umlcd\tikzlibraryum
 lcd.code.tex
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibrarybackgrounds.code.tex
 File: tikzlibrarybackgrounds.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgf@layerbox@background=\box86
 \pgf@layerboxsaved@background=\box87
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/pgf/frontendlayer/tik
 z/libraries\tikzlibraryfit.code.tex
 File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
 )
@@ -818,10 +818,10 @@ File: tikzlibraryfit.code.tex 2023-01-15 v3.1.10 (3.1.10)
 \pgfumlcd@ClassInterfaceNum=\count432
 \pgfumlcd@ClassSplitPartNum=\count433
 ))
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/graphics\lscape.sty
 Package: lscape 2020/05/28 v3.02 Landscape Pages (DPC)
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.s
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/tabularray\tabularray.s
 ty
 Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
 \l__tblr_a_int=\count434
@@ -913,7 +913,7 @@ Package: tabularray 2024-02-16 v2024A Typeset tabulars and arrays with LaTeX3
 \l__tblr_cell_wd_dim=\dimen304
 \l__tblr_cell_ht_dim=\dimen305
 \l__tblr_diag_box=\box113
-) (C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
+) (C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/float\float.sty
 Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \c@float@type=\count457
 \float@exts=\toks32
@@ -921,7 +921,7 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 \@float@everytoks=\toks33
 \@floatcapt=\box115
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/ulem\ulem.sty
 \UL@box=\box116
 \UL@hyphenbox=\box117
 \UL@skip=\skip72
@@ -933,21 +933,21 @@ Package: float 2001/11/08 v1.3d Float enhancements (AL)
 Package: ulem 2019/11/18
 \ULdepth=\dimen308
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/base\fontenc.sty
 Package: fontenc 2021/04/29 v2.0v Standard LaTeX package
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\inconsolata
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\inconsolata
 .sty
 Package: inconsolata 2019/05/17 v1.12
  `inconsolata-zi4' v1.12, 2019/05/17 Text macros for Inconsolata (msharpe)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/base\textcomp.sty
 Package: textcomp 2020/02/02 v2.0n Standard LaTeX package
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/xkeyval\xkeyval.sty
 Package: xkeyval 2022/06/16 v2.9 package option processing (HA)
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkeyval.tex
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/generic/xkeyval\xkvutils.tex
 \XKV@toks=\toks35
 \XKV@tempa@toks=\toks36
 )
@@ -956,7 +956,7 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 ))
 \zifour@ocount=\count460
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.sty
 \lst@mode=\count461
 \lst@gtempboxa=\box119
 \lst@token=\toks37
@@ -970,17 +970,17 @@ File: xkeyval.tex 2014/12/03 v2.7a key=value parser (HA)
 \lst@lineno=\count466
 \lst@maxwidth=\dimen312
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstmisc.sty
 File: lstmisc.sty 2023/02/27 1.9 (Carsten Heinz)
 \c@lstnumber=\count467
 \lst@skipnumbers=\count468
 \lst@framebox=\box120
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/listings\listings.cfg
 File: listings.cfg 2023/02/27 1.9 listings configuration
 ))
 Package: listings 2023/02/27 1.9 (Carsten Heinz)
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/listings\lstlang1.sty
 File: lstlang1.sty 2023/02/27 1.9 listings language file
 )
 \@quotelevel=\count469
@@ -1004,7 +1004,7 @@ LaTeX Font Info:    ... okay on input line 70.
 LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 70.
 LaTeX Font Info:    ... okay on input line 70.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/context/base/mkii\supp-pdf.mk
 ii
 [Loading MPS to PDF converter (version 2006.09.02).]
 \scratchcounter=\count471
@@ -1019,13 +1019,13 @@ ii
 \makeMPintoPDFobject=\count476
 \everyMPtoPDFconversion=\toks39
 )
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/epstopdf-pkg\epstopdf-b
 ase.sty
 Package: epstopdf-base 2020-01-24 v2.11 Base part for package epstopdf
 Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
 85.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/00miktex\epstopdf-sys.c
 fg
 File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 ))
@@ -1066,7 +1066,7 @@ File: epstopdf-sys.cfg 2021/03/18 v2.0 Configuration of epstopdf for MiKTeX
 Package biblatex Info: Trying to load language 'english'...
 Package biblatex Info: ... file 'english.lbx' found.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/biblatex/lbx\english.lb
 x
 File: english.lbx 2023/03/05 v3.19 biblatex localization (PK/MW)
 )
@@ -1084,10 +1084,10 @@ Package biblatex Info: ... file 'Report.bbl' found.
 Package biblatex Info: Reference section=0 on input line 70.
 Package biblatex Info: Reference segment=0 on input line 70.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.s
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/ninecolors\ninecolors.s
 ty
 Package: ninecolors 2022-02-13 v2022D Select colors with proper color contrast
-) (C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
+) (C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/upquote\upquote.sty
 Package: upquote 2012/04/19 v1.3 upright-quote and grave-accent glyphs in verba
 tim
 )
@@ -1100,7 +1100,7 @@ LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <6> on input line 74.
  [1
 
-{C:/Users/dimki/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
+{C:/Users/jezio/AppData/Local/MiKTeX/fonts/map/pdftex/pdftex.map}]
 (Report.toc
 LaTeX Font Info:    External font `cmex10' loaded for size
 (Font)              <7> on input line 4.
@@ -1262,7 +1262,7 @@ Package pdftex.def Info: ./Images/room layout1.png  used on input line 960.
 LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 99
 5.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
@@ -1277,18 +1277,18 @@ File: ./Images/sep_vecs_rects.png Graphic file (type png)
 <use ./Images/sep_vecs_rects.png>
 Package pdftex.def Info: ./Images/sep_vecs_rects.png  used on input line 1034.
 (pdftex.def)             Requested size: 241.84842pt x 210.95717pt.
-[25{C:/Users/dimki/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
+[25{C:/Users/jezio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
 -t1-0.enc} <./Images/sep_vecs_rects.png>] [26] [27]
 LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 1
 102.
 
-(C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ts1zi4.fd
+(C:\Users\jezio\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
 (Font)              scaled to size 10.0pt on input line 1102.
 
-[28{C:/Users/dimki/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
+[28{C:/Users/jezio/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
 -ts1.enc}]
 Underfull \hbox (badness 10000) in paragraph at lines 1193--1193
 [][]\T1/cmr/m/n/10 Public area: Area2D 
@@ -1451,74 +1451,67 @@ Overfull \hbox (22.39676pt too wide) in paragraph at lines 2022--2033
 <./Images/Failed to build.png, id=210, 122.859pt x 89.133pt>
 File: ./Images/Failed to build.png Graphic file (type png)
 <use ./Images/Failed to build.png>
-Package pdftex.def Info: ./Images/Failed to build.png  used on input line 2203.
+Package pdftex.def Info: ./Images/Failed to build.png  used on input line 2213.
 
 (pdftex.def)             Requested size: 106.4139pt x 77.2064pt.
 <./Images/Nothing happened.png, id=211, 273.4215pt x 190.311pt>
 File: ./Images/Nothing happened.png Graphic file (type png)
 <use ./Images/Nothing happened.png>
-Package pdftex.def Info: ./Images/Nothing happened.png  used on input line 2205
+Package pdftex.def Info: ./Images/Nothing happened.png  used on input line 2215
 .
 (pdftex.def)             Requested size: 106.4139pt x 74.06708pt.
 <./Images/rooms generated successful.png, id=212, 225.2415pt x 177.66376pt>
 File: ./Images/rooms generated successful.png Graphic file (type png)
 <use ./Images/rooms generated successful.png>
 Package pdftex.def Info: ./Images/rooms generated successful.png  used on input
- line 2207.
+ line 2217.
 (pdftex.def)             Requested size: 106.4139pt x 83.93843pt.
 
-Overfull \hbox (35.15889pt too wide) in paragraph at lines 2199--2210
+Overfull \hbox (35.15889pt too wide) in paragraph at lines 2209--2220
  [][] 
  []
-
-<./Images/less dense gen.png, id=213, 462.97969pt x 272.51813pt>
-File: ./Images/less dense gen.png Graphic file (type png)
-<use ./Images/less dense gen.png>
-Package pdftex.def Info: ./Images/less dense gen.png  used on input line 2240.
-(pdftex.def)             Requested size: 106.4139pt x 62.63626pt.
-
-Overfull \hbox (10.7204pt too wide) in paragraph at lines 2236--2243
- [][] 
- []
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
 
 [55 <./Images/Failed to build.png> <./Images/Nothing happened.png> <./Images/ro
 oms generated successful.png>]
-<./Images/less dense gen room variations.png, id=221, 701.62125pt x 442.65375pt
+<./Images/less dense gen.png, id=220, 462.97969pt x 272.51813pt>
+File: ./Images/less dense gen.png Graphic file (type png)
+<use ./Images/less dense gen.png>
+Package pdftex.def Info: ./Images/less dense gen.png  used on input line 2250.
+(pdftex.def)             Requested size: 106.4139pt x 62.63626pt.
+
+Overfull \hbox (10.7204pt too wide) in paragraph at lines 2246--2253
+ [][] 
+ []
+
+[56 <./Images/less dense gen.png>]
+<./Images/less dense gen room variations.png, id=225, 701.62125pt x 442.65375pt
 >
 File: ./Images/less dense gen room variations.png Graphic file (type png)
 <use ./Images/less dense gen room variations.png>
 Package pdftex.def Info: ./Images/less dense gen room variations.png  used on i
-nput line 2293.
+nput line 2303.
 (pdftex.def)             Requested size: 106.4139pt x 67.13141pt.
 
-Overfull \hbox (12.08119pt too wide) in paragraph at lines 2289--2296
+Overfull \hbox (12.08119pt too wide) in paragraph at lines 2299--2306
  [][] 
  []
 
-[56 <./Images/less dense gen.png> <./Images/less dense gen room variations.png>
-]
-<./Images/room variations generation.png, id=227, 531.48563pt x 359.09157pt>
+[57 <./Images/less dense gen room variations.png>]
+<./Images/room variations generation.png, id=230, 531.48563pt x 359.09157pt>
 File: ./Images/room variations generation.png Graphic file (type png)
 <use ./Images/room variations generation.png>
 Package pdftex.def Info: ./Images/room variations generation.png  used on input
- line 2355.
+ line 2365.
 (pdftex.def)             Requested size: 106.4139pt x 71.89374pt.
-
-
-LaTeX Warning: `h' float specifier changed to `ht'.
-
-[57] [58 <./Images/room variations generation.png>]
+ [58 <./Images/room variations generation.png>]
 <./Images/rooms seperated.png, id=235, 649.67719pt x 356.0803pt>
 File: ./Images/rooms seperated.png Graphic file (type png)
 <use ./Images/rooms seperated.png>
-Package pdftex.def Info: ./Images/rooms seperated.png  used on input line 2424.
+Package pdftex.def Info: ./Images/rooms seperated.png  used on input line 2434.
 
 (pdftex.def)             Requested size: 106.4139pt x 58.32147pt.
 
-Overfull \hbox (15.60811pt too wide) in paragraph at lines 2420--2427
+Overfull \hbox (15.60811pt too wide) in paragraph at lines 2430--2437
  [][] 
  []
 
@@ -1526,15 +1519,15 @@ Overfull \hbox (15.60811pt too wide) in paragraph at lines 2420--2427
 <./Images/not responding.png, id=240, 877.77937pt x 520.94624pt>
 File: ./Images/not responding.png Graphic file (type png)
 <use ./Images/not responding.png>
-Package pdftex.def Info: ./Images/not responding.png  used on input line 2480.
+Package pdftex.def Info: ./Images/not responding.png  used on input line 2490.
 (pdftex.def)             Requested size: 106.4139pt x 63.15471pt.
 
-Overfull \hbox (33.1316pt too wide) in paragraph at lines 2476--2483
+Overfull \hbox (33.1316pt too wide) in paragraph at lines 2486--2493
  [][] 
  []
 
 
-Overfull \hbox (4.30792pt too wide) in paragraph at lines 2505--2506
+Overfull \hbox (4.30792pt too wide) in paragraph at lines 2515--2516
 [][][][][][][][][][][][][][][]  
  []
 
@@ -1542,10 +1535,10 @@ Overfull \hbox (4.30792pt too wide) in paragraph at lines 2505--2506
 <./Images/spread rooms.png, id=244, 1014.79124pt x 647.41875pt>
 File: ./Images/spread rooms.png Graphic file (type png)
 <use ./Images/spread rooms.png>
-Package pdftex.def Info: ./Images/spread rooms.png  used on input line 2538.
+Package pdftex.def Info: ./Images/spread rooms.png  used on input line 2548.
 (pdftex.def)             Requested size: 106.4139pt x 67.88712pt.
 
-Overfull \hbox (51.62709pt too wide) in paragraph at lines 2534--2541
+Overfull \hbox (51.62709pt too wide) in paragraph at lines 2544--2551
  [][] 
  []
 
@@ -1554,53 +1547,52 @@ Overfull \hbox (51.62709pt too wide) in paragraph at lines 2534--2541
 File: ./Images/room variations spread.png Graphic file (type png)
 <use ./Images/room variations spread.png>
 Package pdftex.def Info: ./Images/room variations spread.png  used on input lin
-e 2599.
+e 2609.
 (pdftex.def)             Requested size: 106.4139pt x 95.13553pt.
 
-Overfull \hbox (5.63832pt too wide) in paragraph at lines 2595--2602
- [][] 
- []
-
-<./Images/index out of range error.png, id=251, 973.38657pt x 278.54062pt>
-File: ./Images/index out of range error.png Graphic file (type png)
-<use ./Images/index out of range error.png>
-Package pdftex.def Info: ./Images/index out of range error.png  used on input l
-ine 2640.
-(pdftex.def)             Requested size: 106.4139pt x 30.4483pt.
-
-Overfull \hbox (2.89037pt too wide) in paragraph at lines 2636--2643
+Overfull \hbox (5.63832pt too wide) in paragraph at lines 2605--2612
  [][] 
  []
 
 [62 <./Images/room variations spread.png>]
+<./Images/index out of range error.png, id=255, 973.38657pt x 278.54062pt>
+File: ./Images/index out of range error.png Graphic file (type png)
+<use ./Images/index out of range error.png>
+Package pdftex.def Info: ./Images/index out of range error.png  used on input l
+ine 2650.
+(pdftex.def)             Requested size: 106.4139pt x 30.4483pt.
+
+Overfull \hbox (2.89037pt too wide) in paragraph at lines 2646--2653
+ [][] 
+ []
+
 <./Images/deleted rooms.png, id=256, 633.86812pt x 454.69875pt>
 File: ./Images/deleted rooms.png Graphic file (type png)
 <use ./Images/deleted rooms.png>
-Package pdftex.def Info: ./Images/deleted rooms.png  used on input line 2678.
+Package pdftex.def Info: ./Images/deleted rooms.png  used on input line 2688.
 (pdftex.def)             Requested size: 106.4139pt x 76.33336pt.
- [63 <./Images/index out of range error.png> <./Images/deleted rooms.png>] [64]
- [65] [66] [67] [68] [69] [70]
-[71]
+[63 <./Images/index out of range error.png> <./Images/deleted rooms.png>]
+[64] [65] [66] [67] [68] [69] [70] [71]
 <./Images/triangulation not responding.png, id=286, 880.03781pt x 517.935pt>
 File: ./Images/triangulation not responding.png Graphic file (type png)
 <use ./Images/triangulation not responding.png>
 Package pdftex.def Info: ./Images/triangulation not responding.png  used on inp
-ut line 3136.
+ut line 3146.
 (pdftex.def)             Requested size: 106.4139pt x 62.62369pt.
 <./Images/circumcenter not correct.png, id=287, 563.10374pt x 454.69875pt>
 File: ./Images/circumcenter not correct.png Graphic file (type png)
 <use ./Images/circumcenter not correct.png>
 Package pdftex.def Info: ./Images/circumcenter not correct.png  used on input l
-ine 3138.
+ine 3148.
 (pdftex.def)             Requested size: 106.4139pt x 85.92186pt.
 <./Images/doesnt remove some edges.png, id=288, 636.87938pt x 624.83438pt>
 File: ./Images/doesnt remove some edges.png Graphic file (type png)
 <use ./Images/doesnt remove some edges.png>
 Package pdftex.def Info: ./Images/doesnt remove some edges.png  used on input l
-ine 3140.
+ine 3150.
 (pdftex.def)             Requested size: 106.4139pt x 104.3994pt.
 
-Overfull \hbox (12.69351pt too wide) in paragraph at lines 3132--3143
+Overfull \hbox (12.69351pt too wide) in paragraph at lines 3142--3153
  [][] 
  []
 
@@ -1610,65 +1602,66 @@ ect.png> <./Images/doesnt remove some edges.png>] [73]
 File: ./Images/super tri not removed.png Graphic file (type png)
 <use ./Images/super tri not removed.png>
 Package pdftex.def Info: ./Images/super tri not removed.png  used on input line
- 3264.
+ 3274.
 (pdftex.def)             Requested size: 106.4139pt x 59.5007pt.
 <./Images/rooms deluaney triangulation.png, id=299, 1077.27469pt x 719.68875pt>
 
 File: ./Images/rooms deluaney triangulation.png Graphic file (type png)
 <use ./Images/rooms deluaney triangulation.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation.png  used on inp
-ut line 3266.
+ut line 3276.
 (pdftex.def)             Requested size: 106.4139pt x 71.08357pt.
 <./Images/deluaney triangulation stress test.png, id=300, 1343.77031pt x 761.09
 344pt>
 File: ./Images/deluaney triangulation stress test.png Graphic file (type png)
 <use ./Images/deluaney triangulation stress test.png>
 Package pdftex.def Info: ./Images/deluaney triangulation stress test.png  used 
-on input line 3268.
+on input line 3278.
 (pdftex.def)             Requested size: 106.4139pt x 60.2616pt.
- [74 <./Images/super tri not removed.png> <./Images/rooms deluaney triangulatio
-n.png> <./Images/deluaney triangulation stress test.png>]
-<./Images/deleted edges.png, id=307, 1038.88126pt x 735.49782pt>
+ [74]
+<./Images/deleted edges.png, id=304, 1038.88126pt x 735.49782pt>
 File: ./Images/deleted edges.png Graphic file (type png)
 <use ./Images/deleted edges.png>
-Package pdftex.def Info: ./Images/deleted edges.png  used on input line 3297.
+Package pdftex.def Info: ./Images/deleted edges.png  used on input line 3307.
 (pdftex.def)             Requested size: 106.4139pt x 75.32729pt.
-<./Images/remove edges not random.png, id=308, 705.38531pt x 587.94656pt>
+ [75 <./Images/super tri not removed.png> <./Images/rooms deluaney triangulatio
+n.png> <./Images/deluaney triangulation stress test.png> <./Images/deleted edge
+s.png>]
+<./Images/remove edges not random.png, id=312, 705.38531pt x 587.94656pt>
 File: ./Images/remove edges not random.png Graphic file (type png)
 <use ./Images/remove edges not random.png>
 Package pdftex.def Info: ./Images/remove edges not random.png  used on input li
-ne 3331.
+ne 3341.
 (pdftex.def)             Requested size: 106.4139pt x 88.69057pt.
- [75 <./Images/deleted edges.png>]
-<./Images/rand edges removed.png, id=313, 767.86874pt x 669.2503pt>
+ [76 <./Images/remove edges not random.png>]
+<./Images/rand edges removed.png, id=317, 767.86874pt x 669.2503pt>
 File: ./Images/rand edges removed.png Graphic file (type png)
 <use ./Images/rand edges removed.png>
 Package pdftex.def Info: ./Images/rand edges removed.png  used on input line 33
-76.
+86.
 (pdftex.def)             Requested size: 106.4139pt x 92.74469pt.
- [76 <./Images/remove edges not random.png> <./Images/rand edges removed.png>] 
-[77] [78]
+ [77 <./Images/rand edges removed.png>] [78]
 [79] [80]
 <./Images/freeze on sections.png, id=332, 874.01532pt x 520.94624pt>
 File: ./Images/freeze on sections.png Graphic file (type png)
 <use ./Images/freeze on sections.png>
 Package pdftex.def Info: ./Images/freeze on sections.png  used on input line 36
-26.
+36.
 (pdftex.def)             Requested size: 106.4139pt x 63.42497pt.
 <./Images/sections wrong stats.png, id=333, 516.42938pt x 523.9575pt>
 File: ./Images/sections wrong stats.png Graphic file (type png)
 <use ./Images/sections wrong stats.png>
 Package pdftex.def Info: ./Images/sections wrong stats.png  used on input line 
-3628.
+3638.
 (pdftex.def)             Requested size: 106.4139pt x 107.96362pt.
 <./Images/sections connected.png, id=334, 727.96968pt x 581.17125pt>
 File: ./Images/sections connected.png Graphic file (type png)
 <use ./Images/sections connected.png>
 Package pdftex.def Info: ./Images/sections connected.png  used on input line 36
-30.
+40.
 (pdftex.def)             Requested size: 106.4139pt x 84.95493pt.
 
-Overfull \hbox (2.52934pt too wide) in paragraph at lines 3622--3633
+Overfull \hbox (2.52934pt too wide) in paragraph at lines 3632--3643
  [][] 
  []
 
@@ -1677,16 +1670,16 @@ ages/sections connected.png>] [82]
 <./Images/spawnboss fail.png, id=342, 633.86812pt x 653.44125pt>
 File: ./Images/spawnboss fail.png Graphic file (type png)
 <use ./Images/spawnboss fail.png>
-Package pdftex.def Info: ./Images/spawnboss fail.png  used on input line 3722.
+Package pdftex.def Info: ./Images/spawnboss fail.png  used on input line 3732.
 (pdftex.def)             Requested size: 106.4139pt x 109.69762pt.
 <./Images/spawnboss room generated.png, id=343, 778.40813pt x 690.32906pt>
 File: ./Images/spawnboss room generated.png Graphic file (type png)
 <use ./Images/spawnboss room generated.png>
 Package pdftex.def Info: ./Images/spawnboss room generated.png  used on input l
-ine 3724.
+ine 3734.
 (pdftex.def)             Requested size: 106.4139pt x 94.37015pt.
 
-Overfull \hbox (1.7712pt too wide) in paragraph at lines 3718--3727
+Overfull \hbox (1.7712pt too wide) in paragraph at lines 3728--3737
  [][] 
  []
 
@@ -1695,11 +1688,29 @@ Overfull \hbox (1.7712pt too wide) in paragraph at lines 3718--3727
 File: ./Images/bad horizontal + vert.png Graphic file (type png)
 <use ./Images/bad horizontal + vert.png>
 Package pdftex.def Info: ./Images/bad horizontal + vert.png  used on input line
- 3801.
+ 3811.
 (pdftex.def)             Requested size: 106.4139pt x 109.37799pt.
 
-[84 <./Images/bad horizontal + vert.png>] [85] [86] [87] [88] [89] [90]
-[91] [92] [93] (Report.aux)
+[84] [85 <./Images/bad horizontal + vert.png>]
+<./Images/up down lines.png, id=358, 521.69907pt x 454.69875pt>
+File: ./Images/up down lines.png Graphic file (type png)
+<use ./Images/up down lines.png>
+Package pdftex.def Info: ./Images/up down lines.png  used on input line 3879.
+(pdftex.def)             Requested size: 106.4139pt x 92.74205pt.
+<./Images/corridor error.png, id=359, 590.205pt x 590.95781pt>
+File: ./Images/corridor error.png Graphic file (type png)
+<use ./Images/corridor error.png>
+Package pdftex.def Info: ./Images/corridor error.png  used on input line 3881.
+(pdftex.def)             Requested size: 106.4139pt x 106.54816pt.
+<./Images/coridoors and edges.png, id=360, 1003.49907pt x 654.94687pt>
+File: ./Images/coridoors and edges.png Graphic file (type png)
+<use ./Images/coridoors and edges.png>
+Package pdftex.def Info: ./Images/coridoors and edges.png  used on input line 3
+883.
+(pdftex.def)             Requested size: 106.4139pt x 69.44601pt.
+ [86 <./Images/up down lines.png> <./Images/corridor error.png> <./Images/corid
+oors and edges.png>] [87]
+[88] [89] [90] [91] [92] [93] [94] (Report.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1713,29 +1724,29 @@ Package logreq Info: Writing requests to 'Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30770 strings out of 475247
- 645942 string characters out of 5757792
+ 30806 strings out of 475248
+ 647111 string characters out of 5757812
  2086785 words of memory out of 5000000
- 51861 multiletter control sequences out of 15000+600000
+ 51896 multiletter control sequences out of 15000+600000
  569717 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,89p,1882b,1596s stack positions out of 10000i,1000n,20000p,200000b,200000s
- <C:\Users\dimki\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
-1000.pk> <C:\Users\dimki\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
-0\ecti1000.pk> <C:\Users\dimki\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
-/dpi600\ecrm0900.pk> <C:\Users\dimki\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
-pen/ec/dpi600\tcrm1000.pk> <C:\Users\dimki\AppData\Local\MiKTeX\fonts/pk/ljfour
-/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\dimki\AppData\Local\MiKTeX\fonts/pk/
-ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\dimki\AppData\Local\MiKTeX\fon
-ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\dimki\AppData\Local\MiKT
-eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\dimki\AppData\Loca
-l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\dimki\AppDat
-a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/dimki/A
+ <C:\Users\jezio\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\eccc
+1000.pk> <C:\Users\jezio\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi60
+0\ecti1000.pk> <C:\Users\jezio\AppData\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec
+/dpi600\ecrm0900.pk> <C:\Users\jezio\AppData\Local\MiKTeX\fonts/pk/ljfour/jknap
+pen/ec/dpi600\tcrm1000.pk> <C:\Users\jezio\AppData\Local\MiKTeX\fonts/pk/ljfour
+/jknappen/ec/dpi600\ecbx1200.pk> <C:\Users\jezio\AppData\Local\MiKTeX\fonts/pk/
+ljfour/jknappen/ec/dpi600\ecbx1000.pk> <C:\Users\jezio\AppData\Local\MiKTeX\fon
+ts/pk/ljfour/jknappen/ec/dpi600\ecbx1440.pk> <C:\Users\jezio\AppData\Local\MiKT
+eX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1000.pk> <C:\Users\jezio\AppData\Loca
+l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\jezio\AppDat
+a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/jezio/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pf
 b>
-Output written on Report.pdf (93 pages, 1232007 bytes).
+Output written on Report.pdf (94 pages, 1250188 bytes).
 PDF statistics:
- 830 PDF objects out of 1000 (max. 8388607)
+ 839 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 243 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 258 words of extra memory for PDF output out of 10000 (max. 10000000)
 
