@@ -4,41 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "f65d5c810f9f83dd",
+        "id": "2f5a2d5df1580c17",
         "type": "tabs",
         "children": [
           {
-            "id": "1f8768b34840375d",
+            "id": "ff25c0f4cca53184",
             "type": "leaf",
             "state": {
-              "type": "pdf",
+              "type": "markdown",
               "state": {
-                "file": "School/Maths/Textbook/Applied Year 2.pdf"
-              }
-            }
-          },
-          {
-            "id": "75307474b14ea1c7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "School/Maths/Textbook/Applied Year 2.pdf"
-              }
-            }
-          },
-          {
-            "id": "8883749f38db38e7",
-            "type": "leaf",
-            "state": {
-              "type": "pdf",
-              "state": {
-                "file": "School/Maths/Textbook/Applied Year 2.pdf"
+                "file": "Life/Crochet/Links for patterns.md",
+                "mode": "source",
+                "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -112,7 +93,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Maths/Textbook/Applied Year 2.pdf",
+                "file": "Life/Crochet/Links for patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -129,7 +110,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Maths/Textbook/Applied Year 2.pdf",
+                "file": "Life/Crochet/Links for patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -164,7 +145,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Maths/Textbook/Applied Year 2.pdf"
+                "file": "Life/Crochet/Links for patterns.md"
               }
             }
           }
@@ -188,23 +169,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "8883749f38db38e7",
+  "active": "ff25c0f4cca53184",
   "lastOpenFiles": [
+    "Life/Crochet/Links for patterns.md",
+    "Life/Crochet/PDF Patterns/tiny_slugcat_pattern.pdf",
+    "Life/Crochet/PDF Patterns/Snow_Cabin_Dolphin_by_perozu_-_updated_2022.pdf",
+    "Life/Crochet/PDF Patterns/Raven.pdf",
+    "Life/Crochet/PDF Patterns/Plague_Doctor_Amigurumi.pdf",
+    "Life/Crochet/PDF Patterns/Paco_the_Tacosaurus__Updated_.pdf",
+    "Life/Crochet/PDF Patterns/little-blue-lobster-5.pdf",
+    "Life/Crochet/PDF Patterns/KrobusAmigurumiFinal.pdf",
+    "Life/Crochet/PDF Patterns/Junimo_Amigurumi_by_icrochetthings.pdf",
+    "Life/Crochet/PDF Patterns/DDCrochetPattern_Cinnamaroll20160225.pdf",
+    "Life/Crochet/PDF Patterns/Fleur-the-Whale.pdf",
     "School/Computer Science/Course Work/Reports/Images/bad horizontal + vert.png",
     "Life/Anime Watch List.md",
-    "School/Maths/Textbook/Pure Year 2.pdf",
-    "Life/Crochet/Links for patterns.md",
     "Life/Crochet/Tracking Stuff.md",
-    "Life/Crochet/PDF Patterns/Fleur-the-Whale.pdf",
-    "Life/Crochet/PDF Patterns/Paco_the_Tacosaurus__Updated_.pdf",
-    "Life/Crochet/PDF Patterns/Snow_Cabin_Dolphin_by_perozu_-_updated_2022.pdf",
-    "Life/Crochet/PDF Patterns/Baby_baphomet_amigurumi_patron_by_Lady_Artemisa.pdf",
-    "Life/Crochet/PDF Patterns/Raven.pdf",
     "School/Physics/Equations.md",
-    "Life/Crochet/PDF Patterns/DDCrochetPattern_Cinnamaroll20160225.pdf",
-    "Life/Crochet/PDF Patterns/Plague_Doctor_Amigurumi.pdf",
-    "Life/Crochet/PDF Patterns/tiny_slugcat_pattern.pdf",
-    "Life/Crochet/PDF Patterns/219amigurumi-62Pikachu-Pokemonnew.pdf",
     "School/Computer Science/Course Work/Reports/Images/less dense gen room variations.png",
     "School/Computer Science/Course Work/Reports/Images/less dense gen.png",
     "School/Computer Science/Course Work/Reports/Tables.md",
@@ -215,7 +196,6 @@
     "School/Computer Science/Course Work/Reports/Images/steamOSsurvey.png",
     "School/Computer Science/Course Work/Reports/Images/spread rooms.png",
     "School/Computer Science/Course Work/Reports/Images/spawn and boss room in tilemap.png",
-    "School/Computer Science/Course Work/Reports/Images/sep_vecs_rects.png",
     "School/Computer Science/Course Work/Reports/Feedback/Feedback 1.md",
     "School/Maths/Notes/Defenitions/Geometric Series.md",
     "School/Maths/Notes/Defenitions/Integration.md",

@@ -78,7 +78,7 @@ top = 20mm,
 \listoffigures
 \newpage
 
-\section{Abstract}
+\section*{Abstract}
 I decided to create a game for my coursework. I had researched the market to influence my game to make it more appealing to the target audience. Creating the game was very challenging and challenged my  limited understanding of c\#, and forced me to learn the language in greater detail, it also challenged the methods that I tend to favour when approaching a challenge forcing me to explore new ways of computational methods. I decided on a 2D rouge-like game with a heavy focus on melee combat and movement. For this I needed to make a character controller, dungeon generation algorithm, enemy AI and balanced items for the player. Each requiring it's own delicate calibration to make the game fun. 
 
 \section{Introduction}
@@ -688,7 +688,7 @@ Another limitation is my knowledge and experience in developing games as I only 
 
 \parBr
 
-I am also limited by time since there is a deadline I must reach so  I can't continuously develop the game over the course of a couple years. This can be less impactful with good time management and use of abstraction so that I can focus on the main points of the game when developing and spend less time on small features that will go unnoticed for the most part.
+I am also limited by time since there is a deadline I must reach so  I can't continuously develop the game over the course of a couple years. This can be less impactful with good time management and use of abstraction so that I can focus on the main points of the game when developing and spend less time on small features that will go unnoticed for the most part. However I will still need to scrap some features, which is why I will use a very limited combat system which can be developed in the future however if there is a limited combat system, the enemy system will also need to be limited. Depending on how much I am able to create some more features may be added ore removed.
 
 \subsection{Essential Features}
 One essential feature is the user interface as it allows the user to navigate any menus and displays any important information to the player. The main menu is the first screen that a player would see therefore it is important to give a good  first impression and set the tone of the game and allows the user to start a game and customise their settings. The pause menu is also an important feature of the user interface as it allows the player to pause the game and customise their settings. These things are standard in most games so it would be good to implement it in my game. The HUD (Heads Up Display) is the only user interface that the user sees when they are in game, so it's important to keep it clean and out of the way as it will be overlayed on the users screen at all times. It will also be important to have it display the relevant information, such as the player's health, inventory, and possibly a timer. However not all players will want all of this information on screen at all times so it will be important for the HUD to be customizable to suit a player's needs.
@@ -714,64 +714,74 @@ Level generation will also be important as it creates the environment the player
 \begin{easylist}
 # \large{\textbf{User Interface}}
 ## \textbf{Main Menu}
-### Does it have a new game button? \linebreak
+### Does it have a new game button? (Mandatory)\linebreak
 Allows the player to start the game. \smallBr
-### Does it have an options button? \linebreak
+### Does it have an options button? (Mandatory)\linebreak
 Allows the player to customise the game to suit them \smallBr
-### Does it have a tutorial option? \linebreak
+### Does it have a tutorial option? (Mandatory)\linebreak
 Takes the player to a tutorial level where they can learn the game, important for new players who are playing for the first time. \smallBr
-### Does it have a interesting background? \linebreak
+### Does it have a interesting background? (Optional)\linebreak
 Gives a good first impression to the player when they open the game. \smallBr
-### Does it have a quit game button? \linebreak
+### Does it have a quit game button? (Mandatory)\linebreak
 Allows the player to close the game. \smallBr
-#### Does it ask you "are you sure"? \linebreak
+#### Does it ask you "are you sure"? (Optional)\linebreak
 Makes sure that the played didn't press the button by accident. \smallBr
 ## \textbf{Pause Menu} 
-### Does it pause the game? \linebreak
+### Does it pause the game? (Mandatory)\linebreak
 Allows player to take a break if they need to. \smallBr
-### Is there an options button? \linebreak
+### Is there an options button? (Mandatory)\linebreak
 Allows the player to change setting in game in case they need to. \smallBr
-### Is there an exit to main menu button? \linebreak
+### Is there an exit to main menu button? (Mandatory)\linebreak
 Allows the player to quit the current run and return to the main menu. \smallBr
-#### Does it tell you "The current run will be ended"? \linebreak
+#### Does it tell you "The current run will be ended"? (Mandatory)\linebreak
 Makes sure the player didn't press this button by accident and occidentally quits their run \smallBr
 ## \textbf{HUD (Heads Up Display)}
-### Is there a health bar? \linebreak
+### Is there a health bar? (Mandatory)\linebreak
 Allows player to see their health \smallBr
-### Is there a current level box? \linebreak
+### Is there a current level box? (Mandatory)\linebreak
 Allows player to see which stage their on \smallBr
-### Is there a timer? \linebreak
+### Is there a timer? (Optional)\linebreak
 Allows player to see how long the run has lasted \smallBr
-### Are there small indicators for status effects? \linebreak
+### Are there small indicators for status effects? (Optional)\linebreak
 Allows player to see if they are affected by and de-buffs/buffs \smallBr
-### Is the HUD customisable? \linebreak
-Allows player to adjust HUD to their need \smallBr
-## \textbf{Inventory}
-### Can you drop items?
-### Are there item slots?
-### Can you rearrange your inventory?
+### Is the HUD customisable? (Mandatory)\linebreak
+Allows player to adjust HUD to their needs \smallBr
 # \large{\textbf{Audio}}
 ## \textbf{Main Menu}
-### Is there some sort of music?
-### Do the buttons make a sound?
+### Do the buttons make a sound? (Optional)\linebreak
+Makes the game feel more polished \smallBr
 ## \textbf{In Game}
-### Is there boss music?
-### Does the game have hitting sfx?
-### Does the game have a sound for getting hit?
-### Does the game have music?
-### Does the game have a sound for dying?
+### Is there boss music? (Optional)\linebreak
+Makes the game feel more polished \smallBr
+### Does the game have hitting sfx? (Optional)\linebreak
+Makes the game feel more polished \smallBr
+### Does the game have a sound for getting hit? (Optional)\linebreak
+Makes the game feel more polished \smallBr
+### Does the game have music? (Optional)\linebreak
+Makes the game feel more polished \smallBr
+### Does the game have a sound for dying? (Optional)\linebreak
+Makes the game feel more polished \smallBr
 # \large{\textbf{Gameplay}}
 ## \textbf{Level Generation}
-### Does it create a level in a reasonable amount of time?
-### Are there objects you can interact with that give items?
-### Are enemies spawned?
-### Is there a safe starting room?
-### Is there a boss room at the end?
-### Is there variety between levels
+### Does it create a level in a reasonable amount of time? (Mandatory)\linebreak
+Allows the player to play the game without too much loading time \smallBr
+### Are there objects you can interact with that give items? (Mandatory)\linebreak
+Allows the player to become more powerful as the game progresses \smallBr
+### Are enemies spawned? (Mandatory) \linebreak
+Gives the player an obstacle to avoid \smallBr
+### Is there a safe starting room? (Mandatory) \linebreak
+Gives the player a safe place to begin the game \smallBr
+### Is there a boss room at the end? (Mandatory) \linebreak
+Gives the player a way to progress to the next level and gives them a challenge to overcome \smallBr
+### Is there variety between levels? (Optional) \linebreak
+Gives variety to the game so that the player isn't doing the same thing all the time \smallBr
 ## \textbf{Player Combat}
-### Does the player die when they have 0 health?
-### Can the player melee swing?
-### Can the player block?
+### Does the player die when they have 0 health? (Mandatory)\linebreak
+Punishes the player for making too many mistakes \smallBr
+### Can the player melee swing? (Optional)\linebreak
+Gives the player a way to fight back against enemies \smallBr
+### Can the player block? (Optional)\linebreak
+Gives the player another option for avoiding damage other than moving out of the way \smallBr
 # \large{\textbf{Visuals}}
 \end{easylist}
 
@@ -779,12 +789,10 @@ Allows player to adjust HUD to their need \smallBr
 \subsection{Development Methodology}
 There are multiple ways of developing a solution so I've complied a table to summarise all the advantages of disadvantages of each methodology
 
-\pagebreak
-
-\begin{table}[]
+\begin{table}[H]
 \begin{tabular}{|c|l|l|l|l|}
 \hline
-Methodology & \multicolumn{1}{c|}{Description}                                                                                                                                                         & \multicolumn{1}{c|}{Uses}                                                                                                                          & \multicolumn{1}{c|}{Advantages}                                                                                                                      & \multicolumn{1}{c|}{Disadvantages}                                                                                                                             \\ \hline
+\textbf{Methodology} & \multicolumn{1}{c|}{\textbf{Description}}                                                                                                                                                         & \multicolumn{1}{c|}{\textbf{Uses}}                                                                                                                          & \multicolumn{1}{c|}{\textbf{Advantages}}                                                                                                                      & \multicolumn{1}{c|}{\textbf{Disadvantages}}                                                                                                                             \\ \hline
 Rapid       & \begin{tabular}[c]{@{}l@{}}Iterative methodology where \\ partialy functional prototypes \\ are continually built upon.\end{tabular}                                                     & \begin{tabular}[c]{@{}l@{}}- Small to medium\\    projects\\ - Low budget\\ - Short timeframe\end{tabular}                                         & \begin{tabular}[c]{@{}l@{}}- Flexible to \\   changes\\ - Highly usable \\   product\\ - Focuses on core \\   features\end{tabular}                  & \begin{tabular}[c]{@{}l@{}}- Poorer quality \\   documentation\\ - Fast pace may \\   reduce quality\end{tabular}                                              \\ \hline
 Spiral      & \begin{tabular}[c]{@{}l@{}}Goes through four key stages: \\ analysis, risk mitigation, \\ development and evaluation. \\ With each iteration building \\ on the last.\end{tabular}       & \begin{tabular}[c]{@{}l@{}}- Large project\\ - Risk intensive \\   projects\\ - High budget\end{tabular}                                           & \begin{tabular}[c]{@{}l@{}}- Thorough  risk \\   analysis and \\   mitigation\\ - Flexible to \\   changes\\ - Produces \\   prototypes\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Expensive to \\   analyse risks\\ - Lack of focus \\   on efficiency\\ - High costs due \\   to prototypes\end{tabular}           \\ \hline
 Agile       & \begin{tabular}[c]{@{}l@{}}Collection of methodlogies \\ which aims to be flexible \\ allowing different sections to \\ be developed in parallel in \\ no particular order.\end{tabular} & \begin{tabular}[c]{@{}l@{}}- Small to medium \\   projects\\ - Unclear initial \\   requirements\end{tabular}                                      & \begin{tabular}[c]{@{}l@{}}- Makes high \\   quality code\\ - Flexible to \\   changes\\ - Regular user \\   input\end{tabular}                      & \begin{tabular}[c]{@{}l@{}}- Poorer quality\\   documentation\\ - Requires consistant \\   interaction between \\   user and programmer\end{tabular}           \\ \hline
@@ -797,6 +805,7 @@ To create the code for the game I have designed I have decided to use an agile s
 
 \subsection{Decomposing the problem}
 This is one of the computational methods that I am going to use for my game. This is important as it allows me to think of how the game will work at a basic level, instead of considering all the components at once.
+
 \begin{landscape}
 \begin{figure}[p]
 \centering
@@ -3935,6 +3944,20 @@ if (currentCoord.Y > maxCoord.Y)
 }
 \end{lstlisting}
 
+\myparagraph{Iteration 1 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result} & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                      \\ 
+\hline
+1                                                                    & None           & Tile map generates       & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{Nothing happened}} & \begin{tabular}[c]{@{}l@{}}Tries to take tile from wrong tile \\map which doesn't exist so nothing\\generates\end{tabular}  \\ 
+\hline
+2                                                                    & None           & Tile map generates       & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{one tilemap at time}} & \begin{tabular}[c]{@{}l@{}}Generates one tile at a time which\\takes too long to be productive,\\generated 6 layers in about 40\\seconds and still has a couple\\thousand layers to go\end{tabular}               \\
+\hline
+\end{tabular}
+\end{table}
+
 \myparagraph{Iteration 2}
 This iteration is a lot faster as there is a box for every row of the tilemap so it iterates through each column and is therefore faster (goal 1 is achieved). Still lacks variation in tiles (goal 2 and 3 aren't achieved). There is still no way for the player to traverse vertical corridors so goal 4 isn't met.
 \begin{lstlisting}
@@ -3987,8 +4010,21 @@ else
         RemoveChild(child);
     }
 }
-
 \end{lstlisting}
+
+\myparagraph{Iteration 2 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result} & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                              \\ 
+\hline
+1                                                                    & None           & Tile map generates       & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{tilemap wrong pos}} & \begin{tabular}[c]{@{}l@{}}Checks wrong area as position isn't\\set correctly\end{tabular}                          \\ 
+\hline
+2                                                                    & None           & Tile map generates       & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{drawn tilemap}} & \begin{tabular}[c]{@{}l@{}}Room generated correctly however\\there is no variation in tiles generated\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
 
 \myparagraph{Iteration 3}
 This iteration aims to add more variations to the tiles generated (goal 2 partially achieved), there are also 10 room variations instead of the two that were in the previous iteration. This iteration also adds platforms in rooms that are in predefined locations, they can be different tile types to make the room more interesting to look at (goal 3 is achieved). Also added platforms in vertical corridors to allow the player to traverse upwards in them. This is done with a class to allow me to store attributes that can be used to check previous tiles to decide weather a hole needs to be generated for a platform. Problematic since it generates a hole to the left side of each corridor that the player can fall down (goal 4 is partially achieved).
@@ -4112,6 +4148,28 @@ else
 }
 \end{lstlisting}
 
+\myparagraph{Iteration 3 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                                        & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                                  \\ 
+\hline
+1                                                                    & None           & Tile map generates                                                                              & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{made rooms bigger}} & There are room variations generated                                                                                                     \\ 
+\hline
+2                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Room generates\\with it's platform\\inside the rooms\end{tabular}    & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{room in tilemap}} & \begin{tabular}[c]{@{}l@{}}Room generates in the tile map and\\all platforms work however border\\generates over corridor\end{tabular}  \\ 
+\hline
+3                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Holes generate \\between room border\\and corridor\end{tabular}      & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{room in tilemap with coridoor holes}} & \begin{tabular}[c]{@{}l@{}}Rooms are able to be left since there are\\now holes generated between corridors\\and rooms\end{tabular}     \\ 
+\hline
+4                                                                    & None           & \begin{tabular}[c]{@{}l@{}}More variation in\\the tiles generated\end{tabular}                  & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{better rand scale}} & \begin{tabular}[c]{@{}l@{}}different tile generate for platforms,~\\walls and background\end{tabular}                                   \\ 
+\hline
+5                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Corridors generate\\at regular intervals\end{tabular}                & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{coridoor platforms no holes}} & \begin{tabular}[c]{@{}l@{}}Generates corridor without holes and\\hence player can't move between them\end{tabular}                      \\ 
+\hline
+6                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Corridors get holes\\at platforms so they\\aren't solid\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{coridoor generation working}} & \begin{tabular}[c]{@{}l@{}}Corridor generation works correctly,\\however there is hole on left side of\\each platform\end{tabular}      \\
+\hline
+\end{tabular}
+\end{table}
+
 \myparagraph{Iteration 4}
 Fixed the problem where there is a hole to the left side of every vertical corridor so goal 4 is now achieved there is also some progress on goal 3 since the platforms made in vertical corridors are varying in sizes which was a change made by a stakeholder who pointed out that they didn't like the regularity of the platforms generated previously. 
 \begin{lstlisting}
@@ -4198,6 +4256,24 @@ if (currentCoord.X < maxCoord.X)
 }
 \end{lstlisting}
 
+\myparagraph{Iteration 4 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                         & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                                                              \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Hole no longer\\generates on left\\side\end{tabular}  & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{coridoor doesnt work}} & \begin{tabular}[c]{@{}l@{}}Hole no longer generates but only\\one platform generates\end{tabular}                                                   \\ 
+\hline
+2                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Platforms generate\\correctly with holes\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{coridoor generation working}}             & \begin{tabular}[c]{@{}l@{}}Platforms generate correctly with\\regular holes and platforms\end{tabular}                                              \\ 
+\hline
+3                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Add borders to the\\corridors\end{tabular}            & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{problem with coridoor borders}} & \begin{tabular}[c]{@{}l@{}}Borders generate when corridors are\\overlapping and it fails to deal with\\that so I will revert the code\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
+
+These algorithm could be improved further, however I have a limited amount of time and further development would be redundant as there are other, more important features to focus on and develop.
+
 \subsubsection{Spawn player}
 \myparagraph{Iteration 1}
 This iteration spawns the player in a  random position (failing goal 2 of spawning player in spawn room) on the map, this is bad because they can spawn in the middle of enemies or close to the boss room, allowing them to essentially skip the level, or immediately get killed by enemies. The camera also doesn't change to the players camera so they aren't able to see the player character.
@@ -4212,6 +4288,18 @@ GD.Print("Spawn Coords: " + spawnCoords);
 player.GetNode<CharacterBody2D>(".").Position = spawnCoords;
 currentState = generationState.done;
 \end{lstlisting}
+
+\myparagraph{Iteration 1 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                     & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                         \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Player generates\\at random position\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{bad spawn}} & \begin{tabular}[c]{@{}l@{}}Camera didn't update to player~\\camera but player position is random\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
 
 \myparagraph{Iteration 2}
 This iteration spawns the player in the spawn room giving them a safe and predictable start achieving goal 2 and the camera switches to the player and the character is no able to be controlled. The algorithm also executes in a reasonable amount of time so goal 1 is achieved.
@@ -4230,6 +4318,31 @@ player.GetNode<Camera2D>("./Camera2D").MakeCurrent();
 //Finished so can move t
 currentState = generationState.done;
 \end{lstlisting}
+
+\myparagraph{Iteration 2 Testing}
+\begin{table}[H]
+\centering
+\begin{tabular}{|l|l|l|l|l|} 
+\hline
+\begin{tabular}[c]{@{}l@{}}\textbf{Test }\\\textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Expected Result}                                                & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                  \\ 
+\hline
+1                                                                    & None           & \begin{tabular}[c]{@{}l@{}}Player generates\\in spawn room\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{player gen in spawn}} & \begin{tabular}[c]{@{}l@{}}Camera switches to player camera\\and spawns in the spawn room\end{tabular}  \\
+\hline
+\end{tabular}
+\end{table}
+
+\section{Evaluation}
+\subsection{Testing}
+
+\subsection{Success criteria evaluation}
+
+\subsection{Further development}
+
+\subsection{Usability features}
+
+\subsection{Maintenance}
+
+\subsection{Dealing with limitations}
 
 \newpage
 \printbibliography
