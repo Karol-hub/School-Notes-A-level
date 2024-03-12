@@ -18,8 +18,19 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "91ead749537c3fbc",
+            "type": "leaf",
+            "state": {
+              "type": "surfing-view",
+              "state": {
+                "url": "https://53stitches.com/puppycat/"
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -93,7 +104,6 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Life/Crochet/Links for patterns.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +120,6 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Life/Crochet/Links for patterns.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -144,9 +153,7 @@
             "type": "leaf",
             "state": {
               "type": "outline",
-              "state": {
-                "file": "Life/Crochet/Links for patterns.md"
-              }
+              "state": {}
             }
           }
         ],
@@ -169,9 +176,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "ff25c0f4cca53184",
+  "active": "91ead749537c3fbc",
   "lastOpenFiles": [
     "Life/Crochet/Links for patterns.md",
+    "Life/Crochet/PDF Patterns/OlyaSamoseienko_narwhal_pattern.pdf",
+    "Life/Crochet/PDF Patterns/Bubble_Seal_Amigurumi_by_icrochetthings.pdf",
     "Life/Crochet/PDF Patterns/tiny_slugcat_pattern.pdf",
     "Life/Crochet/PDF Patterns/Snow_Cabin_Dolphin_by_perozu_-_updated_2022.pdf",
     "Life/Crochet/PDF Patterns/Raven.pdf",
@@ -180,8 +189,6 @@
     "Life/Crochet/PDF Patterns/little-blue-lobster-5.pdf",
     "Life/Crochet/PDF Patterns/KrobusAmigurumiFinal.pdf",
     "Life/Crochet/PDF Patterns/Junimo_Amigurumi_by_icrochetthings.pdf",
-    "Life/Crochet/PDF Patterns/DDCrochetPattern_Cinnamaroll20160225.pdf",
-    "Life/Crochet/PDF Patterns/Fleur-the-Whale.pdf",
     "School/Computer Science/Course Work/Reports/Images/bad horizontal + vert.png",
     "Life/Anime Watch List.md",
     "Life/Crochet/Tracking Stuff.md",

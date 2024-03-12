@@ -21,3 +21,6 @@
 [lil dino](https://toffoletta.com/2018/08/16/little-dino-amigurumi-pattern/#dino)
 [sammy the seal](http://www.littlemuggles.com/free-patterns-3/sammy-the-seal/)
 [black cat](https://stringydingding.com/black-cat-amigurumi-free-crochet-pattern/)
+[Baby unicorn](https://littleyarnfriends.com/post/24411665124/crochet-pattern-lil-baby-unicorn)
+[Kitty pie](https://paintitcolorful.blogspot.com/2020/10/pumkitty-pie-pattern.html)
+[goofy ahhh frog](https://thecraftzilla.blogspot.com/2016/04/spring-frog-pattern.html)
