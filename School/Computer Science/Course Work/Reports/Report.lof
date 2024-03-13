@@ -8,20 +8,20 @@
 \contentsline {figure}{\numberline {8}{\ignorespaces \blx@tocontentsinit {0}\cite {SHS} Steam OS statistics}}{18}{}%
 \contentsline {figure}{\numberline {9}{\ignorespaces \blx@tocontentsinit {0}\cite {SHS} Steam Hardware Statistics}}{18}{}%
 \contentsline {figure}{\numberline {10}{\ignorespaces Decomposition Diagram}}{23}{}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Room layout example}}{24}{}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Flowchart for generating rooms}}{25}{}%
-\contentsline {figure}{\numberline {13}{\ignorespaces \blx@tocontentsinit {0}\cite {Dis_Alg} Room Movement Direction}}{26}{}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Flowchart for spreading rooms}}{28}{}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Flowchart for deleting rooms}}{30}{}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Bowyer-Watson Classes}}{31}{}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Bowyer-Watson Algorithm Flowchart}}{32}{}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Flowchart for Edge Deletion Algorithm}}{35}{}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Flowchart for Generating spawn and boss rooms}}{37}{}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Flowchart for recursive function to find entire section}}{40}{}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Flowchart for detecting if a new section needs to be made}}{42}{}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Flowchart for detecting sections in the program}}{44}{}%
-\contentsline {figure}{\numberline {23}{\ignorespaces All possibilities for points}}{46}{}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Flowchart for turning edges into horizontal and vertical edges}}{47}{}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Flowchart for the given pseudocode}}{49}{}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Flowchart for generating the tilemap}}{51}{}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Flowchart for spawning the player}}{53}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Room layout example}}{25}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Flowchart for generating rooms}}{26}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces \blx@tocontentsinit {0}\cite {Dis_Alg} Room Movement Direction}}{27}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Flowchart for spreading rooms}}{29}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Flowchart for deleting rooms}}{31}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Bowyer-Watson Classes}}{32}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Bowyer-Watson Algorithm Flowchart}}{33}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Flowchart for Edge Deletion Algorithm}}{36}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Flowchart for Generating spawn and boss rooms}}{38}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Flowchart for recursive function to find entire section}}{41}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Flowchart for detecting if a new section needs to be made}}{43}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Flowchart for detecting sections in the program}}{45}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces All possibilities for points}}{47}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Flowchart for turning edges into horizontal and vertical edges}}{48}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Flowchart for the given pseudocode}}{50}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Flowchart for generating the tilemap}}{52}{}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Flowchart for spawning the player}}{54}{}%
