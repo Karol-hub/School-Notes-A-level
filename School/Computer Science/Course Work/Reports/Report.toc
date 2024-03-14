@@ -173,9 +173,9 @@
 \contentsline {section}{\numberline {5}Evaluation}{97}{}%
 \contentsline {subsection}{\numberline {5.1}Testing}{97}{}%
 \contentsline {subsubsection}{\numberline {5.1.1}William Testing}{98}{}%
-\contentsline {paragraph}{Observations}{98}{}%
-\contentsline {subsection}{\numberline {5.2}Success criteria evaluation}{98}{}%
-\contentsline {subsection}{\numberline {5.3}Further development}{98}{}%
-\contentsline {subsection}{\numberline {5.4}Usability features}{98}{}%
-\contentsline {subsection}{\numberline {5.5}Maintenance}{98}{}%
-\contentsline {subsection}{\numberline {5.6}Dealing with limitations}{98}{}%
+\contentsline {subsubsection}{\numberline {5.1.2}Ethan Testing}{99}{}%
+\contentsline {subsection}{\numberline {5.2}Success criteria evaluation}{99}{}%
+\contentsline {subsection}{\numberline {5.3}Further development}{99}{}%
+\contentsline {subsection}{\numberline {5.4}Usability features}{99}{}%
+\contentsline {subsection}{\numberline {5.5}Maintenance}{99}{}%
+\contentsline {subsection}{\numberline {5.6}Dealing with limitations}{99}{}%

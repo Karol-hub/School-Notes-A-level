@@ -44,5 +44,17 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": []
+  "treeData": [
+    {
+      "id": "51ded329207fb5b0",
+      "parent": 0,
+      "droppable": true,
+      "text": "The Craftzilla: Spring Frog Pattern",
+      "data": {
+        "fileType": "site",
+        "fileSize": "",
+        "icon": {}
+      }
+    }
+  ]
 }
