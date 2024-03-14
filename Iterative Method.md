@@ -1,0 +1,1 @@
+It will either converge onto a value or diverge 

@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.21)  13 MAR 2024 09:48
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.21)  14 MAR 2024 15:29
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1805,8 +1805,13 @@ File: ./Images/player gen in spawn.png Graphic file (type png)
 Package pdftex.def Info: ./Images/player gen in spawn.png  used on input line 4
 340.
 (pdftex.def)             Requested size: 106.4139pt x 64.20071pt.
- [97 <./Images/bad spawn.png> <./Images/player gen in spawn.png>] [98] [99] (Re
-port.aux)
+ [97 <./Images/bad spawn.png> <./Images/player gen in spawn.png>]
+<./Images/options.png, id=428, 1433.355pt x 743.02594pt>
+File: ./Images/options.png Graphic file (type png)
+<use ./Images/options.png>
+Package pdftex.def Info: ./Images/options.png  used on input line 4355.
+(pdftex.def)             Requested size: 290.22105pt x 150.43925pt.
+ [98 <./Images/options.png>] [99] (Report.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1820,10 +1825,10 @@ Package logreq Info: Writing requests to 'Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 30962 strings out of 475248
- 652710 string characters out of 5757812
+ 30976 strings out of 475248
+ 653004 string characters out of 5757812
  2086785 words of memory out of 5000000
- 52052 multiletter control sequences out of 15000+600000
+ 52066 multiletter control sequences out of 15000+600000
  569717 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,89p,1882b,1596s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1840,9 +1845,9 @@ l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\jezio\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/jezio/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pf
 b>
-Output written on Report.pdf (99 pages, 1319965 bytes).
+Output written on Report.pdf (99 pages, 1354156 bytes).
 PDF statistics:
- 882 PDF objects out of 1000 (max. 8388607)
+ 883 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 323 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 328 words of extra memory for PDF output out of 10000 (max. 10000000)
 

@@ -44,39 +44,5 @@
     ],
     "defaultFilterType": "tree"
   },
-  "treeData": [
-    {
-      "id": "91ead749537c3fbc",
-      "parent": 0,
-      "droppable": true,
-      "text": "Free PuppyCat crochet pattern",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "e29b80cfe447cf34",
-      "parent": 0,
-      "droppable": true,
-      "text": "Pumkitty pie pattern - A little love everyday!",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    },
-    {
-      "id": "164df23951b55607",
-      "parent": 0,
-      "droppable": true,
-      "text": "The Craftzilla: Spring Frog Pattern",
-      "data": {
-        "fileType": "site",
-        "fileSize": "",
-        "icon": {}
-      }
-    }
-  ]
+  "treeData": []
 }
