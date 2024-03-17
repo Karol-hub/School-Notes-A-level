@@ -1,4 +1,4 @@
-This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.5)  14 MAR 2024 17:58
+This is pdfTeX, Version 3.141592653-2.6-1.40.25 (MiKTeX 23.9.24) (preloaded format=pdflatex 2023.12.5)  17 MAR 2024 16:40
 entering extended mode
  restricted \write18 enabled.
  %&-line parsing enabled.
@@ -1229,600 +1229,845 @@ File: ./Images/steamSurvey.png Graphic file (type png)
 <use ./Images/steamSurvey.png>
 Package pdftex.def Info: ./Images/steamSurvey.png  used on input line 642.
 (pdftex.def)             Requested size: 292.48985pt x 115.58772pt.
- [18 <./Images/steamOSsurvey.png> <./Images/steamSurvey.png>] [19] [20]
-Overfull \hbox (35.42729pt too wide) in paragraph at lines 793--802
+ [18 <./Images/steamOSsurvey.png> <./Images/steamSurvey.png>] [19] [20] [21]
+Overfull \hbox (35.42729pt too wide) in paragraph at lines 835--844
 [][] 
  []
 
-[21] [22]
-Overfull \hbox (23.84175pt too wide) in paragraph at lines 919--920
+[22] [23]
+Overfull \hbox (23.84175pt too wide) in paragraph at lines 961--962
  [][] 
  []
 
-[23] [24
+[24] [25
 
 
 ]
-<./Images/room layout.png, id=106, 709.90219pt x 413.29407pt>
+<./Images/room layout.png, id=110, 709.90219pt x 413.29407pt>
 File: ./Images/room layout.png Graphic file (type png)
 <use ./Images/room layout.png>
-Package pdftex.def Info: ./Images/room layout.png  used on input line 979.
+Package pdftex.def Info: ./Images/room layout.png  used on input line 1021.
 (pdftex.def)             Requested size: 166.15544pt x 96.73788pt.
-<./Images/room layout1.png, id=107, 588.69937pt x 523.9575pt>
+<./Images/room layout1.png, id=111, 588.69937pt x 523.9575pt>
 File: ./Images/room layout1.png Graphic file (type png)
 <use ./Images/room layout1.png>
-Package pdftex.def Info: ./Images/room layout1.png  used on input line 980.
+Package pdftex.def Info: ./Images/room layout1.png  used on input line 1022.
 (pdftex.def)             Requested size: 108.6831pt x 96.73788pt.
- [25 <./Images/room layout.png> <./Images/room layout1.png>] [26]
+ [26 <./Images/room layout.png> <./Images/room layout1.png>] [27]
 LaTeX Font Info:    Trying to load font information for T1+zi4 on input line 10
-15.
+57.
 
 (C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\t1zi4.fd
 File: t1zi4.fd 2018/01/14 T1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `T1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1015.
+(Font)              scaled to size 10.0pt on input line 1057.
 
-Overfull \hbox (11.27744pt too wide) in paragraph at lines 1040--1047
+Overfull \hbox (11.27744pt too wide) in paragraph at lines 1082--1089
 [][] 
  []
 
-<./Images/sep_vecs_rects.png, id=115, 455.7025pt x 397.485pt>
+<./Images/sep_vecs_rects.png, id=118, 455.7025pt x 397.485pt>
 File: ./Images/sep_vecs_rects.png Graphic file (type png)
 <use ./Images/sep_vecs_rects.png>
-Package pdftex.def Info: ./Images/sep_vecs_rects.png  used on input line 1054.
+Package pdftex.def Info: ./Images/sep_vecs_rects.png  used on input line 1096.
 (pdftex.def)             Requested size: 241.84842pt x 210.95717pt.
-[27{C:/Users/dimki/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
--t1-0.enc} <./Images/sep_vecs_rects.png>] [28] [29]
+[28{C:/Users/dimki/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
+-t1-0.enc} <./Images/sep_vecs_rects.png>] [29] [30]
 LaTeX Font Info:    Trying to load font information for TS1+zi4 on input line 1
-122.
+164.
 
 (C:\Users\dimki\AppData\Local\Programs\MiKTeX\tex/latex/inconsolata\ts1zi4.fd
 File: ts1zi4.fd 2018/01/14 TS1/zi4 (Inconsolata)
 )
 LaTeX Font Info:    Font shape `TS1/zi4/m/n' will be
-(Font)              scaled to size 10.0pt on input line 1122.
+(Font)              scaled to size 10.0pt on input line 1164.
 
-[30{C:/Users/dimki/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
+[31{C:/Users/dimki/AppData/Local/Programs/MiKTeX/fonts/enc/dvips/inconsolata/i4
 -ts1.enc}]
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
 [][]\T1/cmr/m/n/10 Public area: Area2D 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
 \T1/cmr/m/n/10 Private po-si-tion: Vec-tor2 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
 [][]\T1/cmr/m/n/10 Public Con-struc-tor(Area2D area)  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
 \T1/cmr/m/n/10 Public Po-si-tion() 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
 \T1/cmr/m/n/10 re-turns po-si-tion  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
 \T1/cmr/m/n/10 Public Con-nect-ed-Point() 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
 \T1/cmr/m/n/10 re-turns con-nect-ed-Points  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
 \T1/cmr/m/n/10 Public Al-ter-Pos(Vector2 new-Pos) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1213--1213
+Underfull \hbox (badness 10000) in paragraph at lines 1255--1255
 \T1/cmr/m/n/10 up-dates po-si-tion  
  []
 
 
-Underfull \hbox (badness 5431) in paragraph at lines 1213--1213
+Underfull \hbox (badness 5431) in paragraph at lines 1255--1255
 \T1/cmr/m/n/10 Public Con-nect-Point(Point new-Point) 
  []
 
 
-Underfull \hbox (badness 1043) in paragraph at lines 1222--1222
+Underfull \hbox (badness 1043) in paragraph at lines 1264--1264
 [][]\T1/cmr/m/n/10 Public Has-Points(Point point1, Point point2) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1280
 [][]\T1/cmr/m/n/10 Private edges: Ar-ray[3] Edge 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1280
 \T1/cmr/m/n/10 Private points: Ar-ray[3] Point 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1280
 \T1/cmr/m/n/10 Private cir-cum-cen-ter: Vec-tor2 
  []
 
 
-Underfull \hbox (badness 4608) in paragraph at lines 1238--1238
+Underfull \hbox (badness 4608) in paragraph at lines 1280--1280
 [][]\T1/cmr/m/n/10 Public Con-struc-tor(List<Triangle> tri-an-gu-la-tion, 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1280
 \T1/cmr/m/n/10 Point point1, Point point2, Point point3)  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1280
 \T1/cmr/m/n/10 Public IsWithin(Point new-Point) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1280
 \T1/cmr/m/n/10 Private Con-tainsEdge(Edge edgeTo-Com-pare) 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1280
 \T1/cmr/m/n/10 re-turns the edge if it al-ready ex-ists  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1280
 \T1/cmr/m/n/10 Private Find-Cir-cum-cen-tre() 
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1280
 \T1/cmr/m/n/10 up-dates cir-cum-cen-ter  
  []
 
 
-Underfull \hbox (badness 10000) in paragraph at lines 1238--1238
+Underfull \hbox (badness 10000) in paragraph at lines 1280--1280
 \T1/cmr/m/n/10 Private Find-Ra-dius() 
  []
 
-[31] [32] [33]
+[32] [33] [34]
 
-LaTeX Warning: Reference `bwa result' on page 34 undefined on input line 1340.
+LaTeX Warning: Reference `bwa result' on page 35 undefined on input line 1382.
 
-[34] [35] [36]
-Overfull \hbox (10.52763pt too wide) in paragraph at lines 1410--1421
+[35] [36] [37]
+Overfull \hbox (10.52763pt too wide) in paragraph at lines 1452--1463
  [][] 
  []
 
-[37] [38] [39] [40] [41] [42] [43]
-Overfull \hbox (41.86423pt too wide) in paragraph at lines 1672--1680
+[38] [39] [40] [41] [42] [43] [44]
+Overfull \hbox (41.86423pt too wide) in paragraph at lines 1714--1722
 [][]  
  []
 
-[44] [45]
-Overfull \hbox (24.29906pt too wide) in paragraph at lines 1764--1772
+[45] [46]
+Overfull \hbox (24.29906pt too wide) in paragraph at lines 1806--1814
 [][]  
  []
 
 
-LaTeX Warning: Reference `deleting edges result' on page 46 undefined on input 
-line 1785.
+LaTeX Warning: Reference `deleting edges result' on page 47 undefined on input 
+line 1827.
 
-[46]
-<./Images/point possibilities.png, id=184, 602.25pt x 451.6875pt>
+[47]
+<./Images/point possibilities.png, id=187, 602.25pt x 451.6875pt>
 File: ./Images/point possibilities.png Graphic file (type png)
 <use ./Images/point possibilities.png>
 Package pdftex.def Info: ./Images/point possibilities.png  used on input line 1
-789.
+831.
 (pdftex.def)             Requested size: 290.22105pt x 217.67595pt.
- [47 <./Images/point possibilities.png>] [48]
+ [48 <./Images/point possibilities.png>] [49]
 
-LaTeX Warning: Reference `ba coridoors and edges' on page 49 undefined on input
- line 1867.
+LaTeX Warning: Reference `ba coridoors and edges' on page 50 undefined on input
+ line 1909.
 
 
 LaTeX Warning: `h' float specifier changed to `ht'.
 
-[49]
+[50]
 
-LaTeX Warning: Reference `ba coridoors and edges' on page 50 undefined on input
- line 1908.
+LaTeX Warning: Reference `ba coridoors and edges' on page 51 undefined on input
+ line 1950.
 
-[50] [51] [52]
-Overfull \hbox (22.39676pt too wide) in paragraph at lines 2042--2053
+[51] [52] [53]
+Overfull \hbox (22.39676pt too wide) in paragraph at lines 2084--2095
 [][]  
  []
 
-[53] [54] [55] [56]
-<./Images/Failed to build.png, id=217, 122.859pt x 89.133pt>
+[54] [55] [56] [57]
+<./Images/Failed to build.png, id=220, 122.859pt x 89.133pt>
 File: ./Images/Failed to build.png Graphic file (type png)
 <use ./Images/Failed to build.png>
-Package pdftex.def Info: ./Images/Failed to build.png  used on input line 2233.
+Package pdftex.def Info: ./Images/Failed to build.png  used on input line 2275.
 
 (pdftex.def)             Requested size: 106.4139pt x 77.2064pt.
-<./Images/Nothing happened.png, id=218, 273.4215pt x 190.311pt>
+<./Images/Nothing happened.png, id=221, 273.4215pt x 190.311pt>
 File: ./Images/Nothing happened.png Graphic file (type png)
 <use ./Images/Nothing happened.png>
-Package pdftex.def Info: ./Images/Nothing happened.png  used on input line 2235
+Package pdftex.def Info: ./Images/Nothing happened.png  used on input line 2277
 .
 (pdftex.def)             Requested size: 106.4139pt x 74.06708pt.
-<./Images/rooms generated successful.png, id=219, 225.2415pt x 177.66376pt>
+<./Images/rooms generated successful.png, id=222, 225.2415pt x 177.66376pt>
 File: ./Images/rooms generated successful.png Graphic file (type png)
 <use ./Images/rooms generated successful.png>
 Package pdftex.def Info: ./Images/rooms generated successful.png  used on input
- line 2237.
+ line 2279.
 (pdftex.def)             Requested size: 106.4139pt x 83.93843pt.
 
-Overfull \hbox (35.15889pt too wide) in paragraph at lines 2229--2240
+Overfull \hbox (35.15889pt too wide) in paragraph at lines 2271--2282
  [][] 
  []
 
-[57 <./Images/Failed to build.png> <./Images/Nothing happened.png> <./Images/ro
+[58 <./Images/Failed to build.png> <./Images/Nothing happened.png> <./Images/ro
 oms generated successful.png>]
-<./Images/less dense gen.png, id=226, 462.97969pt x 272.51813pt>
+<./Images/less dense gen.png, id=229, 462.97969pt x 272.51813pt>
 File: ./Images/less dense gen.png Graphic file (type png)
 <use ./Images/less dense gen.png>
-Package pdftex.def Info: ./Images/less dense gen.png  used on input line 2270.
+Package pdftex.def Info: ./Images/less dense gen.png  used on input line 2312.
 (pdftex.def)             Requested size: 106.4139pt x 62.63626pt.
 
-Overfull \hbox (10.7204pt too wide) in paragraph at lines 2266--2273
+Overfull \hbox (10.7204pt too wide) in paragraph at lines 2308--2315
  [][] 
  []
 
-[58 <./Images/less dense gen.png>]
-<./Images/less dense gen room variations.png, id=231, 701.62125pt x 442.65375pt
+[59 <./Images/less dense gen.png>]
+<./Images/less dense gen room variations.png, id=234, 701.62125pt x 442.65375pt
 >
 File: ./Images/less dense gen room variations.png Graphic file (type png)
 <use ./Images/less dense gen room variations.png>
 Package pdftex.def Info: ./Images/less dense gen room variations.png  used on i
-nput line 2323.
+nput line 2365.
 (pdftex.def)             Requested size: 106.4139pt x 67.13141pt.
 
-Overfull \hbox (12.08119pt too wide) in paragraph at lines 2319--2326
+Overfull \hbox (12.08119pt too wide) in paragraph at lines 2361--2368
  [][] 
  []
 
-[59 <./Images/less dense gen room variations.png>]
-<./Images/room variations generation.png, id=236, 531.48563pt x 359.09157pt>
+[60 <./Images/less dense gen room variations.png>]
+<./Images/room variations generation.png, id=239, 531.48563pt x 359.09157pt>
 File: ./Images/room variations generation.png Graphic file (type png)
 <use ./Images/room variations generation.png>
 Package pdftex.def Info: ./Images/room variations generation.png  used on input
- line 2385.
+ line 2427.
 (pdftex.def)             Requested size: 106.4139pt x 71.89374pt.
- [60 <./Images/room variations generation.png>]
-<./Images/rooms seperated.png, id=241, 649.67719pt x 356.0803pt>
+ [61 <./Images/room variations generation.png>]
+<./Images/rooms seperated.png, id=245, 649.67719pt x 356.0803pt>
 File: ./Images/rooms seperated.png Graphic file (type png)
 <use ./Images/rooms seperated.png>
-Package pdftex.def Info: ./Images/rooms seperated.png  used on input line 2454.
+Package pdftex.def Info: ./Images/rooms seperated.png  used on input line 2496.
 
 (pdftex.def)             Requested size: 106.4139pt x 58.32147pt.
 
-Overfull \hbox (15.60811pt too wide) in paragraph at lines 2450--2457
+Overfull \hbox (15.60811pt too wide) in paragraph at lines 2492--2499
  [][] 
  []
 
-[61 <./Images/rooms seperated.png>]
-<./Images/not responding.png, id=247, 877.77937pt x 520.94624pt>
+[62 <./Images/rooms seperated.png>]
+<./Images/not responding.png, id=250, 877.77937pt x 520.94624pt>
 File: ./Images/not responding.png Graphic file (type png)
 <use ./Images/not responding.png>
-Package pdftex.def Info: ./Images/not responding.png  used on input line 2510.
+Package pdftex.def Info: ./Images/not responding.png  used on input line 2552.
 (pdftex.def)             Requested size: 106.4139pt x 63.15471pt.
 
-Overfull \hbox (33.1316pt too wide) in paragraph at lines 2506--2513
+Overfull \hbox (33.1316pt too wide) in paragraph at lines 2548--2555
  [][] 
  []
 
 
-Overfull \hbox (4.30792pt too wide) in paragraph at lines 2535--2536
+Overfull \hbox (4.30792pt too wide) in paragraph at lines 2577--2578
 [][][][][][][][][][][][][][][]  
  []
 
-[62 <./Images/not responding.png>]
-<./Images/spread rooms.png, id=251, 1014.79124pt x 647.41875pt>
+[63 <./Images/not responding.png>]
+<./Images/spread rooms.png, id=254, 1014.79124pt x 647.41875pt>
 File: ./Images/spread rooms.png Graphic file (type png)
 <use ./Images/spread rooms.png>
-Package pdftex.def Info: ./Images/spread rooms.png  used on input line 2568.
+Package pdftex.def Info: ./Images/spread rooms.png  used on input line 2610.
 (pdftex.def)             Requested size: 106.4139pt x 67.88712pt.
 
-Overfull \hbox (51.62709pt too wide) in paragraph at lines 2564--2571
+Overfull \hbox (51.62709pt too wide) in paragraph at lines 2606--2613
  [][] 
  []
 
-[63 <./Images/spread rooms.png>]
-<./Images/room variations spread.png, id=256, 469.00218pt x 419.31656pt>
+[64 <./Images/spread rooms.png>]
+<./Images/room variations spread.png, id=259, 469.00218pt x 419.31656pt>
 File: ./Images/room variations spread.png Graphic file (type png)
 <use ./Images/room variations spread.png>
 Package pdftex.def Info: ./Images/room variations spread.png  used on input lin
-e 2629.
+e 2671.
 (pdftex.def)             Requested size: 106.4139pt x 95.13553pt.
 
-Overfull \hbox (5.63832pt too wide) in paragraph at lines 2625--2632
+Overfull \hbox (5.63832pt too wide) in paragraph at lines 2667--2674
  [][] 
  []
 
-[64 <./Images/room variations spread.png>]
-<./Images/index out of range error.png, id=261, 973.38657pt x 278.54062pt>
+[65 <./Images/room variations spread.png>]
+<./Images/index out of range error.png, id=264, 973.38657pt x 278.54062pt>
 File: ./Images/index out of range error.png Graphic file (type png)
 <use ./Images/index out of range error.png>
 Package pdftex.def Info: ./Images/index out of range error.png  used on input l
-ine 2670.
+ine 2712.
 (pdftex.def)             Requested size: 106.4139pt x 30.4483pt.
 
-Overfull \hbox (2.89037pt too wide) in paragraph at lines 2666--2673
+Overfull \hbox (2.89037pt too wide) in paragraph at lines 2708--2715
  [][] 
  []
 
-<./Images/deleted rooms.png, id=262, 633.86812pt x 454.69875pt>
+<./Images/deleted rooms.png, id=265, 633.86812pt x 454.69875pt>
 File: ./Images/deleted rooms.png Graphic file (type png)
 <use ./Images/deleted rooms.png>
-Package pdftex.def Info: ./Images/deleted rooms.png  used on input line 2708.
+Package pdftex.def Info: ./Images/deleted rooms.png  used on input line 2750.
 (pdftex.def)             Requested size: 106.4139pt x 76.33336pt.
-[65 <./Images/index out of range error.png> <./Images/deleted rooms.png>]
-[66] [67] [68] [69] [70] [71] [72] [73]
-<./Images/triangulation not responding.png, id=293, 880.03781pt x 517.935pt>
+[66 <./Images/index out of range error.png> <./Images/deleted rooms.png>]
+[67] [68] [69] [70] [71] [72] [73] [74]
+<./Images/triangulation not responding.png, id=296, 880.03781pt x 517.935pt>
 File: ./Images/triangulation not responding.png Graphic file (type png)
 <use ./Images/triangulation not responding.png>
 Package pdftex.def Info: ./Images/triangulation not responding.png  used on inp
-ut line 3166.
+ut line 3208.
 (pdftex.def)             Requested size: 106.4139pt x 62.62369pt.
-<./Images/circumcenter not correct.png, id=294, 563.10374pt x 454.69875pt>
+<./Images/circumcenter not correct.png, id=297, 563.10374pt x 454.69875pt>
 File: ./Images/circumcenter not correct.png Graphic file (type png)
 <use ./Images/circumcenter not correct.png>
 Package pdftex.def Info: ./Images/circumcenter not correct.png  used on input l
-ine 3168.
+ine 3210.
 (pdftex.def)             Requested size: 106.4139pt x 85.92186pt.
-<./Images/doesnt remove some edges.png, id=295, 636.87938pt x 624.83438pt>
+<./Images/doesnt remove some edges.png, id=298, 636.87938pt x 624.83438pt>
 File: ./Images/doesnt remove some edges.png Graphic file (type png)
 <use ./Images/doesnt remove some edges.png>
 Package pdftex.def Info: ./Images/doesnt remove some edges.png  used on input l
-ine 3170.
+ine 3212.
 (pdftex.def)             Requested size: 106.4139pt x 104.3994pt.
 
-Overfull \hbox (12.69351pt too wide) in paragraph at lines 3162--3173
+Overfull \hbox (12.69351pt too wide) in paragraph at lines 3204--3215
  [][] 
  []
 
-[74 <./Images/triangulation not responding.png> <./Images/circumcenter not corr
-ect.png> <./Images/doesnt remove some edges.png>] [75]
-<./Images/super tri not removed.png, id=304, 852.18375pt x 476.53032pt>
+[75 <./Images/triangulation not responding.png> <./Images/circumcenter not corr
+ect.png> <./Images/doesnt remove some edges.png>] [76]
+<./Images/super tri not removed.png, id=307, 852.18375pt x 476.53032pt>
 File: ./Images/super tri not removed.png Graphic file (type png)
 <use ./Images/super tri not removed.png>
 Package pdftex.def Info: ./Images/super tri not removed.png  used on input line
- 3294.
+ 3336.
 (pdftex.def)             Requested size: 106.4139pt x 59.5007pt.
-<./Images/rooms deluaney triangulation.png, id=305, 1077.27469pt x 719.68875pt>
+<./Images/rooms deluaney triangulation.png, id=308, 1077.27469pt x 719.68875pt>
 
 File: ./Images/rooms deluaney triangulation.png Graphic file (type png)
 <use ./Images/rooms deluaney triangulation.png>
 Package pdftex.def Info: ./Images/rooms deluaney triangulation.png  used on inp
-ut line 3296.
+ut line 3338.
 (pdftex.def)             Requested size: 106.4139pt x 71.08357pt.
-<./Images/deluaney triangulation stress test.png, id=306, 1343.77031pt x 761.09
+<./Images/deluaney triangulation stress test.png, id=309, 1343.77031pt x 761.09
 344pt>
 File: ./Images/deluaney triangulation stress test.png Graphic file (type png)
 <use ./Images/deluaney triangulation stress test.png>
 Package pdftex.def Info: ./Images/deluaney triangulation stress test.png  used 
-on input line 3298.
+on input line 3340.
 (pdftex.def)             Requested size: 106.4139pt x 60.2616pt.
- [76]
-<./Images/deleted edges.png, id=310, 1038.88126pt x 735.49782pt>
+ [77]
+<./Images/deleted edges.png, id=313, 1038.88126pt x 735.49782pt>
 File: ./Images/deleted edges.png Graphic file (type png)
 <use ./Images/deleted edges.png>
-Package pdftex.def Info: ./Images/deleted edges.png  used on input line 3327.
+Package pdftex.def Info: ./Images/deleted edges.png  used on input line 3369.
 (pdftex.def)             Requested size: 106.4139pt x 75.32729pt.
- [77 <./Images/super tri not removed.png> <./Images/rooms deluaney triangulatio
+ [78 <./Images/super tri not removed.png> <./Images/rooms deluaney triangulatio
 n.png> <./Images/deluaney triangulation stress test.png> <./Images/deleted edge
 s.png>]
-<./Images/remove edges not random.png, id=318, 705.38531pt x 587.94656pt>
+<./Images/remove edges not random.png, id=321, 705.38531pt x 587.94656pt>
 File: ./Images/remove edges not random.png Graphic file (type png)
 <use ./Images/remove edges not random.png>
 Package pdftex.def Info: ./Images/remove edges not random.png  used on input li
-ne 3361.
+ne 3403.
 (pdftex.def)             Requested size: 106.4139pt x 88.69057pt.
- [78 <./Images/remove edges not random.png>]
-<./Images/rand edges removed.png, id=323, 767.86874pt x 669.2503pt>
+ [79 <./Images/remove edges not random.png>]
+<./Images/rand edges removed.png, id=327, 767.86874pt x 669.2503pt>
 File: ./Images/rand edges removed.png Graphic file (type png)
 <use ./Images/rand edges removed.png>
 Package pdftex.def Info: ./Images/rand edges removed.png  used on input line 34
-06.
+48.
 (pdftex.def)             Requested size: 106.4139pt x 92.74469pt.
- [79 <./Images/rand edges removed.png>] [80]
-[81] [82]
-<./Images/freeze on sections.png, id=338, 874.01532pt x 520.94624pt>
+ [80 <./Images/rand edges removed.png>] [81]
+[82] [83]
+<./Images/freeze on sections.png, id=341, 874.01532pt x 520.94624pt>
 File: ./Images/freeze on sections.png Graphic file (type png)
 <use ./Images/freeze on sections.png>
 Package pdftex.def Info: ./Images/freeze on sections.png  used on input line 36
-56.
+98.
 (pdftex.def)             Requested size: 106.4139pt x 63.42497pt.
-<./Images/sections wrong stats.png, id=339, 516.42938pt x 523.9575pt>
+<./Images/sections wrong stats.png, id=342, 516.42938pt x 523.9575pt>
 File: ./Images/sections wrong stats.png Graphic file (type png)
 <use ./Images/sections wrong stats.png>
 Package pdftex.def Info: ./Images/sections wrong stats.png  used on input line 
-3658.
+3700.
 (pdftex.def)             Requested size: 106.4139pt x 107.96362pt.
-<./Images/sections connected.png, id=340, 727.96968pt x 581.17125pt>
+<./Images/sections connected.png, id=343, 727.96968pt x 581.17125pt>
 File: ./Images/sections connected.png Graphic file (type png)
 <use ./Images/sections connected.png>
-Package pdftex.def Info: ./Images/sections connected.png  used on input line 36
-60.
+Package pdftex.def Info: ./Images/sections connected.png  used on input line 37
+02.
 (pdftex.def)             Requested size: 106.4139pt x 84.95493pt.
 
-Overfull \hbox (2.52934pt too wide) in paragraph at lines 3652--3663
+Overfull \hbox (2.52934pt too wide) in paragraph at lines 3694--3705
  [][] 
  []
 
-[83 <./Images/freeze on sections.png> <./Images/sections wrong stats.png> <./Im
-ages/sections connected.png>] [84]
-<./Images/spawnboss fail.png, id=348, 633.86812pt x 653.44125pt>
+[84 <./Images/freeze on sections.png> <./Images/sections wrong stats.png> <./Im
+ages/sections connected.png>] [85]
+<./Images/spawnboss fail.png, id=352, 633.86812pt x 653.44125pt>
 File: ./Images/spawnboss fail.png Graphic file (type png)
 <use ./Images/spawnboss fail.png>
-Package pdftex.def Info: ./Images/spawnboss fail.png  used on input line 3752.
+Package pdftex.def Info: ./Images/spawnboss fail.png  used on input line 3794.
 (pdftex.def)             Requested size: 106.4139pt x 109.69762pt.
-<./Images/spawnboss room generated.png, id=349, 778.40813pt x 690.32906pt>
+<./Images/spawnboss room generated.png, id=353, 778.40813pt x 690.32906pt>
 File: ./Images/spawnboss room generated.png Graphic file (type png)
 <use ./Images/spawnboss room generated.png>
 Package pdftex.def Info: ./Images/spawnboss room generated.png  used on input l
-ine 3754.
+ine 3796.
 (pdftex.def)             Requested size: 106.4139pt x 94.37015pt.
 
-Overfull \hbox (1.7712pt too wide) in paragraph at lines 3748--3757
+Overfull \hbox (1.7712pt too wide) in paragraph at lines 3790--3799
  [][] 
  []
 
-[85 <./Images/spawnboss fail.png> <./Images/spawnboss room generated.png>]
-<./Images/bad horizontal + vert.png, id=356, 702.37407pt x 721.94719pt>
+[86 <./Images/spawnboss fail.png> <./Images/spawnboss room generated.png>]
+<./Images/bad horizontal + vert.png, id=359, 702.37407pt x 721.94719pt>
 File: ./Images/bad horizontal + vert.png Graphic file (type png)
 <use ./Images/bad horizontal + vert.png>
 Package pdftex.def Info: ./Images/bad horizontal + vert.png  used on input line
- 3831.
+ 3873.
 (pdftex.def)             Requested size: 106.4139pt x 109.37799pt.
 
-[86] [87 <./Images/bad horizontal + vert.png>]
-<./Images/up down lines.png, id=364, 521.69907pt x 454.69875pt>
+[87] [88 <./Images/bad horizontal + vert.png>]
+<./Images/up down lines.png, id=367, 521.69907pt x 454.69875pt>
 File: ./Images/up down lines.png Graphic file (type png)
 <use ./Images/up down lines.png>
-Package pdftex.def Info: ./Images/up down lines.png  used on input line 3899.
+Package pdftex.def Info: ./Images/up down lines.png  used on input line 3941.
 (pdftex.def)             Requested size: 106.4139pt x 92.74205pt.
-<./Images/corridor error.png, id=365, 590.205pt x 590.95781pt>
+<./Images/corridor error.png, id=368, 590.205pt x 590.95781pt>
 File: ./Images/corridor error.png Graphic file (type png)
 <use ./Images/corridor error.png>
-Package pdftex.def Info: ./Images/corridor error.png  used on input line 3901.
+Package pdftex.def Info: ./Images/corridor error.png  used on input line 3943.
 (pdftex.def)             Requested size: 106.4139pt x 106.54816pt.
-<./Images/coridoors and edges.png, id=366, 1003.49907pt x 654.94687pt>
+<./Images/coridoors and edges.png, id=369, 1003.49907pt x 654.94687pt>
 File: ./Images/coridoors and edges.png Graphic file (type png)
 <use ./Images/coridoors and edges.png>
 Package pdftex.def Info: ./Images/coridoors and edges.png  used on input line 3
-903.
+945.
 (pdftex.def)             Requested size: 106.4139pt x 69.44601pt.
- [88 <./Images/up down lines.png> <./Images/corridor error.png> <./Images/corid
+ [89 <./Images/up down lines.png> <./Images/corridor error.png> <./Images/corid
 oors and edges.png>]
 File: ./Images/Nothing happened.png Graphic file (type png)
 <use ./Images/Nothing happened.png>
-Package pdftex.def Info: ./Images/Nothing happened.png  used on input line 3965
+Package pdftex.def Info: ./Images/Nothing happened.png  used on input line 4007
 .
 (pdftex.def)             Requested size: 106.4139pt x 74.06708pt.
-<./Images/one tilemap at time.png, id=373, 244.66406pt x 174.6525pt>
+<./Images/one tilemap at time.png, id=376, 244.66406pt x 174.6525pt>
 File: ./Images/one tilemap at time.png Graphic file (type png)
 <use ./Images/one tilemap at time.png>
-Package pdftex.def Info: ./Images/one tilemap at time.png  used on input line 3
-967.
+Package pdftex.def Info: ./Images/one tilemap at time.png  used on input line 4
+009.
 (pdftex.def)             Requested size: 106.4139pt x 75.96523pt.
- [89 <./Images/one tilemap at time.png>]
-<./Images/tilemap wrong pos.png, id=378, 790.45313pt x 324.46219pt>
+ [90 <./Images/one tilemap at time.png>]
+<./Images/tilemap wrong pos.png, id=381, 790.45313pt x 324.46219pt>
 File: ./Images/tilemap wrong pos.png Graphic file (type png)
 <use ./Images/tilemap wrong pos.png>
-Package pdftex.def Info: ./Images/tilemap wrong pos.png  used on input line 403
-3.
+Package pdftex.def Info: ./Images/tilemap wrong pos.png  used on input line 407
+5.
 (pdftex.def)             Requested size: 106.4139pt x 43.67673pt.
-<./Images/drawn tilemap.png, id=379, 968.86969pt x 650.43pt>
+<./Images/drawn tilemap.png, id=382, 968.86969pt x 650.43pt>
 File: ./Images/drawn tilemap.png Graphic file (type png)
 <use ./Images/drawn tilemap.png>
-Package pdftex.def Info: ./Images/drawn tilemap.png  used on input line 4035.
+Package pdftex.def Info: ./Images/drawn tilemap.png  used on input line 4077.
 (pdftex.def)             Requested size: 106.4139pt x 71.43834pt.
- [90] [91 <./Images/tilemap wrong pos.png> <./Images/drawn tilemap.png>] [92]
-<./Images/made rooms bigger.png, id=392, 728.7225pt x 745.28438pt>
+ [91] [92 <./Images/tilemap wrong pos.png> <./Images/drawn tilemap.png>] [93]
+<./Images/made rooms bigger.png, id=395, 728.7225pt x 745.28438pt>
 File: ./Images/made rooms bigger.png Graphic file (type png)
 <use ./Images/made rooms bigger.png>
-Package pdftex.def Info: ./Images/made rooms bigger.png  used on input line 416
-9.
+Package pdftex.def Info: ./Images/made rooms bigger.png  used on input line 421
+1.
 (pdftex.def)             Requested size: 106.4139pt x 108.83109pt.
-<./Images/room in tilemap.png, id=393, 566.86781pt x 325.96782pt>
+<./Images/room in tilemap.png, id=396, 566.86781pt x 325.96782pt>
 File: ./Images/room in tilemap.png Graphic file (type png)
 <use ./Images/room in tilemap.png>
-Package pdftex.def Info: ./Images/room in tilemap.png  used on input line 4171.
+Package pdftex.def Info: ./Images/room in tilemap.png  used on input line 4213.
 
 (pdftex.def)             Requested size: 106.4139pt x 61.18845pt.
-<./Images/room in tilemap with coridoor holes.png, id=394, 594.72188pt x 426.84
+<./Images/room in tilemap with coridoor holes.png, id=397, 594.72188pt x 426.84
 468pt>
 File: ./Images/room in tilemap with coridoor holes.png Graphic file (type png)
 <use ./Images/room in tilemap with coridoor holes.png>
 Package pdftex.def Info: ./Images/room in tilemap with coridoor holes.png  used
- on input line 4173.
+ on input line 4215.
 (pdftex.def)             Requested size: 106.4139pt x 76.3728pt.
-<./Images/better rand scale.png, id=395, 802.49812pt x 736.25063pt>
+<./Images/better rand scale.png, id=398, 802.49812pt x 736.25063pt>
 File: ./Images/better rand scale.png Graphic file (type png)
 <use ./Images/better rand scale.png>
-Package pdftex.def Info: ./Images/better rand scale.png  used on input line 417
-5.
+Package pdftex.def Info: ./Images/better rand scale.png  used on input line 421
+7.
 (pdftex.def)             Requested size: 106.4139pt x 97.62576pt.
-<./Images/coridoor platforms no holes.png, id=396, 666.23906pt x 599.23875pt>
+<./Images/coridoor platforms no holes.png, id=399, 666.23906pt x 599.23875pt>
 File: ./Images/coridoor platforms no holes.png Graphic file (type png)
 <use ./Images/coridoor platforms no holes.png>
 Package pdftex.def Info: ./Images/coridoor platforms no holes.png  used on inpu
-t line 4177.
+t line 4219.
 (pdftex.def)             Requested size: 106.4139pt x 95.70642pt.
-<./Images/coridoor generation working.png, id=397, 1064.47687pt x 685.8122pt>
+<./Images/coridoor generation working.png, id=400, 1064.47687pt x 685.8122pt>
 File: ./Images/coridoor generation working.png Graphic file (type png)
 <use ./Images/coridoor generation working.png>
 Package pdftex.def Info: ./Images/coridoor generation working.png  used on inpu
-t line 4179.
+t line 4221.
 (pdftex.def)             Requested size: 106.4139pt x 68.55383pt.
 
-Overfull \hbox (6.58253pt too wide) in paragraph at lines 4165--4182
+Overfull \hbox (6.58253pt too wide) in paragraph at lines 4207--4224
  [][] 
  []
 
-[93] [94 <./Images/made rooms bigger.png> <./Images/room in tilemap.png> <./Ima
+[94] [95 <./Images/made rooms bigger.png> <./Images/room in tilemap.png> <./Ima
 ges/room in tilemap with coridoor holes.png> <./Images/better rand scale.png> <
 ./Images/coridoor platforms no holes.png> <./Images/coridoor generation working
-.png>] [95]
-<./Images/coridoor doesnt work.png, id=413, 440.39531pt x 330.48468pt>
+.png>] [96]
+<./Images/coridoor doesnt work.png, id=416, 440.39531pt x 330.48468pt>
 File: ./Images/coridoor doesnt work.png Graphic file (type png)
 <use ./Images/coridoor doesnt work.png>
 Package pdftex.def Info: ./Images/coridoor doesnt work.png  used on input line 
-4277.
+4319.
 (pdftex.def)             Requested size: 106.4139pt x 79.85248pt.
 File: ./Images/coridoor generation working.png Graphic file (type png)
 <use ./Images/coridoor generation working.png>
 Package pdftex.def Info: ./Images/coridoor generation working.png  used on inpu
-t line 4279.
+t line 4321.
 (pdftex.def)             Requested size: 106.4139pt x 68.55383pt.
-<./Images/problem with coridoor borders.png, id=414, 621.07031pt x 578.16pt>
+<./Images/problem with coridoor borders.png, id=417, 621.07031pt x 578.16pt>
 File: ./Images/problem with coridoor borders.png Graphic file (type png)
 <use ./Images/problem with coridoor borders.png>
 Package pdftex.def Info: ./Images/problem with coridoor borders.png  used on in
-put line 4281.
+put line 4323.
 (pdftex.def)             Requested size: 106.4139pt x 99.06223pt.
- [96 <./Images/coridoor doesnt work.png> <./Images/problem with coridoor border
+ [97 <./Images/coridoor doesnt work.png> <./Images/problem with coridoor border
 s.png>]
-<./Images/bad spawn.png, id=420, 331.99031pt x 260.47313pt>
+<./Images/bad spawn.png, id=424, 331.99031pt x 260.47313pt>
 File: ./Images/bad spawn.png Graphic file (type png)
 <use ./Images/bad spawn.png>
-Package pdftex.def Info: ./Images/bad spawn.png  used on input line 4310.
+Package pdftex.def Info: ./Images/bad spawn.png  used on input line 4352.
 (pdftex.def)             Requested size: 106.4139pt x 83.48824pt.
-<./Images/player gen in spawn.png, id=421, 808.52063pt x 487.8225pt>
+<./Images/player gen in spawn.png, id=425, 808.52063pt x 487.8225pt>
 File: ./Images/player gen in spawn.png Graphic file (type png)
 <use ./Images/player gen in spawn.png>
 Package pdftex.def Info: ./Images/player gen in spawn.png  used on input line 4
-340.
+382.
 (pdftex.def)             Requested size: 106.4139pt x 64.20071pt.
- [97 <./Images/bad spawn.png> <./Images/player gen in spawn.png>]
-<./Images/options.png, id=428, 1433.355pt x 743.02594pt>
+ [98 <./Images/bad spawn.png> <./Images/player gen in spawn.png>]
+<./Images/options.png, id=431, 1433.355pt x 743.02594pt>
 File: ./Images/options.png Graphic file (type png)
 <use ./Images/options.png>
-Package pdftex.def Info: ./Images/options.png  used on input line 4358.
+Package pdftex.def Info: ./Images/options.png  used on input line 4400.
 (pdftex.def)             Requested size: 290.22105pt x 150.43925pt.
-<./Images/load menu.png, id=429, 1432.60219pt x 721.94719pt>
+<./Images/load menu.png, id=432, 1432.60219pt x 721.94719pt>
 File: ./Images/load menu.png Graphic file (type png)
 <use ./Images/load menu.png>
-Package pdftex.def Info: ./Images/load menu.png  used on input line 4367.
+Package pdftex.def Info: ./Images/load menu.png  used on input line 4409.
 (pdftex.def)             Requested size: 290.22105pt x 146.24858pt.
- [98 <./Images/options.png> <./Images/load menu.png>]
-<./Images/ethan testing.png, id=433, 1364.09625pt x 718.18312pt>
+ [99 <./Images/options.png> <./Images/load menu.png>]
+<./Images/ethan testing.png, id=436, 1364.09625pt x 718.18312pt>
 File: ./Images/ethan testing.png Graphic file (type png)
 <use ./Images/ethan testing.png>
-Package pdftex.def Info: ./Images/ethan testing.png  used on input line 4391.
+Package pdftex.def Info: ./Images/ethan testing.png  used on input line 4433.
 (pdftex.def)             Requested size: 290.22105pt x 152.79544pt.
- [99 <./Images/ethan testing.png>] [100] (Report.aux)
+<./Images/main menu.png, id=437, 1368.61313pt x 715.92468pt>
+File: ./Images/main menu.png Graphic file (type png)
+<use ./Images/main menu.png>
+Package pdftex.def Info: ./Images/main menu.png  used on input line 4447.
+(pdftex.def)             Requested size: 290.22105pt x 151.81244pt.
+ [100 <./Images/ethan testing.png> <./Images/main menu.png>]
+<./Images/successful dun gen.png, id=443, 606.01407pt x 715.92468pt>
+File: ./Images/successful dun gen.png Graphic file (type png)
+<use ./Images/successful dun gen.png>
+Package pdftex.def Info: ./Images/successful dun gen.png  used on input line 44
+65.
+(pdftex.def)             Requested size: 241.84842pt x 285.70935pt.
+<./Images/test scene.png, id=444, 887.56593pt x 355.3275pt>
+File: ./Images/test scene.png Graphic file (type png)
+<use ./Images/test scene.png>
+Package pdftex.def Info: ./Images/test scene.png  used on input line 4478.
+(pdftex.def)             Requested size: 241.84842pt x 96.81804pt.
+ [101 <./Images/successful dun gen.png>]
+<./Images/player_idle.png, id=449, 513.92pt x 128.48pt>
+File: ./Images/player_idle.png Graphic file (type png)
+<use ./Images/player_idle.png>
+Package pdftex.def Info: ./Images/player_idle.png  used on input line 4489.
+(pdftex.def)             Requested size: 170.71548pt x 42.67912pt.
+<./Images/player_walk.png, id=450, 1027.84pt x 128.48pt>
+File: ./Images/player_walk.png Graphic file (type png)
+<use ./Images/player_walk.png>
+Package pdftex.def Info: ./Images/player_walk.png  used on input line 4490.
+(pdftex.def)             Requested size: 341.431pt x 42.67912pt.
+<./Images/player_death.png, id=451, 1413.28pt x 128.48pt>
+File: ./Images/player_death.png Graphic file (type png)
+<use ./Images/player_death.png>
+Package pdftex.def Info: ./Images/player_death.png  used on input line 4491.
+(pdftex.def)             Requested size: 469.46762pt x 42.67912pt.
+<./Images/Flying_eye_Attack.png, id=452, 1204.5pt x 150.5625pt>
+File: ./Images/Flying_eye_Attack.png Graphic file (type png)
+<use ./Images/Flying_eye_Attack.png>
+Package pdftex.def Info: ./Images/Flying_eye_Attack.png  used on input line 450
+1.
+(pdftex.def)             Requested size: 341.42978pt x 42.67912pt.
+<./Images/Flying_eye_Attac2.png, id=453, 1204.5pt x 150.5625pt>
+File: ./Images/Flying_eye_Attac2.png Graphic file (type png)
+<use ./Images/Flying_eye_Attac2.png>
+Package pdftex.def Info: ./Images/Flying_eye_Attac2.png  used on input line 450
+2.
+(pdftex.def)             Requested size: 341.42978pt x 42.67912pt.
+<./Images/Flying_eye_Attack3.png, id=454, 903.375pt x 150.5625pt>
+File: ./Images/Flying_eye_Attack3.png Graphic file (type png)
+<use ./Images/Flying_eye_Attack3.png>
+Package pdftex.def Info: ./Images/Flying_eye_Attack3.png  used on input line 45
+03.
+(pdftex.def)             Requested size: 256.07233pt x 42.67912pt.
+<./Images/Flying_eye_Death.png, id=455, 602.25pt x 150.5625pt>
+File: ./Images/Flying_eye_Death.png Graphic file (type png)
+<use ./Images/Flying_eye_Death.png>
+Package pdftex.def Info: ./Images/Flying_eye_Death.png  used on input line 4504
+.
+(pdftex.def)             Requested size: 170.71487pt x 42.67912pt.
+<./Images/Flying_eye_Flight.png, id=456, 1204.5pt x 150.5625pt>
+File: ./Images/Flying_eye_Flight.png Graphic file (type png)
+<use ./Images/Flying_eye_Flight.png>
+Package pdftex.def Info: ./Images/Flying_eye_Flight.png  used on input line 450
+5.
+(pdftex.def)             Requested size: 341.42978pt x 42.67912pt.
+<./Images/Flying_eye_projectile_sprite.png, id=457, 385.44pt x 48.18pt>
+File: ./Images/Flying_eye_projectile_sprite.png Graphic file (type png)
+<use ./Images/Flying_eye_projectile_sprite.png>
+Package pdftex.def Info: ./Images/Flying_eye_projectile_sprite.png  used on inp
+ut line 4506.
+(pdftex.def)             Requested size: 341.42903pt x 42.67912pt.
+<./Images/Flying_eye_Take Hit.png, id=458, 602.25pt x 150.5625pt>
+File: ./Images/Flying_eye_Take Hit.png Graphic file (type png)
+<use ./Images/Flying_eye_Take Hit.png>
+Package pdftex.def Info: ./Images/Flying_eye_Take Hit.png  used on input line 4
+507.
+(pdftex.def)             Requested size: 170.71487pt x 42.67912pt.
+<./Images/goblin_Attack.png, id=459, 1204.5pt x 150.5625pt>
+File: ./Images/goblin_Attack.png Graphic file (type png)
+<use ./Images/goblin_Attack.png>
+Package pdftex.def Info: ./Images/goblin_Attack.png  used on input line 4514.
+(pdftex.def)             Requested size: 341.42978pt x 42.67912pt.
+<./Images/goblin_Attack2.png, id=460, 1204.5pt x 150.5625pt>
+File: ./Images/goblin_Attack2.png Graphic file (type png)
+<use ./Images/goblin_Attack2.png>
+Package pdftex.def Info: ./Images/goblin_Attack2.png  used on input line 4515.
+(pdftex.def)             Requested size: 341.42978pt x 42.67912pt.
+<./Images/goblin_Attack3.png, id=461, 1806.75pt x 150.5625pt>
+File: ./Images/goblin_Attack3.png Graphic file (type png)
+<use ./Images/goblin_Attack3.png>
+Package pdftex.def Info: ./Images/goblin_Attack3.png  used on input line 4516.
+(pdftex.def)             Requested size: 512.14467pt x 42.67912pt.
+<./Images/goblin_Bomb_sprite.png, id=462, 1907.125pt x 100.375pt>
+File: ./Images/goblin_Bomb_sprite.png Graphic file (type png)
+<use ./Images/goblin_Bomb_sprite.png>
+Package pdftex.def Info: ./Images/goblin_Bomb_sprite.png  used on input line 45
+17.
+(pdftex.def)             Requested size: 810.91026pt x 42.67912pt.
+<./Images/goblin_Death.png, id=463, 602.25pt x 150.5625pt>
+File: ./Images/goblin_Death.png Graphic file (type png)
+<use ./Images/goblin_Death.png>
+Package pdftex.def Info: ./Images/goblin_Death.png  used on input line 4518.
+(pdftex.def)             Requested size: 170.71487pt x 42.67912pt.
+<./Images/goblin_Idle.png, id=464, 602.25pt x 150.5625pt>
+File: ./Images/goblin_Idle.png Graphic file (type png)
+<use ./Images/goblin_Idle.png>
+Package pdftex.def Info: ./Images/goblin_Idle.png  used on input line 4519.
+(pdftex.def)             Requested size: 170.71487pt x 42.67912pt.
+<./Images/goblin_Run.png, id=465, 1204.5pt x 150.5625pt>
+File: ./Images/goblin_Run.png Graphic file (type png)
+<use ./Images/goblin_Run.png>
+Package pdftex.def Info: ./Images/goblin_Run.png  used on input line 4520.
+(pdftex.def)             Requested size: 341.42978pt x 42.67912pt.
+<./Images/goblin_Take Hit.png, id=466, 602.25pt x 150.5625pt>
+File: ./Images/goblin_Take Hit.png Graphic file (type png)
+<use ./Images/goblin_Take Hit.png>
+Package pdftex.def Info: ./Images/goblin_Take Hit.png  used on input line 4521.
+
+(pdftex.def)             Requested size: 170.71487pt x 42.67912pt.
+
+Overfull \hbox (28.44783pt too wide) in paragraph at lines 4514--4522
+ [] 
+ []
+
+
+Overfull \hbox (327.21342pt too wide) in paragraph at lines 4514--4522
+ [] 
+ []
+
+[102 <./Images/test scene.png> <./Images/player_idle.png> <./Images/player_walk
+.png> <./Images/player_death.png> <./Images/Flying_eye_Attack.png> <./Images/Fl
+ying_eye_Attac2.png> <./Images/Flying_eye_Attack3.png> <./Images/Flying_eye_Dea
+th.png> <./Images/Flying_eye_Flight.png> <./Images/Flying_eye_projectile_sprite
+.png> <./Images/Flying_eye_Take Hit.png>]
+<./Images/mushroom_Attack.png, id=481, 1204.5pt x 150.5625pt>
+File: ./Images/mushroom_Attack.png Graphic file (type png)
+<use ./Images/mushroom_Attack.png>
+Package pdftex.def Info: ./Images/mushroom_Attack.png  used on input line 4528.
+
+(pdftex.def)             Requested size: 341.42978pt x 42.67912pt.
+<./Images/mushroom_Attack2.png, id=482, 1204.5pt x 150.5625pt>
+File: ./Images/mushroom_Attack2.png Graphic file (type png)
+<use ./Images/mushroom_Attack2.png>
+Package pdftex.def Info: ./Images/mushroom_Attack2.png  used on input line 4529
+.
+(pdftex.def)             Requested size: 341.42978pt x 42.67912pt.
+<./Images/mushroom_Attack3.png, id=483, 1656.1875pt x 150.5625pt>
+File: ./Images/mushroom_Attack3.png Graphic file (type png)
+<use ./Images/mushroom_Attack3.png>
+Package pdftex.def Info: ./Images/mushroom_Attack3.png  used on input line 4530
+.
+(pdftex.def)             Requested size: 469.46594pt x 42.67912pt.
+<./Images/mushroom_Death.png, id=484, 602.25pt x 150.5625pt>
+File: ./Images/mushroom_Death.png Graphic file (type png)
+<use ./Images/mushroom_Death.png>
+Package pdftex.def Info: ./Images/mushroom_Death.png  used on input line 4531.
+(pdftex.def)             Requested size: 170.71487pt x 42.67912pt.
+<./Images/mushroom_Idle.png, id=485, 602.25pt x 150.5625pt>
+File: ./Images/mushroom_Idle.png Graphic file (type png)
+<use ./Images/mushroom_Idle.png>
+Package pdftex.def Info: ./Images/mushroom_Idle.png  used on input line 4532.
+(pdftex.def)             Requested size: 170.71487pt x 42.67912pt.
+<./Images/mushroom_Projectile_sprite.png, id=486, 401.5pt x 50.1875pt>
+File: ./Images/mushroom_Projectile_sprite.png Graphic file (type png)
+<use ./Images/mushroom_Projectile_sprite.png>
+Package pdftex.def Info: ./Images/mushroom_Projectile_sprite.png  used on input
+ line 4533.
+(pdftex.def)             Requested size: 341.45427pt x 42.67912pt.
+<./Images/mushroom_Run.png, id=487, 1204.5pt x 150.5625pt>
+File: ./Images/mushroom_Run.png Graphic file (type png)
+<use ./Images/mushroom_Run.png>
+Package pdftex.def Info: ./Images/mushroom_Run.png  used on input line 4534.
+(pdftex.def)             Requested size: 341.42978pt x 42.67912pt.
+<./Images/mushroom_Take Hit.png, id=488, 602.25pt x 150.5625pt>
+File: ./Images/mushroom_Take Hit.png Graphic file (type png)
+<use ./Images/mushroom_Take Hit.png>
+Package pdftex.def Info: ./Images/mushroom_Take Hit.png  used on input line 453
+5.
+(pdftex.def)             Requested size: 170.71487pt x 42.67912pt.
+<./Images/skeleton_Attack.png, id=489, 1204.5pt x 150.5625pt>
+File: ./Images/skeleton_Attack.png Graphic file (type png)
+<use ./Images/skeleton_Attack.png>
+Package pdftex.def Info: ./Images/skeleton_Attack.png  used on input line 4542.
+
+(pdftex.def)             Requested size: 341.42978pt x 42.67912pt.
+<./Images/skeleton_Attack2.png, id=490, 1204.5pt x 150.5625pt>
+File: ./Images/skeleton_Attack2.png Graphic file (type png)
+<use ./Images/skeleton_Attack2.png>
+Package pdftex.def Info: ./Images/skeleton_Attack2.png  used on input line 4543
+.
+(pdftex.def)             Requested size: 341.42978pt x 42.67912pt.
+<./Images/skeleton_Attack3.png, id=491, 903.375pt x 150.5625pt>
+File: ./Images/skeleton_Attack3.png Graphic file (type png)
+<use ./Images/skeleton_Attack3.png>
+Package pdftex.def Info: ./Images/skeleton_Attack3.png  used on input line 4544
+.
+(pdftex.def)             Requested size: 256.07233pt x 42.67912pt.
+<./Images/skeleton_Death.png, id=492, 602.25pt x 150.5625pt>
+File: ./Images/skeleton_Death.png Graphic file (type png)
+<use ./Images/skeleton_Death.png>
+Package pdftex.def Info: ./Images/skeleton_Death.png  used on input line 4545.
+(pdftex.def)             Requested size: 170.71487pt x 42.67912pt.
+<./Images/skeleton_Idle.png, id=493, 602.25pt x 150.5625pt>
+File: ./Images/skeleton_Idle.png Graphic file (type png)
+<use ./Images/skeleton_Idle.png>
+Package pdftex.def Info: ./Images/skeleton_Idle.png  used on input line 4546.
+(pdftex.def)             Requested size: 170.71487pt x 42.67912pt.
+<./Images/skeleton_Shield.png, id=494, 602.25pt x 150.5625pt>
+File: ./Images/skeleton_Shield.png Graphic file (type png)
+<use ./Images/skeleton_Shield.png>
+Package pdftex.def Info: ./Images/skeleton_Shield.png  used on input line 4547.
+
+(pdftex.def)             Requested size: 170.71487pt x 42.67912pt.
+<./Images/skeleton_Sword_sprite.png, id=495, 738.76pt x 102.3825pt>
+File: ./Images/skeleton_Sword_sprite.png Graphic file (type png)
+<use ./Images/skeleton_Sword_sprite.png>
+Package pdftex.def Info: ./Images/skeleton_Sword_sprite.png  used on input line
+ 4548.
+(pdftex.def)             Requested size: 307.9662pt x 42.67912pt.
+<./Images/skeleton_Take Hit.png, id=496, 602.25pt x 150.5625pt>
+File: ./Images/skeleton_Take Hit.png Graphic file (type png)
+<use ./Images/skeleton_Take Hit.png>
+Package pdftex.def Info: ./Images/skeleton_Take Hit.png  used on input line 454
+9.
+(pdftex.def)             Requested size: 170.71487pt x 42.67912pt.
+<./Images/skeleton_Walk.png, id=497, 602.25pt x 150.5625pt>
+File: ./Images/skeleton_Walk.png Graphic file (type png)
+<use ./Images/skeleton_Walk.png>
+Package pdftex.def Info: ./Images/skeleton_Walk.png  used on input line 4550.
+(pdftex.def)             Requested size: 170.71487pt x 42.67912pt.
+ [103 <./Images/goblin_Attack.png> <./Images/goblin_Attack2.png> <./Images/gobl
+in_Attack3.png> <./Images/goblin_Bomb_sprite.png> <./Images/goblin_Death.png> <
+./Images/goblin_Idle.png> <./Images/goblin_Run.png> <./Images/goblin_Take Hit.p
+ng> <./Images/mushroom_Attack.png> <./Images/mushroom_Attack2.png> <./Images/mu
+shroom_Attack3.png> <./Images/mushroom_Death.png> <./Images/mushroom_Idle.png> 
+<./Images/mushroom_Projectile_sprite.png> <./Images/mushroom_Run.png> <./Images
+/mushroom_Take Hit.png>]
+<./Images/tilemap.png, id=518, 287.57437pt x 425.33907pt>
+File: ./Images/tilemap.png Graphic file (type png)
+<use ./Images/tilemap.png>
+Package pdftex.def Info: ./Images/tilemap.png  used on input line 4560.
+(pdftex.def)             Requested size: 193.47577pt x 286.16986pt.
+ [104 <./Images/skeleton_Attack.png> <./Images/skeleton_Attack2.png> <./Images/
+skeleton_Attack3.png> <./Images/skeleton_Death.png> <./Images/skeleton_Idle.png
+> <./Images/skeleton_Shield.png> <./Images/skeleton_Sword_sprite.png> <./Images
+/skeleton_Take Hit.png> <./Images/skeleton_Walk.png> <./Images/tilemap.png>] [1
+05] [106]
+(Report.aux)
  ***********
 LaTeX2e <2023-06-01> patch level 1
 L3 programming layer <2023-08-29>
@@ -1836,10 +2081,10 @@ Package logreq Info: Writing requests to 'Report.run.xml'.
 
  ) 
 Here is how much of TeX's memory you used:
- 31002 strings out of 475247
- 653608 string characters out of 5757792
+ 31483 strings out of 475247
+ 668222 string characters out of 5757792
  2086785 words of memory out of 5000000
- 52093 multiletter control sequences out of 15000+600000
+ 52574 multiletter control sequences out of 15000+600000
  569717 words of font info for 60 fonts, out of 8000000 for 9000
  1141 hyphenation exceptions out of 8191
  84i,14n,89p,1882b,1596s stack positions out of 10000i,1000n,20000p,200000b,200000s
@@ -1856,9 +2101,9 @@ l\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1200.pk> <C:\Users\dimki\AppDat
 a\Local\MiKTeX\fonts/pk/ljfour/jknappen/ec/dpi600\ecrm1728.pk><C:/Users/dimki/A
 ppData/Local/Programs/MiKTeX/fonts/type1/public/inconsolata/Inconsolata-zi4r.pf
 b>
-Output written on Report.pdf (100 pages, 1381931 bytes).
+Output written on Report.pdf (106 pages, 1534083 bytes).
 PDF statistics:
- 889 PDF objects out of 1000 (max. 8388607)
+ 987 PDF objects out of 1000 (max. 8388607)
  0 named destinations out of 1000 (max. 500000)
- 338 words of extra memory for PDF output out of 10000 (max. 10000000)
+ 533 words of extra memory for PDF output out of 10000 (max. 10000000)
 

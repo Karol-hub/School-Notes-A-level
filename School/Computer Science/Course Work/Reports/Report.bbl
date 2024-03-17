@@ -59,10 +59,23 @@
     \field{labelalpha}{Equ}
     \field{sortinit}{9}
     \field{sortinithash}{9}
-    \field{note}{Accessed:18/12/23}
+    \field{note}{Accessed: 18/12/23}
     \field{title}{Finding Circumcenter given three points}
     \verb{url}
     \verb https://www.omnicalculator.com/math/circumcenter-of-a-triangle
+    \endverb
+  \endentry
+
+  \entry{pixel_art}{misc}{}
+    \field{labeltitlesource}{title}
+    \field{labelalpha}{Pix}
+    \field{sortinit}{9}
+    \field{sortinithash}{9}
+    \field{note}{Accessed: 14/02/24}
+    \field{title}{Monsters Creatures Fantasy pack}
+    \verb{url}
+    \verb https://luizmelo.itch.io/monsters-creatures-fantasy#:~:text=The%20Mon
+    \verb sters%20Creatures%20Fantasy%20pack,4)%2C%20Death(4)
     \endverb
   \endentry
 

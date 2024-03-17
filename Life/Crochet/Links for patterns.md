@@ -24,3 +24,4 @@
 [Baby unicorn](https://littleyarnfriends.com/post/24411665124/crochet-pattern-lil-baby-unicorn)
 [Kitty pie](https://paintitcolorful.blogspot.com/2020/10/pumkitty-pie-pattern.html)
 [goofy ahhh frog](https://thecraftzilla.blogspot.com/2016/04/spring-frog-pattern.html)
+[kong bob-omb from smb](https://onescreativemind.com/2019/08/30/freebie-friday-king-bob-omb-super-mario-crochet-pattern/)

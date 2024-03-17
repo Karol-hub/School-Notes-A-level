@@ -782,7 +782,49 @@ Punishes the player for making too many mistakes \smallBr
 Gives the player a way to fight back against enemies \smallBr
 ### Can the player block? (Optional)\linebreak
 Gives the player another option for avoiding damage other than moving out of the way \smallBr
+## \textbf{Player Movement}
+### Can the player walk? (Mandatory)\linebreak
+Allows the player to traverse the environment horizontally\smallBr
+### Can the player jump? (Mandatory)\linebreak
+Allows the player to traverse the environment vertically\smallBr
+### Can the player double jump? (Mandatory)\linebreak
+Gives extra mobility to the player\smallBr
+### Can the player dash? (Mandatory)\linebreak
+Allows the player to quickly move in a specific direction\smallBr
+### Can the player bounce off walls and enemies when dashing (Optional)\linebreak
+Adds a unique twist to the movement\smallBr
 # \large{\textbf{Visuals}}
+## \textbf{Player}
+### Does the player have walking animation? (Mandatory) \linebreak 
+Allows the player to see that they are walking and it looks good\smallBr
+### Does the player have a dashing animation? (Mandatory) \linebreak 
+Gives the player feedback to show that they are dashing\smallBr
+### Does the player have a death animation? (Mandatory) \linebreak 
+Shows the player that they have died\smallBr
+### Do the animations play at the correct time? (Mandatory) \linebreak 
+Want the animations to only play when they are supposed to play\smallBr
+### Do the animations play at a good frame rate? (Mandatory) \linebreak 
+If the animation is too fast or too slow it can look very unnatural\smallBr
+## \textbf{Enemies}
+### Does each unique enemy have a unique texture with unique animation? (Mandatory)\linebreak
+Allows the player to differentiate between different enemy types\smallBr
+### Does each enemy have a death animation? (Mandatory)\linebreak
+Allows player to see if an enemy has been killed\smallBr
+### Does each enemy have a swinging animation? (Mandatory)\linebreak
+Allows player to see if an enemy is attacking\smallBr
+### Does each enemy have an idle animation? (Mandatory)\linebreak
+When an enemy isn't walking or attacking a player it will be idle\smallBr
+### Does each enemy have a walking animation? (Mandatory)\linebreak
+Allows player to see an enemy is moving\smallBr
+### Do the animations play at the correct time? (Mandatory) \linebreak 
+Want the animations to only play when they are supposed to play\smallBr
+### Do the animations play at a good frame rate? (Mandatory) \linebreak 
+If the animation is too fast or too slow it can look very unnatural\smallBr
+## \textbf{Environment}
+### Is there a interesting looking tile map? (Mandatory)\linebreak
+Keeps the player engaged and immersed in the game\smallBr 
+### Are there variations of the tile map? (Mandatory)\linebreak
+Keeps the player engaged and immersed in the game\smallBr 
 \end{easylist}
 
 \section{Designing the Solution}
@@ -4396,8 +4438,132 @@ Once he loaded into the game he immediately grasped all the controls, those bein
 After moving around for a while Ethan discovered some of the specialised movement techniques I added. Those mostly being dash bouncing where while holding jump and dashing into any type of wall and they will bounce around with an equal speed in a different direction. He stated that it could use some tuning, but the system is fun and it would be very fun to mix it with combat and allow the player to dash into enemies and bounce them around. This seems like a very good feature that I would like to implement in the future.
 
 \subsection{Success criteria evaluation}
+Add something here to make it look good
+\subsubsection{User Interface}
+The main menu was somewhat successful with 2/3 mandatory goals achieved and 0/2 optional goals. So there is a lot of room for improvement, but most of the basic functionality is there.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.6\linewidth]{main menu}
+\caption{Current UI for Main menu}
+\label{main menu}
+\end{figure}
+
+The rest of the user interface wasn't developed as the pause menu and the HUD (heads up display) wasn't developed so they weren't successful at all need to be developed in the future
+
+\subsubsection{Audio}
+The game currently doesn't feature any audio so once again all of the criteria haven't been met, this is because I couldn't find any sounds that were copyright free and would suit my game.  I also have never used sound in godot so I don't know how to implement it.
+
+\subsubsection{Gameplay}
+This was the most successful section since it had the most time dedicated towards it.
+
+\myparagraph{Level Generation}
+3/5 of the goals have been achieved, the goals which haven't been achieved rely on features that haven't been implemented yet. Those being are there objects you can interact with that give items, however an item system hasn't been implemented yet. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.5\linewidth]{successful dun gen}
+\caption{Successful dungeon generation}
+\label{dun_gen}
+\end{figure}
+
+\myparagraph{Player Combat}
+This system also hasn't been implemented so none of these goals have been met. This is something that needs to be developed in the future.
+
+\myparagraph{Movement}
+5/5 of the goals for this section have been met. Though I didn't have enough time to write up the process. Though all the goals have been met they may not be fully developed. When play testing Ethan mentioned that the movement doesn't feel that smooth, so it's something I may consider developing in the future, however there are other goals that are more important.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.5\linewidth]{test scene}
+\caption{Test level for movement}
+\label{move_test}
+\end{figure}
+
+\subsubsection{Visuals}
+\myparagraph{Player}
+2/5 of the goals are achieved since some of the animations have been created however they haven't been implemented into the game. The player was designed to fit the enemies as I was able to find an asset pack containing sprite sheets for enemies at \cite{pixel_art}.
+
+\begin{figure}[H]
+\centering
+\includegraphics[height = 1.5cm]{player_idle}
+\includegraphics[height = 1.5cm]{player_walk}
+\includegraphics[height = 1.5cm]{player_death}
+\caption{Sprite sheets for player animations}
+\label{player_sprite}
+\end{figure}
+
+\myparagraph{Enemies}
+All enemy sprite sheets have been take from \cite{pixel_art}. Though none of the enemies have been created all the art is present which makes it easy to implement in the future. With this 5/7 of the goals have been achieved. Leaving only the implementation.
+
+\begin{figure}[H]
+\centering
+\includegraphics[height = 1.5cm]{Flying_eye_Attack}
+\includegraphics[height = 1.5cm]{Flying_eye_Attac2}
+\includegraphics[height = 1.5cm]{Flying_eye_Attack3}
+\includegraphics[height = 1.5cm]{Flying_eye_Death}
+\includegraphics[height = 1.5cm]{Flying_eye_Flight}
+\includegraphics[height = 1.5cm]{Flying_eye_projectile_sprite}
+\includegraphics[height = 1.5cm]{Flying_eye_Take Hit}
+\caption{Sprite sheet for Flying eye enemy}
+\label{flying_eye_sprite}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[height = 1.5cm]{goblin_Attack}
+\includegraphics[height = 1.5cm]{goblin_Attack2}
+\includegraphics[height = 1.5cm]{goblin_Attack3}
+\includegraphics[height = 1.5cm]{goblin_Bomb_sprite}
+\includegraphics[height = 1.5cm]{goblin_Death}
+\includegraphics[height = 1.5cm]{goblin_Idle}
+\includegraphics[height = 1.5cm]{goblin_Run}
+\includegraphics[height = 1.5cm]{goblin_Take Hit}
+\caption{Sprite sheet for goblin enemy}
+\label{goblin_sprite}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[height = 1.5cm]{mushroom_Attack}
+\includegraphics[height = 1.5cm]{mushroom_Attack2}
+\includegraphics[height = 1.5cm]{mushroom_Attack3}
+\includegraphics[height = 1.5cm]{mushroom_Death}
+\includegraphics[height = 1.5cm]{mushroom_Idle}
+\includegraphics[height = 1.5cm]{mushroom_Projectile_sprite}
+\includegraphics[height = 1.5cm]{mushroom_Run}
+\includegraphics[height = 1.5cm]{mushroom_Take Hit}
+\caption{Sprite sheet for mushroom enemy}
+\label{mushroom_sprite}
+\end{figure}
+
+\begin{figure}[H]
+\centering
+\includegraphics[height = 1.5cm]{skeleton_Attack}
+\includegraphics[height = 1.5cm]{skeleton_Attack2}
+\includegraphics[height = 1.5cm]{skeleton_Attack3}
+\includegraphics[height = 1.5cm]{skeleton_Death}
+\includegraphics[height = 1.5cm]{skeleton_Idle}
+\includegraphics[height = 1.5cm]{skeleton_Shield}
+\includegraphics[height = 1.5cm]{skeleton_Sword_sprite}
+\includegraphics[height = 1.5cm]{skeleton_Take Hit}
+\includegraphics[height = 1.5cm]{skeleton_Walk}
+\caption{Sprite sheet for skeleton enemy}
+\label{skeleton_sprite}
+\end{figure}
+
+\myparagraph{Environment}
+1/2 of the goals have been achieved. This is enough for the game to function, however there is room for improvement.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.4\textwidth]{tilemap}
+\caption{Tile map for environment}
+\label{tilemap_sprite}
+\end{figure}
 
 \subsection{Further development}
+
 
 \subsection{Usability features}
 
