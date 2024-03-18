@@ -185,7 +185,18 @@
 \contentsline {paragraph}{Player}{102}{}%
 \contentsline {paragraph}{Enemies}{102}{}%
 \contentsline {paragraph}{Environment}{104}{}%
-\contentsline {subsection}{\numberline {5.3}Further development}{105}{}%
+\contentsline {subsection}{\numberline {5.3}Further development}{104}{}%
+\contentsline {subsubsection}{\numberline {5.3.1}User Interface}{105}{}%
+\contentsline {subsubsection}{\numberline {5.3.2}Audio}{105}{}%
+\contentsline {subsubsection}{\numberline {5.3.3}Gameplay}{105}{}%
+\contentsline {paragraph}{Level generation}{105}{}%
+\contentsline {paragraph}{Player combat}{105}{}%
+\contentsline {paragraph}{Player movement}{105}{}%
+\contentsline {paragraph}{Enemy design}{105}{}%
+\contentsline {subsubsection}{\numberline {5.3.4}Visuals}{105}{}%
+\contentsline {paragraph}{Player}{105}{}%
+\contentsline {paragraph}{Enemy}{105}{}%
+\contentsline {paragraph}{Environment}{105}{}%
 \contentsline {subsection}{\numberline {5.4}Usability features}{105}{}%
 \contentsline {subsection}{\numberline {5.5}Maintenance}{105}{}%
 \contentsline {subsection}{\numberline {5.6}Dealing with limitations}{105}{}%

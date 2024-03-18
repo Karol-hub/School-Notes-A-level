@@ -4563,7 +4563,52 @@ All enemy sprite sheets have been take from \cite{pixel_art}. Though none of the
 \end{figure}
 
 \subsection{Further development}
+As seen by the many unmet goals in the success criteria there is still a lot of room for development.
 
+\subsubsection{User Interface}
+The main menu could use the new character model instead of the old one, and the background art could be more fitting to the style of the game, which became more medieval dungeon due to the assets I was able to get. This could be done with making a new tilemap in this style and creating some sort of level, like what is currently being done, but improved upon. Some actual art could be created as the background art, however this would have to be pixel art the fit the rest of the game.
+
+\parBr
+
+The HUD (heads up display) could start displaying useful information instead of things for debugging, such as health, status effects, cool downs (when implemented) and possibly a mini map in a corner to aid in the traversal of the player.
+
+\parBr
+
+The pause menu would need to be developed and it could make use of the same options menu as seen in the main menu. As well as pausing the game since, it would need to stop everything that is going on in the game. Including any physics and enemy AI.
+
+\subsubsection{Audio}
+First of all audio needs to be found on the internet with correct licence of use as to not infringe copyright, making it unable to be published anywhere. 
+
+\parBr
+
+I would also need to research how to play audio in game. As I need to find how godot plays the audio and how to use the for my project, as some sound effects will need to be played to the left or right of the player using left/right speaker only, such as enemy sound effects, but other ones, such as music or hitting effects would need to be played from both speakers at once.
+
+\subsubsection{Gameplay}
+Some aspects will need to be focused on a lot more than other aspects, level generation won't need that much development. However enemy design and player combat will need to be fully developed since they aren't present currently.
+
+\myparagraph{Level generation}
+This section requires the least development currently, since it functions and develops a usable map, however the process of changing the game objects into a tile map takes the longest, so any optimisations in this would speed up the generation process. 
+
+\parBr
+
+Adding more rules to the level generation could also make it more interesting. The player also doesn't have a way of switching between stages, so when the player reaches the end of the level they should be put into the next stage.
+
+\myparagraph{Player combat}
+This section currently doesn't exist in the project. So a combat system needs to be added. Where the player gets a health bar, that kills them when it runs out. The player also needs to be able to attack enemies and do damage to them.
+
+\myparagraph{Player movement}
+The movement is primary complete and just needs slight refining and tweaking with parameters to make it feel better. This can be done with more play testing and refining the prototype based on the feedback
+
+\myparagraph{Enemy design}
+This section is also not present in the project and needs to be implemented. This can be split into some subsections such as: combat, detection and movement. All of these will be a lot simpler than player design so they shouldn't take as long. But it will need a lot more feedback as the enemies need to be fun to combat to make the game engaging.
+
+\subsubsection{Visuals}
+
+\myparagraph{Player and Enemy}
+Most of the sprite sheets for these entities are already complete and just need to add them to the project. Godot supports the use of sprite sheets so creating an animation would be very simple, I have done it in the past therefore the most difficult part would be switching between animations in the code.
+
+\myparagraph{Environment}
+Different stages could 
 
 \subsection{Usability features}
 
