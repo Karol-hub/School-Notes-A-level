@@ -2167,26 +2167,11 @@ spawnCoords    & Vector2       & Position where player should be placed, taken f
 
 The player is now able to move around and explore the dungeon however we still need to design the player along with all of it's movement.
 
-\subsection{Player Movement}
-
-\subsection{Player Combat}
-At this point in design I don't have enough time to create a proper combat system therefore this will be heavily reduced compared to the initial vision for this part.
-
-\subsection{Enemy Design}
-
-\subsection{Boss Design}
-
-\subsection{UI}
-
 \section{Developing a solution}
 Since I am using the Godot game engine to create my project I can use many different languages which are supported in Godot such as C, C++, C\#, GDScript (made specifically for Godot) and other languages which were implemented by the community, using one of these languages would also mean that there would be less support, since less people would be using it and since it's not official the quality of the documentation may not be of the best quality. Therefore I have decided to use C\# to generate my project since I have the most experience with the language due to my experience with unity, however my knowledge is very limited and I would need to adapt my knowledge so I can apply it to Godot. 
 
-\parBr
-
 \myparagraph{Black box testing}
 Black box testing is where an application is tested without being able to see the inner workings and structure of the code. This would be good as I could make use of this when giving my stakeholders prototypes, as it would simulate how an end user would look at the program.
-
-\parBr
 
 \myparagraph{White box testing} 
 The tester has complete knowledge of the internal structure of the application, I am going to primary utilise this type of testing when developing algorithms to ensure that they are working.s
@@ -4384,6 +4369,25 @@ currentState = generationState.done;
 \end{tabular}
 \end{table}
 
+\subsection{UI input validation}
+The player needs some sort of name that the program can refer to the player as. However this name can't be too long since it would break some of the formatting the the UI. Therefore I will limit the display name to 12 characters.
+
+\begin{figure}[h]
+\centering 
+\includegraphics[width=0.6\textwidth]{input validation}
+\caption{Input validation for display name}
+\label{input_validation}
+\end{figure}
+
+\begin{lstlisting}
+//Text is the string value inside the textbox
+if (Text.Length >= 12)
+{
+	//removes values outside of 12 character limit
+	Text = Text.Substring(0, 11);
+}
+\end{lstlisting}
+
 \section{Evaluation}
 \subsection{Testing}
 For this section I am making use of black box testing as I am giving a prototype to the stakeholders and asking them fore feedback on the entire thing, rather than a small part of the program. Observing how they approach and play the game will allow me to decide what should be developed in the future.
@@ -4608,13 +4612,67 @@ This section is also not present in the project and needs to be implemented. Thi
 Most of the sprite sheets for these entities are already complete and just need to add them to the project. Godot supports the use of sprite sheets so creating an animation would be very simple, I have done it in the past therefore the most difficult part would be switching between animations in the code.
 
 \myparagraph{Environment}
-Different stages could 
+Different stages could make use of different tile maps, if they have the same layout implementing it into the generation software would be as simple as telling the program which tile map to use. For this I would need to make a new tile map that fits the new style of the game (medieval dungeon), when the layout of all the tiles was determined, the dungeon generation algorithm would need to be updated to reflect this. This would re-texture the level, This would be a low effort way of creating a new dungeon stage, as it doesn't alter the layout of the map. This could be developed in the future to use a more advanced method to create unique level variation to differentiate stages.
 
 \subsection{Usability features}
+The standardised input keys allowed the stakeholders to be able to pick up the game almost immediately. They immediately started pressing keys that had known inputs in previous games that they player. This worked well because both of the players had played some sort of PC game before, if a player completely new to gaming tried to pick the game up they wouldn't be able to rely on this sort of experience. To overcome this an optional tutorial should be added to allow accessibility to these types of players.
+
+\parBr
+
+The map generated is also very large and the player has no way of knowing where to go, they should be aiming for the boss room, which could be in any direction. So the generation algorithm was adapted to always spawn the player in the highest room and the boss room at the lowest point, meaning that the player needs to go down to reach their goal. This is communicated to the player in the loading screen.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.6\textwidth]{load menu tip}
+\caption{Loading screen tip for player}
+\label{load_tip}
+\end{figure}
 
 \subsection{Maintenance}
+If this game were to be published on steam, which would be most appropriate since it's where the information for hardware analysis was taken from and it's the most accessible PC game market. Steam has a forums page for each game, so when a bug is discovered a forum can be opened to disclose the bug. This allows me to collect information on bugs that players have discovered.
+
+\parBr
+
+I would need to develop updates to provide new content for the players who are experienced in the game and are getting bored and to patch any bugs/unintended features. The added content could also draw in new players increasing the sales of the game.
+
+\parBr
+
+Using steam also allows me to publish updates to the game and know that it will reach each player so if any game breaking bug is discovered it can be patched as soon as possible and a new patch can be released. Steam also offers an announcement tab which allows me to announce any updates and patches. 
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.6\textwidth]{activity tab}
+\caption{Steam activity tab for Rain World}
+\label{activity_tab}
+\end{figure}
+
+Steam also does seasonal sales and gives you 2 free push advertisements where it puts a banner ad on the home page allowing the game to reach a lot more players, since using a banner ad during large sales such as winter and summer sales where a lot of games go on sale and therefore overall sales increase, so it makes my game more likely to be purchased.
 
 \subsection{Dealing with limitations}
+I intend to publish the game on steam however it costs \$100 to publish a game on steam which equates to around £80, I would need to raise this amount in able to publish the game. This could be done by publishing the game on itch.io since it's free there and I would be able to raise some funds.
+
+\parBr
+
+Being a student is very limiting, since it means I have very limited time to work on the project, so developing updates may take more time. This may deter some players as they stop playing after a game breaking bug took too long to develop, testing these sorts of updates to make sure they don't create more problems. This could be mitigated with hiring more people to work on the game. 
+
+\parBr
+
+Developing more games would give me more experience so working on different games could give me experience that I could apply to this project. This does mean that I would have to pause development and the game would get no updates for a certain amount of time, however it would could be beneficial. 
+
+\parBr
+
+Using asset packs can also aid development significantly as I don't have to draw everything in the game. It will be important to make sure that the asset packs work well together as clashing asset packs can be worse than just using low quality matching assets. This also means I don't have to learn any artistic skills and focus on code development.
+
+\parBr
+
+Creativity is not one of my strong suits and on top of that, when I come up with an idea for a new feature it may not be good in practice and the community may not enjoy it. Therefore I could create regular polls on social media to see which features would be good to add and ask for feedback. This makes the community feel like they are listened to which is a problem with larger games as their player bases are too large for everyone's voice to be heard and it makes it feel like the developers don't listen to the community. This weakness can be turned into a strength with this, however it will take a lot of time to review these polls which would take time out of development.
+
+\parBr
+
+My hardware would also be a limitation since if I wanted to bake more advanced lighting in the future I would need to dedicate a significant amount of time to rendering the light. The same would be the true with animations and videos, I have no way of dealing with this apart from leaving on my pc overnight to do the processing. This could degrade my hardware from excessive stress, but it is the only way I can deal with this.
+
+\section{Conclusion}
+It's over... neat
 
 \newpage
 \printbibliography
