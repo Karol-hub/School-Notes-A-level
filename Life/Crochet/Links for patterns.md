@@ -25,3 +25,5 @@
 [Kitty pie](https://paintitcolorful.blogspot.com/2020/10/pumkitty-pie-pattern.html)
 [goofy ahhh frog](https://thecraftzilla.blogspot.com/2016/04/spring-frog-pattern.html)
 [kong bob-omb from smb](https://onescreativemind.com/2019/08/30/freebie-friday-king-bob-omb-super-mario-crochet-pattern/)
+[hampter](https://stringydingding.com/hamster-amigurumi-free-crochet-pattern/)
+[Panda](https://eserehtanin.blogspot.com/2017/04/the-happy-to-be-here-panda.html)

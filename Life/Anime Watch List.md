@@ -6,6 +6,7 @@
 - From the new world
 # Midgrounds/idk
 - Hellsing
+- SUMMER GHOST
 # Normal stuff ig
 - Gakkougurashi!
 - bocchi the rock
@@ -15,7 +16,14 @@
 - Saiki K
 - Ninja Kamui
 - Psycho-Pass
+- Violet Evergarden
+- THE SEVEN DEADLY SINS
+- Made in abyss
+# Spoopy
+- MAKE MY DAY
 # Rewatch
-- Your lie in april
+- Your lie in April
 - Assassination classroom
-- Tokyo revengers
+- The way of the househusband
+- Parasyte
+- Erased
