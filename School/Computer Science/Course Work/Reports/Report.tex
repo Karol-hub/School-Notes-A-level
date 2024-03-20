@@ -720,12 +720,12 @@ Allows the player to start the game. \smallBr
 Allows the player to customise the game to suit them \smallBr
 ### Does it have a tutorial option? (Mandatory)\linebreak
 Takes the player to a tutorial level where they can learn the game, important for new players who are playing for the first time. \smallBr
-### Does it have a interesting background? (Optional)\linebreak
-Gives a good first impression to the player when they open the game. \smallBr
 ### Does it have a quit game button? (Mandatory)\linebreak
 Allows the player to close the game. \smallBr
 #### Does it ask you "are you sure"? (Optional)\linebreak
 Makes sure that the played didn't press the button by accident. \smallBr
+### Does it have a interesting background? (Optional)\linebreak
+Gives a good first impression to the player when they open the game. \smallBr
 ## \textbf{Pause Menu} 
 ### Does it pause the game? (Mandatory)\linebreak
 Allows player to take a break if they need to. \smallBr
@@ -4443,8 +4443,24 @@ After moving around for a while Ethan discovered some of the specialised movemen
 
 \subsection{Success criteria evaluation}
 Add something here to make it look good
+
 \subsubsection{User Interface}
-The main menu was somewhat successful with 2/3 mandatory goals achieved and 0/2 optional goals. So there is a lot of room for improvement, but most of the basic functionality is there.
+
+\myparagraph{Main Menu} \smallBr
+\textit{Criteria}
+\begin{easylist}
+\ListProperties(Start1=1)
+# Does it have a new game button? (Mandatory)
+# Does it have an options button? (Mandatory)
+# Does it have a tutorial option? (Mandatory)
+# Does it have a quit game button? (Mandatory)
+## Does it ask you "are you sure"? (Optional)
+# Does it have a interesting background? (Optional) 
+\end{easylist}
+
+\parBr
+
+The main menu was somewhat successful with 3/4 mandatory goals, those being goals 1, 2 and 4, with the goal 3 not being achieved. As seen in figure \ref{main menu}. 0/2 optional goals have been achieved, for goal 5 one of my stakeholders, William commented on the lack of background and title in the main menu further reinforcing the fact that the goal wasn't met. Goal 4.1 also hasn't been met. Theses are optional so the other mandatory goals should be prioritised however these could eventually be implemented. Most of the basic functionality is there, so the main menu was relatively successful.
 
 \begin{figure}[H]
 \centering
@@ -4453,7 +4469,7 @@ The main menu was somewhat successful with 2/3 mandatory goals achieved and 0/2 
 \label{main menu}
 \end{figure}
 
-The rest of the user interface wasn't developed as the pause menu and the HUD (heads up display) wasn't developed so they weren't successful at all need to be developed in the future
+The rest of the user interface wasn't developed as the pause menu and the HUD (heads up display) wasn't developed so they weren't successful at all and need to be developed in the future
 
 \subsubsection{Audio}
 The game currently doesn't feature any audio so once again all of the criteria haven't been met, this is because I couldn't find any sounds that were copyright free and would suit my game.  I also have never used sound in godot so I don't know how to implement it.
@@ -4461,8 +4477,21 @@ The game currently doesn't feature any audio so once again all of the criteria h
 \subsubsection{Gameplay}
 This was the most successful section since it had the most time dedicated towards it.
 
-\myparagraph{Level Generation}
-3/5 of the goals have been achieved, the goals which haven't been achieved rely on features that haven't been implemented yet. Those being are there objects you can interact with that give items, however an item system hasn't been implemented yet. 
+\myparagraph{Level Generation} \smallBr
+\textit{Success Criteria}
+\begin{easylist}
+\ListProperties(Start1=1)
+# Does it create a level in a reasonable amount of time? (Mandatory)
+# Are there objects you can interact with that give items? (Mandatory)
+# Are enemies spawned? (Mandatory)
+# Is there a safe starting room? (Mandatory)
+# Is there a boss room at the end? (Mandatory)
+# Is there variety between levels? (Optional)
+\end{easylist}
+
+\parBr
+
+3/5 of the mandatory goals have been achieved, those being goals 1, 4 and 5. The goals which haven't been achieved rely on features that haven't been implemented yet. This including goal 2, however an item system hasn't been implemented yet, the same can be said for goal 6, since other levels haven't been generated yet so they can't have variety. 
 
 \begin{figure}[H]
 \centering
@@ -4475,7 +4504,19 @@ This was the most successful section since it had the most time dedicated toward
 This system also hasn't been implemented so none of these goals have been met. This is something that needs to be developed in the future.
 
 \myparagraph{Movement}
-5/5 of the goals for this section have been met. Though I didn't have enough time to write up the process. Though all the goals have been met they may not be fully developed. When play testing Ethan mentioned that the movement doesn't feel that smooth, so it's something I may consider developing in the future, however there are other goals that are more important.
+\textit{Criteria}
+\begin{easylist}
+\ListProperties(Start1=1)
+# Can the player walk? (Mandatory)
+# Can the player jump? (Mandatory)
+# Can the player double jump? (Mandatory)
+# Can the player dash? (Mandatory)
+# Can the player bounce off walls and enemies when dashing (Optional)
+\end{easylist}
+
+\parBr
+
+4/4 of the mandatory goals for this section have been met. Though I didn't have enough time to write up the process and all the goals may not be fully developed or refined. When play testing Ethan mentioned that the movement doesn't feel that smooth, so it's something I may consider developing in the future, by looking more closely at Celeste which was my main inspiration for the movement, however there are other goals that are more important. The optional goal 5 has also been achieved but only partially since enemies don't exist yet so they can't be bounced off.
 
 \begin{figure}[H]
 \centering
@@ -4486,7 +4527,19 @@ This system also hasn't been implemented so none of these goals have been met. T
 
 \subsubsection{Visuals}
 \myparagraph{Player}
-2/5 of the goals are achieved since some of the animations have been created however they haven't been implemented into the game. The player was designed to fit the enemies as I was able to find an asset pack containing sprite sheets for enemies at \cite{pixel_art}.
+\textit{Criteria}
+\begin{easylist}
+\ListProperties(Start1=1)
+# Does the player have walking animation? (Mandatory)
+# Does the player have a dashing animation? (Mandatory)
+# Does the player have a death animation? (Mandatory)
+# Do the animations play at the correct time? (Mandatory)
+# Do the animations play at a good frame rate? (Mandatory) 
+\end{easylist}
+
+\parBr
+
+2/5 of the goals are achieved those being goals 1 and 3, since they exist though they haven't been implemented into the game. Goals 4 and 5 can't be achieved until they are implemented into the game however they are mostly complete since aseprite (the software I as using to create the pixel art) allows me to play the animation before exporting it as a sprite sheet. The player was designed to fit the enemies as I was able to find an asset pack containing sprite sheets for enemies at \cite{pixel_art}.
 
 \begin{figure}[H]
 \centering
@@ -4497,8 +4550,29 @@ This system also hasn't been implemented so none of these goals have been met. T
 \label{player_sprite}
 \end{figure}
 
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.7\linewidth]{aseprite}
+\caption{Drawing sprites for player}
+\label{player_sprite}
+\end{figure}
+
 \myparagraph{Enemies}
-All enemy sprite sheets have been take from \cite{pixel_art}. Though none of the enemies have been created all the art is present which makes it easy to implement in the future. With this 5/7 of the goals have been achieved. Leaving only the implementation.
+\textit{Criteria}
+\begin{easylist}
+\ListProperties(Start1=1)
+# Does each unique enemy have a unique sprite with unique animation? (Mandatory)
+# Does each enemy have a death animation? (Mandatory)
+# Does each enemy have a swinging animation? (Mandatory)
+# Does each enemy have an idle animation? (Mandatory)
+# Does each enemy have a walking animation? (Mandatory)
+# Do the animations play at the correct time? (Mandatory)
+# Do the animations play at a good frame rate? (Mandatory)
+\end{easylist}
+
+\parBr
+
+All enemy sprite sheets have been take from \cite{pixel_art}. Though none of the enemies have been implemented into the game all the art is present which makes it easy to implement in the future. With this 5/7 of the goals have been achieved, those being goals 1-4. Goals 5 and 6 will be complete once the animations are implemented into the game.
 
 \begin{figure}[H]
 \centering
@@ -4557,7 +4631,16 @@ All enemy sprite sheets have been take from \cite{pixel_art}. Though none of the
 \end{figure}
 
 \myparagraph{Environment}
-1/2 of the goals have been achieved. This is enough for the game to function, however there is room for improvement.
+\textit{Criteria}
+\begin{easylist}
+\ListProperties(Start1=1)
+# Is there a interesting looking tile map? (Mandatory)
+# Are there variations of the tile map? (Mandatory)
+\end{easylist}
+
+\parBr
+
+1/2 of the goals have been achieved, with goal 1 being met. This is enough for the game to function, however there is room for improvement, since the variations could be used for other levels once created.
 
 \begin{figure}[H]
 \centering
@@ -4570,14 +4653,14 @@ All enemy sprite sheets have been take from \cite{pixel_art}. Though none of the
 As seen by the many unmet goals in the success criteria there is still a lot of room for development.
 
 \subsubsection{User Interface}
+
+\myparagraph{Main Menu}
 The main menu could use the new character model instead of the old one, and the background art could be more fitting to the style of the game, which became more medieval dungeon due to the assets I was able to get. This could be done with making a new tilemap in this style and creating some sort of level, like what is currently being done, but improved upon. Some actual art could be created as the background art, however this would have to be pixel art the fit the rest of the game.
 
-\parBr
-
+\myparagraph{HUD (Heads Up Display)}
 The HUD (heads up display) could start displaying useful information instead of things for debugging, such as health, status effects, cool downs (when implemented) and possibly a mini map in a corner to aid in the traversal of the player.
 
-\parBr
-
+\myparagraph{Pause Menu}
 The pause menu would need to be developed and it could make use of the same options menu as seen in the main menu. As well as pausing the game since, it would need to stop everything that is going on in the game. Including any physics and enemy AI.
 
 \subsubsection{Audio}
