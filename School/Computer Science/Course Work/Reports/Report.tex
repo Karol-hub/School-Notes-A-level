@@ -2152,10 +2152,8 @@ characterScene & PackedScene   & The scene which contains the player object     
 spawnCoords    & Vector2       & Position where player should be placed, taken form previous section
 \end{tabular}
 
-\pagebreak
-
 \myparagraph{Identifying test data}
-\begin{table}[h]
+\begin{table}[H]
 \begin{tabular}{|l|l|l|l|}
 \hline
 \begin{tabular}[c]{@{}l@{}}\textbf{Goal}\\ \textbf{Num}\end{tabular} & \textbf{Input} & \textbf{Aim}                                                                                & \textbf{Justification}                                              \\ \hline
@@ -2166,6 +2164,46 @@ spawnCoords    & Vector2       & Position where player should be placed, taken f
 \end{table}
 
 The player is now able to move around and explore the dungeon however we still need to design the player along with all of it's movement.
+
+\subsection{Designing UI}
+\subsubsection{Main Menu}
+From the success criteria I have decided that the main menu needs 4 buttons those being: play, tutorial, options and exit buttons. To make these more accessible there can be icons added to clarify what the buttons do with icons commonly associated with their respective function.
+
+\begin{figure}[H]
+\centering
+\includegraphics[width = 0.2\linewidth]{main_menu_play}
+\includegraphics[width = 0.2\linewidth]{main_menu_tutorial}
+\includegraphics[width = 0.2\linewidth]{main_menu_options}
+\includegraphics[width = 0.2\linewidth]{main_menu_exit}
+\caption{Main menu icons}
+\label{main_menu_icons}
+\end{figure}
+
+I was able to make these icons in aseprite (drawing software specialised for pixel art). These will hopefully make the game more accessible and help people navigate the menu. Contrasting the button colour with the background by using some sort of border would make them easier to identify, along with placement in the center of the screen makes them the main focus of the main menu. This should be enough for the player to be able to navigate the main menu since the game is targeted at teenagers and older they should be able to navigate successfully.
+
+\subsubsection{Options menu}
+I am planning to ask the player for a display name so that I can refer to them using that name in other pop-ups or UI elements. However we don't want the name to be too long as it can break the formatting, therefore I will limit the size of the text they can enter to 12 characters max.
+
+\myparagraph{Variable table}
+\smallBr
+\begin{table}[H]
+\begin{tabular}{l|l|l}
+\textbf{Variable Name} & \textbf{Variable Type} & \textbf{Description}                    \\ \hline
+Text                   & String                 & The string value inside of the text box
+\end{tabular}%
+\end{table}
+
+\myparagraph{Identifying test data}
+\smallBr
+\begin{table}[H]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|}
+\hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Goal\\ Num\end{tabular}} & \textbf{Input}                                                    & \textbf{Aim}                                                                                                     & Justification                                                                                                          \\ \hline
+1                                                           & \begin{tabular}[c]{@{}l@{}}text input\\ into textbox\end{tabular} & \begin{tabular}[c]{@{}l@{}}When the amount of character exceeds\\ 12 dont accept any new characters\end{tabular} & \begin{tabular}[c]{@{}l@{}}Having a display name too large can break the\\ formatting in other UI elemets\end{tabular} \\ \hline
+\end{tabular}%
+}
+\end{table}
 
 \section{Developing a solution}
 Since I am using the Godot game engine to create my project I can use many different languages which are supported in Godot such as C, C++, C\#, GDScript (made specifically for Godot) and other languages which were implemented by the community, using one of these languages would also mean that there would be less support, since less people would be using it and since it's not official the quality of the documentation may not be of the best quality. Therefore I have decided to use C\# to generate my project since I have the most experience with the language due to my experience with unity, however my knowledge is very limited and I would need to adapt my knowledge so I can apply it to Godot. 
@@ -4372,7 +4410,7 @@ currentState = generationState.done;
 \subsection{UI input validation}
 The player needs some sort of name that the program can refer to the player as. However this name can't be too long since it would break some of the formatting the the UI. Therefore I will limit the display name to 12 characters.
 
-\begin{figure}[h]
+\begin{figure}[H]
 \centering 
 \includegraphics[width=0.6\textwidth]{input validation}
 \caption{Input validation for display name}
@@ -4387,6 +4425,16 @@ if (Text.Length >= 12)
 	Text = Text.Substring(0, 11);
 }
 \end{lstlisting}
+
+\begin{table}[H]
+\resizebox{\textwidth}{!}{%
+\begin{tabular}{|l|l|l|l|l|}
+\hline
+\textbf{\begin{tabular}[c]{@{}l@{}}Test\\ Num\end{tabular}} & \textbf{Input}                                                        & \textbf{Exprected Result}                                                                                 & \textbf{Actual Result} & \textbf{Why it happened/What happened}                                                                          \\ \hline
+1                                                           & \begin{tabular}[c]{@{}l@{}}Typing\\ text into \\ textbox\end{tabular} & \begin{tabular}[c]{@{}l@{}}Text box won't accept\\ any more characters\\ after 11 characters\end{tabular} & \raisebox{-.5\height}{\includegraphics[width = \testImageSize]{name text}}             & \begin{tabular}[c]{@{}l@{}}Text box won't accept any more characters\\ after 12 characters inputed\end{tabular} \\ \hline
+\end{tabular}%
+}
+\end{table}
 
 \section{Evaluation}
 \subsection{Testing}

@@ -8,12 +8,32 @@
         "type": "tabs",
         "children": [
           {
-            "id": "f8882a91aa1fe437",
+            "id": "ee5179e2bc1bde43",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+              }
+            }
+          },
+          {
+            "id": "f12976b1375ee58c",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
+              }
+            }
+          },
+          {
+            "id": "50cb77d81baf3748",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "School/Computer Science/Temp.md",
+                "file": "12 Vectors.md",
                 "mode": "source",
                 "source": false
               }
@@ -93,7 +113,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "School/Computer Science/Temp.md",
+                "file": "School/Maths/Textbook/Pure Year 2.pdf",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -110,7 +130,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "School/Computer Science/Temp.md",
+                "file": "School/Maths/Textbook/Pure Year 2.pdf",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -145,7 +165,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "School/Computer Science/Temp.md"
+                "file": "School/Maths/Textbook/Pure Year 2.pdf"
               }
             }
           }
@@ -169,10 +189,13 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f8882a91aa1fe437",
+  "active": "ee5179e2bc1bde43",
   "lastOpenFiles": [
-    "School/Computer Science/OCR A Level Specification (H446).pdf",
+    "12 Vectors.md",
+    "School/Maths/Textbook/Pure Year 2.pdf",
+    "School/Maths/Notes/Links.md",
     "School/Computer Science/Temp.md",
+    "School/Computer Science/OCR A Level Specification (H446).pdf",
     "Life/Anime Watch List.md",
     "Life/Crochet/Links for patterns.md",
     "Life/Crochet/PDF Patterns/tiny_slugcat_pattern.pdf",
@@ -183,12 +206,9 @@
     "Life/Crochet/PDF Patterns/OlyaSamoseienko_narwhal_pattern.pdf",
     "Life/Crochet/PDF Patterns/little-blue-lobster-5.pdf",
     "Life/Crochet/PDF Patterns/KrobusAmigurumiFinal.pdf",
-    "Life/Crochet/PDF Patterns/Junimo_Amigurumi_by_icrochetthings.pdf",
-    "Life/Crochet/PDF Patterns/Fleur-the-Whale.pdf",
     "Life/Crochet/Tracking Stuff.md",
     "School/Maths/Notes/Defenitions/Iterative Method.md",
     "School/Maths/Notes/Pure/Year 2/10 Numerical methods.md",
-    "School/Maths/Notes/Links.md",
     "School/Computer Science/Course Work/Reports/Images/bad horizontal + vert.png",
     "School/Physics/Equations.md",
     "School/Computer Science/Course Work/Reports/Images/less dense gen room variations.png",
@@ -215,7 +235,6 @@
     "School/Computer Science/Notes/Defenitions/Extreme Programming.md",
     "School/Computer Science/Notes/Defenitions/Agile Methodology.md",
     "School/Computer Science/Notes/Defenitions/Waterfall Methodology.md",
-    "School/Computer Science/Notes/Links.md",
-    "School/Maths/Notes/Defenitions/Geometric Sequence.md"
+    "School/Computer Science/Notes/Links.md"
   ]
 }

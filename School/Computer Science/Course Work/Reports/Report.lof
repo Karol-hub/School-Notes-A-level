@@ -1,43 +1,44 @@
-\contentsline {figure}{\numberline {1}{\ignorespaces \blx@tocontentsinit {0}\cite {ROR2ss} Risk of Rain 2 Screen shot}}{6}{}%
+\contentsline {figure}{\numberline {1}{\ignorespaces \blx@tocontentsinit {0}\cite {ROR2ss} Risk of Rain 2 Screen shot}}{7}{}%
 \contentsline {figure}{\numberline {2}{\ignorespaces Reviews for Risk of Rain from \blx@tocontentsinit {0}\cite {ROR2ss}}}{8}{}%
 \contentsline {figure}{\numberline {3}{\ignorespaces \blx@tocontentsinit {0}\cite {Celss} Celeste Screen shot}}{9}{}%
 \contentsline {figure}{\numberline {4}{\ignorespaces Reviews for Celeste from \blx@tocontentsinit {0}\cite {Celss}}}{10}{}%
-\contentsline {figure}{\numberline {5}{\ignorespaces \blx@tocontentsinit {0}\cite {RWss} Rain World Screen shot}}{11}{}%
-\contentsline {figure}{\numberline {6}{\ignorespaces Reviews for Rain World from \blx@tocontentsinit {0}\cite {RWss}}}{12}{}%
-\contentsline {figure}{\numberline {7}{\ignorespaces Questionnaire Header}}{15}{}%
-\contentsline {figure}{\numberline {8}{\ignorespaces \blx@tocontentsinit {0}\cite {SHS} Steam OS statistics}}{18}{}%
-\contentsline {figure}{\numberline {9}{\ignorespaces \blx@tocontentsinit {0}\cite {SHS} Steam Hardware Statistics}}{18}{}%
-\contentsline {figure}{\numberline {10}{\ignorespaces Decomposition Diagram}}{24}{}%
-\contentsline {figure}{\numberline {11}{\ignorespaces Room layout example}}{26}{}%
-\contentsline {figure}{\numberline {12}{\ignorespaces Flowchart for generating rooms}}{27}{}%
-\contentsline {figure}{\numberline {13}{\ignorespaces \blx@tocontentsinit {0}\cite {Dis_Alg} Room Movement Direction}}{28}{}%
-\contentsline {figure}{\numberline {14}{\ignorespaces Flowchart for spreading rooms}}{30}{}%
-\contentsline {figure}{\numberline {15}{\ignorespaces Flowchart for deleting rooms}}{32}{}%
-\contentsline {figure}{\numberline {16}{\ignorespaces Bowyer-Watson Classes}}{33}{}%
-\contentsline {figure}{\numberline {17}{\ignorespaces Bowyer-Watson Algorithm Flowchart}}{34}{}%
-\contentsline {figure}{\numberline {18}{\ignorespaces Flowchart for Edge Deletion Algorithm}}{37}{}%
-\contentsline {figure}{\numberline {19}{\ignorespaces Flowchart for Generating spawn and boss rooms}}{39}{}%
-\contentsline {figure}{\numberline {20}{\ignorespaces Flowchart for recursive function to find entire section}}{42}{}%
-\contentsline {figure}{\numberline {21}{\ignorespaces Flowchart for detecting if a new section needs to be made}}{44}{}%
-\contentsline {figure}{\numberline {22}{\ignorespaces Flowchart for detecting sections in the program}}{46}{}%
-\contentsline {figure}{\numberline {23}{\ignorespaces All possibilities for points}}{48}{}%
-\contentsline {figure}{\numberline {24}{\ignorespaces Flowchart for turning edges into horizontal and vertical edges}}{49}{}%
-\contentsline {figure}{\numberline {25}{\ignorespaces Flowchart for the given pseudocode}}{51}{}%
-\contentsline {figure}{\numberline {26}{\ignorespaces Flowchart for generating the tilemap}}{53}{}%
-\contentsline {figure}{\numberline {27}{\ignorespaces Flowchart for spawning the player}}{55}{}%
-\contentsline {figure}{\numberline {28}{\ignorespaces Input validation for display name}}{98}{}%
-\contentsline {figure}{\numberline {29}{\ignorespaces Options Menu}}{99}{}%
-\contentsline {figure}{\numberline {30}{\ignorespaces Loading Screen}}{99}{}%
-\contentsline {figure}{\numberline {31}{\ignorespaces Ethan play testing}}{100}{}%
-\contentsline {figure}{\numberline {32}{\ignorespaces Current UI for Main menu}}{101}{}%
-\contentsline {figure}{\numberline {33}{\ignorespaces Successful dungeon generation}}{102}{}%
-\contentsline {figure}{\numberline {34}{\ignorespaces Test level for movement}}{102}{}%
-\contentsline {figure}{\numberline {35}{\ignorespaces Sprite sheets for player animations}}{103}{}%
-\contentsline {figure}{\numberline {36}{\ignorespaces Drawing sprites for player}}{103}{}%
-\contentsline {figure}{\numberline {37}{\ignorespaces Sprite sheet for Flying eye enemy}}{104}{}%
-\contentsline {figure}{\numberline {38}{\ignorespaces Sprite sheet for goblin enemy}}{104}{}%
-\contentsline {figure}{\numberline {39}{\ignorespaces Sprite sheet for mushroom enemy}}{105}{}%
-\contentsline {figure}{\numberline {40}{\ignorespaces Sprite sheet for skeleton enemy}}{105}{}%
-\contentsline {figure}{\numberline {41}{\ignorespaces Tile map for environment}}{106}{}%
-\contentsline {figure}{\numberline {42}{\ignorespaces Loading screen tip for player}}{108}{}%
-\contentsline {figure}{\numberline {43}{\ignorespaces Steam activity tab for Rain World}}{108}{}%
+\contentsline {figure}{\numberline {5}{\ignorespaces \blx@tocontentsinit {0}\cite {RWss} Rain World Screen shot}}{12}{}%
+\contentsline {figure}{\numberline {6}{\ignorespaces Reviews for Rain World from \blx@tocontentsinit {0}\cite {RWss}}}{13}{}%
+\contentsline {figure}{\numberline {7}{\ignorespaces Questionnaire Header}}{16}{}%
+\contentsline {figure}{\numberline {8}{\ignorespaces \blx@tocontentsinit {0}\cite {SHS} Steam OS statistics}}{19}{}%
+\contentsline {figure}{\numberline {9}{\ignorespaces \blx@tocontentsinit {0}\cite {SHS} Steam Hardware Statistics}}{19}{}%
+\contentsline {figure}{\numberline {10}{\ignorespaces Decomposition Diagram}}{25}{}%
+\contentsline {figure}{\numberline {11}{\ignorespaces Room layout example}}{27}{}%
+\contentsline {figure}{\numberline {12}{\ignorespaces Flowchart for generating rooms}}{28}{}%
+\contentsline {figure}{\numberline {13}{\ignorespaces \blx@tocontentsinit {0}\cite {Dis_Alg} Room Movement Direction}}{29}{}%
+\contentsline {figure}{\numberline {14}{\ignorespaces Flowchart for spreading rooms}}{31}{}%
+\contentsline {figure}{\numberline {15}{\ignorespaces Flowchart for deleting rooms}}{33}{}%
+\contentsline {figure}{\numberline {16}{\ignorespaces Bowyer-Watson Classes}}{34}{}%
+\contentsline {figure}{\numberline {17}{\ignorespaces Bowyer-Watson Algorithm Flowchart}}{35}{}%
+\contentsline {figure}{\numberline {18}{\ignorespaces Flowchart for Edge Deletion Algorithm}}{38}{}%
+\contentsline {figure}{\numberline {19}{\ignorespaces Flowchart for Generating spawn and boss rooms}}{40}{}%
+\contentsline {figure}{\numberline {20}{\ignorespaces Flowchart for recursive function to find entire section}}{43}{}%
+\contentsline {figure}{\numberline {21}{\ignorespaces Flowchart for detecting if a new section needs to be made}}{45}{}%
+\contentsline {figure}{\numberline {22}{\ignorespaces Flowchart for detecting sections in the program}}{47}{}%
+\contentsline {figure}{\numberline {23}{\ignorespaces All possibilities for points}}{49}{}%
+\contentsline {figure}{\numberline {24}{\ignorespaces Flowchart for turning edges into horizontal and vertical edges}}{50}{}%
+\contentsline {figure}{\numberline {25}{\ignorespaces Flowchart for the given pseudocode}}{52}{}%
+\contentsline {figure}{\numberline {26}{\ignorespaces Flowchart for generating the tilemap}}{54}{}%
+\contentsline {figure}{\numberline {27}{\ignorespaces Flowchart for spawning the player}}{56}{}%
+\contentsline {figure}{\numberline {28}{\ignorespaces Main menu icons}}{57}{}%
+\contentsline {figure}{\numberline {29}{\ignorespaces Input validation for display name}}{100}{}%
+\contentsline {figure}{\numberline {30}{\ignorespaces Options Menu}}{101}{}%
+\contentsline {figure}{\numberline {31}{\ignorespaces Loading Screen}}{101}{}%
+\contentsline {figure}{\numberline {32}{\ignorespaces Ethan play testing}}{102}{}%
+\contentsline {figure}{\numberline {33}{\ignorespaces Current UI for Main menu}}{103}{}%
+\contentsline {figure}{\numberline {34}{\ignorespaces Successful dungeon generation}}{104}{}%
+\contentsline {figure}{\numberline {35}{\ignorespaces Test level for movement}}{104}{}%
+\contentsline {figure}{\numberline {36}{\ignorespaces Sprite sheets for player animations}}{105}{}%
+\contentsline {figure}{\numberline {37}{\ignorespaces Drawing sprites for player}}{105}{}%
+\contentsline {figure}{\numberline {38}{\ignorespaces Sprite sheet for Flying eye enemy}}{106}{}%
+\contentsline {figure}{\numberline {39}{\ignorespaces Sprite sheet for goblin enemy}}{106}{}%
+\contentsline {figure}{\numberline {40}{\ignorespaces Sprite sheet for mushroom enemy}}{107}{}%
+\contentsline {figure}{\numberline {41}{\ignorespaces Sprite sheet for skeleton enemy}}{107}{}%
+\contentsline {figure}{\numberline {42}{\ignorespaces Tile map for environment}}{108}{}%
+\contentsline {figure}{\numberline {43}{\ignorespaces Loading screen tip for player}}{110}{}%
+\contentsline {figure}{\numberline {44}{\ignorespaces Steam activity tab for Rain World}}{110}{}%
